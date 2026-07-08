@@ -40,7 +40,8 @@ LT_W_CM, LT_H_CM = 21.59, 27.94
 COLS, ROWS = 8, 4                     # grilla por hoja (8*4 = 32 etiquetas/hoja)
 PAD_PX = 6                            # respiro vertical entre campos
 SIDE_PAD_PX = 12                      # margen lateral interno (para el wrap del país)
-
+BORDER_PX = 4                         # Grosor del borde negro (1 era el original, 2 o 3 es más grueso)
+EDGE_PAD_PX = 15                       # Píxeles de separación entre los elementos y los bordes superior/inferior
 
 def cm_to_px(cm, dpi):
     return round(cm / 2.54 * dpi)
@@ -53,22 +54,23 @@ def is_chile(r): return r["pais"] == "Chile"
 # Cada campo: clave, tamaño de fuente (pt), negrita, wrap (multilínea), getter y
 # condición opcional. type "image" = bandera. Reordena / comenta para ajustar.
 FIELDS = [
-    {"key": "pick",   "size": 30, "bold": False, "wrap": False,
+    {"key": "pick",   "size": 42, "bold": False, "wrap": False, "align": "top",
      "get": lambda r: r["pick"]},
-    {"key": "pais",   "size": 42, "bold": True,  "wrap": True,
+    {"key": "pais",   "size": 42, "bold": True,  "wrap": True,  "align": "center",
      "get": lambda r: r["pais"]},
-    {"key": "monto",  "size": 36, "bold": False, "wrap": False,
+    {"key": "monto",  "size": 36, "bold": False, "wrap": True,  "align": "center",
      "get": lambda r: r["monto"]},
-    {"key": "anio",   "size": 32, "bold": False, "wrap": False,
+    {"key": "zona",   "size": 24, "bold": False, "wrap": True,  "align": "center",
+     "get": lambda r: r["zone"], "when": is_usa},
+    {"key": "anio",   "size": 42, "bold": False, "wrap": False, "align": "center",
      "get": lambda r: r["anio"], "when": lambda r: not is_usa(r)},
-    {"key": "serie",  "size": 30, "bold": False, "wrap": False,
+    {"key": "serie",  "size": 40, "bold": False, "wrap": False, "align": "center",
      "get": lambda r: r["serie"], "when": is_usa},
-    {"key": "firmas", "size": 24, "bold": False, "wrap": True,
+    {"key": "firmas", "size": 24, "bold": False, "wrap": True,  "align": "center",
      "get": lambda r: r["firmas"], "when": is_chile},
-    {"key": "flag",   "type": "image", "width_cm": 1.7,
+    {"key": "flag",   "type": "image", "width_cm": 2.1,         "align": "bottom",
      "get": lambda r: r["flag_path"]},
 ]
-
 
 def mg(*args):
     subprocess.run(["magick", *[str(a) for a in args]], check=True,
@@ -103,6 +105,7 @@ def load_records(filter_str=None, solo_verificados=False):
             "monto": build_web.denominacion_full(d["denomination"]),
             "anio": str(d.get("year") or ""),
             "serie": (d.get("notes") or {}).get("serie", "") or "",
+            "zone": (d.get("notes") or {}).get("zone", "") or "",
             "firmas": " / ".join(d.get("signatures") or []),
             "flag_path": str(FLAGS / flag) if flag else "",
         })
@@ -110,12 +113,14 @@ def load_records(filter_str=None, solo_verificados=False):
                              build_web.natural_pick_key(r["pick"])))
     return recs
 
-
 # ---------------------------------------------------------------- render de una etiqueta
 def render_label(rec, dpi, work: Path, idx):
     lw, lh = cm_to_px(LABEL_W_CM, dpi), cm_to_px(LABEL_H_CM, dpi)
     inner_w = lw - 2 * SIDE_PAD_PX
-    pieces = []
+    
+    # Clasificaremos las piezas según donde deben ir
+    pieces = {"top": [], "center": [], "bottom": []}
+    
     for i, fld in enumerate(FIELDS):
         if fld.get("when") and not fld["when"](rec):
             continue
@@ -123,8 +128,9 @@ def render_label(rec, dpi, work: Path, idx):
         if not val:
             continue
         piece = work / f"{idx:04d}_{i}_{fld['key']}.png"
+        
         if fld.get("type") == "image":
-            w = cm_to_px(fld["width_cm"], dpi)
+            w = cm_to_px(fld.get("width_cm", 1.7), dpi)
             mg(val, "-resize", f"{w}x", "-bordercolor", "black", "-border", "1",
                "-bordercolor", "white", "-border", f"{SIDE_PAD_PX}x{PAD_PX+2}",
                piece)
@@ -141,16 +147,40 @@ def render_label(rec, dpi, work: Path, idx):
                 gen += [f"label:{val}"]
             gen += ["-bordercolor", "white", "-border", f"0x{PAD_PX}", piece]
             mg(*gen)
-        pieces.append(piece)
+            
+        align = fld.get("align", "center")
+        pieces[align].append(piece)
 
     out = work / f"label_{idx:04d}.png"
-    # apila centrado, encuadra a la celda exacta y agrega borde negro de corte
-    mg("-background", "white", *pieces, "-gravity", "center", "-append",
-       "-background", "white", "-gravity", "center",
-       "-extent", f"{lw-2}x{lh-2}",
-       "-bordercolor", "black", "-border", "1", out)
-    return out
+    
+    # Creamos un lienzo en blanco ajustado para descontar el nuevo grosor del borde
+    comp_args = ["-size", f"{lw - 2 * BORDER_PX}x{lh - 2 * BORDER_PX}", "xc:white"]
+    
+    # Bloque Superior (Pick): Lo anclamos al norte pero lo desplazamos EDGE_PAD_PX hacia abajo
+    if pieces["top"]:
+        top_block = work / f"top_block_{idx:04d}.png"
+        mg("-background", "white", *pieces["top"], "-gravity", "north", "-append", top_block)
+        comp_args += [top_block, "-gravity", "north", "-geometry", f"+0+{EDGE_PAD_PX}", "-composite"]
+        
+    # Bloque Inferior (Bandera): Lo anclamos al sur pero lo desplazamos EDGE_PAD_PX hacia arriba
+    if pieces["bottom"]:
+        bottom_block = work / f"bottom_block_{idx:04d}.png"
+        mg("-background", "white", *pieces["bottom"], "-gravity", "south", "-append", bottom_block)
+        comp_args += [bottom_block, "-gravity", "south", "-geometry", f"+0+{EDGE_PAD_PX}", "-composite"]
+        
+    # Bloque Central: Sigue anclado exactamente al centro
+    if pieces["center"]:
+        center_block = work / f"center_block_{idx:04d}.png"
+        mg("-background", "white", *pieces["center"], "-gravity", "center", "-append", center_block)
+        comp_args += [center_block, "-gravity", "center", "-composite"]
 
+    # Añadimos el borde negro final con el nuevo grosor variable
+    comp_args += ["-bordercolor", "black", "-border", str(BORDER_PX), out]
+    
+    # Ejecutamos el comando
+    mg(*comp_args)
+    
+    return out
 
 # ---------------------------------------------------------------- hojas + PDF
 #def build_pages(labels, dpi, work: Path):
