@@ -1,0 +1,41 @@
+{
+  "id": "my-p39b22",
+  "pick_number": "P-39b.2.2",
+  "country": {
+    "en": "Malaysia",
+    "es": "Malasia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Ringgit",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1998,
+  "signatures": [],
+  "themes": [
+    "rey:tuanku_abdul_rahman",
+    "arte:cometa_wau",
+    "lugar:monte_kinabalu"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15451-1_Ringgit-1996-2001_ND_Issue-Malasia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

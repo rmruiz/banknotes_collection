@@ -1,0 +1,39 @@
+{
+  "id": "ar-p363b",
+  "pick_number": "P-363b",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "Cuarta serie «Fauna Autóctona de la República Argentina»",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "fauna:condor_andino"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/118305-50_Pesos-2015-2020_ND_Issue-Argentina",
+    "group": "2015-2020 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "pmr-p17",
+  "pick_number": "P-17",
+  "country": {
+    "en": "Transnistria",
+    "es": "Transnistria"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Rublos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "personaje:alexander_suvorov",
+    "construccion:banco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/19205-5_Rubles-1993-1994_Kupon_Issue-Transnistria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ve-p65e",
+  "pick_number": "P-65e",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1995,
+  "signatures": [],
+  "themes": [
+    "personaje:andres_bello",
+    "construccion:palacio_de_las_academias"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15665-50_Bol%C3%ADvares-1981-1998_Issues-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

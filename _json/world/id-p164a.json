@@ -1,0 +1,41 @@
+{
+  "id": "id-p164a",
+  "pick_number": "P-164a",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:idham_chalid",
+    "actividad:danza_gambyong",
+    "lugar:monte_bromo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/141886-5000_Rupiah-2022-2023_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

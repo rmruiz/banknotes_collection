@@ -1,0 +1,41 @@
+{
+  "id": "kg-p15a",
+  "pick_number": "P-15a",
+  "country": {
+    "en": "Kyrgyzstan",
+    "es": "Kirguistán"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Som",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "personaje:abdylas_maldybaev",
+    "arte:instrumentos_musicales",
+    "construccion:teatro_de_opera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/8077-1_Som-1999-2000_ND_Issue-Kirguist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "kh-p54b",
+  "pick_number": "P-54b",
+  "country": {
+    "en": "Cambodia",
+    "es": "Camboya"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Rieles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [],
+  "themes": [
+    "construccion:angkor_wat",
+    "construccion:puente",
+    "transporte:barco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2188-500_Riels-2001-2014_Issue-Camboya",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

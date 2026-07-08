@@ -1,0 +1,40 @@
+{
+  "id": "pl-p149a2",
+  "pick_number": "P-149a.2",
+  "country": {
+    "en": "Poland",
+    "es": "Polonia"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Zlotys",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1982,
+  "signatures": [],
+  "themes": [
+    "personaje:romuald_traugutt",
+    "simbolo:aguila"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15435-20_Zlotych-1974-1993_Great_Poles_Issue-Polonia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "it-p109b1",
+  "pick_number": "P-109b.1",
+  "country": {
+    "en": "Italy",
+    "es": "Italia"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Liras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:maria_montessori",
+    "actividad:ensenanza"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/81307-1000_Lire-Edici%C3%B3n_1984_1985-Italia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

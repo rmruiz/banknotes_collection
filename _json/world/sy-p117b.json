@@ -1,0 +1,41 @@
+{
+  "id": "sy-p117b",
+  "pick_number": "P-117b",
+  "country": {
+    "en": "Syria",
+    "es": "Siria"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:bashar_al_assad",
+    "construccion:mezquita_omeya",
+    "construccion:parlamento"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/100773-2000_Syrian_Pounds-2009-2021_Issue-Siria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

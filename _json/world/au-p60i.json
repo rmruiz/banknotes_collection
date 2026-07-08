@@ -1,0 +1,40 @@
+{
+  "id": "au-p60i",
+  "pick_number": "P-60i",
+  "country": {
+    "en": "Australia",
+    "es": "Australia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Dólares Australianos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:david_unaipon",
+    "personaje:edith_cowan"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/41086-50_Dollars-2002-2017_Printed_Names_Below_Portraits_Issue-Australia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

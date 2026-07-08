@@ -1,0 +1,40 @@
+{
+  "id": "at-p60",
+  "pick_number": "P-60",
+  "country": {
+    "en": "Austria",
+    "es": "Austria"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Coronas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1919,
+  "signatures": [],
+  "themes": [
+    "simbolo:aguila_bicefala",
+    "arte:alegoria_femenina"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/13627-1000_Kronen-Emisi%C3%B3n_de_1919-Austria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

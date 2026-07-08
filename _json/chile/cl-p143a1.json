@@ -1,0 +1,43 @@
+{
+  "id": "cl-p143a1",
+  "pick_number": "P-143a.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Escudos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1970,
+  "signatures": [
+    "Inostroza",
+    "Barrios"
+  ],
+  "themes": [
+    "personaje:jose_manuel_balmaceda",
+    "evento:abrazo_de_maipu"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/50086-10_Escudos-1967-1975_ND_Issue-Chile",
+    "group": "1967-1975 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1962 - 1975",
+    "obs": "color:café otro:litografiado"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

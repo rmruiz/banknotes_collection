@@ -1,0 +1,40 @@
+{
+  "id": "yu-p130a",
+  "pick_number": "P-130a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 50000,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1993,
+  "signatures": [],
+  "themes": [
+    "personaje:petar_petrovic_njegos",
+    "construccion:monasterio_de_cetinje"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15937-50000_Dinara-Edicion_Reformada_1993-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

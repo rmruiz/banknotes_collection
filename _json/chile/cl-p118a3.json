@@ -1,0 +1,45 @@
+{
+  "id": "cl-p118a3",
+  "pick_number": "P-118a3",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "1.000 Condores"
+    ]
+  },
+  "year": 1947,
+  "signatures": [
+    "Maschke",
+    "Herrera"
+  ],
+  "themes": [
+    "personaje:jose_manuel_balmaceda",
+    "evento:abrazo_de_maipu"
+  ],
+  "colnect": {
+    "url": "http://www.banknote.ws/COLLECTION/countries/AME/CIL/CIL0118.htm",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1948 - 1958",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

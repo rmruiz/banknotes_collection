@@ -1,0 +1,41 @@
+{
+  "id": "dj-p46a2",
+  "pick_number": "P-46a.2",
+  "country": {
+    "en": "Djibouti",
+    "es": "Yibuti"
+  },
+  "denomination": {
+    "value": 40,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "fauna:tiburon_ballena",
+    "evento:40_aniversario_independencia",
+    "lugar:puerto"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/85372-40_Francs-2017_40_Years_of_Independence_Commemorative_Issue-Yibuti",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

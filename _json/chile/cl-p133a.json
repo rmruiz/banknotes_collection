@@ -1,0 +1,45 @@
+{
+  "id": "cl-p133a",
+  "pick_number": "P-133a",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 50000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "50 Escudos"
+    ]
+  },
+  "year": 1960,
+  "signatures": [
+    "Figueroa",
+    "Mackenna"
+  ],
+  "themes": [
+    "personaje:arturo_alessandri_palma",
+    "construccion:banco_central"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2552-50_Escudos-1960_ND_Provisional_Issue-Chile",
+    "group": "1960 ND Provisional Issue"
+  },
+  "commemorative": false,
+  "overprint": true,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1960 - 1961",
+    "obs": "5000 Condores"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

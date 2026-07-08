@@ -1,0 +1,39 @@
+{
+  "id": "th-p142a11",
+  "pick_number": "P-142a.1.1",
+  "country": {
+    "en": "Thailand",
+    "es": "Tailandia"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Baht",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "rey:rama_x"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/141279-20_Baht-2022_Issue_Polymer-Tailandia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

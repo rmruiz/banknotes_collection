@@ -1,0 +1,41 @@
+{
+  "id": "ni-p168a1",
+  "pick_number": "P-168a.1",
+  "country": {
+    "en": "Nicaragua",
+    "es": "Nicaragua"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Centavos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "personaje:francisco_hernandez_de_cordoba",
+    "simbolo:escudo_nacional",
+    "flora:sacuanjoche"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15595-5_Centavos-1990-1992_ND_Issues-Nicaragua",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "yu-p119a",
+  "pick_number": "P-119a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 500000,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1993,
+  "signatures": [],
+  "themes": [
+    "personaje:petar_petrovic_njegos",
+    "lugar:montanas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15931-500000_Dinara-Edicion_1993-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

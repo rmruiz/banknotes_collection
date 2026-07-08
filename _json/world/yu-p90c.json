@@ -1,0 +1,39 @@
+{
+  "id": "yu-p90c",
+  "pick_number": "P-90c",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1986,
+  "signatures": [],
+  "themes": [
+    "arte:monumento_ecuestre"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15916-100_Dinara-Edicion_1978-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

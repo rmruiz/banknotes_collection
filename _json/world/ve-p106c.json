@@ -1,0 +1,41 @@
+{
+  "id": "ve-p106c",
+  "pick_number": "P-106c",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:luisa_caceres_de_arismendi",
+    "fauna:mono_arana",
+    "lugar:parque_nacional_guatopo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/97239-100_Bol%C3%ADvares-2018-2020_Currency_Reform_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

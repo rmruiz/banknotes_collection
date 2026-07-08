@@ -1,0 +1,40 @@
+{
+  "id": "br-p254e",
+  "pick_number": "P-254e",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Reales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "simbolo:efigie_de_la_republica",
+    "fauna:guacamayo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/108610-10_Reais-2003-2020_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

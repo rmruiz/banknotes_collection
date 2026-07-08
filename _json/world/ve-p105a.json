@@ -1,0 +1,41 @@
+{
+  "id": "ve-p105a",
+  "pick_number": "P-105a",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:francisco_de_miranda",
+    "fauna:cunaguaro",
+    "lugar:parque_nacional_peninsula_de_paria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/91201-50_Bol%C3%ADvares-2018-2020_Currency_Reform_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

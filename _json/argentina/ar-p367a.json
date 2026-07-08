@@ -1,0 +1,40 @@
+{
+  "id": "ar-p367a",
+  "pick_number": "P-367a",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2023,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "evento:cruce_de_los_andes"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/142395-1000_Pesos-2022_National_Heroes_and_Cultural_Figures_Issue-Argentina",
+    "group": "2022 \"National Heroes and Cultural Figures\" Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

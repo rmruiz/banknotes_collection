@@ -1,0 +1,40 @@
+{
+  "id": "ar-p362a",
+  "pick_number": "P-362a",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "Tercera serie «Tenemos Patria»",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "lugar:islas_malvinas",
+    "personaje:antonio_rivero"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/57783-50_Pesos-2015-2020_ND_Issue-Argentina",
+    "group": "2015-2020 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

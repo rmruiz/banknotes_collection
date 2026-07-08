@@ -1,0 +1,41 @@
+{
+  "id": "co-p461d",
+  "pick_number": "P-461d",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 20000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:alfonso_lopez_michelsen",
+    "actividad:agricultura",
+    "arte:sombrero_vueltiao"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/111215-20000_Pesos-2014-2020_New_Design_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

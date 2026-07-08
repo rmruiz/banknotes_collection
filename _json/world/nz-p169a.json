@@ -1,0 +1,40 @@
+{
+  "id": "nz-p169a",
+  "pick_number": "P-169a",
+  "country": {
+    "en": "New Zealand",
+    "es": "Nueva Zelanda"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dolar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1977,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "fauna:piwakawaka"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/9471-1_Dollar-1967-1981_ND_Issue-Nueva_Zelanda",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

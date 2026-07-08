@@ -1,0 +1,39 @@
+{
+  "id": "de-p76boe3",
+  "pick_number": "P-76b.OE.3",
+  "country": {
+    "en": "Germany",
+    "es": "Alemania"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Marcos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1922,
+  "signatures": [],
+  "themes": [
+    "simbolo:aguila_imperial"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/33629-1000_Mark-1922_3rd_Issue_-_Reichsbanknote_Republic_Treasury_Notes-Alemania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

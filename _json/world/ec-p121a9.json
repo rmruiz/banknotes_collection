@@ -1,0 +1,40 @@
+{
+  "id": "ec-p121a9",
+  "pick_number": "P-121a.9",
+  "country": {
+    "en": "Ecuador",
+    "es": "Ecuador"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Sucres",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:sebastian_de_belalcazar",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/53222-10_Sucres-1984-1993_Without_Printers_Name_Sociedad_Anonima_Issue-Ecuador",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

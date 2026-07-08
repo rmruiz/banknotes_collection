@@ -1,0 +1,40 @@
+{
+  "id": "mn-p61aa",
+  "pick_number": "P-61Aa",
+  "country": {
+    "en": "Mongolia",
+    "es": "Mongolia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Tugrik - Tögrög",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2008,
+  "signatures": [],
+  "themes": [
+    "arte:leon",
+    "simbolo:soyombo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/27402-1_T%C3%B6gr%C3%B6g-2000-2020_Issue-Mongolia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

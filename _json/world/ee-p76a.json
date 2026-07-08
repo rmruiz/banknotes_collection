@@ -1,0 +1,40 @@
+{
+  "id": "ee-p76a",
+  "pick_number": "P-76a",
+  "country": {
+    "en": "Estonia",
+    "es": "Estonia"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Coronas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "personaje:paul_keres",
+    "construccion:castillo_de_narva"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/4429-5_Krooni-1994_Issue-Estonia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

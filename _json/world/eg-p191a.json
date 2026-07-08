@@ -1,0 +1,40 @@
+{
+  "id": "eg-p191a",
+  "pick_number": "P-191a",
+  "country": {
+    "en": "Egypt",
+    "es": "Egipto"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Piastras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "construccion:piramides",
+    "construccion:esfinge"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/4301-10_Piastres-2002-2006_Issue-Egipto",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "color:naranjo"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

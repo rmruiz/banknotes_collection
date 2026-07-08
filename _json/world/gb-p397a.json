@@ -1,0 +1,40 @@
+{
+  "id": "gb-p397a",
+  "pick_number": "P-397a",
+  "country": {
+    "en": "Great Britain",
+    "es": "Gran Bretaña"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Libras Esterlinas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "personaje:alan_turing"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/129151-50_Pounds-2015-2018_Polymer_Issue-Reino_Unido",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

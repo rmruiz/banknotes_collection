@@ -1,0 +1,41 @@
+{
+  "id": "vn-p100c2",
+  "pick_number": "P-100c.2",
+  "country": {
+    "en": "Vietnam",
+    "es": "Vietnam"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Dongs",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1987,
+  "signatures": [],
+  "themes": [
+    "personaje:ho_chi_minh",
+    "transporte:tractor",
+    "actividad:agricultura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/17351-200_%C4%90%E1%BB%93ng-1987-1988_Issue-Vietnam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

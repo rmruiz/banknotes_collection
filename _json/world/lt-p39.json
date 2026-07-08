@@ -1,0 +1,41 @@
+{
+  "id": "lt-p39",
+  "pick_number": "P-39",
+  "country": {
+    "en": "Lithuania",
+    "es": "Lituania"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Talona",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "fauna:avefria",
+    "flora:trebol",
+    "simbolo:vytis"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15441-1_Talonas-Emisi%C3%B3n_de_1992-Lituania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "us-p546bk",
+  "pick_number": "P-546bK",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:abraham_lincoln",
+    "construccion:lincoln_memorial"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/133366-5_Dollars-2017_Federal_Reserve_Notes-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "2017 A",
+    "bank": "",
+    "zone": "Dallas - Texas",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "gw-p119ae",
+  "pick_number": "P-119Ae",
+  "country": {
+    "en": "Guinea-Bissau",
+    "es": "Guinea-Bisáu"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "arte:mascara",
+    "fauna:hipopotamo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/81258-500_Francs_CFA-A_for_Cote_DIvoire_Ivory_Coast-Estados_del_%C3%81frica_Occidental",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Estados del Africa Occidental"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

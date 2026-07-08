@@ -1,0 +1,40 @@
+{
+  "id": "ua-p118e",
+  "pick_number": "P-118e",
+  "country": {
+    "en": "Ukraine",
+    "es": "Ucrania"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Grivnas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:bohdan_jmelnitski",
+    "construccion:iglesia_de_subotiv"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/61536-5_Hryven-Edici%C3%B3n_2003-2011-Ucrania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

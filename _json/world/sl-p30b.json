@@ -1,0 +1,40 @@
+{
+  "id": "sl-p30b",
+  "pick_number": "P-30b",
+  "country": {
+    "en": "Sierra Leone",
+    "es": "Sierra Leona"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Leones",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:bai_bureh",
+    "construccion:antena_parabolica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/71808-1000_Leones-2010-2021_Reduced_Size_Issue-Sierra_Leona",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ar-p289a6",
+  "pick_number": "P-289a.6",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pesos",
+    "subtype": "Peso Ley 18.188",
+    "alternatives": []
+  },
+  "year": 1973,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "lugar:cataratas_del_iguazu"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/440-10_Pesos-Edici%C3%B3n_1970-1973_ND_-_Pesos_Ley_18188-Argentina",
+    "group": "Edición 1970-1973 (ND) - \"Pesos Ley 18.188\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

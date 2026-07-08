@@ -1,0 +1,40 @@
+{
+  "id": "ht-p267b",
+  "pick_number": "P-267b",
+  "country": {
+    "en": "Haiti",
+    "es": "Haití"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Gurdes",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2003,
+  "signatures": [],
+  "themes": [
+    "personaje:lysius_salomon",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/23793-50_Gourdes-2000-2015_Issue-Hait%C3%AD",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

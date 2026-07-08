@@ -1,0 +1,42 @@
+{
+  "id": "gg-p56d",
+  "pick_number": "P-56d",
+  "country": {
+    "en": "Guernsey",
+    "es": "Guernsey"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2007,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "construccion:fort_grey",
+    "construccion:faro_hanois",
+    "construccion:town_church"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/147297-5_Pound-1994-2015_ND_Elizabeth_II_Issue-Guernsey",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

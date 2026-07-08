@@ -1,0 +1,40 @@
+{
+  "id": "ar-p302a1",
+  "pick_number": "P-302a.1",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "Peso Ley 18.188",
+    "alternatives": []
+  },
+  "year": 1977,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "lugar:ushuaia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/18112-100_Pesos_Ley-Edici%C3%B3n_1976-83_ND_Sin_N%C2%B0_de_Ley-Argentina",
+    "group": "Edición 1976-83 (ND) \"Sin N° de Ley\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

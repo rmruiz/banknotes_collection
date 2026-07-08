@@ -1,0 +1,41 @@
+{
+  "id": "bo-p154a17",
+  "pick_number": "P-154a.17",
+  "country": {
+    "en": "Bolivia",
+    "es": "Bolivia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1962,
+  "signatures": [],
+  "themes": [
+    "personaje:german_busch",
+    "simbolo:escudo_de_bolivia",
+    "lugar:cerro_de_potosi"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1376-10_Pesos_Bolivianos-Primera_Edicion_Ley_de_13_de_Julio_1962-Bolivia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

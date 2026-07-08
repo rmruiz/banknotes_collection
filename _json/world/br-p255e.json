@@ -1,0 +1,40 @@
+{
+  "id": "br-p255e",
+  "pick_number": "P-255e",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Reales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "simbolo:efigie_de_la_republica",
+    "fauna:mono_leon_dorado"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/110592-20_Reais-2003-2024_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "mn-p49a",
+  "pick_number": "P-49a",
+  "country": {
+    "en": "Mongolia",
+    "es": "Mongolia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Mongo",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2000,
+  "signatures": [],
+  "themes": [
+    "actividad:lucha_mongola",
+    "simbolo:soyombo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/9181-10_Mongo-1993_ND_1994-1998_Issue-Mongolia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

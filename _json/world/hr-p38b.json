@@ -1,0 +1,40 @@
+{
+  "id": "hr-p38b",
+  "pick_number": "P-38b",
+  "country": {
+    "en": "Croatia",
+    "es": "Croacia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Kuna",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "construccion:arena_de_pula",
+    "lugar:motovun"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/44111-10_Kuna-2001-2012_Issue-Croacia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

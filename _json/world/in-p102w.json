@@ -1,0 +1,42 @@
+{
+  "id": "in-p102w",
+  "pick_number": "P-102w",
+  "country": {
+    "en": "India",
+    "es": "India"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:mahatma_gandhi",
+    "fauna:tigre",
+    "fauna:elefante",
+    "fauna:rinoceronte"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/62331-10_Rupees-2011-2018_New_Rupee_Symbol_Issue-India",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

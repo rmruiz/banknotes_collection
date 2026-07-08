@@ -1,0 +1,41 @@
+{
+  "id": "ru-p280a",
+  "pick_number": "P-280a",
+  "country": {
+    "en": "Russia",
+    "es": "Rusia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Rublos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:lev_yashin",
+    "actividad:futbol",
+    "evento:mundial_2018"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/92026-100_Rubles-Emisi%C3%B3n_de_2018_Copa_del_mundo_de_la_FIFA_2018-Rusia",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Conmemorativo"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

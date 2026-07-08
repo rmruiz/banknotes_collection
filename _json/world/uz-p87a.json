@@ -1,0 +1,40 @@
+{
+  "id": "uz-p87a",
+  "pick_number": "P-87a",
+  "country": {
+    "en": "Uzbekistan",
+    "es": "Uzbekistán"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Soms",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "construccion:arca_de_bujara",
+    "simbolo:escudo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/128934-2000_Som-2019-2022_Issue_Marks_for_the_Blind-Uzbekist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

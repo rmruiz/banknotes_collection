@@ -1,0 +1,41 @@
+{
+  "id": "mm-p72b",
+  "pick_number": "P-72b",
+  "country": {
+    "en": "Myanmar",
+    "es": "Birmania"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Kyats",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "simbolo:chinthe",
+    "construccion:fuente_de_elefantes",
+    "fauna:elefante"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2032-20_Kyats-1990-1998_ND_Issue-Myanmar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

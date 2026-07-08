@@ -1,0 +1,40 @@
+{
+  "id": "ar-p263b2",
+  "pick_number": "P-263b.2",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Peso",
+    "subtype": "Moneda Nacional: San Martín",
+    "alternatives": []
+  },
+  "year": 1956,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "construccion:casa_de_tucuman"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/44436-1_Peso-1951_ND_Leyes_Nos_12962_y_13571-Argentina",
+    "group": "1951 (ND) Leyes Nos. 12.962 y 13.571"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

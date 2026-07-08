@@ -1,0 +1,41 @@
+{
+  "id": "co-p407f2",
+  "pick_number": "P-407f.2",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pesos Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1975,
+  "signatures": [],
+  "themes": [
+    "personaje:antonio_narino",
+    "lugar:parque_arqueologico_de_san_agustin",
+    "arte:estatuas_de_san_agustin"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2750-10_Pesos_Oro-1961-1981_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

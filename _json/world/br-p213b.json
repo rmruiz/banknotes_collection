@@ -1,0 +1,41 @@
+{
+  "id": "br-p213b",
+  "pick_number": "P-213b",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Cruzados",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1987,
+  "signatures": [],
+  "themes": [
+    "personaje:machado_de_assis",
+    "lugar:rio_de_janeiro",
+    "transporte:tranvia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1750-1000_Cruzados-1986-1988_ND_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

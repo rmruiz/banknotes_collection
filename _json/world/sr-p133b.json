@@ -1,0 +1,41 @@
+{
+  "id": "sr-p133b",
+  "pick_number": "P-133b",
+  "country": {
+    "en": "Suriname",
+    "es": "Surinam"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "lugar:paramaribo",
+    "fauna:tucan",
+    "actividad:mercado"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11732-100_Gulden-1986-1988_Issue-Surinam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

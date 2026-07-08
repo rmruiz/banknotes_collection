@@ -1,0 +1,40 @@
+{
+  "id": "br-p212c",
+  "pick_number": "P-212c",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Cruzados",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:villa_lobos",
+    "actividad:direccion_de_orquesta"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1747-500_Cruzados-1986-1988_ND_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

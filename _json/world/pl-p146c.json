@@ -1,0 +1,40 @@
+{
+  "id": "pl-p146c",
+  "pick_number": "P-146c",
+  "country": {
+    "en": "Poland",
+    "es": "Polonia"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Zlotys",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1982,
+  "signatures": [],
+  "themes": [
+    "personaje:mikolaj_kopernik",
+    "simbolo:sistema_solar"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16973-1000_Zlotych-1974-1993_Great_Poles_Issue-Polonia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

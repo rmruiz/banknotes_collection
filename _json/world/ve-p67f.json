@@ -1,0 +1,40 @@
+{
+  "id": "ve-p67f",
+  "pick_number": "P-67f",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1998,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "flora:orquidea"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15738-500_Bol%C3%ADvares-1981-1998_Issues-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

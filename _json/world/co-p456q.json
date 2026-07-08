@@ -1,0 +1,40 @@
+{
+  "id": "co-p456q",
+  "pick_number": "P-456q",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:jorge_eliecer_gaitan",
+    "actividad:discurso"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60936-1000_Pesos-2005-2016_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

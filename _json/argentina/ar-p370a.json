@@ -1,0 +1,40 @@
+{
+  "id": "ar-p370a",
+  "pick_number": "P-370a",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 20000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2025,
+  "signatures": [],
+  "themes": [
+    "personaje:juan_bautista_alberdi",
+    "construccion:casa_natal_de_juan_bautista_alberdi"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/163935-20000_Pesos-2022-2024_National_Heroes_and_Cultural_Figures_Issue-Argentina",
+    "group": "2022 \"National Heroes and Cultural Figures\" Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

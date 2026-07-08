@@ -1,0 +1,42 @@
+{
+  "id": "cl-ch032",
+  "pick_number": "CH-032",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2023,
+  "signatures": [],
+  "themes": [
+    "personaje:margot_duhalde",
+    "construccion:puente_carlos_ibanez_del_campo",
+    "transporte:avion",
+    "evento:280_anios_casa_de_moneda"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/155081-280_A%C3%B1os_Aniversario-Chile-Fantas%C3%ADa_Emisiones",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Fantasía"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

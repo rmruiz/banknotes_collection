@@ -1,0 +1,40 @@
+{
+  "id": "ch-p77a2",
+  "pick_number": "P-77a.2",
+  "country": {
+    "en": "Switzerland",
+    "es": "Suiza"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "simbolo:mano",
+    "flora:diente_de_leon"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/71448-50_FrankenFrancsFranchi-2015-2020_Issue-Suiza",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

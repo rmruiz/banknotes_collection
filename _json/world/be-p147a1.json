@@ -1,0 +1,40 @@
+{
+  "id": "be-p147a1",
+  "pick_number": "P-147a.1",
+  "country": {
+    "en": "Belgium",
+    "es": "Bélgica"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1999,
+  "signatures": [],
+  "themes": [
+    "personaje:james_ensor",
+    "arte:mascaras"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1072-100_Francs-1994-2001_ND_Issue-B%C3%A9lgica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "do-p194f",
+  "pick_number": "P-194f",
+  "country": {
+    "en": "Dominican Republic",
+    "es": "Rep. Dominicana"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:emilio_prudhomme",
+    "personaje:jose_reyes",
+    "construccion:teatro_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/166921-2000_Pesos_Dominicanos-2014-2023_Issue-Rep%C3%BAblica_Dominicana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

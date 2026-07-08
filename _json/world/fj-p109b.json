@@ -1,0 +1,41 @@
+{
+  "id": "fj-p109b",
+  "pick_number": "P-109b",
+  "country": {
+    "en": "Fiji",
+    "es": "Fiyi"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "construccion:estadio",
+    "lugar:korobasabasaga"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/42104-2_Dollars-2007-2011_ND_Issue-Fiyi",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

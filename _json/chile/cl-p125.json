@@ -1,0 +1,44 @@
+{
+  "id": "cl-p125",
+  "pick_number": "P-125",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "1/100 Escudo"
+    ]
+  },
+  "year": 1960,
+  "signatures": [
+    "Figueroa",
+    "Mackenna"
+  ],
+  "themes": [
+    "personaje:manuel_bulnes"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2547-1_Cent%C3%A9simo-1960_ND_Provisional_Issue-Chile",
+    "group": "1960 ND Provisional Issue"
+  },
+  "commemorative": false,
+  "overprint": true,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1960 - 1961",
+    "obs": "1 Condor"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

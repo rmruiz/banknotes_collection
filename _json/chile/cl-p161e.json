@@ -1,0 +1,44 @@
+{
+  "id": "cl-p161e",
+  "pick_number": "P-161e",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [
+    "Vergara",
+    "Zurbuchen"
+  ],
+  "themes": [
+    "personaje:ignacio_carrera_pinto",
+    "lugar:parque_nacional_torres_del_paine",
+    "fauna:guanaco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/76567-1000_Pesos-2009-2021_Issue-Chile",
+    "group": "2009-2021 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "2010 - 2014",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

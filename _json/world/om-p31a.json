@@ -1,0 +1,41 @@
+{
+  "id": "om-p31a",
+  "pick_number": "P-31a",
+  "country": {
+    "en": "Oman",
+    "es": "Omán"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Baisas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1995,
+  "signatures": [],
+  "themes": [
+    "rey:qaboos",
+    "construccion:fuerte",
+    "fauna:orix"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/9916-100_Baisa-1995_Sultan_Qaboos_Issue-Om%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

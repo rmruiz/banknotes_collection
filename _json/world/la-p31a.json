@@ -1,0 +1,41 @@
+{
+  "id": "la-p31a",
+  "pick_number": "P-31a",
+  "country": {
+    "en": "Laos",
+    "es": "Laos"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Kip",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "actividad:cosecha",
+    "transporte:tractor",
+    "simbolo:escudo_laos"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/8110-500_Kip-1979_ND_1988-2015_Issue-Laos",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "lk-p108e",
+  "pick_number": "P-108e",
+  "country": {
+    "en": "Sri Lanka",
+    "es": "Sri Lanka"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [],
+  "themes": [
+    "arte:mascara",
+    "fauna:ave"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/17358-10_Rupees-1995-2006_Issue-Sri_Lanka",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

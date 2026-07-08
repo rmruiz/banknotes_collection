@@ -1,0 +1,41 @@
+{
+  "id": "gt-p115c",
+  "pick_number": "P-115c",
+  "country": {
+    "en": "Guatemala",
+    "es": "Guatemala"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Quetzal",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_maria_orellana",
+    "fauna:quetzal",
+    "construccion:banco_de_guatemala"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/50015-1_Quetzal-2008-2020_Flag_in_Watermark_Area_Issue-Guatemala",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

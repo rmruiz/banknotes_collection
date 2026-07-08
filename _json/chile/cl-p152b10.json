@@ -1,0 +1,43 @@
+{
+  "id": "cl-p152b10",
+  "pick_number": "P-152b.10",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1984,
+  "signatures": [
+    "Ibañez",
+    "Molina"
+  ],
+  "themes": [
+    "personaje:diego_portales",
+    "evento:reunion_de_notables"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/58379-100_Pesos-1975-2009_Issue-Chile",
+    "group": "1975-2009 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1976 - 1984",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

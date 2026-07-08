@@ -1,0 +1,41 @@
+{
+  "id": "tt-p42b",
+  "pick_number": "P-42b",
+  "country": {
+    "en": "Trinidad and Tobago",
+    "es": "Trinidad y Tobago"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dolar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2002,
+  "signatures": [],
+  "themes": [
+    "fauna:ave",
+    "simbolo:escudo",
+    "actividad:musica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/31844-5_Dollars-2002_Issue-Trinidad_y_Tobago",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

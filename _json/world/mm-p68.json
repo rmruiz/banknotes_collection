@@ -1,0 +1,39 @@
+{
+  "id": "mm-p68",
+  "pick_number": "P-68",
+  "country": {
+    "en": "Myanmar",
+    "es": "Birmania"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pyas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "transporte:barca_real"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2030-50_Pyas-1990-1998_ND_Issue-Myanmar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

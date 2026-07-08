@@ -1,0 +1,40 @@
+{
+  "id": "yu-p136a",
+  "pick_number": "P-136a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 50000000000,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1993,
+  "signatures": [],
+  "themes": [
+    "personaje:milos_obrenovic",
+    "construccion:residencia_principe_milos"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15943-50_Billion_Dinara-Edicion_Reformada_1993-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ht-p259a2",
+  "pick_number": "P-259a.2",
+  "country": {
+    "en": "Haiti",
+    "es": "Haití"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Gurdes",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1993,
+  "signatures": [],
+  "themes": [
+    "personaje:toussaint_louverture",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/62572-1_Gourde-1992-1994_Issue-Hait%C3%AD",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "cu-p105a",
+  "pick_number": "P-105a",
+  "country": {
+    "en": "Cuba",
+    "es": "Cuba"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1971,
+  "signatures": [],
+  "themes": [
+    "personaje:camilo_cienfuegos",
+    "evento:desembarco_del_granma"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/3186-20_Pesos-1967-1990_Issue-Cuba",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

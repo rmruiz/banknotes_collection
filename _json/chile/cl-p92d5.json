@@ -1,0 +1,44 @@
+{
+  "id": "cl-p92d5",
+  "pick_number": "P-92d.5",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "1 Condor"
+    ]
+  },
+  "year": 1939,
+  "signatures": [
+    "Mora",
+    "Meyerholz"
+  ],
+  "themes": [
+    "personaje:manuel_bulnes"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2539-10_Pesos-1931-1947_Issues-Chile",
+    "group": "1931-1947 Issues"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1931 - 1947",
+    "obs": "texto:27-IX-1939"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

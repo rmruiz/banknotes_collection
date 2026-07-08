@@ -1,0 +1,40 @@
+{
+  "id": "yu-p88a",
+  "pick_number": "P-88a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1978,
+  "signatures": [],
+  "themes": [
+    "transporte:barco",
+    "lugar:puerto"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15912-20_Dinara-Edicion_1978-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

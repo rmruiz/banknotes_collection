@@ -1,0 +1,44 @@
+{
+  "id": "cl-p163e",
+  "pick_number": "P-163e",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [
+    "Vergara",
+    "Zurbuchen"
+  ],
+  "themes": [
+    "personaje:gabriela_mistral",
+    "lugar:parque_nacional_la_campana",
+    "flora:palma_chilena"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/90576-5000_Pesos-2009-2021_Issue-Chile",
+    "group": "2009-2021 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "2009 - 2024",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

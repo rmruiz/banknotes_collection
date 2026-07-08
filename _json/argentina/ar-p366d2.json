@@ -1,0 +1,39 @@
+{
+  "id": "ar-p366d2",
+  "pick_number": "P-366d.2",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "Cuarta serie «Fauna Autóctona de la República Argentina»",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "fauna:hornero"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/143961-1000_Pesos-2013-2021_ND_Issue-Argentina",
+    "group": "2015-2020 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

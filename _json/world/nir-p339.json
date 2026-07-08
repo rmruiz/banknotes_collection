@@ -1,0 +1,41 @@
+{
+  "id": "nir-p339",
+  "pick_number": "P-339",
+  "country": {
+    "en": "Northern Ireland",
+    "es": "Irlanda del Norte"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "personaje:george_best",
+    "actividad:futbol",
+    "construccion:calzada_del_gigante"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7055-5_Pounds_Sterling-Ulster_Bank_Limited_2006_Commemorative-Irlanda_del_Norte",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

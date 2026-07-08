@@ -1,0 +1,41 @@
+{
+  "id": "ar-p353a4",
+  "pick_number": "P-353a.4",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Pesos",
+    "subtype": "Segunda serie",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "construccion:cerro_de_la_gloria",
+    "lugar:mendoza"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/53766-5_Pesos-Edici%C3%B3n_2002-2017_ND_Pesos-Argentina",
+    "group": "Edición 2002-2017 (ND) \"Pesos\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "lb-p90c1",
+  "pick_number": "P-90c.1",
+  "country": {
+    "en": "Lebanon",
+    "es": "Líbano"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "flora:cedro",
+    "simbolo:alfabeto_fenicio"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/67219-1000_Livres-2011-2021_Issue-L%C3%ADbano",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

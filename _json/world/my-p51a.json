@@ -1,0 +1,41 @@
+{
+  "id": "my-p51a",
+  "pick_number": "P-51A",
+  "country": {
+    "en": "Malaysia",
+    "es": "Malasia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Ringgit",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2000,
+  "signatures": [],
+  "themes": [
+    "rey:tuanku_abdul_rahman",
+    "flora:hibisco",
+    "arte:cometa_wau"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/52576-1_Ringgit-2009-2021_ND_Issue-Malasia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

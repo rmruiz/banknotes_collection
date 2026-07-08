@@ -1,0 +1,40 @@
+{
+  "id": "st-p65c",
+  "pick_number": "P-65c",
+  "country": {
+    "en": "São Tomé and Príncipe",
+    "es": "Santo Tomé y Príncipe"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [],
+  "themes": [
+    "personaje:rei_amador",
+    "fauna:papafigo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11606-5000_Dobras-1993-2013_Issue-Santo_Tom%C3%A9_y_Pr%C3%ADncipe",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

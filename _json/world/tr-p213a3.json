@@ -1,0 +1,40 @@
+{
+  "id": "tr-p213a3",
+  "pick_number": "P-213a.3",
+  "country": {
+    "en": "Turkey",
+    "es": "Turquía"
+  },
+  "denomination": {
+    "value": 1000000,
+    "currency": "Liras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2002,
+  "signatures": [],
+  "themes": [
+    "personaje:mustafa_kemal_ataturk",
+    "construccion:represa_ataturk"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/42843-1000000_Turkish_Lira-1979-7Emisyon_T%C3%BCrk_Liras%C4%B1-T%C3%BCrkiye_Turqu%C3%ADa",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

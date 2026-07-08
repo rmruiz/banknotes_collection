@@ -1,0 +1,41 @@
+{
+  "id": "zr-p21b",
+  "pick_number": "P-21b",
+  "country": {
+    "en": "Zaire",
+    "es": "Zaire"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Zaires",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1977,
+  "signatures": [],
+  "themes": [
+    "dictador:mobutu_sese_seko",
+    "construccion:presa",
+    "fauna:leopardo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/13383-5_Za%C3%AFres-1972-1981_Issue-Zaire",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

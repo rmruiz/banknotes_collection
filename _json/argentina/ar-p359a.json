@@ -1,0 +1,42 @@
+{
+  "id": "ar-p359a",
+  "pick_number": "P-359a",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Pesos",
+    "subtype": "Tercera serie «Tenemos Patria»",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "personaje:jose_artigas",
+    "personaje:simon_bolivar",
+    "personaje:bernardo_ohiggins"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/62629-5_Pesos-2015-2020_ND_Issue-Argentina",
+    "group": "2015-2020 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

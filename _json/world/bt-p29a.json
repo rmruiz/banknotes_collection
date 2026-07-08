@@ -1,0 +1,40 @@
+{
+  "id": "bt-p29a",
+  "pick_number": "P-29a",
+  "country": {
+    "en": "Bhutan",
+    "es": "Bután"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Ngultrum",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "rey:jigme_singye_wangchuck",
+    "construccion:paro_dzong"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1306-10_Ngultrum-2006-2020_Issue-But%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ca-p108a",
+  "pick_number": "P-108a",
+  "country": {
+    "en": "Canada",
+    "es": "Canadá"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "construccion:monumento_de_vimy",
+    "flora:amapola"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/41936-20_Dollars-2011-2022_Polymer_Issue-Canad%C3%A1",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

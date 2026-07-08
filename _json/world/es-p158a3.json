@@ -1,0 +1,40 @@
+{
+  "id": "es-p158a3",
+  "pick_number": "P-158a.3",
+  "country": {
+    "en": "Spain",
+    "es": "España"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesetas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1979,
+  "signatures": [],
+  "themes": [
+    "personaje:benito_perez_galdos",
+    "lugar:islas_canarias"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11536-1000_Pesetas-Emisi%C3%B3n_de_1979-1985-Espa%C3%B1a",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

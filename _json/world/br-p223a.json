@@ -1,0 +1,39 @@
+{
+  "id": "br-p223a",
+  "pick_number": "P-223a",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Cruzeiros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "personaje:carlos_drummond_de_andrade"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1761-50_Cruzeiros-1990_ND_Cruzeiro_Provisional_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": true,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

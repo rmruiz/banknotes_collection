@@ -1,0 +1,42 @@
+{
+  "id": "je-p32a",
+  "pick_number": "P-32a",
+  "country": {
+    "en": "Bailiwick of Jersey",
+    "es": "Bailía de Jersey"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Libra",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "construccion:liberation_square",
+    "construccion:le_hocq_tower",
+    "lugar:la_hougue_bie"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/18233-1_PoundLivreLouis-2010-2018_ND_English_and_French_Language_Issue-Jersey",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

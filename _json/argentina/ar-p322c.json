@@ -1,0 +1,40 @@
+{
+  "id": "ar-p322c",
+  "pick_number": "P-322c",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Austral",
+    "subtype": "Austral",
+    "alternatives": []
+  },
+  "year": 1985,
+  "signatures": [],
+  "themes": [
+    "personaje:manuel_belgrano",
+    "evento:creacion_de_la_bandera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/18127-10_Australes-1985_ND_Australes_remarcados_-_Edici%C3%B3n_provisional-Argentina",
+    "group": "1985 (ND) \"Australes remarcados\" - Edición provisional"
+  },
+  "commemorative": false,
+  "overprint": true,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

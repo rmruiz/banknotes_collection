@@ -1,0 +1,40 @@
+{
+  "id": "hk-p302a",
+  "pick_number": "P-302a",
+  "country": {
+    "en": "Hong Kong",
+    "es": "Hong Kong"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "construccion:edificio_standard_chartered",
+    "actividad:ceremonia_del_te"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/110866-20_Dollars-Standard_Chartered_Bank_2018-2021-Hong_Kong",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

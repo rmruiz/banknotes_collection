@@ -1,0 +1,40 @@
+{
+  "id": "ar-p355b2",
+  "pick_number": "P-355b.2",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Pesos",
+    "subtype": "Segunda serie",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:juan_manuel_de_rosas",
+    "evento:vuelta_de_obligado"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/98779-20_Pesos-Edici%C3%B3n_2002-2017_ND_Pesos-Argentina",
+    "group": "Edición 2002-2017 (ND) \"Pesos\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

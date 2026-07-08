@@ -1,0 +1,41 @@
+{
+  "id": "af-p60b",
+  "pick_number": "P-60b",
+  "country": {
+    "en": "Afghanistan",
+    "es": "Afganistán"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Afghanis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "actividad:buzkashi",
+    "fauna:caballo",
+    "construccion:fortaleza"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16971-500_Afghanis-1979-1991_Issue-Afganist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "th-p137b1",
+  "pick_number": "P-137b.1",
+  "country": {
+    "en": "Thailand",
+    "es": "Tailandia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Baht",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "rey:rama_x",
+    "transporte:automovil"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/97006-100_Baht-2018_Issue_Maha_Vajiralongkorn-Tailandia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "sr-p147",
+  "pick_number": "P-147",
+  "country": {
+    "en": "Suriname",
+    "es": "Surinam"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2000,
+  "signatures": [],
+  "themes": [
+    "flora:guzmania",
+    "fauna:colibri"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11749-10_Gulden-2000_Issue-Surinam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

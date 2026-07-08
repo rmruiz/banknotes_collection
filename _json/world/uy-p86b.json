@@ -1,0 +1,40 @@
+{
+  "id": "uy-p86b",
+  "pick_number": "P-86b",
+  "country": {
+    "en": "Uruguay",
+    "es": "Uruguay"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:juan_zorrilla_de_san_martin",
+    "arte:alegoria_de_la_leyenda_patria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2587-20_Pesos_Uruguayos-2003-2015_Issue-Uruguay",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

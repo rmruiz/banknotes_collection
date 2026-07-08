@@ -1,0 +1,39 @@
+{
+  "id": "dk-p48h3",
+  "pick_number": "P-48h.3",
+  "country": {
+    "en": "Denmark",
+    "es": "Dinamarca"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Coronas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1978,
+  "signatures": [],
+  "themes": [
+    "fauna:pato_eider"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/46503-10_Kroner-1972-1998_Issue-Dinamarca",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "fr-p151e",
+  "pick_number": "P-151e",
+  "country": {
+    "en": "France",
+    "es": "Francia"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Francos Franceses",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "personaje:claude_debussy",
+    "arte:la_mer"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/22746-20_Francs-1968-1997_Issue-Francia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

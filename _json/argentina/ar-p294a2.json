@@ -1,0 +1,41 @@
+{
+  "id": "ar-p294a2",
+  "pick_number": "P-294a.2",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Pesos",
+    "subtype": "Peso Ley 18.188",
+    "alternatives": []
+  },
+  "year": 1975,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "construccion:monumento_a_la_bandera",
+    "lugar:rosario"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/444-5_Pesos_Ley-Edici%C3%B3n_1973-1976_ND_Decreto-Ley_1818869-Argentina",
+    "group": "Edición 1973-1976 (ND) \"Decreto-Ley 18.188/69\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

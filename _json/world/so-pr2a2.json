@@ -1,0 +1,40 @@
+{
+  "id": "so-pr2a2",
+  "pick_number": "P-R2a.2",
+  "country": {
+    "en": "Somalia",
+    "es": "Somalia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Chelines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "actividad:tejido",
+    "fauna:burro"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/70359-50_N-Shilin_SoomaaliNew_Somali_Shillings-Regional_Mogadishu_North_Forces-Somalia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "nz-p194c",
+  "pick_number": "P-194c",
+  "country": {
+    "en": "New Zealand",
+    "es": "Nueva Zelanda"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:apirana_ngata",
+    "construccion:casa_maori",
+    "fauna:kokako"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/159688-50_Dollars-2015-2024_Issue-Nueva_Zelanda",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

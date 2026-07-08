@@ -1,0 +1,41 @@
+{
+  "id": "zm-p43h",
+  "pick_number": "P-43h",
+  "country": {
+    "en": "Zambia",
+    "es": "Zambia"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "fauna:aguila_pescadora",
+    "fauna:elefante",
+    "actividad:agricultura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/40105-500_Kwacha-2003-2012_Issue-Zambia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

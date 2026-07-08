@@ -1,0 +1,42 @@
+{
+  "id": "zm-p25d",
+  "pick_number": "P-25d",
+  "country": {
+    "en": "Zambia",
+    "es": "Zambia"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1986,
+  "signatures": [],
+  "themes": [
+    "personaje:kenneth_kaunda",
+    "fauna:aguila_pescadora",
+    "lugar:cataratas_victoria",
+    "arte:mascara"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/13483-5_Kwacha-1980-1986_ND_Issue-Zambia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

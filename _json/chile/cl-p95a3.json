@@ -1,0 +1,42 @@
+{
+  "id": "cl-p95a3",
+  "pick_number": "P-95a.3",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1936,
+  "signatures": [
+    "Subercaseaux",
+    "Meyerholz"
+  ],
+  "themes": [
+    "personaje:arturo_prat"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/69203-100_Pesos-1931-1947_Issues-Chile",
+    "group": "1931-1947 Issues"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

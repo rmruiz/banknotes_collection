@@ -1,0 +1,39 @@
+{
+  "id": "br-p192d",
+  "pick_number": "P-192d",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Cruzeiros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1979,
+  "signatures": [],
+  "themes": [
+    "rey:pedro_i"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1717-5_Cruzeiros-1970-1981_ND_Issues-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

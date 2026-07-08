@@ -1,0 +1,40 @@
+{
+  "id": "co-p457x",
+  "pick_number": "P-457x",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:francisco_de_paula_santander",
+    "construccion:casa_de_moneda"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/65737-2000_Pesos-2005-2016_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ar-p368a",
+  "pick_number": "P-368a",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2023,
+  "signatures": [],
+  "themes": [
+    "personaje:ramon_carrillo",
+    "personaje:cecilia_grierson",
+    "construccion:instituto_malbran"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/146052-2000_Pesos-2022_National_Heroes_and_Cultural_Figures_Issue-Argentina",
+    "group": "2022 \"National Heroes and Cultural Figures\" Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

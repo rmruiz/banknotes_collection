@@ -1,0 +1,39 @@
+{
+  "id": "ar-p261a1",
+  "pick_number": "P-261a.1",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Centavos",
+    "subtype": "Moneda Nacional: Efigie del Progreso",
+    "alternatives": []
+  },
+  "year": 1952,
+  "signatures": [],
+  "themes": [
+    "arte:efigie_del_progreso"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/44435-50_Centavos-1951_ND_Leyes_Nos_12962_y_13571-Argentina",
+    "group": "1951 (ND) Leyes Nos. 12.962 y 13.571"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

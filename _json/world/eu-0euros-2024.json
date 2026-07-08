@@ -1,0 +1,41 @@
+{
+  "id": "eu-0euros-2024",
+  "pick_number": "",
+  "country": {
+    "en": "European Union",
+    "es": "Unión Europea"
+  },
+  "denomination": {
+    "value": 0,
+    "currency": "Euros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2024,
+  "signatures": [],
+  "themes": [
+    "construccion:torre_eiffel",
+    "construccion:sagrada_familia",
+    "construccion:coliseo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/103983-0%E2%82%AC_France-Tour_Eiffel-Francia-Fantas%C3%ADa_Euro_Souvenir",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Fantasía"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

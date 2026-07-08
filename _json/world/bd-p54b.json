@@ -1,0 +1,40 @@
+{
+  "id": "bd-p54b",
+  "pick_number": "P-54b",
+  "country": {
+    "en": "Bangladesh",
+    "es": "Bangladesh"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Taka",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:mujibur_rahman",
+    "construccion:mausoleo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/51356-10_Taka-2011-2022_Mujibur_Rahman_Issue-Banglad%C3%A9s",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "au-p63a",
+  "pick_number": "P-63a",
+  "country": {
+    "en": "Australia",
+    "es": "Australia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Dólares Australianos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:banjo_paterson",
+    "personaje:mary_gilmore"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/81302-10_Dollars-2016-2021_Issue-Australia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

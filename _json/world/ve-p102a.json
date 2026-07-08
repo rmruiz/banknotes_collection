@@ -1,0 +1,41 @@
+{
+  "id": "ve-p102a",
+  "pick_number": "P-102a",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_rodriguez",
+    "fauna:sapito_rayado",
+    "lugar:parque_nacional_henri_pittier"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/91198-5_Bol%C3%ADvares-2018-2020_Currency_Reform_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ke-p55a",
+  "pick_number": "P-55a",
+  "country": {
+    "en": "Kenya",
+    "es": "Kenia"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Chelines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "construccion:kicc",
+    "personaje:jomo_kenyatta",
+    "fauna:leon",
+    "fauna:jirafa",
+    "fauna:elefante"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/104354-500_Shillings-2019-2023_Issue-Kenia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

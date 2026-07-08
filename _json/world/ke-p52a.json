@@ -1,0 +1,41 @@
+{
+  "id": "ke-p52a",
+  "pick_number": "P-52a",
+  "country": {
+    "en": "Kenya",
+    "es": "Kenia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Chelines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "construccion:kicc",
+    "personaje:jomo_kenyatta",
+    "actividad:energia_renovable"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/104351-50_Shillings-2019-2020_Issue-Kenia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ve-p100d",
+  "pick_number": "P-100d",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "fauna:cardenalito",
+    "lugar:parque_nacional_el_avila"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/105317-100000_Bol%C3%ADvares-2007-2017_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

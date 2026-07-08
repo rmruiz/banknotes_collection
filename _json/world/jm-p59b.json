@@ -1,0 +1,41 @@
+{
+  "id": "jm-p59b",
+  "pick_number": "P-59b",
+  "country": {
+    "en": "Jamaica",
+    "es": "Jamaica"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dólar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1976,
+  "signatures": [],
+  "themes": [
+    "personaje:alexander_bustamante",
+    "simbolo:escudo_de_jamaica",
+    "transporte:barco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7485-1_Dollar-1976_1977_ND_Issue-Jamaica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ar-ps2317a",
+  "pick_number": "P-S2317a",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Pesos",
+    "subtype": "Bonos Provinciales",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "personaje:dardo_rocha"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/49610-2_Pesos-1985_-_Ediciones_Especiales_-_Bonos_Provinciales-Argentina",
+    "group": "1985 - Ediciones Especiales - Bonos Provinciales"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

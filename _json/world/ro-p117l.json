@@ -1,0 +1,41 @@
+{
+  "id": "ro-p117l",
+  "pick_number": "P-117l",
+  "country": {
+    "en": "Romania",
+    "es": "Rumania"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Leu",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:nicolae_iorga",
+    "flora:genciana",
+    "construccion:monasterio_de_curtea_de_arges"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/101157-1_Leu-2005-2025_Revaluation_Issue-Ruman%C3%ADa",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mn-p66d",
+  "pick_number": "P-66d",
+  "country": {
+    "en": "Mongolia",
+    "es": "Mongolia"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Tugrik - Tögrög",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:genghis_khan",
+    "simbolo:soyombo",
+    "transporte:carreta",
+    "construccion:yurta"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/54374-500_T%C3%B6gr%C3%B6g-2000-2020_Issue-Mongolia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ph-p144a",
+  "pick_number": "P-144a",
+  "country": {
+    "en": "Philippines",
+    "es": "Filipinas"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Piso",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1969,
+  "signatures": [],
+  "themes": [
+    "personaje:apolinario_mabini",
+    "construccion:iglesia_de_barasoain"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10210-10_Piso-1969_ND_Pilipino_Issue_Bangko_Sentral_ng_Pilipinas-Filipinas",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

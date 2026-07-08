@@ -1,0 +1,41 @@
+{
+  "id": "sy-p115a",
+  "pick_number": "P-115a",
+  "country": {
+    "en": "Syria",
+    "es": "Siria"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "construccion:opera_de_damasco",
+    "arte:mosaico",
+    "arte:tablilla_ugarit"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/51815-500_Syrian_Pounds-2009-2021_Issue-Siria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

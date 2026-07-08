@@ -1,0 +1,41 @@
+{
+  "id": "mm-p74b",
+  "pick_number": "P-74b",
+  "country": {
+    "en": "Myanmar",
+    "es": "Birmania"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Kyats",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1996,
+  "signatures": [],
+  "themes": [
+    "simbolo:chinthe",
+    "actividad:tallado_de_piedra",
+    "construccion:pagoda"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/19424-100_Kyats-1990-1998_ND_Issue-Myanmar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

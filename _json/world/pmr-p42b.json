@@ -1,0 +1,40 @@
+{
+  "id": "pmr-p42b",
+  "pick_number": "P-42b",
+  "country": {
+    "en": "Transnistria",
+    "es": "Transnistria"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Rublo",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "personaje:alexander_suvorov",
+    "construccion:monumento"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/48389-1_Ruble-2007-2025_Issue-Transnistria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

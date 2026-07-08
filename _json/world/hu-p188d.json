@@ -1,0 +1,40 @@
+{
+  "id": "hu-p188d",
+  "pick_number": "P-188d",
+  "country": {
+    "en": "Hungary",
+    "es": "Hungría"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [],
+  "themes": [
+    "personaje:ferenc_rakoczi_ii",
+    "construccion:castillo_de_sarospatak"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/17230-500_Forint-2001-2008_Without_Omron_Rings_Issue_-_Hungarian_National-Hungr%C3%ADa",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

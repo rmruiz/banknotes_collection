@@ -1,0 +1,41 @@
+{
+  "id": "ch-p77ab3",
+  "pick_number": "P-77Ab.3",
+  "country": {
+    "en": "Switzerland",
+    "es": "Suiza"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "simbolo:mano",
+    "lugar:montanas",
+    "construccion:barreras_contra_avalanchas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/127882-100_FrankenFrancsFranchi-2015-2020_Issue-Suiza",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

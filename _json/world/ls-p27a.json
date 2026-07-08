@@ -1,0 +1,43 @@
+{
+  "id": "ls-p27a",
+  "pick_number": "P-27a",
+  "country": {
+    "en": "Lesotho",
+    "es": "Lesotho"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Lotis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "rey:moshoeshoe_ii",
+    "rey:letsie_iii",
+    "rey:moshoeshoe_i",
+    "construccion:choza_basotho",
+    "simbolo:sombrero_basotho"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/136323-20_Maloti-2010-2022_Issue-Lesotho",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

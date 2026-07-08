@@ -1,0 +1,41 @@
+{
+  "id": "mx-p134b2",
+  "pick_number": "P-134b.2",
+  "country": {
+    "en": "Mexico",
+    "es": "México"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "personaje:sor_juana_ines_de_la_cruz",
+    "construccion:colegio_de_san_ildefonso",
+    "fauna:mariposa_monarca"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/137215-100_Pesos-2017-2023_Historical_Identity_and_Natural_Heritage_Issue-M%C3%A9xico",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

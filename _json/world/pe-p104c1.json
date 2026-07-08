@@ -1,0 +1,40 @@
+{
+  "id": "pe-p104c1",
+  "pick_number": "P-104c.1",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Soles de Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1974,
+  "signatures": [],
+  "themes": [
+    "personaje:nicolas_de_pierola",
+    "construccion:casa_nacional_de_moneda"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/48769-500_Soles_de_Oro-1969-1974_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

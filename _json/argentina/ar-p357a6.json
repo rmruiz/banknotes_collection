@@ -1,0 +1,40 @@
+{
+  "id": "ar-p357a6",
+  "pick_number": "P-357a.6",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "Segunda serie",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:julio_argentino_roca",
+    "evento:conquista_del_desierto"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/103180-100_Pesos-Edici%C3%B3n_2002-2017_ND_Pesos-Argentina",
+    "group": "Edición 2002-2017 (ND) \"Pesos\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

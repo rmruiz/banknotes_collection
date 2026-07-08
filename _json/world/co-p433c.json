@@ -1,0 +1,40 @@
+{
+  "id": "co-p433c",
+  "pick_number": "P-433c",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Pesos Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "evento:paso_del_paramo_de_pisba"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/50539-2000_Pesos_oro-1986-1993_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

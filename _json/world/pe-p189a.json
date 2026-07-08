@@ -1,0 +1,41 @@
+{
+  "id": "pe-p189a",
+  "pick_number": "P-189a",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Nuevos Soles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "personaje:abraham_valdelomar",
+    "construccion:huaca",
+    "arte:mascara"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/56264-50_Nuevos_Soles-2012_2013_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

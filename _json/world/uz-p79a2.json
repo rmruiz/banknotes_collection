@@ -1,0 +1,41 @@
+{
+  "id": "uz-p79a2",
+  "pick_number": "P-79a.2",
+  "country": {
+    "en": "Uzbekistan",
+    "es": "Uzbekistán"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Soms",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo",
+    "fauna:ave",
+    "construccion:palacio"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/12889-100_Som-1994-2019_Issue-Uzbekist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

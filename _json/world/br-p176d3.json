@@ -1,0 +1,40 @@
+{
+  "id": "br-p176d3",
+  "pick_number": "P-176d.3",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Cruzeiros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1964,
+  "signatures": [],
+  "themes": [
+    "personaje:barao_do_rio_branco",
+    "evento:conquista_do_amazonas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/52609-5_Cruzeiros-1962-1963_ND_Issue_Estampa_2A-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

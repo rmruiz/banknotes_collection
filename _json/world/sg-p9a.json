@@ -1,0 +1,39 @@
+{
+  "id": "sg-p9a",
+  "pick_number": "P-9a",
+  "country": {
+    "en": "Singapore",
+    "es": "Singapur"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dólar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1976,
+  "signatures": [],
+  "themes": [
+    "fauna:charran"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11134-1_Dollar-1976-1980_ND_Birds_Issue-Singapur",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

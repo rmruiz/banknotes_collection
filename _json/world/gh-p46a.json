@@ -1,0 +1,40 @@
+{
+  "id": "gh-p46a",
+  "pick_number": "P-46a",
+  "country": {
+    "en": "Ghana",
+    "es": "Ghana"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Cedis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "personaje:kwame_nkrumah",
+    "construccion:universidad"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/104027-5_Cedis-2019-2022_Issue-Ghana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

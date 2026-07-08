@@ -1,0 +1,40 @@
+{
+  "id": "pt-p174a6",
+  "pick_number": "P-174a.6",
+  "country": {
+    "en": "Portugal",
+    "es": "Portugal"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Escudos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1968,
+  "signatures": [],
+  "themes": [
+    "personaje:infanta_maria",
+    "construccion:palacio_de_sintra"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/56279-50_Escudos-1968-1982_Issue-Portugal",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

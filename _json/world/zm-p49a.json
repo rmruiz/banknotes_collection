@@ -1,0 +1,41 @@
+{
+  "id": "zm-p49a",
+  "pick_number": "P-49a",
+  "country": {
+    "en": "Zambia",
+    "es": "Zambia"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "fauna:aguila_pescadora",
+    "fauna:antilope",
+    "actividad:comercio"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/64224-2_Kwacha-2015-2021_Mark_for_the_Blind_Issue-Zambia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

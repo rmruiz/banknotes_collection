@@ -1,0 +1,41 @@
+{
+  "id": "cn-p895c",
+  "pick_number": "P-895c",
+  "country": {
+    "en": "China",
+    "es": "China"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Yuan",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1999,
+  "signatures": [],
+  "themes": [
+    "personaje:mao_zedong",
+    "simbolo:escudo_nacional",
+    "lugar:lago_del_oeste"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/57708-1_Yuan-1999_Mao_Zedong_issue-China",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "mm-p73b1",
+  "pick_number": "P-73b.1",
+  "country": {
+    "en": "Myanmar",
+    "es": "Birmania"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Kyats",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "simbolo:chinthe",
+    "actividad:orfebreria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/19423-50_Kyats-1990-1998_ND_Issue-Myanmar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

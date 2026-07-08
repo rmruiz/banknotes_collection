@@ -1,0 +1,40 @@
+{
+  "id": "ar-p291a2",
+  "pick_number": "P-291a.2",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "Peso Ley 18.188",
+    "alternatives": []
+  },
+  "year": 1972,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "lugar:ushuaia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/44470-100_Pesos-Edici%C3%B3n_1970-1973_ND_-_Pesos_Ley_18188-Argentina",
+    "group": "Edición 1970-1973 (ND) - \"Pesos Ley 18.188\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "muy malo"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

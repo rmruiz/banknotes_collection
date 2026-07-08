@@ -1,0 +1,41 @@
+{
+  "id": "mw-p64g",
+  "pick_number": "P-64g",
+  "country": {
+    "en": "Malawi",
+    "es": "Malaui"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "rey:philip_gomani_ii",
+    "fauna:elefante",
+    "lugar:parque_nacional_kasungu"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/123472-50_Kwacha-2014-2021_New_Blind_Features_Issue-Malawi",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

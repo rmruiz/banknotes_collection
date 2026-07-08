@@ -1,0 +1,42 @@
+{
+  "id": "kh-p64a",
+  "pick_number": "P-64a",
+  "country": {
+    "en": "Cambodia",
+    "es": "Camboya"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Rieles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:norodom_sihanouk",
+    "simbolo:escudo_de_camboya",
+    "actividad:cosecha",
+    "construccion:monumento_a_la_independencia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/48347-2000_Riels-2013_60_Years_of_Independence_Commemorative_Issue-Camboya",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

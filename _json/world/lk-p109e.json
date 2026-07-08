@@ -1,0 +1,40 @@
+{
+  "id": "lk-p109e",
+  "pick_number": "P-109e",
+  "country": {
+    "en": "Sri Lanka",
+    "es": "Sri Lanka"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "arte:mascara_ritual",
+    "actividad:danza"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2470-20_Rupees-1995-2006_Issue-Sri_Lanka",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

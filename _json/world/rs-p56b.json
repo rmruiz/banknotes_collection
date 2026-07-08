@@ -1,0 +1,40 @@
+{
+  "id": "rs-p56b",
+  "pick_number": "P-56b",
+  "country": {
+    "en": "Serbia",
+    "es": "Serbia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:stevan_mokranjac",
+    "arte:violin"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/51450-50_Dinara-2011-2016_Modified_Eagle_in_Arms_Issue-Serbia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

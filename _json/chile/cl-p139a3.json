@@ -1,0 +1,43 @@
+{
+  "id": "cl-p139a3",
+  "pick_number": "P-139a.3",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Escudos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1962,
+  "signatures": [
+    "Molina",
+    "Ibañez"
+  ],
+  "themes": [
+    "personaje:jose_manuel_balmaceda",
+    "evento:abrazo_de_maipu"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/50082-10_Escudos-1962-1975_ND_Issue-Chile",
+    "group": "1962-1975 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1962 - 1975",
+    "obs": "tamaño:grande"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

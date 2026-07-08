@@ -1,0 +1,41 @@
+{
+  "id": "ua-p116ac",
+  "pick_number": "P-116Ac",
+  "country": {
+    "en": "Ukraine",
+    "es": "Ucrania"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Grivna",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:volodimir_el_grande",
+    "lugar:kiev",
+    "construccion:ciudadela"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/55415-1_Hryvnia-Edici%C3%B3n_2003-2011-Ucrania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

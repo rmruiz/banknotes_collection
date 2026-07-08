@@ -1,0 +1,41 @@
+{
+  "id": "nz-p192a",
+  "pick_number": "P-192a",
+  "country": {
+    "en": "New Zealand",
+    "es": "Nueva Zelanda"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:kate_sheppard",
+    "flora:camelia",
+    "fauna:pato_azul_whio"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/63478-10_Dollars-2015-2023_Issue-Nueva_Zelanda",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

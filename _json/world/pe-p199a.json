@@ -1,0 +1,41 @@
+{
+  "id": "pe-p199a",
+  "pick_number": "P-199a",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Soles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "personaje:pedro_paulet",
+    "flora:orquidea",
+    "fauna:colibri_cola_de_espatula"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/131170-100_Soles-2019_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

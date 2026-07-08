@@ -1,0 +1,41 @@
+{
+  "id": "id-p162a",
+  "pick_number": "P-162a",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:tjut_meutia",
+    "actividad:danza_tifa",
+    "lugar:banda_neira"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/141888-1000_Rupiah-2022-2023_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

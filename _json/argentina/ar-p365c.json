@@ -1,0 +1,39 @@
+{
+  "id": "ar-p365c",
+  "pick_number": "P-365c",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Pesos",
+    "subtype": "Cuarta serie «Fauna Autóctona de la República Argentina»",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "fauna:yaguarete"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/121610-500_Pesos-2015-2020_ND_Issue-Argentina",
+    "group": "2015-2020 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "id-p156d",
+  "pick_number": "P-156d",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "personaje:idham_chalid",
+    "actividad:danza_gambyong",
+    "lugar:monte_bromo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/128523-5000_Rupiah-2016-2021_National_Heroes_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

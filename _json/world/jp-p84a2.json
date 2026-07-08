@@ -1,0 +1,40 @@
+{
+  "id": "jp-p84a2",
+  "pick_number": "P-84a.2",
+  "country": {
+    "en": "Japan",
+    "es": "Japón"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Sen",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1947,
+  "signatures": [],
+  "themes": [
+    "fauna:paloma",
+    "construccion:edificio_de_la_dieta"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7563-10_Sen-1946-1951_ND_Issue-Jap%C3%B3n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "zw-p86a",
+  "pick_number": "P-86a",
+  "country": {
+    "en": "Zimbabwe",
+    "es": "Zimbabue"
+  },
+  "denomination": {
+    "value": 20000000000,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2008,
+  "signatures": [],
+  "themes": [
+    "simbolo:rocas_equilibradas",
+    "construccion:torre_de_gran_zimbabue",
+    "flora:palmera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/20408-20_Billion_Dollars-2007-2008_Chiremba_Rocks_Issue-Zimbabue",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "tt-p60a",
+  "pick_number": "P-60a",
+  "country": {
+    "en": "Trinidad and Tobago",
+    "es": "Trinidad y Tobago"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dolar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "fauna:ibis_escarlata",
+    "simbolo:escudo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/127077-1_Dollar-2019-2020_Polymer_Issue-Trinidad_y_Tobago",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "cu-pfx47c",
+  "pick_number": "P-FX47c",
+  "country": {
+    "en": "Cuba",
+    "es": "Cuba"
+  },
+  "denomination": {
+    "value": 3,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "personaje:che_guevara",
+    "construccion:monumento_a_ernesto_che_guevara",
+    "evento:batalla_de_santa_clara"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/72881-3_Pesos-Certificados_de_cambio_de_divisas-Cuba",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

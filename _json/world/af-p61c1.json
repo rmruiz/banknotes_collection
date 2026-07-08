@@ -1,0 +1,41 @@
+{
+  "id": "af-p61c1",
+  "pick_number": "P-61c.1",
+  "country": {
+    "en": "Afghanistan",
+    "es": "Afganistán"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Afghanis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "construccion:mezquita_azul_de_mazar_i_sharif",
+    "construccion:arco_de_paghman",
+    "fauna:paloma"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/en/banknotes/banknote/65-1000_Afghanis-1979-1991_Issue-Afghanistan",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

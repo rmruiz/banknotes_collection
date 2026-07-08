@@ -1,0 +1,41 @@
+{
+  "id": "cn-p904a2",
+  "pick_number": "P-904a.2",
+  "country": {
+    "en": "China",
+    "es": "China"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Yuan",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [],
+  "themes": [
+    "personaje:mao_zedong",
+    "simbolo:escudo_nacional",
+    "lugar:tres_gargantas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/57710-10_Yuan-2005_Mao_ZedongWith_Omron_Rings_issue-China_Rep%C3%BAblica_Popular",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

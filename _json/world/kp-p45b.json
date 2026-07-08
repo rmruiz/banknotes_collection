@@ -1,0 +1,41 @@
+{
+  "id": "kp-p45b",
+  "pick_number": "P-45b",
+  "country": {
+    "en": "North Korea",
+    "es": "Corea del Norte"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Wons",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "personaje:kim_il_sung",
+    "simbolo:escudo_nacional",
+    "construccion:casa_natal_de_mangyongdae"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7963-1000_Won-1992-2007_Issue-Corea_del_Norte",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

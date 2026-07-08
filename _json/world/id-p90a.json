@@ -1,0 +1,39 @@
+{
+  "id": "id-p90a",
+  "pick_number": "P-90a",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Sen",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1964,
+  "signatures": [],
+  "themes": [
+    "actividad:agricultura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16387-1_Sen-1964_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

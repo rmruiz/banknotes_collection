@@ -1,0 +1,41 @@
+{
+  "id": "pe-p100b2",
+  "pick_number": "P-100b.2",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Soles de Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1971,
+  "signatures": [],
+  "themes": [
+    "personaje:garcilaso_inca_de_la_vega",
+    "lugar:lago_titicaca",
+    "transporte:balsa_de_totora"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/48753-10_Soles_de_Oro-1969-1974_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

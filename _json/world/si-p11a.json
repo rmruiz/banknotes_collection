@@ -1,0 +1,40 @@
+{
+  "id": "si-p11a",
+  "pick_number": "P-11a",
+  "country": {
+    "en": "Slovenia",
+    "es": "Eslovenia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Tólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "personaje:primoz_trubar",
+    "construccion:iglesia_ursulina"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11252-10_Tolarjev-1992-2005_Issue-Eslovenia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

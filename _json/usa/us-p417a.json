@@ -1,0 +1,40 @@
+{
+  "id": "us-p417a",
+  "pick_number": "P-417a",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1953,
+  "signatures": [],
+  "themes": [
+    "personaje:abraham_lincoln",
+    "construccion:lincoln_memorial"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/34117-5_Dollars-1953_Silver_Certificates_-_Small_Size_Series_of_1953-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "1953 A",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

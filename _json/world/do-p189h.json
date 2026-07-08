@@ -1,0 +1,40 @@
+{
+  "id": "do-p189h",
+  "pick_number": "P-189h",
+  "country": {
+    "en": "Dominican Republic",
+    "es": "Rep. Dominicana"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "construccion:catedral_primada_de_america",
+    "construccion:basilica_de_la_altagracia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/150548-50_Pesos_Dominicanos-2014-2023_Issue-Rep%C3%BAblica_Dominicana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

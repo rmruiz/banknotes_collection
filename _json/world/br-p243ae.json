@@ -1,0 +1,40 @@
+{
+  "id": "br-p243ae",
+  "pick_number": "P-243Ae",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Real",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2003,
+  "signatures": [],
+  "themes": [
+    "simbolo:efigie_de_la_republica",
+    "fauna:colibri"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/19225-1_Real-1994-2012_ND_Real_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

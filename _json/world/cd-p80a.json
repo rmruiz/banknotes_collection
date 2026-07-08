@@ -1,0 +1,40 @@
+{
+  "id": "cd-p80a",
+  "pick_number": "P-80a",
+  "country": {
+    "en": "Democratic Republic of the Congo",
+    "es": "El Congo"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Céntimo",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1997,
+  "signatures": [],
+  "themes": [
+    "flora:cafe",
+    "lugar:volcan_nyiragongo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2863-1_Centime-1997_Issue-Congo_Rep%C3%BAblica_Democr%C3%A1tica_Kinshasa_-_Zaire",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

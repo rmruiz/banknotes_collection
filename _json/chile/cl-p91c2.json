@@ -1,0 +1,44 @@
+{
+  "id": "cl-p91c2",
+  "pick_number": "P-91c.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "1/2 Condor"
+    ]
+  },
+  "year": 1937,
+  "signatures": [
+    "Subercaseaux",
+    "Meyerholz"
+  ],
+  "themes": [
+    "personaje:bernardo_ohiggins"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60584-5_Pesos-1931-1947_Issues-Chile",
+    "group": "1931-1947 Issues"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1948 - 1958",
+    "obs": "con fecha 10-III-1937"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

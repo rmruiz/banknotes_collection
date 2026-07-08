@@ -1,0 +1,40 @@
+{
+  "id": "mg-p99a",
+  "pick_number": "P-99a",
+  "country": {
+    "en": "Madagascar",
+    "es": "Madagascar"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Ariary",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "construccion:rova_de_ambohimanga",
+    "lugar:tsingy_rouge"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/81437-500_Ariary-2017_ND_Madagascar_and_its_Riches_Issue-Madagascar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

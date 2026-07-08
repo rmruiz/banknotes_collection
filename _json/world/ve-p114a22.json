@@ -1,0 +1,41 @@
+{
+  "id": "ve-p114a22",
+  "pick_number": "P-114a.2.2",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 1000000,
+    "currency": "Bolivares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "evento:batalla_de_carabobo",
+    "construccion:arco_de_carabobo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/128301-1000000_Bol%C3%ADvares-2018-2020_Currency_Reform_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

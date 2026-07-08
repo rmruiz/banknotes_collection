@@ -1,0 +1,41 @@
+{
+  "id": "ws-p31e",
+  "pick_number": "P-31e",
+  "country": {
+    "en": "Samoa",
+    "es": "Samoa"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Talas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "personaje:malietoa_tanumafili_ii",
+    "construccion:iglesia",
+    "actividad:ceremonia_kava"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/147884-2_T%C4%81l%C4%81-1990_Commemorative_Issue-Samoa",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

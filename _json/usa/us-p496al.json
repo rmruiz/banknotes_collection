@@ -1,0 +1,40 @@
+{
+  "id": "us-p496al",
+  "pick_number": "P-496aL",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dolar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1995,
+  "signatures": [],
+  "themes": [
+    "personaje:george_washington",
+    "simbolo:gran_sello"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/102057-1_Dollar-1995_Federal_Reserve_Notes_-_Small_Size_1995_Series-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "1995",
+    "bank": "",
+    "zone": "San Francisco - California",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

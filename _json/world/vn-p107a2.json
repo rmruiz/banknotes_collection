@@ -1,0 +1,40 @@
+{
+  "id": "vn-p107a2",
+  "pick_number": "P-107a.2",
+  "country": {
+    "en": "Vietnam",
+    "es": "Vietnam"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Dongs",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:ho_chi_minh",
+    "actividad:industria_textil"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/32452-2000_%C4%90%E1%BB%93ng-1988-1991_Issue-Vietnam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

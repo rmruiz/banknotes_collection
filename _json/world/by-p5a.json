@@ -1,0 +1,39 @@
+{
+  "id": "by-p5a",
+  "pick_number": "P-5a",
+  "country": {
+    "en": "Belarus",
+    "es": "Bielorrusia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Rublo",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "fauna:lince"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/941-10_Rubles-1992-1994_Issue_Series_1992-Bielorrusia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

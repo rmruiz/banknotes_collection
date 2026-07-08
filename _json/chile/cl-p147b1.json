@@ -1,0 +1,43 @@
+{
+  "id": "cl-p147b1",
+  "pick_number": "P-147b.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Escudos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1967,
+  "signatures": [
+    "Cano",
+    "Molina"
+  ],
+  "themes": [
+    "personaje:jose_miguel_carrera",
+    "construccion:casa_de_los_carrera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16853-5000_Escudos-1967-1975_ND_Issue-Chile",
+    "group": "1967-1975 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1962 - 1975",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

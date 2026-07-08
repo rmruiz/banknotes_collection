@@ -1,0 +1,41 @@
+{
+  "id": "vn-p106a2",
+  "pick_number": "P-106a.2",
+  "country": {
+    "en": "Vietnam",
+    "es": "Vietnam"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Dongs",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:ho_chi_minh",
+    "fauna:elefante",
+    "actividad:tala_de_madera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/103390-1000_%C4%90%E1%BB%93ng-1988-1991_Issue-Vietnam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

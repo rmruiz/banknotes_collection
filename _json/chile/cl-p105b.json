@@ -1,0 +1,44 @@
+{
+  "id": "cl-p105b",
+  "pick_number": "P-105b",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "10 Condores"
+    ]
+  },
+  "year": 1948,
+  "signatures": [
+    "Trucco",
+    "Maschke"
+  ],
+  "themes": [
+    "personaje:arturo_prat"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/20249-100_Pesos-1940-1948_Issue-Chile",
+    "group": "1940-1948 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1940 - 1948",
+    "obs": "texto:nombre"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

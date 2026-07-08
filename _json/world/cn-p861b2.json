@@ -1,0 +1,40 @@
+{
+  "id": "cn-p861b2",
+  "pick_number": "P-861b.2",
+  "country": {
+    "en": "China",
+    "es": "China"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Fen",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1953,
+  "signatures": [],
+  "themes": [
+    "transporte:avion",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2615-2_Fen-1953_Second_Issue-China",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

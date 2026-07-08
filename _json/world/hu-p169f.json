@@ -1,0 +1,40 @@
+{
+  "id": "hu-p169f",
+  "pick_number": "P-169f",
+  "country": {
+    "en": "Hungary",
+    "es": "Hungría"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1975,
+  "signatures": [],
+  "themes": [
+    "personaje:gyorgy_dozsa",
+    "actividad:herreria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6422-20_Forint-1957-1989_Issue_-_Hungarian_National_Bank-Hungr%C3%ADa",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

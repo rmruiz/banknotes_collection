@@ -1,0 +1,40 @@
+{
+  "id": "mv-p18e",
+  "pick_number": "P-18e",
+  "country": {
+    "en": "Maldives",
+    "es": "Maldivas"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "transporte:dhoni",
+    "actividad:pesca"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/42977-5_Rufiyaa-1995-2013_Issue-Maldivas",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

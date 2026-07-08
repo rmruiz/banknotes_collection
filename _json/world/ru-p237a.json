@@ -1,0 +1,40 @@
+{
+  "id": "ru-p237a",
+  "pick_number": "P-237a",
+  "country": {
+    "en": "Russia",
+    "es": "Rusia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Rublos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "personaje:lenin",
+    "simbolo:escudo_union_sovietica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15805-1_Ruble-1991_Issue_-_State_Bank_note_USSR-Rusia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "cl-p151b2",
+  "pick_number": "P-151b.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1981,
+  "signatures": [
+    "Bardón",
+    "Molina"
+  ],
+  "themes": [
+    "personaje:arturo_prat",
+    "evento:escuadra_libertadora_del_peru"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60598-50_Pesos-1975-2009_Issue-Chile",
+    "group": "1975-2009 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1975 - 1981",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

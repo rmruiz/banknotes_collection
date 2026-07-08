@@ -1,0 +1,40 @@
+{
+  "id": "mn-p51a",
+  "pick_number": "P-51a",
+  "country": {
+    "en": "Mongolia",
+    "es": "Mongolia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Mongo",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2000,
+  "signatures": [],
+  "themes": [
+    "actividad:carrera_de_caballos",
+    "simbolo:soyombo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/9183-50_Mongo-1993_ND_1994-1998_Issue-Mongolia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

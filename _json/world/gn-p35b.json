@@ -1,0 +1,41 @@
+{
+  "id": "gn-p35b",
+  "pick_number": "P-35b",
+  "country": {
+    "en": "Guinea",
+    "es": "Guinea"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo",
+    "flora:banano",
+    "actividad:agricultura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/40064-100_Francs-1998-2012_New_ArmsWhite_Border_Issue-Guinea",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

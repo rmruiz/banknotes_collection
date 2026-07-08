@@ -1,0 +1,43 @@
+{
+  "id": "cl-p159a1",
+  "pick_number": "P-159a.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 20000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1998,
+  "signatures": [
+    "Massad",
+    "Carrasco"
+  ],
+  "themes": [
+    "personaje:andres_bello",
+    "construccion:universidad_de_chile"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2585-20000_Pesos-1997-2008_Issue-Chile",
+    "group": "1997-2008 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1998 - 2008",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

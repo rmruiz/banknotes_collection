@@ -1,0 +1,40 @@
+{
+  "id": "in-p113ff",
+  "pick_number": "P-113f.F",
+  "country": {
+    "en": "India",
+    "es": "India"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:mahatma_gandhi",
+    "construccion:estupa_de_sanchi"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/152747-200_Rupees-2016-2024_Gandhi_at_Center_Issue-India",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

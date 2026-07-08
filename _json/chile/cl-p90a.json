@@ -1,0 +1,43 @@
+{
+  "id": "cl-p90a",
+  "pick_number": "P-90a",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Peso",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1943,
+  "signatures": [
+    "Oyarzún",
+    "Meyerholz"
+  ],
+  "themes": [
+    "simbolo:sello_banco_central",
+    "fauna:condor"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/20225-1_Peso-1932-1943_Billete_Provisional_Issues-Chile",
+    "group": "1932-1943 Billete Provisional Issues"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1943",
+    "obs": "letra:a color:naranjo"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

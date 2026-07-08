@@ -1,0 +1,41 @@
+{
+  "id": "gr-p202a",
+  "pick_number": "P-202a",
+  "country": {
+    "en": "Greece",
+    "es": "Grecia"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Dracmas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1987,
+  "signatures": [],
+  "themes": [
+    "personaje:apolo",
+    "arte:discobolo_de_miron",
+    "construccion:templo_de_hera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/5826-1000_Drachmaes-1983-1987_Issue-Grecia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

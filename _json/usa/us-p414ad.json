@@ -1,0 +1,40 @@
+{
+  "id": "us-p414ad",
+  "pick_number": "P-414Ad",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1934,
+  "signatures": [],
+  "themes": [
+    "personaje:abraham_lincoln",
+    "construccion:lincoln_memorial"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/34101-5_Dollars-1934_Silver_Certificates_-_Small_Size_Series_of_1934-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "1934 D",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

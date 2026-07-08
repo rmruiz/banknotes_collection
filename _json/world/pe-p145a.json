@@ -1,0 +1,41 @@
+{
+  "id": "pe-p145a",
+  "pick_number": "P-145a",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 100000,
+    "currency": "Intis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1989,
+  "signatures": [],
+  "themes": [
+    "personaje:francisco_bolognesi",
+    "lugar:lago_titicaca",
+    "transporte:balsa_de_totora"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10115-100000_Intis-1985-91_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

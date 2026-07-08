@@ -1,0 +1,40 @@
+{
+  "id": "yu-p107a",
+  "pick_number": "P-107a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "personaje:nikola_tesla",
+    "simbolo:electricidad"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16040-1000_Dinara-Segunda_Edicion_1990-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

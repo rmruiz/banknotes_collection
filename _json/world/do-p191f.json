@@ -1,0 +1,42 @@
+{
+  "id": "do-p191f",
+  "pick_number": "P-191f",
+  "country": {
+    "en": "Dominican Republic",
+    "es": "Rep. Dominicana"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "personaje:patria_mirabal",
+    "personaje:minerva_mirabal",
+    "personaje:maria_teresa_mirabal",
+    "construccion:monumento_a_las_hermanas_mirabal"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/148592-200_Pesos-2014-2023_Issue-Rep%C3%BAblica_Dominicana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

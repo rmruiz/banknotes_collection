@@ -1,0 +1,44 @@
+{
+  "id": "cl-p165l",
+  "pick_number": "P-165l",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 20000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [
+    "Marcel",
+    "de Ramón"
+  ],
+  "themes": [
+    "personaje:andres_bello",
+    "lugar:salar_de_surire",
+    "fauna:flamenco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/160354-20000_Pesos-2009-2024_Issue-Chile",
+    "group": "2009-2021 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "2009 - 2024",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

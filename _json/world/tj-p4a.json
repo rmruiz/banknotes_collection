@@ -1,0 +1,40 @@
+{
+  "id": "tj-p4a",
+  "pick_number": "P-4a",
+  "country": {
+    "en": "Tajikistan",
+    "es": "Tayikistán"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Rublos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo_tayikistan",
+    "construccion:parlamento"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/12067-20_Rubles-1994_Rubl_Issue-Tayikist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

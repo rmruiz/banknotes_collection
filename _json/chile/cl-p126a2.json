@@ -1,0 +1,44 @@
+{
+  "id": "cl-p126a2",
+  "pick_number": "P-126a.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "5/100 Escudo"
+    ]
+  },
+  "year": 1960,
+  "signatures": [
+    "Figueroa",
+    "Mackenna"
+  ],
+  "themes": [
+    "personaje:anibal_pinto"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/20283-5_Cent%C3%A9simos-1960_ND_Provisional_Issue-Chile",
+    "group": "1960 ND Provisional Issue"
+  },
+  "commemorative": false,
+  "overprint": true,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1960 - 1961",
+    "obs": "5 Condores"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

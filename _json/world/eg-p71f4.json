@@ -1,0 +1,40 @@
+{
+  "id": "eg-p71f4",
+  "pick_number": "P-71f.4",
+  "country": {
+    "en": "Egypt",
+    "es": "Egipto"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "construccion:mezquita_sultan_hassan",
+    "construccion:templo_de_abu_simbel"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/115447-1_Pound-2013-2022_Enhanced_Security_Features_Issue-Egipto",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

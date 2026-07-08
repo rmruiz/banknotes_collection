@@ -1,0 +1,43 @@
+{
+  "id": "cl-p154g3",
+  "pick_number": "P-154g.3",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2008,
+  "signatures": [
+    "De Gregorio",
+    "Zurbuchen"
+  ],
+  "themes": [
+    "personaje:ignacio_carrera_pinto",
+    "construccion:monumento_heroes_de_la_concepcion"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60624-1000_Pesos-1975-2009_Issue-Chile",
+    "group": "1975-2009 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1978 - 2009",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

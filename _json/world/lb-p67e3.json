@@ -1,0 +1,40 @@
+{
+  "id": "lb-p67e3",
+  "pick_number": "P-67e.3",
+  "country": {
+    "en": "Lebanon",
+    "es": "Líbano"
+  },
+  "denomination": {
+    "value": 250,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "construccion:arco_romano",
+    "arte:ruinas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/8202-250_Livres-1964-1993_Issue-L%C3%ADbano",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

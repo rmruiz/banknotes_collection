@@ -1,0 +1,40 @@
+{
+  "id": "ec-p108b11",
+  "pick_number": "P-108b.1.1",
+  "country": {
+    "en": "Ecuador",
+    "es": "Ecuador"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Sucres",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1982,
+  "signatures": [],
+  "themes": [
+    "personaje:antonio_jose_de_sucre",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/4146-5_Sucres-1975-1983_Printer_ABNC_Issue-Ecuador",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

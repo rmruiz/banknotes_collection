@@ -1,0 +1,41 @@
+{
+  "id": "mo-p125a",
+  "pick_number": "P-125a",
+  "country": {
+    "en": "Macau (China)",
+    "es": "Macao (China)"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Patacas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "fauna:tigre",
+    "simbolo:zodiaco_chino",
+    "construccion:templo_a_ma"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/147879-10_Patacas-2012-Present_Lunar_Year_Issues_Banco_da_China-Macao",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Año del Tigre (Chino)"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

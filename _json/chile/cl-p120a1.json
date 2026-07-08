@@ -1,0 +1,44 @@
+{
+  "id": "cl-p120a1",
+  "pick_number": "P-120a.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "1 Condor"
+    ]
+  },
+  "year": 1958,
+  "signatures": [
+    "Maschke",
+    "Herrera"
+  ],
+  "themes": [
+    "personaje:manuel_bulnes"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/50071-10_Pesos-1958-1959_ND_Issue-Chile",
+    "group": "1958-1959 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1958 - 1959",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

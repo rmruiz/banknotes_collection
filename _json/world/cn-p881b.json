@@ -1,0 +1,39 @@
+{
+  "id": "cn-p881b",
+  "pick_number": "P-881b",
+  "country": {
+    "en": "China",
+    "es": "China"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Jiao",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1980,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/68317-1_Ji%C7%8Eo-1980-1996_Issue-China",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

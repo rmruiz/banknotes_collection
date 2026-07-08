@@ -1,0 +1,41 @@
+{
+  "id": "co-p458d",
+  "pick_number": "P-458d",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:debora_arango",
+    "lugar:cano_cristales",
+    "fauna:cardenal"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/107537-2000_Pesos-2014-2023_New_Design_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

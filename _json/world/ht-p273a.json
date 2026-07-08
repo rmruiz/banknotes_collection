@@ -1,0 +1,41 @@
+{
+  "id": "ht-p273a",
+  "pick_number": "P-273a",
+  "country": {
+    "en": "Haiti",
+    "es": "Haití"
+  },
+  "denomination": {
+    "value": 25,
+    "currency": "Gurdes",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [],
+  "themes": [
+    "personaje:nicolas_geffrard",
+    "construccion:forteresse_des_platons",
+    "evento:bicentenario_independencia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6126-25_Gourdes-1999-2016_Issue-Hait%C3%AD",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

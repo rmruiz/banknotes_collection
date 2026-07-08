@@ -1,0 +1,42 @@
+{
+  "id": "kw-p13d",
+  "pick_number": "P-13d",
+  "country": {
+    "en": "Kuwait",
+    "es": "Kuwait"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dinar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "transporte:dhow",
+    "simbolo:escudo",
+    "flora:palmera",
+    "construccion:fortaleza"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/8044-1_Dinar-1968_Second_ND_Issue_Law_32_of_1968-Kuwait",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

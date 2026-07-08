@@ -1,0 +1,44 @@
+{
+  "id": "cl-p102a1",
+  "pick_number": "P-102a.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "1/2 Condor"
+    ]
+  },
+  "year": 1944,
+  "signatures": [
+    "Oyarzún",
+    "Maschke"
+  ],
+  "themes": [
+    "personaje:bernardo_ohiggins"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60587-5_Pesos-1940-1948_Issue-Chile",
+    "group": "1940-1948 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1948 - 1958",
+    "obs": "texto:19-IV-1944"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

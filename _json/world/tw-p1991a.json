@@ -1,0 +1,40 @@
+{
+  "id": "tw-p1991a",
+  "pick_number": "P-1991a",
+  "country": {
+    "en": "Taiwan",
+    "es": "Taiwán"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Nuevo Dólar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2000,
+  "signatures": [],
+  "themes": [
+    "personaje:sun_yat_sen",
+    "construccion:sun_yat_sen_memorial_hall"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/12045-100_New_Taiwan_Dollars-1999-2001_Issue-Taiw%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

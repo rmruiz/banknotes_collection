@@ -1,0 +1,40 @@
+{
+  "id": "uz-p61a22",
+  "pick_number": "P-61a.2.2",
+  "country": {
+    "en": "Uzbekistan",
+    "es": "Uzbekistán"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Som",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo",
+    "construccion:registan"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/159411-1_Som-Emisi%C3%B3n_de_1992-Uzbekist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

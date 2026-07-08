@@ -1,0 +1,41 @@
+{
+  "id": "sy-p108a",
+  "pick_number": "P-108a",
+  "country": {
+    "en": "Syria",
+    "es": "Siria"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1998,
+  "signatures": [],
+  "themes": [
+    "personaje:filip_el_arabe",
+    "construccion:teatro_bosra",
+    "transporte:tren"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11973-100_Syrian_Pounds-1997-1998_Issue-Siria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ar-p328a",
+  "pick_number": "P-328a",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Australes",
+    "subtype": "Austral",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:nicolas_avellaneda",
+    "arte:efigie_del_progreso"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/483-500_Australes-Edici%C3%B3n_1985-1991_ND_Austral-Argentina",
+    "group": "Edición 1985-1991 (ND) \"Austral\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

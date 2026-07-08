@@ -1,0 +1,40 @@
+{
+  "id": "ar-p356a7",
+  "pick_number": "P-356a.7",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "Segunda serie",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:domingo_faustino_sarmiento",
+    "construccion:casa_de_gobierno"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/68702-50_Pesos-Edici%C3%B3n_2002-2017_ND_Pesos-Argentina",
+    "group": "Edición 2002-2017 (ND) \"Pesos\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "by-p4a1",
+  "pick_number": "P-4a.1",
+  "country": {
+    "en": "Belarus",
+    "es": "Bielorrusia"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Rublo",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "fauna:lobo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/940-5_Rubles-1992-1994_Issue_Series_1992-Bielorrusia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

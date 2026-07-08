@@ -1,0 +1,40 @@
+{
+  "id": "th-p136b3",
+  "pick_number": "P-136b.3",
+  "country": {
+    "en": "Thailand",
+    "es": "Tailandia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Baht",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "rey:rama_x",
+    "transporte:barco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/136532-50_Baht-2018_Issue_Maha_Vajiralongkorn-Tailandia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

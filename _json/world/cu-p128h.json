@@ -1,0 +1,40 @@
+{
+  "id": "cu-p128h",
+  "pick_number": "P-128h",
+  "country": {
+    "en": "Cuba",
+    "es": "Cuba"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Peso",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_marti",
+    "evento:entrada_a_la_habana"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/133863-1_Peso-2004-2022_Issue-Cuba",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

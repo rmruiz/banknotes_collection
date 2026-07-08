@@ -1,0 +1,40 @@
+{
+  "id": "kh-p53a",
+  "pick_number": "P-53a",
+  "country": {
+    "en": "Cambodia",
+    "es": "Camboya"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Rieles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2001,
+  "signatures": [],
+  "themes": [
+    "construccion:monumento_a_la_independencia",
+    "construccion:escuela"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/136617-100_Riels-2001-2014_Issue-Camboya",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

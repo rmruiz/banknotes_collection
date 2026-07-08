@@ -1,0 +1,39 @@
+{
+  "id": "th-p139a3",
+  "pick_number": "P-139a.3",
+  "country": {
+    "en": "Thailand",
+    "es": "Tailandia"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Baht",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "rey:rama_x"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/136541-1000_Baht-2018_Issue_Maha_Vajiralongkorn-Tailandia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

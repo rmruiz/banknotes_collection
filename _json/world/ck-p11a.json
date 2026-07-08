@@ -1,0 +1,42 @@
+{
+  "id": "ck-p11a",
+  "pick_number": "P-11a",
+  "country": {
+    "en": "Cook Islands",
+    "es": "Islas Cook"
+  },
+  "denomination": {
+    "value": 3,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "personaje:ina",
+    "fauna:tiburon",
+    "arte:tiki",
+    "transporte:canoa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/130040-3_Dollars-2021_Polymer_Issue-Islas_Cook",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

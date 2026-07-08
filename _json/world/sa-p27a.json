@@ -1,0 +1,41 @@
+{
+  "id": "sa-p27a",
+  "pick_number": "P-27a",
+  "country": {
+    "en": "Saudi Arabia",
+    "es": "Arabia Saudí"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Riyals",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1999,
+  "signatures": [],
+  "themes": [
+    "rey:abdulaziz_ibn_saud",
+    "construccion:mezquita_del_profeta",
+    "evento:centenario_del_reino"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10703-20_Riyals-AH14191999_Centennial_of_Kingdom_Commemorative_Issue-Arabia_Saud%C3%AD",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

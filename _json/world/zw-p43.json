@@ -1,0 +1,40 @@
+{
+  "id": "zw-p43",
+  "pick_number": "P-43",
+  "country": {
+    "en": "Zimbabwe",
+    "es": "Zimbabue"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "simbolo:rocas_equilibradas",
+    "fauna:pez"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/13576-500_Dollars-2006-2008_Emergency_Bearer_Checks_Issue-Zimbabue",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

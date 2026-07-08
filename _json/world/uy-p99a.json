@@ -1,0 +1,41 @@
+{
+  "id": "uy-p99a",
+  "pick_number": "P-99a",
+  "country": {
+    "en": "Uruguay",
+    "es": "Uruguay"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:damaso_antonio_larranaga",
+    "construccion:biblioteca_nacional",
+    "fauna:ave"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/67731-2000_Pesos_Uruguayos-2014-2020_Issue-Uruguay",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

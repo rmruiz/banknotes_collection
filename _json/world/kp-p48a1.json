@@ -1,0 +1,40 @@
+{
+  "id": "kp-p48a1",
+  "pick_number": "P-48a.1",
+  "country": {
+    "en": "North Korea",
+    "es": "Corea del Norte"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Wons",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [],
+  "themes": [
+    "flora:magnolia",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7960-200_Won-2005_Issue-Corea_del_Norte",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

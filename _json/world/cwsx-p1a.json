@@ -1,0 +1,40 @@
+{
+  "id": "cwsx-p1a",
+  "pick_number": "P-1a",
+  "country": {
+    "en": "Curaçao and Sint Maarten",
+    "es": "Curazao y San Martín"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Florin Caribeño",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2025,
+  "signatures": [],
+  "themes": [
+    "fauna:pez_angel",
+    "construccion:faro"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/169819-10_Gulden-2025_Issue-Cura%C3%A7ao_y_Sint_Maarten",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "mk-p14i",
+  "pick_number": "P-14i",
+  "country": {
+    "en": "North Macedonia",
+    "es": "Macedonia del Norte"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Denares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "fauna:pavo_real",
+    "arte:mosaico"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/42944-10_Denari-1996-2018_Issue-Macedonia_del_Norte",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "bd-p6ck",
+  "pick_number": "P-6Ck",
+  "country": {
+    "en": "Bangladesh",
+    "es": "Bangladesh"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Taka",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2007,
+  "signatures": [],
+  "themes": [
+    "construccion:shaheed_minar",
+    "fauna:doyel"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/18329-2_Taka-ND_1972-2001_2002-2018_Government_Issues-Banglad%C3%A9s",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

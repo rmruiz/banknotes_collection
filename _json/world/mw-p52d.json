@@ -1,0 +1,40 @@
+{
+  "id": "mw-p52d",
+  "pick_number": "P-52d",
+  "country": {
+    "en": "Malawi",
+    "es": "Malaui"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "personaje:john_chilembwe",
+    "actividad:pesca"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/26912-20_Kwacha-2004-2011_Issue-Malawi",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

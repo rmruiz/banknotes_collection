@@ -1,0 +1,45 @@
+{
+  "id": "cl-p117a2",
+  "pick_number": "P-117a.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "500 Condores"
+    ]
+  },
+  "year": 1951,
+  "signatures": [
+    "Maschke",
+    "Herrera"
+  ],
+  "themes": [
+    "personaje:manuel_antonio_tocornal",
+    "evento:batalla_de_rancagua"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16934-5000_Pesos-1947-1959_ND_Issue-Chile",
+    "group": "1947-1959 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1947 - 1959",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

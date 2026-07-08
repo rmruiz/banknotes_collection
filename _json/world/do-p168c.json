@@ -1,0 +1,40 @@
+{
+  "id": "do-p168c",
+  "pick_number": "P-168c",
+  "country": {
+    "en": "Dominican Republic",
+    "es": "Rep. Dominicana"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pesos Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2003,
+  "signatures": [],
+  "themes": [
+    "personaje:matias_ramon_mella",
+    "construccion:altar_de_la_patria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/35707-10_Pesos_Oro-2001-2004_Printer_DLR_Issue-Rep%C3%BAblica_Dominicana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

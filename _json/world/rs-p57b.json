@@ -1,0 +1,40 @@
+{
+  "id": "rs-p57b",
+  "pick_number": "P-57b",
+  "country": {
+    "en": "Serbia",
+    "es": "Serbia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:nikola_tesla",
+    "simbolo:formula_tesla"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/51451-100_Dinara-2011-2016_Modified_Eagle_in_Arms_Issue-Serbia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "pe-p102c3",
+  "pick_number": "P-102c.3",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Soles de Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1974,
+  "signatures": [],
+  "themes": [
+    "personaje:hipolito_unanue",
+    "construccion:iglesia_de_la_caridad"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10079-100_Soles_de_Oro-1969-1974_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

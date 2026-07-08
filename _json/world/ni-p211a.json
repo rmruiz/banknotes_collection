@@ -1,0 +1,41 @@
+{
+  "id": "ni-p211a",
+  "pick_number": "P-211a",
+  "country": {
+    "en": "Nicaragua",
+    "es": "Nicaragua"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Córdobas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "construccion:mercado_de_artesanias_masaya",
+    "arte:marimba",
+    "actividad:ballet_folclorico"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/63695-50_C%C3%B3rdobas-2014_Issue_2015-2019-Nicaragua",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

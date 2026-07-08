@@ -1,0 +1,41 @@
+{
+  "id": "jp-p104f",
+  "pick_number": "P-104f",
+  "country": {
+    "en": "Japan",
+    "es": "Japón"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Yenes",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:hideyo_noguchi",
+    "lugar:monte_fuji",
+    "flora:flor_de_cerezo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/110363-1000_Yen-2004-2014_ND_Issue-Jap%C3%B3n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

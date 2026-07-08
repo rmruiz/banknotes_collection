@@ -1,0 +1,40 @@
+{
+  "id": "mm-p70b21r",
+  "pick_number": "P-70b.2.1r",
+  "country": {
+    "en": "Myanmar",
+    "es": "Birmania"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Kyats",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1997,
+  "signatures": [],
+  "themes": [
+    "simbolo:chinthe",
+    "actividad:chinlone"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/133369-5_Kyats-1990-1998_ND_Issue-Myanmar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

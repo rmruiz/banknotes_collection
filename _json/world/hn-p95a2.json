@@ -1,0 +1,40 @@
+{
+  "id": "hn-p95a2",
+  "pick_number": "P-95a.2",
+  "country": {
+    "en": "Honduras",
+    "es": "Honduras"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Lempiras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2008,
+  "signatures": [],
+  "themes": [
+    "personaje:dionisio_de_herrera",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/23901-20_Lempiras-2008_20_Lempiras_Polymer_Issue-Honduras",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

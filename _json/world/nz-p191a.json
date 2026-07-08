@@ -1,0 +1,41 @@
+{
+  "id": "nz-p191a",
+  "pick_number": "P-191a",
+  "country": {
+    "en": "New Zealand",
+    "es": "Nueva Zelanda"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:edmund_hillary",
+    "lugar:monte_cook",
+    "fauna:pinguino_hoiho"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/63477-5_Dollars-2015-2023_Issue-Nueva_Zelanda",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

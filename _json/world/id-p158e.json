@@ -1,0 +1,42 @@
+{
+  "id": "id-p158e",
+  "pick_number": "P-158e",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 20000,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:sam_ratulangi",
+    "actividad:danza_gong",
+    "flora:orquidea",
+    "fauna:tortuga"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/134363-20000_Rupiah-2016-2021_National_Heroes_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

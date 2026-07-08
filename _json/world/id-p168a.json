@@ -1,0 +1,42 @@
+{
+  "id": "id-p168a",
+  "pick_number": "P-168a",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 100000,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:sukarno",
+    "personaje:mohammad_hatta",
+    "actividad:danza_topeng_betawi",
+    "lugar:raja_ampat"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/141882-100000_Rupiah-2022-2023_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

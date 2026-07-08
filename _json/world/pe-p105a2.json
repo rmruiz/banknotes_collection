@@ -1,0 +1,41 @@
+{
+  "id": "pe-p105a2",
+  "pick_number": "P-105a.2",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Soles de Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1970,
+  "signatures": [],
+  "themes": [
+    "personaje:miguel_grau",
+    "personaje:francisco_bolognesi",
+    "construccion:machu_picchu"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/48770-1000_Soles_de_Oro-1969-1974_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

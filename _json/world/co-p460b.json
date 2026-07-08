@@ -1,0 +1,41 @@
+{
+  "id": "co-p460b",
+  "pick_number": "P-460b",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "personaje:virginia_gutierrez_de_pineda",
+    "lugar:amazonas",
+    "transporte:canoa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/95860-10000_Pesos-2014-2020_New_Design_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

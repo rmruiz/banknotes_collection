@@ -1,0 +1,43 @@
+{
+  "id": "cl-p135ab2",
+  "pick_number": "P-135Ab.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Escudo",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1962,
+  "signatures": [
+    "Massad",
+    "Ibañez"
+  ],
+  "themes": [
+    "personaje:arturo_prat",
+    "evento:fundacion_de_santiago"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2558-1_Escudo-1962-1975_ND_Issue-Chile",
+    "group": "1962-1975 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1962 - 1975",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

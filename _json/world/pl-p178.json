@@ -1,0 +1,41 @@
+{
+  "id": "pl-p178",
+  "pick_number": "P-178",
+  "country": {
+    "en": "Poland",
+    "es": "Polonia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Zlotys",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "personaje:juan_pablo_ii",
+    "construccion:catedral",
+    "simbolo:llaves_papales"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/3651-50_Z%C5%82otych-2006%7EToday_-_Third_Republic_Collector_banknotes-Polonia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Juan Pablo II"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

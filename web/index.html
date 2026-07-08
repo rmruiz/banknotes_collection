@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colección de billetes</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💵</text></svg>">
+  <link rel="stylesheet" href="pico.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container-fluid">
+    <header id="top">
+      <div id="title-row">
+        <h1>💵 Colección de billetes</h1>
+        <div id="top-actions">
+          <a id="alert-link" href="problemas.html" title="Ver problemas detectados" hidden>
+            ⚠️ <span id="alert-count"></span>
+          </a>
+          <button id="lang-toggle" title="Switch to English">🇬🇧</button>
+        </div>
+      </div>
+      <input type="search" id="q" placeholder="Buscar en todos los campos… (país, pick, moneda, año, firmas…)"
+             autocomplete="off" autofocus>
+      <div id="meta">
+        <span id="count"></span>
+        <div id="controls">
+          <button id="new-note">➕ Nuevo</button>
+          <button id="rebuild" title="Re-escanea las fotos del disco y regenera los datos de la tabla">🔄 Recargar datos</button>
+          <details class="dropdown" id="cols-dd">
+            <summary>Columnas</summary>
+            <ul id="cols-menu"></ul>
+          </details>
+          <label id="imgsize-label">Fotos
+            <select id="imgsize">
+              <option value="1" selected>1x</option>
+              <option value="2">2x</option>
+              <option value="3">3x</option>
+            </select>
+          </label>
+          <label id="perpage-label">Por página
+            <select id="perpage">
+              <option value="25" selected>25</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <div class="table-wrap">
+      <table id="tbl">
+        <thead>
+          <tr>
+            <th data-sort="pick">Pick</th>
+            <th data-col="id" data-sort="id">ID</th>
+            <th data-col="pais" data-sort="pais">País</th>
+            <th data-col="monto" data-sort="valor" class="num">Monto</th>
+            <th data-col="moneda" data-sort="moneda">Moneda</th>
+            <th data-col="denominacion" data-sort="denominacion">Moneda Full</th>
+            <th data-col="subtipo" data-sort="subtipo">Subtipo</th>
+            <th data-col="alternativas" data-sort="alternativas">Otra moneda</th>
+            <th data-col="anio" data-sort="anio" class="num">Año</th>
+            <th data-col="firmas" data-sort="firmas">Firmas</th>
+            <th data-col="temas" data-sort="temas">Temas</th>
+            <th data-col="vigencia" data-sort="vigencia">Vigencia</th>
+            <th data-col="obs" data-sort="obs">Observaciones</th>
+            <th data-col="serie" data-sort="serie">Serie</th>
+            <th data-col="banco" data-sort="banco">Banco</th>
+            <th data-col="zona" data-sort="zona">Zona</th>
+            <th data-col="serial" data-sort="serial">N° de serie</th>
+            <th data-col="condicion" data-sort="condicion">Condición</th>
+            <th data-col="grupo" data-sort="grupo">Grupo Colnect</th>
+            <th data-col="conmemorativo">Conmemorativo</th>
+            <th data-col="remarcado">Remarcado</th>
+            <th data-col="front">Front</th>
+            <th data-col="back">Back</th>
+            <th data-col="full">Full</th>
+            <th data-col="colnect">Colnect</th>
+            <th data-col="verif">Verificado</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+
+    <nav id="pager" aria-label="Paginación"></nav>
+  </main>
+
+  <dialog id="modal">
+    <article>
+      <header>
+        <span id="modal-title"></span>
+        <button id="modal-close" aria-label="Cerrar">✕</button>
+      </header>
+      <div id="modal-body"><img id="modal-img" alt=""></div>
+    </article>
+  </dialog>
+
+  <dialog id="new-dialog">
+    <article>
+      <header>
+        <span id="new-title">Nuevo billete</span>
+        <button id="new-close" aria-label="Cerrar">✕</button>
+      </header>
+      <form id="new-form">
+        <label id="new-pais-label">País
+          <input id="new-pais" list="paises-list" required autocomplete="off"
+                 placeholder="Chile, Perú, Estados Unidos…">
+        </label>
+        <datalist id="paises-list"></datalist>
+        <label id="new-pick-label">Pick number
+          <input id="new-pick" required autocomplete="off" placeholder="P-123a">
+        </label>
+        <button type="submit" id="new-submit">Crear</button>
+      </form>
+    </article>
+  </dialog>
+
+  <dialog id="detail">
+    <article>
+      <header>
+        <span id="detail-title"></span>
+        <img id="detail-flag" alt="" hidden>
+        <button id="detail-close" aria-label="Cerrar">✕</button>
+      </header>
+      <div id="detail-wrap">
+        <button id="detail-prev" class="arrow" aria-label="Anterior">‹</button>
+        <div id="detail-main">
+          <dl id="detail-body"></dl>
+          <div id="detail-imgs"></div>
+        </div>
+        <button id="detail-next" class="arrow" aria-label="Siguiente">›</button>
+      </div>
+    </article>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

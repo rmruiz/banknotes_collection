@@ -1,0 +1,41 @@
+{
+  "id": "lb-p69a",
+  "pick_number": "P-69a",
+  "country": {
+    "en": "Lebanon",
+    "es": "Líbano"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "construccion:ruinas_de_baalbek",
+    "construccion:banco_de_libano",
+    "simbolo:mapa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/8204-1000_Livres-1964-1993_Issue-L%C3%ADbano",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

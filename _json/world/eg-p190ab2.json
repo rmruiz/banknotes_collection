@@ -1,0 +1,39 @@
+{
+  "id": "eg-p190ab2",
+  "pick_number": "P-190Ab.2",
+  "country": {
+    "en": "Egypt",
+    "es": "Egipto"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Piastras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2002,
+  "signatures": [],
+  "themes": [
+    "arte:busto_de_nefertiti"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/104349-5_Piastres-2002-2006_Issue-Egipto",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

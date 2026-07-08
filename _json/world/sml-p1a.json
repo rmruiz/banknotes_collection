@@ -1,0 +1,40 @@
+{
+  "id": "sml-p1a",
+  "pick_number": "P-1a",
+  "country": {
+    "en": "Somaliland",
+    "es": "Somalilandia"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Chelines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "fauna:kudu",
+    "fauna:camello"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11332-5_Somaliland_Shillings-1994-2016_Issue-Somalilandia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

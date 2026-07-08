@@ -1,0 +1,40 @@
+{
+  "id": "mg-p100a",
+  "pick_number": "P-100a",
+  "country": {
+    "en": "Madagascar",
+    "es": "Madagascar"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Ariary",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "construccion:puente_kamoro",
+    "lugar:la_reina_del_isalo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/81438-1000_Ariary-2017_ND_Madagascar_and_its_Riches_Issue-Madagascar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

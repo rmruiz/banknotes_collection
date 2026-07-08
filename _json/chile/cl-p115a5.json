@@ -1,0 +1,45 @@
+{
+  "id": "cl-p115a5",
+  "pick_number": "P-115a.5",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "50 Condores"
+    ]
+  },
+  "year": 1947,
+  "signatures": [
+    "Maschke",
+    "Mackenna"
+  ],
+  "themes": [
+    "personaje:manuel_montt",
+    "evento:llegada_de_almagro"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/107372-500_Pesos-1947-1959_ND_Issue-Chile",
+    "group": "1947-1959 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1948 - 1958",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

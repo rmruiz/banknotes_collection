@@ -1,0 +1,41 @@
+{
+  "id": "br-p226b",
+  "pick_number": "P-226b",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Cruzeiros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "personaje:augusto_ruschi",
+    "fauna:colibri",
+    "flora:orquidea"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1764-500_Cruzeiros-1990_ND_Cruzeiro_Provisional_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": true,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

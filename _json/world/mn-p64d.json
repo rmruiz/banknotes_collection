@@ -1,0 +1,42 @@
+{
+  "id": "mn-p64d",
+  "pick_number": "P-64d",
+  "country": {
+    "en": "Mongolia",
+    "es": "Mongolia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Tugrik - Tögrög",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "personaje:sukhbaatar",
+    "simbolo:soyombo",
+    "fauna:caballo",
+    "lugar:estepa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/71942-50_T%C3%B6gr%C3%B6g-2000-2020_Issue-Mongolia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cl-p165i",
+  "pick_number": "P-165i",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 20000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [
+    "Marcel",
+    "Zurbuchen"
+  ],
+  "themes": [
+    "personaje:andres_bello",
+    "lugar:salar_de_surire",
+    "fauna:flamenco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/95591-20000_Pesos-2009-2021_Issue-Chile",
+    "group": "2009-2021 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "2009 - 2024",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "mz-p116",
+  "pick_number": "P-116",
+  "country": {
+    "en": "Mozambique",
+    "es": "Mozambique"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Escudos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1970,
+  "signatures": [],
+  "themes": [
+    "personaje:joao_de_azevedo_coutinho",
+    "transporte:barco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/9304-50_Escudos-1976_ND_Provisional_Issue-Mozambique",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

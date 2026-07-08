@@ -1,0 +1,43 @@
+{
+  "id": "ca-p112a",
+  "pick_number": "P-112a",
+  "country": {
+    "en": "Canada",
+    "es": "Canadá"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:john_a_macdonald",
+    "personaje:george_etienne_cartier",
+    "personaje:agnes_macphail",
+    "personaje:james_gladstone",
+    "simbolo:escudo_de_canada"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/79040-10_Dollars-2017_Canadas_150th_Anniversary_Commemorative_Issue-Canad%C3%A1",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

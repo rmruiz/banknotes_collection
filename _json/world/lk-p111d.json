@@ -1,0 +1,41 @@
+{
+  "id": "lk-p111d",
+  "pick_number": "P-111d",
+  "country": {
+    "en": "Sri Lanka",
+    "es": "Sri Lanka"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [],
+  "themes": [
+    "arte:jarron_ceremonial",
+    "fauna:loro",
+    "flora:hibisco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11072-100_Rupees-1995-2006_Issue-Sri_Lanka",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

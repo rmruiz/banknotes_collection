@@ -1,0 +1,40 @@
+{
+  "id": "no-p53a",
+  "pick_number": "P-53a",
+  "country": {
+    "en": "Norway",
+    "es": "Noruega"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Coronas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "construccion:faro",
+    "fauna:frailecillo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/89080-50_Kroner-2017-2019_VIII_Series_Issue-Noruega",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "pe-p198a",
+  "pick_number": "P-198a",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Soles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "personaje:maria_rostworowski",
+    "fauna:jaguar"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/140773-50_Soles-2019_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

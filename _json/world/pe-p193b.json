@@ -1,0 +1,40 @@
+{
+  "id": "pe-p193b",
+  "pick_number": "P-193b",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Soles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:raul_porras_barrenechea",
+    "construccion:huaca"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/117383-20_Soles-2015-2022_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

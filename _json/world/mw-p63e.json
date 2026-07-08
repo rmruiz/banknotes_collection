@@ -1,0 +1,40 @@
+{
+  "id": "mw-p63e",
+  "pick_number": "P-63e",
+  "country": {
+    "en": "Malawi",
+    "es": "Malaui"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "rey:mmbelwa_ii",
+    "construccion:machinga_teachers_college"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/109595-20_Kwacha-2014-2021_New_Blind_Features_Issue-Malawi",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

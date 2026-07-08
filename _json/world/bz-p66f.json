@@ -1,0 +1,45 @@
+{
+  "id": "bz-p66f",
+  "pick_number": "P-66f",
+  "country": {
+    "en": "Belize",
+    "es": "Belice"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "construccion:altun_ha",
+    "construccion:xunantunich",
+    "construccion:lubaantun",
+    "arte:estela_maya",
+    "fauna:tapir",
+    "simbolo:escudo_belice"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/106139-2_Dollars-2003-2020_Issue-Belize",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

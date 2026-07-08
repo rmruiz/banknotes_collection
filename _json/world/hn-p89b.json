@@ -1,0 +1,41 @@
+{
+  "id": "hn-p89b",
+  "pick_number": "P-89b",
+  "country": {
+    "en": "Honduras",
+    "es": "Honduras"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Lempira",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "personaje:lempira",
+    "simbolo:escudo_nacional",
+    "construccion:ruinas_de_copan"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/41030-1_Lempira-2004-2010_Issue-Honduras",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

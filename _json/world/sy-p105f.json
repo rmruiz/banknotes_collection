@@ -1,0 +1,40 @@
+{
+  "id": "sy-p105f",
+  "pick_number": "P-105f",
+  "country": {
+    "en": "Syria",
+    "es": "Siria"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "arte:mosaico",
+    "arte:mascara_ugarit"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11972-500_Syrian_Pounds-1976-1992_Issue-Siria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

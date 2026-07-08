@@ -1,0 +1,41 @@
+{
+  "id": "et-p48e",
+  "pick_number": "P-48e",
+  "country": {
+    "en": "Ethiopia",
+    "es": "Etiopía"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Birr",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2000,
+  "signatures": [],
+  "themes": [
+    "actividad:cesteria",
+    "transporte:tractor",
+    "actividad:agricultura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/41895-10_Birr-AD_1997-2017_Issue-Etiop%C3%ADa",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

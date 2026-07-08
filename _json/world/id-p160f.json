@@ -1,0 +1,42 @@
+{
+  "id": "id-p160f",
+  "pick_number": "P-160f",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 100000,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "personaje:sukarno",
+    "personaje:mohammad_hatta",
+    "actividad:danza_topeng_betawi",
+    "lugar:raja_ampat"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/137411-100000_Rupiah-2016-2021_National_Heroes_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "kz-p7a",
+  "pick_number": "P-7a",
+  "country": {
+    "en": "Kazakhstan",
+    "es": "Kazajistán"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Tenge",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1993,
+  "signatures": [],
+  "themes": [
+    "personaje:al_farabi",
+    "arte:ornamentos",
+    "construccion:mausoleo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7711-1_Tenge-1993-2004_Issue-Kazajst%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

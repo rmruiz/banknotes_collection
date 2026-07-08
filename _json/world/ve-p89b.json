@@ -1,0 +1,40 @@
+{
+  "id": "ve-p89b",
+  "pick_number": "P-89b",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2007,
+  "signatures": [],
+  "themes": [
+    "personaje:negro_primero",
+    "fauna:cachicamo_gigante"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/43935-5_Bol%C3%ADvares-2007-2017_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

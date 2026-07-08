@@ -1,0 +1,41 @@
+{
+  "id": "co-p462a",
+  "pick_number": "P-462a",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 50000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:gabriel_garcia_marquez",
+    "lugar:ciudad_perdida",
+    "fauna:colibri"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/69467-50000_Pesos-2014-2020_New_Design_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

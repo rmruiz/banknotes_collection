@@ -1,0 +1,40 @@
+{
+  "id": "pe-p114a",
+  "pick_number": "P-114a",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Soles de Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1976,
+  "signatures": [],
+  "themes": [
+    "personaje:tupac_amaru_ii",
+    "construccion:machu_picchu"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10088-100_Soles_de_Oro-1976-1985_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

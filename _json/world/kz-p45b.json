@@ -1,0 +1,41 @@
+{
+  "id": "kz-p45b",
+  "pick_number": "P-45b",
+  "country": {
+    "en": "Kazakhstan",
+    "es": "Kazajistán"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Tenge",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "fauna:aguila",
+    "simbolo:escudo",
+    "lugar:montana"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/71420-1000_Tenge-2014_Issue-Kazajst%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

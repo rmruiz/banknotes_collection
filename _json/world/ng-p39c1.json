@@ -1,0 +1,40 @@
+{
+  "id": "ng-p39c1",
+  "pick_number": "P-39c.1",
+  "country": {
+    "en": "Nigeria",
+    "es": "Nigeria"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Naira",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:alvan_ikoku",
+    "actividad:trabajo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/77786-10_Naira-2009-2022_Polymer_Issue-Nigeria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

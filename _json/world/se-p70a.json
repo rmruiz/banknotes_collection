@@ -1,0 +1,41 @@
+{
+  "id": "se-p70a",
+  "pick_number": "P-70a",
+  "country": {
+    "en": "Sweden",
+    "es": "Suecia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Coronas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:evert_taube",
+    "transporte:velero",
+    "lugar:costa_de_bohuslan"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/85048-50_Kronor-2015-2023_Issue-Suecia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

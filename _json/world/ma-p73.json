@@ -1,0 +1,41 @@
+{
+  "id": "ma-p73",
+  "pick_number": "P-73",
+  "country": {
+    "en": "Morocco",
+    "es": "Marruecos"
+  },
+  "denomination": {
+    "value": 25,
+    "currency": "Dirhams",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "rey:mohammed_vi",
+    "simbolo:monedas",
+    "evento:aniversario_dar_as_sikkah"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/43263-25_Dirhams-2012_25th_Anniversary_of_State_Printing_Works_Issue-Marruecos",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "pl-p142c2",
+  "pick_number": "P-142c.2",
+  "country": {
+    "en": "Poland",
+    "es": "Polonia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Zlotys",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:karol_swierczewski",
+    "simbolo:cruz_grunwald"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/68401-50_Z%C5%82otych-1974-1993_Great_Poles_Issue-Polonia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

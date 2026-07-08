@@ -1,0 +1,41 @@
+{
+  "id": "mz-p130c",
+  "pick_number": "P-130c",
+  "country": {
+    "en": "Mozambique",
+    "es": "Mozambique"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Meticales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1989,
+  "signatures": [],
+  "themes": [
+    "personaje:samora_machel",
+    "simbolo:escudo",
+    "evento:izamiento_de_bandera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/26090-100_Meticais-1983-1989_Issue-Mozambique",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "zm-p28a",
+  "pick_number": "P-28a",
+  "country": {
+    "en": "Zambia",
+    "es": "Zambia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1986,
+  "signatures": [],
+  "themes": [
+    "personaje:kenneth_kaunda",
+    "fauna:aguila_pescadora",
+    "simbolo:monumento_a_la_libertad"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/13490-50_Kwacha-1980-1986_ND_Issue-Zambia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

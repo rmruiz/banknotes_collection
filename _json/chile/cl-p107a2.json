@@ -1,0 +1,45 @@
+{
+  "id": "cl-p107a2",
+  "pick_number": "P-107a.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "100 Condores"
+    ]
+  },
+  "year": 1947,
+  "signatures": [
+    "Trucco",
+    "Maschke"
+  ],
+  "themes": [
+    "personaje:manuel_blanco_encalada",
+    "evento:fundacion_de_santiago"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/20251-1000_Pesos-1940-1948_Issue-Chile",
+    "group": "1940-1948 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1940 - 1948",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

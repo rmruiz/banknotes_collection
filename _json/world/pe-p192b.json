@@ -1,0 +1,40 @@
+{
+  "id": "pe-p192b",
+  "pick_number": "P-192b",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Soles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_abelardo_quinones",
+    "lugar:machu_picchu"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/129255-10_Soles-2015-2024_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

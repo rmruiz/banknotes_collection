@@ -1,0 +1,40 @@
+{
+  "id": "py-p221a",
+  "pick_number": "P-221a",
+  "country": {
+    "en": "Paraguay",
+    "es": "Paraguay"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Guaranies",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2002,
+  "signatures": [],
+  "themes": [
+    "personaje:francisco_solano_lopez",
+    "construccion:oratorio_virgen_asuncion"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10025-1000_Guaran%C3%ADes-2002_50th_Anniversary_of_Banco_Central_Commemorative_Issue-Paraguay",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

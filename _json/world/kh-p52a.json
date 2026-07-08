@@ -1,0 +1,41 @@
+{
+  "id": "kh-p52a",
+  "pick_number": "P-52a",
+  "country": {
+    "en": "Cambodia",
+    "es": "Camboya"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Rieles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2002,
+  "signatures": [],
+  "themes": [
+    "construccion:templo",
+    "transporte:barco",
+    "actividad:pesca"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2185-50_Riels-2001-2014_Issue-Camboya",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

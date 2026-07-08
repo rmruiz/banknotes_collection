@@ -1,0 +1,39 @@
+{
+  "id": "ar-p256a1",
+  "pick_number": "P-256a.1",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Centavos",
+    "subtype": "Moneda Nacional: Efigie del Progreso",
+    "alternatives": []
+  },
+  "year": 1948,
+  "signatures": [],
+  "themes": [
+    "arte:efigie_del_progreso"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/405-50_Centavos-1948-1951_ND_Ley_12962_del_27_de_Marzo_de_1947-Argentina",
+    "group": "1948-1951 (ND) Ley 12.962 del 27 de Marzo de 1947"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

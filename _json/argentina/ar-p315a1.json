@@ -1,0 +1,40 @@
+{
+  "id": "ar-p315a1",
+  "pick_number": "P-315a.1",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "Pesos Argentinos",
+    "alternatives": []
+  },
+  "year": 1983,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "lugar:ushuaia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/470-100_Pesos_Argentinos-Edici%C3%B3n_1983-1985_ND_Peso_Argentino-Argentina",
+    "group": "Edición 1983-1985 (ND) \"Peso Argentino\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "it-p112a1",
+  "pick_number": "P-112a.1",
+  "country": {
+    "en": "Italy",
+    "es": "Italia"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Liras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1984,
+  "signatures": [],
+  "themes": [
+    "personaje:alessandro_volta",
+    "construccion:tempio_voltiano"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/126226-10000_Lire-Edici%C3%B3n_1984_1985-Italia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

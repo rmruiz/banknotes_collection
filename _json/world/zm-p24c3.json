@@ -1,0 +1,41 @@
+{
+  "id": "zm-p24c3",
+  "pick_number": "P-24c.3",
+  "country": {
+    "en": "Zambia",
+    "es": "Zambia"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1986,
+  "signatures": [],
+  "themes": [
+    "personaje:kenneth_kaunda",
+    "fauna:aguila_pescadora",
+    "actividad:educacion"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/104555-2_Kwacha-1980-1986_ND_Issue-Zambia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

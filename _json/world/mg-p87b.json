@@ -1,0 +1,40 @@
+{
+  "id": "mg-p87b",
+  "pick_number": "P-87b",
+  "country": {
+    "en": "Madagascar",
+    "es": "Madagascar"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Ariary",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [],
+  "themes": [
+    "construccion:entrada_palacio_de_verano_de_la_reina",
+    "arte:aloalo_mahafaly"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/41416-200_Ariary-2004_Dated_Issue-Madagascar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

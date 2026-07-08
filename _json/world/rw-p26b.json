@@ -1,0 +1,40 @@
+{
+  "id": "rw-p26b",
+  "pick_number": "P-26b",
+  "country": {
+    "en": "Rwanda",
+    "es": "Ruanda"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1998,
+  "signatures": [],
+  "themes": [
+    "fauna:gorila_de_montana",
+    "construccion:museo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/67444-500_Francs-1998_Issue-Ruanda",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

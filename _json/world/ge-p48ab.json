@@ -1,0 +1,41 @@
+{
+  "id": "ge-p48ab",
+  "pick_number": "P-48Ab",
+  "country": {
+    "en": "Georgia",
+    "es": "Georgia"
+  },
+  "denomination": {
+    "value": 100000,
+    "currency": "Kuponi",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "simbolo:borjgali",
+    "simbolo:grifo",
+    "flora:vid"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/5370-100000_Kuponi-1993-1994_Griffin_Kuponi_Issue-Georgia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

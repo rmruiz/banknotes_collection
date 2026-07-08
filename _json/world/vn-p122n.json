@@ -1,0 +1,40 @@
+{
+  "id": "vn-p122n",
+  "pick_number": "P-122n",
+  "country": {
+    "en": "Vietnam",
+    "es": "Vietnam"
+  },
+  "denomination": {
+    "value": 100000,
+    "currency": "Dongs",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:ho_chi_minh",
+    "construccion:templo_de_la_literatura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/94963-100000_%C4%90%E1%BB%93ng-2003-2021_Polymer_Issue-Vietnam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

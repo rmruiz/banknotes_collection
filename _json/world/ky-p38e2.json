@@ -1,0 +1,40 @@
+{
+  "id": "ky-p38e2",
+  "pick_number": "P-38e.2",
+  "country": {
+    "en": "Cayman Islands",
+    "es": "Islas Caimán"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dólar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "fauna:pez"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/128386-1_Dollar-2010-2020_Issue-Islas_Caim%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

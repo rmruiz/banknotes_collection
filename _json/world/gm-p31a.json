@@ -1,0 +1,41 @@
+{
+  "id": "gm-p31a",
+  "pick_number": "P-31a",
+  "country": {
+    "en": "Gambia",
+    "es": "Gambia"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dalasis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:yahya_jammeh",
+    "fauna:abubilla",
+    "actividad:ganaderia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60084-5_Dalasis-2015_ND_President_Jammeh_Issue-Gambia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

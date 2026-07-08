@@ -1,0 +1,40 @@
+{
+  "id": "gw-p11a",
+  "pick_number": "P-11a",
+  "country": {
+    "en": "Guinea-Bissau",
+    "es": "Guinea-Bisáu"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "personaje:domingos_ramos",
+    "construccion:banco_central"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6056-100_Pesos-1990-1993_Issue-Guinea-Bissau",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

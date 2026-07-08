@@ -1,0 +1,41 @@
+{
+  "id": "md-p8h",
+  "pick_number": "P-8h",
+  "country": {
+    "en": "Moldova",
+    "es": "Moldavia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Leu",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "rey:stefan_cel_mare",
+    "construccion:monasterio_capriana",
+    "simbolo:escudo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/43113-1_Leu-1992-2013_Issue-Moldavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

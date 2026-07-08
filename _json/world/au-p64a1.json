@@ -1,0 +1,40 @@
+{
+  "id": "au-p64a1",
+  "pick_number": "P-64a.1",
+  "country": {
+    "en": "Australia",
+    "es": "Australia"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Dólares Australianos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "personaje:mary_reibey",
+    "personaje:john_flynn"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/125203-20_Dollars-2016-2021_Issue-Australia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "gr-p199a1",
+  "pick_number": "P-199a.1",
+  "country": {
+    "en": "Greece",
+    "es": "Grecia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Dracmas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1978,
+  "signatures": [],
+  "themes": [
+    "personaje:poseidon",
+    "personaje:bouboulina",
+    "transporte:velero"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/5823-50_Drachmai-1978_Drachmai_Issue-Grecia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

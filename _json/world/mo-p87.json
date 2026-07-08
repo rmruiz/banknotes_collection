@@ -1,0 +1,42 @@
+{
+  "id": "mo-p87",
+  "pick_number": "P-87",
+  "country": {
+    "en": "Macau (China)",
+    "es": "Macao (China)"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Patacas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "fauna:caballo",
+    "simbolo:zodiaco_chino",
+    "construccion:templo_a_ma",
+    "actividad:baile_del_leon"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/52454-10_Patacas-2012-_Present_Lunar_Year_Commemorative_Issue_BNU-Macao",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Año del Caballo"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

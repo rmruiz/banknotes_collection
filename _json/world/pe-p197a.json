@@ -1,0 +1,41 @@
+{
+  "id": "pe-p197a",
+  "pick_number": "P-197a",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Soles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_maria_arguedas",
+    "flora:flor_de_la_cantuta",
+    "fauna:condor"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/140772-20_Soles-2019_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

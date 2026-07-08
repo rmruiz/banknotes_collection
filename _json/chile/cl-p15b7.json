@@ -1,0 +1,43 @@
+{
+  "id": "cl-p15b7",
+  "pick_number": "P-15b.7",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Peso",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1919,
+  "signatures": [
+    "Zañartu",
+    "Magallanes"
+  ],
+  "themes": [
+    "simbolo:escudo_nacional",
+    "construccion:congreso_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2528-1_Peso-1898-1920_Issues-Chile",
+    "group": "1898-1920 Issues"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1898 - 1919",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

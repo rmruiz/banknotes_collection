@@ -1,0 +1,41 @@
+{
+  "id": "br-p229a",
+  "pick_number": "P-229a",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Cruzeiros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "simbolo:efigie_de_la_republica",
+    "evento:centenario_de_la_republica",
+    "arte:patria_pedro_bruno"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1766-200_Cruzeiros-1990-1993_ND_Regular_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

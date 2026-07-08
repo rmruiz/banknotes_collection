@@ -1,0 +1,41 @@
+{
+  "id": "fj-p115a",
+  "pick_number": "P-115a",
+  "country": {
+    "en": "Fiji",
+    "es": "Fiyi"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "fauna:loro_kulawai",
+    "fauna:iguana_crestada",
+    "flora:balaka"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/43258-5_Dollars-2012-2022_Fijian_Flora_Fauna-Fiyi",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "do-p193f",
+  "pick_number": "P-193f",
+  "country": {
+    "en": "Dominican Republic",
+    "es": "Rep. Dominicana"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "construccion:palacio_nacional",
+    "construccion:alcazar_de_colon"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/146952-1000_Pesos_Dominicanos-2014-2023_Issue-Rep%C3%BAblica_Dominicana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

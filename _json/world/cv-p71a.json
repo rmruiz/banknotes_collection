@@ -1,0 +1,41 @@
+{
+  "id": "cv-p71a",
+  "pick_number": "P-71a",
+  "country": {
+    "en": "Cape Verde",
+    "es": "Cabo Verde"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Escudos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:henrique_teixeira_de_sousa",
+    "lugar:pico_do_fogo",
+    "flora:uvas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/55590-200_Escudos-2014_Issue-Cabo_Verde",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

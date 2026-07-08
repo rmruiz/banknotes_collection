@@ -1,0 +1,39 @@
+{
+  "id": "ar-p257a22",
+  "pick_number": "P-257a.2.2",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Peso",
+    "subtype": "Moneda Nacional: Efigie del Progreso",
+    "alternatives": []
+  },
+  "year": 1949,
+  "signatures": [],
+  "themes": [
+    "arte:efigie_del_progreso"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/44433-1_Peso-1948-1951_ND_Ley_12962_del_27_de_Marzo_de_1947-Argentina",
+    "group": "1948-1951 (ND) Ley 12.962 del 27 de Marzo de 1947"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "otro:con-fecha"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

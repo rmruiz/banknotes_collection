@@ -1,0 +1,40 @@
+{
+  "id": "cn-p860c",
+  "pick_number": "P-860c",
+  "country": {
+    "en": "China",
+    "es": "China"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Fen",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1953,
+  "signatures": [],
+  "themes": [
+    "transporte:camion",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2666-1_Fen-1953_Second_Issue-China",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

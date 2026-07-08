@@ -1,0 +1,40 @@
+{
+  "id": "by-p25b2",
+  "pick_number": "P-25b.2",
+  "country": {
+    "en": "Belarus",
+    "es": "Bielorrusia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Rublos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "construccion:fortaleza_de_brest",
+    "simbolo:estrella"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/133394-50_Rubles-2000-2016_Issue_Series_2000-Bielorrusia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

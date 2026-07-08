@@ -1,0 +1,40 @@
+{
+  "id": "ar-p314a2",
+  "pick_number": "P-314a.2",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "Pesos Argentinos",
+    "alternatives": []
+  },
+  "year": 1983,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "lugar:termas_de_reyes"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/469-50_Pesos_Argentinos-Edici%C3%B3n_1983-1985_ND_Peso_Argentino-Argentina",
+    "group": "Edición 1983-1985 (ND) \"Peso Argentino\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

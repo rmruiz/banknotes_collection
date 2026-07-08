@@ -1,0 +1,41 @@
+{
+  "id": "dz-p137a1",
+  "pick_number": "P-137a.1",
+  "country": {
+    "en": "Algeria",
+    "es": "Argelia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "evento:carga_de_caballeria",
+    "fauna:caballo",
+    "transporte:barco_corsario"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/291-100_Dinars-1992_Dated_1995_1996_Issue-Argelia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

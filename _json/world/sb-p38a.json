@@ -1,0 +1,41 @@
+{
+  "id": "sb-p38a",
+  "pick_number": "P-38a",
+  "country": {
+    "en": "Solomon Islands",
+    "es": "Islas Salomón"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo_nacional",
+    "fauna:atun",
+    "actividad:pesca"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/104963-5_Dollars-2019-2020_ND_Issue-Islas_Salom%C3%B3n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

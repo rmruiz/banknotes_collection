@@ -1,0 +1,41 @@
+{
+  "id": "jp-p106b",
+  "pick_number": "P-106b",
+  "country": {
+    "en": "Japan",
+    "es": "Japón"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Yenes",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [],
+  "themes": [
+    "personaje:fukuzawa_yukichi",
+    "arte:fenix",
+    "construccion:templo_byodo_in"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7590-10000_Yen-2004-2014_ND_Issue-Jap%C3%B3n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

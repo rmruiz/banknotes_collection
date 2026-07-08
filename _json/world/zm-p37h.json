@@ -1,0 +1,41 @@
+{
+  "id": "zm-p37h",
+  "pick_number": "P-37h",
+  "country": {
+    "en": "Zambia",
+    "es": "Zambia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "fauna:aguila_pescadora",
+    "fauna:cebra",
+    "actividad:mineria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/43255-50_Kwacha-1992-2011_Issue-Zambia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

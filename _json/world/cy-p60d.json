@@ -1,0 +1,41 @@
+{
+  "id": "cy-p60d",
+  "pick_number": "P-60d",
+  "country": {
+    "en": "Cyprus",
+    "es": "Chipre"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Libra",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo_de_chipre",
+    "arte:encaje",
+    "arte:ceramica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/3329-1_Pound-1997-2005_Issue-Chipre",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

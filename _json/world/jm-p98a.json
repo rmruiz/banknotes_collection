@@ -1,0 +1,41 @@
+{
+  "id": "jm-p98a",
+  "pick_number": "P-98a",
+  "country": {
+    "en": "Jamaica",
+    "es": "Jamaica"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Dólar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:nanny_of_the_maroons",
+    "simbolo:escudo_de_jamaica",
+    "lugar:port_royal"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/142322-500_Dollars-2022_Issue_60_Years_of_Jamaica-Jamaica",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

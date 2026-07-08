@@ -1,0 +1,40 @@
+{
+  "id": "bi-p27d4",
+  "pick_number": "P-27d.4",
+  "country": {
+    "en": "Burundi",
+    "es": "Burundi"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [],
+  "themes": [
+    "actividad:danza",
+    "simbolo:escudo_de_burundi"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/48058-20_Francs-1977-2007_Issue-Burundi",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

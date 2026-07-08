@@ -1,0 +1,41 @@
+{
+  "id": "al-p76a",
+  "pick_number": "P-76a",
+  "country": {
+    "en": "Albania",
+    "es": "Albania"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Lek",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:naim_frasheri",
+    "construccion:casa_natal_de_naim_frasheri",
+    "simbolo:aguila_bicefala"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/107370-200_Leke-2017-2020_Modified_Issue-Albania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

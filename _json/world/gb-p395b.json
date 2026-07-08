@@ -1,0 +1,40 @@
+{
+  "id": "gb-p395b",
+  "pick_number": "P-395b",
+  "country": {
+    "en": "Great Britain",
+    "es": "Gran Bretaña"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Libras Esterlinas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "personaje:jane_austen"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/115657-10_Pounds-2015-2018_Polymer_Issue-Reino_Unido",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

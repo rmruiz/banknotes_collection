@@ -1,0 +1,40 @@
+{
+  "id": "ua-p120e",
+  "pick_number": "P-120e",
+  "country": {
+    "en": "Ukraine",
+    "es": "Ucrania"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Grivnas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "personaje:ivan_franko",
+    "construccion:teatro_de_la_opera_de_lviv"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/77962-20_Hryven-Edici%C3%B3n_2003-2011-Ucrania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

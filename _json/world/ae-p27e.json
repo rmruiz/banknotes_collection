@@ -1,0 +1,41 @@
+{
+  "id": "ae-p27e",
+  "pick_number": "P-27e",
+  "country": {
+    "en": "United Arab Emirates",
+    "es": "Emiratos Árabes"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Dirhams",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "arte:daga_khanjar",
+    "fauna:halcon",
+    "actividad:agricultura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/105146-10_Dirhams-Edici%C3%B3n_2003-2011-Emiratos_%C3%81rabes_Unidos",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

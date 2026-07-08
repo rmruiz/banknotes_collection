@@ -1,0 +1,40 @@
+{
+  "id": "us-p531b",
+  "pick_number": "P-531B",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "personaje:abraham_lincoln",
+    "construccion:lincoln_memorial"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/115964-5_Dollars-2009_Federal_Reserve_Notes-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "2009",
+    "bank": "",
+    "zone": "New York - New York",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

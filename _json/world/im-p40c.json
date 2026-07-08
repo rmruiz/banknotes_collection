@@ -1,0 +1,41 @@
+{
+  "id": "im-p40c",
+  "pick_number": "P-40c",
+  "country": {
+    "en": "Isle of Man",
+    "es": "Isla de Man"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Libra",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "simbolo:triskel",
+    "lugar:colina_tynwald"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/52573-1_Pound-1999-2015_ND_Government_Issue-Isla_de_Man",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

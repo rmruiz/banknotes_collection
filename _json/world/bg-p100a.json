@@ -1,0 +1,40 @@
+{
+  "id": "bg-p100a",
+  "pick_number": "P-100a",
+  "country": {
+    "en": "Bulgaria",
+    "es": "Bulgaria"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Lev",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "personaje:desislava",
+    "construccion:iglesia_de_boyana"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1958-20_Leva-1991-1996_Issue-Bulgaria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

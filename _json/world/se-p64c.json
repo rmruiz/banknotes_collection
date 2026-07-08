@@ -1,0 +1,40 @@
+{
+  "id": "se-p64c",
+  "pick_number": "P-64c",
+  "country": {
+    "en": "Sweden",
+    "es": "Suecia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Coronas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:jenny_lind",
+    "arte:partitura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/55173-50_Kronor-1997-2014_Issue-Suecia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

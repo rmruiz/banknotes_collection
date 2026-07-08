@@ -1,0 +1,40 @@
+{
+  "id": "mg-p88b",
+  "pick_number": "P-88b",
+  "country": {
+    "en": "Madagascar",
+    "es": "Madagascar"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Ariary",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [],
+  "themes": [
+    "actividad:tejedora_de_cestas",
+    "fauna:cebu"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/41417-500_Ariary-2004_Dated_Issue-Madagascar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

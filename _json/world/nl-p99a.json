@@ -1,0 +1,40 @@
+{
+  "id": "nl-p99a",
+  "pick_number": "P-99a",
+  "country": {
+    "en": "Netherlands",
+    "es": "Países Bajos"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1997,
+  "signatures": [],
+  "themes": [
+    "fauna:martin_pescador",
+    "arte:diseno_geometrico"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/9582-10_Gulden-1989-1999_De_Nederlandsche_Bank_Issue-Pa%C3%ADses_Bajos",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

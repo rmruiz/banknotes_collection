@@ -1,0 +1,40 @@
+{
+  "id": "kh-p65a",
+  "pick_number": "P-65a",
+  "country": {
+    "en": "Cambodia",
+    "es": "Camboya"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Rieles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "arte:buda",
+    "construccion:pagoda_de_plata"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/56260-100_Riels-2014-2016_Issue-Camboya",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

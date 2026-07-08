@@ -1,0 +1,6 @@
+_FULL/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+_FULL/*.jpg filter=lfs diff=lfs merge=lfs -text
+_flags/*.jpg filter=lfs diff=lfs merge=lfs -text
+_originals/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+_jpg_examples/*.jpg filter=lfs diff=lfs merge=lfs -text
+web/thumbs/*.jpg filter=lfs diff=lfs merge=lfs -text
