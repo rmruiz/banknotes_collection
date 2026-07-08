@@ -1,0 +1,40 @@
+{
+  "id": "pmr-p16",
+  "pick_number": "P-16",
+  "country": {
+    "en": "Transnistria",
+    "es": "Transnistria"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Rublo",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "personaje:alexander_suvorov",
+    "construccion:banco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/12305-1_Ruble-1993-1994_Kupon_Issue-Transnistria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "us-p378g",
+  "pick_number": "P-378g",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1928,
+  "signatures": [],
+  "themes": [
+    "personaje:thomas_jefferson",
+    "construccion:monticello"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/72551-2_Dollars-1928_United_States_Note_%E2%80%93_Small_Size_Series_of_1928-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "1928 G",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

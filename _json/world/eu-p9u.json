@@ -1,0 +1,41 @@
+{
+  "id": "eu-p9u",
+  "pick_number": "P-9u",
+  "country": {
+    "en": "European Union",
+    "es": "Unión Europea"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Euros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [],
+  "themes": [
+    "construccion:puente",
+    "arte:arquitectura_romanico",
+    "simbolo:mapa_de_europa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/46061-10_Euro-Serie_2002_Firma_Trichet-Uni%C3%B3n_Europea",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Francia (U)"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

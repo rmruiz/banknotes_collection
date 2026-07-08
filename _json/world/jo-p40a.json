@@ -1,0 +1,41 @@
+{
+  "id": "jo-p40a",
+  "pick_number": "P-40a",
+  "country": {
+    "en": "Jordan",
+    "es": "Jordania"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "rey:abdullah_i",
+    "construccion:tesoro_de_petra",
+    "lugar:petra"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/145124-5_Dinars-2022_Issue-Jordania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

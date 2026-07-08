@@ -1,0 +1,41 @@
+{
+  "id": "mx-p123aaa",
+  "pick_number": "P-123Aaa",
+  "country": {
+    "en": "Mexico",
+    "es": "México"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_maria_morelos",
+    "construccion:acueducto_de_morelia",
+    "fauna:mariposa_monarca"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/138549-50_Pesos-2004-2022_Issue-M%C3%A9xico",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

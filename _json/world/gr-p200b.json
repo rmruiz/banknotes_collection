@@ -1,0 +1,41 @@
+{
+  "id": "gr-p200b",
+  "pick_number": "P-200b",
+  "country": {
+    "en": "Greece",
+    "es": "Grecia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Dracmas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1978,
+  "signatures": [],
+  "themes": [
+    "personaje:atenea",
+    "personaje:adamantios_korais",
+    "construccion:monasterio_arkadi"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/5824-100_Drachmai-1978_Drachmai_Issue-Grecia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

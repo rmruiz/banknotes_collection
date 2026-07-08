@@ -1,0 +1,41 @@
+{
+  "id": "sy-p110c2",
+  "pick_number": "P-110c.2",
+  "country": {
+    "en": "Syria",
+    "es": "Siria"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1998,
+  "signatures": [],
+  "themes": [
+    "construccion:arco_de_palmira",
+    "personaje:atenea",
+    "construccion:represa_tabqa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11977-500_Syrian_Pounds-1997-1998_Issue-Siria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

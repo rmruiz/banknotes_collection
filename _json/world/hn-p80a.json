@@ -1,0 +1,41 @@
+{
+  "id": "hn-p80a",
+  "pick_number": "P-80a",
+  "country": {
+    "en": "Honduras",
+    "es": "Honduras"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Lempiras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1997,
+  "signatures": [],
+  "themes": [
+    "personaje:marco_aurelio_soto",
+    "simbolo:escudo_nacional",
+    "lugar:isla_del_tigre"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6199-2_Lempiras-Edicion_1996-2008-Honduras",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "bm-p57b",
+  "pick_number": "P-57b",
+  "country": {
+    "en": "Bermuda",
+    "es": "Bermuda"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "fauna:pajaro_azul",
+    "construccion:torre_del_reloj"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/44845-2_Dollars-2009_Animals_Issue-Bermuda",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

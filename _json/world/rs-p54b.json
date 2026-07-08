@@ -1,0 +1,40 @@
+{
+  "id": "rs-p54b",
+  "pick_number": "P-54b",
+  "country": {
+    "en": "Serbia",
+    "es": "Serbia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:vuk_stefanovic_karadzic",
+    "simbolo:alfabeto_cirilico"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/51448-10_Dinara-2011-2016_Modified_Eagle_in_Arms_Issue-Serbia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

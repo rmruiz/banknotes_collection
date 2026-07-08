@@ -1,0 +1,40 @@
+{
+  "id": "vu-p12a2",
+  "pick_number": "P-12a.2",
+  "country": {
+    "en": "Vanuatu",
+    "es": "Vanuatu"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Vatu",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "transporte:canoa",
+    "actividad:vida_familiar"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/51647-200_Vatu-2006-2017_Issue-Vanuatu",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

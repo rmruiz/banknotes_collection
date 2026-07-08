@@ -1,0 +1,41 @@
+{
+  "id": "zm-p31b",
+  "pick_number": "P-31b",
+  "country": {
+    "en": "Zambia",
+    "es": "Zambia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "fauna:aguila_pescadora",
+    "simbolo:monumento_a_la_libertad",
+    "fauna:jirafa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/13494-10_Kwacha-1989-1991_ND_Issue-Zambia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

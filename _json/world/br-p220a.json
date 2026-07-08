@@ -1,0 +1,40 @@
+{
+  "id": "br-p220a",
+  "pick_number": "P-220a",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Cruzados Novos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1989,
+  "signatures": [],
+  "themes": [
+    "personaje:cecilia_meireles",
+    "actividad:lectura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1757-100_Cruzados_Novos-1989-1990_ND_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

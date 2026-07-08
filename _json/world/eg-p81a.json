@@ -1,0 +1,40 @@
+{
+  "id": "eg-p81a",
+  "pick_number": "P-81a",
+  "country": {
+    "en": "Egypt",
+    "es": "Egipto"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "construccion:mezquita_al_fattah_al_aleem",
+    "arte:estatua_faraonica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/140468-10_Pounds-2021-2023_Polymer_Issue-Egipto",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

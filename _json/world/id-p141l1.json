@@ -1,0 +1,40 @@
+{
+  "id": "id-p141l1",
+  "pick_number": "P-141l.1",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "personaje:pattimura",
+    "lugar:maitara_y_tidore"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/42387-1000_Rupiah-2000-2016_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

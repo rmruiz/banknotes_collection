@@ -1,0 +1,40 @@
+{
+  "id": "au-p66b",
+  "pick_number": "P-66b",
+  "country": {
+    "en": "Australia",
+    "es": "Australia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Dólares Australianos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "personaje:nellie_melba",
+    "personaje:john_monash"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/123554-100_Dollar-2016-2021_Issue-Australia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

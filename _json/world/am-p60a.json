@@ -1,0 +1,42 @@
+{
+  "id": "am-p60a",
+  "pick_number": "P-60a",
+  "country": {
+    "en": "Armenia",
+    "es": "Armenia"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Dram",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "evento:arca_de_noe",
+    "personaje:noe",
+    "lugar:monte_ararat",
+    "fauna:paloma"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/84558-500_Dram-2017_Noahs_Ark_Commemorative_Issue-Armenia",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

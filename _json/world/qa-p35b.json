@@ -1,0 +1,40 @@
+{
+  "id": "qa-p35b",
+  "pick_number": "P-35b",
+  "country": {
+    "en": "Qatar",
+    "es": "Qatar"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Riales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "flora:orquidea",
+    "construccion:edificio_moderno"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/142272-50_Riyals-2020-2022_Issue_ND-Qatar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

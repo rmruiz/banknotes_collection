@@ -1,0 +1,39 @@
+{
+  "id": "ar-p251d4",
+  "pick_number": "P-251d.4",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Peso",
+    "subtype": "Moneda Nacional: Efigie del Progreso",
+    "alternatives": []
+  },
+  "year": 1946,
+  "signatures": [],
+  "themes": [
+    "arte:efigie_del_progreso"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/49843-1_Peso-Art_36_-_Ley_12155_Segunda_Edici%C3%B3n-Argentina",
+    "group": "Art. 36 - Ley 12.155 Segunda Edición"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "otro:sin-fecha"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

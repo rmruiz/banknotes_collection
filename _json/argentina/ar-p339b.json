@@ -1,0 +1,40 @@
+{
+  "id": "ar-p339b",
+  "pick_number": "P-339b",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Peso",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "personaje:carlos_pellegrini",
+    "construccion:congreso_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/498-1_Peso_Convertible-Edici%C3%B3n_1991-1997_ND_Pesos_Convertibles_de_Curso_Legal-Argentina",
+    "group": "Edición 1991-1997 (ND) \"Pesos Convertibles de Curso Legal\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

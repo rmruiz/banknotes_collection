@@ -1,0 +1,42 @@
+{
+  "id": "bn-p35d",
+  "pick_number": "P-35d",
+  "country": {
+    "en": "Brunei",
+    "es": "Brunei"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Ringgit",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "rey:hassanal_bolkiah",
+    "flora:bunga_simpur",
+    "construccion:mezquita",
+    "lugar:bandar_seri_begawan"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/145326-1_Ringgit_Dollar-2011-2019_Issue-Brunei",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

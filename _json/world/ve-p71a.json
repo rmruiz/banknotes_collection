@@ -1,0 +1,40 @@
+{
+  "id": "ve-p71a",
+  "pick_number": "P-71a",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1987,
+  "signatures": [],
+  "themes": [
+    "personaje:rafael_urdaneta",
+    "evento:batalla_naval"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15635-20_Bol%C3%ADvares-1987_Bicentennial_Birth_of_Gen_Urdaneta_Commemorative_Iss-Venezuela",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

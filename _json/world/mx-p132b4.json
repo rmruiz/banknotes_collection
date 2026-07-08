@@ -1,0 +1,42 @@
+{
+  "id": "mx-p132b4",
+  "pick_number": "P-132b.4",
+  "country": {
+    "en": "Mexico",
+    "es": "México"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "evento:bicentenario_consumacion_independencia",
+    "flora:mangle",
+    "fauna:cocodrilo",
+    "fauna:garza"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/138603-20_Pesos-2021-2022_Bicentennial_of_Independence_Commemorative_Issue-M%C3%A9xico",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

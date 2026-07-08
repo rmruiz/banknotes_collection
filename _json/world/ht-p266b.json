@@ -1,0 +1,40 @@
+{
+  "id": "ht-p266b",
+  "pick_number": "P-266b",
+  "country": {
+    "en": "Haiti",
+    "es": "Haití"
+  },
+  "denomination": {
+    "value": 25,
+    "currency": "Gurdes",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [],
+  "themes": [
+    "construccion:palacio_de_justicia",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/23791-25_Gourdes-2000-2015_Issue-Hait%C3%AD",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

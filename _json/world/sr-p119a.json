@@ -1,0 +1,41 @@
+{
+  "id": "sr-p119a",
+  "pick_number": "P-119a",
+  "country": {
+    "en": "Suriname",
+    "es": "Surinam"
+  },
+  "denomination": {
+    "value": 2.5,
+    "currency": "Gulden",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1985,
+  "signatures": [],
+  "themes": [
+    "fauna:ave",
+    "fauna:rana",
+    "construccion:represa_afobaka"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11724-2%C2%BD_Gulden-1961-1986_Issue-Surinam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

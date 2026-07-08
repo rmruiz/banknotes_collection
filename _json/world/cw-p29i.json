@@ -1,0 +1,39 @@
+{
+  "id": "cw-p29i",
+  "pick_number": "P-29i",
+  "country": {
+    "en": "Curaçao",
+    "es": "Curazao"
+  },
+  "denomination": {
+    "value": 25,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "fauna:flamenco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/79259-25_Gulden-1998-2016_Birds_with_Gold_Foil_Device_Issue-Antillas_Holandesas",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

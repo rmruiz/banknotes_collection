@@ -1,0 +1,40 @@
+{
+  "id": "pe-p131b",
+  "pick_number": "P-131b",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Intis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1987,
+  "signatures": [],
+  "themes": [
+    "personaje:nicolas_de_pierola",
+    "actividad:mineria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10103-50_Intis-1985-91_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

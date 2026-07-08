@@ -1,0 +1,40 @@
+{
+  "id": "sct-p351e2",
+  "pick_number": "P-351e.2",
+  "country": {
+    "en": "Scotland",
+    "es": "Escocia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Libra",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2001,
+  "signatures": [],
+  "themes": [
+    "personaje:lord_ilay",
+    "construccion:castillo_de_edimburgo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10864-1_Pound_Sterling-Royal_Bank_of_Scotland_1988-2017_Issue-Escocia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "br-p211c",
+  "pick_number": "P-211c",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Cruzados",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1989,
+  "signatures": [],
+  "themes": [
+    "personaje:juscelino_kubitschek",
+    "construccion:brasilia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1746-100_Cruzados-1986-1988_ND_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

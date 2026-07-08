@@ -1,0 +1,40 @@
+{
+  "id": "gb-p401a",
+  "pick_number": "P-401a",
+  "country": {
+    "en": "Great Britain",
+    "es": "Gran Bretaña"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Libras Esterlinas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2023,
+  "signatures": [],
+  "themes": [
+    "rey:carlos_iii",
+    "personaje:alan_turing"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/156106-50_Pounds-2024_Issue_King_Charles_III-Reino_Unido",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

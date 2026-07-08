@@ -1,0 +1,41 @@
+{
+  "id": "ni-p209a",
+  "pick_number": "P-209a",
+  "country": {
+    "en": "Nicaragua",
+    "es": "Nicaragua"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Córdobas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "lugar:puerto_salvador_allende",
+    "actividad:baile_la_vaquita",
+    "arte:mascara"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/63693-10_C%C3%B3rdobas-2014_Issue_2015-2019-Nicaragua",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

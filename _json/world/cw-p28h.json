@@ -1,0 +1,39 @@
+{
+  "id": "cw-p28h",
+  "pick_number": "P-28h",
+  "country": {
+    "en": "Curaçao",
+    "es": "Curazao"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "fauna:colibri"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/91394-10_Gulden-1998-2016_Birds_with_Gold_Foil_Device_Issue-Antillas_Holandesas",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

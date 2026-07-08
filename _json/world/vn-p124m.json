@@ -1,0 +1,40 @@
+{
+  "id": "vn-p124m",
+  "pick_number": "P-124m",
+  "country": {
+    "en": "Vietnam",
+    "es": "Vietnam"
+  },
+  "denomination": {
+    "value": 500000,
+    "currency": "Dongs",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:ho_chi_minh",
+    "construccion:casa_natal_ho_chi_minh"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/81160-500000_%C4%90%E1%BB%93ng-2003-2021_Polymer_Issue-Vietnam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

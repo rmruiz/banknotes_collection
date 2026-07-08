@@ -1,0 +1,40 @@
+{
+  "id": "ve-p90e1",
+  "pick_number": "P-90e.1",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:guaicaipuro",
+    "fauna:aguila_arpia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/62977-10_Bol%C3%ADvares-2007-2017_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

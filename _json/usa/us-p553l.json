@@ -1,0 +1,40 @@
+{
+  "id": "us-p553l",
+  "pick_number": "P-553L",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "personaje:abraham_lincoln",
+    "construccion:lincoln_memorial"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/148772-5_Dollars-2021_Federal_Reserve_Notes-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "2021",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

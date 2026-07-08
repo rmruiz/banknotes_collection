@@ -1,0 +1,40 @@
+{
+  "id": "ca-p106c",
+  "pick_number": "P-106c",
+  "country": {
+    "en": "Canada",
+    "es": "Canadá"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:wilfrid_laurier",
+    "transporte:canadarm2"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/69991-5_Dollars-2011-2022_Polymer_Issue-Canad%C3%A1",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

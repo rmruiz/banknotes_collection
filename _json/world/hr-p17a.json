@@ -1,0 +1,40 @@
+{
+  "id": "hr-p17a",
+  "pick_number": "P-17a",
+  "country": {
+    "en": "Croatia",
+    "es": "Croacia"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "personaje:ruder_boskovic",
+    "construccion:catedral_de_zagreb"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/3002-5_Dinara-1991-1993_Ruder_Boskovi%C4%87_Issue-Croacia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

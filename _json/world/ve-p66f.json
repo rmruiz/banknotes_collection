@@ -1,0 +1,40 @@
+{
+  "id": "ve-p66f",
+  "pick_number": "P-66f",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1998,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "construccion:capitolio_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/32370-100_Bol%C3%ADvares-1981-1998_Issues-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

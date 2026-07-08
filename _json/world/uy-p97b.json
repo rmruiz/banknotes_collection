@@ -1,0 +1,40 @@
+{
+  "id": "uy-p97b",
+  "pick_number": "P-97b",
+  "country": {
+    "en": "Uruguay",
+    "es": "Uruguay"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:alfredo_vasquez_acevedo",
+    "construccion:universidad_de_la_republica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/143808-500_Pesos_Uruguayos-2014-2020_Issue-Uruguay",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

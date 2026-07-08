@@ -1,0 +1,40 @@
+{
+  "id": "eg-p74e22",
+  "pick_number": "P-74e.22",
+  "country": {
+    "en": "Egypt",
+    "es": "Egipto"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "construccion:mezquita_muhammad_ali",
+    "transporte:carro_de_guerra"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/149504-20_Pounds-2013-2025_Enhanced_Security_Features_Issue-Egipto",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

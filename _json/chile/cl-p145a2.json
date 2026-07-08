@@ -1,0 +1,44 @@
+{
+  "id": "cl-p145a2",
+  "pick_number": "P-145a.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Escudos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1967,
+  "signatures": [
+    "Cano",
+    "Molina"
+  ],
+  "themes": [
+    "personaje:minero",
+    "lugar:chuquicamata",
+    "actividad:mineria_del_cobre"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/52997-500_Escudos-1967-1975_ND_Issue-Chile",
+    "group": "1967-1975 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1967 - 1975",
+    "obs": "otro:nacionalización-del-cobre"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

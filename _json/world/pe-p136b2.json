@@ -1,0 +1,41 @@
+{
+  "id": "pe-p136b2",
+  "pick_number": "P-136b.2",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Intis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:andres_avelino_caceres",
+    "construccion:chan_chan",
+    "arte:orfebreria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10108-1000_Intis-1985-91_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

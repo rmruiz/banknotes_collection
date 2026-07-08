@@ -1,0 +1,40 @@
+{
+  "id": "si-p1a",
+  "pick_number": "P-1a",
+  "country": {
+    "en": "Slovenia",
+    "es": "Eslovenia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Tólar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "lugar:monte_triglav",
+    "simbolo:escudo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11224-1_Tolar-1990-1992_Issue-Eslovenia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

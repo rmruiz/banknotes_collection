@@ -1,0 +1,40 @@
+{
+  "id": "yu-p113a",
+  "pick_number": "P-113a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "personaje:petar_petrovic_njegos",
+    "lugar:montanas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15926-500_Dinara-Emisi%C3%B3n_de_1992-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

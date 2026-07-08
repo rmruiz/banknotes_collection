@@ -1,0 +1,40 @@
+{
+  "id": "in-p106w",
+  "pick_number": "P-106w",
+  "country": {
+    "en": "India",
+    "es": "India"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "personaje:mahatma_gandhi",
+    "evento:marcha_de_la_sal"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/79341-500_Rupees-2011-2018_New_Rupee_Symbol_Issue-India",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ve-p108b",
+  "pick_number": "P-108b",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "fauna:turpial",
+    "lugar:parque_nacional_macarao"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/97246-500_Bol%C3%ADvares-2018-2020_Currency_Reform_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

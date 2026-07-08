@@ -1,0 +1,40 @@
+{
+  "id": "sy-p112a",
+  "pick_number": "P-112a",
+  "country": {
+    "en": "Syria",
+    "es": "Siria"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "arte:tablilla_ugarit",
+    "construccion:biblioteca_assad"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/19895-50_Syrian_Pounds-2009-2021_Issue-Siria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

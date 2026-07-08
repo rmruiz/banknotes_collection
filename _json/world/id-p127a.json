@@ -1,0 +1,40 @@
+{
+  "id": "id-p127a",
+  "pick_number": "P-127a",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "transporte:pinisi",
+    "lugar:krakatoa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6701-100_Rupiah-1992-2001_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

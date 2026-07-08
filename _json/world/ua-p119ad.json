@@ -1,0 +1,40 @@
+{
+  "id": "ua-p119ad",
+  "pick_number": "P-119Ad",
+  "country": {
+    "en": "Ukraine",
+    "es": "Ucrania"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Grivnas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:ivan_mazepa",
+    "construccion:catedral_de_la_dormicion"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/66513-10_Hryven-Edici%C3%B3n_2003-2011-Ucrania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "mk-p27a",
+  "pick_number": "P-27a",
+  "country": {
+    "en": "North Macedonia",
+    "es": "Macedonia del Norte"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Denares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "fauna:pavo_real",
+    "arte:mosaico"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/129821-10_Denari-2020-2022_Issue-Macedonia_del_Norte",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

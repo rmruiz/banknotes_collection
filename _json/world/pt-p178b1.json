@@ -1,0 +1,40 @@
+{
+  "id": "pt-p178b1",
+  "pick_number": "P-178b.1",
+  "country": {
+    "en": "Portugal",
+    "es": "Portugal"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Escudos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1981,
+  "signatures": [],
+  "themes": [
+    "personaje:manuel_maria_barbosa_du_bocage",
+    "lugar:rossio_lisboa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/158692-100_Escudos-1978-1985_Issue-Portugal",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "bb-p80a",
+  "pick_number": "P-80a",
+  "country": {
+    "en": "Barbados",
+    "es": "Barbados"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:john_redman_bovell",
+    "construccion:morgan_lewis_windmill"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/144959-2_Dollars-2022_Vertical_Polymer_Issue-Barbados",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

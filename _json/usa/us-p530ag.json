@@ -1,0 +1,40 @@
+{
+  "id": "us-p530ag",
+  "pick_number": "P-530ag",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "personaje:thomas_jefferson",
+    "arte:declaracion_de_independencia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/102939-2_Dollars-2009_Federal_Reserve_Notes-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "2009",
+    "bank": "",
+    "zone": "Chicago - Illinois",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

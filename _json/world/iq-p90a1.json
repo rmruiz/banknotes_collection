@@ -1,0 +1,41 @@
+{
+  "id": "iq-p90a1",
+  "pick_number": "P-90a.1",
+  "country": {
+    "en": "Iraq",
+    "es": "Irak"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "construccion:silos_de_grano",
+    "flora:palmera_datilera",
+    "transporte:barco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6956-50_Dinars-2003-2013_Issue-Irak",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

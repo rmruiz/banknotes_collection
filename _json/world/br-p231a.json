@@ -1,0 +1,40 @@
+{
+  "id": "br-p231a",
+  "pick_number": "P-231a",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Cruzeiros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "personaje:candido_rondon",
+    "fauna:peces"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1768-1000_Cruzeiros-1990-1993_ND_Regular_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

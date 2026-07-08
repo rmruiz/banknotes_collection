@@ -1,0 +1,40 @@
+{
+  "id": "id-p137a",
+  "pick_number": "P-137a",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1998,
+  "signatures": [],
+  "themes": [
+    "personaje:tjut_njak_dhien",
+    "lugar:segara_anak"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6721-10000_Rupiah-1998-2007_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

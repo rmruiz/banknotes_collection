@@ -1,0 +1,40 @@
+{
+  "id": "co-p452q",
+  "pick_number": "P-452q",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_asuncion_silva",
+    "flora:cafe"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/84873-5000_Pesos-2001-2014_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

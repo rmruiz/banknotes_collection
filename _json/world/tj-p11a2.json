@@ -1,0 +1,40 @@
+{
+  "id": "tj-p11a2",
+  "pick_number": "P-11a.2",
+  "country": {
+    "en": "Tajikistan",
+    "es": "Tayikistán"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dirams",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1999,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo_tayikistan",
+    "construccion:mausoleo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/12077-5_Dirams-1999_Somoni_Issue-Tayikist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

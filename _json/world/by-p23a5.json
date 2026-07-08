@@ -1,0 +1,39 @@
+{
+  "id": "by-p23a5",
+  "pick_number": "P-23a.5",
+  "country": {
+    "en": "Belarus",
+    "es": "Bielorrusia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Rublos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "construccion:biblioteca_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/124331-10_Rubles-2000-2016_Issue_Series_2000-Bielorrusia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

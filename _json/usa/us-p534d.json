@@ -1,0 +1,40 @@
+{
+  "id": "us-p534d",
+  "pick_number": "P-534D",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "personaje:ulysses_grant",
+    "construccion:capitolio"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/178733-50_Dollars-2009_Federal_Reserve_Notes-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "2009",
+    "bank": "",
+    "zone": "Richmond - Virginia",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

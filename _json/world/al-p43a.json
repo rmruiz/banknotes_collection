@@ -1,0 +1,40 @@
+{
+  "id": "al-p43a",
+  "pick_number": "P-43a",
+  "country": {
+    "en": "Albania",
+    "es": "Albania"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Lek",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1976,
+  "signatures": [],
+  "themes": [
+    "actividad:industria_textil",
+    "simbolo:aguila_bicefala"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/143-10_Leke-Emisi%C3%B3n_de_1976-Albania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

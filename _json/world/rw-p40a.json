@@ -1,0 +1,41 @@
+{
+  "id": "rw-p40a",
+  "pick_number": "P-40a",
+  "country": {
+    "en": "Rwanda",
+    "es": "Ruanda"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "construccion:torre_de_telecomunicaciones",
+    "flora:cafe",
+    "lugar:montanas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/55090-2000_Francs-2013-2019_Without_Bank_Name_in_French_Issue-Ruanda",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

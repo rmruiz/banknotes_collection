@@ -1,0 +1,40 @@
+{
+  "id": "gn-p39b",
+  "pick_number": "P-39b",
+  "country": {
+    "en": "Guinea",
+    "es": "Guinea"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo",
+    "actividad:mineria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/40551-500_Francs-2006-2012_New_ArmsFull_Print_Issue-Guinea",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

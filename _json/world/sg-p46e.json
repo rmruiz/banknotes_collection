@@ -1,0 +1,40 @@
+{
+  "id": "sg-p46e",
+  "pick_number": "P-46e",
+  "country": {
+    "en": "Singapore",
+    "es": "Singapur"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:yusof_ishak",
+    "actividad:educacion"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/49577-2_Dollars-2004-2022_ND_President_Yusof_Polymer_Issue-Singapur",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

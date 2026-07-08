@@ -1,0 +1,42 @@
+{
+  "id": "au-p62a",
+  "pick_number": "P-62a",
+  "country": {
+    "en": "Australia",
+    "es": "Australia"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dólares Australianos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "construccion:casa_del_parlamento",
+    "fauna:espinero_oriental",
+    "flora:acacia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/69908-5_Dollars-2016-2024_Issue-Australia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

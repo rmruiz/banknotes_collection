@@ -1,0 +1,40 @@
+{
+  "id": "uz-p74a2",
+  "pick_number": "P-74a.2",
+  "country": {
+    "en": "Uzbekistan",
+    "es": "Uzbekistán"
+  },
+  "denomination": {
+    "value": 3,
+    "currency": "Som",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo",
+    "construccion:mausoleo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/12883-3_Som-1994-2019_Issue-Uzbekist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

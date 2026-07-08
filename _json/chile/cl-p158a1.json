@@ -1,0 +1,43 @@
+{
+  "id": "cl-p158a1",
+  "pick_number": "P-158a.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1997,
+  "signatures": [
+    "Massad",
+    "Carrasco"
+  ],
+  "themes": [
+    "personaje:manuel_rodriguez",
+    "construccion:iglesia_de_los_dominicos"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2584-2000_Pesos-1997-2008_Issue-Chile",
+    "group": "1997-2008 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1997 - 2003",
+    "obs": "tipo:algodón"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "uy-p96b",
+  "pick_number": "P-96b",
+  "country": {
+    "en": "Uruguay",
+    "es": "Uruguay"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "personaje:pedro_figari",
+    "arte:pintura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/136253-200_Pesos-2014-2020_Issue-Uruguay",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

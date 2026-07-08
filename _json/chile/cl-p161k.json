@@ -1,0 +1,44 @@
+{
+  "id": "cl-p161k",
+  "pick_number": "P-161k",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [
+    "Marcel",
+    "de Ramón"
+  ],
+  "themes": [
+    "personaje:ignacio_carrera_pinto",
+    "lugar:parque_nacional_torres_del_paine",
+    "fauna:guanaco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/144000-1000_Pesos-2009-2025_Issue-Chile",
+    "group": "2009-2021 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "2009 - 2021",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

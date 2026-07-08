@@ -1,0 +1,40 @@
+{
+  "id": "us-p511h",
+  "pick_number": "P-511H",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2001,
+  "signatures": [],
+  "themes": [
+    "personaje:alexander_hamilton",
+    "construccion:departamento_del_tesoro"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/154101-10_Dollars-2001_Federal_Reserve_Notes-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "2001",
+    "bank": "",
+    "zone": "New York - New York",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

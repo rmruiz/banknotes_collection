@@ -1,0 +1,40 @@
+{
+  "id": "dk-p67f3",
+  "pick_number": "P-67f.3",
+  "country": {
+    "en": "Denmark",
+    "es": "Dinamarca"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Coronas Danesas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "construccion:puente_knippelsbro",
+    "arte:placa_de_cinturon"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/110396-200_Kroner-2009-2016_Bridges_Issue-Dinamarca",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

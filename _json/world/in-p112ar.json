@@ -1,0 +1,40 @@
+{
+  "id": "in-p112ar",
+  "pick_number": "P-112ar",
+  "country": {
+    "en": "India",
+    "es": "India"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:mahatma_gandhi",
+    "construccion:rani_ki_vav"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/132863-100_Rupees-2016-2022_Gandhi_at_Center_Issue-India",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

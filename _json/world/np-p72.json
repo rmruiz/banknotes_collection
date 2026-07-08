@@ -1,0 +1,40 @@
+{
+  "id": "np-p72",
+  "pick_number": "P-72",
+  "country": {
+    "en": "Nepal",
+    "es": "Nepal"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "lugar:monte_everest",
+    "fauna:tar_del_himalaya"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/47959-50_Rupees-2012-2016_Issue-Nepal",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

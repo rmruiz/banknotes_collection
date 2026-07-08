@@ -1,0 +1,39 @@
+{
+  "id": "ba-p14a",
+  "pick_number": "P-14a",
+  "country": {
+    "en": "Bosnia and Herzegovina",
+    "es": "Bosnia y Herzegovina"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Dinar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo_de_bosnia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16730-500_Dinara-1992-1993_Issues-Bosnia_y_Herzegovina",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

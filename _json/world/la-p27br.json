@@ -1,0 +1,41 @@
+{
+  "id": "la-p27br",
+  "pick_number": "P-27br",
+  "country": {
+    "en": "Laos",
+    "es": "Laos"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Kip",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1979,
+  "signatures": [],
+  "themes": [
+    "actividad:aserradero",
+    "transporte:tren",
+    "simbolo:escudo_laos"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/69920-10_Kip-1979_ND_1988-2015_Issue-Laos",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Reposición"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

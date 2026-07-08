@@ -1,0 +1,41 @@
+{
+  "id": "ar-p299a3",
+  "pick_number": "P-299a.3",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "Peso Ley 18.188",
+    "alternatives": []
+  },
+  "year": 1976,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "lugar:plaza_de_mayo",
+    "construccion:casa_rosada"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/17724-1000_Pesos_Ley-Edici%C3%B3n_1973-1976_ND_Decreto-Ley_1818869-Argentina",
+    "group": "Edición 1973-1976 (ND) \"Decreto-Ley 18.188/69\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "do-p126c",
+  "pick_number": "P-126c",
+  "country": {
+    "en": "Dominican Republic",
+    "es": "Rep. Dominicana"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Peso Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:juan_pablo_duarte",
+    "actividad:industria_azucarera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/50769-1_Peso_Oro-1984-1988_Issue-Rep%C3%BAblica_Dominicana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

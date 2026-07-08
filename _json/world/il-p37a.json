@@ -1,0 +1,41 @@
+{
+  "id": "il-p37a",
+  "pick_number": "P-37a",
+  "country": {
+    "en": "Israel",
+    "es": "Israel"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Lirot",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1968,
+  "signatures": [],
+  "themes": [
+    "personaje:theodor_herzl",
+    "flora:palmera",
+    "arte:menora"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7182-100_Lirot-1968_5728_Issue-Israel",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

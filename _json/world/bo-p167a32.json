@@ -1,0 +1,41 @@
+{
+  "id": "bo-p167a32",
+  "pick_number": "P-167a.3.2",
+  "country": {
+    "en": "Bolivia",
+    "es": "Bolivia"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1982,
+  "signatures": [],
+  "themes": [
+    "personaje:juana_azurduy",
+    "construccion:casa_de_la_libertad",
+    "simbolo:escudo_de_bolivia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1387-1000_Pesos_Bolivianos-1981-1984_Issue-Bolivia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "qa-p34b",
+  "pick_number": "P-34b",
+  "country": {
+    "en": "Qatar",
+    "es": "Qatar"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Riales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "flora:orquidea",
+    "construccion:estadio_al_janoub"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/142270-10_Riyals-2020-2022_Issue_ND-Qatar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

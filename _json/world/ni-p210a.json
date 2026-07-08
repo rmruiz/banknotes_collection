@@ -1,0 +1,42 @@
+{
+  "id": "ni-p210a",
+  "pick_number": "P-210a",
+  "country": {
+    "en": "Nicaragua",
+    "es": "Nicaragua"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Córdobas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "construccion:iglesia_morava",
+    "lugar:laguna_de_perlas",
+    "fauna:tortuga_marina",
+    "actividad:festival_mayo_ya"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/63694-20_C%C3%B3rdobas-2014_Issue_2015-2019-Nicaragua",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

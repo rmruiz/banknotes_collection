@@ -1,0 +1,40 @@
+{
+  "id": "kp-p58a",
+  "pick_number": "P-58a",
+  "country": {
+    "en": "North Korea",
+    "es": "Corea del Norte"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Wons",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2002,
+  "signatures": [],
+  "themes": [
+    "construccion:represa_hidroelectrica",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7962-5_Won-2002_2008_2009_New_Won_Issue-Corea_del_Norte",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

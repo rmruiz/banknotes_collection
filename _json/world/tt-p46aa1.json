@@ -1,0 +1,41 @@
+{
+  "id": "tt-p46aa1",
+  "pick_number": "P-46Aa.1",
+  "country": {
+    "en": "Trinidad and Tobago",
+    "es": "Trinidad y Tobago"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dolar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "fauna:ibis_escarlata",
+    "simbolo:escudo",
+    "actividad:industria_petrolera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/50040-1_Dollar-2006_Issue-Trinidad_y_Tobago",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

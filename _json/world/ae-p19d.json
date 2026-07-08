@@ -1,0 +1,41 @@
+{
+  "id": "ae-p19d",
+  "pick_number": "P-19d",
+  "country": {
+    "en": "United Arab Emirates",
+    "es": "Emiratos Árabes"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dirhams",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2007,
+  "signatures": [],
+  "themes": [
+    "construccion:mercado_de_sharjah",
+    "fauna:halcon",
+    "transporte:hidroavion"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/32220-5_Dirhams-1997-2007_Issue-Emiratos_%C3%81rabes_Unidos",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

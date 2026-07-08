@@ -1,0 +1,41 @@
+{
+  "id": "tj-p14b",
+  "pick_number": "P-14b",
+  "country": {
+    "en": "Tajikistan",
+    "es": "Tayikistán"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Somoni",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1999,
+  "signatures": [],
+  "themes": [
+    "personaje:mirzo_tursunzoda",
+    "simbolo:escudo_tayikistan",
+    "construccion:banco_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/66039-1_Somoni-1999_Somoni_Issue-Tayikist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

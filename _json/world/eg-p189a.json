@@ -1,0 +1,40 @@
+{
+  "id": "eg-p189a",
+  "pick_number": "P-189a",
+  "country": {
+    "en": "Egypt",
+    "es": "Egipto"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Piastras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1998,
+  "signatures": [],
+  "themes": [
+    "construccion:piramides",
+    "construccion:esfinge"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16766-10_Piastres-1998_1999_ND_Issue-Egipto",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "color:azul"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

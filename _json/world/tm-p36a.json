@@ -1,0 +1,40 @@
+{
+  "id": "tm-p36a",
+  "pick_number": "P-36a",
+  "country": {
+    "en": "Turkmenistan",
+    "es": "Turkmenistán"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Manat",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:togrul_beg",
+    "construccion:aeropuerto_de_asjabad"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/81716-1_Manat-2017_5th_Asian_Indoor_and_Martial_Games_Issue-Turkmenist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

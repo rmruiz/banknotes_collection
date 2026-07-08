@@ -1,0 +1,41 @@
+{
+  "id": "eu-p29v",
+  "pick_number": "P-29v",
+  "country": {
+    "en": "European Union",
+    "es": "Unión Europea"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Euros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "construccion:puente",
+    "arte:arquitectura_renacimiento",
+    "simbolo:mapa_de_europa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/125793-50_Euro-2020_ND_Signature_Lagarde_Issue-Uni%C3%B3n_Europea",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "España (V)"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "vn-p101a1",
+  "pick_number": "P-101a.1",
+  "country": {
+    "en": "Vietnam",
+    "es": "Vietnam"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Dongs",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:ho_chi_minh",
+    "lugar:puerto_hai_phong",
+    "transporte:barco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16494-500_%C4%90%E1%BB%93ng-1987-1988_Issue-Vietnam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

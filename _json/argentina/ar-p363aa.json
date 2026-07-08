@@ -1,0 +1,39 @@
+{
+  "id": "ar-p363aa",
+  "pick_number": "P-363Aa",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "Cuarta serie «Fauna Autóctona de la República Argentina»",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "fauna:taruca"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/98511-100_Pesos-2015-2020_ND_Issue-Argentina",
+    "group": "2015-2020 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

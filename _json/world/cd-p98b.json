@@ -1,0 +1,41 @@
+{
+  "id": "cd-p98b",
+  "pick_number": "P-98b",
+  "country": {
+    "en": "Democratic Republic of the Congo",
+    "es": "El Congo"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "fauna:elefante",
+    "lugar:parque_nacional_virunga",
+    "construccion:represa_inga"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/79791-100_Francs-2007-2022_Issue-Congo_Rep%C3%BAblica_Democr%C3%A1tica_Kinshasa_-_Zaire",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

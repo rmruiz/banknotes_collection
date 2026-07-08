@@ -1,0 +1,41 @@
+{
+  "id": "ar-p303a3",
+  "pick_number": "P-303a.3",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Pesos",
+    "subtype": "Peso Ley 18.188",
+    "alternatives": []
+  },
+  "year": 1979,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "construccion:cerro_de_la_gloria",
+    "lugar:mendoza"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/56842-500_Pesos_Ley-Edici%C3%B3n_1976-83_ND_Sin_N%C2%B0_de_Ley-Argentina",
+    "group": "Edición 1976-83 (ND) \"Sin N° de Ley\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "lb-p91b",
+  "pick_number": "P-91b",
+  "country": {
+    "en": "Lebanon",
+    "es": "Líbano"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "flora:cedro"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/64801-5000_Livres-2011-2021_Issue-L%C3%ADbano",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

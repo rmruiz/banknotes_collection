@@ -1,0 +1,41 @@
+{
+  "id": "gt-p106a",
+  "pick_number": "P-106a",
+  "country": {
+    "en": "Guatemala",
+    "es": "Guatemala"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Quetzales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2003,
+  "signatures": [],
+  "themes": [
+    "personaje:justo_rufino_barrios",
+    "fauna:quetzal",
+    "actividad:educacion"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16397-5_Quetzales-2003-2007_Printer_FCO_Issue-Guatemala",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

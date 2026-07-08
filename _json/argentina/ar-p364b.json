@@ -1,0 +1,39 @@
+{
+  "id": "ar-p364b",
+  "pick_number": "P-364b",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Pesos",
+    "subtype": "Cuarta serie «Fauna Autóctona de la República Argentina»",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "fauna:ballena_franca_austral"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/76328-200_Pesos-2015-2020_ND_Issue-Argentina",
+    "group": "2015-2020 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

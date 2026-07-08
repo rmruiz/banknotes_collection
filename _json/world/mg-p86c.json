@@ -1,0 +1,41 @@
+{
+  "id": "mg-p86c",
+  "pick_number": "P-86c",
+  "country": {
+    "en": "Madagascar",
+    "es": "Madagascar"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Ariary",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [],
+  "themes": [
+    "flora:ravinala",
+    "lugar:tsingy",
+    "lugar:bahia_de_antsiranana"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/69241-100_Ariary-2004_Dated_Issue-Madagascar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

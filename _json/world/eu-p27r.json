@@ -1,0 +1,41 @@
+{
+  "id": "eu-p27r",
+  "pick_number": "P-27r",
+  "country": {
+    "en": "European Union",
+    "es": "Unión Europea"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Euros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "construccion:puente",
+    "arte:arquitectura_romanico",
+    "simbolo:mapa_de_europa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/133497-10_Euro-2020_ND_Signature_Lagarde_Issue-Uni%C3%B3n_Europea",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "b"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

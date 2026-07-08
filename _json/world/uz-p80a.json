@@ -1,0 +1,40 @@
+{
+  "id": "uz-p80a",
+  "pick_number": "P-80a",
+  "country": {
+    "en": "Uzbekistan",
+    "es": "Uzbekistán"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Soms",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1997,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo",
+    "arte:sol_de_sher_dor"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/12890-200_Som-1994-2019_Issue-Uzbekist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ss-p5a",
+  "pick_number": "P-5a",
+  "country": {
+    "en": "South Sudan",
+    "es": "Sudán del Sur"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Libra",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:john_garang",
+    "fauna:jirafa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/33472-1_South_Sudanese_Pound-2011-2020_Issue-Sud%C3%A1n_del_Sur",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

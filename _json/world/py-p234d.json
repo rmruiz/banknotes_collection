@@ -1,0 +1,39 @@
+{
+  "id": "py-p234d",
+  "pick_number": "P-234d",
+  "country": {
+    "en": "Paraguay",
+    "es": "Paraguay"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Guaranies",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:carlos_antonio_lopez"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/147699-5000_Guaran%C3%ADes-2011-2022_Issue-Paraguay",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

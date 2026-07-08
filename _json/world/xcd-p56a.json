@@ -1,0 +1,42 @@
+{
+  "id": "xcd-p56a",
+  "pick_number": "P-56a",
+  "country": {
+    "en": "Eastern Caribbean States",
+    "es": "Estados del Caribe Oriental"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "fauna:colibri",
+    "lugar:cataratas_de_trafalgar",
+    "construccion:admirals_house"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/129824-5_Dollars-2019-2020_ND_Issue-Estados_del_Caribe_Oriental",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

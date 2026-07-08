@@ -1,0 +1,39 @@
+{
+  "id": "br-p198b",
+  "pick_number": "P-198b",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Cruzeiros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1981,
+  "signatures": [],
+  "themes": [
+    "personaje:duque_de_caxias"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1727-100_Cruzeiros-1981-1985_ND_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

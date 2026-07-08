@@ -1,0 +1,40 @@
+{
+  "id": "mg-p94a",
+  "pick_number": "P-94a",
+  "country": {
+    "en": "Madagascar",
+    "es": "Madagascar"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Ariary",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2008,
+  "signatures": [],
+  "themes": [
+    "transporte:velero_tradicional",
+    "flora:sisal"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/26871-5000_Ariary-2007-2008_ND_Madagascar_Action_Plan_Issue-Madagascar",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

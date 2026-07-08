@@ -1,0 +1,40 @@
+{
+  "id": "is-p48a4",
+  "pick_number": "P-48a.4",
+  "country": {
+    "en": "Iceland",
+    "es": "Islandia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Coronas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1981,
+  "signatures": [],
+  "themes": [
+    "personaje:arngrimur_jonsson",
+    "actividad:lectura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6587-10_Kr%C3%B3nur-1981-19861997_Issue_Law_29_March_1961-Islandia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

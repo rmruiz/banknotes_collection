@@ -1,0 +1,41 @@
+{
+  "id": "gb-p378c",
+  "pick_number": "P-378c",
+  "country": {
+    "en": "Great Britain",
+    "es": "Gran Bretaña"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Libras Esterlinas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1982,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "personaje:duque_de_wellington",
+    "evento:batalla_de_waterloo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16377-5_Pounds-1971-1982_ND_Issue_-_Bank_of_England-Reino_Unido",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

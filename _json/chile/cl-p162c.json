@@ -1,0 +1,44 @@
+{
+  "id": "cl-p162c",
+  "pick_number": "P-162c",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [
+    "Vergara",
+    "Zurbuchen"
+  ],
+  "themes": [
+    "personaje:manuel_rodriguez",
+    "lugar:reserva_nacional_nalcas",
+    "flora:araucaria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/68959-2000_Pesos-2009-2021_Issue-Chile",
+    "group": "2009-2021 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "2009 - 2013",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "tj-p10a1",
+  "pick_number": "P-10a.1",
+  "country": {
+    "en": "Tajikistan",
+    "es": "Tayikistán"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Diram",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1999,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo_tayikistan",
+    "construccion:palacio_de_cultura",
+    "lugar:montanas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/137522-1_Diram-1999_Somoni_Issue-Tayikist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

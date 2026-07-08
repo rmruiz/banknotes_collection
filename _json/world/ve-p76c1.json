@@ -1,0 +1,40 @@
+{
+  "id": "ve-p76c1",
+  "pick_number": "P-76c.1",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1998,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "evento:firma_del_acta_de_independencia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/132479-1000_Bol%C3%ADvares-1994-1998_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

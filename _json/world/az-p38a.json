@@ -1,0 +1,40 @@
+{
+  "id": "az-p38a",
+  "pick_number": "P-38a",
+  "country": {
+    "en": "Azerbaijan",
+    "es": "Azerbaiyán"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Manat",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "arte:instrumentos_musicales",
+    "simbolo:mapa_de_azerbaiyan"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/125145-1_Manat-2020-2026_Issue-Azerbaiy%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

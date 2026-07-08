@@ -1,0 +1,40 @@
+{
+  "id": "hu-p195a",
+  "pick_number": "P-195a",
+  "country": {
+    "en": "Hungary",
+    "es": "Hungría"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [],
+  "themes": [
+    "rey:matias_corvino",
+    "construccion:palacio_de_visegrad"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/40486-1000_Forint-2005-2008_Holographical_Foil_Issue-Hungr%C3%ADa",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

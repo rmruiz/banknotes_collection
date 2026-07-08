@@ -1,0 +1,41 @@
+{
+  "id": "jo-p34i",
+  "pick_number": "P-34i",
+  "country": {
+    "en": "Jordan",
+    "es": "Jordania"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dinar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "rey:sharif_hussein_bin_ali",
+    "transporte:camello",
+    "evento:gran_revuelta_arabe"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/122693-1_Dinar-2002-2021_Issue-Jordania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

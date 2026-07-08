@@ -1,0 +1,40 @@
+{
+  "id": "ca-p109b",
+  "pick_number": "P-109b",
+  "country": {
+    "en": "Canada",
+    "es": "Canadá"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:mackenzie_king",
+    "transporte:rompehielos_amundsen"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/62623-50_Dollars-2011-2022_Polymer_Issue-Canad%C3%A1",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

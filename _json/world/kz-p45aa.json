@@ -1,0 +1,41 @@
+{
+  "id": "kz-p45aa",
+  "pick_number": "P-45Aa",
+  "country": {
+    "en": "Kazakhstan",
+    "es": "Kazajistán"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Tenge",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "fauna:paloma",
+    "simbolo:escudo",
+    "simbolo:mapa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/84576-500_Tenge-2017-2023_Issue-Kazajst%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

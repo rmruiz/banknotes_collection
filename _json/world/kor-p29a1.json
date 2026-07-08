@@ -1,0 +1,37 @@
+{
+  "id": "kor-p29a1",
+  "pick_number": "P-29a.1",
+  "country": {
+    "en": "Korea",
+    "es": "Corea"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Yen",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1932,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7892-1_Yen-1932-1938_ND_and_Dated_Issue-Corea",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

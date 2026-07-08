@@ -1,0 +1,40 @@
+{
+  "id": "sc-p23a",
+  "pick_number": "P-23a",
+  "country": {
+    "en": "Seychelles",
+    "es": "Seychelles"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1979,
+  "signatures": [],
+  "themes": [
+    "fauna:ave",
+    "flora:hibisco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10937-10_Rupees-1979-1980_ND_Issue-Seychelles",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "zm-p36b",
+  "pick_number": "P-36b",
+  "country": {
+    "en": "Zambia",
+    "es": "Zambia"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "fauna:aguila_pescadora",
+    "simbolo:monumento_a_la_libertad",
+    "fauna:kudu"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/13502-20_Kwacha-1992-2011_Issue-Zambia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

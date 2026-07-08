@@ -1,0 +1,44 @@
+{
+  "id": "cl-p96c",
+  "pick_number": "P-96c",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "10 Condores"
+    ]
+  },
+  "year": 1941,
+  "signatures": [
+    "Oyarzún",
+    "Meyerholz"
+  ],
+  "themes": [
+    "personaje:arturo_prat"
+  ],
+  "colnect": {
+    "url": "http://www.banknote.ws/COLLECTION/countries/AME/CIL/CIL0096.htm",
+    "group": "1940-1948 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1932 - 1943",
+    "obs": "color:rojo"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "sr-p146",
+  "pick_number": "P-146",
+  "country": {
+    "en": "Suriname",
+    "es": "Surinam"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2000,
+  "signatures": [],
+  "themes": [
+    "flora:passiflora",
+    "fauna:pajaro_carpintero"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11748-5_Gulden-2000_Issue-Surinam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

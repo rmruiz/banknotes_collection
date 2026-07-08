@@ -1,0 +1,40 @@
+{
+  "id": "ve-p63d",
+  "pick_number": "P-63d",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_antonio_paez",
+    "construccion:monumento_carabobo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15629-20_Bol%C3%ADvares-1981-1998_Issues-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

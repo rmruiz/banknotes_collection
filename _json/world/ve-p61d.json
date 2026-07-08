@@ -1,0 +1,41 @@
+{
+  "id": "ve-p61d",
+  "pick_number": "P-61d",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1995,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "personaje:antonio_jose_de_sucre",
+    "construccion:panteon_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15566-10_Bol%C3%ADvares-1981-1998_Issues-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

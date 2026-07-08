@@ -1,0 +1,41 @@
+{
+  "id": "cd-p97aa1",
+  "pick_number": "P-97Aa.1",
+  "country": {
+    "en": "Democratic Republic of the Congo",
+    "es": "El Congo"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "arte:mascara",
+    "actividad:pesca",
+    "fauna:pez"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/51991-50_Francs-2007-2022_Issue-Congo_Rep%C3%BAblica_Democr%C3%A1tica_Kinshasa_-_Zaire",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

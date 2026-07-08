@@ -1,0 +1,40 @@
+{
+  "id": "us-p550a",
+  "pick_number": "P-550A",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:benjamin_franklin",
+    "construccion:independence_hall"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/133768-100_Dollars-2017_Federal_Reserve_Notes-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "2017 A",
+    "bank": "",
+    "zone": "Boston - Massachusetts",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "cl-p164f",
+  "pick_number": "P-164f",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [
+    "Vergara",
+    "Zurbuchen"
+  ],
+  "themes": [
+    "personaje:arturo_prat",
+    "lugar:parque_nacional_alberto_de_agostini"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/89021-10000_Pesos-2009-2024_Issue-Chile",
+    "group": "2009-2021 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "2009 - 2024",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

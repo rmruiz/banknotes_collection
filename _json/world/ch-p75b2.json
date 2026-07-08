@@ -1,0 +1,41 @@
+{
+  "id": "ch-p75b2",
+  "pick_number": "P-75b.2",
+  "country": {
+    "en": "Switzerland",
+    "es": "Suiza"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "simbolo:mano",
+    "transporte:tren",
+    "arte:mecanismo_de_reloj"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/127036-10_Francs-2015-2020_Issue-Suiza",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

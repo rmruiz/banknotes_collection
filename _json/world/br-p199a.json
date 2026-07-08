@@ -1,0 +1,40 @@
+{
+  "id": "br-p199a",
+  "pick_number": "P-199a",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Cruzeiros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1984,
+  "signatures": [],
+  "themes": [
+    "personaje:princesa_isabel",
+    "evento:abolicion_de_la_esclavitud"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/17726-200_Cruzeiros-1981-1985_ND_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ar-p272c5",
+  "pick_number": "P-272c.5",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "Moneda Nacional: San Martín",
+    "alternatives": []
+  },
+  "year": 1966,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "evento:fundacion_de_buenos_aires"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/421-100_Pesos-Edici%C3%B3n_1954-1968_ND_Leyes_12962_y_13571_-_San_Mart%C3%ADn-Argentina",
+    "group": "Edición 1954-1968 (ND) \"Leyes 12.962 y 13.571 - San Martín\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

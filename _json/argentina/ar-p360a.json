@@ -1,0 +1,40 @@
+{
+  "id": "ar-p360a",
+  "pick_number": "P-360a",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pesos",
+    "subtype": "Tercera serie «Tenemos Patria»",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "personaje:manuel_belgrano",
+    "evento:creacion_de_la_bandera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/67212-10_Pesos-2015-2020_ND_Issue-Argentina",
+    "group": "2015-2020 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

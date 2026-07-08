@@ -1,0 +1,41 @@
+{
+  "id": "lk-p123c",
+  "pick_number": "P-123c",
+  "country": {
+    "en": "Sri Lanka",
+    "es": "Sri Lanka"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "lugar:puerto_de_colombo",
+    "fauna:buho",
+    "actividad:danza"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/62440-20_Rupees-2010-2022_Issue-Sri_Lanka",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

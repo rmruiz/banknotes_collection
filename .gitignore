@@ -1,0 +1,8 @@
+.DS_Store
+_INSTAGRAM/*
+_folders.originals/
+__pycache__/
+.claude/
+web/thumbs/
+web/data/
+scratchpad

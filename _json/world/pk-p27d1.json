@@ -1,0 +1,39 @@
+{
+  "id": "pk-p27d1",
+  "pick_number": "P-27d.1",
+  "country": {
+    "en": "Pakistan",
+    "es": "Pakistán"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Rupia",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1987,
+  "signatures": [],
+  "themes": [
+    "simbolo:media_luna_estrella"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/125129-1_Rupee-1981-2001_ND_1_Rupee_Issues-Pakist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

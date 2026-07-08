@@ -1,0 +1,40 @@
+{
+  "id": "rs-p42a",
+  "pick_number": "P-42a",
+  "country": {
+    "en": "Serbia",
+    "es": "Serbia"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [],
+  "themes": [
+    "personaje:nadezda_petrovic",
+    "arte:escultura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10909-200_Dinara-2003-2005_Issue-Serbia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

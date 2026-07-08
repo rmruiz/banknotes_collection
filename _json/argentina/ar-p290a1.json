@@ -1,0 +1,40 @@
+{
+  "id": "ar-p290a1",
+  "pick_number": "P-290a.1",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "Peso Ley 18.188",
+    "alternatives": []
+  },
+  "year": 1972,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "lugar:termas_de_reyes"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/18109-50_Pesos-Edici%C3%B3n_1970-1973_ND_-_Pesos_Ley_18188-Argentina",
+    "group": "Edición 1970-1973 (ND) - \"Pesos Ley 18.188\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "malo"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

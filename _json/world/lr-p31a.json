@@ -1,0 +1,41 @@
+{
+  "id": "lr-p31a",
+  "pick_number": "P-31a",
+  "country": {
+    "en": "Liberia",
+    "es": "Liberia"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "personaje:edward_james_roye",
+    "actividad:cosecha",
+    "simbolo:estrella"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/71363-5_Dollars-2016-2020_Issue-Liberia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

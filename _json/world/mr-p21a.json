@@ -1,0 +1,40 @@
+{
+  "id": "mr-p21a",
+  "pick_number": "P-21A",
+  "country": {
+    "en": "Mauritania",
+    "es": "Mauritania"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Uguiyas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "construccion:mezquita",
+    "simbolo:media_luna"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/135517-20_Ouguiya-2017-2020_Polymer_Issue-Mauritania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

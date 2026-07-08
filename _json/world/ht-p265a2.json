@@ -1,0 +1,40 @@
+{
+  "id": "ht-p265a2",
+  "pick_number": "P-265a.2",
+  "country": {
+    "en": "Haiti",
+    "es": "Haití"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Gurdes",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2000,
+  "signatures": [],
+  "themes": [
+    "actividad:tejido",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6118-10_Gourdes-2000-2021_Issue-Hait%C3%AD",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

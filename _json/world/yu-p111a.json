@@ -1,0 +1,40 @@
+{
+  "id": "yu-p111a",
+  "pick_number": "P-111a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "personaje:ivo_andric",
+    "construccion:puente"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16043-5000_Dinara-Edicion_1991-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

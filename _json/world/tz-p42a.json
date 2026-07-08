@@ -1,0 +1,40 @@
+{
+  "id": "tz-p42a",
+  "pick_number": "P-42a",
+  "country": {
+    "en": "Tanzania",
+    "es": "Tanzania"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Shillings",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "fauna:leon",
+    "construccion:fuerte_de_zanzibar"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/26116-2000_ShilingiShillings-2010-2019_ND_Issue-Tanzania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

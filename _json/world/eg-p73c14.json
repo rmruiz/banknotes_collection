@@ -1,0 +1,40 @@
+{
+  "id": "eg-p73c14",
+  "pick_number": "P-73c.14",
+  "country": {
+    "en": "Egypt",
+    "es": "Egipto"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "construccion:mezquita_al_rifai",
+    "arte:estatua_faraonica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/79343-10_Pounds-2013-2022_Enhanced_Security_Features_Issue-Egipto",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

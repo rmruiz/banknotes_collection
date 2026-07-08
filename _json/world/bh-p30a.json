@@ -1,0 +1,41 @@
+{
+  "id": "bh-p30a",
+  "pick_number": "P-30a",
+  "country": {
+    "en": "Bahrain",
+    "es": "Baréin"
+  },
+  "denomination": {
+    "value": 0.5,
+    "currency": "Dinar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "construccion:bahrain_fort",
+    "construccion:teatro_nacional_de_bahrein",
+    "construccion:circuito_internacional_de_bahrein"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/78195-%C2%BD_Dinar-2016-2023_Issue-Bahr%C3%A9in",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "qa-p28b",
+  "pick_number": "P-28b",
+  "country": {
+    "en": "Qatar",
+    "es": "Qatar"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Rial",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2008,
+  "signatures": [],
+  "themes": [
+    "fauna:ave",
+    "simbolo:escudo_nacional",
+    "transporte:dhow"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/66494-1_Riyal-2008_ND_Issue-Qatar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

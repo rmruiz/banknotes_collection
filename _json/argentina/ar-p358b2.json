@@ -1,0 +1,40 @@
+{
+  "id": "ar-p358b2",
+  "pick_number": "P-358b.2",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "Tercera serie «Tenemos Patria»",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:eva_peron",
+    "arte:escultura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/57782-100_Pesos-Edici%C3%B3n_2002-2017_ND_Pesos-Argentina",
+    "group": "Edición 2002-2017 (ND) \"Pesos\""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

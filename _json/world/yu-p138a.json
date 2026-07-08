@@ -1,0 +1,40 @@
+{
+  "id": "yu-p138a",
+  "pick_number": "P-138a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "personaje:josif_pancic",
+    "lugar:montanas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16051-10_Dinara-Edicion_1994-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

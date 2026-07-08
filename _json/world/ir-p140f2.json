@@ -1,0 +1,40 @@
+{
+  "id": "ir-p140f2",
+  "pick_number": "P-140f.2",
+  "country": {
+    "en": "Iran",
+    "es": "Irán"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Riales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1997,
+  "signatures": [],
+  "themes": [
+    "personaje:hassan_modarres",
+    "construccion:banco_central"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6885-100_Rials-1997_16th_Islamic_Republic_Series_Issues-Ir%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

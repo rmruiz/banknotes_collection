@@ -1,0 +1,40 @@
+{
+  "id": "au-p65a",
+  "pick_number": "P-65a",
+  "country": {
+    "en": "Australia",
+    "es": "Australia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Dólares Australianos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "personaje:david_unaipon",
+    "personaje:edith_cowan"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/135298-50_Dollars-2016-2021_Issue-Australia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

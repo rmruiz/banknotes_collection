@@ -1,0 +1,40 @@
+{
+  "id": "ar-p308b",
+  "pick_number": "P-308b",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 100000,
+    "currency": "Pesos",
+    "subtype": "Peso Ley 18.188",
+    "alternatives": []
+  },
+  "year": 1980,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "construccion:casa_de_moneda"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/18115-100000_Pesos_Ley-Edici%C3%B3n_1976-83_ND_Sin_N%C2%B0_de_Ley-Argentina",
+    "group": "Edición 1976-83 (ND) \"Sin N° de Ley\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

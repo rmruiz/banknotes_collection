@@ -1,0 +1,41 @@
+{
+  "id": "gb-p400a",
+  "pick_number": "P-400a",
+  "country": {
+    "en": "Great Britain",
+    "es": "Gran Bretaña"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Libras Esterlinas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2023,
+  "signatures": [],
+  "themes": [
+    "rey:carlos_iii",
+    "personaje:jmw_turner",
+    "transporte:barco"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/156041-20_Pounds-2024_Issue_King_Charles_III-Reino_Unido",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

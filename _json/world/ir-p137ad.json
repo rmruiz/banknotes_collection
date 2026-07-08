@@ -1,0 +1,40 @@
+{
+  "id": "ir-p137ad",
+  "pick_number": "P-137Ad",
+  "country": {
+    "en": "Iran",
+    "es": "Irán"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Riales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [],
+  "themes": [
+    "actividad:oracion_colectiva",
+    "construccion:universidad_de_teheran"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6880-500_Rials-2005-2007_23rd_Islamic_Republic_Series_Issues-Ir%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "er-p1a",
+  "pick_number": "P-1a",
+  "country": {
+    "en": "Eritrea",
+    "es": "Eritrea"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Nakfa",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1997,
+  "signatures": [],
+  "themes": [
+    "fauna:dromedario",
+    "actividad:lectura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/4393-1_Nakfa-1997_Issue-Eritrea",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

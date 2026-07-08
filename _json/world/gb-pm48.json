@@ -1,0 +1,39 @@
+{
+  "id": "gb-pm48",
+  "pick_number": "P-M48",
+  "country": {
+    "en": "Great Britain",
+    "es": "Gran Bretaña"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pence",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1972,
+  "signatures": [],
+  "themes": [
+    "simbolo:emblema"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/20785-10_New_Pence_6th_Series-1972_Sixth_Series_Second_Issue_-_British_Armed_Forces-Reino_Unido",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

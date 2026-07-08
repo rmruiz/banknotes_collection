@@ -1,0 +1,41 @@
+{
+  "id": "id-p165a",
+  "pick_number": "P-165a",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:frans_kaisiepo",
+    "actividad:danza_pakarena",
+    "lugar:wakatobi"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/141885-10000_Rupiah-2021-2023_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

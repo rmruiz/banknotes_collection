@@ -1,0 +1,43 @@
+{
+  "id": "cl-p157c6",
+  "pick_number": "P-157c.6",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [
+    "Corbo",
+    "Marshall"
+  ],
+  "themes": [
+    "personaje:arturo_prat",
+    "construccion:hacienda_san_agustin_de_punual"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60660-10000_Pesos-1975-2009_Issue-Chile",
+    "group": "1975-2009 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1989 - 2009",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "sd-p44b",
+  "pick_number": "P-44b",
+  "country": {
+    "en": "Sudan",
+    "es": "Sudán"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1989,
+  "signatures": [],
+  "themes": [
+    "construccion:banco_de_sudan"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11675-100_Sudanese_Pounds-1987-1990_Issue-Sud%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

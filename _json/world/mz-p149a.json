@@ -1,0 +1,40 @@
+{
+  "id": "mz-p149a",
+  "pick_number": "P-149a",
+  "country": {
+    "en": "Mozambique",
+    "es": "Mozambique"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Meticales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:samora_machel",
+    "fauna:rinoceronte"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/36334-20_Meticais-2011-2017_Samora_Machel_Issue-Mozambique",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

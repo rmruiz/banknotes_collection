@@ -1,0 +1,39 @@
+{
+  "id": "yu-p69a",
+  "pick_number": "P-69a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1955,
+  "signatures": [],
+  "themes": [
+    "lugar:dubrovnik"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16024-100_Dinara-1955_Issue-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

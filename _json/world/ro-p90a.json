@@ -1,0 +1,41 @@
+{
+  "id": "ro-p90a",
+  "pick_number": "P-90a",
+  "country": {
+    "en": "Romania",
+    "es": "Rumania"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Leu",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1952,
+  "signatures": [],
+  "themes": [
+    "personaje:nicolae_balcescu",
+    "simbolo:escudo_republica_socialista",
+    "construccion:ateneo_rumano"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10558-100_Lei-1952_Issue-Ruman%C3%ADa",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

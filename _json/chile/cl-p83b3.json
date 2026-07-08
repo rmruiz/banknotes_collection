@@ -1,0 +1,43 @@
+{
+  "id": "cl-p83b3",
+  "pick_number": "P-83b.3",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1929,
+  "signatures": [
+    "Tocornal",
+    "Burr"
+  ],
+  "themes": [
+    "simbolo:sello_banco_central",
+    "fauna:condor"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/20218-10_Pesos-1927-1930_Billete_Provisional_Issue-Chile",
+    "group": "1927-1930 Billete Provisional Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1927 - 1932",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

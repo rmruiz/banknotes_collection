@@ -1,0 +1,41 @@
+{
+  "id": "mo-p88e",
+  "pick_number": "P-88E",
+  "country": {
+    "en": "Macau (China)",
+    "es": "Macao (China)"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Patacas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "fauna:rata",
+    "simbolo:zodiaco_chino",
+    "construccion:templo_a_ma"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/128652-10_Patacas-2012-_Present_Lunar_Year_Commemorative_Issue_BNU-Macao",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Año de la Rata"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

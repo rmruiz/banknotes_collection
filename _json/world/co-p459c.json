@@ -1,0 +1,41 @@
+{
+  "id": "co-p459c",
+  "pick_number": "P-459c",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_asuncion_silva",
+    "flora:frailejon",
+    "lugar:paramo_de_chingaza"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/107538-5000_Pesos-2014-2020_New_Design_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

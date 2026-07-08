@@ -1,0 +1,41 @@
+{
+  "id": "ve-p70b",
+  "pick_number": "P-70b",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1989,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "personaje:francisco_de_miranda",
+    "construccion:panteon_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15534-5_Bol%C3%ADvares-1989_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

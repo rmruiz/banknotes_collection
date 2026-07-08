@@ -1,0 +1,41 @@
+{
+  "id": "np-p29b4",
+  "pick_number": "P-29b.4",
+  "country": {
+    "en": "Nepal",
+    "es": "Nepal"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2001,
+  "signatures": [],
+  "themes": [
+    "rey:gyanendra",
+    "construccion:templo",
+    "fauna:leopardo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/43229-2_Rupees-1981-2001_ND_Issue-Nepal",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

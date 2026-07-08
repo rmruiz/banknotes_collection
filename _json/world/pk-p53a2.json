@@ -1,0 +1,40 @@
+{
+  "id": "pk-p53a2",
+  "pick_number": "P-53a.2",
+  "country": {
+    "en": "Pakistan",
+    "es": "Pakistán"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2008,
+  "signatures": [],
+  "themes": [
+    "personaje:muhammad_ali_jinnah",
+    "construccion:puerto_gwadar"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15638-5_Rupees-2007-2021_Issue-Pakist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

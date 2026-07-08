@@ -1,0 +1,40 @@
+{
+  "id": "uy-p101a",
+  "pick_number": "P-101a",
+  "country": {
+    "en": "Uruguay",
+    "es": "Uruguay"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "personaje:juan_zorrilla_de_san_martin",
+    "arte:alegoria_de_la_leyenda_patria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/121326-20_Pesos_Uruguayos-2020-2021_Polymer_Issue-Uruguay",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

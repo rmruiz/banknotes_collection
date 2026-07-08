@@ -1,0 +1,41 @@
+{
+  "id": "ve-p119a",
+  "pick_number": "P-119a",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Bolivares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "evento:batalla_de_carabobo",
+    "construccion:arco_de_carabobo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/139888-100_Bol%C3%ADvares-2021-2025_Bol%C3%ADvar_Digital_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

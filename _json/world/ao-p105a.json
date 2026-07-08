@@ -1,0 +1,40 @@
+{
+  "id": "ao-p105a",
+  "pick_number": "P-105a",
+  "country": {
+    "en": "Angola",
+    "es": "Angola"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Escudos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1973,
+  "signatures": [],
+  "themes": [
+    "personaje:luis_de_camoes",
+    "flora:cafeto"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/331-50_Escudos-1973_Issue-Angola",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

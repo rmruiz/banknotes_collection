@@ -1,0 +1,42 @@
+{
+  "id": "kh-p63a",
+  "pick_number": "P-63a",
+  "country": {
+    "en": "Cambodia",
+    "es": "Camboya"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Rieles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "personaje:norodom_sihanouk",
+    "simbolo:escudo_de_camboya",
+    "transporte:barcaza_real",
+    "construccion:palacio_real"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/43820-1000_Riels-2012_Norodom_Sihanouk_Commemorative_Issue-Camboya",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

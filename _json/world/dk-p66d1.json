@@ -1,0 +1,40 @@
+{
+  "id": "dk-p66d1",
+  "pick_number": "P-66d.1",
+  "country": {
+    "en": "Denmark",
+    "es": "Dinamarca"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Coronas Danesas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "construccion:puente_viejo_del_pequeno_belt",
+    "arte:daga_de_hindsgavl"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/81173-100_Kroner-2009-2016_Bridges_Issue-Dinamarca",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

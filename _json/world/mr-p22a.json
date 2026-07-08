@@ -1,0 +1,41 @@
+{
+  "id": "mr-p22a",
+  "pick_number": "P-22a",
+  "country": {
+    "en": "Mauritania",
+    "es": "Mauritania"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Uguiyas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "construccion:mezquita",
+    "actividad:te_tradicional",
+    "arte:instrumentos_musicales"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/86051-50_Ouguiya-2017-2020_Polymer_Issue-Mauritania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

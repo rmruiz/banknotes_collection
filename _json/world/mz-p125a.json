@@ -1,0 +1,41 @@
+{
+  "id": "mz-p125a",
+  "pick_number": "P-125a",
+  "country": {
+    "en": "Mozambique",
+    "es": "Mozambique"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Meticales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1980,
+  "signatures": [],
+  "themes": [
+    "actividad:desfile_militar",
+    "simbolo:escudo",
+    "transporte:tanque"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/9308-50_Meticais-1980_Issue-Mozambique",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

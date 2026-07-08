@@ -1,0 +1,40 @@
+{
+  "id": "br-p258a",
+  "pick_number": "P-258a",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Reales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "simbolo:efigie_de_la_republica",
+    "fauna:lobo_de_crin"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/121842-200_Reais-2003-2020_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ar-p369a",
+  "pick_number": "P-369a",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2024,
+  "signatures": [],
+  "themes": [
+    "personaje:manuel_belgrano",
+    "personaje:maria_remedios_del_valle",
+    "evento:jura_a_la_bandera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/155380-10000_Pesos-2022-2024_National_Heroes_and_Cultural_Figures_Issue-Argentina",
+    "group": "2022 \"National Heroes and Cultural Figures\" Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

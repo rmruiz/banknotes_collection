@@ -1,0 +1,41 @@
+{
+  "id": "in-p94ac",
+  "pick_number": "P-94Ac",
+  "country": {
+    "en": "India",
+    "es": "India"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "personaje:mahatma_gandhi",
+    "actividad:agricultura",
+    "transporte:tractor"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/37946-5_Rupees-2005-2012_Gandhi_Issue-India",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

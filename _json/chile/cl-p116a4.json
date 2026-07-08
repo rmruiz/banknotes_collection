@@ -1,0 +1,45 @@
+{
+  "id": "cl-p116a4",
+  "pick_number": "P-116a.4",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "100 Condores"
+    ]
+  },
+  "year": 1947,
+  "signatures": [
+    "Maschke",
+    "Herrera"
+  ],
+  "themes": [
+    "personaje:manuel_blanco_encalada",
+    "evento:fundacion_de_santiago"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2544-1000_Pesos-1947-1959_ND_Issue-Chile",
+    "group": "1947-1959 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1947 - 1959",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

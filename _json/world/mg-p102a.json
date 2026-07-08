@@ -1,0 +1,40 @@
+{
+  "id": "mg-p102a",
+  "pick_number": "P-102a",
+  "country": {
+    "en": "Madagascar",
+    "es": "Madagascar"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Ariary",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "lugar:cascada_de_ranomafana",
+    "fauna:ballena_jorobada"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/79889-5000_Ariary-2017_ND_Madagascar_and_its_Riches_Issue-Madagascar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "rs-p23a",
+  "pick_number": "P-23a",
+  "country": {
+    "en": "Serbia",
+    "es": "Serbia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1941,
+  "signatures": [],
+  "themes": [
+    "simbolo:alegoria",
+    "actividad:agricultura",
+    "simbolo:escudo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10897-100_Dinara-1941_Provisional_Issue-Serbia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Provisional"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

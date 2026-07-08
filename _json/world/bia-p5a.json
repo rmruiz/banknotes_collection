@@ -1,0 +1,41 @@
+{
+  "id": "bia-p5a",
+  "pick_number": "P-5a",
+  "country": {
+    "en": "Biafra",
+    "es": "Biafra"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Libra",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1968,
+  "signatures": [],
+  "themes": [
+    "flora:palmera",
+    "simbolo:sol_naciente",
+    "simbolo:escudo_biafra"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1317-1_Pound-1969_ND_Issue-Biafra",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

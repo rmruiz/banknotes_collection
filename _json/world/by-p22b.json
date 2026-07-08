@@ -1,0 +1,39 @@
+{
+  "id": "by-p22b",
+  "pick_number": "P-22b",
+  "country": {
+    "en": "Belarus",
+    "es": "Bielorrusia"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Rublos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2001,
+  "signatures": [],
+  "themes": [
+    "construccion:barrio_troitskoye"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/133240-5_Rubles-2000-2016_Issue_Series_2000-Bielorrusia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

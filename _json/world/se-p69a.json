@@ -1,0 +1,41 @@
+{
+  "id": "se-p69a",
+  "pick_number": "P-69a",
+  "country": {
+    "en": "Sweden",
+    "es": "Suecia"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Coronas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:astrid_lindgren",
+    "arte:pippi_langstrump",
+    "simbolo:mapa_de_suecia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/62904-20_Kronor-2015-2023_Issue-Suecia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

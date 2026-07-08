@@ -1,0 +1,40 @@
+{
+  "id": "mm-p67a",
+  "pick_number": "P-67a",
+  "country": {
+    "en": "Myanmar",
+    "es": "Birmania"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Kyat",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "personaje:aung_san",
+    "transporte:barca_real"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2029-1_Kyat-1990-1998_ND_Issue-Myanmar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

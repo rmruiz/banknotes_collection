@@ -1,0 +1,41 @@
+{
+  "id": "mo-p88f",
+  "pick_number": "P-88F",
+  "country": {
+    "en": "Macau (China)",
+    "es": "Macao (China)"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Patacas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "fauna:buey",
+    "simbolo:zodiaco_chino",
+    "construccion:templo_a_ma"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/128654-10_Patacas-2012-_Present_Lunar_Year_Commemorative_Issue_BNU-Macao",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Año del Buey"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "br-p200a",
+  "pick_number": "P-200a",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Cruzeiros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1981,
+  "signatures": [],
+  "themes": [
+    "personaje:deodoro_da_fonseca",
+    "evento:proclamacion_de_la_republica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1729-500_Cruzeiros-1981-1985_ND_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "pe-p200a",
+  "pick_number": "P-200a",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Soles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "personaje:tilsa_tsuchiya",
+    "fauna:gallito_de_las_rocas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/151219-200_Soles-2019-2021_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

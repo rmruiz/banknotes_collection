@@ -1,0 +1,40 @@
+{
+  "id": "st-p70a",
+  "pick_number": "P-70a",
+  "country": {
+    "en": "São Tomé and Príncipe",
+    "es": "Santo Tomé y Príncipe"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "fauna:mariposa",
+    "fauna:musarana"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/86293-5_Dobras-2016_Issue-Santo_Tom%C3%A9_y_Pr%C3%ADncipe",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

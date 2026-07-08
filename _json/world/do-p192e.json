@@ -1,0 +1,41 @@
+{
+  "id": "do-p192e",
+  "pick_number": "P-192e",
+  "country": {
+    "en": "Dominican Republic",
+    "es": "Rep. Dominicana"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:salome_urena",
+    "personaje:pedro_henriquez_urena",
+    "construccion:banco_central"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/149221-500_Pesos_Dominicanos-2014-2023_Issue-Rep%C3%BAblica_Dominicana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

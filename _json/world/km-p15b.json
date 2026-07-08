@@ -1,0 +1,40 @@
+{
+  "id": "km-p15b",
+  "pick_number": "P-15b",
+  "country": {
+    "en": "Comoros",
+    "es": "Comoras"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "fauna:lemur",
+    "flora:orquidea"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/50642-500_Francs-2005-2025_Issue-Comoras",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "bw-p35a",
+  "pick_number": "P-35a",
+  "country": {
+    "en": "Botswana",
+    "es": "Botswana"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pula",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:ian_khama",
+    "simbolo:escudo_de_botswana",
+    "construccion:parlamento",
+    "fauna:antilope"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/87714-10_Pula-2018_Polymer_Issue-Botswana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

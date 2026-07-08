@@ -1,0 +1,40 @@
+{
+  "id": "br-p195aa3",
+  "pick_number": "P-195Aa.3",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Cruzeiros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1974,
+  "signatures": [],
+  "themes": [
+    "personaje:floriano_peixoto",
+    "construccion:congreso_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/46390-100_Cruzeiros-1970-1981_ND_Issues-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

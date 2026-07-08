@@ -1,0 +1,39 @@
+{
+  "id": "bt-p28c",
+  "pick_number": "P-28c",
+  "country": {
+    "en": "Bhutan",
+    "es": "Bután"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Ngultrum",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "construccion:taktsang"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/68119-5_Ngultrum-2006-2020_Issue-But%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

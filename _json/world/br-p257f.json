@@ -1,0 +1,40 @@
+{
+  "id": "br-p257f",
+  "pick_number": "P-257f",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Reales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "simbolo:efigie_de_la_republica",
+    "fauna:mero"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/110296-100_Reais-2003-2024_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

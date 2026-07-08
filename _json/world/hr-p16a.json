@@ -1,0 +1,40 @@
+{
+  "id": "hr-p16a",
+  "pick_number": "P-16a",
+  "country": {
+    "en": "Croatia",
+    "es": "Croacia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dinar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "personaje:ruder_boskovic",
+    "construccion:catedral_de_zagreb"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/3000-1_Dinar-1991-1993_Ruder_Boskovi%C4%87_Issue-Croacia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "gb-p377b",
+  "pick_number": "P-377b",
+  "country": {
+    "en": "Great Britain",
+    "es": "Gran Bretaña"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Libra Esterlina",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1982,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "personaje:isaac_newton",
+    "simbolo:sistema_solar"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16376-1_Pound-1971-1982_ND_Issue_-_Bank_of_England-Reino_Unido",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

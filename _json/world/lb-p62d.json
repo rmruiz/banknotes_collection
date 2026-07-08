@@ -1,0 +1,40 @@
+{
+  "id": "lb-p62d",
+  "pick_number": "P-62d",
+  "country": {
+    "en": "Lebanon",
+    "es": "Líbano"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1986,
+  "signatures": [],
+  "themes": [
+    "construccion:palacio",
+    "flora:palmera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/8191-5_Livres-1964-1993_Issue-L%C3%ADbano",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

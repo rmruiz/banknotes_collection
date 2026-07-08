@@ -1,0 +1,40 @@
+{
+  "id": "mz-p139",
+  "pick_number": "P-139",
+  "country": {
+    "en": "Mozambique",
+    "es": "Mozambique"
+  },
+  "denomination": {
+    "value": 100000,
+    "currency": "Meticales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1993,
+  "signatures": [],
+  "themes": [
+    "construccion:banco_de_mozambique",
+    "construccion:represa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/9322-100000_Meticais-1991-2003_Issue-Mozambique",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

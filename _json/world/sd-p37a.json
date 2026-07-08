@@ -1,0 +1,41 @@
+{
+  "id": "sd-p37a",
+  "pick_number": "P-37a",
+  "country": {
+    "en": "Sudan",
+    "es": "Sudán"
+  },
+  "denomination": {
+    "value": 25,
+    "currency": "Placas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1987,
+  "signatures": [],
+  "themes": [
+    "fauna:camello",
+    "construccion:banco_de_sudan",
+    "simbolo:mapa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11666-25_Piastres-1987-1990_Issue-Sud%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

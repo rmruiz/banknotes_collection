@@ -1,0 +1,43 @@
+{
+  "id": "cl-p148a1",
+  "pick_number": "P-148a.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Escudos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1974,
+  "signatures": [
+    "Cano",
+    "Molina"
+  ],
+  "themes": [
+    "personaje:bernardo_ohiggins",
+    "evento:salida_de_rancagua"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2568-10000_Escudos-1967-1975_ND_Issue-Chile",
+    "group": "1967-1975 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1962 - 1975",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

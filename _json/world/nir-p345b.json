@@ -1,0 +1,37 @@
+{
+  "id": "nir-p345b",
+  "pick_number": "P-345b",
+  "country": {
+    "en": "Northern Ireland",
+    "es": "Irlanda del Norte"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/139918-20_Pounds_Sterling-Ulster_Bank_Limited_2018-2023-Irlanda_del_Norte",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

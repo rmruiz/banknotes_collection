@@ -1,0 +1,44 @@
+{
+  "id": "cl-p94c2",
+  "pick_number": "P-94c.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "5 Condores"
+    ]
+  },
+  "year": 1937,
+  "signatures": [
+    "Subercaseaux",
+    "Meyerholz"
+  ],
+  "themes": [
+    "personaje:anibal_pinto"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/145345-50_Pesos-1931-1947_Issues-Chile",
+    "group": "1931-1947 Issues"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1932 - 1943",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

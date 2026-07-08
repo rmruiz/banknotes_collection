@@ -1,0 +1,45 @@
+{
+  "id": "cl-p130a1",
+  "pick_number": "P-130a.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "5 Escudos"
+    ]
+  },
+  "year": 1960,
+  "signatures": [
+    "Figueroa",
+    "Mackenna"
+  ],
+  "themes": [
+    "personaje:manuel_antonio_tocornal",
+    "evento:batalla_de_rancagua"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/50075-5_Escudos-1960_ND_Provisional_Issue-Chile",
+    "group": "1960 ND Provisional Issue"
+  },
+  "commemorative": false,
+  "overprint": true,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1960 - 1961",
+    "obs": "500 Condores"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

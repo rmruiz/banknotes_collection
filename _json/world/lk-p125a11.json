@@ -1,0 +1,41 @@
+{
+  "id": "lk-p125a11",
+  "pick_number": "P-125a.1.1",
+  "country": {
+    "en": "Sri Lanka",
+    "es": "Sri Lanka"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "construccion:central_termica_norochcholai",
+    "fauna:ave",
+    "actividad:danza"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/30275-100_Rupees-2010-2025_Issue-Sri_Lanka",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

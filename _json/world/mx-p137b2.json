@@ -1,0 +1,44 @@
+{
+  "id": "mx-p137b2",
+  "pick_number": "P-137b.2",
+  "country": {
+    "en": "Mexico",
+    "es": "México"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "personaje:francisco_i_madero",
+    "personaje:hermila_galindo",
+    "personaje:carmen_serdan",
+    "transporte:tren",
+    "fauna:jaguar",
+    "lugar:selva"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/148283-1000_Pesos-2017-2023_Historical_Identity_and_Natural_Heritage_Issue-M%C3%A9xico",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

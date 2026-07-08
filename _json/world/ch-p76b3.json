@@ -1,0 +1,40 @@
+{
+  "id": "ch-p76b3",
+  "pick_number": "P-76b.3",
+  "country": {
+    "en": "Switzerland",
+    "es": "Suiza"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "simbolo:mano",
+    "fauna:mariposa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/115009-20_FrankenFrancsFranchi-2015-2020_Issue-Suiza",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

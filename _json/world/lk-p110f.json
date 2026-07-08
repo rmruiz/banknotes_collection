@@ -1,0 +1,40 @@
+{
+  "id": "lk-p110f",
+  "pick_number": "P-110f",
+  "country": {
+    "en": "Sri Lanka",
+    "es": "Sri Lanka"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "actividad:danza_kandy",
+    "arte:mascara"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2471-50_Rupees-1995-2006_Issue-Sri_Lanka",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

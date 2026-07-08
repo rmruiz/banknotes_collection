@@ -1,0 +1,41 @@
+{
+  "id": "eu-p10u",
+  "pick_number": "P-10u",
+  "country": {
+    "en": "European Union",
+    "es": "Unión Europea"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Euros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2002,
+  "signatures": [],
+  "themes": [
+    "construccion:puente",
+    "arte:arquitectura_gotico",
+    "simbolo:mapa_de_europa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/46074-20_Euro-Serie_2002_Firma_Trichet-Uni%C3%B3n_Europea",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Francia (U)"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

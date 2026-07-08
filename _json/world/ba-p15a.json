@@ -1,0 +1,40 @@
+{
+  "id": "ba-p15a",
+  "pick_number": "P-15a",
+  "country": {
+    "en": "Bosnia and Herzegovina",
+    "es": "Bosnia y Herzegovina"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Dinar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo_de_bosnia",
+    "construccion:puente_de_mostar"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16731-1000_Dinara-1992-1993_Issues-Bosnia_y_Herzegovina",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "uy-p95a",
+  "pick_number": "P-95a",
+  "country": {
+    "en": "Uruguay",
+    "es": "Uruguay"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:eduardo_fabini",
+    "arte:alegoria_musical"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/86304-100_Pesos_Uruguayos-2014-2020_Issue-Uruguay",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

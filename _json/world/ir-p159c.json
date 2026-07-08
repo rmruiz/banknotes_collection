@@ -1,0 +1,41 @@
+{
+  "id": "ir-p159c",
+  "pick_number": "P-159c",
+  "country": {
+    "en": "Iran",
+    "es": "Irán"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Riales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "personaje:ruhollah_jomeini",
+    "construccion:tumba_de_hafez",
+    "lugar:shiraz"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/108537-10000_Rials-2019-2021_30th_Islamic_Republic_Series_Issues-Ir%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

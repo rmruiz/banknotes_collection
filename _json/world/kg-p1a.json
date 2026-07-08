@@ -1,0 +1,41 @@
+{
+  "id": "kg-p1a",
+  "pick_number": "P-1a",
+  "country": {
+    "en": "Kyrgyzstan",
+    "es": "Kirguistán"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Tyiyn",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1993,
+  "signatures": [],
+  "themes": [
+    "fauna:aguila",
+    "simbolo:tunduk",
+    "arte:ornamentos"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/8062-1_Tyiyn-1993_ND_Fractional_Tyiyn_Issue-Kirguist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

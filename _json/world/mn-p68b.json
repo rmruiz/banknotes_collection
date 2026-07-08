@@ -1,0 +1,41 @@
+{
+  "id": "mn-p68b",
+  "pick_number": "P-68b",
+  "country": {
+    "en": "Mongolia",
+    "es": "Mongolia"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Tugrik - Tögrög",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2003,
+  "signatures": [],
+  "themes": [
+    "personaje:genghis_khan",
+    "simbolo:soyombo",
+    "construccion:palacio"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/47930-5000_T%C3%B6gr%C3%B6g-2000-2020_Issue-Mongolia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "us-p489b",
+  "pick_number": "P-489B",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1990,
+  "signatures": [],
+  "themes": [
+    "personaje:benjamin_franklin",
+    "construccion:independence_hall"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/34287-100_Dollars-1990_Federal_Reserve_Notes_-_Small_Size_1990_Series-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "1990",
+    "bank": "",
+    "zone": "New York - New York",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

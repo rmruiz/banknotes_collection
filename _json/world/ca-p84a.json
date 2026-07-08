@@ -1,0 +1,40 @@
+{
+  "id": "ca-p84a",
+  "pick_number": "P-84a",
+  "country": {
+    "en": "Canada",
+    "es": "Canadá"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dólar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1967,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "construccion:parlamento"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16844-1_Dollar-1967_Centennial_of_Canadian_Confederation_Issue-Canad%C3%A1",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

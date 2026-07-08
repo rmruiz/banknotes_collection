@@ -1,0 +1,43 @@
+{
+  "id": "cl-p153e2",
+  "pick_number": "P-153e.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1995,
+  "signatures": [
+    "Zalher",
+    "Carrasco"
+  ],
+  "themes": [
+    "personaje:pedro_de_valdivia",
+    "evento:fundacion_de_santiago"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60604-500_Pesos-1975-2009_Issue-Chile",
+    "group": "1975-2009 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1975 - 2009",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

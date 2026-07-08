@@ -1,0 +1,39 @@
+{
+  "id": "za-p129b",
+  "pick_number": "P-129b",
+  "country": {
+    "en": "South Africa",
+    "es": "Sudáfrica"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Rands",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "fauna:elefante"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/40052-20_Rand-2005-2010_Issue-Sud%C3%A1frica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

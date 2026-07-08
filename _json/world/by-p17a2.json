@@ -1,0 +1,39 @@
+{
+  "id": "by-p17a2",
+  "pick_number": "P-17a.2",
+  "country": {
+    "en": "Belarus",
+    "es": "Bielorrusia"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Rublos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1999,
+  "signatures": [],
+  "themes": [
+    "lugar:nesvizh"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/138869-5000_Rubles-1998-1999_Issue-Bielorrusia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

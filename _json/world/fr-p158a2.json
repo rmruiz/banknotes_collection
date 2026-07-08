@@ -1,0 +1,40 @@
+{
+  "id": "fr-p158a2",
+  "pick_number": "P-158a.2",
+  "country": {
+    "en": "France",
+    "es": "Francia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Francos Franceses",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1998,
+  "signatures": [],
+  "themes": [
+    "personaje:paul_cezanne",
+    "arte:naturaleza_muerta"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/62899-100_Francs-1992-2000_Issue-Francia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

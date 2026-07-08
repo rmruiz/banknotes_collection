@@ -1,0 +1,40 @@
+{
+  "id": "yu-p121a",
+  "pick_number": "P-121a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 5000000,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1993,
+  "signatures": [],
+  "themes": [
+    "personaje:nikola_tesla",
+    "construccion:represa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16046-5_Million_Dinara-Edicion_1993-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

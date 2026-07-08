@@ -1,0 +1,41 @@
+{
+  "id": "co-p404e6",
+  "pick_number": "P-404e.6",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Peso Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1974,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "personaje:francisco_de_paula_santander",
+    "fauna:condor"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60744-1_Peso_Oro-1959-1977_Pesos_Oro_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

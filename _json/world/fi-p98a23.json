@@ -1,0 +1,40 @@
+{
+  "id": "fi-p98a23",
+  "pick_number": "P-98a.23",
+  "country": {
+    "en": "Finland",
+    "es": "Finlandia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Marco",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1963,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo_de_finlandia",
+    "flora:trigo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/65763-1_Markka-1963_Issue-Finlandia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

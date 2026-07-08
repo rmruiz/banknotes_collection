@@ -1,0 +1,40 @@
+{
+  "id": "ua-p81a",
+  "pick_number": "P-81a",
+  "country": {
+    "en": "Ukraine",
+    "es": "Ucrania"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Karbóvanets",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "simbolo:lybid",
+    "construccion:catedral_de_santa_sofia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15905-1_Karbovanets-1991_Control_Coupon_Karbovanets_Issue-Ucrania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

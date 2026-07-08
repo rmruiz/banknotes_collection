@@ -1,0 +1,40 @@
+{
+  "id": "in-p117a",
+  "pick_number": "P-117a",
+  "country": {
+    "en": "India",
+    "es": "India"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Rupia",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "construccion:plataforma_petrolera",
+    "simbolo:leon_de_asoka"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/61250-1_Rupee-1949-2019_1_Rupee_Issues-India",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

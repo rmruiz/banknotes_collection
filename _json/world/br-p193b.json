@@ -1,0 +1,40 @@
+{
+  "id": "br-p193b",
+  "pick_number": "P-193b",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Cruzeiros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1974,
+  "signatures": [],
+  "themes": [
+    "rey:pedro_ii",
+    "arte:profeta_daniel"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1718-10_Cruzeiros-1970-1981_ND_Issues-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

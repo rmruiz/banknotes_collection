@@ -1,0 +1,42 @@
+{
+  "id": "la-p41a",
+  "pick_number": "P-41a",
+  "country": {
+    "en": "Laos",
+    "es": "Laos"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Kip",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:kaysone_phomvihane",
+    "construccion:templo",
+    "construccion:represa_hidroelectrica",
+    "simbolo:escudo_laos"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/35818-2000_Kip-2011-2020_Issue-Laos",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

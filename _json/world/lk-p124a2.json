@@ -1,0 +1,41 @@
+{
+  "id": "lk-p124a2",
+  "pick_number": "P-124a.2",
+  "country": {
+    "en": "Sri Lanka",
+    "es": "Sri Lanka"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "construccion:puente_de_manampitiya",
+    "fauna:ave",
+    "transporte:tren"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/138883-50_Rupees-2010-2022_Issue-Sri_Lanka",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "mg-p101a",
+  "pick_number": "P-101a",
+  "country": {
+    "en": "Madagascar",
+    "es": "Madagascar"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Ariary",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "fauna:lemur",
+    "flora:nepenthes_planta_jarra"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/79888-2000_Ariary-2017_ND_Madagascar_and_its_Riches_Issue-Madagascar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

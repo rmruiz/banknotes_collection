@@ -1,0 +1,41 @@
+{
+  "id": "sb-p34a",
+  "pick_number": "P-34a",
+  "country": {
+    "en": "Solomon Islands",
+    "es": "Islas Salomón"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo_nacional",
+    "actividad:danza",
+    "fauna:ave_fragata"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/75384-20_Dollars-2013-2017_ND_Large_Flag_Issue-Islas_Salom%C3%B3n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

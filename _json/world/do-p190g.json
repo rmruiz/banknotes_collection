@@ -1,0 +1,42 @@
+{
+  "id": "do-p190g",
+  "pick_number": "P-190g",
+  "country": {
+    "en": "Dominican Republic",
+    "es": "Rep. Dominicana"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "personaje:juan_pablo_duarte",
+    "personaje:francisco_del_rosario_sanchez",
+    "personaje:matias_ramon_mella",
+    "construccion:puerta_del_conde"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/144885-100_Pesos-2014-2022_Issue-Rep%C3%BAblica_Dominicana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

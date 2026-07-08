@@ -1,0 +1,40 @@
+{
+  "id": "mg-p98a",
+  "pick_number": "P-98a",
+  "country": {
+    "en": "Madagascar",
+    "es": "Madagascar"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Ariary",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "lugar:cascada_montaña_de_ambar",
+    "flora:pachypodium"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/81436-200_Ariary-2017_ND_Madagascar_and_its_Riches_Issue-Madagascar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ec-p123ac2",
+  "pick_number": "P-123Ac.2",
+  "country": {
+    "en": "Ecuador",
+    "es": "Ecuador"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Sucres",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60365-100_Sucres-1984-1993_Without_Printers_Name_Sociedad_Anonima_Issue-Ecuador",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

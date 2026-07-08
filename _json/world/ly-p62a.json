@@ -1,0 +1,42 @@
+{
+  "id": "ly-p62a",
+  "pick_number": "P-62a",
+  "country": {
+    "en": "Libya",
+    "es": "Libia"
+  },
+  "denomination": {
+    "value": 0.25,
+    "currency": "Dinar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2002,
+  "signatures": [],
+  "themes": [
+    "construccion:arco_de_marco_aurelio",
+    "construccion:castillo_de_murzuq",
+    "flora:palmera",
+    "simbolo:aguila_de_saladino"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/8305-%C2%BC_Dinar-2002_Issue_-_Series_5-Libia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

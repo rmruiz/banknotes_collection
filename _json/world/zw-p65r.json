@@ -1,0 +1,41 @@
+{
+  "id": "zw-p65r",
+  "pick_number": "P-65r",
+  "country": {
+    "en": "Zimbabwe",
+    "es": "Zimbabue"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dólar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2007,
+  "signatures": [],
+  "themes": [
+    "simbolo:rocas_equilibradas",
+    "lugar:cataratas_victoria",
+    "fauna:bufalo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/139775-1_Dollar-2007-2008_Chiremba_Rocks_Issue-Zimbabue",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Reemplazo"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

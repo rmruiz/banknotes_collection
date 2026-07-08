@@ -1,0 +1,40 @@
+{
+  "id": "gh-p37ae",
+  "pick_number": "P-37Ae",
+  "country": {
+    "en": "Ghana",
+    "es": "Ghana"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Cedis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:kwame_nkrumah",
+    "simbolo:escudo_de_ghana"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/95085-2_Cedis-2007-2017_Issue-Ghana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

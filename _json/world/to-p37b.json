@@ -1,0 +1,40 @@
+{
+  "id": "to-p37b",
+  "pick_number": "P-37b",
+  "country": {
+    "en": "Tonga",
+    "es": "Tonga"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Pa'anga",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2009,
+  "signatures": [],
+  "themes": [
+    "rey:tupou",
+    "fauna:ballena_jorobada"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/52308-1_Paanga-2008-2009_ND_King_Siaosi_George_Tupou_V-Tonga",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

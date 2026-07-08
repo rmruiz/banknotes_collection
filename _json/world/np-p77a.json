@@ -1,0 +1,40 @@
+{
+  "id": "np-p77a",
+  "pick_number": "P-77a",
+  "country": {
+    "en": "Nepal",
+    "es": "Nepal"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "lugar:monte_everest",
+    "fauna:antilope_negro"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/81763-10_Rupees-2015-2020_Issue-Nepal",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

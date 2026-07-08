@@ -1,0 +1,40 @@
+{
+  "id": "mu-p50b",
+  "pick_number": "P-50b",
+  "country": {
+    "en": "Mauritius",
+    "es": "Mauricio"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2001,
+  "signatures": [],
+  "themes": [
+    "personaje:joseph_maurice_paturau",
+    "construccion:edificio"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/8805-50_Rupees-1999-2009_Issue-Mauricio",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "eg-p62o1",
+  "pick_number": "P-62o.1",
+  "country": {
+    "en": "Egypt",
+    "es": "Egipto"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Piastras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2008,
+  "signatures": [],
+  "themes": [
+    "construccion:mezquita_al_azhar",
+    "arte:estatua_faraonica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/46582-50_Piastres-1994-2016_Issue-Egipto",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

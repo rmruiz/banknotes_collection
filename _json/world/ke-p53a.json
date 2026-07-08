@@ -1,0 +1,43 @@
+{
+  "id": "ke-p53a",
+  "pick_number": "P-53a",
+  "country": {
+    "en": "Kenya",
+    "es": "Kenia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Chelines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "construccion:kicc",
+    "personaje:jomo_kenyatta",
+    "actividad:agricultura",
+    "fauna:vaca",
+    "fauna:camello"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/104352-100_Shillings-2019-2020_Issue-Kenia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ec-p121aa10",
+  "pick_number": "P-121Aa.10",
+  "country": {
+    "en": "Ecuador",
+    "es": "Ecuador"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Sucres",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "construccion:iglesia_la_compania_de_jesus",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/130111-20_Sucres-1984-1993_Without_Printers_Name_Sociedad_Anonima_Issue-Ecuador",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

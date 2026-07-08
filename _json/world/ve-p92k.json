@@ -1,0 +1,40 @@
+{
+  "id": "ve-p92k",
+  "pick_number": "P-92k",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_rodriguez",
+    "fauna:oso_frontino"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/71417-50_Bol%C3%ADvares-2007-2017_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

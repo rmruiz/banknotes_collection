@@ -1,0 +1,40 @@
+{
+  "id": "ir-p143g",
+  "pick_number": "P-143g",
+  "country": {
+    "en": "Iran",
+    "es": "Irán"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Riales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:ruhollah_jomeini",
+    "construccion:cupula_de_la_roca"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/52422-1000_Rials-2008_25th_Islamic_Republic_Series_Issues-Ir%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

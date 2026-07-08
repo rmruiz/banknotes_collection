@@ -1,0 +1,41 @@
+{
+  "id": "il-p46a",
+  "pick_number": "P-46a",
+  "country": {
+    "en": "Israel",
+    "es": "Israel"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Sheqalim",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1978,
+  "signatures": [],
+  "themes": [
+    "personaje:david_ben_gurion",
+    "construccion:puerta_de_herodes",
+    "lugar:jerusalen"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7190-50_Sheqalim-1978-1984_5738-5744_Issue-Israel",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

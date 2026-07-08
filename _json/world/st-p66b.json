@@ -1,0 +1,41 @@
+{
+  "id": "st-p66b",
+  "pick_number": "P-66b",
+  "country": {
+    "en": "São Tomé and Príncipe",
+    "es": "Santo Tomé y Príncipe"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1996,
+  "signatures": [],
+  "themes": [
+    "personaje:rei_amador",
+    "fauna:ossobo",
+    "lugar:rio"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/54791-10000_Dobras-1993-2013_Issue-Santo_Tom%C3%A9_y_Pr%C3%ADncipe",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

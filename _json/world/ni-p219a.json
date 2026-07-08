@@ -1,0 +1,40 @@
+{
+  "id": "ni-p219a",
+  "pick_number": "P-219a",
+  "country": {
+    "en": "Nicaragua",
+    "es": "Nicaragua"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Córdobas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "construccion:edificio_bcn",
+    "construccion:paso_a_desnivel"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/121330-5_C%C3%B3rdobas-2020_60th_Anniversary_of_BCN_Commemorative_Issue-Nicaragua",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

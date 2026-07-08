@@ -1,0 +1,40 @@
+{
+  "id": "us-p515ad",
+  "pick_number": "P-515aD",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dolar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2003,
+  "signatures": [],
+  "themes": [
+    "personaje:george_washington",
+    "simbolo:gran_sello"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16641-1_Dollar-2003_Federal_Reserve_Notes-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "2003",
+    "bank": "",
+    "zone": "Cleveland - Ohio",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

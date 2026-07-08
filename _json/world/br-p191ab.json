@@ -1,0 +1,39 @@
+{
+  "id": "br-p191ab",
+  "pick_number": "P-191Ab",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Cruzeiro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1975,
+  "signatures": [],
+  "themes": [
+    "simbolo:efigie_de_la_republica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/17734-1_Cruzeiro-1970-1981_ND_Issues-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cl-p93b2",
+  "pick_number": "P-93b.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1947,
+  "signatures": [
+    "Trucco",
+    "Maschke"
+  ],
+  "themes": [
+    "personaje:pedro_de_valdivia",
+    "lugar:cerro_santa_lucia",
+    "construccion:monumento"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/20236-20_Pesos-1931-1947_Issues-Chile",
+    "group": "1931-1947 Issues"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1932 - 1947",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

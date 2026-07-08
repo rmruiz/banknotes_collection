@@ -1,0 +1,40 @@
+{
+  "id": "us-p416c",
+  "pick_number": "P-416c",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dolar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1935,
+  "signatures": [],
+  "themes": [
+    "personaje:george_washington",
+    "simbolo:gran_sello"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/34110-1_Dollar-1935_Silver_Certificates_-_Small_Size_Series_of_1935-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "1935 C",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

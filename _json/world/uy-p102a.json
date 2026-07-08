@@ -1,0 +1,40 @@
+{
+  "id": "uy-p102a",
+  "pick_number": "P-102a",
+  "country": {
+    "en": "Uruguay",
+    "es": "Uruguay"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_pedro_varela",
+    "construccion:monumento_a_jose_pedro_varela"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/121327-50_Pesos_Uruguayos-2020-2021_Polymer_Issue-Uruguay",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

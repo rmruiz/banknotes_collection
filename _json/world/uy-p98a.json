@@ -1,0 +1,40 @@
+{
+  "id": "uy-p98a",
+  "pick_number": "P-98a",
+  "country": {
+    "en": "Uruguay",
+    "es": "Uruguay"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:juana_de_ibarbourou",
+    "flora:palma"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/87413-1000_Pesos_Uruguayos-2014-2020_Issue-Uruguay",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

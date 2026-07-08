@@ -1,0 +1,41 @@
+{
+  "id": "sy-p100e",
+  "pick_number": "P-100e",
+  "country": {
+    "en": "Syria",
+    "es": "Siria"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "personaje:atenea",
+    "construccion:teatro_romano",
+    "actividad:hilanderia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11956-5_Syrian_Pounds-1976-1992_Issue-Siria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "zw-p44a",
+  "pick_number": "P-44a",
+  "country": {
+    "en": "Zimbabwe",
+    "es": "Zimbabue"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "simbolo:rocas_equilibradas",
+    "lugar:cerros"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/13577-1000_Dollars-2006-2008_Emergency_Bearer_Checks_Issue-Zimbabue",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

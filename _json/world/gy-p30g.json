@@ -1,0 +1,41 @@
+{
+  "id": "gy-p30g",
+  "pick_number": "P-30g",
+  "country": {
+    "en": "Guyana",
+    "es": "Guyana"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo",
+    "lugar:cataratas_kaieteur",
+    "actividad:construccion_naval"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/94936-20_Dollars-1996-2018_ND_Ascending_Size_Serial_Issue-Guyana",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

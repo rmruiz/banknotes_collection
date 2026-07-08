@@ -1,0 +1,40 @@
+{
+  "id": "ve-p96b",
+  "pick_number": "P-96b",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Bolívares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "personaje:guaicaipuro",
+    "fauna:aguila_arpia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/94064-2000_Bol%C3%ADvares-2007-2017_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

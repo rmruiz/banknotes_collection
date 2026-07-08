@@ -1,0 +1,43 @@
+{
+  "id": "bi-p50a",
+  "pick_number": "P-50a",
+  "country": {
+    "en": "Burundi",
+    "es": "Burundi"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "fauna:cocodrilo",
+    "fauna:pez",
+    "flora:cafe",
+    "simbolo:escudo_de_burundi",
+    "simbolo:mapa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60224-500_Francs-2015-2022_Issue-Burundi",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

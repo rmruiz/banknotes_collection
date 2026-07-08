@@ -1,0 +1,41 @@
+{
+  "id": "pe-p196b",
+  "pick_number": "P-196b",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Soles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "personaje:chabuca_granda",
+    "flora:flor_de_amancaes",
+    "fauna:vicuna"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/172226-10_Soles-2019-2022_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

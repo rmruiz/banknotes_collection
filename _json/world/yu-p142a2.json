@@ -1,0 +1,40 @@
+{
+  "id": "yu-p142a2",
+  "pick_number": "P-142a.2",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 50000,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "personaje:karadjordje",
+    "construccion:iglesia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/140469-50000_Dinara-Edicion_1994-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

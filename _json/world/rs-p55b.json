@@ -1,0 +1,40 @@
+{
+  "id": "rs-p55b",
+  "pick_number": "P-55b",
+  "country": {
+    "en": "Serbia",
+    "es": "Serbia"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:petar_ii_petrovic_njegos",
+    "construccion:monasterio"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/51449-20_Dinara-2011-2016_Modified_Eagle_in_Arms_Issue-Serbia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

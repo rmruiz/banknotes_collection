@@ -1,0 +1,41 @@
+{
+  "id": "im-p28b",
+  "pick_number": "P-28b",
+  "country": {
+    "en": "Isle of Man",
+    "es": "Isla de Man"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pence",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1974,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "simbolo:triskel",
+    "transporte:barco_vikingo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/25586-50_New_Pence-1972-1991_ND_Government_Issue-Isla_de_Man",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ve-p112a",
+  "pick_number": "P-112a",
+  "country": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "denomination": {
+    "value": 200000,
+    "currency": "Bolivares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "construccion:mausoleo_del_libertador"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/126433-200000_Bol%C3%ADvares-2018-2020_Currency_Reform_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

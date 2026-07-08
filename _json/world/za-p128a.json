@@ -1,0 +1,40 @@
+{
+  "id": "za-p128a",
+  "pick_number": "P-128a",
+  "country": {
+    "en": "South Africa",
+    "es": "Sudáfrica"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Rands",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2005,
+  "signatures": [],
+  "themes": [
+    "fauna:rinoceronte",
+    "flora:girasol"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11417-10_Rand-2005-2010_Issue-Sud%C3%A1frica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

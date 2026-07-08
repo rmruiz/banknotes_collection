@@ -1,0 +1,40 @@
+{
+  "id": "uz-p78a",
+  "pick_number": "P-78a",
+  "country": {
+    "en": "Uzbekistan",
+    "es": "Uzbekistán"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Soms",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo",
+    "construccion:registan"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/12888-50_Som-1994-2019_Issue-Uzbekist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

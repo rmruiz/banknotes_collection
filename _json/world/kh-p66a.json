@@ -1,0 +1,42 @@
+{
+  "id": "kh-p66a",
+  "pick_number": "P-66a",
+  "country": {
+    "en": "Cambodia",
+    "es": "Camboya"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Rieles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "rey:norodom_sihamoni",
+    "simbolo:escudo_de_camboya",
+    "construccion:puente",
+    "arte:relieve"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/56261-500_Riels-2014-2023_Issue-Camboya",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

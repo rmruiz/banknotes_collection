@@ -1,0 +1,41 @@
+{
+  "id": "cr-p274b",
+  "pick_number": "P-274b",
+  "country": {
+    "en": "Costa Rica",
+    "es": "Costa Rica"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Colones",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:braulio_carrillo",
+    "fauna:venado_cola_blanca",
+    "flora:guanacaste"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/81634-1000_Colones-Edicion_2009-Costa_Rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

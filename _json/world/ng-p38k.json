@@ -1,0 +1,40 @@
+{
+  "id": "ng-p38k",
+  "pick_number": "P-38k",
+  "country": {
+    "en": "Nigeria",
+    "es": "Nigeria"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Naira",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "personaje:abubakar_tafawa_balewa",
+    "actividad:danza_tradicional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/122309-5_Naira-2009-2022_Polymer_Issue-Nigeria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

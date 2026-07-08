@@ -1,0 +1,40 @@
+{
+  "id": "sr-p148",
+  "pick_number": "P-148",
+  "country": {
+    "en": "Suriname",
+    "es": "Surinam"
+  },
+  "denomination": {
+    "value": 25,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2000,
+  "signatures": [],
+  "themes": [
+    "flora:couroupita",
+    "fauna:tucan"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11750-25_Gulden-2000_Issue-Surinam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

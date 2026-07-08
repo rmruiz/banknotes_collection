@@ -1,0 +1,43 @@
+{
+  "id": "cl-p160a",
+  "pick_number": "P-160a",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [
+    "Corbo",
+    "Carrasco"
+  ],
+  "themes": [
+    "personaje:manuel_rodriguez",
+    "construccion:iglesia_de_los_dominicos"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2586-2000_Pesos-1997-2008_Issue-Chile",
+    "group": "1997-2008 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "2004 - 2008",
+    "obs": "tipo:polímero"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

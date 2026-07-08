@@ -1,0 +1,40 @@
+{
+  "id": "kp-p44c",
+  "pick_number": "P-44c",
+  "country": {
+    "en": "North Korea",
+    "es": "Corea del Norte"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Wons",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2007,
+  "signatures": [],
+  "themes": [
+    "construccion:palacio_de_kumsusan",
+    "construccion:puente_atirantado"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7956-500_Won-1992-2007_Issue-Corea_del_Norte",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

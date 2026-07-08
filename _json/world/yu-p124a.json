@@ -1,0 +1,39 @@
+{
+  "id": "yu-p124a",
+  "pick_number": "P-124a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 100000000,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1993,
+  "signatures": [],
+  "themes": [
+    "construccion:academia_serbia_de_ciencias"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15932-100_Million_Dinara-Edicion_1993-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

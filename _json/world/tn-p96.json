@@ -1,0 +1,40 @@
+{
+  "id": "tn-p96",
+  "pick_number": "P-96",
+  "country": {
+    "en": "Tunisia",
+    "es": "Túnez"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:abu_al_qasim_al_shabbi",
+    "construccion:medersa_el_bachia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/47223-10_Dinars-2013_2017_Issue-T%C3%BAnez",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "bg-p84a",
+  "pick_number": "P-84a",
+  "country": {
+    "en": "Bulgaria",
+    "es": "Bulgaria"
+  },
+  "denomination": {
+    "value": 25,
+    "currency": "Lev",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1951,
+  "signatures": [],
+  "themes": [
+    "personaje:georgi_dimitrov",
+    "simbolo:escudo_de_bulgaria",
+    "actividad:mineria"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1939-25_Leva-Emisi%C3%B3n_de_1951-Bulgaria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "eg-p57h5",
+  "pick_number": "P-57h.5",
+  "country": {
+    "en": "Egypt",
+    "es": "Egipto"
+  },
+  "denomination": {
+    "value": 25,
+    "currency": "Piastras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2008,
+  "signatures": [],
+  "themes": [
+    "construccion:mezquita",
+    "simbolo:aguila_de_saladino"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/70071-25_Piastres-1985-2008_Issue-Egipto",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

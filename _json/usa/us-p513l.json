@@ -1,0 +1,40 @@
+{
+  "id": "us-p513l",
+  "pick_number": "P-513L",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2001,
+  "signatures": [],
+  "themes": [
+    "personaje:ulysses_grant",
+    "construccion:capitolio"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/34300-50_Dollars-2001_Federal_Reserve_Notes-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "2001",
+    "bank": "",
+    "zone": "St Louis - Misuri",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

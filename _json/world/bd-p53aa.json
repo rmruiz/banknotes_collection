@@ -1,0 +1,40 @@
+{
+  "id": "bd-p53aa",
+  "pick_number": "P-53Aa",
+  "country": {
+    "en": "Bangladesh",
+    "es": "Bangladesh"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Taka",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:mujibur_rahman",
+    "construccion:mezquita"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/51346-5_Taka-2011-2022_Mujibur_Rahman_Issue-Banglad%C3%A9s",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

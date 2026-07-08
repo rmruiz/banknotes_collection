@@ -1,0 +1,40 @@
+{
+  "id": "ye-p37a",
+  "pick_number": "P-37a",
+  "country": {
+    "en": "Yemen",
+    "es": "Yemen"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Riales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "flora:arbol_de_sangre_de_drago",
+    "lugar:terrazas_agricolas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/106446-100_Rials-2017-2018_Issue-Yemen_Rep%C3%BAblica_%C3%81rabe",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

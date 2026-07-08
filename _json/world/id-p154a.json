@@ -1,0 +1,41 @@
+{
+  "id": "id-p154a",
+  "pick_number": "P-154a",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2016,
+  "signatures": [],
+  "themes": [
+    "personaje:tjut_meutia",
+    "actividad:danza_tifa",
+    "lugar:banda_neira"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/71421-1000_Rupiah-2016-2021_National_Heroes_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

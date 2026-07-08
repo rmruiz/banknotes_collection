@@ -1,0 +1,41 @@
+{
+  "id": "ly-p76a",
+  "pick_number": "P-76a",
+  "country": {
+    "en": "Libya",
+    "es": "Libia"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Dinar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "evento:revolucion_libia_2011",
+    "simbolo:bandera_libia",
+    "fauna:paloma"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/43808-1_Dinar-2011-2013_Issue-Libia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

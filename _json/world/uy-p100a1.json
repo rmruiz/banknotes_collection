@@ -1,0 +1,40 @@
+{
+  "id": "uy-p100a1",
+  "pick_number": "P-100a.1",
+  "country": {
+    "en": "Uruguay",
+    "es": "Uruguay"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "evento:cincuenta_aniversario_bcu",
+    "construccion:puerto"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/85099-50_Pesos_Uruguayos-2017_50th_Anniversary_of_Banco_Central_del_Uruguay_Issue-Uruguay",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

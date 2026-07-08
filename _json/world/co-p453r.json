@@ -1,0 +1,40 @@
+{
+  "id": "co-p453r",
+  "pick_number": "P-453r",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:policarpa_salavarrieta",
+    "lugar:guaduas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/90926-10000_Pesos-2001-2014_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

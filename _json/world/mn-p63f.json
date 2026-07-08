@@ -1,0 +1,42 @@
+{
+  "id": "mn-p63f",
+  "pick_number": "P-63f",
+  "country": {
+    "en": "Mongolia",
+    "es": "Mongolia"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Tugrik - Tögrög",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:sukhbaatar",
+    "simbolo:soyombo",
+    "fauna:caballo",
+    "lugar:estepa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/42107-20_T%C3%B6gr%C3%B6g-2000-2020_Issue-Mongolia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

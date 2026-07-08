@@ -1,0 +1,40 @@
+{
+  "id": "it-p105a",
+  "pick_number": "P-105a",
+  "country": {
+    "en": "Italy",
+    "es": "Italia"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Liras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1979,
+  "signatures": [],
+  "themes": [
+    "personaje:antonello_da_messina",
+    "arte:escultura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/7336-5000_Lire-Edici%C3%B3n_1984_1985-Italia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

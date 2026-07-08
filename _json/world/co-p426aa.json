@@ -1,0 +1,40 @@
+{
+  "id": "co-p426aa",
+  "pick_number": "P-426Aa",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "signatures": [],
+  "themes": [
+    "personaje:antonio_narino",
+    "lugar:villa_de_leyva"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2774-100_Pesos_Oro-1982-1992_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

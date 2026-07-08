@@ -1,0 +1,40 @@
+{
+  "id": "ir-p136e",
+  "pick_number": "P-136e",
+  "country": {
+    "en": "Iran",
+    "es": "Irán"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Riales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [],
+  "themes": [
+    "construccion:mezquita_jame_de_yazd",
+    "actividad:agricultura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/6875-200_Rials-2004-2005_22nd_Islamic_Republic_Series_Issues-Ir%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

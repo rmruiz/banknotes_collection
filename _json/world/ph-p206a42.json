@@ -1,0 +1,42 @@
+{
+  "id": "ph-p206a42",
+  "pick_number": "P-206a.4.2",
+  "country": {
+    "en": "Philippines",
+    "es": "Filipinas"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Piso",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2014,
+  "signatures": [],
+  "themes": [
+    "personaje:manuel_quezon",
+    "construccion:palacio_malacanang",
+    "lugar:terrazas_de_arroz_de_banaue",
+    "fauna:civeta_de_palma"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/54382-20_Piso-2010-2022_New_Design_Issue-Filipinas",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

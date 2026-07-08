@@ -1,0 +1,41 @@
+{
+  "id": "pl-p185a",
+  "pick_number": "P-185a",
+  "country": {
+    "en": "Poland",
+    "es": "Polonia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Zlotys",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "rey:casimiro_iii",
+    "simbolo:aguila",
+    "lugar:cracovia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/49864-50_Z%C5%82otych-2012-2025_Regular_Issue-Polonia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

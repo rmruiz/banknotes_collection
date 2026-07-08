@@ -1,0 +1,40 @@
+{
+  "id": "ar-p276",
+  "pick_number": "P-276",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Pesos",
+    "subtype": "Moneda Nacional: San Martín",
+    "alternatives": []
+  },
+  "year": 1968,
+  "signatures": [],
+  "themes": [
+    "personaje:jose_de_san_martin",
+    "evento:cruce_de_los_andes"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/426-50_Pesos-Edici%C3%B3n_1960-1969_ND_Sin_N%C2%B0_de_Ley_-_San_Mart%C3%ADn-Argentina",
+    "group": "Edición 1960-1969 (ND) \"Sin N° de Ley - San Martín\""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

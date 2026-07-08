@@ -1,0 +1,40 @@
+{
+  "id": "sd-p71c",
+  "pick_number": "P-71c",
+  "country": {
+    "en": "Sudan",
+    "es": "Sudán"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "arte:ceramica",
+    "arte:instrumentos_musicales"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/91942-2_Sudanese_Pounds-2011-2017_Modified_Color_Issue-Sud%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

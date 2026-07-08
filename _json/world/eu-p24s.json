@@ -1,0 +1,41 @@
+{
+  "id": "eu-p24s",
+  "pick_number": "P-24s",
+  "country": {
+    "en": "European Union",
+    "es": "Unión Europea"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Euros",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "construccion:puente",
+    "arte:arquitectura_barroco",
+    "simbolo:mapa_de_europa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/95856-100_Euro-Serie_2013-2015-Uni%C3%B3n_Europea",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "Italia (S)"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

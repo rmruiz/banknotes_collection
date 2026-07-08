@@ -1,0 +1,40 @@
+{
+  "id": "vn-p123d",
+  "pick_number": "P-123d",
+  "country": {
+    "en": "Vietnam",
+    "es": "Vietnam"
+  },
+  "denomination": {
+    "value": 200000,
+    "currency": "Dongs",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "personaje:ho_chi_minh",
+    "lugar:bahia_de_ha_long"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/44382-200000_%C4%90%E1%BB%93ng-2003-2021_Polymer_Issue-Vietnam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

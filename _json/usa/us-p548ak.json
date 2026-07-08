@@ -1,0 +1,40 @@
+{
+  "id": "us-p548ak",
+  "pick_number": "P-548aK",
+  "country": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Dolares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "personaje:andrew_jackson",
+    "construccion:casa_blanca"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/156062-20_Dollars-2017_Federal_Reserve_Notes-Estados_Unidos_de_Am%C3%A9rica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "2017",
+    "bank": "",
+    "zone": "Minneapolis - Minnesota",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

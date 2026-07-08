@@ -1,0 +1,40 @@
+{
+  "id": "yu-p134a",
+  "pick_number": "P-134a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 500000000,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1993,
+  "signatures": [],
+  "themes": [
+    "personaje:jovan_cvijic",
+    "construccion:edificio_capitan_misa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15941-500_Million_Dinara-Edicion_Reformada_1993-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "gb-p391c",
+  "pick_number": "P-391c",
+  "country": {
+    "en": "Great Britain",
+    "es": "Gran Bretaña"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Libras Esterlinas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2004,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "personaje:elizabeth_fry"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/44234-5_Pounds-1999-2016_Series_E_Variant_Issue_-_Bank_of_England-Reino_Unido",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "pe-p188a",
+  "pick_number": "P-188a",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Nuevos Soles",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "personaje:raul_porras_barrenechea",
+    "construccion:huaca"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/56263-20_Nuevos_Soles-2012_2013_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

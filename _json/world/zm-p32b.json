@@ -1,0 +1,41 @@
+{
+  "id": "zm-p32b",
+  "pick_number": "P-32b",
+  "country": {
+    "en": "Zambia",
+    "es": "Zambia"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Kwacha",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1989,
+  "signatures": [],
+  "themes": [
+    "fauna:aguila_pescadora",
+    "simbolo:monumento_a_la_libertad",
+    "fauna:antilope"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/13495-20_Kwacha-1989-1991_ND_Issue-Zambia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "by-p7a1",
+  "pick_number": "P-7a.1",
+  "country": {
+    "en": "Belarus",
+    "es": "Bielorrusia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Rublo",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "signatures": [],
+  "themes": [
+    "fauna:oso"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/135651-50_Rubles-1992-1994_Issue_Series_1992-Bielorrusia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

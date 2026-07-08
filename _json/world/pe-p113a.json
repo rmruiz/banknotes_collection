@@ -1,0 +1,40 @@
+{
+  "id": "pe-p113a",
+  "pick_number": "P-113a",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Soles de Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1977,
+  "signatures": [],
+  "themes": [
+    "personaje:tupac_amaru_ii",
+    "lugar:tinta"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16849-50_Soles_de_Oro-1976-1985_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

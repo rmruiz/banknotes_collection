@@ -1,0 +1,43 @@
+{
+  "id": "cl-p150b1",
+  "pick_number": "P-150b.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1975,
+  "signatures": [
+    "Baraona",
+    "Molina"
+  ],
+  "themes": [
+    "personaje:bernardo_ohiggins",
+    "evento:batalla_de_rancagua"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2570-10_Pesos-1975-2009_Issue-Chile",
+    "group": "1975-2009 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1975 - 1976",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "uz-p81a2",
+  "pick_number": "P-81a.2",
+  "country": {
+    "en": "Uzbekistan",
+    "es": "Uzbekistán"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Soms",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1999,
+  "signatures": [],
+  "themes": [
+    "simbolo:escudo",
+    "personaje:amir_timur"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/135392-500_Som-1994-2019_Issue-Uzbekist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

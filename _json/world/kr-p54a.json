@@ -1,0 +1,40 @@
+{
+  "id": "kr-p54a",
+  "pick_number": "P-54a",
+  "country": {
+    "en": "South Korea",
+    "es": "Corea del Sur"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Wons",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2007,
+  "signatures": [],
+  "themes": [
+    "personaje:yi_hwang",
+    "construccion:academia_confuciana"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/8012-1000_Won-2006-2009_ND_Issue-Corea_del_Sur",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

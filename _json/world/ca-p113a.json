@@ -1,0 +1,41 @@
+{
+  "id": "ca-p113a",
+  "pick_number": "P-113a",
+  "country": {
+    "en": "Canada",
+    "es": "Canadá"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:viola_desmond",
+    "construccion:museo_de_derechos_humanos",
+    "simbolo:escudo_de_canada"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/97217-10_Dollars-2011-2022_Polymer_Issue-Canad%C3%A1",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

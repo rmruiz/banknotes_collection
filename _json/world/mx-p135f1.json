@@ -1,0 +1,42 @@
+{
+  "id": "mx-p135f1",
+  "pick_number": "P-135f.1",
+  "country": {
+    "en": "Mexico",
+    "es": "México"
+  },
+  "denomination": {
+    "value": 200,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "personaje:miguel_hidalgo",
+    "personaje:jose_maria_morelos",
+    "fauna:aguila_real",
+    "lugar:desierto"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/141578-200_Pesos-2017-2022_Historical_Identity_and_Natural_Heritage_Issue-M%C3%A9xico",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "bs-p76aa",
+  "pick_number": "P-76Aa",
+  "country": {
+    "en": "Bahamas",
+    "es": "Bahamas"
+  },
+  "denomination": {
+    "value": 0.5,
+    "currency": "Dólar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "fauna:gecko",
+    "actividad:mercado"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/100473-%C2%BD_Dollar-2016-2022_CRISP_Evolution_Act_2000-Bahamas",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

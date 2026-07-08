@@ -1,0 +1,45 @@
+{
+  "id": "cl-p123a1",
+  "pick_number": "P-123a.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 50000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "5.000 Condores"
+    ]
+  },
+  "year": 1958,
+  "signatures": [
+    "Maschke",
+    "Mackenna"
+  ],
+  "themes": [
+    "personaje:arturo_alessandri_palma",
+    "construccion:banco_central"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/20262-50000_Pesos-1958-1959_ND_Issue-Chile",
+    "group": "1958-1959 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1958 - 1959",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

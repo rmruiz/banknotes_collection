@@ -1,0 +1,45 @@
+{
+  "id": "cl-p129",
+  "pick_number": "P-129",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "1 Escudo"
+    ]
+  },
+  "year": 1960,
+  "signatures": [
+    "Figueroa",
+    "Mackenna"
+  ],
+  "themes": [
+    "personaje:manuel_blanco_encalada",
+    "evento:fundacion_de_santiago"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/20285-1_Escudo-1960_ND_Provisional_Issue-Chile",
+    "group": "1960 ND Provisional Issue"
+  },
+  "commemorative": false,
+  "overprint": true,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1960 - 1961",
+    "obs": "100 Condores"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

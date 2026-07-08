@@ -1,0 +1,45 @@
+{
+  "id": "cl-p107a1",
+  "pick_number": "P-107a.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "100 Condores"
+    ]
+  },
+  "year": 1945,
+  "signatures": [
+    "Oyarzún",
+    "Maschke"
+  ],
+  "themes": [
+    "personaje:manuel_blanco_encalada",
+    "evento:fundacion_de_santiago"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/148466-1000_Pesos-1940-1948_Issue-Chile",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1940 - 1948",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

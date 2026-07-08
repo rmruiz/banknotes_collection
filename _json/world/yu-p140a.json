@@ -1,0 +1,40 @@
+{
+  "id": "yu-p140a",
+  "pick_number": "P-140a",
+  "country": {
+    "en": "Yugoslavia",
+    "es": "Yugoslavia"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "signatures": [],
+  "themes": [
+    "personaje:petar_petrovic_njegos",
+    "construccion:monasterio_de_cetinje"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15945-1000_Dinara-Edicion_1994-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

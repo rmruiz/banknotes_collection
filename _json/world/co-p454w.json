@@ -1,0 +1,40 @@
+{
+  "id": "co-p454w",
+  "pick_number": "P-454w",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 20000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "personaje:julio_garavito",
+    "lugar:luna"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/59014-20000_Pesos-2001-2014_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

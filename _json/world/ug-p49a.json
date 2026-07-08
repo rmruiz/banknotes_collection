@@ -1,0 +1,41 @@
+{
+  "id": "ug-p49a",
+  "pick_number": "P-49a",
+  "country": {
+    "en": "Uganda",
+    "es": "Uganda"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Chelines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "construccion:vivienda_tradicional",
+    "fauna:antilope",
+    "lugar:linea_del_ecuador"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/17377-1000_Shillings-2010-2022_Issue-Uganda",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

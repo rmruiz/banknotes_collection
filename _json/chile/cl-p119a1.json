@@ -1,0 +1,44 @@
+{
+  "id": "cl-p119a1",
+  "pick_number": "P-119a.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": [
+      "1/2 Condor"
+    ]
+  },
+  "year": 1958,
+  "signatures": [
+    "Maschke",
+    "Herrera"
+  ],
+  "themes": [
+    "personaje:bernardo_ohiggins"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2541-5_Pesos-1947-1959_ND_Issue-Chile",
+    "group": "1931-1947 Issues"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1948 - 1958",
+    "obs": "otro:firma-sobre-agua"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

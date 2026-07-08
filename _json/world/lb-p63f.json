@@ -1,0 +1,40 @@
+{
+  "id": "lb-p63f",
+  "pick_number": "P-63f",
+  "country": {
+    "en": "Lebanon",
+    "es": "Líbano"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1986,
+  "signatures": [],
+  "themes": [
+    "construccion:ruinas_de_anjar",
+    "lugar:rocas_de_paloma"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/8193-10_Livres-1964-1993_Issue-L%C3%ADbano",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

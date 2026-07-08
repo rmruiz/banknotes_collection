@@ -1,0 +1,41 @@
+{
+  "id": "qa-p33b",
+  "pick_number": "P-33b",
+  "country": {
+    "en": "Qatar",
+    "es": "Qatar"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Riales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "signatures": [],
+  "themes": [
+    "flora:orquidea",
+    "fauna:caballo_arabe",
+    "fauna:orix"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/142271-5_Riyals-2020-2022_Issue_ND-Qatar",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

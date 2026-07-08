@@ -1,0 +1,43 @@
+{
+  "id": "ao-p151ba",
+  "pick_number": "P-151Ba",
+  "country": {
+    "en": "Angola",
+    "es": "Angola"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Kwanzas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "personaje:agostinho_neto",
+    "personaje:jose_eduardo_dos_santos",
+    "lugar:cataratas_de_luena",
+    "arte:mascara",
+    "simbolo:escudo_nacional"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/74455-10_Kwanzas-2012-2017_Waterfalls_on_Back_Issue-Angola",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

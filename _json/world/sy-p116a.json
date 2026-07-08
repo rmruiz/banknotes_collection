@@ -1,0 +1,40 @@
+{
+  "id": "sy-p116a",
+  "pick_number": "P-116a",
+  "country": {
+    "en": "Syria",
+    "es": "Siria"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Libras",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2013,
+  "signatures": [],
+  "themes": [
+    "construccion:teatro_bosra",
+    "arte:mosaico"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/62323-1000_Syrian_Pounds-2009-2024_Issue-Siria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "br-p210a",
+  "pick_number": "P-210a",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Cruzados",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:oswaldo_cruz",
+    "construccion:instituto_oswaldo_cruz"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1744-50_Cruzados-1986-1988_ND_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "co-p463b",
+  "pick_number": "P-463b",
+  "country": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "denomination": {
+    "value": 100000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2015,
+  "signatures": [],
+  "themes": [
+    "personaje:carlos_lleras_restrepo",
+    "flora:palma_de_cera",
+    "lugar:valle_del_cocora",
+    "fauna:barranquero"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/132097-100000_Pesos-2014-2023_New_Design_Issue-Colombia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

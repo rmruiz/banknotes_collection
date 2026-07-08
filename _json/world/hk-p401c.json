@@ -1,0 +1,39 @@
+{
+  "id": "hk-p401c",
+  "pick_number": "P-401c",
+  "country": {
+    "en": "Hong Kong",
+    "es": "Hong Kong"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "signatures": [],
+  "themes": [
+    "simbolo:geometrico"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/44547-10_Hong_Kong_Dollars-2002-2018_Issue_Government_Of_The_Hong_Kong-Hong_Kong",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

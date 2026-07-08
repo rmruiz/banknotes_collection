@@ -1,0 +1,41 @@
+{
+  "id": "bo-p164aa2",
+  "pick_number": "P-164Aa.2",
+  "country": {
+    "en": "Bolivia",
+    "es": "Bolivia"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1962,
+  "signatures": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "simbolo:escudo_de_bolivia",
+    "evento:acta_de_la_independencia"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1384-100_Pesos_Bolivianos-Segunda_Edicion_Ley_de_13_de_Julio_1962-Bolivia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

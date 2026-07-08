@@ -1,0 +1,39 @@
+{
+  "id": "pe-p140a",
+  "pick_number": "P-140a",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Intis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "signatures": [],
+  "themes": [
+    "personaje:cesar_vallejo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10110-10000_Intis-1985-91_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

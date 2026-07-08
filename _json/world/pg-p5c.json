@@ -1,0 +1,41 @@
+{
+  "id": "pg-p5c",
+  "pick_number": "P-5c",
+  "country": {
+    "en": "Papua New Guinea",
+    "es": "Papúa Nueva Guinea"
+  },
+  "denomination": {
+    "value": 2,
+    "currency": "Kina",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1989,
+  "signatures": [],
+  "themes": [
+    "fauna:ave_del_paraiso",
+    "simbolo:escudo_nacional",
+    "arte:tambor_kundu"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/9970-2_Kina-1981-1991_Issues-Pap%C3%BAa_Nueva_Guinea",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

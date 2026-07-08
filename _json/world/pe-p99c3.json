@@ -1,0 +1,40 @@
+{
+  "id": "pe-p99c3",
+  "pick_number": "P-99c.3",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Soles de Oro",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1974,
+  "signatures": [],
+  "themes": [
+    "rey:pachacutec",
+    "construccion:sacsayhuaman"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/48752-5_Soles_de_Oro-1969-1974_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

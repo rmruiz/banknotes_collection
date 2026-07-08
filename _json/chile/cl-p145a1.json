@@ -1,0 +1,44 @@
+{
+  "id": "cl-p145a1",
+  "pick_number": "P-145a.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Escudos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1971,
+  "signatures": [
+    "Inosotroza",
+    "Barrios"
+  ],
+  "themes": [
+    "personaje:minero",
+    "lugar:chuquicamata",
+    "actividad:mineria_del_cobre"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2566-500_Escudos-1967-1975_ND_Issue-Chile",
+    "group": "1967-1975 ND Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1962 - 1975",
+    "obs": "otro:nacionalización-del-cobre"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

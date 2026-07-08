@@ -1,0 +1,40 @@
+{
+  "id": "sz-p36a",
+  "pick_number": "P-36a",
+  "country": {
+    "en": "Eswatini",
+    "es": "Suazilandia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Lilangeni",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "rey:mswati_iii",
+    "actividad:danza_guerreros"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/108650-10_Emalangeni-2010-2017_Issue-Eswatini_Swazilandia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

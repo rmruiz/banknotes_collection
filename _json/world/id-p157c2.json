@@ -1,0 +1,41 @@
+{
+  "id": "id-p157c2",
+  "pick_number": "P-157c.2",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 10000,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:frans_kaisiepo",
+    "actividad:danza_pakarena",
+    "lugar:wakatobi"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/100388-10000_Rupiah-2016-2021_National_Heroes_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

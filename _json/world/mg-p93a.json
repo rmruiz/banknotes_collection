@@ -1,0 +1,40 @@
+{
+  "id": "mg-p93a",
+  "pick_number": "P-93a",
+  "country": {
+    "en": "Madagascar",
+    "es": "Madagascar"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Ariary",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2007,
+  "signatures": [],
+  "themes": [
+    "flora:baobab",
+    "actividad:cultivo_de_arroz"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/26870-2000_Ariary_10000_Francs-2007-2008_ND_Madagascar_Action_Plan_Issue-Madagascar",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

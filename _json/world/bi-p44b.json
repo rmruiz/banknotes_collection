@@ -1,0 +1,40 @@
+{
+  "id": "bi-p44b",
+  "pick_number": "P-44b",
+  "country": {
+    "en": "Burundi",
+    "es": "Burundi"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "signatures": [],
+  "themes": [
+    "personaje:louis_rwagasore",
+    "simbolo:escudo_de_burundi"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/41160-100_Francs-2008-2013_Issue-Burundi",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

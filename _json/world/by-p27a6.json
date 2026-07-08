@@ -1,0 +1,40 @@
+{
+  "id": "by-p27a6",
+  "pick_number": "P-27a.6",
+  "country": {
+    "en": "Belarus",
+    "es": "Bielorrusia"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Rublos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "construccion:palacio_de_cultura_de_los_sindicatos",
+    "arte:relieve_escultorico"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/136155-500_Rubles-2000-2016_Issue_Series_2000-Bielorrusia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

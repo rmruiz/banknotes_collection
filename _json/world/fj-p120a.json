@@ -1,0 +1,41 @@
+{
+  "id": "fj-p120a",
+  "pick_number": "P-120a",
+  "country": {
+    "en": "Fiji",
+    "es": "Fiyi"
+  },
+  "denomination": {
+    "value": 7,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2017,
+  "signatures": [],
+  "themes": [
+    "actividad:rugby",
+    "evento:oro_olimpico_rugby_7",
+    "simbolo:escudo_de_fiyi"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/77801-7_Dollars-2017-2022_Fiji_Rugby_7s_Commemorative_Issue-Fiyi",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

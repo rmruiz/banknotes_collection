@@ -1,0 +1,41 @@
+{
+  "id": "cz-p17c",
+  "pick_number": "P-17c",
+  "country": {
+    "en": "Czech Republic",
+    "es": "Rep. Checa"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Coronas",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1997,
+  "signatures": [],
+  "themes": [
+    "personaje:santa_ines_de_bohemia",
+    "arte:portal_gotico",
+    "simbolo:escudo_republica_checa"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/3357-50_Korun-1997-1999_Issue-Rep%C3%BAblica_Checa",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

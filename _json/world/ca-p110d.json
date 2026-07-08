@@ -1,0 +1,40 @@
+{
+  "id": "ca-p110d",
+  "pick_number": "P-110d",
+  "country": {
+    "en": "Canada",
+    "es": "Canadá"
+  },
+  "denomination": {
+    "value": 100,
+    "currency": "Dólares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2021,
+  "signatures": [],
+  "themes": [
+    "personaje:robert_borden",
+    "actividad:investigacion_medica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/132490-100_Dollars-2011-2022_Polymer_Issue-Canad%C3%A1",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

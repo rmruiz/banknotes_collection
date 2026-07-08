@@ -1,0 +1,40 @@
+{
+  "id": "pe-p129a",
+  "pick_number": "P-129a",
+  "country": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Intis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1987,
+  "signatures": [],
+  "themes": [
+    "personaje:ricardo_palma",
+    "actividad:agricultura"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/10101-10_Intis-1985-91_Issue-Per%C3%BA",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

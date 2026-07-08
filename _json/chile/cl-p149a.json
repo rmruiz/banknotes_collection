@@ -1,0 +1,43 @@
+{
+  "id": "cl-p149a",
+  "pick_number": "P-149a",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1975,
+  "signatures": [
+    "Baraona",
+    "Molina"
+  ],
+  "themes": [
+    "personaje:jose_miguel_carrera",
+    "construccion:casa_de_los_carrera"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2569-5_Pesos-1975-2009_Issue-Chile",
+    "group": "1975-2009 Issue"
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "1975 - 1976",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

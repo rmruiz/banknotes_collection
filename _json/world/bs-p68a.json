@@ -1,0 +1,42 @@
+{
+  "id": "bs-p68a",
+  "pick_number": "P-68a",
+  "country": {
+    "en": "Bahamas",
+    "es": "Bahamas"
+  },
+  "denomination": {
+    "value": 0.5,
+    "currency": "Dólar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2001,
+  "signatures": [],
+  "themes": [
+    "reina:isabel_ii",
+    "actividad:mercado",
+    "lugar:nassau",
+    "simbolo:escudo_bahamas"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/794-%C2%BD_Dollar-2001-2002_Series_Act_2000-Bahamas",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ru-p268d2",
+  "pick_number": "P-268d.2",
+  "country": {
+    "en": "Russia",
+    "es": "Rusia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Rublos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2023,
+  "signatures": [],
+  "themes": [
+    "lugar:krasnoyarsk",
+    "construccion:capilla_paraskeva_piatnitsa",
+    "construccion:represa_hidroelectrica"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/150947-10_Rubles-1997-2022_New_Ruble_Issue-Rusia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

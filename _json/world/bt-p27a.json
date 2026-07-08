@@ -1,0 +1,41 @@
+{
+  "id": "bt-p27a",
+  "pick_number": "P-27a",
+  "country": {
+    "en": "Bhutan",
+    "es": "Bután"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Ngultrum",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2006,
+  "signatures": [],
+  "themes": [
+    "simbolo:rueda_del_dharma",
+    "simbolo:dragon",
+    "construccion:simtokha_dzong"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1301-1_Ngultrum-2006-2020_Issue-But%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "jm-p94f",
+  "pick_number": "P-94f",
+  "country": {
+    "en": "Jamaica",
+    "es": "Jamaica"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Dólar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "signatures": [],
+  "themes": [
+    "personaje:samuel_sharpe",
+    "simbolo:escudo_de_jamaica",
+    "lugar:doctors_cave_beach"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/132555-50_Dollars-2013-2020_Hybrid_Substrate_Issue-Jamaica",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

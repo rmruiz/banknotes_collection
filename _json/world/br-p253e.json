@@ -1,0 +1,40 @@
+{
+  "id": "br-p253e",
+  "pick_number": "P-253e",
+  "country": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Reales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2010,
+  "signatures": [],
+  "themes": [
+    "simbolo:efigie_de_la_republica",
+    "fauna:garza"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/101630-5_Reais-2003-2024_Issue-Brasil",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

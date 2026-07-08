@@ -1,0 +1,41 @@
+{
+  "id": "ir-p152c",
+  "pick_number": "P-152c",
+  "country": {
+    "en": "Iran",
+    "es": "Irán"
+  },
+  "denomination": {
+    "value": 5000,
+    "currency": "Riales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2018,
+  "signatures": [],
+  "themes": [
+    "personaje:ruhollah_jomeini",
+    "arte:ceramica",
+    "fauna:ciervo"
+  ],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/96726-5000_Rials-2018_28th_Islamic_Republic_Series_Issues-Ir%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}
