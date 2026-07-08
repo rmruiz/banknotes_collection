@@ -1,186 +1,214 @@
-# Procesador de la colección de billetes
 
-Este proyecto cataloga una colección de billetes en archivos **JSON** (uno por tipo de billete) y genera, a partir de ellos, una **imagen consolidada** (frente + panel de info + bandera + reverso) lista para publicar.
+Conversación con Gemini
+Crea un README.md para documentar este proyecto.
 
-Reemplaza el flujo antiguo de scripts de shell (`_step0`…`_step4`) por dos scripts de Python manejados por los JSON.
+Crea un sección para:
 
----
+a. Servidor Web
 
-## Requisitos
+b. Scripts:
 
+b.1 extract_serial.py
+
+b.2 banknote_processor.py
+
+b.3 generar_etiquetas.py
+
+y otros scripts que te parezcan relevantes.
+
+c. Arquitectura
+
+d. Instalación y uso (pre-requisitos)
+
+Python
+content = """# Documentación del Proyecto: Colección de Billetes
+
+Sistema local integral para la gestión, catalogación, enriquecimiento (mediante IA) y visualización de una colección numismática (billetes).
+
+## a. Servidor Web
+El proyecto incluye un servidor web local y una API mínima implementada en el archivo `_scripts/serve_web.py`.
+
+- **Funcionalidad Principal**: Sirve la aplicación web estática (HTML/JS/CSS) alojada en la carpeta `web/` y los recursos gráficos (imágenes originales, vistas full y banderas).
+- **API de Edición**: Proporciona endpoints REST (`POST /api/update`, `/api/upload_photo`, `/api/rename_folder`, `/api/create_json`, etc.) que permiten modificar los metadatos de los billetes directamente desde la interfaz web.
+- **Manejo de Datos Seguros**: Realiza escrituras atómicas y controladas por candados (Threads/Locks) sobre la fuente de verdad (archivos JSON).
+- **Seguridad**: Está diseñado para uso estrictamente local. Escucha únicamente en la interfaz `127.0.0.1` (localhost), restringe el acceso GET a una lista blanca de directorios (previniendo path traversal), y posee mecanismos contra CSRF y DNS-rebinding para proteger los archivos locales.
+
+## b. Scripts
+
+### b.1 `extract_serial.py`
+- **Propósito**: Extrae automáticamente el número de serie de los billetes procesando sus imágenes.
+- **Mecánica**: Analiza la colección de JSONs para buscar billetes que carezcan del número de serie registrado. Al encontrarlos, localiza las fotografías del anverso y reverso y consulta a un modelo visual local mediante **Ollama** (usando `gemma4:31b` o `llava:34b`). Extrae el número de manera pura y lo sobreescribe en el archivo JSON original del billete.
+
+### b.2 `banknote_processor.py`
+- **Propósito**: Ejecuta un flujo de inteligencia artificial (usando LangGraph) para analizar las imágenes de los billetes y extraer características semánticas o temáticas (personajes, edificaciones, flora, fauna, etc.).
+- **Mecánica**: 
+  1. Utiliza `ChatOllama` con el modelo `llama3.2-vision` para crear una descripción detallada de los elementos en las fotos.
+  2. Ejecuta una búsqueda contextual en internet (vía `DuckDuckGoSearchRun`) para validar y nombrar correctamente dichos elementos.
+  3. Usa el modelo `qwen3:32b` para estructurar la salida final de las etiquetas (ej. `personaje:bernardo_ohiggins`).
+  4. Los resultados son emitidos hacia un archivo plano de catálogo (`banknotes_output_catalog.txt`).
+
+### b.3 `generar_etiquetas.py`
+- **Propósito**: Genera un documento PDF multipágina optimizado para impresión (hojas tamaño CARTA) que contiene tarjetas recortables o etiquetas para la exhibición física de cada billete.
+- **Mecánica**: Usa utilidades CLI de `ImageMagick` (`magick` y `montage`) para renderizar paramétricamente el texto de la etiqueta (código Pick, País, Año, Denominación, firmas y bandera oficial). Soporta filtrado por país y por el estado de "verificado".
+
+### b.4 Otros scripts relevantes
+- **`_scripts/build_web.py`**: Actúa como el compilador estático del frontend. Consolida cientos de archivos JSON aislados en un solo índice (`collection.json`), construye y mapea las miniaturas (usando paralelización con `magick`) e identifica inconsistencias en la base de datos que emite a un `issues.json`.
+- **`_scripts/generar_imagen.py`**: Compone una única imagen en formato vertical que une estéticamente el anverso del billete, una franja negra con datos de texto (país, denominación, pick), la bandera respectiva y el reverso. Exporta el archivo a la carpeta `_FULL/`.
+- **`_scripts/vincular_originales.py`**: Script de mantenimiento y migración. Hace match inteligente (por nombre de país, valor, año y firmas) entre nombres descriptivos de carpetas antiguas y los nuevos identificadores estandarizados del proyecto, renombrando los directorios físicos y los archivos de foto correspondientes.
+- **`_json/generate_json.py`**: Procesa un inventario maestro en formato `.tsv` e instancia y normaliza la arquitectura base creando un archivo JSON individual para cada fila/billete.
+
+## c. Arquitectura
+
+El sistema está diseñado bajo el principio de "archivos de texto e imágenes como base de datos" (File-based CMS), evitando dependencias como SQL. La arquitectura se define en tres capas:
+
+1. **Capa de Almacenamiento (Fuente de Verdad)**:
+   - Toda la información de cada billete está descentralizada en un archivo `.json` independiente bajo el directorio `_json/<pais>/<id>.json`.
+   - Los assets visuales se distribuyen en las carpetas `_originals/` (fotos puras), `_FULL/` (composiciones) y `_flags/` (banderas de países).
+2. **Capa de Integración y Transformación (`_scripts/`)**:
+   - Compone la capa intermedia lógica encargada de generar vistas combinadas (`build_web.py`), manipular visuales (`generar_imagen.py`, `generar_etiquetas.py`) y aportar enriquecimiento de datos a través de IA local (`banknote_processor.py`, `extract_serial.py`).
+3. **Capa de Presentación (Frontend y Servidor UI)**:
+   - Un frontend tipo SPA construido con Vanilla JS y Pico.css, situado en el directorio `web/`.
+   - Se alimenta del archivo unificado `web/data/collection.json`.
+   - Interactúa a través del servidor asíncrono (`serve_web.py`) con capacidad para invocar reconstrucciones on-demand del propio sistema.
+
+## d. Instalación y Uso (Pre-requisitos)
+
+### Pre-requisitos de Sistema
+- **Python**: Versión 3.8 o superior.
+- **ImageMagick**: Debe estar instalado en el sistema y disponible en el `PATH` global (el comando `magick` y `identify` deben ser accesibles desde la terminal).
+- **Ollama**: Motor para correr los LLMs localmente (requerido únicamente para los scripts b.1 y b.2). Debes haber descargado los siguientes modelos:
+  - `ollama run llama3.2-vision`
+  - `ollama run qwen3:32b`
+  - `ollama run gemma4:31b` (o alternativamente ajustar a `llava` en el código).
+
+### Pre-requisitos de Python (Paquetes)
+Se recomienda instalar las dependencias en un entorno virtual (venv):
 ```bash
-brew install imagemagick        # 'magick' e 'identify'
-brew install git-lfs && git lfs install
-python3                         # incluido en macOS
-```
+pip install langchain-ollama langchain-core langchain-community langgraph pydantic duckduckgo-search ollama
+Modo de Uso
+Inicializar la plataforma web:
+Posiciónate en la raíz del proyecto y ejecuta el servidor local indicando el puerto de tu elección (ej. 8000).
 
-**Fuentes de ImageMagick** (solo la primera vez en un Mac nuevo — necesario para que `magick` encuentre Verdana):
-```bash
-mkdir -p ~/.magick
-cp _step0_config/imagick_type_gen /tmp/script.pl && chmod +x /tmp/script.pl
-/tmp/script.pl > ~/.magick/type.xml
-# si faltan fuentes del sistema:
-# find /System/Library/Fonts/Supplemental/ -type f -name '*.*' | /tmp/script.pl -f - > ~/.magick/type.xml
-```
-
----
-
-## Modelo de datos (JSON)
-
-Un JSON por **tipo** de billete. Si hay varios ejemplares físicos del mismo tipo, van en `specimens[]`.
-
-- **Ubicación:** `_json/chile/`, `_json/argentina/`, `_json/usa/` y `_json/world/` (todos los demás países).
-- **`id` / nombre de archivo:** abreviación del país + pick number, en minúsculas, sin `-`, sin espacios y **sin puntos**. Ej.: Chile `P-15b.7` → `cl-p15b7.json`. Los ids son únicos globalmente (llevan el país adentro), así que no colisionan dentro de `world/`.
-
-```json
-{
-  "id": "cl-p15b7",
-  "pick_number": "P-15b.7",
-  "country": { "en": "Chile", "es": "Chile" },
-  "denomination": {
-    "value": 1, "currency": "Peso", "full": "1 Peso",
-    "subtype": "", "alternatives": []
-  },
-  "year": 1919,
-  "signatures": ["Zañartu", "Magallanes"],
-  "themes": [],
-  "colnect": { "url": "https://colnect.com/...", "group": "..." },
-  "commemorative": false,
-  "overprint": false,
-  "notes": { "serie": "", "bank": "", "zone": "", "vigencia": "", "obs": "" },
-  "specimens": [
-    { "serial_number": "", "condition": "" }
-  ]
-}
-```
-
-**Las rutas de imágenes NO se guardan en el JSON**: se derivan del `id` por convención (el disco es la fuente de verdad):
-
-| Imagen | Ruta |
-|---|---|
-| Front | `_originals/<id>/<id>_A.jpg` |
-| Back | `_originals/<id>/<id>_B.jpg` |
-| Consolidada | `_FULL/<id>.jpg` |
-
-(Si algún día hay 2+ ejemplares del mismo tipo: el segundo usa `<id>_A2.jpg` / `<id>_B2.jpg`.)
-
-Para agregar fotos a un billete basta con dejar los archivos en `_originals/<id>/` con esos nombres y presionar el botón **"🔄 Recargar datos"** de la web (o correr `python3 _scripts/build_web.py`) — aparecen sin tocar el JSON.
-
-> Importante: la web no lee el disco directamente, lee `web/data/collection.json` (generado). Cualquier cambio hecho a mano (fotos o JSON: agregar, renombrar, borrar, editar) requiere rebuild. Hay dos formas: el botón **«🔄 Recargar datos»**, o **reiniciar `serve_web.py`** (hace rebuild automático al arrancar).
-
-Reglas de derivación al importar (ver más abajo): `1.000`→1000, `1/2`→0.5, `2 1/2`→2.5, `N/A`/`… MM`→null · `overprint:true` si obs trae "Remarcado" · `commemorative:true` si hay aniversario/fantasía/conmemorativo · homóglifos cirílicos en el pick se pasan a latino.
-
----
-
-## Estructura de carpetas
-
-```
-_json/
-  chile/  argentina/  usa/  world/   # los JSON (uno por billete)
-  country_map.py                     # país (es) -> abreviación del id
-  generate_json.py                   # importa TSV -> JSON
-  _import_world.tsv                  # volcado maestro del resto del mundo
-_originals/<id>/<id>_A.jpg           # frente (front)
-_originals/<id>/<id>_B.jpg           # reverso (back)
-_flags/FLAG_<PAIS>.jpg               # banderas
-_FULL/<id>.jpg                       # imagen consolidada final (salida)
-_scripts/
-  vincular_originales.py             # enlaza JSON <-> fotos y escribe rutas
-  generar_imagen.py                  # genera la imagen consolidada
-```
-
-Todos los `.jpg` (`_FULL`, `_originals`, `_flags`, `_jpg_examples`) están en **Git LFS** vía `.gitattributes`.
-
----
-
-## Flujo de trabajo
-
-### 1. Importar datos → JSON
-Los datos vienen de una tabla (TSV) exportada, con columnas que varían por país (se normalizan por nombre de columna).
-
-```bash
-cd _json
-python3 generate_json.py chile          # lee chile/_source.tsv
-python3 generate_json.py argentina      # lee argentina/_source.tsv
-python3 generate_json.py --master _import_world.tsv   # el resto -> world/
-```
-Genera un JSON por fila. Para un país nuevo: agregar su abreviación en `country_map.py`.
-
-### 2. Vincular fotos (solo para migrar carpetas con nombre viejo)
-Enlaza cada JSON con su carpeta de fotos con nombre antiguo y la renombra a `_originals/<id>/` (las rutas no se escriben en los JSON: se derivan del id).
-
-```bash
-cd ..
-python3 _scripts/vincular_originales.py            # DRY-RUN: solo reporta
-python3 _scripts/vincular_originales.py --apply    # ejecuta
-```
-Escribe `_json/_link_report.tsv`. Los casos ambiguos / sin match quedan **intactos** para revisión manual. Para fotos nuevas no se necesita: basta nombrar la carpeta directamente `_originals/<id>/`.
-
-### 3. Generar la imagen consolidada
-Lee las rutas de cada JSON y compone `_FULL/<id>.jpg`.
-
-```bash
-python3 _scripts/generar_imagen.py                 # interactivo
-python3 _scripts/generar_imagen.py --filter chile  # solo ids/carpetas que contengan 'chile'
-python3 _scripts/generar_imagen.py --overwrite-all # sobrescribe sin preguntar
-python3 _scripts/generar_imagen.py --skip-existing # salta los ya generados
-```
-- Si `_FULL/<id>.jpg` ya existe pregunta: **s** sobrescribir · **S** sobrescribir todos · **n** saltar · **N** saltar todos.
-- Verifica bandera + front + back; si falta alguno lo informa y salta.
-- **Nunca borra imágenes**; solo (re)escribe en `_FULL/` cuando corresponde.
-
----
-
-## Composición de la imagen (`_FULL/<id>.jpg`)
-
-Apilado vertical sobre fondo negro (equivalente al antiguo `_append_text.sh`):
-
-1. **Frente** (`_A.jpg`) — esquinas redondeadas + borde negro.
-2. **Panel de info** — texto alineado a la izquierda:
-   - línea 1: país (Verdana 120)
-   - línea 2: `denominación - año` (Verdana 80)
-   - línea 3: firmas unidas, si existen (Verdana 60)
-   - línea 4: `banknotes.cl@gmail.com` (Verdana 30)
-   - **bandera** a la derecha, con borde en capas y sombra, al alto del texto.
-3. **Reverso** (`_B.jpg`) — esquinas redondeadas + borde negro.
-
-Salida redimensionada a **1080×1350**.
-
-La bandera se resuelve por nombre normalizado del país contra `_flags/FLAG_*.jpg`.
-
----
-
-## Web de visualización
-
-Sitio estático para explorar la colección (ver diseño en `plan_web.md`): buscador sobre todos los campos (insensible a acentos), tabla paginada con miniaturas Front/Back/Full (celda vacía = foto faltante) y modal con la imagen a tamaño completo. Responsive para celular.
-
-```bash
-# 1. build: consolida los JSON y genera miniaturas (incremental; --force para regenerar)
-python3 _scripts/build_web.py
-
-# 2. servir (web + API de edición)
+Bash
 python3 _scripts/serve_web.py 8000
-# -> http://localhost:8000/web/
+Acceso al Catálogo:
+Abre un navegador web y accede a: http://localhost:8000/web/
+
+Generación de etiquetas:
+
+Bash
+python3 _scripts/generar_etiquetas.py --out etiquetas_coleccion.pdf
+Procesamiento de Inteligencia Artificial (Extracción y Análisis):
+Asegúrate de que Ollama esté en ejecución de fondo y corre los scripts independientemente.
+
+Bash
+python3 banknote_processor.py
+python3 extract_serial.py
+"""
+
+with open('README.md', 'w', encoding='utf-8') as f:
+f.write(content)
+
+print("File generated successfully with tag [file-tag: code-generated-file-readme-md]")
+
+
+```text?code_stdout&code_event_index=1
+File generated successfully with tag [file-tag: code-generated-file-readme-md]
+
+Tu archivo README.md está listo.
+Icono de MD
+README
+ MD 
+Abierto
+
+He estructurado la documentación en las secciones que solicitaste, resumiendo el funcionamiento del proyecto en base a los scripts y el código fuente proporcionado. El README abarca desde la arquitectura general y la gestión de archivos estáticos (como el servidor web propio), hasta la utilización de modelos de IA locales (Ollama) para el procesamiento de los billetes y la generación de componentes listos para imprimir.
+
+
+
+
+Gemini es una IA y puede cometer errores.
+
+# Documentación del Proyecto: Colección de Billetes
+
+Sistema local integral para la gestión, catalogación, enriquecimiento (mediante IA) y visualización de una colección numismática (billetes).
+
+## a. Servidor Web
+El proyecto incluye un servidor web local y una API mínima implementada en el archivo `_scripts/serve_web.py`.
+
+- **Funcionalidad Principal**: Sirve la aplicación web estática (HTML/JS/CSS) alojada en la carpeta `web/` y los recursos gráficos (imágenes originales, vistas full y banderas).
+- **API de Edición**: Proporciona endpoints REST (`POST /api/update`, `/api/upload_photo`, `/api/rename_folder`, `/api/create_json`, etc.) que permiten modificar los metadatos de los billetes directamente desde la interfaz web.
+- **Manejo de Datos Seguros**: Realiza escrituras atómicas y controladas por candados (Threads/Locks) sobre la fuente de verdad (archivos JSON).
+- **Seguridad**: Está diseñado para uso estrictamente local. Escucha únicamente en la interfaz `127.0.0.1` (localhost), restringe el acceso GET a una lista blanca de directorios (previniendo path traversal), y posee mecanismos contra CSRF y DNS-rebinding para proteger los archivos locales.
+
+## b. Scripts
+
+### b.1 `extract_serial.py`
+- **Propósito**: Extrae automáticamente el número de serie de los billetes procesando sus imágenes.
+- **Mecánica**: Analiza la colección de JSONs para buscar billetes que carezcan del número de serie registrado. Al encontrarlos, localiza las fotografías del anverso y reverso y consulta a un modelo visual local mediante **Ollama** (usando `gemma4:31b` o `llava:34b`). Extrae el número de manera pura y lo sobreescribe en el archivo JSON original del billete.
+
+### b.2 `banknote_processor.py`
+- **Propósito**: Ejecuta un flujo de inteligencia artificial (usando LangGraph) para analizar las imágenes de los billetes y extraer características semánticas o temáticas (personajes, edificaciones, flora, fauna, etc.).
+- **Mecánica**: 
+  1. Utiliza `ChatOllama` con el modelo `llama3.2-vision` para crear una descripción detallada de los elementos en las fotos.
+  2. Ejecuta una búsqueda contextual en internet (vía `DuckDuckGoSearchRun`) para validar y nombrar correctamente dichos elementos.
+  3. Usa el modelo `qwen3:32b` para estructurar la salida final de las etiquetas (ej. `personaje:bernardo_ohiggins`).
+  4. Los resultados son emitidos hacia un archivo plano de catálogo (`banknotes_output_catalog.txt`).
+
+### b.3 `generar_etiquetas.py`
+- **Propósito**: Genera un documento PDF multipágina optimizado para impresión (hojas tamaño CARTA) que contiene tarjetas recortables o etiquetas para la exhibición física de cada billete.
+- **Mecánica**: Usa utilidades CLI de `ImageMagick` (`magick` y `montage`) para renderizar paramétricamente el texto de la etiqueta (código Pick, País, Año, Denominación, firmas y bandera oficial). Soporta filtrado por país y por el estado de "verificado".
+
+### b.4 Otros scripts relevantes
+- **`_scripts/build_web.py`**: Actúa como el compilador estático del frontend. Consolida cientos de archivos JSON aislados en un solo índice (`collection.json`), construye y mapea las miniaturas (usando paralelización con `magick`) e identifica inconsistencias en la base de datos que emite a un `issues.json`.
+- **`_scripts/generar_imagen.py`**: Compone una única imagen en formato vertical que une estéticamente el anverso del billete, una franja negra con datos de texto (país, denominación, pick), la bandera respectiva y el reverso. Exporta el archivo a la carpeta `_FULL/`.
+- **`_scripts/vincular_originales.py`**: Script de mantenimiento y migración. Hace match inteligente (por nombre de país, valor, año y firmas) entre nombres descriptivos de carpetas antiguas y los nuevos identificadores estandarizados del proyecto, renombrando los directorios físicos y los archivos de foto correspondientes.
+- **`_json/generate_json.py`**: Procesa un inventario maestro en formato `.tsv` e instancia y normaliza la arquitectura base creando un archivo JSON individual para cada fila/billete.
+
+## c. Arquitectura
+
+El sistema está diseñado bajo el principio de "archivos de texto e imágenes como base de datos" (File-based CMS), evitando dependencias como SQL. La arquitectura se define en tres capas:
+
+1. **Capa de Almacenamiento (Fuente de Verdad)**:
+   - Toda la información de cada billete está descentralizada en un archivo `.json` independiente bajo el directorio `_json/<pais>/<id>.json`.
+   - Los assets visuales se distribuyen en las carpetas `_originals/` (fotos puras), `_FULL/` (composiciones) y `_flags/` (banderas de países).
+2. **Capa de Integración y Transformación (`_scripts/`)**:
+   - Compone la capa intermedia lógica encargada de generar vistas combinadas (`build_web.py`), manipular visuales (`generar_imagen.py`, `generar_etiquetas.py`) y aportar enriquecimiento de datos a través de IA local (`banknote_processor.py`, `extract_serial.py`).
+3. **Capa de Presentación (Frontend y Servidor UI)**:
+   - Un frontend tipo SPA construido con Vanilla JS y Pico.css, situado en el directorio `web/`.
+   - Se alimenta del archivo unificado `web/data/collection.json`.
+   - Interactúa a través del servidor asíncrono (`serve_web.py`) con capacidad para invocar reconstrucciones on-demand del propio sistema.
+
+## d. Instalación y Uso (Pre-requisitos)
+
+### Pre-requisitos de Sistema
+- **Python**: Versión 3.8 o superior.
+- **ImageMagick**: Debe estar instalado en el sistema y disponible en el `PATH` global (el comando `magick` y `identify` deben ser accesibles desde la terminal).
+- **Ollama**: Motor para correr los LLMs localmente (requerido únicamente para los scripts b.1 y b.2). Debes haber descargado los siguientes modelos:
+  - `ollama run llama3.2-vision`
+  - `ollama run qwen3:32b`
+  - `ollama run gemma4:31b` (o alternativamente ajustar a `llava` en el código).
+
+### Pre-requisitos de Python (Paquetes)
+Se recomienda instalar las dependencias en un entorno virtual (venv):
+```bash
+pip install langchain-ollama langchain-core langchain-community langgraph pydantic duckduckgo-search ollama
 ```
 
-Generados (no editar a mano): `web/data/collection.json` y `web/thumbs/*.jpg`. Volver a correr el build cada vez que cambien los JSON o las fotos.
-
-### Página de problemas
-El ícono **⚠️ N** (esquina superior derecha) lleva a `problemas.html`, que lista inconsistencias de la colección por categoría. Por ahora: **carpetas de `_originals/` sin JSON asociado** (nombre que no coincide con ningún id). Los datos salen de `web/data/issues.json`, regenerado en cada build / botón «Recargar datos». La página es genérica: agregar una categoría nueva = agregarla en `build_issues()` de `build_web.py`.
-
-### Edición desde la web
-Requiere servir con `serve_web.py` (con `python3 -m http.server` la web queda solo-lectura y avisa al intentar guardar).
-
-- **Verificado**: checkbox en la fila.
-- **País, Monto, Moneda, Moneda Full y Año**: click en la celda → aparece un input → **Enter guarda**, **Esc o click fuera cancela**.
-- Al editar **País** el servidor actualiza también `country.en` (mapa ES→EN) y la bandera.
-
-Los cambios se guardan vía `POST /api/update {id, field, value}` en el JSON del billete (fuente de verdad) y regeneran su registro en `collection.json` (búsqueda y bandera incluidas).
-
-Seguridad del API: escucha solo en `127.0.0.1`, valida el id contra los JSON existentes (sin path traversal), whitelist de campos con validación de tipo/valor (año 1000–2100, monto numérico ≥ 0, país no vacío), body ≤ 4 KB y escritura atómica.
-
----
-
-## Pendientes por revisar
-
-La página **⚠️ Problemas** de la web (`web/problemas.html`) es la fuente viva de pendientes: carpetas de fotos sin vincular, billetes sin pick válido, picks con formato raro y billetes sin link de Colnect — todos con acciones de corrección en línea.
+### Modo de Uso
+1. **Inicializar la plataforma web**:
+   Posiciónate en la raíz del proyecto y ejecuta el servidor local indicando el puerto de tu elección (ej. 8000).
+   ```bash
+   python3 _scripts/serve_web.py 8000
+   ```
+2. **Acceso al Catálogo**:
+   Abre un navegador web y accede a: [http://localhost:8000/web/](http://localhost:8000/web/)
+3. **Generación de etiquetas**:
+   ```bash
+   python3 _scripts/generar_etiquetas.py --out etiquetas_coleccion.pdf
+   ```
+4. **Procesamiento de Inteligencia Artificial (Extracción y Análisis)**:
+   Asegúrate de que Ollama esté en ejecución de fondo y corre los scripts independientemente.
+   ```bash
+   python3 banknote_processor.py
+   python3 extract_serial.py
+   ```
