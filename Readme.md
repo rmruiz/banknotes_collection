@@ -1,27 +1,5 @@
 
-Conversación con Gemini
-Crea un README.md para documentar este proyecto.
-
-Crea un sección para:
-
-a. Servidor Web
-
-b. Scripts:
-
-b.1 extract_serial.py
-
-b.2 banknote_processor.py
-
-b.3 generar_etiquetas.py
-
-y otros scripts que te parezcan relevantes.
-
-c. Arquitectura
-
-d. Instalación y uso (pre-requisitos)
-
-Python
-content = """# Documentación del Proyecto: Colección de Billetes
+# Documentación del Proyecto: Colección de Billetes
 
 Sistema local integral para la gestión, catalogación, enriquecimiento (mediante IA) y visualización de una colección numismática (billetes).
 
