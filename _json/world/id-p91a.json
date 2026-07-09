@@ -13,7 +13,9 @@
   },
   "year": 1964,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:mujer_voluntaria"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/16388-5_Sen-1964_Issue-Indonesia",
     "group": ""
