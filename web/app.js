@@ -207,9 +207,9 @@ const COL_ALIASES = {
   country: "pais", 
   year: "anio", 
   monto: "valor",
-  front: "thumb_a", // Mapea "front" a la propiedad real en los datos
-  back: "thumb_b",  // Mapea "back" a la propiedad real
-  full: "thumb_f"   // Mapea "full" a la propiedad real
+  front: "thumb_a", 
+  back: "thumb_b",  
+  full: "thumb_f"   
 };
 
 function getCol(c) {
@@ -226,7 +226,7 @@ function getStrVal(r, col) {
 
 function parseQuery(q) {
   const tests = [];
-  // Updated regex: [a-z_]+ is used instead of [a-z]+ to support keys with underscores
+  // Regex que soporta guiones bajos en los nombres de columnas ([a-z_]+)
   const regex = /(-?)(?:([a-z_]+)(>=|<=|>|<)(\d+(?:\.\d+)?)|([a-z_]+):\((.*?)\)|([a-z_]+):"([^"]*)"|"([^"]*)"|([^\s]+))/gi;
   let m;
   
@@ -234,10 +234,8 @@ function parseQuery(q) {
     const neg = m[1] === '-';
     
     if (m[2]) { 
-      // 1. Operadores relacionales numéricos
       tests.push({ type: 'rel', neg, col: getCol(m[2]), op: m[3], val: parseFloat(m[4]) });
     } else if (m[5]) { 
-      // 2. Columna con paréntesis
       const col = getCol(m[5]);
       let inner = m[6].trim();
       if (inner.startsWith('"') && inner.endsWith('"')) {
@@ -246,13 +244,10 @@ function parseQuery(q) {
         tests.push({ type: 'col_group', neg, col, vals: inner.split(/\s+/) });
       }
     } else if (m[7]) { 
-      // 3. Columna exacta directa
       tests.push({ type: 'col_exact', neg, col: getCol(m[7]), val: m[8] });
     } else if (m[9]) { 
-      // 4. Frase exacta global
       tests.push({ type: 'global_exact', neg, val: m[9] });
     } else if (m[10]) { 
-      // 5. Búsqueda global por palabra
       tests.push({ type: 'global', neg, val: m[10] });
     }
   }
@@ -268,7 +263,6 @@ function applyFilter() {
     const tests = parseQuery(q);
     
     state.filtered = state.all.filter((r) => {
-      // El billete debe pasar TODOS los tests extraídos de la barra de búsqueda (AND)
       for (const t of tests) {
         let pass = false;
         
@@ -280,30 +274,40 @@ function applyFilter() {
             else if (t.op === '>=') pass = v >= t.val;
             else if (t.op === '<=') pass = v <= t.val;
           }
-        } else if (t.type === 'col_exact') {
-          // Búsqueda de igualdad estricta para: pais:("chile") o serie:("")
-          pass = getStrVal(r, t.col) === unaccent(t.val).toLowerCase();
-        } else if (t.type === 'col_group') {
+        } else if (t.type === 'col_exact' || t.type === 'col_group') {
           const colVal = getStrVal(r, t.col);
-          // Evalúa como OR (.some): ej. tiene "bernardo" O "ohiggins"
-          pass = t.vals.some(val => colVal.includes(unaccent(val).toLowerCase()));
+          const isImage = ["thumb_a", "thumb_b", "thumb_f"].includes(t.col);
+          
+          if (isImage) {
+            // Súper lógica para imágenes: entiende front:no, front:si, front:""
+            const queryVals = t.type === 'col_exact' ? [t.val] : t.vals;
+            pass = queryVals.some(val => {
+              val = unaccent(val).toLowerCase();
+              if (val === "" || val === "no" || val === "false") return colVal === "";
+              if (val === "si" || val === "yes" || val === "true") return colVal !== "";
+              // Fallback
+              return t.type === 'col_exact' ? colVal === val : colVal.includes(val);
+            });
+          } else {
+            if (t.type === 'col_exact') {
+              pass = colVal === unaccent(t.val).toLowerCase();
+            } else {
+              pass = t.vals.some(val => colVal.includes(unaccent(val).toLowerCase()));
+            }
+          }
         } else if (t.type === 'global_exact') {
           pass = (r.search || "").includes(unaccent(t.val).toLowerCase());
         } else if (t.type === 'global') {
           pass = (r.search || "").includes(unaccent(t.val).toLowerCase());
         }
 
-        // Si el término estaba negado (-), invertimos el resultado
         if (t.neg) pass = !pass;
-        
-        // Si falla aunque sea una de las reglas, este billete no se muestra
         if (!pass) return false;
       }
       return true;
     });
   }
 
-  // Se mantienen además los filtros cíclicos de la cabecera (ambos -> sí -> no)
   for (const [field, mode] of Object.entries(state.boolFilters)) {
     if (mode === "on") {
       state.filtered = state.filtered.filter((r) => r[field]);
@@ -312,7 +316,7 @@ function applyFilter() {
     }
   }
   
-  applySort(); // mantiene el ordenamiento visual activo
+  applySort();
   state.page = 1;
   render();
 }
