@@ -1,0 +1,37 @@
+{
+  "id": "mv-p35a",
+  "pick_number": "P-35a",
+  "country": {
+    "en": "Maldives",
+    "es": "Maldivas"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/145386-50_Rufiyaa-2022-2024_Rufiyaa_Symbol_Issue-Maldivas",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

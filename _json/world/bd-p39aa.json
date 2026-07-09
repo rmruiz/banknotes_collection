@@ -1,0 +1,37 @@
+{
+  "id": "bd-p39aa",
+  "pick_number": "P-39Aa",
+  "country": {
+    "en": "Bangladesh",
+    "es": "Bangladesh"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/898-10_Taka-2002-2010_Issue-Banglad%C3%A9s",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

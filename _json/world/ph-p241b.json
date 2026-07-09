@@ -1,0 +1,37 @@
+{
+  "id": "ph-p241b",
+  "pick_number": "P-241b",
+  "country": {
+    "en": "Philippines",
+    "es": "Filipinas"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/153759-1000_Piso-2022-2025_Seal_Type_7_Polymer_Issue-Filipinas",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

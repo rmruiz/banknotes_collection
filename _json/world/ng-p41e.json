@@ -1,0 +1,37 @@
+{
+  "id": "ng-p41e",
+  "pick_number": "P-41e",
+  "country": {
+    "en": "Nigeria",
+    "es": "Nigeria"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/156561-100_Naira-2014-2022_Nigerias_100_Years_of_Existence-Nigeria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

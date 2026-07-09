@@ -1,0 +1,37 @@
+{
+  "id": "bs-p78a",
+  "pick_number": "P-78a",
+  "country": {
+    "en": "Bahamas",
+    "es": "Bahamas"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/102021-3_Dollars-2016-2022_CRISP_Evolution_Act_2000-Bahamas",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}
