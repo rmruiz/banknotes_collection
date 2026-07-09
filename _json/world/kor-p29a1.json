@@ -13,7 +13,10 @@
   },
   "year": 1932,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:kim_yun-shik",
+    "flora:rosa_de_sharon"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/7892-1_Yen-1932-1938_ND_and_Dated_Issue-Corea",
     "group": ""
