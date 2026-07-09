@@ -1,0 +1,37 @@
+{
+  "id": "cd-p81a",
+  "pick_number": "P-81a",
+  "country": {
+    "en": "Democratic Republic of the Congo",
+    "es": "El Congo"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/2864-5_Centimes-1997_Issue-Congo_Rep%C3%BAblica_Democr%C3%A1tica_Kinshasa_-_Zaire",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ng-p48c21",
+  "pick_number": "P-48c.2.1",
+  "country": {
+    "en": "Nigeria",
+    "es": "Nigeria"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/158288-500_Naira-2022-2025_Modified_Colors_Issue-Nigeria",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

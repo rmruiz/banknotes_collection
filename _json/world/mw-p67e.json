@@ -1,0 +1,37 @@
+{
+  "id": "mw-p67e",
+  "pick_number": "P-67e",
+  "country": {
+    "en": "Malawi",
+    "es": "Malaui"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/137644-1000_Kwacha-2014-2024_New_Blind_Features_Issue-Malawi",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

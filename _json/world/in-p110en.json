@@ -1,0 +1,37 @@
+{
+  "id": "in-p110en",
+  "pick_number": "P-110e.N",
+  "country": {
+    "en": "India",
+    "es": "India"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/155130-20_Rupees-2016-2026_Gandhi_at_Center_Issue-India",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

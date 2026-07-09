@@ -1,0 +1,37 @@
+{
+  "id": "hk-p325d",
+  "pick_number": "P-325d",
+  "country": {
+    "en": "Hong Kong",
+    "es": "Hong Kong"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/24299-1_Cent-1952-1995_ND_Issue_Government_of_Hong_Kong-Hong_Kong",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "tr-p222f",
+  "pick_number": "P-222f",
+  "country": {
+    "en": "Turkey",
+    "es": "Turquía"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/139378-5_Turkish_Lira-2009-2024_Emission_9-T%C3%BCrkiye_Turqu%C3%ADa",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

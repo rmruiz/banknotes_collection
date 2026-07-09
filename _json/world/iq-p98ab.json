@@ -1,0 +1,37 @@
+{
+  "id": "iq-p98ab",
+  "pick_number": "P-98Ab",
+  "country": {
+    "en": "Iraq",
+    "es": "Irak"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/98505-500_Dinars-2013-2023_Marks_for_the_Blind_Issue-Irak",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

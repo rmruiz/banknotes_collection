@@ -1,0 +1,37 @@
+{
+  "id": "tt-p62a",
+  "pick_number": "P-62a",
+  "country": {
+    "en": "Trinidad and Tobago",
+    "es": "Trinidad y Tobago"
+  },
+  "denomination": {
+    "value": null,
+    "currency": "",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": null,
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/122319-10_Dollars-2019-2020_Polymer_Issue-Trinidad_y_Tobago",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}
