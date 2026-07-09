@@ -204,7 +204,12 @@ function updateSortIndicators() {
 
 // Alias para usar español o inglés indistintamente en la consulta
 const COL_ALIASES = {
-  country: "pais", year: "anio", monto: "valor"
+  country: "pais", 
+  year: "anio", 
+  monto: "valor",
+  front: "thumb_a", // Mapea "front" a la propiedad real en los datos
+  back: "thumb_b",  // Mapea "back" a la propiedad real
+  full: "thumb_f"   // Mapea "full" a la propiedad real
 };
 
 function getCol(c) {
