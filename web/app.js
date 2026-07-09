@@ -221,18 +221,18 @@ function getStrVal(r, col) {
 
 function parseQuery(q) {
   const tests = [];
-  // Expresión regular que tokeniza la consulta cubriendo todos los casos
-  const regex = /(-?)(?:([a-z]+)(>=|<=|>|<)(\d+(?:\.\d+)?)|([a-z]+):\((.*?)\)|([a-z]+):"([^"]*)"|"([^"]*)"|([^\s]+))/gi;
+  // Updated regex: [a-z_]+ is used instead of [a-z]+ to support keys with underscores
+  const regex = /(-?)(?:([a-z_]+)(>=|<=|>|<)(\d+(?:\.\d+)?)|([a-z_]+):\((.*?)\)|([a-z_]+):"([^"]*)"|"([^"]*)"|([^\s]+))/gi;
   let m;
   
   while ((m = regex.exec(q)) !== null) {
     const neg = m[1] === '-';
     
     if (m[2]) { 
-      // 1. Operadores relacionales numéricos (ej. anio>1950)
+      // 1. Operadores relacionales numéricos
       tests.push({ type: 'rel', neg, col: getCol(m[2]), op: m[3], val: parseFloat(m[4]) });
     } else if (m[5]) { 
-      // 2. Columna con paréntesis (ej. temas:(bernardo ohiggins) o temas:("bernardo ohiggins"))
+      // 2. Columna con paréntesis
       const col = getCol(m[5]);
       let inner = m[6].trim();
       if (inner.startsWith('"') && inner.endsWith('"')) {
@@ -241,13 +241,13 @@ function parseQuery(q) {
         tests.push({ type: 'col_group', neg, col, vals: inner.split(/\s+/) });
       }
     } else if (m[7]) { 
-      // 3. Columna exacta directa (ej. pais:"chile")
+      // 3. Columna exacta directa
       tests.push({ type: 'col_exact', neg, col: getCol(m[7]), val: m[8] });
     } else if (m[9]) { 
-      // 4. Frase exacta global (ej. "banco central")
+      // 4. Frase exacta global
       tests.push({ type: 'global_exact', neg, val: m[9] });
     } else if (m[10]) { 
-      // 5. Búsqueda global por palabra (ej. chile)
+      // 5. Búsqueda global por palabra
       tests.push({ type: 'global', neg, val: m[10] });
     }
   }
