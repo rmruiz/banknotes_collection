@@ -202,15 +202,103 @@ function updateSortIndicators() {
 
 /* --- búsqueda --- */
 
+// Alias para usar español o inglés indistintamente en la consulta
+const COL_ALIASES = {
+  country: "pais", year: "anio", monto: "valor"
+};
+
+function getCol(c) {
+  c = c.toLowerCase();
+  return COL_ALIASES[c] || c;
+}
+
+// Extrae el valor como un string limpio (sin acentos, en minúscula)
+function getStrVal(r, col) {
+  let v = r[col];
+  if (v === null || v === undefined) return "";
+  return unaccent(String(v)).toLowerCase();
+}
+
+function parseQuery(q) {
+  const tests = [];
+  // Expresión regular que tokeniza la consulta cubriendo todos los casos
+  const regex = /(-?)(?:([a-z]+)(>=|<=|>|<)(\d+(?:\.\d+)?)|([a-z]+):\((.*?)\)|([a-z]+):"([^"]*)"|"([^"]*)"|([^\s]+))/gi;
+  let m;
+  
+  while ((m = regex.exec(q)) !== null) {
+    const neg = m[1] === '-';
+    
+    if (m[2]) { 
+      // 1. Operadores relacionales numéricos (ej. anio>1950)
+      tests.push({ type: 'rel', neg, col: getCol(m[2]), op: m[3], val: parseFloat(m[4]) });
+    } else if (m[5]) { 
+      // 2. Columna con paréntesis (ej. temas:(bernardo ohiggins) o temas:("bernardo ohiggins"))
+      const col = getCol(m[5]);
+      let inner = m[6].trim();
+      if (inner.startsWith('"') && inner.endsWith('"')) {
+        tests.push({ type: 'col_exact', neg, col, val: inner.slice(1, -1) });
+      } else {
+        tests.push({ type: 'col_group', neg, col, vals: inner.split(/\s+/) });
+      }
+    } else if (m[7]) { 
+      // 3. Columna exacta directa (ej. pais:"chile")
+      tests.push({ type: 'col_exact', neg, col: getCol(m[7]), val: m[8] });
+    } else if (m[9]) { 
+      // 4. Frase exacta global (ej. "banco central")
+      tests.push({ type: 'global_exact', neg, val: m[9] });
+    } else if (m[10]) { 
+      // 5. Búsqueda global por palabra (ej. chile)
+      tests.push({ type: 'global', neg, val: m[10] });
+    }
+  }
+  return tests;
+}
+
 function applyFilter() {
-  const q = unaccent($("#q").value.trim().toLowerCase());
+  const q = $("#q").value.trim();
+  
   if (!q) {
     state.filtered = state.all;
   } else {
-    const terms = q.split(/\s+/);
-    state.filtered = state.all.filter((r) =>
-      terms.every((t) => r.search.includes(t)));
+    const tests = parseQuery(q);
+    
+    state.filtered = state.all.filter((r) => {
+      // El billete debe pasar TODOS los tests extraídos de la barra de búsqueda (AND)
+      for (const t of tests) {
+        let pass = false;
+        
+        if (t.type === 'rel') {
+          const v = r[t.col];
+          if (typeof v === 'number' && !isNaN(v)) {
+            if (t.op === '>') pass = v > t.val;
+            else if (t.op === '<') pass = v < t.val;
+            else if (t.op === '>=') pass = v >= t.val;
+            else if (t.op === '<=') pass = v <= t.val;
+          }
+        } else if (t.type === 'col_exact') {
+          // Búsqueda de igualdad estricta para: pais:("chile") o serie:("")
+          pass = getStrVal(r, t.col) === unaccent(t.val).toLowerCase();
+        } else if (t.type === 'col_group') {
+          const colVal = getStrVal(r, t.col);
+          // Evalúa como OR (.some): ej. tiene "bernardo" O "ohiggins"
+          pass = t.vals.some(val => colVal.includes(unaccent(val).toLowerCase()));
+        } else if (t.type === 'global_exact') {
+          pass = (r.search || "").includes(unaccent(t.val).toLowerCase());
+        } else if (t.type === 'global') {
+          pass = (r.search || "").includes(unaccent(t.val).toLowerCase());
+        }
+
+        // Si el término estaba negado (-), invertimos el resultado
+        if (t.neg) pass = !pass;
+        
+        // Si falla aunque sea una de las reglas, este billete no se muestra
+        if (!pass) return false;
+      }
+      return true;
+    });
   }
+
+  // Se mantienen además los filtros cíclicos de la cabecera (ambos -> sí -> no)
   for (const [field, mode] of Object.entries(state.boolFilters)) {
     if (mode === "on") {
       state.filtered = state.filtered.filter((r) => r[field]);
@@ -218,7 +306,8 @@ function applyFilter() {
       state.filtered = state.filtered.filter((r) => !r[field]);
     }
   }
-  applySort();   // mantener el orden activo al filtrar
+  
+  applySort(); // mantiene el ordenamiento visual activo
   state.page = 1;
   render();
 }

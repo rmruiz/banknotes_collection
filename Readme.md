@@ -94,6 +94,31 @@ python3 banknote_processor.py
 python3 extract_serial.py
 ```
 
+## e. Búsqueda Avanzada (Lenguaje de Consultas)
+
+La barra de búsqueda principal de la interfaz web soporta un lenguaje de consultas (QL) para realizar filtrados precisos sobre la colección. Por defecto, las búsquedas ignoran mayúsculas y acentos.
+
+### Sintaxis Soportada
+
+* **Búsqueda Global:** Escribir palabras sueltas busca coincidencias parciales en todos los datos del billete.
+  * `chile 1000`
+* **Búsqueda Exacta:** Usa comillas dobles `""` para buscar una frase idéntica.
+  * `"banco central"`
+* **Búsqueda por Columna:** Usa `columna:(valor)` para buscar solo dentro de un campo específico. Se soportan nombres de campo en español e inglés (`pais`/`country`, `anio`/`year`, `monto`/`valor`, `temas`, `serie`, etc.).
+  * `temas:(bernardo ohiggins)`
+  * `country:(estados unidos)`
+* **Campos Vacíos / Coincidencia Exacta en Columna:** Combina la sintaxis de columna con las comillas.
+  * `serie:("")` -> Billetes que no tienen número de serie registrado.
+  * `pais:("chile")` -> Busca exactamente la palabra "chile" en la columna país.
+* **Exclusión (Negación):** Antepone un guion `-` a cualquier término para excluir los resultados que coincidan.
+  * `-fantasia` -> Oculta los billetes que contengan la palabra "fantasía".
+  * `-pais:(argentina)` -> Oculta los billetes de Argentina.
+* **Operadores Relacionales:** Útiles para campos numéricos como el año o el monto, usando `>`, `<`, `>=` y `<=`.
+  * `anio>=1950`
+  * `valor<1000`
+
+Puedes combinar todas estas expresiones en una sola búsqueda. Por ejemplo:
+`pais:(chile) anio>1960 -temas:(arturo prat) serie:("")`
 
 
 
