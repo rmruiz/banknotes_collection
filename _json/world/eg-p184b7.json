@@ -6,14 +6,17 @@
     "es": "Egipto"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 10,
+    "currency": "Piastres",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 1986,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "actividad:grupo_de_militantes",
+    "simbolo:nueva_bandera_con_aguila"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/139331-10_Piastres-1971-1996_ND_Issue-Egipto",
     "group": ""
@@ -31,7 +34,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

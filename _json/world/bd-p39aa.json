@@ -6,14 +6,16 @@
     "es": "Bangladesh"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 10,
+    "currency": "Taka",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2006,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "construccion:mezquitas"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/898-10_Taka-2002-2010_Issue-Banglad%C3%A9s",
     "group": ""
@@ -31,7 +33,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }
