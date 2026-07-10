@@ -6,14 +6,18 @@
     "es": "Bahamas"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 3,
+    "currency": "Dólares",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2019,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "reina:isabel_ii",
+    "flora:flor_de_bahamas",
+    "transporte:botes_pesqueros"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/102021-3_Dollars-2016-2022_CRISP_Evolution_Act_2000-Bahamas",
     "group": ""
@@ -31,7 +35,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

@@ -6,14 +6,18 @@
     "es": "Costa Rica"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 5,
+    "currency": "Colones",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 1989,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:rafael_yglesias_castro",
+    "flor:guaria_morada",
+    "pintura:la_alegoría_del_café_y_los_platanos"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/50874-5_Colones-Edicion_1968-72-Costa_Rica",
     "group": ""
@@ -31,7 +35,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

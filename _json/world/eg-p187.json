@@ -6,14 +6,17 @@
     "es": "Egipto"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 10,
+    "currency": "Piastres",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 1998,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "construccion:esfinge",
+    "construccion:pirámides"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/4296-10_Piastres-1997_1998_ND_Issue-Egipto",
     "group": ""
@@ -31,7 +34,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

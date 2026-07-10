@@ -6,14 +6,17 @@
     "es": "Camboya"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 0.2,
+    "currency": "Riel",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 1979,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "simbolo:escudo_de_armas_de_kampuchea",
+    "actividad:plantaciones_de_arroz"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/2152-02_Riel-1979_Issue-Camboya",
     "group": ""
@@ -31,7 +34,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

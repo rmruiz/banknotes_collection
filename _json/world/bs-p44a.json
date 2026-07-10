@@ -6,14 +6,17 @@
     "es": "Bahamas"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 3,
+    "currency": "Dólares",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 1984,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "reina:isabel_ii",
+    "transporte:botes_pesqueros"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/762-3_Dollars-1984_ND_Issue_Act_1974-Bahamas",
     "group": ""
@@ -31,7 +34,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }
