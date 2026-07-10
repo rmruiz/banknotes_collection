@@ -10,7 +10,8 @@
     "currency": "Pesos",
     "subtype": "",
     "alternatives": [
-      "10/100 Escudo"
+      "10/100 Escudo",
+      "10 Condores"
     ]
   },
   "year": 1960,
@@ -33,7 +34,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "1960 - 1961",
-    "obs": "10 Condores"
+    "obs": ""
   },
   "specimens": [
     {
