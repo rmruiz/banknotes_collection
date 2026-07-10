@@ -216,6 +216,8 @@ FIELDS = {
                   lambda d, v: d["specimens"][0].update(condition=v.strip())),
     "firmas": (_v_str(200), _set_firmas),
     "temas": (_v_temas, _set_temas),
+    "subtipo": (_v_str(80), lambda d, v: d["denomination"].update(subtype=v.strip())),
+    "alternativas": (_v_str(120), lambda d, v: d["denomination"].update(alternatives=[x.strip() for x in v.replace("·", ",").split(",") if x.strip()])),
 }
 
 

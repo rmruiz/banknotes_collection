@@ -573,6 +573,8 @@ const EDIT_COLS = {
   pais: ["pais", "text"],
   monto: ["valor", "number"],
   moneda: ["moneda", "text"],
+  subtipo: ["subtipo", "text"],
+  alternativas: ["alternativas", "text"],
   anio: ["anio", "number"],
   obs: ["obs", "text"],
   grupo: ["grupo", "text"],
@@ -595,6 +597,8 @@ const EDIT_HINTS = {
           "key:value comma-separated — e.g. fauna:lion, flora:rose"],
   firmas: ["Separadas por ' - ' — ej: Mora - Meyerholz",
            "Separated by ' - ' — e.g. Mora - Meyerholz"],
+  alternativas: ["Separadas por coma — ej: 10 Libras, 5 Pesos",
+                 "Comma-separated — e.g. 10 Pounds, 5 Pesos"],
 };
 
 async function postUpdate(id, field, value) {
