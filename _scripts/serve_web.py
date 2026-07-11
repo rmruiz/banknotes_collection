@@ -196,6 +196,7 @@ def _set_firmas(d, v):
 FIELDS = {
     "pais": (_v_str(80, allow_empty=False), _set_pais),
     "colnect": (_v_url, lambda d, v: d["colnect"].update(url=v.strip())),
+    "numista": (_v_url, lambda d, v: d.update(numista=v.strip())),
     "valor": (_v_num, lambda d, v: d["denomination"].update(value=v)),
     "moneda": (_v_str(80), lambda d, v: d["denomination"].update(currency=v.strip())),
     "anio": (_v_year, lambda d, v: d.update(year=v)),
@@ -544,6 +545,7 @@ class Handler(SimpleHTTPRequestHandler):
             "denomination": {"value": None, "currency": "",
                              "subtype": "", "alternatives": []},
             "year": None,
+            "numista": "",
             "signatures": [],
             "themes": [],
             "colnect": {"url": "", "group": ""},
