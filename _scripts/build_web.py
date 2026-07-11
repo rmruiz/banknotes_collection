@@ -158,6 +158,7 @@ def make_record(d):
         "condicion": sp.get("condition", ""),
         "grupo": d.get("colnect", {}).get("group", ""),
         "colnect": d.get("colnect", {}).get("url", ""),
+        "numista": d.get("numista", ""),
         "conmemorativo": bool(d.get("commemorative")),
         "remarcado": bool(d.get("overprint")),
         "verificado": bool(d.get("verificado")),
