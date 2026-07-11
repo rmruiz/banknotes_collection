@@ -1,0 +1,38 @@
+{
+  "id": "fo-p29",
+  "pick_number": "P-29",
+  "country": {
+    "en": "Faroe Islands",
+    "es": "Islas Feroe"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Kronur",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2011,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}
