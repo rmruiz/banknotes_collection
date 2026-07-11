@@ -49,6 +49,7 @@ const L = {
   back: ["Back", "Back"],
   full: ["Full", "Full"],
   colnect: ["Colnect", "Colnect"],
+  numista: ["Numista", "Numista"],
   verif: ["Verificado", "Verified"],
   ver_colnect: ["Ver en Colnect ↗", "View on Colnect ↗"],
   si: ["Sí", "Yes"],
@@ -96,6 +97,7 @@ const COLUMNS = [
   ["back", "Back", true],
   ["full", "Full", true],
   ["colnect", "Colnect", true],
+  ["numista", "Numista", true],
   ["verif", "Verificado", true],
 ];
 const COLS_KEY = "banknotes_cols";
@@ -385,6 +387,9 @@ function render() {
       <td data-label="Colnect" data-col="colnect" class="ext">${r.colnect
         ? `<a href="${esc(r.colnect)}" target="_blank" rel="noopener" title="${t("ver_colnect")}">↗</a>`
         : ""}</td>
+      <td data-label="Numista" data-col="numista" class="ext editable">
+        ${r.numista ? `<a href="${esc(r.numista)}" target="_blank" rel="noopener" title="Ver en Numista">✓</a>` : ""}
+      </td>
       ${checkCell(r, "verif", "verificado")}
     </tr>`).join("");
 
@@ -462,6 +467,7 @@ const DETAIL_FIELDS = [
   ["condicion", "Condición"],
   ["grupo", "Grupo Colnect"],
   ["colnect", "Colnect"],
+  ["numista", "Numista"],
   ["conmemorativo", "Conmemorativo"],
   ["remarcado", "Remarcado"],
 ];
@@ -469,6 +475,9 @@ const DETAIL_FIELDS = [
 function detailValue(key, val, r) {
   if (key === "colnect") {
     return `<a href="${esc(val)}" target="_blank" rel="noopener">${t("ver_colnect")}</a>`;
+  }
+  if (key === "numista") {
+    return `<a href="${esc(val)}" target="_blank" rel="noopener">Ver en Numista ↗</a>`;
   }
   if (key === "pais") {
     const otro = lang === "en" ? r.pais : r.pais_en;
@@ -586,6 +595,7 @@ const EDIT_COLS = {
   firmas: ["firmas", "text"],
   temas: ["temas", "text"],
   condicion: ["condicion", "select"],
+  numista: ["numista", "url"],
 };
 
 // escala internacional de condición (IBNS)
@@ -894,6 +904,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   $("#rows").addEventListener("click", (e) => {
+    const td = e.target.closest("td.editable[data-col]");
+if (e.target.tagName === "A" && td) return; // Evita editar al hacer clic en un enlace ✓
+if (td && EDIT_COLS[td.dataset.col]) {
+
     const pick = e.target.closest("a.pick-link");
     if (pick) {
       e.preventDefault();
@@ -911,6 +925,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const rec = state.all.find((r) => r.id === id);
       if (rec) startEdit(td, rec);
     }
+} 
   });
 
   const modal = $("#modal");
