@@ -384,7 +384,7 @@ function render() {
       ${thumbCell(r, "thumb_a", "img_a", "Front", "front")}
       ${thumbCell(r, "thumb_b", "img_b", "Back", "back")}
       ${thumbCell(r, "thumb_f", "img_full", "Full", "full")}
-      <td data-label="Colnect" data-col="colnect" class="ext">${r.colnect
+      <td data-label="Colnect" data-col="colnect" class="ext editable">${r.colnect
         ? `<a href="${esc(r.colnect)}" target="_blank" rel="noopener" title="${t("ver_colnect")}">↗</a>`
         : ""}</td>
       <td data-label="Numista" data-col="numista" class="ext editable">
@@ -595,6 +595,7 @@ const EDIT_COLS = {
   firmas: ["firmas", "text"],
   temas: ["temas", "text"],
   condicion: ["condicion", "select"],
+  colnect: ["colnect", "url"],
   numista: ["numista", "url"],
 };
 
