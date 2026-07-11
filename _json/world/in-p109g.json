@@ -6,14 +6,16 @@
     "es": "India"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 10,
+    "currency": "Rupias",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2023,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:mahatma_gandhi"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/153356-10_Rupees-2016-2026_Gandhi_at_Center_Issue-India",
     "group": ""
@@ -31,7 +33,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

@@ -6,12 +6,12 @@
     "es": "Kazajistán"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 10,
+    "currency": "Tyin",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 1993,
   "signatures": [],
   "themes": [],
   "colnect": {

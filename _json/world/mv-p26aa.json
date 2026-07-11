@@ -6,14 +6,18 @@
     "es": "Maldivas"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 5,
+    "currency": "Rufiyaa",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2017,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "actividad:baile",
+    "actividad:football",
+    "fauna:pez"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/81041-5_Rufiyaa-2015-2024_Issue-Maldivas",
     "group": ""
@@ -33,5 +37,6 @@
       "serial_number": "",
       "condition": ""
     }
-  ]
+  ],
+  "numista": "https://en.numista.com/202014"
 }

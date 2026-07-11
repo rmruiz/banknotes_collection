@@ -6,14 +6,18 @@
     "es": "Mauritania"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 100,
+    "currency": "Ouguiya",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2002,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "arte:ardin",
+    "fauna:vaca",
+    "construccion:mezquita_de_chinguetti"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/27055-100_Ouguiya-1974-2002_Printer_G_D_Issue-Mauritania",
     "group": ""
@@ -33,5 +37,6 @@
       "serial_number": "",
       "condition": ""
     }
-  ]
+  ],
+  "numista": "https://en.numista.com/217160"
 }

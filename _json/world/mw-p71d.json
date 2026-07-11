@@ -6,14 +6,18 @@
     "es": "Malaui"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 5000,
+    "currency": "Kwacha",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2024,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:dr_hastings_kamuzu",
+    "fauna:pez",
+    "construccion:banco_de_malawi"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/177026-5000_Kwacha-2014-2024_New_Blind_Features_Issue-Malawi",
     "group": ""
@@ -33,5 +37,6 @@
       "serial_number": "",
       "condition": ""
     }
-  ]
+  ],
+  "numista": "https://en.numista.com/333694"
 }

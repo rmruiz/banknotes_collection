@@ -6,12 +6,12 @@
     "es": "Lituania"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 1,
+    "currency": "Talonas",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 1991,
   "signatures": [],
   "themes": [],
   "colnect": {

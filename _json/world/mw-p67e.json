@@ -6,12 +6,12 @@
     "es": "Malaui"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 1000,
+    "currency": "Kwacha",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2021,
   "signatures": [],
   "themes": [],
   "colnect": {
