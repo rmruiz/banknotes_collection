@@ -6,14 +6,20 @@
     "es": "Maldivas"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 20,
+    "currency": "Rufiyaa",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2020,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "construccion:nasir_international_airport",
+    "actividad:pescador",
+    "fauna:atun_listado",
+    "fauna:atun_aleta_amarilla",
+    "transporte:bote_dhoni"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/138664-20_Rufiyaa-2015-2024_Issue-Maldivas",
     "group": ""
@@ -33,5 +39,6 @@
       "serial_number": "",
       "condition": ""
     }
-  ]
+  ],
+  "numista": "https://en.numista.com/202605"
 }

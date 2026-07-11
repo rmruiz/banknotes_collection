@@ -6,14 +6,16 @@
     "es": "Hong Kong"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 1,
+    "currency": "Centavo",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 1986,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "reina:isabel_ii"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/24299-1_Cent-1952-1995_ND_Issue_Government_of_Hong_Kong-Hong_Kong",
     "group": ""
@@ -31,7 +33,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

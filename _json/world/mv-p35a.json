@@ -6,14 +6,17 @@
     "es": "Maldivas"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 50,
+    "currency": "Rufiyaa",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2022,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "actividad:lectura_coran_sagrado",
+    "construccion:minarete_de_la_mezquita_del_viernes"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/145386-50_Rufiyaa-2022-2024_Rufiyaa_Symbol_Issue-Maldivas",
     "group": ""
@@ -33,5 +36,6 @@
       "serial_number": "",
       "condition": ""
     }
-  ]
+  ],
+  "numista": "https://en.numista.com/202610"
 }

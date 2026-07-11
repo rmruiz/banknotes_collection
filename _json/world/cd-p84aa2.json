@@ -6,14 +6,17 @@
     "es": "El Congo"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 50,
+    "currency": "Céntimos",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 1997,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:okapis",
+    "lugar:reserva_de_okapis_de_epulu"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/2867-50_Centimes-1997_Issue-Congo_Rep%C3%BAblica_Democr%C3%A1tica_Kinshasa_-_Zaire",
     "group": ""
@@ -31,7 +34,8 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
-  ]
+  ],
+  "numista": "https://es.numista.com/216175"
 }

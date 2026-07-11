@@ -6,12 +6,12 @@
     "es": "Indonesia"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 2000,
+    "currency": "Rupias",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2016,
   "signatures": [],
   "themes": [],
   "colnect": {
@@ -31,7 +31,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }
