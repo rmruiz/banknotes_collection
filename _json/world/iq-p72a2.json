@@ -13,7 +13,12 @@
   },
   "year": 1982,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:caballos_arabes",
+    "construccion:palacio_abbasid",
+    "lugar:bagdad",
+    "arte:motivo_geometrico_islamico"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/47143-25_Dinars-1979-1986_Issue-Irak",
     "group": ""

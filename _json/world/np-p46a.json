@@ -13,7 +13,13 @@
   },
   "year": 2002,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "rey:birendra_bir_bikram_shah",
+    "construccion:templo_pagoda",
+    "fauna:yaks",
+    "lugar:himalayas",
+    "simbolo:emblema_del_banco_central_de_nepal"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/9406-5_Rupees-2002-2006_ND_King_Gyanendra_Portrait_Issue-Nepal",
     "group": ""

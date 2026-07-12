@@ -13,7 +13,11 @@
   },
   "year": 2002,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "flora:palmera",
+    "actividad:pesca",
+    "transporte:piroga"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/27062-200_Ouguiya-1974-2002_Printer_G_D_Issue-Mauritania",
     "group": ""

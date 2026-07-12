@@ -14,7 +14,11 @@
   "year": 1973,
   "numista": "",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:general_aung_san",
+    "fauna:chinthe",
+    "arte:ornamentos_nativos"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/2021-10_Kyats-1972-1979_ND_Issue-Birmania",
     "group": ""

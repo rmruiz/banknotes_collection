@@ -13,7 +13,12 @@
   },
   "year": 2021,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "flora:flores_de_espino_negro",
+    "fauna:mariposa",
+    "lugar:lough_neagh",
+    "actividad:tocar_musica"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/139918-20_Pounds_Sterling-Ulster_Bank_Limited_2018-2023-Irlanda_del_Norte",
     "group": ""

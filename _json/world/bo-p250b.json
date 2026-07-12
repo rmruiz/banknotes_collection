@@ -14,7 +14,15 @@
   "year": 2024,
   "numista": "",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:jose_manuel_baca_canoto",
+    "personaje:bruno_racua",
+    "personaje:pablo_zarate_willka",
+    "construccion:fortaleza_de_inkallajta",
+    "lugar:nevado_sajama",
+    "fauna:flamenco_andino",
+    "flora:quinua_real"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/176573-50_Bolivianos-2018-2025_ND_Estado_Plurinacional_Issue_Ley_901_de_2811-Bolivia",
     "group": ""

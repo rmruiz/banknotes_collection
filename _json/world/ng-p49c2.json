@@ -13,7 +13,12 @@
   },
   "year": 2024,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:alhaji_aliyu_mai_bornu",
+    "personaje:dr_clement_isong",
+    "simbolo:escudo_de_nigeria",
+    "construccion:edificio_del_banco_central_de_nigeria"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/163120-1000_Naira-2022-2025_Modified_Colors_Issue-Nigeria",
     "group": ""

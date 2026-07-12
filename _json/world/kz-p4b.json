@@ -13,7 +13,10 @@
   },
   "year": 1993,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:caballos",
+    "simbolo:emblema_de_kazajistan"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/7708-10_Tyin-1993-2004_Issue-Kazajst%C3%A1n",
     "group": ""

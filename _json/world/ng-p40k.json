@@ -13,7 +13,14 @@
   },
   "year": 2021,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:nigerianos_comunes",
+    "actividad:pesca",
+    "fauna:peces",
+    "simbolo:logo_del_banco_central_de_nigeria",
+    "simbolo:escudo_de_armas_de_nigeria",
+    "simbolo:mapa_de_nigeria"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/132102-50_Naira-2009-2025_Polymer_Issue-Nigeria",
     "group": ""

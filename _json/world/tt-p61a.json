@@ -14,7 +14,13 @@
   "year": 2020,
   "numista": "",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:motmot_de_corona_azul",
+    "simbolo:escudo_de_armas",
+    "simbolo:bandera_nacional",
+    "construccion:edificio_del_banco_central_complejo_financiero_eric_williams",
+    "lugar:mercado_de_productos_agricolas"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/122318-5_Dollars-2019-2020_Polymer_Issue-Trinidad_y_Tobago",
     "group": ""

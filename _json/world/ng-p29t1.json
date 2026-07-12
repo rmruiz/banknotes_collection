@@ -13,7 +13,12 @@
   },
   "year": 1984,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:ahmadu_bello",
+    "flora:cacao",
+    "fauna:ganado_de_cuernos_largos",
+    "simbolo:escudo_de_armas_de_nigeria"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/122308-200_Naira-1984-2022_Issue-Nigeria",
     "group": ""

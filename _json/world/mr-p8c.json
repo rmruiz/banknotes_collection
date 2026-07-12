@@ -13,7 +13,13 @@
   },
   "year": 2002,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "arte:patrones_geometricos",
+    "actividad:pastoreo",
+    "fauna:ovejas",
+    "simbolo:luna_creciente",
+    "construccion:instalacion_industrial"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/27074-500_Ouguiya-1999-2002_Issue-Mauritania",
     "group": ""

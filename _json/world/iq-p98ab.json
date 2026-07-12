@@ -13,7 +13,10 @@
   },
   "year": 2018,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "construccion:presa_de_dukan",
+    "arte:lamassu"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/98505-500_Dinars-2013-2023_Marks_for_the_Blind_Issue-Irak",
     "group": ""

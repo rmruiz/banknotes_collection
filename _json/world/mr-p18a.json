@@ -13,7 +13,10 @@
   },
   "year": 2013,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "actividad:agricultura",
+    "construccion:mina_de_hierro"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/51788-500_Ouguiya-2011-2016_Issue-Mauritania",
     "group": ""

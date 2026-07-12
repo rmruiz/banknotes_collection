@@ -13,7 +13,13 @@
   },
   "year": 2022,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:rose_lomathinda_chibambo",
+    "construccion:nuevo_edificio_del_parlamento_de_lilongwe",
+    "lugar:malaui",
+    "fauna:pez",
+    "simbolo:sello_del_banco_de_la_reserva_de_malaui"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/147732-200_Kwacha-2014-2024_New_Blind_Features_Issue-Malawi",
     "group": ""

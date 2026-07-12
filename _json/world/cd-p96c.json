@@ -13,7 +13,14 @@
   },
   "year": 2020,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "actividad:mineria_artesanal_de_diamantes",
+    "simbolo:diamante",
+    "simbolo:logo_banque_centrale_du_congo",
+    "construccion:choza",
+    "lugar:valle_estrecho",
+    "flora:bosque"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/143377-500_Francs-2000-2022_Issue-Congo_Rep%C3%BAblica_Democr%C3%A1tica_Kinshasa_-_Zaire",
     "group": ""

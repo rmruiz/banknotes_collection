@@ -13,7 +13,13 @@
   },
   "year": 2022,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:mustafa_kemal_ataturk",
+    "personaje:aydin_sayili",
+    "simbolo:estrella",
+    "simbolo:modelo_atomico",
+    "simbolo:doble_helice_de_adn"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/139378-5_Turkish_Lira-2009-2024_Emission_9-T%C3%BCrkiye_Turqu%C3%ADa",
     "group": ""

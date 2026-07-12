@@ -13,7 +13,13 @@
   },
   "year": 2023,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:adela_speratti",
+    "personaje:celsa_speratti",
+    "simbolo:bandera_de_paraguay",
+    "simbolo:libro",
+    "evento:desfile"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/155863-2000_Guaran%C3%ADes-2007-2026_Issue-Paraguay",
     "group": ""

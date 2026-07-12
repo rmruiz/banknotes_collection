@@ -13,7 +13,11 @@
   },
   "year": 1989,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:camello",
+    "transporte:barco",
+    "construccion:puerto"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/152325-1000_Ouguiya-1974-2002_Printer_G_D_Issue-Mauritania",
     "group": ""

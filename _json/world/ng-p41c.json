@@ -13,7 +13,12 @@
   },
   "year": 2021,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:obafemi_awolowo",
+    "evento:centenario_de_nigeria",
+    "simbolo:escudo_de_armas_de_nigeria",
+    "actividad:baile_tradicional"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/133921-100_Naira-2014-2022_Nigerias_100_Years_of_Existence-Nigeria",
     "group": ""
