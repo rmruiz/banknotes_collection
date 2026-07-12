@@ -51,7 +51,7 @@ from util import unaccent, make_note_id          # convenios compartidos
 from country_map import COUNTRY_EN, COUNTRY_MAP  # país es -> en / -> abreviación
 from generate_json import FOLDER_ROUTE           # país -> carpeta _json destino
 
-BIND = "127.0.0.1"
+BIND = "0.0.0.0"
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
 
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9.\-]{0,80}$")
