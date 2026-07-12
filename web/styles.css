@@ -448,33 +448,99 @@ a.pick-link:hover { text-decoration: underline; }
 
 /* ---- móvil: tabla como tarjetas ---- */
 @media (max-width: 720px) {
-  #meta { flex-wrap: wrap; }
+  /* 1 y 2. Ocultar ícono de problemas y selector de tamaño de fotos */
+  #alert-link,
+  #imgsize-label {
+    display: none !important;
+  }
 
+  /* Opción B: Controles en cuadrícula (Wrap) */
+  #meta {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+  
+  #controls {
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  #controls > * {
+    flex: 1 1 calc(50% - 0.5rem); 
+    margin: 0;
+  }
+  
+  #cols-dd summary {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Ocultar cabeceras de la tabla */
   #tbl thead { display: none; }
+  
   #tbl tr {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: .15rem .75rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .75rem;
     border: 1px solid var(--pico-muted-border-color);
     border-radius: 8px;
-    padding: .6rem .75rem;
-    margin-bottom: .75rem;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
   }
+  
+  /* 3. Incrementar el tamaño de la letra de los datos */
   #tbl td {
     display: block;
     border: none;
     padding: 0;
-    text-align: left;
+    text-align: left !important;
+    font-size: 1.15rem; /* Aumento del tamaño del texto base */
   }
+  
+  /* Incrementar el tamaño de la letra de las etiquetas superiores */
   #tbl td::before {
     content: attr(data-label);
     display: block;
-    font-size: .7rem;
+    font-size: .8rem; /* Aumento de la etiqueta (antes .7rem) */
     color: var(--pico-muted-color);
     text-transform: uppercase;
     letter-spacing: .04em;
+    margin-bottom: 0.2rem;
   }
-  #tbl td.num { text-align: left; }
-  #tbl td.img { width: auto; }
-  #tbl td.img img { height: calc(var(--thumb-h) * 1.18); max-width: 100%; }
+
+  /* Aumentar ligeramente la letra de los inputs en celular para facilitar la edición */
+  #tbl input.cell-edit, 
+  #tbl select.cell-edit {
+    font-size: 1.05rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  /* Campos largos ocupan todo el ancho */
+  #tbl td[data-col="pais"],
+  #tbl td[data-col="denominacion"],
+  #tbl td[data-col="obs"],
+  #tbl td[data-col="temas"],
+  #tbl td[data-col="firmas"] {
+     grid-column: 1 / -1;
+  }
+
+  /* Contenedor de imágenes ocupa todo el ancho */
+  #tbl td.img {
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-top: .5rem;
+  }
+
+  #tbl td.img img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 450px; 
+    object-fit: contain;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.03);
+  }
 }
+
