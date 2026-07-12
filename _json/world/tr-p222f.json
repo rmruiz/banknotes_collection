@@ -6,12 +6,12 @@
     "es": "Turquía"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 5,
+    "currency": "Liras",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2022,
   "signatures": [],
   "themes": [],
   "colnect": {
@@ -31,7 +31,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

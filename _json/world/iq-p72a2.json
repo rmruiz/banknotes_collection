@@ -6,12 +6,12 @@
     "es": "Irak"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 25,
+    "currency": "Dinares",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 1982,
   "signatures": [],
   "themes": [],
   "colnect": {
@@ -31,7 +31,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

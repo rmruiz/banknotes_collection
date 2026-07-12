@@ -6,12 +6,12 @@
     "es": "Trinidad y Tobago"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 10,
+    "currency": "Dólares",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2020,
   "signatures": [],
   "themes": [],
   "colnect": {
@@ -31,7 +31,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }
