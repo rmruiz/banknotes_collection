@@ -905,28 +905,29 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   $("#rows").addEventListener("click", (e) => {
-    const td = e.target.closest("td.editable[data-col]");
-if (e.target.tagName === "A" && td) return; // Evita editar al hacer clic en un enlace ✓
-if (td && EDIT_COLS[td.dataset.col]) {
-
+    // 1. Abrir detalle al hacer clic en el Pick
     const pick = e.target.closest("a.pick-link");
     if (pick) {
       e.preventDefault();
       openDetail(pick.dataset.id);
       return;
     }
+
+    // 2. Abrir foto ampliada al hacer clic en una imagen
     const img = e.target.closest("img[data-img]");
     if (img) {
       openModal(img.dataset.img, img.dataset.id, img.dataset.side);
       return;
     }
+
+    // 3. Editar celda al hacer clic (si la celda es editable)
     const td = e.target.closest("td.editable[data-col]");
+    if (e.target.tagName === "A" && td) return; // Evita editar al hacer clic en un enlace ✓
     if (td && EDIT_COLS[td.dataset.col]) {
       const id = td.closest("tr").querySelector("a.pick-link").dataset.id;
       const rec = state.all.find((r) => r.id === id);
       if (rec) startEdit(td, rec);
     }
-} 
   });
 
   const modal = $("#modal");
