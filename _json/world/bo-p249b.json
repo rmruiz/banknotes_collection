@@ -1,0 +1,38 @@
+{
+  "id": "bo-p249b",
+  "pick_number": "P-249b",
+  "country": {
+    "en": "Bolivia",
+    "es": "Bolivia"
+  },
+  "denomination": {
+    "value": 20,
+    "currency": "Bolivianos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2024,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/172269-20_Bolivianos-2018-2025_ND_Estado_Plurinacional_Issue_Ley_901_de_2811-Bolivia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

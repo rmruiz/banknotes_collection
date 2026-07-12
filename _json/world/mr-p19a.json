@@ -6,12 +6,12 @@
     "es": "Mauritania"
   },
   "denomination": {
-    "value": null,
+    "value": 1000,
     "currency": "Ouguiya",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2014,
   "signatures": [],
   "themes": [],
   "colnect": {
@@ -31,7 +31,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

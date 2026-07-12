@@ -6,12 +6,12 @@
     "es": "Venezuela"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 2,
+    "currency": "Bolívares",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 1989,
   "signatures": [],
   "themes": [],
   "colnect": {
@@ -31,7 +31,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

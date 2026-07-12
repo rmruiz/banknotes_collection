@@ -6,12 +6,12 @@
     "es": "Nigeria"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 1000,
+    "currency": "Naira",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2021,
   "signatures": [],
   "themes": [],
   "colnect": {
@@ -31,7 +31,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

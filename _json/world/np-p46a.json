@@ -6,12 +6,12 @@
     "es": "Nepal"
   },
   "denomination": {
-    "value": null,
-    "currency": "",
+    "value": 5,
+    "currency": "Rupias",
     "subtype": "",
     "alternatives": []
   },
-  "year": null,
+  "year": 2002,
   "signatures": [],
   "themes": [],
   "colnect": {
@@ -31,7 +31,7 @@
   "specimens": [
     {
       "serial_number": "",
-      "condition": ""
+      "condition": "UNC"
     }
   ]
 }

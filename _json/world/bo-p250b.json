@@ -1,0 +1,38 @@
+{
+  "id": "bo-p250b",
+  "pick_number": "P-250b",
+  "country": {
+    "en": "Bolivia",
+    "es": "Bolivia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Bolivianos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2024,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/176573-50_Bolivianos-2018-2025_ND_Estado_Plurinacional_Issue_Ley_901_de_2811-Bolivia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}
