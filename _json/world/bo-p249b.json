@@ -14,7 +14,15 @@
   "year": 2024,
   "numista": "",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:genoveva_rios",
+    "personaje:tomas_katari",
+    "personaje:pedro_ignacio_muisa",
+    "construccion:fuerte_de_samaypata",
+    "fauna:caiman_negro",
+    "flora:arbol_toborochi",
+    "lugar:laguna_bay"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/172269-20_Bolivianos-2018-2025_ND_Estado_Plurinacional_Issue_Ley_901_de_2811-Bolivia",
     "group": ""

@@ -13,7 +13,14 @@
   },
   "year": 2013,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:okapi",
+    "fauna:loro_gris_africano",
+    "arte:coffret_kanoka",
+    "lugar:mapa_de_la_republica_democratica_del_congo",
+    "flora:vegetacion",
+    "simbolo:sello_de_la_banque_centrale_du_congo"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/50659-1000_Francs-2005-2026_Issue-Congo_Rep%C3%BAblica_Democr%C3%A1tica_Kinshasa_-_Zaire",
     "group": ""

@@ -13,7 +13,11 @@
   },
   "year": 2015,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "arte:tidinit",
+    "fauna:vaca",
+    "construccion:bibliotecas_de_chinguetti"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/65200-100_Ouguiya-2011-2016_Issue-Mauritania",
     "group": ""

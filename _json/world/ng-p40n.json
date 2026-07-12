@@ -13,7 +13,13 @@
   },
   "year": 2024,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:nigerianos",
+    "actividad:pesca",
+    "fauna:peces",
+    "lugar:mapa_de_nigeria",
+    "simbolo:sello_del_banco_central_de_nigeria"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/166661-50_Naira-2009-2025_Polymer_Issue-Nigeria",
     "group": ""

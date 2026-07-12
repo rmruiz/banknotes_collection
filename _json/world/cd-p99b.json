@@ -13,7 +13,13 @@
   },
   "year": 2013,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:trabajador_de_campo_masculino",
+    "arte:escultura_femenina_alegorica_agricultura",
+    "actividad:agricultura",
+    "personaje:bateristas_de_gong",
+    "actividad:tocar_el_gong"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/90940-200_Francs-2000-2022_Issue-Congo_Rep%C3%BAblica_Democr%C3%A1tica_Kinshasa_-_Zaire",
     "group": ""

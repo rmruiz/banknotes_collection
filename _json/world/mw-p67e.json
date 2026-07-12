@@ -13,7 +13,15 @@
   },
   "year": 2021,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "dictador:hastings_kamuzu_banda",
+    "flora:maiz",
+    "actividad:agricultura",
+    "construccion:silos_de_maiz_de_mzuzu",
+    "simbolo:emblema_de_malawi",
+    "fauna:pez",
+    "lugar:mzuzu"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/137644-1000_Kwacha-2014-2024_New_Blind_Features_Issue-Malawi",
     "group": ""

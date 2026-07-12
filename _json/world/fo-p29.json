@@ -14,7 +14,12 @@
   "year": 2011,
   "numista": "",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "lugar:acantilados_de_sumba_en_suduroy",
+    "fauna:cuerno_de_carnero",
+    "fauna:ovejas",
+    "simbolo:simbolo_circular"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/39971-50_Kr%C3%B3nur-2011_ND_Issue-Islas_Feroe",
     "group": ""

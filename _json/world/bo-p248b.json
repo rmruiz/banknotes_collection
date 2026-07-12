@@ -14,7 +14,15 @@
   "year": 2024,
   "numista": "",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:jose_santos_vargas",
+    "personaje:apiaguaiki_tupa",
+    "personaje:eustaquio_mendez",
+    "lugar:caverna_de_umajalanta_torotoro",
+    "lugar:isla_del_pescado_salar_de_uyuni",
+    "fauna:picaflor_gigante",
+    "flora:puya_raimondi"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/162479-10_Bolivianos-2018-2025_ND_Estado_Plurinacional_Issue_Ley_901_de_2811-Bolivia",
     "group": ""

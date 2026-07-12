@@ -13,7 +13,14 @@
   },
   "year": 1976,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:francisco_bolognesi",
+    "simbolo:escudo_de_armas",
+    "actividad:mineria",
+    "flora:bosque",
+    "lugar:rio",
+    "construccion:chozas"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/10089-500_Soles_de_Oro-1976-1985_Issue-Per%C3%BA",
     "group": ""

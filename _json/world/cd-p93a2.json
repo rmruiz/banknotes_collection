@@ -13,7 +13,10 @@
   },
   "year": 2003,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "arte:estatua_en_madera_luba_kumi",
+    "simbolo:logotipo_de_la_banque_centrale_du_congo"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/133991-10_Francs-2003_Issue-Congo_Rep%C3%BAblica_Democr%C3%A1tica_Kinshasa_-_Zaire",
     "group": ""

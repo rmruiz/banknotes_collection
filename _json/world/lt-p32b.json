@@ -13,7 +13,11 @@
   },
   "year": 1991,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "simbolo:vytis",
+    "fauna:lagartijas",
+    "flora:plantas"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/16721-1_Talonas-1991_Talonas_system-Lituania",
     "group": ""

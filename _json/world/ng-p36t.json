@@ -13,7 +13,12 @@
   },
   "year": 2021,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "simbolo:escudo_de_armas_de_nigeria",
+    "construccion:banco_central_de_nigeria",
+    "fauna:caballos",
+    "fauna:aguila"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/133926-1000_Naira-2005-2026_Issue-Nigeria",
     "group": ""

@@ -13,7 +13,11 @@
   },
   "year": 2024,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:nnamdi_azikiwe",
+    "construccion:plataforma_petrolera",
+    "simbolo:escudo_de_nigeria"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/158288-500_Naira-2022-2025_Modified_Colors_Issue-Nigeria",
     "group": ""

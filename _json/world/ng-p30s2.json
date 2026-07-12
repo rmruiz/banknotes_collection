@@ -13,7 +13,11 @@
   },
   "year": 2020,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:nnamdi_azikiwe",
+    "construccion:plataforma_petrolifera_offshore",
+    "simbolo:escudo_de_nigeria"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/146552-500_Naira-1984-2022_Issue-Nigeria",
     "group": ""

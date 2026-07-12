@@ -13,7 +13,12 @@
   },
   "year": 2011,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:camello",
+    "transporte:barco",
+    "simbolo:libro_abierto",
+    "construccion:gruas_industriales"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/37827-2000_Ouguiya-2011-2016_Issue-Mauritania",
     "group": ""

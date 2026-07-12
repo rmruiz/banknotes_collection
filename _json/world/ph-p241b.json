@@ -13,7 +13,14 @@
   },
   "year": 2023,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:aguila_filipina",
+    "fauna:ostra_de_perlas_del_mar_del_sur",
+    "fauna:tortuga_marina",
+    "lugar:filipinas",
+    "lugar:parque_natural_de_los_arrecifes_de_tubbataha",
+    "simbolo:sello_del_banco_central_de_filipinas"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/153759-1000_Piso-2022-2025_Seal_Type_7_Polymer_Issue-Filipinas",
     "group": ""

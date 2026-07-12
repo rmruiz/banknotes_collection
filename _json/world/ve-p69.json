@@ -13,7 +13,10 @@
   },
   "year": 1989,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:simon_bolivar",
+    "simbolo:escudo_nacional_de_venezuela"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/15522-2_Bol%C3%ADvares-1989_Issue-Venezuela",
     "group": ""

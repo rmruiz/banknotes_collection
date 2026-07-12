@@ -13,7 +13,13 @@
   },
   "year": 2012,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "lugar:vitebsk",
+    "construccion:puente_de_vitebsk",
+    "construccion:anfiteatro_de_verano_de_vitebsk",
+    "transporte:automovil",
+    "flora:arbol"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/136021-10000_Rubles-2000-2016_Issue_Series_2000-Bielorrusia",
     "group": ""

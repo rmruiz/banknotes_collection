@@ -13,7 +13,12 @@
   },
   "year": 2013,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "flora:palmera",
+    "actividad:pesca",
+    "transporte:piroga",
+    "arte:artesania_mauritania"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/58044-200_Ouguiya-2011-2016_Issue-Mauritania",
     "group": ""

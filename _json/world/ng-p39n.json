@@ -13,7 +13,13 @@
   },
   "year": 2024,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:dr_alvan_ikoku",
+    "personaje:lecheras_fulani",
+    "simbolo:emblema_del_banco_central",
+    "simbolo:escudo_de_armas",
+    "lugar:nigeria"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/160896-10_Naira-2009-2025_Polymer_Issue-Nigeria",
     "group": ""

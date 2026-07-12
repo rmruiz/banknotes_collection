@@ -13,7 +13,11 @@
   },
   "year": 2016,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:pangeran_antasari",
+    "actividad:tarian_adat_dayak",
+    "simbolo:garuda_pancasila"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/66421-2000_Rupiah-2009-2016_Issue-Indonesia",
     "group": ""

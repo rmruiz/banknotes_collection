@@ -13,7 +13,15 @@
   },
   "year": 2018,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:murtala_mohammed",
+    "personaje:ladi_kwali",
+    "arte:alfareria_tradicional",
+    "actividad:alfareria",
+    "lugar:nigeria",
+    "simbolo:logotipo_del_banco_central_de_nigeria",
+    "simbolo:escudo_de_nigeria"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/93525-20_Naira-2005-2026_Issue-Nigeria",
     "group": ""

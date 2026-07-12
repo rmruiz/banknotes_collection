@@ -13,7 +13,13 @@
   },
   "year": 2024,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:obafemi_awolowo",
+    "evento:centenario_de_la_unificacion_de_nigeria",
+    "simbolo:emblema_del_banco_central_de_nigeria",
+    "actividad:danza_tradicional",
+    "fauna:oveja"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/156561-100_Naira-2014-2022_Nigerias_100_Years_of_Existence-Nigeria",
     "group": ""

@@ -14,7 +14,15 @@
   "year": 2024,
   "numista": "",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:juana_azurduy_de_padilla",
+    "personaje:alejo_calatayud",
+    "personaje:antonio_jose_de_sucre",
+    "construccion:casa_de_la_moneda",
+    "fauna:paraba_azul",
+    "flora:flor_patujo",
+    "lugar:cataratas_arco_iris"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/176587-100_Boliviano-2018-2025_ND_Estado_Plurinacional_Issue_Ley_901_de_2811-Bolivia",
     "group": ""

@@ -13,7 +13,10 @@
   },
   "year": 2014,
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:camello",
+    "construccion:mezquita_de_chinguetti"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/54795-1000_Ouguiya-2011-2016_Issue-Mauritania",
     "group": ""
