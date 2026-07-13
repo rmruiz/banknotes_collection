@@ -496,7 +496,7 @@ a.pick-link:hover { text-decoration: underline; }
     border: none;
     padding: 0;
     text-align: left !important;
-    font-size: 1.15rem; /* Aumento del tamaño del texto base */
+    font-size: 2.15rem; /* Aumento del tamaño del texto base */
   }
   
   /* Incrementar el tamaño de la letra de las etiquetas superiores */
