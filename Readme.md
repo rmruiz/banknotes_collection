@@ -1,104 +1,156 @@
-# Documentación del Proyecto: Colección de Billetes
+# 📚 Colección de Billetes  
+**Sistema Local para Gestión y Enriquecimiento Automático de una Colección Numismática**  
 
-Sistema local integral para la gestión, catalogación, enriquecimiento (mediante IA) y visualización de una colección numismática (billetes).
+## 🔍 Descripción General  
+Este proyecto es un sistema integral basado en **archivos locales** (sin bases de datos SQL) que permite:  
+- Catalogar billetes con metadatos estructurados.  
+- Extraer información automáticamente usando IA local.  
+- Visualizar y buscar billetes mediante una interfaz web interactiva.  
 
-## b. Scripts
-
-### b.1 `extract_serial.py`
-- **Propósito**: Extrae automáticamente el número de serie de los billetes procesando sus imágenes.
-- **Mecánica**: Analiza la colección de JSONs para buscar billetes que carezcan del número de serie registrado. Al encontrarlos, localiza las fotografías del anverso y reverso y consulta a un modelo visual local mediante **Ollama** (usando `gemma4:31b` o `llava:34b`). Extrae el número de manera pura y lo sobreescribe en el archivo JSON original del billete.
-
-### b.2 `banknote_processor.py`
-- **Propósito**: Ejecuta un flujo de inteligencia artificial (usando LangGraph) para analizar las imágenes de los billetes y extraer características semánticas o temáticas (personajes, edificaciones, flora, fauna, etc.).
-- **Mecánica**: 
-  1. Utiliza `ChatOllama` con el modelo `llama3.2-vision` para crear una descripción detallada de los elementos en las fotos.
-  2. Ejecuta una búsqueda contextual en internet (vía `DuckDuckGoSearchRun`) para validar y nombrar correctamente dichos elementos.
-  3. Usa el modelo `qwen3:32b` para estructurar la salida final de las etiquetas.
-
-### b.3 `generar_etiquetas.py`
-- **Propósito**: Genera un documento PDF multipágina optimizado para impresión que contiene tarjetas recortables o etiquetas para la exhibición física de cada billete.
-
-### b.4 Otros scripts relevantes
-- **`_scripts/build_web.py`**: Actúa como el compilador estático del frontend. Consolida cientos de archivos JSON aislados en un solo índice (`collection.json`), construye y mapea las miniaturas (usando paralelización con `magick`) e identifica inconsistencias en la base de datos que emite a un `issues.json`.
-- **`_scripts/generar_imagen.py`**: Compone una única imagen en formato vertical que une estéticamente el anverso del billete, una franja negra con datos de texto, la bandera respectiva y el reverso. Exporta el archivo a la carpeta `_FULL/`.
-- **`_scripts/vincular_originales.py`**: Script de mantenimiento y migración. Hace match inteligente entre nombres descriptivos de carpetas antiguas y los nuevos identificadores estandarizados del proyecto.
-- **`_json/generate_json.py`**: Procesa un inventario maestro en formato `.tsv` e instancia y normaliza la arquitectura base creando un archivo JSON individual para cada fila/billete.
-
-## c. Arquitectura
-
-El sistema está diseñado bajo el principio de "archivos de texto e imágenes como base de datos" (File-based CMS), evitando dependencias como SQL. La arquitectura se define en tres capas:
-
-1. **Capa de Almacenamiento**: Toda la información de cada billete está descentralizada en un archivo `.json` independiente.
-2. **Capa de Integración y Transformación (`_scripts/`)**: Encargada de generar vistas combinadas, manipular visuales y aportar enriquecimiento de datos a través de IA local.
-3. **Capa de Presentación (Frontend y Servidor UI)**: Un frontend tipo SPA construido con Vanilla JS y Pico.css, situado en el directorio `web/`.
-
-## d. Instalación y Uso
-
-### Pre-requisitos de Sistema
-- **Python 3.8+**, **ImageMagick**, **Ollama**.
-
-**Modo de Uso**
-
-Inicializar la plataforma web:
-```bash
-python3 _scripts/serve_web.py 8000
-```
-Acceso: `http://localhost:8000/web/`
+### Arquitectura  
+1. **Capa de Almacenamiento**  
+   - JSON individuales por billete en `_json/<país>/<id>.json`.  
+2. **Capa de Procesamiento**  
+   - Scripts para análisis visual (IA), generación de miniaturas y sincronización de datos.  
+3. **Capa de Presentación**  
+   - Frontend estático en `web/` con Vanilla JS y Pico.css.  
 
 ---
 
-## e. Búsqueda Avanzada (Lenguaje de Consultas)
+## 🧰 Requisitos Previos  
+Asegúrate de tener instalados:  
+- [Python 3.8+](https://www.python.org/downloads/)  
+- [ImageMagick](https://imagemagick.org) (para miniaturas y generación de imágenes).  
+- [Ollama](https://ollama.com) (modelos LLM locales como `gemma4:31b`, `llava:34b`).  
 
-La barra de búsqueda principal de la interfaz web soporta un lenguaje de consultas (QL) para realizar filtrados precisos. Por defecto, las búsquedas ignoran mayúsculas y acentos.
+---
 
-### Sintaxis Soportada
+## 🚀 Instalación y Configuración  
 
-* **Búsqueda Global:** Palabras sueltas buscan coincidencias parciales en todos los datos.
-  * `chile 1000`
-* **Búsqueda Exacta:** Usa comillas dobles `""` para buscar una frase idéntica.
-  * `"banco central"`
-* **Búsqueda por Columna:** `columna:(valor)`.
-  * `temas:(bernardo ohiggins)`
-  * `country:(estados unidos)`
-* **Campos Vacíos / Coincidencia Exacta:** Combina la sintaxis de columna con las comillas.
-  * `colnect:("")` -> Billetes sin link de Colnect.
-  * `serie:("")` -> Billetes sin número de serie registrado.
-  * `pais:("chile")` -> Busca exactamente la palabra "chile" en la columna país.
-* **Exclusión (Negación):** Antepone un guion `-` a cualquier término para excluir.
-  * `-fantasia` -> Oculta billetes con la palabra "fantasía".
-  * `-pais:(argentina)` -> Oculta todos los billetes de Argentina.
-* **Operadores Relacionales:** Útiles para campos numéricos (`anio`, `monto`).
-  * `anio>=1950`
-  * `monto<1000`
+### Paso 1: Clonar el Repositorio  
+```bash
+git clone https://github.com/tu-usuario/banknotes_collection.git
+cd banknotes_collection
+```
 
-### Referencia de Columnas
+### Paso 2: Instalar Dependencias de Python  
+```bash
+pip install langchain-ollama langgraph pydantic langchain-community reportlab beautifulsoup4 requests
+```
 
-| Columna (UI) | Palabras Clave (Alias) | Nota de Uso |
-| :--- | :--- | :--- |
-| **Pick** | `pick` | |
-| **ID** | `id` | |
-| **País** | `pais`, `country` | |
-| **Monto** | `monto`, `valor`, `value` | Soporta `>` `<` `>=` `<=` |
-| **Moneda** | `moneda`, `currency` | |
-| **Moneda Full** | `denominacion` | |
-| **Subtipo** | `subtipo`, `subtype` | |
-| **Otra moneda**| `alternativas` | |
-| **Año** | `anio`, `year` | Soporta `>` `<` `>=` `<=` |
-| **Firmas** | `firmas` | |
-| **Temas** | `temas`, `themes` | |
-| **Vigencia** | `vigencia` | |
-| **Observaciones**| `obs` | |
-| **Serie** | `serie` | |
-| **Banco** | `banco`, `bank` | |
-| **Zona** | `zona`, `zone` | |
-| **N° de serie** | `serial` | |
-| **Condición** | `condicion`, `condition` | |
-| **Grupo Colnect**| `grupo`, `colnect_group` | |
-| **Conmemorativo**| `conmemorativo` | Usa `:si` / `:no` |
-| **Remarcado** | `remarcado` | Usa `:si` / `:no` |
-| **Front** | `front`, `thumb_a`, `img_a` | Usa `:("")` para falta |
-| **Back** | `back`, `thumb_b`, `img_b` | Usa `:("")` para falta |
-| **Full** | `full`, `thumb_f` | Usa `:("")` para falta |
-| **Colnect** | `colnect` | |
-| **Verificado** | `verif`, `verificado` | Usa `:si` / `:no` |
+### Paso 3: Iniciar Modelos Ollama (Opcional)  
+Ejemplo para descargar un modelo:  
+```bash
+ollama pull gemma4:31b
+ollama pull llava:34b
+ollama pull qwen3:32b
+```
+
+### Paso 4: Ejecutar el Servidor Web  
+```bash
+python3 _scripts/serve_web.py 8000
+```
+Accede a la aplicación en [http://localhost:8000/web/](http://localhost:8000/web/).
+
+---
+
+## 🛠️ Scripts Principales  
+
+### `extract_serial.py`  
+- **Propósito**: Extrae el número de serie de billetes faltantes.  
+- **Cómo usarlo**:  
+  ```bash
+  python3 extract_serial.py
+  ```
+- **Funcionamiento**:  
+  - Analiza JSONs sin `serial_number`.  
+  - Usa Ollama (modelo `gemma4:31b`) para leer imágenes en `_originals/<id>/`.  
+
+---
+
+### `banknote_processor.py`  
+- **Propósito**: Genera etiquetas temáticas usando IA.  
+- **Cómo usarlo**:  
+  ```bash
+  python3 banknote_processor.py
+  ```
+- **Flujo de Trabajo**:  
+  1. Analiza imágenes con `llama3.2-vision`.  
+  2. Busca contexto adicional en DuckDuckGo.  
+  3. Extrae etiquetas estructuradas con `qwen3:32b`.  
+
+---
+
+### Otros Scripts Relevantes  
+| Script | Propósito | Cómo Usarlo |  
+|--------|-----------|-------------|  
+| `_scripts/build_web.py` | Genera el índice `collection.json` y miniaturas. | `python3 _scripts/build_web.py --force` |  
+| `_scripts/generar_imagen.py` | Crea imágenes Full (frente + info + bandera + reverso). | `python3 _scripts/generar_imagen.py` |  
+| `_json/generate_json.py` | Genera JSONs desde un TSV maestro. | `python3 _json/generate_json.py --master inventario.tsv` |  
+
+---
+
+## 🧪 Lenguaje de Búsqueda Avanzado (QL)  
+La barra de búsqueda soporta consultas especializadas:  
+
+### Sintaxis Ejemplos  
+| Consulta | Descripción |  
+|----------|-------------|  
+| `chile 1000` | Búsqueda global por "Chile" y "1000". |  
+| `"banco central"` | Coincidencia exacta de frase. |  
+| `temas:(bernardo ohiggins)` | Busca por columna `temas`. |  
+| `-pais:(argentina)` | Excluye billetes de Argentina. |  
+| `anio>=1950` | Filtra por año ≥ 1950. |  
+
+### Referencia de Columnas  
+| Columna (UI) | Alias | Notas |  
+|--------------|-------|-------|  
+| **Pick** | `pick`, `id` | Identificador único. |  
+| **País** | `pais`, `country` | Soporta búsquedas exactas con `""`. |  
+| **Año** | `anio`, `year` | Operadores: `>=`, `<=`, `>`, `<`. |  
+
+---
+
+## 🖼️ Estructura del Proyecto  
+```bash
+banknotes_collection/
+├── Readme.md                  # Este archivo.
+├── banknote_processor.py      # Análisis temático con IA.
+├── _json/                      # JSONs por billete (estructura: país/id.json).
+│   ├── country_map.py         # Mapeo de nombres de países a códigos ISO.
+│   └── generate_json.py       # Genera JSONs desde TSV.
+├── _scripts/                  # Scripts de automatización.
+│   ├── build_web.py          # Construye la web estática.
+│   ├── serve_web.py          # Servidor local con API REST.
+│   └── generar_imagen.py      # Genera imágenes Full.
+└── web/                       # Frontend (HTML, JS, CSS).
+    ├── index.html            # Página principal de la colección.
+    └── styles.css            # Estilos personalizados.
+```
+
+---
+
+## 🧩 Solución de Problemas Comunes  
+
+### Error: `Ollama no conecta`  
+- Asegúrate de que Ollama esté corriendo:  
+  ```bash
+  ollama serve
+  ```
+
+### Imágenes no se generan  
+- Verifica que las imágenes en `_originals/<id>/` tengan nombres como `<id>_A.jpg` y `<id>_B.jpg`.  
+
+---
+
+## 🌐 Recursos Adicionales  
+- **Documentación Web**: Abre `web/problemas.html` para ver errores detectados.  
+- **Comunidades de Apoyo**: [Enlace a foro/Discord si aplica].  
+
+---
+
+## 📜 Licencia  
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.  
+
+--- 
 
