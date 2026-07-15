@@ -3,6 +3,9 @@
 
 const $ = (sel) => document.querySelector(sel);
 
+// Detectar si estamos en la página de edición
+const isEditMode = window.location.pathname.includes("index-edit.html");
+
 /* --- idioma (es/en) --- */
 
 let lang = localStorage.getItem("banknotes_lang") === "en" ? "en" : "es";
@@ -350,25 +353,27 @@ function render() {
   const start = (state.page - 1) * state.perPage;
   const slice = state.filtered.slice(start, start + state.perPage);
 
-  const txtCell = (r, key) =>
-    `<td data-label="${t(key)}" data-col="${key}" class="${EDIT_COLS[key] ? "editable" : ""}">${esc(r[key])}</td>`;
+  const txtCell = (r, key) => {
+    const isEditable = isEditMode && EDIT_COLS[key];
+    return `<td data-label="${t(key)}" data-col="${key}" class="${isEditable ? "editable" : ""}">${esc(r[key])}</td>`;
+  };
   const checkCell = (r, col, field) => `
     <td data-label="${t(col)}" data-col="${col}" class="verif">
       <input type="checkbox" class="bool-check" data-id="${esc(r.id)}" data-field="${field}"
-             ${r[field] ? "checked" : ""} aria-label="${t(col)} ${esc(r.pick)}">
+             ${r[field] ? "checked" : ""} ${!isEditMode ? "disabled" : ""} aria-label="${t(col)} ${esc(r.pick)}">
     </td>`;
 
   $("#rows").innerHTML = slice.map((r) => `
     <tr>
       <td data-label="Pick"><a href="#" class="pick-link" data-id="${esc(r.id)}">${esc(r.pick) || esc(r.id)}</a></td>
       ${txtCell(r, "id")}
-      <td data-label="${t("pais")}" data-col="pais" class="editable">${esc(paisDisplay(r))}</td>
-      <td data-label="${t("monto")}" data-col="monto" class="num editable">${fmtValor(r.valor)}</td>
-      <td data-label="${t("moneda")}" data-col="moneda" class="editable">${esc(r.moneda)}</td>
+      <td data-label="${t("pais")}" data-col="pais" class="${isEditMode ? "editable" : ""}">${esc(paisDisplay(r))}</td>
+      <td data-label="${t("monto")}" data-col="monto" class="num ${isEditMode ? "editable" : ""}">${fmtValor(r.valor)}</td>
+      <td data-label="${t("moneda")}" data-col="moneda" class="${isEditMode ? "editable" : ""}">${esc(r.moneda)}</td>
       ${txtCell(r, "denominacion")}
       ${txtCell(r, "subtipo")}
       ${txtCell(r, "alternativas")}
-      <td data-label="${t("anio")}" data-col="anio" class="num editable">${r.anio ?? ""}</td>
+      <td data-label="${t("anio")}" data-col="anio" class="num ${isEditMode ? "editable" : ""}">${r.anio ?? ""}</td>
       ${txtCell(r, "firmas")}
       ${txtCell(r, "temas")}
       ${txtCell(r, "vigencia")}
@@ -384,10 +389,10 @@ function render() {
       ${thumbCell(r, "thumb_a", "img_a", "Front", "front")}
       ${thumbCell(r, "thumb_b", "img_b", "Back", "back")}
       ${thumbCell(r, "thumb_f", "img_full", "Full", "full")}
-      <td data-label="Colnect" data-col="colnect" class="ext editable">${r.colnect
+      <td data-label="Colnect" data-col="colnect" class="ext ${isEditMode ? "editable" : ""}">${r.colnect
         ? `<a href="${esc(r.colnect)}" target="_blank" rel="noopener" title="${t("ver_colnect")}">↗</a>`
         : ""}</td>
-      <td data-label="Numista" data-col="numista" class="ext editable">
+      <td data-label="Numista" data-col="numista" class="ext ${isEditMode ? "editable" : ""}">
         ${r.numista ? `<a href="${esc(r.numista)}" target="_blank" rel="noopener" title="Ver en Numista">✓</a>` : ""}
       </td>
       ${checkCell(r, "verif", "verificado")}
@@ -715,12 +720,26 @@ function startEdit(td, rec) {
 function applyI18n() {
   document.documentElement.lang = lang;
   document.title = lang === "en" ? "Banknote Collection" : "Colección de billetes";
+
+  if (!isEditMode) {
+    document.title = (lang === "en" ? "Banknote Collection" : "Colección de billetes") + " (Lectura)";
+  } else {
+    document.title = (lang === "en" ? "Banknote Collection" : "Colección de billetes") + " (Edición)";
+  }
+
   $("#top h1").textContent = t("title");
   $("#q").placeholder = t("search_ph");
   const btn = $("#rebuild");
   if (!btn.disabled) btn.textContent = t("reload");
-  $("#new-note").textContent = t("new_note");
-  $("#new-title").textContent = t("new_title");
+  if (!isEditMode) {
+    $("#new-note").style.display = "none";
+    $("#rebuild").style.display = "none";
+  } else {
+    $("#new-note").style.display = "";
+    $("#rebuild").style.display = "";
+    $("#new-note").textContent = t("new_note");
+    $("#new-title").textContent = t("new_title");
+  }
   $("#new-pais-label").firstChild.nodeValue = t("pais") + " ";
   $("#new-pick-label").firstChild.nodeValue = t("new_pick") + " ";
   $("#new-submit").textContent = t("new_create");
@@ -905,6 +924,22 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   $("#rows").addEventListener("click", (e) => {
+    if (!isEditMode) {
+      // En modo lectura, solo permitimos abrir detalle o fotos
+      const pick = e.target.closest("a.pick-link");
+      if (pick) {
+        e.preventDefault();
+        openDetail(pick.dataset.id);
+        return;
+      }
+      const img = e.target.closest("img[data-img]");
+      if (img) {
+        openModal(img.dataset.img, img.dataset.id, img.dataset.side);
+        return;
+      }
+      return; // Bloquear cualquier otra interacción de clic en filas (como edición)
+    }
+
     // 1. Abrir detalle al hacer clic en el Pick
     const pick = e.target.closest("a.pick-link");
     if (pick) {
