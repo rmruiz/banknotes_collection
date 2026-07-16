@@ -550,6 +550,7 @@ function detailStep(delta) {
 
 async function loadIssuesBadge() {
   const link = $("#alert-link");
+  if (!link) return;
   try {
     const res = await fetch("data/issues.json", { cache: "no-store" });
     const data = await res.json();
