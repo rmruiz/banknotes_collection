@@ -1,0 +1,41 @@
+{
+  "id": "cl-p154e1",
+  "pick_number": "P-154e.1",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "numista": "",
+  "signatures": [
+    "Bianchi",
+    "Marshall"
+  ],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/60610-1000_Pesos-1975-2009_Issue-Chile",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "CA0077320",
+      "condition": ""
+    }
+  ]
+}

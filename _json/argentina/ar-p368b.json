@@ -1,0 +1,38 @@
+{
+  "id": "ar-p368b",
+  "pick_number": "P-368b",
+  "country": {
+    "en": "Argentina",
+    "es": "Argentina"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2023,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/150283-2000_Pesos-2022-2024_National_Heroes_and_Cultural_Figures_Issue-Argentina",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "48296477 H",
+      "condition": ""
+    }
+  ]
+}
