@@ -1,0 +1,41 @@
+{
+  "id": "cl-p154e2",
+  "pick_number": "P-154e.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Pesos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "numista": "",
+  "signatures": [
+    "Zahler",
+    "Marshall"
+  ],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/67554-1000_Pesos-1975-2009_Issue-Chile",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "CAB231180",
+      "condition": ""
+    }
+  ]
+}
