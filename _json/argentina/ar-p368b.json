@@ -14,7 +14,12 @@
   "year": 2023,
   "numista": "",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:ramon_carrillo",
+    "personaje:cecilia_grierson",
+    "construccion:instituto_nacional_de_microbiologia_dr_carlos_g_malbran",
+    "simbolo:helice_de_adn"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/150283-2000_Pesos-2022-2024_National_Heroes_and_Cultural_Figures_Issue-Argentina",
     "group": ""
