@@ -17,7 +17,11 @@
     "Bianchi",
     "Marshall"
   ],
-  "themes": [],
+  "themes": [
+    "personaje:ignacio_carrera_pinto",
+    "arte:monumento_chile_a_sus_heroes",
+    "flora:araucaria"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/60610-1000_Pesos-1975-2009_Issue-Chile",
     "group": ""

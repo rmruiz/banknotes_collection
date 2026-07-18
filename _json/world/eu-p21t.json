@@ -14,7 +14,13 @@
   "year": 2014,
   "numista": "",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "construccion:puente_romanico",
+    "construccion:puerta_romanica",
+    "simbolo:bandera_de_la_union_europea",
+    "simbolo:simbolo_del_euro",
+    "lugar:mapa_de_europa"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/52556-10_Euro-Serie_2013-2015-Uni%C3%B3n_Europea",
     "group": ""
