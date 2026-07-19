@@ -34,12 +34,12 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "Reemplazo"
   },
   "specimens": [
     {
       "serial_number": "CA0077320",
-      "condition": ""
+      "condition": "F"
     }
   ]
 }
