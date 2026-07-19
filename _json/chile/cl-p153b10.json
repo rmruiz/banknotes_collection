@@ -32,12 +32,12 @@
     "bank": "",
     "zone": "",
     "vigencia": "1977 - 2000",
-    "obs": ""
+    "obs": "hoyos de corchetes"
   },
   "specimens": [
     {
       "serial_number": "CA1866917",
-      "condition": ""
+      "condition": "VF"
     }
   ]
 }
