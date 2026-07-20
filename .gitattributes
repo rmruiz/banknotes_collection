@@ -4,3 +4,4 @@ _flags/*.jpg filter=lfs diff=lfs merge=lfs -text
 _originals/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 _jpg_examples/*.jpg filter=lfs diff=lfs merge=lfs -text
 web/thumbs/*.jpg filter=lfs diff=lfs merge=lfs -text
+_json/*/*.json filter=verifyfalse
