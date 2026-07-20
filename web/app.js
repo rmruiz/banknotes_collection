@@ -78,9 +78,9 @@ const paisDisplay = (r) => (lang === "en" ? (r.pais_en || r.pais) : r.pais);
 const COLUMNS = [
   ["id", "ID", false],
   ["pais", "País", true],
-  ["monto", "Monto", true],
-  ["moneda", "Moneda", true],
-  ["denominacion", "Moneda Full", false],
+  ["monto", "Monto", false],
+  ["moneda", "Moneda", false],
+  ["denominacion", "Moneda Full", true],
   ["subtipo", "Subtipo", false],
   ["alternativas", "Otra moneda", false],
   ["anio", "Año", true],
