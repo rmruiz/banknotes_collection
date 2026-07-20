@@ -1,0 +1,38 @@
+{
+  "id": "ba-p10a",
+  "pick_number": "P-10a",
+  "country": {
+    "en": "Bosnia and Herzegovina",
+    "es": "Bosnia y Herzegovina"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Dinares",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1992,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/1458-10_Dinara-1992-1993_Issues-Bosnia_y_Herzegovina",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cf-p702a",
+  "pick_number": "P-702a",
+  "country": {
+    "en": "Central African Republic",
+    "es": "Rep. Centroafricana"
+  },
+  "denomination": {
+    "value": 2000,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/146479-2000_Francs_CFA-2022_Issue_CEMAC-Estados_Centroafricanos",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

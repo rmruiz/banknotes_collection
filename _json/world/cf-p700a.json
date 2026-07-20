@@ -1,0 +1,38 @@
+{
+  "id": "cf-p700a",
+  "pick_number": "P-700a",
+  "country": {
+    "en": "Central African Republic",
+    "es": "Rep. Centroafricana"
+  },
+  "denomination": {
+    "value": 500,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/146604-500_Francs_CFA-2022_Issue_CEMAC-Estados_Centroafricanos",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

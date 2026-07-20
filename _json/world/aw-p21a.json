@@ -1,0 +1,38 @@
+{
+  "id": "aw-p21a",
+  "pick_number": "P-21a",
+  "country": {
+    "en": "Aruba",
+    "es": "Aruba"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/103336-10_Florin-2019_Life_in_Aruba_Issue-Aruba",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}
