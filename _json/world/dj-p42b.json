@@ -1,0 +1,38 @@
+{
+  "id": "dj-p42b",
+  "pick_number": "P-42b",
+  "country": {
+    "en": "Djibouti",
+    "es": "Yibuti"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Francos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2020,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/156165-1000_Franc-2002-2009_Issue-Yibuti",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

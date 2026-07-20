@@ -4,6 +4,7 @@ Preferentemente ISO 3166-1 alpha-2; para no-países o casos ambiguos, código co
 """
 
 COUNTRY_MAP = {
+    "abjasia": "ab",
     "afganistán": "af",
     "albania": "al",
     "alemania": "de",
@@ -12,6 +13,7 @@ COUNTRY_MAP = {
     "argelia": "dz",
     "argentina": "ar",
     "armenia": "am",
+    "aruba": "aw",
     "australia": "au",
     "austria": "at",
     "azerbaiyán": "az",
@@ -135,6 +137,7 @@ COUNTRY_MAP = {
     "polonia": "pl",
     "portugal": "pt",
     "qatar": "qa",
+    "rep. centroafricana": "cf",
     "rep. checa": "cz",
     "rep. dominicana": "do",
     "ruanda": "rw",
@@ -186,6 +189,7 @@ COUNTRY_MAP = {
 
 # nombre en español (como viene en la data) -> nombre en inglés
 COUNTRY_EN = {
+    "abjasia": "Abkhazia",
     "afganistán": "Afghanistan",
     "albania": "Albania",
     "alemania": "Germany",
@@ -194,6 +198,7 @@ COUNTRY_EN = {
     "argelia": "Algeria",
     "argentina": "Argentina",
     "armenia": "Armenia",
+    "aruba": "Aruba",
     "australia": "Australia",
     "austria": "Austria",
     "azerbaiyán": "Azerbaijan",
@@ -317,6 +322,7 @@ COUNTRY_EN = {
     "polonia": "Poland",
     "portugal": "Portugal",
     "qatar": "Qatar",
+    "rep. centroafricana": "Central African Republic",
     "rep. checa": "Czech Republic",
     "rep. dominicana": "Dominican Republic",
     "ruanda": "Rwanda",

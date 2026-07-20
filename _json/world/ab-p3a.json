@@ -1,0 +1,38 @@
+{
+  "id": "ab-p3a",
+  "pick_number": "P-3a",
+  "country": {
+    "en": "Abkhazia",
+    "es": "Abjasia"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Apsar",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2024,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/156475-10_Apsar-2024-2025_Investment_Bank_Notes_Issue-Abjasia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}
