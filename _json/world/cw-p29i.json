@@ -28,12 +28,13 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "Netherlands Antilles"
   },
   "specimens": [
     {
       "serial_number": "4203292338",
       "condition": "XF"
     }
-  ]
+  ],
+  "numista": "https://en.numista.com/213278"
 }

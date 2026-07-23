@@ -30,12 +30,13 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "1966?"
   },
   "specimens": [
     {
       "serial_number": "A.0038 629201",
       "condition": "F"
     }
-  ]
+  ],
+  "numista": "https://en.numista.com/205771"
 }
