@@ -14,7 +14,13 @@
   "year": 2019,
   "numista": "https://en.numista.com/209027",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:tortuga_blanco",
+    "fauna:fototo",
+    "flora:waira_di_lama",
+    "construccion:ruinas_del_fundidor_de_oro_de_bushiribana",
+    "simbolo:azulejos_antiguos_de_aruba"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/103336-10_Florin-2019_Life_in_Aruba_Issue-Aruba",
     "group": ""
@@ -31,7 +37,7 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "A0654173",
       "condition": "UNC"
     }
   ]

@@ -14,7 +14,20 @@
   "year": 2020,
   "numista": "https://en.numista.com/228842",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "reina:isabel_ii",
+    "personaje:thomas_potts",
+    "arte:cabeza_de_jade",
+    "simbolo:escudo_de_belice",
+    "transporte:hms_merlin",
+    "fauna:tucan",
+    "fauna:tapir_de_baird",
+    "lugar:st_georges_caye",
+    "construccion:tumba_de_thomas_pott",
+    "construccion:residencia_de_verano",
+    "construccion:kraal_de_bano",
+    "construccion:canon"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/134768-5_Dollars-2003-2024_Issue-Belize",
     "group": ""
@@ -31,7 +44,7 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "EA915512",
       "condition": "UNC"
     }
   ]

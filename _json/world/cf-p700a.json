@@ -14,7 +14,14 @@
   "year": 2020,
   "numista": "https://en.numista.com/353034",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "simbolo:logo_de_la_cemac",
+    "construccion:edificio_del_banco_de_los_estados_de_africa_central",
+    "personaje:agricultor",
+    "transporte:tractor",
+    "fauna:ganado",
+    "actividad:agricultura"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/146604-500_Francs_CFA-2022_Issue_CEMAC-Estados_Centroafricanos",
     "group": ""
@@ -31,7 +38,7 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "01657396 E6",
       "condition": "UNC"
     }
   ]
