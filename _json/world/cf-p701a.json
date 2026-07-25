@@ -14,7 +14,15 @@
   "year": 2020,
   "numista": "https://en.numista.com/354028",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "simbolo:logo_de_la_cemac",
+    "simbolo:mapa_estilizado_de_africa",
+    "construccion:edificio_de_la_banque_des_etats_de_l_afrique_centrale",
+    "actividad:atencion_sanitaria",
+    "personaje:paciente",
+    "personaje:enfermera",
+    "personaje:asistente_de_laboratorio_medico_tecnico"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/146478-1000_Francs_CFA-2022_Issue_CEMAC-Estados_Centroafricanos",
     "group": ""
@@ -31,7 +39,7 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "02013983 D4",
       "condition": "UNC"
     }
   ]

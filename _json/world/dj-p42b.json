@@ -14,7 +14,14 @@
   "year": 2020,
   "numista": "https://en.numista.com/210607",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:ali_ahmed_oudoum",
+    "fauna:camello",
+    "actividad:trabajadores_con_palas",
+    "transporte:barco",
+    "lugar:puerto_de_djibouti",
+    "construccion:gruas"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/156165-1000_Franc-2002-2009_Issue-Yibuti",
     "group": ""
@@ -31,7 +38,7 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "H473908",
       "condition": "UNC"
     }
   ]

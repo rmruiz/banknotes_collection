@@ -14,7 +14,13 @@
   "year": 2020,
   "numista": "https://en.numista.com/354029",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "simbolo:logo_de_la_cemac",
+    "simbolo:mapa_estilizado_de_africa",
+    "construccion:edificio_del_banco_de_los_estados_de_africa_central",
+    "fauna:loro_gris",
+    "flora:selva"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/146479-2000_Francs_CFA-2022_Issue_CEMAC-Estados_Centroafricanos",
     "group": ""
@@ -31,7 +37,7 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "02618867 C7",
       "condition": "UNC"
     }
   ]

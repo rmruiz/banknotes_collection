@@ -14,7 +14,12 @@
   "year": 2024,
   "numista": "https://en.numista.com/422525",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:leopardo_del_caucaso",
+    "arte:hacha_de_bronce_ornamentada",
+    "simbolo:emblema_estatal_de_la_republica_de_abjasia",
+    "simbolo:alabasha"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/156475-10_Apsar-2024-2025_Investment_Bank_Notes_Issue-Abjasia",
     "group": ""
@@ -31,7 +36,7 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "AA000466166",
       "condition": "UNC"
     }
   ]
