@@ -1,0 +1,38 @@
+{
+  "id": "gm-p40a",
+  "pick_number": "P-40a",
+  "country": {
+    "en": "Gambia",
+    "es": "Gambia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Dalasis",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2019,
+  "numista": "https://en.numista.com/204147",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/106431-50_Dalasis-2019-2023_Birds_Issue-Gambia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "sr-p134a",
+  "pick_number": "P-134a",
+  "country": {
+    "en": "Suriname",
+    "es": "Surinam"
+  },
+  "denomination": {
+    "value": 250,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1988,
+  "numista": "https://en.numista.com/203200",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16824-250_Gulden-1986-1988_Issue-Surinam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}
