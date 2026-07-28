@@ -1,0 +1,38 @@
+{
+  "id": "de-p44b3",
+  "pick_number": "P-44b.3",
+  "country": {
+    "en": "Germany",
+    "es": "Alemania"
+  },
+  "denomination": {
+    "value": 1000,
+    "currency": "Marcos",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1910,
+  "numista": "https://en.numista.com/346780",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/43594-1000_Mark-1910_Issue_-_Reichsbanknote_Imperial_Bank_Notes-Alemania",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

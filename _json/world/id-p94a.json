@@ -1,0 +1,38 @@
+{
+  "id": "id-p94a",
+  "pick_number": "P-94a",
+  "country": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Sen",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1964,
+  "numista": "https://en.numista.com/206604",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16391-50_Sen-1964_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

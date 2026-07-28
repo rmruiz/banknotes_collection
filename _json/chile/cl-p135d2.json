@@ -1,0 +1,41 @@
+{
+  "id": "cl-p135d2",
+  "pick_number": "P-135d.2",
+  "country": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "denomination": {
+    "value": 1,
+    "currency": "Escudo",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1962,
+  "numista": "https://en.numista.com/202818",
+  "signatures": [
+    "Mackenna",
+    "Ibańez"
+  ],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/66134-1_Escudo-1962-1975_ND_Issue-Chile",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

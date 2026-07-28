@@ -1,0 +1,38 @@
+{
+  "id": "pk-p56a1",
+  "pick_number": "P-56a.1",
+  "country": {
+    "en": "Pakistan",
+    "es": "Pakistán"
+  },
+  "denomination": {
+    "value": 75,
+    "currency": "Rupias",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2022,
+  "numista": "https://en.numista.com/337073",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/143132-75_Rupees-2022_Commemorative_Issue-Pakist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": true,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

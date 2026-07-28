@@ -1,0 +1,38 @@
+{
+  "id": "ye-p27aa2",
+  "pick_number": "P-27Aa.2",
+  "country": {
+    "en": "Yemen",
+    "es": "Yemen"
+  },
+  "denomination": {
+    "value": 50,
+    "currency": "Riales",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1994,
+  "numista": "https://en.numista.com/206259",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/13358-50_Rials-1990-1997_ND_Issues-Yemen_Rep%C3%BAblica_%C3%81rabe",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

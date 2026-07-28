@@ -1,0 +1,38 @@
+{
+  "id": "sr-p136b1",
+  "pick_number": "P-136b.1",
+  "country": {
+    "en": "Suriname",
+    "es": "Surinam"
+  },
+  "denomination": {
+    "value": 5,
+    "currency": "Florines",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1995,
+  "numista": "https://en.numista.com/204219",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/47984-5_Gulden-1991-1999_Issue-Surinam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}

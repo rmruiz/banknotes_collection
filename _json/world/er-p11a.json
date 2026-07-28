@@ -1,0 +1,38 @@
+{
+  "id": "er-p11a",
+  "pick_number": "P-11a",
+  "country": {
+    "en": "Eritrea",
+    "es": "Eritrea"
+  },
+  "denomination": {
+    "value": 10,
+    "currency": "Nakfa",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2012,
+  "numista": "https://en.numista.com/209638",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/50039-10_Nakfa-2011-2012_Issue-Eritrea",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}
