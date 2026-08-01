@@ -47,10 +47,8 @@ for i, a in enumerate(sys.argv[1:]):
 # reusar el índice de banderas de build_web (incluye alias: Rep. Checa,
 # Rep. Dominicana, Fiyi, Moldavia, etc.) y las utilidades compartidas
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "_json"))
 import build_web
-from util import norm_flag
-from country_map import get_country_by_code, get_country_by_name
+from util import norm_flag, get_country_by_code, get_country_by_name
 
 
 def flag_for(country_es):

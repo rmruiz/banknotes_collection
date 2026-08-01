@@ -9,8 +9,8 @@ import requests
 from bs4 import BeautifulSoup
 from langchain_community.tools import DuckDuckGoSearchRun
 
-sys.path.insert(0, str(Path(__file__).resolve().parent / "_json"))
-from country_map import get_country_by_code, get_country_by_name
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from util import get_country_by_code, get_country_by_name
 
 # Diccionario estricto de conceptos permitidos
 ALLOWED_KEYS = {

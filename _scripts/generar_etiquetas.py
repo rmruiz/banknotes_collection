@@ -25,8 +25,7 @@ REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
 FLAGS = REPO / "_flags"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-sys.path.insert(0, str(JSON_DIR))
-from country_map import get_country_by_code, get_country_by_name
+from util import get_country_by_code, get_country_by_name
 
 try:
     import build_web

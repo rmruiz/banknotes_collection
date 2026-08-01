@@ -24,9 +24,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts (util)
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "_json"))  # _json (country_map)
-from util import unaccent, norm_flag   # noqa: E402
-from country_map import COUNTRIES, get_country_by_code, get_country_by_name  # noqa: E402
+from util import unaccent, norm_flag, COUNTRIES, get_country_by_code, get_country_by_name   # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
