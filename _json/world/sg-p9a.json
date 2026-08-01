@@ -1,10 +1,6 @@
 {
   "id": "sg-p9a",
   "pick_number": "P-9a",
-  "country": {
-    "en": "Singapore",
-    "es": "Singapur"
-  },
   "denomination": {
     "value": 1,
     "currency": "Dólar",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205587"
+  "numista": "https://en.numista.com/205587",
+  "country_code": "sg"
 }

@@ -1,10 +1,6 @@
 {
   "id": "my-p51a",
   "pick_number": "P-51A",
-  "country": {
-    "en": "Malaysia",
-    "es": "Malasia"
-  },
   "denomination": {
     "value": 1,
     "currency": "Ringgit",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202971"
+  "numista": "https://en.numista.com/202971",
+  "country_code": "my"
 }

@@ -1,10 +1,6 @@
 {
   "id": "hu-p195a",
   "pick_number": "P-195a",
-  "country": {
-    "en": "Hungary",
-    "es": "Hungría"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Florines",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/207348"
+  "numista": "https://en.numista.com/207348",
+  "country_code": "hu"
 }

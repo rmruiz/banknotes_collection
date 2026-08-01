@@ -1,10 +1,6 @@
 {
   "id": "bs-p44a",
   "pick_number": "P-44a",
-  "country": {
-    "en": "Bahamas",
-    "es": "Bahamas"
-  },
   "denomination": {
     "value": 3,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/212768"
+  "numista": "https://en.numista.com/212768",
+  "country_code": "bs"
 }

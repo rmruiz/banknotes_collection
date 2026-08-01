@@ -1,10 +1,6 @@
 {
   "id": "jo-p40a",
   "pick_number": "P-40a",
-  "country": {
-    "en": "Jordan",
-    "es": "Jordania"
-  },
   "denomination": {
     "value": 5,
     "currency": "Dinares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/375766"
+  "numista": "https://en.numista.com/375766",
+  "country_code": "jo"
 }

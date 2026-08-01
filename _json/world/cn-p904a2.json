@@ -1,10 +1,6 @@
 {
   "id": "cn-p904a2",
   "pick_number": "P-904a.2",
-  "country": {
-    "en": "China",
-    "es": "China"
-  },
   "denomination": {
     "value": 10,
     "currency": "Yuan",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204747"
+  "numista": "https://en.numista.com/204747",
+  "country_code": "cn"
 }

@@ -1,10 +1,6 @@
 {
   "id": "zm-p38g",
   "pick_number": "P-38g",
-  "country": {
-    "en": "Zambia",
-    "es": "Zambia"
-  },
   "denomination": {
     "value": 100,
     "currency": "Kwacha",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203874"
+  "numista": "https://en.numista.com/203874",
+  "country_code": "zm"
 }

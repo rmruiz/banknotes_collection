@@ -1,10 +1,6 @@
 {
   "id": "gb-pm47",
   "pick_number": "P-M47",
-  "country": {
-    "en": "Great Britain",
-    "es": "Gran Bretaña"
-  },
   "denomination": {
     "value": 5,
     "currency": "Pence",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201617"
+  "numista": "https://en.numista.com/201617",
+  "country_code": "gb"
 }

@@ -1,10 +1,6 @@
 {
   "id": "mg-p102a",
   "pick_number": "P-102a",
-  "country": {
-    "en": "Madagascar",
-    "es": "Madagascar"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Ariary",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202993"
+  "numista": "https://en.numista.com/202993",
+  "country_code": "mg"
 }

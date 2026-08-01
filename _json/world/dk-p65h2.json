@@ -1,10 +1,6 @@
 {
   "id": "dk-p65h2",
   "pick_number": "P-65h.2",
-  "country": {
-    "en": "Denmark",
-    "es": "Dinamarca"
-  },
   "denomination": {
     "value": 50,
     "currency": "Coronas Danesas",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/202093"
+  "numista": "https://en.numista.com/202093",
+  "country_code": "dk"
 }

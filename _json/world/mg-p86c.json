@@ -1,10 +1,6 @@
 {
   "id": "mg-p86c",
   "pick_number": "P-86c",
-  "country": {
-    "en": "Madagascar",
-    "es": "Madagascar"
-  },
   "denomination": {
     "value": 100,
     "currency": "Ariary",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203034"
+  "numista": "https://en.numista.com/203034",
+  "country_code": "mg"
 }

@@ -1,10 +1,6 @@
 {
   "id": "sml-p1a",
   "pick_number": "P-1a",
-  "country": {
-    "en": "Somaliland",
-    "es": "Somalilandia"
-  },
   "denomination": {
     "value": 5,
     "currency": "Chelines",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203879"
+  "numista": "https://en.numista.com/203879",
+  "country_code": "sml"
 }

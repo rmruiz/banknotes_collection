@@ -1,10 +1,6 @@
 {
   "id": "ve-p119a",
   "pick_number": "P-119a",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 100,
     "currency": "Bolivares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/330916"
+  "numista": "https://en.numista.com/330916",
+  "country_code": "ve"
 }

@@ -1,10 +1,6 @@
 {
   "id": "yu-p113a",
   "pick_number": "P-113a",
-  "country": {
-    "en": "Yugoslavia",
-    "es": "Yugoslavia"
-  },
   "denomination": {
     "value": 500,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206072"
+  "numista": "https://en.numista.com/206072",
+  "country_code": "yu"
 }

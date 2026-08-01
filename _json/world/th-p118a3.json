@@ -1,10 +1,6 @@
 {
   "id": "th-p118a3",
   "pick_number": "P-118a.3",
-  "country": {
-    "en": "Thailand",
-    "es": "Tailandia"
-  },
   "denomination": {
     "value": 20,
     "currency": "Baht",
@@ -38,5 +34,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/204487"
+  "numista": "https://en.numista.com/204487",
+  "country_code": "th"
 }

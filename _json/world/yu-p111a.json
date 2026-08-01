@@ -1,10 +1,6 @@
 {
   "id": "yu-p111a",
   "pick_number": "P-111a",
-  "country": {
-    "en": "Yugoslavia",
-    "es": "Yugoslavia"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/209513"
+  "numista": "https://en.numista.com/209513",
+  "country_code": "yu"
 }

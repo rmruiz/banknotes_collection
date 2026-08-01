@@ -1,10 +1,6 @@
 {
   "id": "bi-p50a",
   "pick_number": "P-50a",
-  "country": {
-    "en": "Burundi",
-    "es": "Burundi"
-  },
   "denomination": {
     "value": 500,
     "currency": "Francos",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205672"
+  "numista": "https://en.numista.com/205672",
+  "country_code": "bi"
 }

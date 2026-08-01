@@ -1,10 +1,6 @@
 {
   "id": "mx-p133b2",
   "pick_number": "P-133b.2",
-  "country": {
-    "en": "Mexico",
-    "es": "México"
-  },
   "denomination": {
     "value": 50,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/310606"
+  "numista": "https://en.numista.com/310606",
+  "country_code": "mx"
 }

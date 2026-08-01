@@ -1,10 +1,6 @@
 {
   "id": "pe-p194a",
   "pick_number": "P-194a",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 50,
     "currency": "Soles",
@@ -38,5 +34,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/300095"
+  "numista": "https://en.numista.com/300095",
+  "country_code": "pe"
 }

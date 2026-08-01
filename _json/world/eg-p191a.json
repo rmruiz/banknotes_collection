@@ -1,10 +1,6 @@
 {
   "id": "eg-p191a",
   "pick_number": "P-191a",
-  "country": {
-    "en": "Egypt",
-    "es": "Egipto"
-  },
   "denomination": {
     "value": 10,
     "currency": "Piastras",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207247"
+  "numista": "https://en.numista.com/207247",
+  "country_code": "eg"
 }

@@ -1,10 +1,6 @@
 {
   "id": "eg-p81a",
   "pick_number": "P-81a",
-  "country": {
-    "en": "Egypt",
-    "es": "Egipto"
-  },
   "denomination": {
     "value": 10,
     "currency": "Libras",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/332533"
+  "numista": "https://en.numista.com/332533",
+  "country_code": "eg"
 }

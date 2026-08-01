@@ -1,10 +1,6 @@
 {
   "id": "ec-p108b11",
   "pick_number": "P-108b.1.1",
-  "country": {
-    "en": "Ecuador",
-    "es": "Ecuador"
-  },
   "denomination": {
     "value": 5,
     "currency": "Sucres",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202419"
+  "numista": "https://en.numista.com/202419",
+  "country_code": "ec"
 }

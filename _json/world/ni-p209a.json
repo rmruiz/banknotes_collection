@@ -1,10 +1,6 @@
 {
   "id": "ni-p209a",
   "pick_number": "P-209a",
-  "country": {
-    "en": "Nicaragua",
-    "es": "Nicaragua"
-  },
   "denomination": {
     "value": 10,
     "currency": "Córdobas",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205097"
+  "numista": "https://en.numista.com/205097",
+  "country_code": "ni"
 }

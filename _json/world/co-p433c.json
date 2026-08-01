@@ -1,10 +1,6 @@
 {
   "id": "co-p433c",
   "pick_number": "P-433c",
-  "country": {
-    "en": "Colombia",
-    "es": "Colombia"
-  },
   "denomination": {
     "value": 2000,
     "currency": "Pesos Oro",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/236486"
+  "numista": "https://en.numista.com/236486",
+  "country_code": "co"
 }

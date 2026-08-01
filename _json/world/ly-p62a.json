@@ -1,10 +1,6 @@
 {
   "id": "ly-p62a",
   "pick_number": "P-62a",
-  "country": {
-    "en": "Libya",
-    "es": "Libia"
-  },
   "denomination": {
     "value": 0.25,
     "currency": "Dinar",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201688"
+  "numista": "https://en.numista.com/201688",
+  "country_code": "ly"
 }

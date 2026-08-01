@@ -1,10 +1,6 @@
 {
   "id": "bo-p250b",
   "pick_number": "P-250b",
-  "country": {
-    "en": "Bolivia",
-    "es": "Bolivia"
-  },
   "denomination": {
     "value": 50,
     "currency": "Bolivianos",
@@ -42,5 +38,6 @@
       "serial_number": "089881231 A",
       "condition": "XF"
     }
-  ]
+  ],
+  "country_code": "bo"
 }

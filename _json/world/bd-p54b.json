@@ -1,10 +1,6 @@
 {
   "id": "bd-p54b",
   "pick_number": "P-54b",
-  "country": {
-    "en": "Bangladesh",
-    "es": "Bangladesh"
-  },
   "denomination": {
     "value": 10,
     "currency": "Taka",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204788"
+  "numista": "https://en.numista.com/204788",
+  "country_code": "bd"
 }

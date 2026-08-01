@@ -1,10 +1,6 @@
 {
   "id": "gt-p106a",
   "pick_number": "P-106a",
-  "country": {
-    "en": "Guatemala",
-    "es": "Guatemala"
-  },
   "denomination": {
     "value": 5,
     "currency": "Quetzales",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204582"
+  "numista": "https://en.numista.com/204582",
+  "country_code": "gt"
 }

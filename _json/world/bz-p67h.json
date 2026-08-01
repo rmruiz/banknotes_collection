@@ -1,10 +1,6 @@
 {
   "id": "bz-p67h",
   "pick_number": "P-67h",
-  "country": {
-    "en": "Belize",
-    "es": "Belice"
-  },
   "denomination": {
     "value": 5,
     "currency": "Dólares",
@@ -47,5 +43,6 @@
       "serial_number": "EA915512",
       "condition": "UNC"
     }
-  ]
+  ],
+  "country_code": "bz"
 }

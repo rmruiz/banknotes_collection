@@ -1,10 +1,6 @@
 {
   "id": "ve-p89b",
   "pick_number": "P-89b",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 5,
     "currency": "Bolívares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203178"
+  "numista": "https://en.numista.com/203178",
+  "country_code": "ve"
 }

@@ -1,10 +1,6 @@
 {
   "id": "co-p454w",
   "pick_number": "P-454w",
-  "country": {
-    "en": "Colombia",
-    "es": "Colombia"
-  },
   "denomination": {
     "value": 20000,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205468"
+  "numista": "https://en.numista.com/205468",
+  "country_code": "co"
 }

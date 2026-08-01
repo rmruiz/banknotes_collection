@@ -1,10 +1,6 @@
 {
   "id": "do-p192e",
   "pick_number": "P-192e",
-  "country": {
-    "en": "Dominican Republic",
-    "es": "Rep. Dominicana"
-  },
   "denomination": {
     "value": 500,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/223671"
+  "numista": "https://en.numista.com/223671",
+  "country_code": "do"
 }

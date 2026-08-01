@@ -1,10 +1,6 @@
 {
   "id": "er-p11a",
   "pick_number": "P-11a",
-  "country": {
-    "en": "Eritrea",
-    "es": "Eritrea"
-  },
   "denomination": {
     "value": 10,
     "currency": "Nakfa",
@@ -14,7 +10,14 @@
   "year": 2012,
   "numista": "https://en.numista.com/209638",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:camello",
+    "transporte:tren",
+    "simbolo:bandera_de_eritrea",
+    "construccion:puente",
+    "actividad:izar_la_bandera",
+    "personaje:tres_mujeres"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/50039-10_Nakfa-2011-2012_Issue-Eritrea",
     "group": ""
@@ -31,8 +34,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "AA2999383",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "er"
 }

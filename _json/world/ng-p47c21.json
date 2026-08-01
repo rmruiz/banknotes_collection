@@ -1,10 +1,6 @@
 {
   "id": "ng-p47c21",
   "pick_number": "P-47c.2.1",
-  "country": {
-    "en": "Nigeria",
-    "es": "Nigeria"
-  },
   "denomination": {
     "value": 200,
     "currency": "Naira",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/363725"
+  "numista": "https://en.numista.com/363725",
+  "country_code": "ng"
 }

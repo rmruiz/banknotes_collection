@@ -1,10 +1,6 @@
 {
   "id": "ar-p287a3",
   "pick_number": "P-287a.3",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 1,
     "currency": "Peso",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://es.numista.com/202619"
+  "numista": "https://es.numista.com/202619",
+  "country_code": "ar"
 }

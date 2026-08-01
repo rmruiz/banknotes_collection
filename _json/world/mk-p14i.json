@@ -1,10 +1,6 @@
 {
   "id": "mk-p14i",
   "pick_number": "P-14i",
-  "country": {
-    "en": "North Macedonia",
-    "es": "Macedonia del Norte"
-  },
   "denomination": {
     "value": 10,
     "currency": "Denares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203179"
+  "numista": "https://en.numista.com/203179",
+  "country_code": "mk"
 }

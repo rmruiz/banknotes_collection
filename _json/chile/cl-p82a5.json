@@ -1,10 +1,6 @@
 {
   "id": "cl-p82a5",
   "pick_number": "P-82a.5",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 5,
     "currency": "Pesos",
@@ -40,5 +36,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/289938"
+  "numista": "https://en.numista.com/289938",
+  "country_code": "cl"
 }

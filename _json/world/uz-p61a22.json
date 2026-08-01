@@ -1,10 +1,6 @@
 {
   "id": "uz-p61a22",
   "pick_number": "P-61a.2.2",
-  "country": {
-    "en": "Uzbekistan",
-    "es": "Uzbekistán"
-  },
   "denomination": {
     "value": 1,
     "currency": "Som",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203584"
+  "numista": "https://en.numista.com/203584",
+  "country_code": "uz"
 }

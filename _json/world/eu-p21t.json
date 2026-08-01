@@ -1,10 +1,6 @@
 {
   "id": "eu-p21t",
   "pick_number": "P-21t",
-  "country": {
-    "en": "European Union",
-    "es": "Unión Europea"
-  },
   "denomination": {
     "value": 10,
     "currency": "Euros",
@@ -40,5 +36,6 @@
       "serial_number": "TA2115668254",
       "condition": "F"
     }
-  ]
+  ],
+  "country_code": "eu"
 }

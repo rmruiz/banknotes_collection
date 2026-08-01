@@ -1,10 +1,6 @@
 {
   "id": "cl-p165i",
   "pick_number": "P-165i",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 20000,
     "currency": "Pesos",
@@ -41,5 +37,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205231"
+  "numista": "https://en.numista.com/205231",
+  "country_code": "cl"
 }

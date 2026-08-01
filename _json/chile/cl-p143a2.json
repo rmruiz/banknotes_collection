@@ -1,10 +1,6 @@
 {
   "id": "cl-p143a2",
   "pick_number": "P-143a.2",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 10,
     "currency": "Escudos",
@@ -40,5 +36,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/205219"
+  "numista": "https://en.numista.com/205219",
+  "country_code": "cl"
 }

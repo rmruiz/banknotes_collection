@@ -1,10 +1,6 @@
 {
   "id": "cw-p29i",
   "pick_number": "P-29i",
-  "country": {
-    "en": "Curaçao",
-    "es": "Curazao"
-  },
   "denomination": {
     "value": 25,
     "currency": "Florines",
@@ -36,5 +32,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/213278"
+  "numista": "https://en.numista.com/213278",
+  "country_code": "cw"
 }

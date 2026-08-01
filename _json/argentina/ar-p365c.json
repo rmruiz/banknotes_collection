@@ -1,10 +1,6 @@
 {
   "id": "ar-p365c",
   "pick_number": "P-365c",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 500,
     "currency": "Pesos",
@@ -36,5 +32,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/206624"
+  "numista": "https://en.numista.com/206624",
+  "country_code": "ar"
 }

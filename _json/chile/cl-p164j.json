@@ -1,10 +1,6 @@
 {
   "id": "cl-p164j",
   "pick_number": "P-164j",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Pesos",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205233"
+  "numista": "https://en.numista.com/205233",
+  "country_code": "cl"
 }

@@ -1,10 +1,6 @@
 {
   "id": "kg-p3b",
   "pick_number": "P-3b",
-  "country": {
-    "en": "Kyrgyzstan",
-    "es": "Kirguistán"
-  },
   "denomination": {
     "value": 50,
     "currency": "Tyiyn",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204478"
+  "numista": "https://en.numista.com/204478",
+  "country_code": "kg"
 }

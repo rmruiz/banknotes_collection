@@ -1,10 +1,6 @@
 {
   "id": "ar-p322c",
   "pick_number": "P-322c",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 10,
     "currency": "Austral",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/222428"
+  "numista": "https://en.numista.com/222428",
+  "country_code": "ar"
 }

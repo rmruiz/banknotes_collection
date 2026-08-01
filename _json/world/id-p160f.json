@@ -1,10 +1,6 @@
 {
   "id": "id-p160f",
   "pick_number": "P-160f",
-  "country": {
-    "en": "Indonesia",
-    "es": "Indonesia"
-  },
   "denomination": {
     "value": 100000,
     "currency": "Rupias",
@@ -39,5 +35,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/208220"
+  "numista": "https://en.numista.com/208220",
+  "country_code": "id"
 }

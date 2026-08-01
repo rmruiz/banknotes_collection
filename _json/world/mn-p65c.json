@@ -1,10 +1,6 @@
 {
   "id": "mn-p65c",
   "pick_number": "P-65c",
-  "country": {
-    "en": "Mongolia",
-    "es": "Mongolia"
-  },
   "denomination": {
     "value": 100,
     "currency": "Tugrik - Tögrög",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203114"
+  "numista": "https://en.numista.com/203114",
+  "country_code": "mn"
 }

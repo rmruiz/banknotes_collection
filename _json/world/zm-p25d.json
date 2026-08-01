@@ -1,10 +1,6 @@
 {
   "id": "zm-p25d",
   "pick_number": "P-25d",
-  "country": {
-    "en": "Zambia",
-    "es": "Zambia"
-  },
   "denomination": {
     "value": 5,
     "currency": "Kwacha",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201747"
+  "numista": "https://en.numista.com/201747",
+  "country_code": "zm"
 }

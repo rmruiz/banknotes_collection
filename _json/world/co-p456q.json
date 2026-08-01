@@ -1,10 +1,6 @@
 {
   "id": "co-p456q",
   "pick_number": "P-456q",
-  "country": {
-    "en": "Colombia",
-    "es": "Colombia"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/205282"
+  "numista": "https://en.numista.com/205282",
+  "country_code": "co"
 }

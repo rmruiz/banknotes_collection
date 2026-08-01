@@ -1,10 +1,6 @@
 {
   "id": "mm-p70b21r",
   "pick_number": "P-70b.2.1r",
-  "country": {
-    "en": "Myanmar",
-    "es": "Birmania"
-  },
   "denomination": {
     "value": 5,
     "currency": "Kyats",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207721"
+  "numista": "https://en.numista.com/207721",
+  "country_code": "mm"
 }

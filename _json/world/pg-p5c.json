@@ -1,10 +1,6 @@
 {
   "id": "pg-p5c",
   "pick_number": "P-5c",
-  "country": {
-    "en": "Papua New Guinea",
-    "es": "Papúa Nueva Guinea"
-  },
   "denomination": {
     "value": 2,
     "currency": "Kina",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/215637"
+  "numista": "https://en.numista.com/215637",
+  "country_code": "pg"
 }

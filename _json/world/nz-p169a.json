@@ -1,10 +1,6 @@
 {
   "id": "nz-p169a",
   "pick_number": "P-169a",
-  "country": {
-    "en": "New Zealand",
-    "es": "Nueva Zelanda"
-  },
   "denomination": {
     "value": 1,
     "currency": "Dolar",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/206303"
+  "numista": "https://en.numista.com/206303",
+  "country_code": "nz"
 }

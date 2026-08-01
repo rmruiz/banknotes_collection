@@ -1,10 +1,6 @@
 {
   "id": "cl-p129",
   "pick_number": "P-129",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Pesos",
@@ -43,5 +39,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/290376"
+  "numista": "https://en.numista.com/290376",
+  "country_code": "cl"
 }

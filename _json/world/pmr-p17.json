@@ -1,10 +1,6 @@
 {
   "id": "pmr-p17",
   "pick_number": "P-17",
-  "country": {
-    "en": "Transnistria",
-    "es": "Transnistria"
-  },
   "denomination": {
     "value": 5,
     "currency": "Rublos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203726"
+  "numista": "https://en.numista.com/203726",
+  "country_code": "pmr"
 }

@@ -1,10 +1,6 @@
 {
   "id": "cl-p130a1",
   "pick_number": "P-130a.1",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Pesos",
@@ -43,5 +39,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/290378"
+  "numista": "https://en.numista.com/290378",
+  "country_code": "cl"
 }

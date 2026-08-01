@@ -1,10 +1,6 @@
 {
   "id": "ru-p237a",
   "pick_number": "P-237a",
-  "country": {
-    "en": "Russia",
-    "es": "Rusia"
-  },
   "denomination": {
     "value": 1,
     "currency": "Rublos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206038"
+  "numista": "https://en.numista.com/206038",
+  "country_code": "ru"
 }

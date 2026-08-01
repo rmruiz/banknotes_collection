@@ -1,10 +1,6 @@
 {
   "id": "pe-p131b",
   "pick_number": "P-131b",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 50,
     "currency": "Intis",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205630"
+  "numista": "https://en.numista.com/205630",
+  "country_code": "pe"
 }

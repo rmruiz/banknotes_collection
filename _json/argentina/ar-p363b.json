@@ -1,10 +1,6 @@
 {
   "id": "ar-p363b",
   "pick_number": "P-363b",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 50,
     "currency": "Pesos",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206693"
+  "numista": "https://en.numista.com/206693",
+  "country_code": "ar"
 }

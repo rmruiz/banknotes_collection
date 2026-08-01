@@ -1,10 +1,6 @@
 {
   "id": "zm-p24c3",
   "pick_number": "P-24c.3",
-  "country": {
-    "en": "Zambia",
-    "es": "Zambia"
-  },
   "denomination": {
     "value": 2,
     "currency": "Kwacha",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203316"
+  "numista": "https://en.numista.com/203316",
+  "country_code": "zm"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ar-p256a1",
   "pick_number": "P-256a.1",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 50,
     "currency": "Centavos",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://es.numista.com/232864"
+  "numista": "https://es.numista.com/232864",
+  "country_code": "ar"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ar-p330e",
   "pick_number": "P-330e",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Australes",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203818"
+  "numista": "https://en.numista.com/203818",
+  "country_code": "ar"
 }

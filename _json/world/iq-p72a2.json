@@ -1,10 +1,6 @@
 {
   "id": "iq-p72a2",
   "pick_number": "P-72a.2",
-  "country": {
-    "en": "Iraq",
-    "es": "Irak"
-  },
   "denomination": {
     "value": 25,
     "currency": "Dinares",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204090"
+  "numista": "https://en.numista.com/204090",
+  "country_code": "iq"
 }

@@ -1,10 +1,6 @@
 {
   "id": "km-p15b",
   "pick_number": "P-15b",
-  "country": {
-    "en": "Comoros",
-    "es": "Comoras"
-  },
   "denomination": {
     "value": 500,
     "currency": "Francos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203430"
+  "numista": "https://en.numista.com/203430",
+  "country_code": "km"
 }

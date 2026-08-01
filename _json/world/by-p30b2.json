@@ -1,10 +1,6 @@
 {
   "id": "by-p30b2",
   "pick_number": "P-30b.2",
-  "country": {
-    "en": "Belarus",
-    "es": "Bielorrusia"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Rublos",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/209745"
+  "numista": "https://en.numista.com/209745",
+  "country_code": "by"
 }

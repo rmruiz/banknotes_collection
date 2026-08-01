@@ -1,10 +1,6 @@
 {
   "id": "hu-p188d",
   "pick_number": "P-188d",
-  "country": {
-    "en": "Hungary",
-    "es": "Hungría"
-  },
   "denomination": {
     "value": 500,
     "currency": "Florines",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/208459"
+  "numista": "https://en.numista.com/208459",
+  "country_code": "hu"
 }

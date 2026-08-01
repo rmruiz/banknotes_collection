@@ -1,10 +1,6 @@
 {
   "id": "mv-p18e",
   "pick_number": "P-18e",
-  "country": {
-    "en": "Maldives",
-    "es": "Maldivas"
-  },
   "denomination": {
     "value": 5,
     "currency": "Rupias",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203071"
+  "numista": "https://en.numista.com/203071",
+  "country_code": "mv"
 }

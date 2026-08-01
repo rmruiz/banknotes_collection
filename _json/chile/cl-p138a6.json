@@ -1,10 +1,6 @@
 {
   "id": "cl-p138a6",
   "pick_number": "P-138a.6",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 5,
     "currency": "Escudos",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202831"
+  "numista": "https://en.numista.com/202831",
+  "country_code": "cl"
 }

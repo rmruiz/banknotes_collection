@@ -1,10 +1,6 @@
 {
   "id": "la-p27br",
   "pick_number": "P-27br",
-  "country": {
-    "en": "Laos",
-    "es": "Laos"
-  },
   "denomination": {
     "value": 10,
     "currency": "Kip",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203143"
+  "numista": "https://en.numista.com/203143",
+  "country_code": "la"
 }

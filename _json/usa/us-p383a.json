@@ -1,10 +1,6 @@
 {
   "id": "us-p383a",
   "pick_number": "P-383a",
-  "country": {
-    "en": "United States",
-    "es": "Estados Unidos"
-  },
   "denomination": {
     "value": 5,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/201830"
+  "numista": "https://en.numista.com/201830",
+  "country_code": "us"
 }

@@ -1,10 +1,6 @@
 {
   "id": "hk-p325d",
   "pick_number": "P-325d",
-  "country": {
-    "en": "Hong Kong",
-    "es": "Hong Kong"
-  },
   "denomination": {
     "value": 1,
     "currency": "Centavo",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202116"
+  "numista": "https://en.numista.com/202116",
+  "country_code": "hk"
 }

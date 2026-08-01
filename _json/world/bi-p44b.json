@@ -1,10 +1,6 @@
 {
   "id": "bi-p44b",
   "pick_number": "P-44b",
-  "country": {
-    "en": "Burundi",
-    "es": "Burundi"
-  },
   "denomination": {
     "value": 100,
     "currency": "Francos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202888"
+  "numista": "https://en.numista.com/202888",
+  "country_code": "bi"
 }

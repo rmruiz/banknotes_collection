@@ -1,10 +1,6 @@
 {
   "id": "mg-p88b",
   "pick_number": "P-88b",
-  "country": {
-    "en": "Madagascar",
-    "es": "Madagascar"
-  },
   "denomination": {
     "value": 500,
     "currency": "Ariary",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203261"
+  "numista": "https://en.numista.com/203261",
+  "country_code": "mg"
 }

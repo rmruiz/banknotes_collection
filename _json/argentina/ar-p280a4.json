@@ -1,10 +1,6 @@
 {
   "id": "ar-p280a4",
   "pick_number": "P-280a.4",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://es.numista.com/220131"
+  "numista": "https://es.numista.com/220131",
+  "country_code": "ar"
 }

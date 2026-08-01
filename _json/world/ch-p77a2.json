@@ -1,10 +1,6 @@
 {
   "id": "ch-p77a2",
   "pick_number": "P-77a.2",
-  "country": {
-    "en": "Switzerland",
-    "es": "Suiza"
-  },
   "denomination": {
     "value": 50,
     "currency": "Francos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202858"
+  "numista": "https://en.numista.com/202858",
+  "country_code": "ch"
 }

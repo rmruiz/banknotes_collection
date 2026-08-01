@@ -1,10 +1,6 @@
 {
   "id": "do-p194f",
   "pick_number": "P-194f",
-  "country": {
-    "en": "Dominican Republic",
-    "es": "Rep. Dominicana"
-  },
   "denomination": {
     "value": 2000,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/324915"
+  "numista": "https://en.numista.com/324915",
+  "country_code": "do"
 }

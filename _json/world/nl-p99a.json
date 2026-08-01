@@ -1,10 +1,6 @@
 {
   "id": "nl-p99a",
   "pick_number": "P-99a",
-  "country": {
-    "en": "Netherlands",
-    "es": "Países Bajos"
-  },
   "denomination": {
     "value": 10,
     "currency": "Florines",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201730"
+  "numista": "https://en.numista.com/201730",
+  "country_code": "nl"
 }

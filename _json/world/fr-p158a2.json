@@ -1,10 +1,6 @@
 {
   "id": "fr-p158a2",
   "pick_number": "P-158a.2",
-  "country": {
-    "en": "France",
-    "es": "Francia"
-  },
   "denomination": {
     "value": 100,
     "currency": "Francos Franceses",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/204875"
+  "numista": "https://en.numista.com/204875",
+  "country_code": "fr"
 }

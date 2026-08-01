@@ -1,10 +1,6 @@
 {
   "id": "mr-p7a",
   "pick_number": "P-7a",
-  "country": {
-    "en": "Mauritania",
-    "es": "Mauritania"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Ouguiya",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/396162"
+  "numista": "https://en.numista.com/396162",
+  "country_code": "mr"
 }

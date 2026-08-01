@@ -1,10 +1,6 @@
 {
   "id": "cl-p94c4",
   "pick_number": "P-94c.4",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 50,
     "currency": "Pesos",
@@ -41,5 +37,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/289945"
+  "numista": "https://en.numista.com/289945",
+  "country_code": "cl"
 }

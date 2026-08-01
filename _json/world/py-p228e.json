@@ -1,10 +1,6 @@
 {
   "id": "py-p228e",
   "pick_number": "P-228e",
-  "country": {
-    "en": "Paraguay",
-    "es": "Paraguay"
-  },
   "denomination": {
     "value": 2000,
     "currency": "Guaraníes",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203903"
+  "numista": "https://en.numista.com/203903",
+  "country_code": "py"
 }

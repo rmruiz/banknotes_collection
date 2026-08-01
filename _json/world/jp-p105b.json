@@ -1,10 +1,6 @@
 {
   "id": "jp-p105b",
   "pick_number": "P-105b",
-  "country": {
-    "en": "Japan",
-    "es": "Japón"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Yenes",
@@ -38,5 +34,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/203002"
+  "numista": "https://en.numista.com/203002",
+  "country_code": "jp"
 }

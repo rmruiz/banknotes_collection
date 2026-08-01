@@ -1,10 +1,6 @@
 {
   "id": "by-p5a",
   "pick_number": "P-5a",
-  "country": {
-    "en": "Belarus",
-    "es": "Bielorrusia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Rublo",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204277"
+  "numista": "https://en.numista.com/204277",
+  "country_code": "by"
 }

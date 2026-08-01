@@ -1,10 +1,6 @@
 {
   "id": "mm-p68",
   "pick_number": "P-68",
-  "country": {
-    "en": "Myanmar",
-    "es": "Birmania"
-  },
   "denomination": {
     "value": 50,
     "currency": "Pyas",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204434"
+  "numista": "https://en.numista.com/204434",
+  "country_code": "mm"
 }

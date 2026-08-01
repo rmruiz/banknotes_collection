@@ -1,10 +1,6 @@
 {
   "id": "mr-p20a",
   "pick_number": "P-20a",
-  "country": {
-    "en": "Mauritania",
-    "es": "Mauritania"
-  },
   "denomination": {
     "value": 2000,
     "currency": "Ouguiya",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/210525"
+  "numista": "https://en.numista.com/210525",
+  "country_code": "mr"
 }

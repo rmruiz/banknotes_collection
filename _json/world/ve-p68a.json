@@ -1,10 +1,6 @@
 {
   "id": "ve-p68a",
   "pick_number": "P-68a",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 1,
     "currency": "Bolivar",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203199"
+  "numista": "https://en.numista.com/203199",
+  "country_code": "ve"
 }

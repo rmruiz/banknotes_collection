@@ -1,10 +1,6 @@
 {
   "id": "ve-p84b",
   "pick_number": "P-84b",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Bolívares",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/209937"
+  "numista": "https://en.numista.com/209937",
+  "country_code": "ve"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ke-p53a",
   "pick_number": "P-53a",
-  "country": {
-    "en": "Kenya",
-    "es": "Kenia"
-  },
   "denomination": {
     "value": 100,
     "currency": "Chelines",
@@ -40,5 +36,6 @@
       "condition": "AU"
     }
   ],
-  "numista": "https://en.numista.com/203936"
+  "numista": "https://en.numista.com/203936",
+  "country_code": "ke"
 }

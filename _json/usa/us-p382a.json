@@ -1,10 +1,6 @@
 {
   "id": "us-p382a",
   "pick_number": "P-382a",
-  "country": {
-    "en": "United States",
-    "es": "Estados Unidos"
-  },
   "denomination": {
     "value": 2,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/202377"
+  "numista": "https://en.numista.com/202377",
+  "country_code": "us"
 }

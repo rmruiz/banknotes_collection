@@ -1,10 +1,6 @@
 {
   "id": "la-p41a",
   "pick_number": "P-41a",
-  "country": {
-    "en": "Laos",
-    "es": "Laos"
-  },
   "denomination": {
     "value": 2000,
     "currency": "Kip",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204249"
+  "numista": "https://en.numista.com/204249",
+  "country_code": "la"
 }

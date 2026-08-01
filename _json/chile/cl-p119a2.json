@@ -1,10 +1,6 @@
 {
   "id": "cl-p119a2",
   "pick_number": "P-119a.2",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 5,
     "currency": "Pesos",
@@ -17,7 +13,11 @@
     "Maschke",
     "Mackenna"
   ],
-  "themes": [],
+  "themes": [
+    "personaje:bernardo_o_higgins",
+    "lugar:santiago",
+    "fauna:condor"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/50070-5_Pesos-1958-1959_ND_Issue-Chile",
     "group": ""
@@ -34,8 +34,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "443126",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "cl"
 }

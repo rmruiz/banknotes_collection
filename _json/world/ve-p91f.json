@@ -1,10 +1,6 @@
 {
   "id": "ve-p91f",
   "pick_number": "P-91f",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 20,
     "currency": "Bolívares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205348"
+  "numista": "https://en.numista.com/205348",
+  "country_code": "ve"
 }

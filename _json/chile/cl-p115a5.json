@@ -1,10 +1,6 @@
 {
   "id": "cl-p115a5",
   "pick_number": "P-115a.5",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 500,
     "currency": "Pesos",
@@ -42,5 +38,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/286887"
+  "numista": "https://en.numista.com/286887",
+  "country_code": "cl"
 }

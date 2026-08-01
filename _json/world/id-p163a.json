@@ -1,10 +1,6 @@
 {
   "id": "id-p163a",
   "pick_number": "P-163a",
-  "country": {
-    "en": "Indonesia",
-    "es": "Indonesia"
-  },
   "denomination": {
     "value": 2000,
     "currency": "Rupias",
@@ -38,5 +34,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/338503"
+  "numista": "https://en.numista.com/338503",
+  "country_code": "id"
 }

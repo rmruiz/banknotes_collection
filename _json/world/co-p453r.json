@@ -1,10 +1,6 @@
 {
   "id": "co-p453r",
   "pick_number": "P-453r",
-  "country": {
-    "en": "Colombia",
-    "es": "Colombia"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207878"
+  "numista": "https://en.numista.com/207878",
+  "country_code": "co"
 }

@@ -1,10 +1,6 @@
 {
   "id": "sd-p71c",
   "pick_number": "P-71c",
-  "country": {
-    "en": "Sudan",
-    "es": "Sudán"
-  },
   "denomination": {
     "value": 2,
     "currency": "Libras",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203013"
+  "numista": "https://en.numista.com/203013",
+  "country_code": "sd"
 }

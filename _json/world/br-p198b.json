@@ -1,10 +1,6 @@
 {
   "id": "br-p198b",
   "pick_number": "P-198b",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 100,
     "currency": "Cruzeiros",
@@ -36,5 +32,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/203536"
+  "numista": "https://en.numista.com/203536",
+  "country_code": "br"
 }

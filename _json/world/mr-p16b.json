@@ -1,10 +1,6 @@
 {
   "id": "mr-p16b",
   "pick_number": "P-16b",
-  "country": {
-    "en": "Mauritania",
-    "es": "Mauritania"
-  },
   "denomination": {
     "value": 100,
     "currency": "Ouguiya",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/209721"
+  "numista": "https://en.numista.com/209721",
+  "country_code": "mr"
 }

@@ -1,10 +1,6 @@
 {
   "id": "uz-p87a",
   "pick_number": "P-87a",
-  "country": {
-    "en": "Uzbekistan",
-    "es": "Uzbekistán"
-  },
   "denomination": {
     "value": 2000,
     "currency": "Soms",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/296698"
+  "numista": "https://en.numista.com/296698",
+  "country_code": "uz"
 }

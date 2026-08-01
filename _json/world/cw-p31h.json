@@ -1,10 +1,6 @@
 {
   "id": "cw-p31h",
   "pick_number": "P-31h",
-  "country": {
-    "en": "Curaçao",
-    "es": "Curazao"
-  },
   "denomination": {
     "value": 100,
     "currency": "Florines",
@@ -36,5 +32,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/213992"
+  "numista": "https://en.numista.com/213992",
+  "country_code": "cw"
 }

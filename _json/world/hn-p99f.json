@@ -1,10 +1,6 @@
 {
   "id": "hn-p99f",
   "pick_number": "P-99f",
-  "country": {
-    "en": "Honduras",
-    "es": "Honduras"
-  },
   "denomination": {
     "value": 10,
     "currency": "Lempiras",
@@ -41,5 +37,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204889"
+  "numista": "https://en.numista.com/204889",
+  "country_code": "hn"
 }

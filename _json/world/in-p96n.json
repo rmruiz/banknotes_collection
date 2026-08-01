@@ -1,10 +1,6 @@
 {
   "id": "in-p96n",
   "pick_number": "P-96n",
-  "country": {
-    "en": "India",
-    "es": "India"
-  },
   "denomination": {
     "value": 20,
     "currency": "Rupias",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204531"
+  "numista": "https://en.numista.com/204531",
+  "country_code": "in"
 }

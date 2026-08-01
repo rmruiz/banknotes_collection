@@ -1,10 +1,6 @@
 {
   "id": "pt-p174a6",
   "pick_number": "P-174a.6",
-  "country": {
-    "en": "Portugal",
-    "es": "Portugal"
-  },
   "denomination": {
     "value": 50,
     "currency": "Escudos",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/202803"
+  "numista": "https://en.numista.com/202803",
+  "country_code": "pt"
 }

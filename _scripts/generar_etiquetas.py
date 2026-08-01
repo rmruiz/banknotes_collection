@@ -109,14 +109,19 @@ FIELDS = [
 def load_records(filter_str=None, solo_verificados=False):
     recs = []
     for f in sorted(JSON_DIR.glob("*/*.json")):
+        if f.name == "countries.json":
+            continue
         d = json.loads(f.read_text(encoding="utf-8"))
-        if filter_str and filter_str.lower() not in d["country"]["es"].lower() and filter_str.lower() not in str(f.parent.name).lower():
+        c_code = d.get("country_code", "")
+        c_info = get_country_by_code(c_code) if c_code else get_country_by_name((d.get("country") or {}).get("es", ""))
+        pais = c_info["name"]["es"] if c_info else (d.get("country") or {}).get("es", "")
+
+        if filter_str and filter_str.lower() not in pais.lower() and filter_str.lower() not in str(f.parent.name).lower():
             continue
         if solo_verificados and not d.get("verificado"):
             continue
         
-        pais = d["country"]["es"]
-        flag = build_web.flag_file(pais)
+        flag = build_web.flag_file_for_note(d)
         
         recs.append({
             "id": d.get("id", ""),

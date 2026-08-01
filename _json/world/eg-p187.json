@@ -1,10 +1,6 @@
 {
   "id": "eg-p187",
   "pick_number": "P-187",
-  "country": {
-    "en": "Egypt",
-    "es": "Egipto"
-  },
   "denomination": {
     "value": 10,
     "currency": "Piastres",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/209299"
+  "numista": "https://en.numista.com/209299",
+  "country_code": "eg"
 }

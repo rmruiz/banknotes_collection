@@ -1,10 +1,6 @@
 {
   "id": "ar-p272c5",
   "pick_number": "P-272c.5",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://es.numista.com/203865"
+  "numista": "https://es.numista.com/203865",
+  "country_code": "ar"
 }

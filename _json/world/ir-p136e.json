@@ -1,10 +1,6 @@
 {
   "id": "ir-p136e",
   "pick_number": "P-136e",
-  "country": {
-    "en": "Iran",
-    "es": "Irán"
-  },
   "denomination": {
     "value": 200,
     "currency": "Riales",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206523"
+  "numista": "https://en.numista.com/206523",
+  "country_code": "ir"
 }

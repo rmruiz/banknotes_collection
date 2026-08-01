@@ -1,10 +1,6 @@
 {
   "id": "lt-p39",
   "pick_number": "P-39",
-  "country": {
-    "en": "Lithuania",
-    "es": "Lituania"
-  },
   "denomination": {
     "value": 1,
     "currency": "Talona",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206383"
+  "numista": "https://en.numista.com/206383",
+  "country_code": "lt"
 }

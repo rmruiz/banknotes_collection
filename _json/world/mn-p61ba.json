@@ -1,10 +1,6 @@
 {
   "id": "mn-p61ba",
   "pick_number": "P-61Ba",
-  "country": {
-    "en": "Mongolia",
-    "es": "Mongolia"
-  },
   "denomination": {
     "value": 5,
     "currency": "Tugrik - Tögrög",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203117"
+  "numista": "https://en.numista.com/203117",
+  "country_code": "mn"
 }

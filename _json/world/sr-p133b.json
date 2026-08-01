@@ -1,10 +1,6 @@
 {
   "id": "sr-p133b",
   "pick_number": "P-133b",
-  "country": {
-    "en": "Suriname",
-    "es": "Surinam"
-  },
   "denomination": {
     "value": 100,
     "currency": "Florines",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202814"
+  "numista": "https://en.numista.com/202814",
+  "country_code": "sr"
 }

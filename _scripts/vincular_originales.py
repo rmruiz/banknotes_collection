@@ -18,7 +18,9 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts (util)
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "_json"))  # _json (country_map)
 from util import norm_flag as norm   # MAYÚS sin acentos/símbolos, ignora paréntesis
+from country_map import get_country_by_code, get_country_by_name
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
@@ -97,7 +99,10 @@ def main():
     # index de JSONs por (país, año)
     bucket = {}
     for f, d in jsons:
-        key = (norm(d["country"]["es"]), d.get("year"))
+        c_code = d.get("country_code", "")
+        c_info = get_country_by_code(c_code) if c_code else get_country_by_name((d.get("country") or {}).get("es", ""))
+        pais_es = c_info["name"]["es"] if c_info else (d.get("country") or {}).get("es", "")
+        key = (norm(pais_es), d.get("year"))
         bucket.setdefault(key, []).append((f, d))
 
     # carpetas de originales con A y B

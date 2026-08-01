@@ -1,10 +1,6 @@
 {
   "id": "eu-p23r",
   "pick_number": "P-23r",
-  "country": {
-    "en": "European Union",
-    "es": "Unión Europea"
-  },
   "denomination": {
     "value": 50,
     "currency": "Euros",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204874"
+  "numista": "https://en.numista.com/204874",
+  "country_code": "eu"
 }

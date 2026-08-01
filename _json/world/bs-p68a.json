@@ -1,10 +1,6 @@
 {
   "id": "bs-p68a",
   "pick_number": "P-68a",
-  "country": {
-    "en": "Bahamas",
-    "es": "Bahamas"
-  },
   "denomination": {
     "value": 0.5,
     "currency": "Dólar",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204942"
+  "numista": "https://en.numista.com/204942",
+  "country_code": "bs"
 }

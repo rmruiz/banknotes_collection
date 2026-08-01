@@ -1,10 +1,6 @@
 {
   "id": "jm-p101",
   "pick_number": "P-101",
-  "country": {
-    "en": "Jamaica",
-    "es": "Jamaica"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Dólar",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/329461"
+  "numista": "https://en.numista.com/329461",
+  "country_code": "jm"
 }

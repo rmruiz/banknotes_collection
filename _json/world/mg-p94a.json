@@ -1,10 +1,6 @@
 {
   "id": "mg-p94a",
   "pick_number": "P-94a",
-  "country": {
-    "en": "Madagascar",
-    "es": "Madagascar"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Ariary",
@@ -37,5 +33,6 @@
       "condition": "AU"
     }
   ],
-  "numista": "https://en.numista.com/203321"
+  "numista": "https://en.numista.com/203321",
+  "country_code": "mg"
 }

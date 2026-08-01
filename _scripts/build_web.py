@@ -24,7 +24,9 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts (util)
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "_json"))  # _json (country_map)
 from util import unaccent, norm_flag   # noqa: E402
+from country_map import COUNTRIES, get_country_by_code, get_country_by_name  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
@@ -83,7 +85,6 @@ def file_v(path):
 FLAG_INDEX = {norm_flag(fp.stem.replace("FLAG_", "", 1)): fp.name
               for fp in FLAGS.glob("FLAG_*.jpg")}
 
-# país (normalizado) cuyo archivo de bandera usa otro nombre
 FLAG_ALIASES = {
     "FIYI": "FIJI",
     "MOLDAVIA": "MOLDOVIA",
@@ -94,7 +95,15 @@ FLAG_ALIASES = {
 }
 
 
-def flag_file(country_es):
+def flag_file_for_note(d):
+    code = d.get("country_code")
+    c_info = get_country_by_code(code) if code else None
+    if not c_info:
+        country_es = (d.get("country") or {}).get("es", "")
+        c_info = get_country_by_name(country_es)
+    if c_info and c_info.get("flag"):
+        return c_info["flag"]
+    country_es = (d.get("country") or {}).get("es", "")
     key = norm_flag(country_es)
     key = FLAG_ALIASES.get(key, key)
     return FLAG_INDEX.get(key, "")
@@ -136,12 +145,18 @@ def make_record(d):
     img_b, thumb_b = resolve(f"_originals/{_id}/{_id}_B.jpg", "B")
     img_f, thumb_f = resolve(f"_FULL/{_id}.jpg", "F")
 
+    c_code = d.get("country_code", "")
+    c_info = get_country_by_code(c_code) if c_code else get_country_by_name((d.get("country") or {}).get("es", ""))
+    pais_es = c_info["name"]["es"] if c_info else (d.get("country") or {}).get("es", "")
+    pais_en = c_info["name"]["en"] if c_info else (d.get("country") or {}).get("en", "")
+
     firmas = " - ".join(d.get("signatures") or [])
     rec = {
         "id": d["id"],
         "pick": d.get("pick_number", ""),
-        "pais": d["country"]["es"],
-        "pais_en": d["country"].get("en", ""),
+        "country_code": c_code,
+        "pais": pais_es,
+        "pais_en": pais_en,
         "valor": dn.get("value"),
         "moneda": dn.get("currency", ""),
         "denominacion": denominacion_full(dn),
@@ -164,12 +179,12 @@ def make_record(d):
         "remarcado": bool(d.get("overprint")),
         "verificado": bool(d.get("verificado")),
         "flag": (lambda fn: f"../_flags/{fn}?v={file_v(FLAGS / fn)}" if fn else "")(
-            flag_file(d["country"]["es"])),
+            flag_file_for_note(d)),
         "thumb_a": thumb_a, "thumb_b": thumb_b, "thumb_f": thumb_f,
         "img_a": img_a, "img_b": img_b, "img_full": img_f,
     }
     rec["search"] = build_search(
-        d["id"], rec["pick"], rec["pais"], d["country"].get("en", ""),
+        d["id"], rec["pick"], rec["pais"], rec["pais_en"],
         rec["denominacion"], rec["moneda"], rec["valor"], rec["anio"],
         firmas, rec["temas"], rec["obs"], rec["grupo"], dn.get("subtype", ""),
         " ".join(dn.get("alternatives") or []),

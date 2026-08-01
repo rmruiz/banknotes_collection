@@ -1,10 +1,6 @@
 {
   "id": "us-p530ab",
   "pick_number": "P-530ab",
-  "country": {
-    "en": "United States",
-    "es": "Estados Unidos"
-  },
   "denomination": {
     "value": 2,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201812"
+  "numista": "https://en.numista.com/201812",
+  "country_code": "us"
 }

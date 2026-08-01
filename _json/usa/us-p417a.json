@@ -1,10 +1,6 @@
 {
   "id": "us-p417a",
   "pick_number": "P-417a",
-  "country": {
-    "en": "United States",
-    "es": "Estados Unidos"
-  },
   "denomination": {
     "value": 5,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/202427"
+  "numista": "https://en.numista.com/202427",
+  "country_code": "us"
 }

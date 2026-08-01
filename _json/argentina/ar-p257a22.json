@@ -1,10 +1,6 @@
 {
   "id": "ar-p257a22",
   "pick_number": "P-257a.2.2",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 1,
     "currency": "Peso",
@@ -36,5 +32,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://es.numista.com/203152"
+  "numista": "https://es.numista.com/203152",
+  "country_code": "ar"
 }

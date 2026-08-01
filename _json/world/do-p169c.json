@@ -1,10 +1,6 @@
 {
   "id": "do-p169c",
   "pick_number": "P-169c",
-  "country": {
-    "en": "Dominican Republic",
-    "es": "Rep. Dominicana"
-  },
   "denomination": {
     "value": 20,
     "currency": "Pesos Oro",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/204420"
+  "numista": "https://en.numista.com/204420",
+  "country_code": "do"
 }

@@ -1,10 +1,6 @@
 {
   "id": "pl-p149a2",
   "pick_number": "P-149a.2",
-  "country": {
-    "en": "Poland",
-    "es": "Polonia"
-  },
   "denomination": {
     "value": 20,
     "currency": "Zlotys",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203922"
+  "numista": "https://en.numista.com/203922",
+  "country_code": "pl"
 }

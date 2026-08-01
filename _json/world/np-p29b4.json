@@ -1,10 +1,6 @@
 {
   "id": "np-p29b4",
   "pick_number": "P-29b.4",
-  "country": {
-    "en": "Nepal",
-    "es": "Nepal"
-  },
   "denomination": {
     "value": 2,
     "currency": "Rupias",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204590"
+  "numista": "https://en.numista.com/204590",
+  "country_code": "np"
 }

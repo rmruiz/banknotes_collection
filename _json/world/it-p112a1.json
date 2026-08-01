@@ -1,10 +1,6 @@
 {
   "id": "it-p112a1",
   "pick_number": "P-112a.1",
-  "country": {
-    "en": "Italy",
-    "es": "Italia"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Liras",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/202730"
+  "numista": "https://en.numista.com/202730",
+  "country_code": "it"
 }

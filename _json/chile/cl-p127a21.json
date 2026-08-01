@@ -1,10 +1,6 @@
 {
   "id": "cl-p127a21",
   "pick_number": "P-127a.2.1",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -42,5 +38,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/204425"
+  "numista": "https://en.numista.com/204425",
+  "country_code": "cl"
 }

@@ -1,10 +1,6 @@
 {
   "id": "bs-p78a",
   "pick_number": "P-78a",
-  "country": {
-    "en": "Bahamas",
-    "es": "Bahamas"
-  },
   "denomination": {
     "value": 3,
     "currency": "Dólares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/215575"
+  "numista": "https://en.numista.com/215575",
+  "country_code": "bs"
 }

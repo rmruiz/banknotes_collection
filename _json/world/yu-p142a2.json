@@ -1,10 +1,6 @@
 {
   "id": "yu-p142a2",
   "pick_number": "P-142a.2",
-  "country": {
-    "en": "Yugoslavia",
-    "es": "Yugoslavia"
-  },
   "denomination": {
     "value": 50000,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205261"
+  "numista": "https://en.numista.com/205261",
+  "country_code": "yu"
 }

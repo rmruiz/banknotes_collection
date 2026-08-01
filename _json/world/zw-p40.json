@@ -1,10 +1,6 @@
 {
   "id": "zw-p40",
   "pick_number": "P-40",
-  "country": {
-    "en": "Zimbabwe",
-    "es": "Zimbabue"
-  },
   "denomination": {
     "value": 20,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207484"
+  "numista": "https://en.numista.com/207484",
+  "country_code": "zw"
 }

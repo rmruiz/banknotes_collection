@@ -1,10 +1,6 @@
 {
   "id": "by-p8a2",
   "pick_number": "P-8a.2",
-  "country": {
-    "en": "Belarus",
-    "es": "Bielorrusia"
-  },
   "denomination": {
     "value": 100,
     "currency": "Rublo",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203049"
+  "numista": "https://en.numista.com/203049",
+  "country_code": "by"
 }

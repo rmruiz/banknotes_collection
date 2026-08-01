@@ -1,10 +1,6 @@
 {
   "id": "cl-p116a4",
   "pick_number": "P-116a.4",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Pesos",
@@ -42,5 +38,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/228871"
+  "numista": "https://en.numista.com/228871",
+  "country_code": "cl"
 }

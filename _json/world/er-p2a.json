@@ -1,10 +1,6 @@
 {
   "id": "er-p2a",
   "pick_number": "P-2a",
-  "country": {
-    "en": "Eritrea",
-    "es": "Eritrea"
-  },
   "denomination": {
     "value": 5,
     "currency": "Nakfa",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/209637"
+  "numista": "https://en.numista.com/209637",
+  "country_code": "er"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ar-p308b",
   "pick_number": "P-308b",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 100000,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "AU"
     }
   ],
-  "numista": "https://en.numista.com/214369"
+  "numista": "https://en.numista.com/214369",
+  "country_code": "ar"
 }

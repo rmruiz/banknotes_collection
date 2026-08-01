@@ -1,10 +1,6 @@
 {
   "id": "ws-p31e",
   "pick_number": "P-31e",
-  "country": {
-    "en": "Samoa",
-    "es": "Samoa"
-  },
   "denomination": {
     "value": 2,
     "currency": "Talas",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205199"
+  "numista": "https://en.numista.com/205199",
+  "country_code": "ws"
 }

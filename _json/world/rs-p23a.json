@@ -1,10 +1,6 @@
 {
   "id": "rs-p23a",
   "pick_number": "P-23a",
-  "country": {
-    "en": "Serbia",
-    "es": "Serbia"
-  },
   "denomination": {
     "value": 100,
     "currency": "Dinares",
@@ -38,5 +34,6 @@
       "condition": "VG"
     }
   ],
-  "numista": "https://en.numista.com/205117"
+  "numista": "https://en.numista.com/205117",
+  "country_code": "rs"
 }

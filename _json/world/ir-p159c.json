@@ -1,10 +1,6 @@
 {
   "id": "ir-p159c",
   "pick_number": "P-159c",
-  "country": {
-    "en": "Iran",
-    "es": "Irán"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Riales",
@@ -38,5 +34,6 @@
       "condition": "AU"
     }
   ],
-  "numista": "https://en.numista.com/210255"
+  "numista": "https://en.numista.com/210255",
+  "country_code": "ir"
 }

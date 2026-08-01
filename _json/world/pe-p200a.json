@@ -1,10 +1,6 @@
 {
   "id": "pe-p200a",
   "pick_number": "P-200a",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 200,
     "currency": "Soles",
@@ -37,5 +33,6 @@
       "condition": "AU"
     }
   ],
-  "numista": "https://en.numista.com/393807"
+  "numista": "https://en.numista.com/393807",
+  "country_code": "pe"
 }

@@ -1,10 +1,6 @@
 {
   "id": "cl-p120a2",
   "pick_number": "P-120a.2",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 10,
     "currency": "Pesos",
@@ -41,5 +37,6 @@
       "condition": "VG"
     }
   ],
-  "numista": "https://en.numista.com/227288"
+  "numista": "https://en.numista.com/227288",
+  "country_code": "cl"
 }

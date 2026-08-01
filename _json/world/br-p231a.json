@@ -1,10 +1,6 @@
 {
   "id": "br-p231a",
   "pick_number": "P-231a",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Cruzeiros",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/206098"
+  "numista": "https://en.numista.com/206098",
+  "country_code": "br"
 }

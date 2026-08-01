@@ -1,10 +1,6 @@
 {
   "id": "dj-p46a2",
   "pick_number": "P-46a.2",
-  "country": {
-    "en": "Djibouti",
-    "es": "Yibuti"
-  },
   "denomination": {
     "value": 40,
     "currency": "Francos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203433"
+  "numista": "https://en.numista.com/203433",
+  "country_code": "dj"
 }

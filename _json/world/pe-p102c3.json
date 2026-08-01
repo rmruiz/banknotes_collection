@@ -1,10 +1,6 @@
 {
   "id": "pe-p102c3",
   "pick_number": "P-102c.3",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 100,
     "currency": "Soles de Oro",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205624"
+  "numista": "https://en.numista.com/205624",
+  "country_code": "pe"
 }

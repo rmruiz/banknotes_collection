@@ -1,10 +1,6 @@
 {
   "id": "pt-p178b1",
   "pick_number": "P-178b.1",
-  "country": {
-    "en": "Portugal",
-    "es": "Portugal"
-  },
   "denomination": {
     "value": 100,
     "currency": "Escudos",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/202847"
+  "numista": "https://en.numista.com/202847",
+  "country_code": "pt"
 }

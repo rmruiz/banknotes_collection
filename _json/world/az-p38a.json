@@ -1,10 +1,6 @@
 {
   "id": "az-p38a",
   "pick_number": "P-38a",
-  "country": {
-    "en": "Azerbaijan",
-    "es": "Azerbaiyán"
-  },
   "denomination": {
     "value": 1,
     "currency": "Manat",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/250603"
+  "numista": "https://en.numista.com/250603",
+  "country_code": "az"
 }

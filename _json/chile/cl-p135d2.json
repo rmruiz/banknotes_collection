@@ -1,10 +1,6 @@
 {
   "id": "cl-p135d2",
   "pick_number": "P-135d.2",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 1,
     "currency": "Escudo",
@@ -17,7 +13,14 @@
     "Mackenna",
     "Ibańez"
   ],
-  "themes": [],
+  "themes": [
+    "personaje:arturo_prat",
+    "personaje:pedro_de_valdivia",
+    "arte:fundacion_de_santiago",
+    "evento:fundacion_de_santiago",
+    "simbolo:escudo_chileno",
+    "lugar:santiago"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/66134-1_Escudo-1962-1975_ND_Issue-Chile",
     "group": ""
@@ -34,8 +37,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "366777",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "cl"
 }

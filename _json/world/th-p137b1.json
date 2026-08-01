@@ -1,10 +1,6 @@
 {
   "id": "th-p137b1",
   "pick_number": "P-137b.1",
-  "country": {
-    "en": "Thailand",
-    "es": "Tailandia"
-  },
   "denomination": {
     "value": 100,
     "currency": "Baht",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/204729"
+  "numista": "https://en.numista.com/204729",
+  "country_code": "th"
 }

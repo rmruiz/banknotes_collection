@@ -1,10 +1,6 @@
 {
   "id": "mx-p135f1",
   "pick_number": "P-135f.1",
-  "country": {
-    "en": "Mexico",
-    "es": "México"
-  },
   "denomination": {
     "value": 200,
     "currency": "Pesos",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202429"
+  "numista": "https://en.numista.com/202429",
+  "country_code": "mx"
 }

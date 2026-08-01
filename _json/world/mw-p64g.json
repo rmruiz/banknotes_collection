@@ -1,10 +1,6 @@
 {
   "id": "mw-p64g",
   "pick_number": "P-64g",
-  "country": {
-    "en": "Malawi",
-    "es": "Malaui"
-  },
   "denomination": {
     "value": 50,
     "currency": "Kwacha",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203472"
+  "numista": "https://en.numista.com/203472",
+  "country_code": "mw"
 }

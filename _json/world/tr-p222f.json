@@ -1,10 +1,6 @@
 {
   "id": "tr-p222f",
   "pick_number": "P-222f",
-  "country": {
-    "en": "Turkey",
-    "es": "Turquía"
-  },
   "denomination": {
     "value": 5,
     "currency": "Liras",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206382"
+  "numista": "https://en.numista.com/206382",
+  "country_code": "tr"
 }

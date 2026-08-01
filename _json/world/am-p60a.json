@@ -1,10 +1,6 @@
 {
   "id": "am-p60a",
   "pick_number": "P-60a",
-  "country": {
-    "en": "Armenia",
-    "es": "Armenia"
-  },
   "denomination": {
     "value": 500,
     "currency": "Dram",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203084"
+  "numista": "https://en.numista.com/203084",
+  "country_code": "am"
 }

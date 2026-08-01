@@ -1,10 +1,6 @@
 {
   "id": "bt-p27a",
   "pick_number": "P-27a",
-  "country": {
-    "en": "Bhutan",
-    "es": "Bután"
-  },
   "denomination": {
     "value": 1,
     "currency": "Ngultrum",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204513"
+  "numista": "https://en.numista.com/204513",
+  "country_code": "bt"
 }

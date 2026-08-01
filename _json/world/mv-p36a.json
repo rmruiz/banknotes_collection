@@ -1,10 +1,6 @@
 {
   "id": "mv-p36a",
   "pick_number": "P-36a",
-  "country": {
-    "en": "Maldives",
-    "es": "Maldivas"
-  },
   "denomination": {
     "value": 100,
     "currency": "Rufiyaa",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202612"
+  "numista": "https://en.numista.com/202612",
+  "country_code": "mv"
 }

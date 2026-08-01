@@ -1,10 +1,6 @@
 {
   "id": "lr-p31a",
   "pick_number": "P-31a",
-  "country": {
-    "en": "Liberia",
-    "es": "Liberia"
-  },
   "denomination": {
     "value": 5,
     "currency": "Dólares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206661"
+  "numista": "https://en.numista.com/206661",
+  "country_code": "lr"
 }

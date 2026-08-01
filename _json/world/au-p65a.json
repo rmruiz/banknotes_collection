@@ -1,10 +1,6 @@
 {
   "id": "au-p65a",
   "pick_number": "P-65a",
-  "country": {
-    "en": "Australia",
-    "es": "Australia"
-  },
   "denomination": {
     "value": 50,
     "currency": "Dólares Australianos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202870"
+  "numista": "https://en.numista.com/202870",
+  "country_code": "au"
 }

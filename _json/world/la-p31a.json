@@ -1,10 +1,6 @@
 {
   "id": "la-p31a",
   "pick_number": "P-31a",
-  "country": {
-    "en": "Laos",
-    "es": "Laos"
-  },
   "denomination": {
     "value": 500,
     "currency": "Kip",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206823"
+  "numista": "https://en.numista.com/206823",
+  "country_code": "la"
 }

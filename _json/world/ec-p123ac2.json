@@ -1,10 +1,6 @@
 {
   "id": "ec-p123ac2",
   "pick_number": "P-123Ac.2",
-  "country": {
-    "en": "Ecuador",
-    "es": "Ecuador"
-  },
   "denomination": {
     "value": 100,
     "currency": "Sucres",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/209287"
+  "numista": "https://en.numista.com/209287",
+  "country_code": "ec"
 }

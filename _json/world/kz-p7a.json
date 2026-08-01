@@ -1,10 +1,6 @@
 {
   "id": "kz-p7a",
   "pick_number": "P-7a",
-  "country": {
-    "en": "Kazakhstan",
-    "es": "Kazajistán"
-  },
   "denomination": {
     "value": 1,
     "currency": "Tenge",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204921"
+  "numista": "https://en.numista.com/204921",
+  "country_code": "kz"
 }

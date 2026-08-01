@@ -1,10 +1,6 @@
 {
   "id": "do-p126c",
   "pick_number": "P-126c",
-  "country": {
-    "en": "Dominican Republic",
-    "es": "Rep. Dominicana"
-  },
   "denomination": {
     "value": 1,
     "currency": "Peso Oro",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207927"
+  "numista": "https://en.numista.com/207927",
+  "country_code": "do"
 }

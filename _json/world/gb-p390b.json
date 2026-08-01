@@ -1,10 +1,6 @@
 {
   "id": "gb-p390b",
   "pick_number": "P-390b",
-  "country": {
-    "en": "Great Britain",
-    "es": "Gran Bretaña"
-  },
   "denomination": {
     "value": 20,
     "currency": "Libras Esterlinas",
@@ -38,5 +34,6 @@
       "condition": "AU"
     }
   ],
-  "numista": "https://en.numista.com/203779"
+  "numista": "https://en.numista.com/203779",
+  "country_code": "gb"
 }

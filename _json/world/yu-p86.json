@@ -1,10 +1,6 @@
 {
   "id": "yu-p86",
   "pick_number": "P-86",
-  "country": {
-    "en": "Yugoslavia",
-    "es": "Yugoslavia"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/205920"
+  "numista": "https://en.numista.com/205920",
+  "country_code": "yu"
 }

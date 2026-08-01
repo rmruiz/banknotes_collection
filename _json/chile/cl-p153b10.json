@@ -1,10 +1,6 @@
 {
   "id": "cl-p153b10",
   "pick_number": "P-153b.10",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 500,
     "currency": "Pesos",
@@ -40,5 +36,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/205230"
+  "numista": "https://en.numista.com/205230",
+  "country_code": "cl"
 }

@@ -1,10 +1,6 @@
 {
   "id": "dk-p48h3",
   "pick_number": "P-48h.3",
-  "country": {
-    "en": "Denmark",
-    "es": "Dinamarca"
-  },
   "denomination": {
     "value": 10,
     "currency": "Coronas",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207309"
+  "numista": "https://en.numista.com/207309",
+  "country_code": "dk"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ir-p137ad",
   "pick_number": "P-137Ad",
-  "country": {
-    "en": "Iran",
-    "es": "Irán"
-  },
   "denomination": {
     "value": 500,
     "currency": "Riales",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/224232"
+  "numista": "https://en.numista.com/224232",
+  "country_code": "ir"
 }

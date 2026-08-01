@@ -1,10 +1,6 @@
 {
   "id": "ht-p272h",
   "pick_number": "P-272h",
-  "country": {
-    "en": "Haiti",
-    "es": "Haití"
-  },
   "denomination": {
     "value": 10,
     "currency": "Gurdes",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203899"
+  "numista": "https://en.numista.com/203899",
+  "country_code": "ht"
 }

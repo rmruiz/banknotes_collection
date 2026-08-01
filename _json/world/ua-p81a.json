@@ -1,10 +1,6 @@
 {
   "id": "ua-p81a",
   "pick_number": "P-81a",
-  "country": {
-    "en": "Ukraine",
-    "es": "Ucrania"
-  },
   "denomination": {
     "value": 1,
     "currency": "Karbóvanets",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203606"
+  "numista": "https://en.numista.com/203606",
+  "country_code": "ua"
 }

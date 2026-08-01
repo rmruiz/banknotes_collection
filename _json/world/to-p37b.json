@@ -1,10 +1,6 @@
 {
   "id": "to-p37b",
   "pick_number": "P-37b",
-  "country": {
-    "en": "Tonga",
-    "es": "Tonga"
-  },
   "denomination": {
     "value": 1,
     "currency": "Pa'anga",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206313"
+  "numista": "https://en.numista.com/206313",
+  "country_code": "to"
 }

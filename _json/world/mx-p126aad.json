@@ -1,10 +1,6 @@
 {
   "id": "mx-p126aad",
   "pick_number": "P-126aad",
-  "country": {
-    "en": "Mexico",
-    "es": "México"
-  },
   "denomination": {
     "value": 500,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/207520"
+  "numista": "https://en.numista.com/207520",
+  "country_code": "mx"
 }

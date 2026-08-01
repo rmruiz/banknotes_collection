@@ -1,10 +1,6 @@
 {
   "id": "th-p136b3",
   "pick_number": "P-136b.3",
-  "country": {
-    "en": "Thailand",
-    "es": "Tailandia"
-  },
   "denomination": {
     "value": 50,
     "currency": "Baht",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/204759"
+  "numista": "https://en.numista.com/204759",
+  "country_code": "th"
 }

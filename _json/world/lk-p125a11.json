@@ -1,10 +1,6 @@
 {
   "id": "lk-p125a11",
   "pick_number": "P-125a.1.1",
-  "country": {
-    "en": "Sri Lanka",
-    "es": "Sri Lanka"
-  },
   "denomination": {
     "value": 100,
     "currency": "Rupias",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205392"
+  "numista": "https://en.numista.com/205392",
+  "country_code": "lk"
 }

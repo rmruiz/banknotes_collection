@@ -1,10 +1,6 @@
 {
   "id": "sy-p105f",
   "pick_number": "P-105f",
-  "country": {
-    "en": "Syria",
-    "es": "Siria"
-  },
   "denomination": {
     "value": 500,
     "currency": "Libras",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/212854"
+  "numista": "https://en.numista.com/212854",
+  "country_code": "sy"
 }

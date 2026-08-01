@@ -1,10 +1,6 @@
 {
   "id": "ng-p30s2",
   "pick_number": "P-30s.2",
-  "country": {
-    "en": "Nigeria",
-    "es": "Nigeria"
-  },
   "denomination": {
     "value": 500,
     "currency": "Naira",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203765"
+  "numista": "https://en.numista.com/203765",
+  "country_code": "ng"
 }

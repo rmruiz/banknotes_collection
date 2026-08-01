@@ -1,10 +1,6 @@
 {
   "id": "gg-p56d",
   "pick_number": "P-56d",
-  "country": {
-    "en": "Guernsey",
-    "es": "Guernsey"
-  },
   "denomination": {
     "value": 5,
     "currency": "Libras",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/211066"
+  "numista": "https://en.numista.com/211066",
+  "country_code": "gg"
 }

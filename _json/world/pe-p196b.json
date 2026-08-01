@@ -1,10 +1,6 @@
 {
   "id": "pe-p196b",
   "pick_number": "P-196b",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 10,
     "currency": "Soles",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/300696"
+  "numista": "https://en.numista.com/300696",
+  "country_code": "pe"
 }

@@ -1,10 +1,6 @@
 {
   "id": "za-p129b",
   "pick_number": "P-129b",
-  "country": {
-    "en": "South Africa",
-    "es": "Sudáfrica"
-  },
   "denomination": {
     "value": 20,
     "currency": "Rands",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203929"
+  "numista": "https://en.numista.com/203929",
+  "country_code": "za"
 }

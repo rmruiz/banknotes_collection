@@ -1,10 +1,6 @@
 {
   "id": "vn-p106a2",
   "pick_number": "P-106a.2",
-  "country": {
-    "en": "Vietnam",
-    "es": "Vietnam"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Dongs",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202330"
+  "numista": "https://en.numista.com/202330",
+  "country_code": "vn"
 }

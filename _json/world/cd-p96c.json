@@ -1,10 +1,6 @@
 {
   "id": "cd-p96c",
   "pick_number": "P-96c",
-  "country": {
-    "en": "Democratic Republic of the Congo",
-    "es": "El Congo"
-  },
   "denomination": {
     "value": 500,
     "currency": "Francos",
@@ -41,5 +37,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/212968"
+  "numista": "https://en.numista.com/212968",
+  "country_code": "cd"
 }

@@ -1,10 +1,6 @@
 {
   "id": "tj-p11a2",
   "pick_number": "P-11a.2",
-  "country": {
-    "en": "Tajikistan",
-    "es": "Tayikistán"
-  },
   "denomination": {
     "value": 5,
     "currency": "Dirams",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203053"
+  "numista": "https://en.numista.com/203053",
+  "country_code": "tj"
 }

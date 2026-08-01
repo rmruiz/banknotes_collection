@@ -1,10 +1,6 @@
 {
   "id": "us-p416c",
   "pick_number": "P-416c",
-  "country": {
-    "en": "United States",
-    "es": "Estados Unidos"
-  },
   "denomination": {
     "value": 1,
     "currency": "Dolar",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/201793"
+  "numista": "https://en.numista.com/201793",
+  "country_code": "us"
 }

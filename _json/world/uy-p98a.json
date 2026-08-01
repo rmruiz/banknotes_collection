@@ -1,10 +1,6 @@
 {
   "id": "uy-p98a",
   "pick_number": "P-98a",
-  "country": {
-    "en": "Uruguay",
-    "es": "Uruguay"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207690"
+  "numista": "https://en.numista.com/207690",
+  "country_code": "uy"
 }

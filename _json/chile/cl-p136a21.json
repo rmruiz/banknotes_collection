@@ -1,10 +1,6 @@
 {
   "id": "cl-p136a21",
   "pick_number": "P-136a.2.1",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 1,
     "currency": "Escudo",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202818"
+  "numista": "https://en.numista.com/202818",
+  "country_code": "cl"
 }

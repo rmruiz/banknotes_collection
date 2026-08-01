@@ -1,10 +1,6 @@
 {
   "id": "in-p111f",
   "pick_number": "P-111f",
-  "country": {
-    "en": "India",
-    "es": "India"
-  },
   "denomination": {
     "value": 50,
     "currency": "Rupias",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/202325"
+  "numista": "https://en.numista.com/202325",
+  "country_code": "in"
 }

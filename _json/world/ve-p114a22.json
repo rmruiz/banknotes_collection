@@ -1,10 +1,6 @@
 {
   "id": "ve-p114a22",
   "pick_number": "P-114a.2.2",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 1000000,
     "currency": "Bolivares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/278130"
+  "numista": "https://en.numista.com/278130",
+  "country_code": "ve"
 }

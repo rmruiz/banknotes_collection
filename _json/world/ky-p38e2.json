@@ -1,10 +1,6 @@
 {
   "id": "ky-p38e2",
   "pick_number": "P-38e.2",
-  "country": {
-    "en": "Cayman Islands",
-    "es": "Islas Caimán"
-  },
   "denomination": {
     "value": 1,
     "currency": "Dólar",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205341"
+  "numista": "https://en.numista.com/205341",
+  "country_code": "ky"
 }

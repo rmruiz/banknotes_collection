@@ -1,10 +1,6 @@
 {
   "id": "np-p77a",
   "pick_number": "P-77a",
-  "country": {
-    "en": "Nepal",
-    "es": "Nepal"
-  },
   "denomination": {
     "value": 10,
     "currency": "Rupias",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204520"
+  "numista": "https://en.numista.com/204520",
+  "country_code": "np"
 }

@@ -1,10 +1,6 @@
 {
   "id": "sd-p44b",
   "pick_number": "P-44b",
-  "country": {
-    "en": "Sudan",
-    "es": "Sudán"
-  },
   "denomination": {
     "value": 100,
     "currency": "Libras",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206332"
+  "numista": "https://en.numista.com/206332",
+  "country_code": "sd"
 }

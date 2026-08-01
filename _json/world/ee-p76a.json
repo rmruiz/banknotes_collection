@@ -1,10 +1,6 @@
 {
   "id": "ee-p76a",
   "pick_number": "P-76a",
-  "country": {
-    "en": "Estonia",
-    "es": "Estonia"
-  },
   "denomination": {
     "value": 5,
     "currency": "Coronas",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202951"
+  "numista": "https://en.numista.com/202951",
+  "country_code": "ee"
 }

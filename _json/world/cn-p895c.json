@@ -1,10 +1,6 @@
 {
   "id": "cn-p895c",
   "pick_number": "P-895c",
-  "country": {
-    "en": "China",
-    "es": "China"
-  },
   "denomination": {
     "value": 1,
     "currency": "Yuan",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202688"
+  "numista": "https://en.numista.com/202688",
+  "country_code": "cn"
 }

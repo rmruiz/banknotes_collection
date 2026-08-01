@@ -1,10 +1,6 @@
 {
   "id": "in-p53e",
   "pick_number": "P-53e",
-  "country": {
-    "en": "India",
-    "es": "India"
-  },
   "denomination": {
     "value": 2,
     "currency": "Rupias",
@@ -14,7 +10,12 @@
   "year": 1977,
   "numista": "https://en.numista.com/202692",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "flora:palmera",
+    "fauna:tigre",
+    "simbolo:emblema_estatal_de_la_india",
+    "simbolo:emblema_del_banco_de_reserva_de_la_india"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/4964-2_Rupees-1962-1997_Issue_Reserve_Bank_of_India_Second_Series-India",
     "group": ""
@@ -31,8 +32,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "531764",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "in"
 }

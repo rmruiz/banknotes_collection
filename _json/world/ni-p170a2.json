@@ -1,10 +1,6 @@
 {
   "id": "ni-p170a2",
   "pick_number": "P-170a.2",
-  "country": {
-    "en": "Nicaragua",
-    "es": "Nicaragua"
-  },
   "denomination": {
     "value": 25,
     "currency": "Centavos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202962"
+  "numista": "https://en.numista.com/202962",
+  "country_code": "ni"
 }

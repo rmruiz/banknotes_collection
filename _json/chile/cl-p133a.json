@@ -1,10 +1,6 @@
 {
   "id": "cl-p133a",
   "pick_number": "P-133a",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 50000,
     "currency": "Pesos",
@@ -43,5 +39,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/277621"
+  "numista": "https://en.numista.com/277621",
+  "country_code": "cl"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ar-p276",
   "pick_number": "P-276",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 50,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://es.numista.com/237742"
+  "numista": "https://es.numista.com/237742",
+  "country_code": "ar"
 }

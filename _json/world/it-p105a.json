@@ -1,10 +1,6 @@
 {
   "id": "it-p105a",
   "pick_number": "P-105a",
-  "country": {
-    "en": "Italy",
-    "es": "Italia"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Liras",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/203455"
+  "numista": "https://en.numista.com/203455",
+  "country_code": "it"
 }

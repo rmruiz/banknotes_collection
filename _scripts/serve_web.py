@@ -48,7 +48,7 @@ sys.path.insert(0, str(JSON_DIR))                          # _json
 import build_web                    # reusa make_record (search, bandera, thumbs)
 import generar_imagen               # reusa compose() y flag_for()
 from util import unaccent, make_note_id          # convenios compartidos
-from country_map import COUNTRY_EN, COUNTRY_MAP  # país es -> en / -> abreviación
+from country_map import COUNTRY_EN, COUNTRY_MAP, get_country_by_name  # país es -> en / -> abreviación
 from generate_json import FOLDER_ROUTE           # país -> carpeta _json destino
 
 BIND = "0.0.0.0"
@@ -145,6 +145,9 @@ def _set_pais(d, v):
     en = COUNTRY_EN.get(v.lower())
     if en:
         d["country"]["en"] = en
+    c_info = get_country_by_name(v)
+    if c_info:
+        d["country_code"] = c_info["code"]
 
 
 def _v_str(maxlen, allow_empty=True):
@@ -414,7 +417,7 @@ class Handler(SimpleHTTPRequestHandler):
         d = {
             "id": _id,
             "pick_number": pick,
-            "country": {"en": info["pais_en"], "es": info["pais_es"]},
+            "country_code": info["abbr"].lower(),
             "denomination": {
                 "value": info["value"],
                 "currency": info["currency"],
@@ -501,10 +504,13 @@ class Handler(SimpleHTTPRequestHandler):
         pback = ORIGINALS / _id / f"{_id}_B.jpg"
         if not (pfront.exists() and pback.exists()):
             return self._json_error(400, "faltan fotos front/back")
-        flag = generar_imagen.flag_for(d["country"]["es"])
+        c_code = d.get("country_code", "")
+        c_info = get_country_by_name((d.get("country") or {}).get("es", "")) if not c_code else None
+        country_es = c_info["name"]["es"] if c_info else (d.get("country") or {}).get("es", "")
+        flag = generar_imagen.flag_for_note(d)
         if flag is None or not flag.exists():
             return self._json_error(400,
-                                    f"sin bandera para {d['country']['es']}")
+                                    f"sin bandera para {country_es}")
 
         pfull = REPO / "_FULL" / f"{_id}.jpg"
         try:
@@ -540,8 +546,7 @@ class Handler(SimpleHTTPRequestHandler):
         d = {
             "id": _id,
             "pick_number": pick,
-            "country": {"en": COUNTRY_EN.get(key_es, _display_name(key_es)),
-                        "es": _display_name(key_es)},
+            "country_code": abbr.lower(),
             "denomination": {"value": None, "currency": "",
                              "subtype": "", "alternatives": []},
             "year": None,

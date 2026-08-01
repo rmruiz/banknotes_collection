@@ -1,10 +1,6 @@
 {
   "id": "ba-p10a",
   "pick_number": "P-10a",
-  "country": {
-    "en": "Bosnia and Herzegovina",
-    "es": "Bosnia y Herzegovina"
-  },
   "denomination": {
     "value": 10,
     "currency": "Dinares",
@@ -36,5 +32,6 @@
       "serial_number": "GF 76621989",
       "condition": "UNC"
     }
-  ]
+  ],
+  "country_code": "ba"
 }

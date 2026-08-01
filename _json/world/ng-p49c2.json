@@ -1,10 +1,6 @@
 {
   "id": "ng-p49c2",
   "pick_number": "P-49c.2",
-  "country": {
-    "en": "Nigeria",
-    "es": "Nigeria"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Naira",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/363722"
+  "numista": "https://en.numista.com/363722",
+  "country_code": "ng"
 }

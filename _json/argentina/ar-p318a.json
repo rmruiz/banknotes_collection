@@ -1,10 +1,6 @@
 {
   "id": "ar-p318a",
   "pick_number": "P-318a",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/220134"
+  "numista": "https://en.numista.com/220134",
+  "country_code": "ar"
 }

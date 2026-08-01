@@ -1,10 +1,6 @@
 {
   "id": "ve-p70b",
   "pick_number": "P-70b",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 5,
     "currency": "Bolívares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204100"
+  "numista": "https://en.numista.com/204100",
+  "country_code": "ve"
 }

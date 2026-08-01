@@ -1,10 +1,6 @@
 {
   "id": "za-p128a",
   "pick_number": "P-128a",
-  "country": {
-    "en": "South Africa",
-    "es": "Sudáfrica"
-  },
   "denomination": {
     "value": 10,
     "currency": "Rands",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/206391"
+  "numista": "https://en.numista.com/206391",
+  "country_code": "za"
 }

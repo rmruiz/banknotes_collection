@@ -1,10 +1,6 @@
 {
   "id": "ve-p97b",
   "pick_number": "P-97b",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Bolívares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205364"
+  "numista": "https://en.numista.com/205364",
+  "country_code": "ve"
 }

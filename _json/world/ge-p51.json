@@ -1,10 +1,6 @@
 {
   "id": "ge-p51",
   "pick_number": "P-51",
-  "country": {
-    "en": "Georgia",
-    "es": "Georgia"
-  },
   "denomination": {
     "value": 500000,
     "currency": "Kuponi",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/212491"
+  "numista": "https://en.numista.com/212491",
+  "country_code": "ge"
 }

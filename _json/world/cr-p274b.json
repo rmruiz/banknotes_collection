@@ -1,10 +1,6 @@
 {
   "id": "cr-p274b",
   "pick_number": "P-274b",
-  "country": {
-    "en": "Costa Rica",
-    "es": "Costa Rica"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Colones",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204569"
+  "numista": "https://en.numista.com/204569",
+  "country_code": "cr"
 }

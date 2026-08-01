@@ -1,10 +1,6 @@
 {
   "id": "pl-p146c",
   "pick_number": "P-146c",
-  "country": {
-    "en": "Poland",
-    "es": "Polonia"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Zlotys",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/204492"
+  "numista": "https://en.numista.com/204492",
+  "country_code": "pl"
 }

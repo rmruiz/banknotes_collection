@@ -1,10 +1,6 @@
 {
   "id": "ph-p144a",
   "pick_number": "P-144a",
-  "country": {
-    "en": "Philippines",
-    "es": "Filipinas"
-  },
   "denomination": {
     "value": 10,
     "currency": "Piso",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208016"
+  "numista": "https://en.numista.com/208016",
+  "country_code": "ph"
 }

@@ -1,10 +1,6 @@
 {
   "id": "cl-p152b1",
   "pick_number": "P-152b.1",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -40,5 +36,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/205241"
+  "numista": "https://en.numista.com/205241",
+  "country_code": "cl"
 }

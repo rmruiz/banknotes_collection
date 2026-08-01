@@ -1,10 +1,6 @@
 {
   "id": "in-p112ar",
   "pick_number": "P-112ar",
-  "country": {
-    "en": "India",
-    "es": "India"
-  },
   "denomination": {
     "value": 100,
     "currency": "Rupias",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202321"
+  "numista": "https://en.numista.com/202321",
+  "country_code": "in"
 }

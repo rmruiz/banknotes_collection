@@ -1,10 +1,6 @@
 {
   "id": "dj-p42b",
   "pick_number": "P-42b",
-  "country": {
-    "en": "Djibouti",
-    "es": "Yibuti"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Francos",
@@ -41,5 +37,6 @@
       "serial_number": "H473908",
       "condition": "UNC"
     }
-  ]
+  ],
+  "country_code": "dj"
 }

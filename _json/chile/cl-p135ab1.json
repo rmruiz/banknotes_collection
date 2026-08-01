@@ -1,10 +1,6 @@
 {
   "id": "cl-p135ab1",
   "pick_number": "P-135Ab.1",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 1,
     "currency": "Escudo",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202818"
+  "numista": "https://en.numista.com/202818",
+  "country_code": "cl"
 }

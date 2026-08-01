@@ -1,10 +1,6 @@
 {
   "id": "mw-p63e",
   "pick_number": "P-63e",
-  "country": {
-    "en": "Malawi",
-    "es": "Malaui"
-  },
   "denomination": {
     "value": 20,
     "currency": "Kwacha",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204177"
+  "numista": "https://en.numista.com/204177",
+  "country_code": "mw"
 }

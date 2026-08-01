@@ -1,10 +1,6 @@
 {
   "id": "eu-0euros-2024",
   "pick_number": "",
-  "country": {
-    "en": "European Union",
-    "es": "Unión Europea"
-  },
   "denomination": {
     "value": 0,
     "currency": "Euros",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://es.numista.com/232109"
+  "numista": "https://es.numista.com/232109",
+  "country_code": "eu"
 }

@@ -1,10 +1,6 @@
 {
   "id": "mx-p137b2",
   "pick_number": "P-137b.2",
-  "country": {
-    "en": "Mexico",
-    "es": "México"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Pesos",
@@ -41,5 +37,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/258918"
+  "numista": "https://en.numista.com/258918",
+  "country_code": "mx"
 }

@@ -1,10 +1,6 @@
 {
   "id": "pe-p104c1",
   "pick_number": "P-104c.1",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 500,
     "currency": "Soles de Oro",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/236364"
+  "numista": "https://en.numista.com/236364",
+  "country_code": "pe"
 }

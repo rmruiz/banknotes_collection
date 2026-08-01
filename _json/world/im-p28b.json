@@ -1,10 +1,6 @@
 {
   "id": "im-p28b",
   "pick_number": "P-28b",
-  "country": {
-    "en": "Isle of Man",
-    "es": "Isla de Man"
-  },
   "denomination": {
     "value": 50,
     "currency": "Pence",
@@ -38,5 +34,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/209711"
+  "numista": "https://en.numista.com/209711",
+  "country_code": "im"
 }

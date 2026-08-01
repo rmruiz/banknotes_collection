@@ -1,10 +1,6 @@
 {
   "id": "sr-p147",
   "pick_number": "P-147",
-  "country": {
-    "en": "Suriname",
-    "es": "Surinam"
-  },
   "denomination": {
     "value": 10,
     "currency": "Florines",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201607"
+  "numista": "https://en.numista.com/201607",
+  "country_code": "sr"
 }

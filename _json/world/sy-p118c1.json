@@ -1,10 +1,6 @@
 {
   "id": "sy-p118c1",
   "pick_number": "P-118c.1",
-  "country": {
-    "en": "Syria",
-    "es": "Siria"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Libras",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/268783"
+  "numista": "https://en.numista.com/268783",
+  "country_code": "sy"
 }

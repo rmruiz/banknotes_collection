@@ -1,10 +1,6 @@
 {
   "id": "vn-p123d",
   "pick_number": "P-123d",
-  "country": {
-    "en": "Vietnam",
-    "es": "Vietnam"
-  },
   "denomination": {
     "value": 200000,
     "currency": "Dongs",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204964"
+  "numista": "https://en.numista.com/204964",
+  "country_code": "vn"
 }

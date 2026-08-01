@@ -1,10 +1,6 @@
 {
   "id": "ar-p289a6",
   "pick_number": "P-289a.6",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 10,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://es.numista.com/207519"
+  "numista": "https://es.numista.com/207519",
+  "country_code": "ar"
 }

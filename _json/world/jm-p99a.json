@@ -1,10 +1,6 @@
 {
   "id": "jm-p99a",
   "pick_number": "P-99a",
-  "country": {
-    "en": "Jamaica",
-    "es": "Jamaica"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Dólar",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/329459"
+  "numista": "https://en.numista.com/329459",
+  "country_code": "jm"
 }

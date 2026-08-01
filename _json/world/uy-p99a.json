@@ -1,10 +1,6 @@
 {
   "id": "uy-p99a",
   "pick_number": "P-99a",
-  "country": {
-    "en": "Uruguay",
-    "es": "Uruguay"
-  },
   "denomination": {
     "value": 2000,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/202931"
+  "numista": "https://en.numista.com/202931",
+  "country_code": "uy"
 }

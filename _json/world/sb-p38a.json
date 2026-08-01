@@ -1,10 +1,6 @@
 {
   "id": "sb-p38a",
   "pick_number": "P-38a",
-  "country": {
-    "en": "Solomon Islands",
-    "es": "Islas Salomón"
-  },
   "denomination": {
     "value": 5,
     "currency": "Dólares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202376"
+  "numista": "https://en.numista.com/202376",
+  "country_code": "sb"
 }

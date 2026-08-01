@@ -1,10 +1,6 @@
 {
   "id": "do-p168c",
   "pick_number": "P-168c",
-  "country": {
-    "en": "Dominican Republic",
-    "es": "Rep. Dominicana"
-  },
   "denomination": {
     "value": 10,
     "currency": "Pesos Oro",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/209940"
+  "numista": "https://en.numista.com/209940",
+  "country_code": "do"
 }

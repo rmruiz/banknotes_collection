@@ -1,10 +1,6 @@
 {
   "id": "in-p102w",
   "pick_number": "P-102w",
-  "country": {
-    "en": "India",
-    "es": "India"
-  },
   "denomination": {
     "value": 10,
     "currency": "Rupias",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203074"
+  "numista": "https://en.numista.com/203074",
+  "country_code": "in"
 }

@@ -1,10 +1,6 @@
 {
   "id": "pe-p140a",
   "pick_number": "P-140a",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Intis",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206024"
+  "numista": "https://en.numista.com/206024",
+  "country_code": "pe"
 }

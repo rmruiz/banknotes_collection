@@ -1,10 +1,6 @@
 {
   "id": "th-p142a11",
   "pick_number": "P-142a.1.1",
-  "country": {
-    "en": "Thailand",
-    "es": "Tailandia"
-  },
   "denomination": {
     "value": 20,
     "currency": "Baht",
@@ -36,5 +32,6 @@
       "condition": "VG"
     }
   ],
-  "numista": "https://en.numista.com/317869"
+  "numista": "https://en.numista.com/317869",
+  "country_code": "th"
 }

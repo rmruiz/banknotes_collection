@@ -1,10 +1,6 @@
 {
   "id": "yu-p69a",
   "pick_number": "P-69a",
-  "country": {
-    "en": "Yugoslavia",
-    "es": "Yugoslavia"
-  },
   "denomination": {
     "value": 100,
     "currency": "Dinares",
@@ -36,5 +32,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/204349"
+  "numista": "https://en.numista.com/204349",
+  "country_code": "yu"
 }

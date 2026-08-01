@@ -1,10 +1,6 @@
 {
   "id": "yu-p134a",
   "pick_number": "P-134a",
-  "country": {
-    "en": "Yugoslavia",
-    "es": "Yugoslavia"
-  },
   "denomination": {
     "value": 500000000,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205305"
+  "numista": "https://en.numista.com/205305",
+  "country_code": "yu"
 }

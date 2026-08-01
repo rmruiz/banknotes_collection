@@ -1,10 +1,6 @@
 {
   "id": "ve-p66f",
   "pick_number": "P-66f",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 100,
     "currency": "Bolívares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205324"
+  "numista": "https://en.numista.com/205324",
+  "country_code": "ve"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ar-p299a3",
   "pick_number": "P-299a.3",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/214365"
+  "numista": "https://en.numista.com/214365",
+  "country_code": "ar"
 }

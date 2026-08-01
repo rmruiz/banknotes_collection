@@ -1,10 +1,6 @@
 {
   "id": "bo-p167a32",
   "pick_number": "P-167a.3.2",
-  "country": {
-    "en": "Bolivia",
-    "es": "Bolivia"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205345"
+  "numista": "https://en.numista.com/205345",
+  "country_code": "bo"
 }

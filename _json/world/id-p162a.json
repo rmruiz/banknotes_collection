@@ -1,10 +1,6 @@
 {
   "id": "id-p162a",
   "pick_number": "P-162a",
-  "country": {
-    "en": "Indonesia",
-    "es": "Indonesia"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Rupias",
@@ -38,5 +34,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/338501"
+  "numista": "https://en.numista.com/338501",
+  "country_code": "id"
 }

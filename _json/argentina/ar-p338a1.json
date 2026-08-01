@@ -1,10 +1,6 @@
 {
   "id": "ar-p338a1",
   "pick_number": "P-338a.1",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 500000,
     "currency": "Australes",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/228295"
+  "numista": "https://en.numista.com/228295",
+  "country_code": "ar"
 }

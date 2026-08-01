@@ -1,10 +1,6 @@
 {
   "id": "ng-p41e",
   "pick_number": "P-41e",
-  "country": {
-    "en": "Nigeria",
-    "es": "Nigeria"
-  },
   "denomination": {
     "value": 100,
     "currency": "Naira",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207734"
+  "numista": "https://en.numista.com/207734",
+  "country_code": "ng"
 }

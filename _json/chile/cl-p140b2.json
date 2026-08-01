@@ -1,10 +1,6 @@
 {
   "id": "cl-p140b2",
   "pick_number": "P-140b.2",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 50,
     "currency": "Escudos",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202856"
+  "numista": "https://en.numista.com/202856",
+  "country_code": "cl"
 }

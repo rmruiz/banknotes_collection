@@ -1,10 +1,6 @@
 {
   "id": "us-p511h",
   "pick_number": "P-511H",
-  "country": {
-    "en": "United States",
-    "es": "Estados Unidos"
-  },
   "denomination": {
     "value": 10,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/205513"
+  "numista": "https://en.numista.com/205513",
+  "country_code": "us"
 }

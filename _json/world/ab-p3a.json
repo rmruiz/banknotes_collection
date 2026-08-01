@@ -1,10 +1,6 @@
 {
   "id": "ab-p3a",
   "pick_number": "P-3a",
-  "country": {
-    "en": "Abkhazia",
-    "es": "Abjasia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Apsar",
@@ -39,5 +35,6 @@
       "serial_number": "AA000466166",
       "condition": "UNC"
     }
-  ]
+  ],
+  "country_code": "ab"
 }

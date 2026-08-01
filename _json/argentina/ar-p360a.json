@@ -1,10 +1,6 @@
 {
   "id": "ar-p360a",
   "pick_number": "P-360a",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 10,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203877"
+  "numista": "https://en.numista.com/203877",
+  "country_code": "ar"
 }

@@ -1,10 +1,6 @@
 {
   "id": "uy-p95a",
   "pick_number": "P-95a",
-  "country": {
-    "en": "Uruguay",
-    "es": "Uruguay"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208356"
+  "numista": "https://en.numista.com/208356",
+  "country_code": "uy"
 }

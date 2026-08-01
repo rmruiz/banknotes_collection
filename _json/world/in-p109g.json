@@ -1,10 +1,6 @@
 {
   "id": "in-p109g",
   "pick_number": "P-109g",
-  "country": {
-    "en": "India",
-    "es": "India"
-  },
   "denomination": {
     "value": 10,
     "currency": "Rupias",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203081"
+  "numista": "https://en.numista.com/203081",
+  "country_code": "in"
 }

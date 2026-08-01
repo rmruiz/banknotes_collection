@@ -1,10 +1,6 @@
 {
   "id": "cd-p101b1",
   "pick_number": "P-101b.1",
-  "country": {
-    "en": "Democratic Republic of the Congo",
-    "es": "El Congo"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Francos",
@@ -41,5 +37,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/212947"
+  "numista": "https://en.numista.com/212947",
+  "country_code": "cd"
 }

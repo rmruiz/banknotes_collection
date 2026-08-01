@@ -1,10 +1,6 @@
 {
   "id": "ke-p56a",
   "pick_number": "P-56a",
-  "country": {
-    "en": "Kenya",
-    "es": "Kenia"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Chelines",
@@ -39,5 +35,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/208069"
+  "numista": "https://en.numista.com/208069",
+  "country_code": "ke"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ca-p108a",
   "pick_number": "P-108a",
-  "country": {
-    "en": "Canada",
-    "es": "Canadá"
-  },
   "denomination": {
     "value": 20,
     "currency": "Dólares",
@@ -38,5 +34,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/201585"
+  "numista": "https://en.numista.com/201585",
+  "country_code": "ca"
 }

@@ -1,10 +1,6 @@
 {
   "id": "de-p85b2mk",
   "pick_number": "P-85b.2.MK",
-  "country": {
-    "en": "Germany",
-    "es": "Alemania"
-  },
   "denomination": {
     "value": 20000,
     "currency": "Marcos",
@@ -14,7 +10,11 @@
   "year": 1923,
   "numista": "https://en.numista.com/203613",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "arte:grabado_de_guilloche",
+    "fauna:aguila_imperial_alemana",
+    "flora:hojas_de_acanto"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/144335-20000_Mark-1923_2nd_Issue_-_Reichsbanknote_Republic_Treasury_Notes-Alemania",
     "group": ""
@@ -31,8 +31,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "126504",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "de"
 }

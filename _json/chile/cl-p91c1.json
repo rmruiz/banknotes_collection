@@ -1,10 +1,6 @@
 {
   "id": "cl-p91c1",
   "pick_number": "P-91c.1",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 5,
     "currency": "Pesos",
@@ -41,5 +37,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/213481"
+  "numista": "https://en.numista.com/213481",
+  "country_code": "cl"
 }

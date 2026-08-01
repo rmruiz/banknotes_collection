@@ -1,10 +1,6 @@
 {
   "id": "gy-p30g",
   "pick_number": "P-30g",
-  "country": {
-    "en": "Guyana",
-    "es": "Guyana"
-  },
   "denomination": {
     "value": 20,
     "currency": "Dólares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202470"
+  "numista": "https://en.numista.com/202470",
+  "country_code": "gy"
 }

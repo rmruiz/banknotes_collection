@@ -1,10 +1,6 @@
 {
   "id": "ng-p40n",
   "pick_number": "P-40n",
-  "country": {
-    "en": "Nigeria",
-    "es": "Nigeria"
-  },
   "denomination": {
     "value": 50,
     "currency": "Naira",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204035"
+  "numista": "https://en.numista.com/204035",
+  "country_code": "ng"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ve-p65e",
   "pick_number": "P-65e",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 50,
     "currency": "Bolívares",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/205883"
+  "numista": "https://en.numista.com/205883",
+  "country_code": "ve"
 }

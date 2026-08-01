@@ -1,10 +1,6 @@
 {
   "id": "ht-p266b",
   "pick_number": "P-266b",
-  "country": {
-    "en": "Haiti",
-    "es": "Haití"
-  },
   "denomination": {
     "value": 25,
     "currency": "Gurdes",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/204965"
+  "numista": "https://en.numista.com/204965",
+  "country_code": "ht"
 }

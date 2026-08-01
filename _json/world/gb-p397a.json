@@ -1,10 +1,6 @@
 {
   "id": "gb-p397a",
   "pick_number": "P-397a",
-  "country": {
-    "en": "Great Britain",
-    "es": "Gran Bretaña"
-  },
   "denomination": {
     "value": 50,
     "currency": "Libras Esterlinas",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/281993"
+  "numista": "https://en.numista.com/281993",
+  "country_code": "gb"
 }

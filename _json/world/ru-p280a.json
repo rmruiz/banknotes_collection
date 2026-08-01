@@ -1,10 +1,6 @@
 {
   "id": "ru-p280a",
   "pick_number": "P-280a",
-  "country": {
-    "en": "Russia",
-    "es": "Rusia"
-  },
   "denomination": {
     "value": 100,
     "currency": "Rublos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205386"
+  "numista": "https://en.numista.com/205386",
+  "country_code": "ru"
 }

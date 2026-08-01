@@ -1,10 +1,6 @@
 {
   "id": "ge-p46b",
   "pick_number": "P-46b",
-  "country": {
-    "en": "Georgia",
-    "es": "Georgia"
-  },
   "denomination": {
     "value": 20000,
     "currency": "Kuponi",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207866"
+  "numista": "https://en.numista.com/207866",
+  "country_code": "ge"
 }

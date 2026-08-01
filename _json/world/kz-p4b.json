@@ -1,10 +1,6 @@
 {
   "id": "kz-p4b",
   "pick_number": "P-4b",
-  "country": {
-    "en": "Kazakhstan",
-    "es": "Kazajistán"
-  },
   "denomination": {
     "value": 10,
     "currency": "Tyin",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204916"
+  "numista": "https://en.numista.com/204916",
+  "country_code": "kz"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ve-p107b",
   "pick_number": "P-107b",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 200,
     "currency": "Bolívares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208169"
+  "numista": "https://en.numista.com/208169",
+  "country_code": "ve"
 }

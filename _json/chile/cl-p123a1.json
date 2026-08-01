@@ -1,10 +1,6 @@
 {
   "id": "cl-p123a1",
   "pick_number": "P-123a.1",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 50000,
     "currency": "Pesos",
@@ -42,5 +38,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/277618"
+  "numista": "https://en.numista.com/277618",
+  "country_code": "cl"
 }

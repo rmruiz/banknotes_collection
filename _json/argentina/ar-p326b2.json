@@ -1,10 +1,6 @@
 {
   "id": "ar-p326b2",
   "pick_number": "P-326b.2",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 50,
     "currency": "Australes",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203808"
+  "numista": "https://en.numista.com/203808",
+  "country_code": "ar"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ni-p167a",
   "pick_number": "P-167a",
-  "country": {
-    "en": "Nicaragua",
-    "es": "Nicaragua"
-  },
   "denomination": {
     "value": 1,
     "currency": "Centavo",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202959"
+  "numista": "https://en.numista.com/202959",
+  "country_code": "ni"
 }

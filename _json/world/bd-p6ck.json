@@ -1,10 +1,6 @@
 {
   "id": "bd-p6ck",
   "pick_number": "P-6Ck",
-  "country": {
-    "en": "Bangladesh",
-    "es": "Bangladesh"
-  },
   "denomination": {
     "value": 2,
     "currency": "Taka",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202645"
+  "numista": "https://en.numista.com/202645",
+  "country_code": "bd"
 }

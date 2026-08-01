@@ -1,10 +1,6 @@
 {
   "id": "gt-p115c",
   "pick_number": "P-115c",
-  "country": {
-    "en": "Guatemala",
-    "es": "Guatemala"
-  },
   "denomination": {
     "value": 1,
     "currency": "Quetzal",
@@ -38,5 +34,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/202968"
+  "numista": "https://en.numista.com/202968",
+  "country_code": "gt"
 }

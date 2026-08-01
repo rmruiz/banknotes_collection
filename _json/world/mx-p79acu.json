@@ -1,10 +1,6 @@
 {
   "id": "mx-p79acu",
   "pick_number": "P-79a.CU",
-  "country": {
-    "en": "Mexico",
-    "es": "México"
-  },
   "denomination": {
     "value": 500,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/205307"
+  "numista": "https://en.numista.com/205307",
+  "country_code": "mx"
 }

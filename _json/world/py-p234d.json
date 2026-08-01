@@ -1,10 +1,6 @@
 {
   "id": "py-p234d",
   "pick_number": "P-234d",
-  "country": {
-    "en": "Paraguay",
-    "es": "Paraguay"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Guaranies",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202312"
+  "numista": "https://en.numista.com/202312",
+  "country_code": "py"
 }

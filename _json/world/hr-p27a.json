@@ -1,10 +1,6 @@
 {
   "id": "hr-p27a",
   "pick_number": "P-27a",
-  "country": {
-    "en": "Croatia",
-    "es": "Croacia"
-  },
   "denomination": {
     "value": 100000,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203368"
+  "numista": "https://en.numista.com/203368",
+  "country_code": "hr"
 }

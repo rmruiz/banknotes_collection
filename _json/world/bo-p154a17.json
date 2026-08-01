@@ -1,10 +1,6 @@
 {
   "id": "bo-p154a17",
   "pick_number": "P-154a.17",
-  "country": {
-    "en": "Bolivia",
-    "es": "Bolivia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205343"
+  "numista": "https://en.numista.com/205343",
+  "country_code": "bo"
 }

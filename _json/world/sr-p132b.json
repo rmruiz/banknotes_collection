@@ -1,10 +1,6 @@
 {
   "id": "sr-p132b",
   "pick_number": "P-132b",
-  "country": {
-    "en": "Suriname",
-    "es": "Surinam"
-  },
   "denomination": {
     "value": 25,
     "currency": "Florines",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205290"
+  "numista": "https://en.numista.com/205290",
+  "country_code": "sr"
 }

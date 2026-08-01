@@ -1,10 +1,6 @@
 {
   "id": "mn-p68b",
   "pick_number": "P-68b",
-  "country": {
-    "en": "Mongolia",
-    "es": "Mongolia"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Tugrik - Tögrög",
@@ -38,5 +34,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/203148"
+  "numista": "https://en.numista.com/203148",
+  "country_code": "mn"
 }

@@ -1,10 +1,6 @@
 {
   "id": "us-p548bf",
   "pick_number": "P-548bF",
-  "country": {
-    "en": "United States",
-    "es": "Estados Unidos"
-  },
   "denomination": {
     "value": 20,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201837"
+  "numista": "https://en.numista.com/201837",
+  "country_code": "us"
 }

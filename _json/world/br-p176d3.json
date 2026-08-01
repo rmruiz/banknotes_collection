@@ -1,10 +1,6 @@
 {
   "id": "br-p176d3",
   "pick_number": "P-176d.3",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 5,
     "currency": "Cruzeiros",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202089"
+  "numista": "https://en.numista.com/202089",
+  "country_code": "br"
 }

@@ -1,10 +1,6 @@
 {
   "id": "hr-p16a",
   "pick_number": "P-16a",
-  "country": {
-    "en": "Croatia",
-    "es": "Croacia"
-  },
   "denomination": {
     "value": 1,
     "currency": "Dinar",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/201876"
+  "numista": "https://en.numista.com/201876",
+  "country_code": "hr"
 }

@@ -1,10 +1,6 @@
 {
   "id": "pe-p114a",
   "pick_number": "P-114a",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 100,
     "currency": "Soles de Oro",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/210523"
+  "numista": "https://en.numista.com/210523",
+  "country_code": "pe"
 }

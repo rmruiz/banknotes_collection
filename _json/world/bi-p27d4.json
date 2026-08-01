@@ -1,10 +1,6 @@
 {
   "id": "bi-p27d4",
   "pick_number": "P-27d.4",
-  "country": {
-    "en": "Burundi",
-    "es": "Burundi"
-  },
   "denomination": {
     "value": 20,
     "currency": "Francos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202795"
+  "numista": "https://en.numista.com/202795",
+  "country_code": "bi"
 }

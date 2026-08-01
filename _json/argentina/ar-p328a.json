@@ -1,10 +1,6 @@
 {
   "id": "ar-p328a",
   "pick_number": "P-328a",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 500,
     "currency": "Australes",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203814"
+  "numista": "https://en.numista.com/203814",
+  "country_code": "ar"
 }

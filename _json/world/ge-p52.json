@@ -1,10 +1,6 @@
 {
   "id": "ge-p52",
   "pick_number": "P-52",
-  "country": {
-    "en": "Georgia",
-    "es": "Georgia"
-  },
   "denomination": {
     "value": 1000000,
     "currency": "Kuponi",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/213623"
+  "numista": "https://en.numista.com/213623",
+  "country_code": "ge"
 }

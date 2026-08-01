@@ -1,10 +1,6 @@
 {
   "id": "pe-p136b2",
   "pick_number": "P-136b.2",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Intis",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205632"
+  "numista": "https://en.numista.com/205632",
+  "country_code": "pe"
 }

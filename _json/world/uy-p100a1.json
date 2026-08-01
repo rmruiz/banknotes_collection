@@ -1,10 +1,6 @@
 {
   "id": "uy-p100a1",
   "pick_number": "P-100a.1",
-  "country": {
-    "en": "Uruguay",
-    "es": "Uruguay"
-  },
   "denomination": {
     "value": 50,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/201623"
+  "numista": "https://en.numista.com/201623",
+  "country_code": "uy"
 }

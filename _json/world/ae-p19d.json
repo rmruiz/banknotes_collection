@@ -1,10 +1,6 @@
 {
   "id": "ae-p19d",
   "pick_number": "P-19d",
-  "country": {
-    "en": "United Arab Emirates",
-    "es": "Emiratos Árabes"
-  },
   "denomination": {
     "value": 5,
     "currency": "Dirhams",
@@ -38,5 +34,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/209804"
+  "numista": "https://en.numista.com/209804",
+  "country_code": "ae"
 }

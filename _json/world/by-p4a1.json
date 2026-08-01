@@ -1,10 +1,6 @@
 {
   "id": "by-p4a1",
   "pick_number": "P-4a.1",
-  "country": {
-    "en": "Belarus",
-    "es": "Bielorrusia"
-  },
   "denomination": {
     "value": 5,
     "currency": "Rublo",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201632"
+  "numista": "https://en.numista.com/201632",
+  "country_code": "by"
 }
