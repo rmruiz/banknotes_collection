@@ -1,10 +1,6 @@
 {
   "id": "ch-p76b3",
   "pick_number": "P-76b.3",
-  "country": {
-    "en": "Switzerland",
-    "es": "Suiza"
-  },
   "denomination": {
     "value": 20,
     "currency": "Francos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201625"
+  "numista": "https://en.numista.com/201625",
+  "country_code": "ch"
 }

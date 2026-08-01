@@ -1,10 +1,6 @@
 {
   "id": "ar-p312a1",
   "pick_number": "P-312a.1",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 5,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/202440"
+  "numista": "https://en.numista.com/202440",
+  "country_code": "ar"
 }

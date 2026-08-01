@@ -1,10 +1,6 @@
 {
   "id": "eg-p71f4",
   "pick_number": "P-71f.4",
-  "country": {
-    "en": "Egypt",
-    "es": "Egipto"
-  },
   "denomination": {
     "value": 1,
     "currency": "Libras",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202276"
+  "numista": "https://en.numista.com/202276",
+  "country_code": "eg"
 }

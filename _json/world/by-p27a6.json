@@ -1,10 +1,6 @@
 {
   "id": "by-p27a6",
   "pick_number": "P-27a.6",
-  "country": {
-    "en": "Belarus",
-    "es": "Bielorrusia"
-  },
   "denomination": {
     "value": 500,
     "currency": "Rublos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205183"
+  "numista": "https://en.numista.com/205183",
+  "country_code": "by"
 }

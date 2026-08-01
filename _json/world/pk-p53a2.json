@@ -1,10 +1,6 @@
 {
   "id": "pk-p53a2",
   "pick_number": "P-53a.2",
-  "country": {
-    "en": "Pakistan",
-    "es": "Pakistán"
-  },
   "denomination": {
     "value": 5,
     "currency": "Rupias",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207929"
+  "numista": "https://en.numista.com/207929",
+  "country_code": "pk"
 }

@@ -1,10 +1,6 @@
 {
   "id": "br-p258a",
   "pick_number": "P-258a",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 200,
     "currency": "Reales",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/235384"
+  "numista": "https://en.numista.com/235384",
+  "country_code": "br"
 }

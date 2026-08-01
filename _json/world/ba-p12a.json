@@ -1,10 +1,6 @@
 {
   "id": "ba-p12a",
   "pick_number": "P-12a",
-  "country": {
-    "en": "Bosnia and Herzegovina",
-    "es": "Bosnia y Herzegovina"
-  },
   "denomination": {
     "value": 50,
     "currency": "Dinares",
@@ -36,5 +32,6 @@
       "serial_number": "HE 67992061",
       "condition": "UNC"
     }
-  ]
+  ],
+  "country_code": "ba"
 }

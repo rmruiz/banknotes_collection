@@ -1,10 +1,6 @@
 {
   "id": "mn-p49a",
   "pick_number": "P-49a",
-  "country": {
-    "en": "Mongolia",
-    "es": "Mongolia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Mongo",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202906"
+  "numista": "https://en.numista.com/202906",
+  "country_code": "mn"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ar-ps2317a",
   "pick_number": "P-S2317a",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 2,
     "currency": "Pesos",
@@ -36,5 +32,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/229288"
+  "numista": "https://en.numista.com/229288",
+  "country_code": "ar"
 }

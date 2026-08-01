@@ -1,10 +1,6 @@
 {
   "id": "cd-p80a",
   "pick_number": "P-80a",
-  "country": {
-    "en": "Democratic Republic of the Congo",
-    "es": "El Congo"
-  },
   "denomination": {
     "value": 1,
     "currency": "Céntimo",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205850"
+  "numista": "https://en.numista.com/205850",
+  "country_code": "cd"
 }

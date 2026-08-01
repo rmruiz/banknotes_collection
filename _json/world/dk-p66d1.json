@@ -1,10 +1,6 @@
 {
   "id": "dk-p66d1",
   "pick_number": "P-66d.1",
-  "country": {
-    "en": "Denmark",
-    "es": "Dinamarca"
-  },
   "denomination": {
     "value": 100,
     "currency": "Coronas Danesas",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/202119"
+  "numista": "https://en.numista.com/202119",
+  "country_code": "dk"
 }

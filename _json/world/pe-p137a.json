@@ -1,10 +1,6 @@
 {
   "id": "pe-p137a",
   "pick_number": "P-137a",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Intis",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206022"
+  "numista": "https://en.numista.com/206022",
+  "country_code": "pe"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ht-p259a2",
   "pick_number": "P-259a.2",
-  "country": {
-    "en": "Haiti",
-    "es": "Haití"
-  },
   "denomination": {
     "value": 1,
     "currency": "Gurdes",
@@ -37,5 +33,6 @@
       "condition": "G"
     }
   ],
-  "numista": "https://en.numista.com/210417"
+  "numista": "https://en.numista.com/210417",
+  "country_code": "ht"
 }

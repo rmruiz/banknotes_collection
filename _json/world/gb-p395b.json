@@ -1,10 +1,6 @@
 {
   "id": "gb-p395b",
   "pick_number": "P-395b",
-  "country": {
-    "en": "Great Britain",
-    "es": "Gran Bretaña"
-  },
   "denomination": {
     "value": 10,
     "currency": "Libras Esterlinas",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/202523"
+  "numista": "https://en.numista.com/202523",
+  "country_code": "gb"
 }

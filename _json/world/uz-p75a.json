@@ -1,10 +1,6 @@
 {
   "id": "uz-p75a",
   "pick_number": "P-75a",
-  "country": {
-    "en": "Uzbekistan",
-    "es": "Uzbekistán"
-  },
   "denomination": {
     "value": 5,
     "currency": "Soms",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201993"
+  "numista": "https://en.numista.com/201993",
+  "country_code": "uz"
 }

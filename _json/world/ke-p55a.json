@@ -1,10 +1,6 @@
 {
   "id": "ke-p55a",
   "pick_number": "P-55a",
-  "country": {
-    "en": "Kenya",
-    "es": "Kenia"
-  },
   "denomination": {
     "value": 500,
     "currency": "Chelines",
@@ -40,5 +36,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/208068"
+  "numista": "https://en.numista.com/208068",
+  "country_code": "ke"
 }

@@ -1,10 +1,6 @@
 {
   "id": "vn-p120h",
   "pick_number": "P-120h",
-  "country": {
-    "en": "Vietnam",
-    "es": "Vietnam"
-  },
   "denomination": {
     "value": 20000,
     "currency": "Dongs",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204743"
+  "numista": "https://en.numista.com/204743",
+  "country_code": "vn"
 }

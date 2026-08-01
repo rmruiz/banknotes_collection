@@ -1,10 +1,6 @@
 {
   "id": "sct-p351e2",
   "pick_number": "P-351e.2",
-  "country": {
-    "en": "Scotland",
-    "es": "Escocia"
-  },
   "denomination": {
     "value": 1,
     "currency": "Libra",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205931"
+  "numista": "https://en.numista.com/205931",
+  "country_code": "sct"
 }

@@ -1,10 +1,6 @@
 {
   "id": "hn-p89b",
   "pick_number": "P-89b",
-  "country": {
-    "en": "Honduras",
-    "es": "Honduras"
-  },
   "denomination": {
     "value": 1,
     "currency": "Lempira",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208116"
+  "numista": "https://en.numista.com/208116",
+  "country_code": "hn"
 }

@@ -1,10 +1,6 @@
 {
   "id": "es-p158a3",
   "pick_number": "P-158a.3",
-  "country": {
-    "en": "Spain",
-    "es": "España"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Pesetas",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205259"
+  "numista": "https://en.numista.com/205259",
+  "country_code": "es"
 }

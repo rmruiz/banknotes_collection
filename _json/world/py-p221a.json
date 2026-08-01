@@ -1,10 +1,6 @@
 {
   "id": "py-p221a",
   "pick_number": "P-221a",
-  "country": {
-    "en": "Paraguay",
-    "es": "Paraguay"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Guaranies",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/206033"
+  "numista": "https://en.numista.com/206033",
+  "country_code": "py"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ar-p362a",
   "pick_number": "P-362a",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 50,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/206691"
+  "numista": "https://en.numista.com/206691",
+  "country_code": "ar"
 }

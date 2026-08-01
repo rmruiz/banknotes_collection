@@ -1,10 +1,6 @@
 {
   "id": "ng-p34n1",
   "pick_number": "P-34n.1",
-  "country": {
-    "en": "Nigeria",
-    "es": "Nigeria"
-  },
   "denomination": {
     "value": 20,
     "currency": "Naira",
@@ -42,5 +38,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203164"
+  "numista": "https://en.numista.com/203164",
+  "country_code": "ng"
 }

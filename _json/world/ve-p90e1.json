@@ -1,10 +1,6 @@
 {
   "id": "ve-p90e1",
   "pick_number": "P-90e.1",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 10,
     "currency": "Bolívares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205347"
+  "numista": "https://en.numista.com/205347",
+  "country_code": "ve"
 }

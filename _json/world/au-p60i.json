@@ -1,10 +1,6 @@
 {
   "id": "au-p60i",
   "pick_number": "P-60i",
-  "country": {
-    "en": "Australia",
-    "es": "Australia"
-  },
   "denomination": {
     "value": 50,
     "currency": "Dólares Australianos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202868"
+  "numista": "https://en.numista.com/202868",
+  "country_code": "au"
 }

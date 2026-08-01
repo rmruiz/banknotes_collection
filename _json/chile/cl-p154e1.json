@@ -1,10 +1,6 @@
 {
   "id": "cl-p154e1",
   "pick_number": "P-154e.1",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Pesos",
@@ -41,5 +37,6 @@
       "serial_number": "CA0077320",
       "condition": "F"
     }
-  ]
+  ],
+  "country_code": "cl"
 }

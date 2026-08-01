@@ -1,10 +1,6 @@
 {
   "id": "cz-p17c",
   "pick_number": "P-17c",
-  "country": {
-    "en": "Czech Republic",
-    "es": "Rep. Checa"
-  },
   "denomination": {
     "value": 50,
     "currency": "Coronas",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203984"
+  "numista": "https://en.numista.com/203984",
+  "country_code": "cz"
 }

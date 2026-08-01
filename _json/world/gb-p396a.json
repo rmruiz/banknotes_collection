@@ -1,10 +1,6 @@
 {
   "id": "gb-p396a",
   "pick_number": "P-396a",
-  "country": {
-    "en": "Great Britain",
-    "es": "Gran Bretaña"
-  },
   "denomination": {
     "value": 20,
     "currency": "Libras Esterlinas",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203144"
+  "numista": "https://en.numista.com/203144",
+  "country_code": "gb"
 }

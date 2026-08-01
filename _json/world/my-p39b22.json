@@ -1,10 +1,6 @@
 {
   "id": "my-p39b22",
   "pick_number": "P-39b.2.2",
-  "country": {
-    "en": "Malaysia",
-    "es": "Malasia"
-  },
   "denomination": {
     "value": 1,
     "currency": "Ringgit",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202739"
+  "numista": "https://en.numista.com/202739",
+  "country_code": "my"
 }

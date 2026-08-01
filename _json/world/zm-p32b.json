@@ -1,10 +1,6 @@
 {
   "id": "zm-p32b",
   "pick_number": "P-32b",
-  "country": {
-    "en": "Zambia",
-    "es": "Zambia"
-  },
   "denomination": {
     "value": 20,
     "currency": "Kwacha",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204622"
+  "numista": "https://en.numista.com/204622",
+  "country_code": "zm"
 }

@@ -1,10 +1,6 @@
 {
   "id": "yu-p121a",
   "pick_number": "P-121a",
-  "country": {
-    "en": "Yugoslavia",
-    "es": "Yugoslavia"
-  },
   "denomination": {
     "value": 5000000,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/203552"
+  "numista": "https://en.numista.com/203552",
+  "country_code": "yu"
 }

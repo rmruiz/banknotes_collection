@@ -1,10 +1,6 @@
 {
   "id": "md-p8h",
   "pick_number": "P-8h",
-  "country": {
-    "en": "Moldova",
-    "es": "Moldavia"
-  },
   "denomination": {
     "value": 1,
     "currency": "Leu",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202816"
+  "numista": "https://en.numista.com/202816",
+  "country_code": "md"
 }

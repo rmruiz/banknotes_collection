@@ -1,10 +1,6 @@
 {
   "id": "tt-p61a",
   "pick_number": "P-61a",
-  "country": {
-    "en": "Trinidad and Tobago",
-    "es": "Trinidad y Tobago"
-  },
   "denomination": {
     "value": 5,
     "currency": "Dólares",
@@ -40,5 +36,6 @@
       "serial_number": "AQ809058",
       "condition": "UNC"
     }
-  ]
+  ],
+  "country_code": "tt"
 }

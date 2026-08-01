@@ -1,10 +1,6 @@
 {
   "id": "pe-p189a",
   "pick_number": "P-189a",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 50,
     "currency": "Nuevos Soles",
@@ -38,5 +34,6 @@
       "condition": "VG"
     }
   ],
-  "numista": "https://en.numista.com/205399"
+  "numista": "https://en.numista.com/205399",
+  "country_code": "pe"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ar-p366d2",
   "pick_number": "P-366d.2",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Pesos",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206628"
+  "numista": "https://en.numista.com/206628",
+  "country_code": "ar"
 }

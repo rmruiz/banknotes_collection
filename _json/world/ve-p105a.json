@@ -1,10 +1,6 @@
 {
   "id": "ve-p105a",
   "pick_number": "P-105a",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 50,
     "currency": "Bolívares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208167"
+  "numista": "https://en.numista.com/208167",
+  "country_code": "ve"
 }

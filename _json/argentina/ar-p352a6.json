@@ -1,10 +1,6 @@
 {
   "id": "ar-p352a6",
   "pick_number": "P-352a.6",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 2,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201923"
+  "numista": "https://en.numista.com/201923",
+  "country_code": "ar"
 }

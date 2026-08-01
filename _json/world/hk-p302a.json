@@ -1,10 +1,6 @@
 {
   "id": "hk-p302a",
   "pick_number": "P-302a",
-  "country": {
-    "en": "Hong Kong",
-    "es": "Hong Kong"
-  },
   "denomination": {
     "value": 20,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/266640"
+  "numista": "https://en.numista.com/266640",
+  "country_code": "hk"
 }

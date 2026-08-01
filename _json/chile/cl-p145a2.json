@@ -1,10 +1,6 @@
 {
   "id": "cl-p145a2",
   "pick_number": "P-145a.2",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 500,
     "currency": "Escudos",
@@ -41,5 +37,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/224942"
+  "numista": "https://en.numista.com/224942",
+  "country_code": "cl"
 }

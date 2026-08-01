@@ -1,10 +1,6 @@
 {
   "id": "bg-p100a",
   "pick_number": "P-100a",
-  "country": {
-    "en": "Bulgaria",
-    "es": "Bulgaria"
-  },
   "denomination": {
     "value": 20,
     "currency": "Lev",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202112"
+  "numista": "https://en.numista.com/202112",
+  "country_code": "bg"
 }

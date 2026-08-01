@@ -1,10 +1,6 @@
 {
   "id": "cl-p157c6",
   "pick_number": "P-157c.6",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Pesos",
@@ -40,5 +36,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/214912"
+  "numista": "https://en.numista.com/214912",
+  "country_code": "cl"
 }

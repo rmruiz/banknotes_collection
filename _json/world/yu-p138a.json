@@ -1,10 +1,6 @@
 {
   "id": "yu-p138a",
   "pick_number": "P-138a",
-  "country": {
-    "en": "Yugoslavia",
-    "es": "Yugoslavia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205288"
+  "numista": "https://en.numista.com/205288",
+  "country_code": "yu"
 }

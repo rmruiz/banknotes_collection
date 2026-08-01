@@ -1,10 +1,6 @@
 {
   "id": "ar-p368a",
   "pick_number": "P-368a",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 2000,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/366923"
+  "numista": "https://en.numista.com/366923",
+  "country_code": "ar"
 }

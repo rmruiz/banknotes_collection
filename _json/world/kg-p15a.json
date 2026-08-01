@@ -1,10 +1,6 @@
 {
   "id": "kg-p15a",
   "pick_number": "P-15a",
-  "country": {
-    "en": "Kyrgyzstan",
-    "es": "Kirguistán"
-  },
   "denomination": {
     "value": 1,
     "currency": "Som",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204850"
+  "numista": "https://en.numista.com/204850",
+  "country_code": "kg"
 }

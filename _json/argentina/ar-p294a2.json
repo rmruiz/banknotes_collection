@@ -1,10 +1,6 @@
 {
   "id": "ar-p294a2",
   "pick_number": "P-294a.2",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 5,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207836"
+  "numista": "https://en.numista.com/207836",
+  "country_code": "ar"
 }

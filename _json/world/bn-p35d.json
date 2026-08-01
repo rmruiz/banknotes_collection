@@ -1,10 +1,6 @@
 {
   "id": "bn-p35d",
   "pick_number": "P-35d",
-  "country": {
-    "en": "Brunei",
-    "es": "Brunei"
-  },
   "denomination": {
     "value": 1,
     "currency": "Ringgit",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/267582"
+  "numista": "https://en.numista.com/267582",
+  "country_code": "bn"
 }

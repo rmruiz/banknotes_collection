@@ -1,10 +1,6 @@
 {
   "id": "co-p407f2",
   "pick_number": "P-407f.2",
-  "country": {
-    "en": "Colombia",
-    "es": "Colombia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Pesos Oro",
@@ -38,5 +34,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/203973"
+  "numista": "https://en.numista.com/203973",
+  "country_code": "co"
 }

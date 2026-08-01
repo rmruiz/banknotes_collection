@@ -1,10 +1,6 @@
 {
   "id": "br-p195aa3",
   "pick_number": "P-195Aa.3",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 100,
     "currency": "Cruzeiros",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/205670"
+  "numista": "https://en.numista.com/205670",
+  "country_code": "br"
 }

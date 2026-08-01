@@ -1,10 +1,6 @@
 {
   "id": "co-p404e6",
   "pick_number": "P-404e.6",
-  "country": {
-    "en": "Colombia",
-    "es": "Colombia"
-  },
   "denomination": {
     "value": 1,
     "currency": "Peso Oro",
@@ -38,5 +34,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/205723"
+  "numista": "https://en.numista.com/205723",
+  "country_code": "co"
 }

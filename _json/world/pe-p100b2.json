@@ -1,10 +1,6 @@
 {
   "id": "pe-p100b2",
   "pick_number": "P-100b.2",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 10,
     "currency": "Soles de Oro",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202391"
+  "numista": "https://en.numista.com/202391",
+  "country_code": "pe"
 }

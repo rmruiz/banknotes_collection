@@ -1,10 +1,6 @@
 {
   "id": "fj-p111a",
   "pick_number": "P-111a",
-  "country": {
-    "en": "Fiji",
-    "es": "Fiyi"
-  },
   "denomination": {
     "value": 10,
     "currency": "Dólares",
@@ -14,7 +10,15 @@
   "year": 2007,
   "numista": "https://en.numista.com/230269",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "reina:reina_isabel_ii",
+    "arte:i_buburau_ni_bete",
+    "simbolo:escudo_de_fiji",
+    "construccion:grand_pacific_hotel",
+    "lugar:joskes_thumb",
+    "flora:palmeras",
+    "transporte:automoviles_antiguos"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/4645-10_Dollars-2007-2011_ND_Issue-Fiyi",
     "group": ""
@@ -31,8 +35,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "CA008235",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "fj"
 }

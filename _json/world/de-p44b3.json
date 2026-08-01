@@ -1,10 +1,6 @@
 {
   "id": "de-p44b3",
   "pick_number": "P-44b.3",
-  "country": {
-    "en": "Germany",
-    "es": "Alemania"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Marcos",
@@ -14,7 +10,16 @@
   "year": 1910,
   "numista": "https://en.numista.com/346780",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:aguila_imperial",
+    "simbolo:escudo_nacional",
+    "simbolo:corona",
+    "simbolo:sellos_rojos",
+    "personaje:navegacion",
+    "personaje:agricultura",
+    "personaje:puttos",
+    "flora:trigo"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/43594-1000_Mark-1910_Issue_-_Reichsbanknote_Imperial_Bank_Notes-Alemania",
     "group": ""
@@ -31,8 +36,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "9343805G",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "de"
 }

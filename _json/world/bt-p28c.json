@@ -1,10 +1,6 @@
 {
   "id": "bt-p28c",
   "pick_number": "P-28c",
-  "country": {
-    "en": "Bhutan",
-    "es": "Bután"
-  },
   "denomination": {
     "value": 5,
     "currency": "Ngultrum",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202782"
+  "numista": "https://en.numista.com/202782",
+  "country_code": "bt"
 }

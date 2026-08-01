@@ -1,10 +1,6 @@
 {
   "id": "tj-p6a",
   "pick_number": "P-6a",
-  "country": {
-    "en": "Tajikistan",
-    "es": "Tayikistán"
-  },
   "denomination": {
     "value": 100,
     "currency": "Rublos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203033"
+  "numista": "https://en.numista.com/203033",
+  "country_code": "tj"
 }

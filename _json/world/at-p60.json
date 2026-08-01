@@ -1,10 +1,6 @@
 {
   "id": "at-p60",
   "pick_number": "P-60",
-  "country": {
-    "en": "Austria",
-    "es": "Austria"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Coronas",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/205896"
+  "numista": "https://en.numista.com/205896",
+  "country_code": "at"
 }

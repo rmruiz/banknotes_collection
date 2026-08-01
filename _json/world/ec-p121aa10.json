@@ -1,10 +1,6 @@
 {
   "id": "ec-p121aa10",
   "pick_number": "P-121Aa.10",
-  "country": {
-    "en": "Ecuador",
-    "es": "Ecuador"
-  },
   "denomination": {
     "value": 20,
     "currency": "Sucres",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/209469"
+  "numista": "https://en.numista.com/209469",
+  "country_code": "ec"
 }

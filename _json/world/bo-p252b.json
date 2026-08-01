@@ -1,10 +1,6 @@
 {
   "id": "bo-p252b",
   "pick_number": "P-252b",
-  "country": {
-    "en": "Bolivia",
-    "es": "Bolivia"
-  },
   "denomination": {
     "value": 200,
     "currency": "Bolivianos",
@@ -42,5 +38,6 @@
       "serial_number": "050687231 A",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "bo"
 }

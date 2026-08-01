@@ -1,10 +1,6 @@
 {
   "id": "uz-p81a2",
   "pick_number": "P-81a.2",
-  "country": {
-    "en": "Uzbekistan",
-    "es": "Uzbekistán"
-  },
   "denomination": {
     "value": 500,
     "currency": "Soms",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203540"
+  "numista": "https://en.numista.com/203540",
+  "country_code": "uz"
 }

@@ -1,10 +1,6 @@
 {
   "id": "si-p11a",
   "pick_number": "P-11a",
-  "country": {
-    "en": "Slovenia",
-    "es": "Eslovenia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Tólares",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/204796"
+  "numista": "https://en.numista.com/204796",
+  "country_code": "si"
 }

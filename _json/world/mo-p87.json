@@ -1,10 +1,6 @@
 {
   "id": "mo-p87",
   "pick_number": "P-87",
-  "country": {
-    "en": "Macau (China)",
-    "es": "Macao (China)"
-  },
   "denomination": {
     "value": 10,
     "currency": "Patacas",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/210000"
+  "numista": "https://en.numista.com/210000",
+  "country_code": "mo"
 }

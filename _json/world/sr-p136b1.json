@@ -1,10 +1,6 @@
 {
   "id": "sr-p136b1",
   "pick_number": "P-136b.1",
-  "country": {
-    "en": "Suriname",
-    "es": "Surinam"
-  },
   "denomination": {
     "value": 5,
     "currency": "Florines",
@@ -14,7 +10,15 @@
   "year": 1995,
   "numista": "https://en.numista.com/204219",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "construccion:edificio_del_banco_central",
+    "lugar:paramaribo",
+    "fauna:tucan",
+    "transporte:camiones_madereros",
+    "actividad:tala_de_arboles",
+    "simbolo:escudo_de_armas",
+    "personaje:andre_telling"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/47984-5_Gulden-1991-1999_Issue-Surinam",
     "group": ""
@@ -31,8 +35,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "AE681924",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "sr"
 }

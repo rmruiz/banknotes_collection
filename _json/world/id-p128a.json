@@ -1,10 +1,6 @@
 {
   "id": "id-p128a",
   "pick_number": "P-128a",
-  "country": {
-    "en": "Indonesia",
-    "es": "Indonesia"
-  },
   "denomination": {
     "value": 500,
     "currency": "Rupias",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204387"
+  "numista": "https://en.numista.com/204387",
+  "country_code": "id"
 }

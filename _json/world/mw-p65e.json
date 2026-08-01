@@ -1,10 +1,6 @@
 {
   "id": "mw-p65e",
   "pick_number": "P-65e",
-  "country": {
-    "en": "Malawi",
-    "es": "Malaui"
-  },
   "denomination": {
     "value": 100,
     "currency": "Kwacha",
@@ -14,7 +10,15 @@
   "year": 2020,
   "numista": "https://en.numista.com/206156",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:james_frederick_sangala",
+    "construccion:sede_del_banco_de_reserva_de_malawi",
+    "construccion:colegio_de_medicina",
+    "fauna:nimbochromis_livingstonii",
+    "simbolo:estetoscopio",
+    "simbolo:logo_del_banco_de_reserva_de_malawi",
+    "lugar:malawi"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/123473-100_Kwacha-2014-2024_New_Blind_Features_Issue-Malawi",
     "group": ""
@@ -31,8 +35,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "CJ4600164",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "mw"
 }

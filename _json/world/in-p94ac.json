@@ -1,10 +1,6 @@
 {
   "id": "in-p94ac",
   "pick_number": "P-94Ac",
-  "country": {
-    "en": "India",
-    "es": "India"
-  },
   "denomination": {
     "value": 5,
     "currency": "Rupias",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202960"
+  "numista": "https://en.numista.com/202960",
+  "country_code": "in"
 }

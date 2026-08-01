@@ -1,10 +1,6 @@
 {
   "id": "gh-p46a",
   "pick_number": "P-46a",
-  "country": {
-    "en": "Ghana",
-    "es": "Ghana"
-  },
   "denomination": {
     "value": 5,
     "currency": "Cedis",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/235821"
+  "numista": "https://en.numista.com/235821",
+  "country_code": "gh"
 }

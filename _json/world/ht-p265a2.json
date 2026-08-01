@@ -1,10 +1,6 @@
 {
   "id": "ht-p265a2",
   "pick_number": "P-265a.2",
-  "country": {
-    "en": "Haiti",
-    "es": "Haití"
-  },
   "denomination": {
     "value": 10,
     "currency": "Gurdes",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/202748"
+  "numista": "https://en.numista.com/202748",
+  "country_code": "ht"
 }

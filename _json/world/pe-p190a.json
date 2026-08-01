@@ -1,10 +1,6 @@
 {
   "id": "pe-p190a",
   "pick_number": "P-190a",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 100,
     "currency": "Nuevos Soles",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/227011"
+  "numista": "https://en.numista.com/227011",
+  "country_code": "pe"
 }

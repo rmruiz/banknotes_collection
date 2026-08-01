@@ -1,10 +1,6 @@
 {
   "id": "af-p60b",
   "pick_number": "P-60b",
-  "country": {
-    "en": "Afghanistan",
-    "es": "Afganistán"
-  },
   "denomination": {
     "value": 500,
     "currency": "Afghanis",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://es.numista.com/202088"
+  "numista": "https://es.numista.com/202088",
+  "country_code": "af"
 }

@@ -1,10 +1,6 @@
 {
   "id": "pe-p129a",
   "pick_number": "P-129a",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 10,
     "currency": "Intis",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202812"
+  "numista": "https://en.numista.com/202812",
+  "country_code": "pe"
 }

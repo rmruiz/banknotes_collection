@@ -1,10 +1,6 @@
 {
   "id": "ug-p49a",
   "pick_number": "P-49a",
-  "country": {
-    "en": "Uganda",
-    "es": "Uganda"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Chelines",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203869"
+  "numista": "https://en.numista.com/203869",
+  "country_code": "ug"
 }

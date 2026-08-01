@@ -1,10 +1,6 @@
 {
   "id": "jm-p59b",
   "pick_number": "P-59b",
-  "country": {
-    "en": "Jamaica",
-    "es": "Jamaica"
-  },
   "denomination": {
     "value": 1,
     "currency": "Dólar",
@@ -38,5 +34,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/218679"
+  "numista": "https://en.numista.com/218679",
+  "country_code": "jm"
 }

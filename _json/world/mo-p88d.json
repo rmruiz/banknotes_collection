@@ -1,10 +1,6 @@
 {
   "id": "mo-p88d",
   "pick_number": "P-88D",
-  "country": {
-    "en": "Macau (China)",
-    "es": "Macao (China)"
-  },
   "denomination": {
     "value": 10,
     "currency": "Patacas",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/210022"
+  "numista": "https://en.numista.com/210022",
+  "country_code": "mo"
 }

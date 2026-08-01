@@ -1,10 +1,6 @@
 {
   "id": "tt-p42b",
   "pick_number": "P-42b",
-  "country": {
-    "en": "Trinidad and Tobago",
-    "es": "Trinidad y Tobago"
-  },
   "denomination": {
     "value": 5,
     "currency": "Dolar",
@@ -38,5 +34,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/216824"
+  "numista": "https://en.numista.com/216824",
+  "country_code": "tt"
 }

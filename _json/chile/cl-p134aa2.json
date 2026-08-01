@@ -1,10 +1,6 @@
 {
   "id": "cl-p134aa2",
   "pick_number": "P-134Aa.2",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 0.5,
     "currency": "Escudo",
@@ -40,5 +36,6 @@
       "condition": "AU"
     }
   ],
-  "numista": "https://en.numista.com/202813"
+  "numista": "https://en.numista.com/202813",
+  "country_code": "cl"
 }

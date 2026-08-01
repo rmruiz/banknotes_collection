@@ -1,10 +1,6 @@
 {
   "id": "ar-p358b3",
   "pick_number": "P-358b.3",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/206729"
+  "numista": "https://en.numista.com/206729",
+  "country_code": "ar"
 }

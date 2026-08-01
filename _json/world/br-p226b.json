@@ -1,10 +1,6 @@
 {
   "id": "br-p226b",
   "pick_number": "P-226b",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 500,
     "currency": "Cruzeiros",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202105"
+  "numista": "https://en.numista.com/202105",
+  "country_code": "br"
 }

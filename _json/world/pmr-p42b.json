@@ -1,10 +1,6 @@
 {
   "id": "pmr-p42b",
   "pick_number": "P-42b",
-  "country": {
-    "en": "Transnistria",
-    "es": "Transnistria"
-  },
   "denomination": {
     "value": 1,
     "currency": "Rublo",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203746"
+  "numista": "https://en.numista.com/203746",
+  "country_code": "pmr"
 }

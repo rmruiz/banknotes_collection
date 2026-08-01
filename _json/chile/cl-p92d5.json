@@ -1,10 +1,6 @@
 {
   "id": "cl-p92d5",
   "pick_number": "P-92d.5",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 10,
     "currency": "Pesos",
@@ -41,5 +37,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/232959"
+  "numista": "https://en.numista.com/232959",
+  "country_code": "cl"
 }

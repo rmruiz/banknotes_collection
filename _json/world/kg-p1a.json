@@ -1,10 +1,6 @@
 {
   "id": "kg-p1a",
   "pick_number": "P-1a",
-  "country": {
-    "en": "Kyrgyzstan",
-    "es": "Kirguistán"
-  },
   "denomination": {
     "value": 1,
     "currency": "Tyiyn",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201684"
+  "numista": "https://en.numista.com/201684",
+  "country_code": "kg"
 }

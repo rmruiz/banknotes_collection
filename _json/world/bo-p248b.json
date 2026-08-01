@@ -1,10 +1,6 @@
 {
   "id": "bo-p248b",
   "pick_number": "P-248b",
-  "country": {
-    "en": "Bolivia",
-    "es": "Bolivia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Bolivianos",
@@ -42,5 +38,6 @@
       "serial_number": "322205110 A",
       "condition": "XF"
     }
-  ]
+  ],
+  "country_code": "bo"
 }

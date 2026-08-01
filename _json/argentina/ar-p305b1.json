@@ -1,10 +1,6 @@
 {
   "id": "ar-p305b1",
   "pick_number": "P-305b.1",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203700"
+  "numista": "https://en.numista.com/203700",
+  "country_code": "ar"
 }

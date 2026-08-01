@@ -1,10 +1,6 @@
 {
   "id": "mx-p134b2",
   "pick_number": "P-134b.2",
-  "country": {
-    "en": "Mexico",
-    "es": "México"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/244911"
+  "numista": "https://en.numista.com/244911",
+  "country_code": "mx"
 }

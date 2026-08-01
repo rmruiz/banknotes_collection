@@ -1,10 +1,6 @@
 {
   "id": "lb-p92b",
   "pick_number": "P-92b",
-  "country": {
-    "en": "Lebanon",
-    "es": "Líbano"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Libras",
@@ -14,7 +10,10 @@
   "year": 2014,
   "numista": "https://en.numista.com/216093",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "flora:cedro_del_libano",
+    "construccion:monumento_a_los_martires"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/67089-10000_Livres-2011-2025_Issue-L%C3%ADbano",
     "group": ""
@@ -31,8 +30,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "B/05 6583946",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "lb"
 }

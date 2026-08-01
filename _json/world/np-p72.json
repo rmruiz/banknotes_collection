@@ -1,10 +1,6 @@
 {
   "id": "np-p72",
   "pick_number": "P-72",
-  "country": {
-    "en": "Nepal",
-    "es": "Nepal"
-  },
   "denomination": {
     "value": 50,
     "currency": "Rupias",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204713"
+  "numista": "https://en.numista.com/204713",
+  "country_code": "np"
 }

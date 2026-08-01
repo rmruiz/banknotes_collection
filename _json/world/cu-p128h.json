@@ -1,10 +1,6 @@
 {
   "id": "cu-p128h",
   "pick_number": "P-128h",
-  "country": {
-    "en": "Cuba",
-    "es": "Cuba"
-  },
   "denomination": {
     "value": 1,
     "currency": "Peso",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207017"
+  "numista": "https://en.numista.com/207017",
+  "country_code": "cu"
 }

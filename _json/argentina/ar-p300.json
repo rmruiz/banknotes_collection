@@ -1,10 +1,6 @@
 {
   "id": "ar-p300",
   "pick_number": "P-300",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 10,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203680"
+  "numista": "https://en.numista.com/203680",
+  "country_code": "ar"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ni-p211a",
   "pick_number": "P-211a",
-  "country": {
-    "en": "Nicaragua",
-    "es": "Nicaragua"
-  },
   "denomination": {
     "value": 50,
     "currency": "Córdobas",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208467"
+  "numista": "https://en.numista.com/208467",
+  "country_code": "ni"
 }

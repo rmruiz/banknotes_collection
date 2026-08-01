@@ -1,10 +1,6 @@
 {
   "id": "bz-p66f",
   "pick_number": "P-66f",
-  "country": {
-    "en": "Belize",
-    "es": "Belice"
-  },
   "denomination": {
     "value": 2,
     "currency": "Dólares",
@@ -42,5 +38,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/228840"
+  "numista": "https://en.numista.com/228840",
+  "country_code": "bz"
 }

@@ -1,10 +1,6 @@
 {
   "id": "cw-p28h",
   "pick_number": "P-28h",
-  "country": {
-    "en": "Curaçao",
-    "es": "Curazao"
-  },
   "denomination": {
     "value": 10,
     "currency": "Florines",
@@ -36,5 +32,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/206515"
+  "numista": "https://en.numista.com/206515",
+  "country_code": "cw"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ua-p118e",
   "pick_number": "P-118e",
-  "country": {
-    "en": "Ukraine",
-    "es": "Ucrania"
-  },
   "denomination": {
     "value": 5,
     "currency": "Grivnas",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202690"
+  "numista": "https://en.numista.com/202690",
+  "country_code": "ua"
 }

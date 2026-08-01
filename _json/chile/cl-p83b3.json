@@ -1,10 +1,6 @@
 {
   "id": "cl-p83b3",
   "pick_number": "P-83b.3",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 10,
     "currency": "Pesos",
@@ -40,5 +36,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/289940"
+  "numista": "https://en.numista.com/289940",
+  "country_code": "cl"
 }

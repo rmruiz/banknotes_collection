@@ -1,10 +1,6 @@
 {
   "id": "vn-p119j",
   "pick_number": "P-119j",
-  "country": {
-    "en": "Vietnam",
-    "es": "Vietnam"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Dongs",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203627"
+  "numista": "https://en.numista.com/203627",
+  "country_code": "vn"
 }

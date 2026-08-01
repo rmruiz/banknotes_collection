@@ -1,10 +1,6 @@
 {
   "id": "ar-p357a6",
   "pick_number": "P-357a.6",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/203840"
+  "numista": "https://en.numista.com/203840",
+  "country_code": "ar"
 }

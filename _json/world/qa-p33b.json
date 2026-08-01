@@ -1,10 +1,6 @@
 {
   "id": "qa-p33b",
   "pick_number": "P-33b",
-  "country": {
-    "en": "Qatar",
-    "es": "Qatar"
-  },
   "denomination": {
     "value": 5,
     "currency": "Riales",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/258989"
+  "numista": "https://en.numista.com/258989",
+  "country_code": "qa"
 }

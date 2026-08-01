@@ -1,10 +1,6 @@
 {
   "id": "eg-p74e22",
   "pick_number": "P-74e.22",
-  "country": {
-    "en": "Egypt",
-    "es": "Egipto"
-  },
   "denomination": {
     "value": 20,
     "currency": "Libras",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/212973"
+  "numista": "https://en.numista.com/212973",
+  "country_code": "eg"
 }

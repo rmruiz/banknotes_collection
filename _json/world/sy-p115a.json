@@ -1,10 +1,6 @@
 {
   "id": "sy-p115a",
   "pick_number": "P-115a",
-  "country": {
-    "en": "Syria",
-    "es": "Siria"
-  },
   "denomination": {
     "value": 500,
     "currency": "Libras",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/212584"
+  "numista": "https://en.numista.com/212584",
+  "country_code": "sy"
 }

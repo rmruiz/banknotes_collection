@@ -1,10 +1,6 @@
 {
   "id": "et-p48e",
   "pick_number": "P-48e",
-  "country": {
-    "en": "Ethiopia",
-    "es": "Etiopía"
-  },
   "denomination": {
     "value": 10,
     "currency": "Birr",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205849"
+  "numista": "https://en.numista.com/205849",
+  "country_code": "et"
 }

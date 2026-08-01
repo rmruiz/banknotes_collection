@@ -1,10 +1,6 @@
 {
   "id": "ve-p67f",
   "pick_number": "P-67f",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 500,
     "currency": "Bolívares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205325"
+  "numista": "https://en.numista.com/205325",
+  "country_code": "ve"
 }

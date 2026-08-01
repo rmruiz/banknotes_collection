@@ -1,10 +1,6 @@
 {
   "id": "yu-p119a",
   "pick_number": "P-119a",
-  "country": {
-    "en": "Yugoslavia",
-    "es": "Yugoslavia"
-  },
   "denomination": {
     "value": 500000,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/205352"
+  "numista": "https://en.numista.com/205352",
+  "country_code": "yu"
 }

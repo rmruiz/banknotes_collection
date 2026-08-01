@@ -1,10 +1,6 @@
 {
   "id": "ar-p270a2",
   "pick_number": "P-270a.2",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 10,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://es.numista.com/203860"
+  "numista": "https://es.numista.com/203860",
+  "country_code": "ar"
 }

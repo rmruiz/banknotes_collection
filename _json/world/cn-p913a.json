@@ -1,10 +1,6 @@
 {
   "id": "cn-p913a",
   "pick_number": "P-913a",
-  "country": {
-    "en": "China",
-    "es": "China"
-  },
   "denomination": {
     "value": 5,
     "currency": "Yuan",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/243357"
+  "numista": "https://en.numista.com/243357",
+  "country_code": "cn"
 }

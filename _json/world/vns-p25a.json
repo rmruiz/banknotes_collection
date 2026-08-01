@@ -1,10 +1,6 @@
 {
   "id": "vns-p25a",
   "pick_number": "P-25a",
-  "country": {
-    "en": "South Vietnam",
-    "es": "Vietnam del Sur"
-  },
   "denomination": {
     "value": 50,
     "currency": "Dongs",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208323"
+  "numista": "https://en.numista.com/208323",
+  "country_code": "vns"
 }

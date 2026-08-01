@@ -1,10 +1,6 @@
 {
   "id": "eu-p21e",
   "pick_number": "P-21e",
-  "country": {
-    "en": "European Union",
-    "es": "Unión Europea"
-  },
   "denomination": {
     "value": 10,
     "currency": "Euros",
@@ -38,5 +34,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/204879"
+  "numista": "https://en.numista.com/204879",
+  "country_code": "eu"
 }

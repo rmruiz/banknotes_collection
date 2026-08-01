@@ -1,10 +1,6 @@
 {
   "id": "se-p64c",
   "pick_number": "P-64c",
-  "country": {
-    "en": "Sweden",
-    "es": "Suecia"
-  },
   "denomination": {
     "value": 50,
     "currency": "Coronas",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205678"
+  "numista": "https://en.numista.com/205678",
+  "country_code": "se"
 }

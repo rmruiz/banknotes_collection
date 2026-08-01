@@ -1,10 +1,6 @@
 {
   "id": "ar-p319a",
   "pick_number": "P-319a",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/222523"
+  "numista": "https://en.numista.com/222523",
+  "country_code": "ar"
 }

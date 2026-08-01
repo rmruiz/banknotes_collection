@@ -1,10 +1,6 @@
 {
   "id": "pl-p142c2",
   "pick_number": "P-142c.2",
-  "country": {
-    "en": "Poland",
-    "es": "Polonia"
-  },
   "denomination": {
     "value": 50,
     "currency": "Zlotys",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203924"
+  "numista": "https://en.numista.com/203924",
+  "country_code": "pl"
 }

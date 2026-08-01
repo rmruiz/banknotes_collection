@@ -1,10 +1,6 @@
 {
   "id": "ar-p297a2",
   "pick_number": "P-297a.2",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207846"
+  "numista": "https://en.numista.com/207846",
+  "country_code": "ar"
 }

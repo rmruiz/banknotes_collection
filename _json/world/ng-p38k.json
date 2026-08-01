@@ -1,10 +1,6 @@
 {
   "id": "ng-p38k",
   "pick_number": "P-38k",
-  "country": {
-    "en": "Nigeria",
-    "es": "Nigeria"
-  },
   "denomination": {
     "value": 5,
     "currency": "Naira",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204640"
+  "numista": "https://en.numista.com/204640",
+  "country_code": "ng"
 }

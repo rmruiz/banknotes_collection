@@ -1,10 +1,6 @@
 {
   "id": "ua-p117d",
   "pick_number": "P-117d",
-  "country": {
-    "en": "Ukraine",
-    "es": "Ucrania"
-  },
   "denomination": {
     "value": 2,
     "currency": "Grivnas",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202693"
+  "numista": "https://en.numista.com/202693",
+  "country_code": "ua"
 }

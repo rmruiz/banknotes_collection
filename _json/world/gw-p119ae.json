@@ -1,10 +1,6 @@
 {
   "id": "gw-p119ae",
   "pick_number": "P-119Ae",
-  "country": {
-    "en": "Guinea-Bissau",
-    "es": "Guinea-Bisáu"
-  },
   "denomination": {
     "value": 500,
     "currency": "Francos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203873"
+  "numista": "https://en.numista.com/203873",
+  "country_code": "gw"
 }

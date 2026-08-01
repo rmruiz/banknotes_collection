@@ -1,10 +1,6 @@
 {
   "id": "mn-p62f",
   "pick_number": "P-62f",
-  "country": {
-    "en": "Mongolia",
-    "es": "Mongolia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Tugrik - Tögrög",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203122"
+  "numista": "https://en.numista.com/203122",
+  "country_code": "mn"
 }

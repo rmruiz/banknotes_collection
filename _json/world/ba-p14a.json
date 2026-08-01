@@ -1,10 +1,6 @@
 {
   "id": "ba-p14a",
   "pick_number": "P-14a",
-  "country": {
-    "en": "Bosnia and Herzegovina",
-    "es": "Bosnia y Herzegovina"
-  },
   "denomination": {
     "value": 500,
     "currency": "Dinar",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204470"
+  "numista": "https://en.numista.com/204470",
+  "country_code": "ba"
 }

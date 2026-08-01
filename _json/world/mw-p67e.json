@@ -1,10 +1,6 @@
 {
   "id": "mw-p67e",
   "pick_number": "P-67e",
-  "country": {
-    "en": "Malawi",
-    "es": "Malaui"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Kwacha",
@@ -42,5 +38,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/320785"
+  "numista": "https://en.numista.com/320785",
+  "country_code": "mw"
 }

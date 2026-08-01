@@ -1,10 +1,6 @@
 {
   "id": "cv-p71a",
   "pick_number": "P-71a",
-  "country": {
-    "en": "Cape Verde",
-    "es": "Cabo Verde"
-  },
   "denomination": {
     "value": 200,
     "currency": "Escudos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204777"
+  "numista": "https://en.numista.com/204777",
+  "country_code": "cv"
 }

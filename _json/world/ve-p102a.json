@@ -1,10 +1,6 @@
 {
   "id": "ve-p102a",
   "pick_number": "P-102a",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 5,
     "currency": "Bolívares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208164"
+  "numista": "https://en.numista.com/208164",
+  "country_code": "ve"
 }

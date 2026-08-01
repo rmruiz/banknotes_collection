@@ -1,10 +1,6 @@
 {
   "id": "cl-p161k",
   "pick_number": "P-161k",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Pesos",
@@ -41,5 +37,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202327"
+  "numista": "https://en.numista.com/202327",
+  "country_code": "cl"
 }

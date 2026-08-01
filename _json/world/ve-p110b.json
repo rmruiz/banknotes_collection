@@ -1,10 +1,6 @@
 {
   "id": "ve-p110b",
   "pick_number": "P-110b",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 20000,
     "currency": "Bolivares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/216017"
+  "numista": "https://en.numista.com/216017",
+  "country_code": "ve"
 }

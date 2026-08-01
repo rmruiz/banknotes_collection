@@ -1,10 +1,6 @@
 {
   "id": "vn-p121l",
   "pick_number": "P-121l",
-  "country": {
-    "en": "Vietnam",
-    "es": "Vietnam"
-  },
   "denomination": {
     "value": 50000,
     "currency": "Dongs",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204745"
+  "numista": "https://en.numista.com/204745",
+  "country_code": "vn"
 }

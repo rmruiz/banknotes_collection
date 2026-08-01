@@ -1,10 +1,6 @@
 {
   "id": "ve-p108b",
   "pick_number": "P-108b",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 500,
     "currency": "Bolívares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208170"
+  "numista": "https://en.numista.com/208170",
+  "country_code": "ve"
 }

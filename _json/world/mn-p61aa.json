@@ -1,10 +1,6 @@
 {
   "id": "mn-p61aa",
   "pick_number": "P-61Aa",
-  "country": {
-    "en": "Mongolia",
-    "es": "Mongolia"
-  },
   "denomination": {
     "value": 1,
     "currency": "Tugrik - Tögrög",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203108"
+  "numista": "https://en.numista.com/203108",
+  "country_code": "mn"
 }

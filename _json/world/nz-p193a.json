@@ -1,10 +1,6 @@
 {
   "id": "nz-p193a",
   "pick_number": "P-193a",
-  "country": {
-    "en": "New Zealand",
-    "es": "Nueva Zelanda"
-  },
   "denomination": {
     "value": 20,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/210533"
+  "numista": "https://en.numista.com/210533",
+  "country_code": "nz"
 }

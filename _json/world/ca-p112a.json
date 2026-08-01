@@ -1,10 +1,6 @@
 {
   "id": "ca-p112a",
   "pick_number": "P-112a",
-  "country": {
-    "en": "Canada",
-    "es": "Canadá"
-  },
   "denomination": {
     "value": 10,
     "currency": "Dólares",
@@ -40,5 +36,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/201753"
+  "numista": "https://en.numista.com/201753",
+  "country_code": "ca"
 }

@@ -1,10 +1,6 @@
 {
   "id": "so-pr2a2",
   "pick_number": "P-R2a.2",
-  "country": {
-    "en": "Somalia",
-    "es": "Somalia"
-  },
   "denomination": {
     "value": 50,
     "currency": "Chelines",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206537"
+  "numista": "https://en.numista.com/206537",
+  "country_code": "so"
 }

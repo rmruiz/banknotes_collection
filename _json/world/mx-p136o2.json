@@ -1,10 +1,6 @@
 {
   "id": "mx-p136o2",
   "pick_number": "P-136o.2",
-  "country": {
-    "en": "Mexico",
-    "es": "México"
-  },
   "denomination": {
     "value": 500,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/212863"
+  "numista": "https://en.numista.com/212863",
+  "country_code": "mx"
 }

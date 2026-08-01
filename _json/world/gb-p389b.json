@@ -1,10 +1,6 @@
 {
   "id": "gb-p389b",
   "pick_number": "P-389b",
-  "country": {
-    "en": "Great Britain",
-    "es": "Gran Bretaña"
-  },
   "denomination": {
     "value": 10,
     "currency": "Libras Esterlinas",
@@ -39,5 +35,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/202179"
+  "numista": "https://en.numista.com/202179",
+  "country_code": "gb"
 }

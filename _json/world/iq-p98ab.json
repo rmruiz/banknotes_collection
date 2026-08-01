@@ -1,10 +1,6 @@
 {
   "id": "iq-p98ab",
   "pick_number": "P-98Ab",
-  "country": {
-    "en": "Iraq",
-    "es": "Irak"
-  },
   "denomination": {
     "value": 500,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/242104"
+  "numista": "https://en.numista.com/242104",
+  "country_code": "iq"
 }

@@ -1,10 +1,6 @@
 {
   "id": "ar-p314a2",
   "pick_number": "P-314a.2",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 50,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203787"
+  "numista": "https://en.numista.com/203787",
+  "country_code": "ar"
 }

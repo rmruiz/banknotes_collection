@@ -1,10 +1,6 @@
 {
   "id": "rw-p40a",
   "pick_number": "P-40a",
-  "country": {
-    "en": "Rwanda",
-    "es": "Ruanda"
-  },
   "denomination": {
     "value": 2000,
     "currency": "Francos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/211064"
+  "numista": "https://en.numista.com/211064",
+  "country_code": "rw"
 }

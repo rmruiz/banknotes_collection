@@ -1,10 +1,6 @@
 {
   "id": "br-p200a",
   "pick_number": "P-200a",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 500,
     "currency": "Cruzeiros",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/205673"
+  "numista": "https://en.numista.com/205673",
+  "country_code": "br"
 }

@@ -1,0 +1,1812 @@
+{
+  "ab": {
+    "code": "ab",
+    "iso_alpha2": "AB",
+    "name": {
+      "es": "Abjasia",
+      "en": "Abkhazia"
+    },
+    "flag": "FLAG_ABJASIA.jpg",
+    "folder": "world"
+  },
+  "af": {
+    "code": "af",
+    "iso_alpha2": "AF",
+    "name": {
+      "es": "Afganistán",
+      "en": "Afghanistan"
+    },
+    "flag": "FLAG_AFGANISTAN.jpg",
+    "folder": "world"
+  },
+  "al": {
+    "code": "al",
+    "iso_alpha2": "AL",
+    "name": {
+      "es": "Albania",
+      "en": "Albania"
+    },
+    "flag": "FLAG_ALBANIA.jpg",
+    "folder": "world"
+  },
+  "de": {
+    "code": "de",
+    "iso_alpha2": "DE",
+    "name": {
+      "es": "Alemania",
+      "en": "Germany"
+    },
+    "flag": "FLAG_ALEMANIA.jpg",
+    "folder": "world"
+  },
+  "ao": {
+    "code": "ao",
+    "iso_alpha2": "AO",
+    "name": {
+      "es": "Angola",
+      "en": "Angola"
+    },
+    "flag": "FLAG_ANGOLA.jpg",
+    "folder": "world"
+  },
+  "sa": {
+    "code": "sa",
+    "iso_alpha2": "SA",
+    "name": {
+      "es": "Arabia Saudí",
+      "en": "Saudi Arabia"
+    },
+    "flag": "FLAG_ARABIA.SAUDI.jpg",
+    "folder": "world"
+  },
+  "dz": {
+    "code": "dz",
+    "iso_alpha2": "DZ",
+    "name": {
+      "es": "Argelia",
+      "en": "Algeria"
+    },
+    "flag": "FLAG_ARGELIA.jpg",
+    "folder": "world"
+  },
+  "ar": {
+    "code": "ar",
+    "iso_alpha2": "AR",
+    "name": {
+      "es": "Argentina",
+      "en": "Argentina"
+    },
+    "flag": "FLAG_ARGENTINA.jpg",
+    "folder": "argentina"
+  },
+  "am": {
+    "code": "am",
+    "iso_alpha2": "AM",
+    "name": {
+      "es": "Armenia",
+      "en": "Armenia"
+    },
+    "flag": "FLAG_ARMENIA.jpg",
+    "folder": "world"
+  },
+  "aw": {
+    "code": "aw",
+    "iso_alpha2": "AW",
+    "name": {
+      "es": "Aruba",
+      "en": "Aruba"
+    },
+    "flag": "FLAG_ARUBA.jpg",
+    "folder": "world"
+  },
+  "au": {
+    "code": "au",
+    "iso_alpha2": "AU",
+    "name": {
+      "es": "Australia",
+      "en": "Australia"
+    },
+    "flag": "FLAG_AUSTRALIA.jpg",
+    "folder": "world"
+  },
+  "at": {
+    "code": "at",
+    "iso_alpha2": "AT",
+    "name": {
+      "es": "Austria",
+      "en": "Austria"
+    },
+    "flag": "FLAG_AUSTRIA.jpg",
+    "folder": "world"
+  },
+  "az": {
+    "code": "az",
+    "iso_alpha2": "AZ",
+    "name": {
+      "es": "Azerbaiyán",
+      "en": "Azerbaijan"
+    },
+    "flag": "FLAG_AZERBAIYAN.jpg",
+    "folder": "world"
+  },
+  "bs": {
+    "code": "bs",
+    "iso_alpha2": "BS",
+    "name": {
+      "es": "Bahamas",
+      "en": "Bahamas"
+    },
+    "flag": "FLAG_BAHAMAS.jpg",
+    "folder": "world"
+  },
+  "bh": {
+    "code": "bh",
+    "iso_alpha2": "BH",
+    "name": {
+      "es": "Baréin",
+      "en": "Bahrain"
+    },
+    "flag": "FLAG_BAREIN.jpg",
+    "folder": "world"
+  },
+  "je": {
+    "code": "je",
+    "iso_alpha2": "JE",
+    "name": {
+      "es": "Bailía de Jersey",
+      "en": "Bailiwick of Jersey"
+    },
+    "flag": "FLAG_BAILIA.DE.JERSEY.jpg",
+    "folder": "world"
+  },
+  "bd": {
+    "code": "bd",
+    "iso_alpha2": "BD",
+    "name": {
+      "es": "Bangladesh",
+      "en": "Bangladesh"
+    },
+    "flag": "FLAG_BANGLADESH.jpg",
+    "folder": "world"
+  },
+  "bb": {
+    "code": "bb",
+    "iso_alpha2": "BB",
+    "name": {
+      "es": "Barbados",
+      "en": "Barbados"
+    },
+    "flag": "FLAG_BARBADOS.jpg",
+    "folder": "world"
+  },
+  "be": {
+    "code": "be",
+    "iso_alpha2": "BE",
+    "name": {
+      "es": "Bélgica",
+      "en": "Belgium"
+    },
+    "flag": "FLAG_BELGICA.jpg",
+    "folder": "world"
+  },
+  "bz": {
+    "code": "bz",
+    "iso_alpha2": "BZ",
+    "name": {
+      "es": "Belice",
+      "en": "Belize"
+    },
+    "flag": "FLAG_BELICE.jpg",
+    "folder": "world"
+  },
+  "bm": {
+    "code": "bm",
+    "iso_alpha2": "BM",
+    "name": {
+      "es": "Bermuda",
+      "en": "Bermuda"
+    },
+    "flag": "FLAG_BERMUDA.jpg",
+    "folder": "world"
+  },
+  "bia": {
+    "code": "bia",
+    "iso_alpha2": null,
+    "name": {
+      "es": "Biafra",
+      "en": "Biafra"
+    },
+    "flag": "FLAG_BIAFRA.jpg",
+    "folder": "world"
+  },
+  "by": {
+    "code": "by",
+    "iso_alpha2": "BY",
+    "name": {
+      "es": "Bielorrusia",
+      "en": "Belarus"
+    },
+    "flag": "FLAG_BIELORRUSIA.jpg",
+    "folder": "world"
+  },
+  "mm": {
+    "code": "mm",
+    "iso_alpha2": "MM",
+    "name": {
+      "es": "Birmania",
+      "en": "Myanmar"
+    },
+    "flag": "FLAG_BIRMANIA.jpg",
+    "folder": "world"
+  },
+  "bo": {
+    "code": "bo",
+    "iso_alpha2": "BO",
+    "name": {
+      "es": "Bolivia",
+      "en": "Bolivia"
+    },
+    "flag": "FLAG_BOLIVIA.jpg",
+    "folder": "world"
+  },
+  "bw": {
+    "code": "bw",
+    "iso_alpha2": "BW",
+    "name": {
+      "es": "Botswana",
+      "en": "Botswana"
+    },
+    "flag": "FLAG_BOTSWANA.jpg",
+    "folder": "world"
+  },
+  "ba": {
+    "code": "ba",
+    "iso_alpha2": "BA",
+    "name": {
+      "es": "Bosnia y Herzegovina",
+      "en": "Bosnia and Herzegovina"
+    },
+    "flag": "FLAG_BOZNIA.Y.HERZEGOVINA.jpg",
+    "folder": "world"
+  },
+  "br": {
+    "code": "br",
+    "iso_alpha2": "BR",
+    "name": {
+      "es": "Brasil",
+      "en": "Brazil"
+    },
+    "flag": "FLAG_BRASIL.jpg",
+    "folder": "world"
+  },
+  "bn": {
+    "code": "bn",
+    "iso_alpha2": "BN",
+    "name": {
+      "es": "Brunei",
+      "en": "Brunei"
+    },
+    "flag": "FLAG_BRUNEI.jpg",
+    "folder": "world"
+  },
+  "bg": {
+    "code": "bg",
+    "iso_alpha2": "BG",
+    "name": {
+      "es": "Bulgaria",
+      "en": "Bulgaria"
+    },
+    "flag": "FLAG_BULGARIA.jpg",
+    "folder": "world"
+  },
+  "bi": {
+    "code": "bi",
+    "iso_alpha2": "BI",
+    "name": {
+      "es": "Burundi",
+      "en": "Burundi"
+    },
+    "flag": "FLAG_BURUNDI.jpg",
+    "folder": "world"
+  },
+  "bt": {
+    "code": "bt",
+    "iso_alpha2": "BT",
+    "name": {
+      "es": "Bután",
+      "en": "Bhutan"
+    },
+    "flag": "FLAG_BUTAN.jpg",
+    "folder": "world"
+  },
+  "cv": {
+    "code": "cv",
+    "iso_alpha2": "CV",
+    "name": {
+      "es": "Cabo Verde",
+      "en": "Cape Verde"
+    },
+    "flag": "FLAG_CABO.VERDE.jpg",
+    "folder": "world"
+  },
+  "kh": {
+    "code": "kh",
+    "iso_alpha2": "KH",
+    "name": {
+      "es": "Camboya",
+      "en": "Cambodia"
+    },
+    "flag": "FLAG_CAMBOYA.jpg",
+    "folder": "world"
+  },
+  "ca": {
+    "code": "ca",
+    "iso_alpha2": "CA",
+    "name": {
+      "es": "Canadá",
+      "en": "Canada"
+    },
+    "flag": "FLAG_CANADA.jpg",
+    "folder": "world"
+  },
+  "cl": {
+    "code": "cl",
+    "iso_alpha2": "CL",
+    "name": {
+      "es": "Chile",
+      "en": "Chile"
+    },
+    "flag": "FLAG_CHILE.jpg",
+    "folder": "chile"
+  },
+  "cn": {
+    "code": "cn",
+    "iso_alpha2": "CN",
+    "name": {
+      "es": "China",
+      "en": "China"
+    },
+    "flag": "FLAG_CHINA.jpg",
+    "folder": "world"
+  },
+  "cy": {
+    "code": "cy",
+    "iso_alpha2": "CY",
+    "name": {
+      "es": "Chipre",
+      "en": "Cyprus"
+    },
+    "flag": "FLAG_CHIPRE.jpg",
+    "folder": "world"
+  },
+  "co": {
+    "code": "co",
+    "iso_alpha2": "CO",
+    "name": {
+      "es": "Colombia",
+      "en": "Colombia"
+    },
+    "flag": "FLAG_COLOMBIA.jpg",
+    "folder": "world"
+  },
+  "km": {
+    "code": "km",
+    "iso_alpha2": "KM",
+    "name": {
+      "es": "Comoras",
+      "en": "Comoros"
+    },
+    "flag": "FLAG_COMORAS.jpg",
+    "folder": "world"
+  },
+  "kor": {
+    "code": "kor",
+    "iso_alpha2": null,
+    "name": {
+      "es": "Corea",
+      "en": "Korea"
+    },
+    "flag": "FLAG_COREA.jpg",
+    "folder": "world"
+  },
+  "kp": {
+    "code": "kp",
+    "iso_alpha2": "KP",
+    "name": {
+      "es": "Corea del Norte",
+      "en": "North Korea"
+    },
+    "flag": "FLAG_COREA.DEL.NORTE.jpg",
+    "folder": "world"
+  },
+  "kr": {
+    "code": "kr",
+    "iso_alpha2": "KR",
+    "name": {
+      "es": "Corea del Sur",
+      "en": "South Korea"
+    },
+    "flag": "FLAG_COREA.DEL.SUR.jpg",
+    "folder": "world"
+  },
+  "cr": {
+    "code": "cr",
+    "iso_alpha2": "CR",
+    "name": {
+      "es": "Costa Rica",
+      "en": "Costa Rica"
+    },
+    "flag": "FLAG_COSTA.RICA.jpg",
+    "folder": "world"
+  },
+  "hr": {
+    "code": "hr",
+    "iso_alpha2": "HR",
+    "name": {
+      "es": "Croacia",
+      "en": "Croatia"
+    },
+    "flag": "FLAG_CROACIA.jpg",
+    "folder": "world"
+  },
+  "cu": {
+    "code": "cu",
+    "iso_alpha2": "CU",
+    "name": {
+      "es": "Cuba",
+      "en": "Cuba"
+    },
+    "flag": "FLAG_CUBA.jpg",
+    "folder": "world"
+  },
+  "cw": {
+    "code": "cw",
+    "iso_alpha2": "CW",
+    "name": {
+      "es": "Curazao",
+      "en": "Curaçao"
+    },
+    "flag": "FLAG_CURAZAO.jpg",
+    "folder": "world"
+  },
+  "cwsx": {
+    "code": "cwsx",
+    "iso_alpha2": null,
+    "name": {
+      "es": "Curazao y San Martín",
+      "en": "Curaçao and Sint Maarten"
+    },
+    "flag": "FLAG_CURAZAO.Y.SAN.MARTIN.jpg",
+    "folder": "world"
+  },
+  "dk": {
+    "code": "dk",
+    "iso_alpha2": "DK",
+    "name": {
+      "es": "Dinamarca",
+      "en": "Denmark"
+    },
+    "flag": "FLAG_DINAMARCA.jpg",
+    "folder": "world"
+  },
+  "ec": {
+    "code": "ec",
+    "iso_alpha2": "EC",
+    "name": {
+      "es": "Ecuador",
+      "en": "Ecuador"
+    },
+    "flag": "FLAG_ECUADOR.jpg",
+    "folder": "world"
+  },
+  "eg": {
+    "code": "eg",
+    "iso_alpha2": "EG",
+    "name": {
+      "es": "Egipto",
+      "en": "Egypt"
+    },
+    "flag": "FLAG_EGIPTO.jpg",
+    "folder": "world"
+  },
+  "cd": {
+    "code": "cd",
+    "iso_alpha2": "CD",
+    "name": {
+      "es": "El Congo",
+      "en": "Democratic Republic of the Congo"
+    },
+    "flag": "FLAG_EL.CONGO.jpg",
+    "folder": "world"
+  },
+  "ae": {
+    "code": "ae",
+    "iso_alpha2": "AE",
+    "name": {
+      "es": "Emiratos Árabes",
+      "en": "United Arab Emirates"
+    },
+    "flag": "FLAG_EMIRATOS.ARABES.jpg",
+    "folder": "world"
+  },
+  "er": {
+    "code": "er",
+    "iso_alpha2": "ER",
+    "name": {
+      "es": "Eritrea",
+      "en": "Eritrea"
+    },
+    "flag": "FLAG_ERITREA.jpg",
+    "folder": "world"
+  },
+  "sct": {
+    "code": "sct",
+    "iso_alpha2": null,
+    "name": {
+      "es": "Escocia",
+      "en": "Scotland"
+    },
+    "flag": "FLAG_ESCOCIA.jpg",
+    "folder": "world"
+  },
+  "si": {
+    "code": "si",
+    "iso_alpha2": "SI",
+    "name": {
+      "es": "Eslovenia",
+      "en": "Slovenia"
+    },
+    "flag": "FLAG_ESLOVENIA.jpg",
+    "folder": "world"
+  },
+  "es": {
+    "code": "es",
+    "iso_alpha2": "ES",
+    "name": {
+      "es": "España",
+      "en": "Spain"
+    },
+    "flag": "FLAG_ESPAÑA.jpg",
+    "folder": "world"
+  },
+  "us": {
+    "code": "us",
+    "iso_alpha2": "US",
+    "name": {
+      "es": "Estados Unidos",
+      "en": "United States"
+    },
+    "flag": "FLAG_ESTADOS.UNIDOS.jpg",
+    "folder": "usa"
+  },
+  "xcd": {
+    "code": "xcd",
+    "iso_alpha2": null,
+    "name": {
+      "es": "Estados del Caribe Oriental",
+      "en": "Eastern Caribbean States"
+    },
+    "flag": "FLAG_ESTADOS.DEL.CARIBE.ORIENTAL.jpg",
+    "folder": "world"
+  },
+  "ee": {
+    "code": "ee",
+    "iso_alpha2": "EE",
+    "name": {
+      "es": "Estonia",
+      "en": "Estonia"
+    },
+    "flag": "FLAG_ESTONIA.jpg",
+    "folder": "world"
+  },
+  "et": {
+    "code": "et",
+    "iso_alpha2": "ET",
+    "name": {
+      "es": "Etiopía",
+      "en": "Ethiopia"
+    },
+    "flag": "FLAG_ETIOPIA.jpg",
+    "folder": "world"
+  },
+  "ph": {
+    "code": "ph",
+    "iso_alpha2": "PH",
+    "name": {
+      "es": "Filipinas",
+      "en": "Philippines"
+    },
+    "flag": "FLAG_FILIPINAS.jpg",
+    "folder": "world"
+  },
+  "fi": {
+    "code": "fi",
+    "iso_alpha2": "FI",
+    "name": {
+      "es": "Finlandia",
+      "en": "Finland"
+    },
+    "flag": "FLAG_FINLANDIA.jpg",
+    "folder": "world"
+  },
+  "fj": {
+    "code": "fj",
+    "iso_alpha2": "FJ",
+    "name": {
+      "es": "Fiyi",
+      "en": "Fiji"
+    },
+    "flag": "FLAG_FIJI.jpg",
+    "folder": "world"
+  },
+  "fr": {
+    "code": "fr",
+    "iso_alpha2": "FR",
+    "name": {
+      "es": "Francia",
+      "en": "France"
+    },
+    "flag": "FLAG_FRANCIA.jpg",
+    "folder": "world"
+  },
+  "gm": {
+    "code": "gm",
+    "iso_alpha2": "GM",
+    "name": {
+      "es": "Gambia",
+      "en": "Gambia"
+    },
+    "flag": "FLAG_GAMBIA.jpg",
+    "folder": "world"
+  },
+  "ge": {
+    "code": "ge",
+    "iso_alpha2": "GE",
+    "name": {
+      "es": "Georgia",
+      "en": "Georgia"
+    },
+    "flag": "FLAG_GEORGIA.jpg",
+    "folder": "world"
+  },
+  "gh": {
+    "code": "gh",
+    "iso_alpha2": "GH",
+    "name": {
+      "es": "Ghana",
+      "en": "Ghana"
+    },
+    "flag": "FLAG_GHANA.jpg",
+    "folder": "world"
+  },
+  "gb": {
+    "code": "gb",
+    "iso_alpha2": "GB",
+    "name": {
+      "es": "Gran Bretaña",
+      "en": "Great Britain"
+    },
+    "flag": "FLAG_GRAN.BRETAÑA.jpg",
+    "folder": "world"
+  },
+  "gr": {
+    "code": "gr",
+    "iso_alpha2": "GR",
+    "name": {
+      "es": "Grecia",
+      "en": "Greece"
+    },
+    "flag": "FLAG_GRECIA.jpg",
+    "folder": "world"
+  },
+  "gt": {
+    "code": "gt",
+    "iso_alpha2": "GT",
+    "name": {
+      "es": "Guatemala",
+      "en": "Guatemala"
+    },
+    "flag": "FLAG_GUATEMALA.jpg",
+    "folder": "world"
+  },
+  "gg": {
+    "code": "gg",
+    "iso_alpha2": "GG",
+    "name": {
+      "es": "Guernsey",
+      "en": "Guernsey"
+    },
+    "flag": "FLAG_GUERNSEY.jpg",
+    "folder": "world"
+  },
+  "gn": {
+    "code": "gn",
+    "iso_alpha2": "GN",
+    "name": {
+      "es": "Guinea",
+      "en": "Guinea"
+    },
+    "flag": "FLAG_GUINEA.jpg",
+    "folder": "world"
+  },
+  "gw": {
+    "code": "gw",
+    "iso_alpha2": "GW",
+    "name": {
+      "es": "Guinea-bisáu",
+      "en": "Guinea-Bissau"
+    },
+    "flag": "FLAG_GUINEA.BISAU.jpg",
+    "folder": "world"
+  },
+  "gy": {
+    "code": "gy",
+    "iso_alpha2": "GY",
+    "name": {
+      "es": "Guyana",
+      "en": "Guyana"
+    },
+    "flag": "FLAG_GUYANA.jpg",
+    "folder": "world"
+  },
+  "ht": {
+    "code": "ht",
+    "iso_alpha2": "HT",
+    "name": {
+      "es": "Haití",
+      "en": "Haiti"
+    },
+    "flag": "FLAG_HAITI.jpg",
+    "folder": "world"
+  },
+  "hn": {
+    "code": "hn",
+    "iso_alpha2": "HN",
+    "name": {
+      "es": "Honduras",
+      "en": "Honduras"
+    },
+    "flag": "FLAG_HONDURAS.jpg",
+    "folder": "world"
+  },
+  "hk": {
+    "code": "hk",
+    "iso_alpha2": "HK",
+    "name": {
+      "es": "Hong Kong",
+      "en": "Hong Kong"
+    },
+    "flag": "FLAG_HONG.KONG.jpg",
+    "folder": "world"
+  },
+  "hu": {
+    "code": "hu",
+    "iso_alpha2": "HU",
+    "name": {
+      "es": "Hungría",
+      "en": "Hungary"
+    },
+    "flag": "FLAG_HUNGRIA.jpg",
+    "folder": "world"
+  },
+  "in": {
+    "code": "in",
+    "iso_alpha2": "IN",
+    "name": {
+      "es": "India",
+      "en": "India"
+    },
+    "flag": "FLAG_INDIA.jpg",
+    "folder": "world"
+  },
+  "id": {
+    "code": "id",
+    "iso_alpha2": "ID",
+    "name": {
+      "es": "Indonesia",
+      "en": "Indonesia"
+    },
+    "flag": "FLAG_INDONESIA.jpg",
+    "folder": "world"
+  },
+  "iq": {
+    "code": "iq",
+    "iso_alpha2": "IQ",
+    "name": {
+      "es": "Irak",
+      "en": "Iraq"
+    },
+    "flag": "FLAG_IRAK.jpg",
+    "folder": "world"
+  },
+  "ir": {
+    "code": "ir",
+    "iso_alpha2": "IR",
+    "name": {
+      "es": "Irán",
+      "en": "Iran"
+    },
+    "flag": "FLAG_IRAN.jpg",
+    "folder": "world"
+  },
+  "nir": {
+    "code": "nir",
+    "iso_alpha2": null,
+    "name": {
+      "es": "Irlanda del Norte",
+      "en": "Northern Ireland"
+    },
+    "flag": "FLAG_IRLANDA.DEL.NORTE.jpg",
+    "folder": "world"
+  },
+  "is": {
+    "code": "is",
+    "iso_alpha2": "IS",
+    "name": {
+      "es": "Islandia",
+      "en": "Iceland"
+    },
+    "flag": "FLAG_ISLANDIA.jpg",
+    "folder": "world"
+  },
+  "ky": {
+    "code": "ky",
+    "iso_alpha2": "KY",
+    "name": {
+      "es": "Islas Caimán",
+      "en": "Cayman Islands"
+    },
+    "flag": "FLAG_ISLAS.CAIMAN.jpg",
+    "folder": "world"
+  },
+  "ck": {
+    "code": "ck",
+    "iso_alpha2": "CK",
+    "name": {
+      "es": "Islas Cook",
+      "en": "Cook Islands"
+    },
+    "flag": "FLAG_ISLAS.COOK.jpg",
+    "folder": "world"
+  },
+  "im": {
+    "code": "im",
+    "iso_alpha2": "IM",
+    "name": {
+      "es": "Isla de Man",
+      "en": "Isle of Man"
+    },
+    "flag": "FLAG_ISLA.DE.MAN.jpg",
+    "folder": "world"
+  },
+  "fo": {
+    "code": "fo",
+    "iso_alpha2": "FO",
+    "name": {
+      "es": "Islas Feroe",
+      "en": "Faroe Islands"
+    },
+    "flag": "FLAG_ISLASFEROE.jpg",
+    "folder": "world"
+  },
+  "sb": {
+    "code": "sb",
+    "iso_alpha2": "SB",
+    "name": {
+      "es": "Islas Salomón",
+      "en": "Solomon Islands"
+    },
+    "flag": "FLAG_ISLAS.SALOMON.jpg",
+    "folder": "world"
+  },
+  "il": {
+    "code": "il",
+    "iso_alpha2": "IL",
+    "name": {
+      "es": "Israel",
+      "en": "Israel"
+    },
+    "flag": "FLAG_ISRAEL.jpg",
+    "folder": "world"
+  },
+  "it": {
+    "code": "it",
+    "iso_alpha2": "IT",
+    "name": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "flag": "FLAG_ITALIA.jpg",
+    "folder": "world"
+  },
+  "jm": {
+    "code": "jm",
+    "iso_alpha2": "JM",
+    "name": {
+      "es": "Jamaica",
+      "en": "Jamaica"
+    },
+    "flag": "FLAG_JAMAICA.jpg",
+    "folder": "world"
+  },
+  "jp": {
+    "code": "jp",
+    "iso_alpha2": "JP",
+    "name": {
+      "es": "Japón",
+      "en": "Japan"
+    },
+    "flag": "FLAG_JAPON.jpg",
+    "folder": "world"
+  },
+  "jo": {
+    "code": "jo",
+    "iso_alpha2": "JO",
+    "name": {
+      "es": "Jordania",
+      "en": "Jordan"
+    },
+    "flag": "FLAG_JORDANIA.jpg",
+    "folder": "world"
+  },
+  "kz": {
+    "code": "kz",
+    "iso_alpha2": "KZ",
+    "name": {
+      "es": "Kazajistán",
+      "en": "Kazakhstan"
+    },
+    "flag": "FLAG_KAZAJISTAN.jpg",
+    "folder": "world"
+  },
+  "ke": {
+    "code": "ke",
+    "iso_alpha2": "KE",
+    "name": {
+      "es": "Kenia",
+      "en": "Kenya"
+    },
+    "flag": "FLAG_KENIA.jpg",
+    "folder": "world"
+  },
+  "kg": {
+    "code": "kg",
+    "iso_alpha2": "KG",
+    "name": {
+      "es": "Kirguistán",
+      "en": "Kyrgyzstan"
+    },
+    "flag": "FLAG_KIRGUISTAN.jpg",
+    "folder": "world"
+  },
+  "kw": {
+    "code": "kw",
+    "iso_alpha2": "KW",
+    "name": {
+      "es": "Kuwait",
+      "en": "Kuwait"
+    },
+    "flag": "FLAG_KUWAIT.jpg",
+    "folder": "world"
+  },
+  "la": {
+    "code": "la",
+    "iso_alpha2": "LA",
+    "name": {
+      "es": "Laos",
+      "en": "Laos"
+    },
+    "flag": "FLAG_LAOS.jpg",
+    "folder": "world"
+  },
+  "ls": {
+    "code": "ls",
+    "iso_alpha2": "LS",
+    "name": {
+      "es": "Lesotho",
+      "en": "Lesotho"
+    },
+    "flag": "FLAG_LESOTHO.jpg",
+    "folder": "world"
+  },
+  "lb": {
+    "code": "lb",
+    "iso_alpha2": "LB",
+    "name": {
+      "es": "Líbano",
+      "en": "Lebanon"
+    },
+    "flag": "FLAG_LIBANO.jpg",
+    "folder": "world"
+  },
+  "lr": {
+    "code": "lr",
+    "iso_alpha2": "LR",
+    "name": {
+      "es": "Liberia",
+      "en": "Liberia"
+    },
+    "flag": "FLAG_LIBERIA.jpg",
+    "folder": "world"
+  },
+  "ly": {
+    "code": "ly",
+    "iso_alpha2": "LY",
+    "name": {
+      "es": "Libia",
+      "en": "Libya"
+    },
+    "flag": "FLAG_LIBIA.jpg",
+    "folder": "world"
+  },
+  "lt": {
+    "code": "lt",
+    "iso_alpha2": "LT",
+    "name": {
+      "es": "Lituania",
+      "en": "Lithuania"
+    },
+    "flag": "FLAG_LITUANIA.jpg",
+    "folder": "world"
+  },
+  "mo": {
+    "code": "mo",
+    "iso_alpha2": "MO",
+    "name": {
+      "es": "Macao (china)",
+      "en": "Macau (China)"
+    },
+    "flag": "FLAG_MACAO.jpg",
+    "folder": "world"
+  },
+  "mk": {
+    "code": "mk",
+    "iso_alpha2": "MK",
+    "name": {
+      "es": "Macedonia del Norte",
+      "en": "North Macedonia"
+    },
+    "flag": "FLAG_MACEDONIA.DEL.NORTE.jpg",
+    "folder": "world"
+  },
+  "mg": {
+    "code": "mg",
+    "iso_alpha2": "MG",
+    "name": {
+      "es": "Madagascar",
+      "en": "Madagascar"
+    },
+    "flag": "FLAG_MADAGASCAR.jpg",
+    "folder": "world"
+  },
+  "my": {
+    "code": "my",
+    "iso_alpha2": "MY",
+    "name": {
+      "es": "Malasia",
+      "en": "Malaysia"
+    },
+    "flag": "FLAG_MALASIA.jpg",
+    "folder": "world"
+  },
+  "mw": {
+    "code": "mw",
+    "iso_alpha2": "MW",
+    "name": {
+      "es": "Malaui",
+      "en": "Malawi"
+    },
+    "flag": "FLAG_MALAUI.jpg",
+    "folder": "world"
+  },
+  "mv": {
+    "code": "mv",
+    "iso_alpha2": "MV",
+    "name": {
+      "es": "Maldivas",
+      "en": "Maldives"
+    },
+    "flag": "FLAG_MALDIVAS.jpg",
+    "folder": "world"
+  },
+  "ma": {
+    "code": "ma",
+    "iso_alpha2": "MA",
+    "name": {
+      "es": "Marruecos",
+      "en": "Morocco"
+    },
+    "flag": "FLAG_MARRUECOS.jpg",
+    "folder": "world"
+  },
+  "mu": {
+    "code": "mu",
+    "iso_alpha2": "MU",
+    "name": {
+      "es": "Mauricio",
+      "en": "Mauritius"
+    },
+    "flag": "FLAG_MAURICIO.jpg",
+    "folder": "world"
+  },
+  "mr": {
+    "code": "mr",
+    "iso_alpha2": "MR",
+    "name": {
+      "es": "Mauritania",
+      "en": "Mauritania"
+    },
+    "flag": "FLAG_MAURITANIA.jpg",
+    "folder": "world"
+  },
+  "mx": {
+    "code": "mx",
+    "iso_alpha2": "MX",
+    "name": {
+      "es": "México",
+      "en": "Mexico"
+    },
+    "flag": "FLAG_MEXICO.jpg",
+    "folder": "world"
+  },
+  "md": {
+    "code": "md",
+    "iso_alpha2": "MD",
+    "name": {
+      "es": "Moldavia",
+      "en": "Moldova"
+    },
+    "flag": "FLAG_MOLDOVIA.jpg",
+    "folder": "world"
+  },
+  "mn": {
+    "code": "mn",
+    "iso_alpha2": "MN",
+    "name": {
+      "es": "Mongolia",
+      "en": "Mongolia"
+    },
+    "flag": "FLAG_MONGOLIA.jpg",
+    "folder": "world"
+  },
+  "mz": {
+    "code": "mz",
+    "iso_alpha2": "MZ",
+    "name": {
+      "es": "Mozambique",
+      "en": "Mozambique"
+    },
+    "flag": "FLAG_MOZAMBIQUE.jpg",
+    "folder": "world"
+  },
+  "na": {
+    "code": "na",
+    "iso_alpha2": "NA",
+    "name": {
+      "es": "Namibia",
+      "en": "Namibia"
+    },
+    "flag": "FLAG_NAMIBIA.jpg",
+    "folder": "world"
+  },
+  "np": {
+    "code": "np",
+    "iso_alpha2": "NP",
+    "name": {
+      "es": "Nepal",
+      "en": "Nepal"
+    },
+    "flag": "FLAG_NEPAL.jpg",
+    "folder": "world"
+  },
+  "ni": {
+    "code": "ni",
+    "iso_alpha2": "NI",
+    "name": {
+      "es": "Nicaragua",
+      "en": "Nicaragua"
+    },
+    "flag": "FLAG_NICARAGUA.jpg",
+    "folder": "world"
+  },
+  "ng": {
+    "code": "ng",
+    "iso_alpha2": "NG",
+    "name": {
+      "es": "Nigeria",
+      "en": "Nigeria"
+    },
+    "flag": "FLAG_NIGERIA.jpg",
+    "folder": "world"
+  },
+  "no": {
+    "code": "no",
+    "iso_alpha2": "NO",
+    "name": {
+      "es": "Noruega",
+      "en": "Norway"
+    },
+    "flag": "FLAG_NORUEGA.jpg",
+    "folder": "world"
+  },
+  "nz": {
+    "code": "nz",
+    "iso_alpha2": "NZ",
+    "name": {
+      "es": "Nueva Zelanda",
+      "en": "New Zealand"
+    },
+    "flag": "FLAG_NUEVA.ZELANDA.jpg",
+    "folder": "world"
+  },
+  "om": {
+    "code": "om",
+    "iso_alpha2": "OM",
+    "name": {
+      "es": "Omán",
+      "en": "Oman"
+    },
+    "flag": "FLAG_OMAN.jpg",
+    "folder": "world"
+  },
+  "nl": {
+    "code": "nl",
+    "iso_alpha2": "NL",
+    "name": {
+      "es": "Países Bajos",
+      "en": "Netherlands"
+    },
+    "flag": "FLAG_PAISES.BAJOS.jpg",
+    "folder": "world"
+  },
+  "pk": {
+    "code": "pk",
+    "iso_alpha2": "PK",
+    "name": {
+      "es": "Pakistán",
+      "en": "Pakistan"
+    },
+    "flag": "FLAG_PAKISTAN.jpg",
+    "folder": "world"
+  },
+  "pg": {
+    "code": "pg",
+    "iso_alpha2": "PG",
+    "name": {
+      "es": "Papúa Nueva Guinea",
+      "en": "Papua New Guinea"
+    },
+    "flag": "FLAG_PAPUA.NUEVA.GUINEA.jpg",
+    "folder": "world"
+  },
+  "py": {
+    "code": "py",
+    "iso_alpha2": "PY",
+    "name": {
+      "es": "Paraguay",
+      "en": "Paraguay"
+    },
+    "flag": "FLAG_PARAGUAY.jpg",
+    "folder": "world"
+  },
+  "pe": {
+    "code": "pe",
+    "iso_alpha2": "PE",
+    "name": {
+      "es": "Perú",
+      "en": "Peru"
+    },
+    "flag": "FLAG_PERU.jpg",
+    "folder": "world"
+  },
+  "pl": {
+    "code": "pl",
+    "iso_alpha2": "PL",
+    "name": {
+      "es": "Polonia",
+      "en": "Poland"
+    },
+    "flag": "FLAG_POLONIA.jpg",
+    "folder": "world"
+  },
+  "pt": {
+    "code": "pt",
+    "iso_alpha2": "PT",
+    "name": {
+      "es": "Portugal",
+      "en": "Portugal"
+    },
+    "flag": "FLAG_PORTUGAL.jpg",
+    "folder": "world"
+  },
+  "qa": {
+    "code": "qa",
+    "iso_alpha2": "QA",
+    "name": {
+      "es": "Qatar",
+      "en": "Qatar"
+    },
+    "flag": "FLAG_QATAR.jpg",
+    "folder": "world"
+  },
+  "cf": {
+    "code": "cf",
+    "iso_alpha2": "CF",
+    "name": {
+      "es": "Rep. Centroafricana",
+      "en": "Central African Republic"
+    },
+    "flag": "FLAG_REPUBLICA.CENTROAFRICANA.jpg",
+    "folder": "world"
+  },
+  "cz": {
+    "code": "cz",
+    "iso_alpha2": "CZ",
+    "name": {
+      "es": "Rep. Checa",
+      "en": "Czech Republic"
+    },
+    "flag": "FLAG_REPUBLICA.CHECA.jpg",
+    "folder": "world"
+  },
+  "do": {
+    "code": "do",
+    "iso_alpha2": "DO",
+    "name": {
+      "es": "Rep. Dominicana",
+      "en": "Dominican Republic"
+    },
+    "flag": "FLAG_REPUBLICA.DOMINICANA.jpg",
+    "folder": "world"
+  },
+  "rw": {
+    "code": "rw",
+    "iso_alpha2": "RW",
+    "name": {
+      "es": "Ruanda",
+      "en": "Rwanda"
+    },
+    "flag": "FLAG_RUANDA.jpg",
+    "folder": "world"
+  },
+  "ro": {
+    "code": "ro",
+    "iso_alpha2": "RO",
+    "name": {
+      "es": "Rumania",
+      "en": "Romania"
+    },
+    "flag": "FLAG_RUMANIA.jpg",
+    "folder": "world"
+  },
+  "ru": {
+    "code": "ru",
+    "iso_alpha2": "RU",
+    "name": {
+      "es": "Rusia",
+      "en": "Russia"
+    },
+    "flag": "FLAG_RUSIA.jpg",
+    "folder": "world"
+  },
+  "ws": {
+    "code": "ws",
+    "iso_alpha2": "WS",
+    "name": {
+      "es": "Samoa",
+      "en": "Samoa"
+    },
+    "flag": "FLAG_SAMOA.jpg",
+    "folder": "world"
+  },
+  "st": {
+    "code": "st",
+    "iso_alpha2": "ST",
+    "name": {
+      "es": "Santo Tomé y Príncipe",
+      "en": "São Tomé and Príncipe"
+    },
+    "flag": "FLAG_SANTO.TOME.Y.PRINCIPE.jpg",
+    "folder": "world"
+  },
+  "rs": {
+    "code": "rs",
+    "iso_alpha2": "RS",
+    "name": {
+      "es": "Serbia",
+      "en": "Serbia"
+    },
+    "flag": "FLAG_SERBIA.jpg",
+    "folder": "world"
+  },
+  "sc": {
+    "code": "sc",
+    "iso_alpha2": "SC",
+    "name": {
+      "es": "Seychelles",
+      "en": "Seychelles"
+    },
+    "flag": "FLAG_SEYCHELLES.jpg",
+    "folder": "world"
+  },
+  "sl": {
+    "code": "sl",
+    "iso_alpha2": "SL",
+    "name": {
+      "es": "Sierra Leona",
+      "en": "Sierra Leone"
+    },
+    "flag": "FLAG_SIERRA.LEONA.jpg",
+    "folder": "world"
+  },
+  "sg": {
+    "code": "sg",
+    "iso_alpha2": "SG",
+    "name": {
+      "es": "Singapur",
+      "en": "Singapore"
+    },
+    "flag": "FLAG_SINGAPUR.jpg",
+    "folder": "world"
+  },
+  "sy": {
+    "code": "sy",
+    "iso_alpha2": "SY",
+    "name": {
+      "es": "Siria",
+      "en": "Syria"
+    },
+    "flag": "FLAG_SIRIA.jpg",
+    "folder": "world"
+  },
+  "so": {
+    "code": "so",
+    "iso_alpha2": "SO",
+    "name": {
+      "es": "Somalia",
+      "en": "Somalia"
+    },
+    "flag": "FLAG_SOMALIA.jpg",
+    "folder": "world"
+  },
+  "sml": {
+    "code": "sml",
+    "iso_alpha2": null,
+    "name": {
+      "es": "Somalilandia",
+      "en": "Somaliland"
+    },
+    "flag": "FLAG_SOMALILANDIA.jpg",
+    "folder": "world"
+  },
+  "lk": {
+    "code": "lk",
+    "iso_alpha2": "LK",
+    "name": {
+      "es": "Sri Lanka",
+      "en": "Sri Lanka"
+    },
+    "flag": "FLAG_SRI.LANKA.jpg",
+    "folder": "world"
+  },
+  "sz": {
+    "code": "sz",
+    "iso_alpha2": "SZ",
+    "name": {
+      "es": "Suazilandia",
+      "en": "Eswatini"
+    },
+    "flag": "FLAG_SUAZILANDIA.jpg",
+    "folder": "world"
+  },
+  "za": {
+    "code": "za",
+    "iso_alpha2": "ZA",
+    "name": {
+      "es": "Sudáfrica",
+      "en": "South Africa"
+    },
+    "flag": "FLAG_SUD.AFRICA.jpg",
+    "folder": "world"
+  },
+  "sd": {
+    "code": "sd",
+    "iso_alpha2": "SD",
+    "name": {
+      "es": "Sudán",
+      "en": "Sudan"
+    },
+    "flag": "FLAG_SUDAN.jpg",
+    "folder": "world"
+  },
+  "ss": {
+    "code": "ss",
+    "iso_alpha2": "SS",
+    "name": {
+      "es": "Sudán del Sur",
+      "en": "South Sudan"
+    },
+    "flag": "FLAG_SUDAN.DEL.SUR.jpg",
+    "folder": "world"
+  },
+  "se": {
+    "code": "se",
+    "iso_alpha2": "SE",
+    "name": {
+      "es": "Suecia",
+      "en": "Sweden"
+    },
+    "flag": "FLAG_SUECIA.jpg",
+    "folder": "world"
+  },
+  "ch": {
+    "code": "ch",
+    "iso_alpha2": "CH",
+    "name": {
+      "es": "Suiza",
+      "en": "Switzerland"
+    },
+    "flag": "FLAG_SUIZA.jpg",
+    "folder": "world"
+  },
+  "sr": {
+    "code": "sr",
+    "iso_alpha2": "SR",
+    "name": {
+      "es": "Surinam",
+      "en": "Suriname"
+    },
+    "flag": "FLAG_SURINAM.jpg",
+    "folder": "world"
+  },
+  "th": {
+    "code": "th",
+    "iso_alpha2": "TH",
+    "name": {
+      "es": "Tailandia",
+      "en": "Thailand"
+    },
+    "flag": "FLAG_TAILANDIA.jpg",
+    "folder": "world"
+  },
+  "tw": {
+    "code": "tw",
+    "iso_alpha2": "TW",
+    "name": {
+      "es": "Taiwán",
+      "en": "Taiwan"
+    },
+    "flag": "FLAG_TAIWAN.jpg",
+    "folder": "world"
+  },
+  "tz": {
+    "code": "tz",
+    "iso_alpha2": "TZ",
+    "name": {
+      "es": "Tanzania",
+      "en": "Tanzania"
+    },
+    "flag": "FLAG_TANZANIA.jpg",
+    "folder": "world"
+  },
+  "tj": {
+    "code": "tj",
+    "iso_alpha2": "TJ",
+    "name": {
+      "es": "Tayikistán",
+      "en": "Tajikistan"
+    },
+    "flag": "FLAG_TAYIKISTAN.jpg",
+    "folder": "world"
+  },
+  "to": {
+    "code": "to",
+    "iso_alpha2": "TO",
+    "name": {
+      "es": "Tonga",
+      "en": "Tonga"
+    },
+    "flag": "FLAG_TONGA.jpg",
+    "folder": "world"
+  },
+  "pmr": {
+    "code": "pmr",
+    "iso_alpha2": null,
+    "name": {
+      "es": "Transnistria",
+      "en": "Transnistria"
+    },
+    "flag": "FLAG_TRANSNISTRIA.jpg",
+    "folder": "world"
+  },
+  "tt": {
+    "code": "tt",
+    "iso_alpha2": "TT",
+    "name": {
+      "es": "Trinidad y Tobago",
+      "en": "Trinidad and Tobago"
+    },
+    "flag": "FLAG_TRINIDAD.Y.TOBAGO.jpg",
+    "folder": "world"
+  },
+  "tn": {
+    "code": "tn",
+    "iso_alpha2": "TN",
+    "name": {
+      "es": "Túnez",
+      "en": "Tunisia"
+    },
+    "flag": "FLAG_TUNEZ.jpg",
+    "folder": "world"
+  },
+  "tm": {
+    "code": "tm",
+    "iso_alpha2": "TM",
+    "name": {
+      "es": "Turkmenistán",
+      "en": "Turkmenistan"
+    },
+    "flag": "FLAG_TURKMENISTAN.jpg",
+    "folder": "world"
+  },
+  "tr": {
+    "code": "tr",
+    "iso_alpha2": "TR",
+    "name": {
+      "es": "Turquía",
+      "en": "Turkey"
+    },
+    "flag": "FLAG_TURQUIA.jpg",
+    "folder": "world"
+  },
+  "ua": {
+    "code": "ua",
+    "iso_alpha2": "UA",
+    "name": {
+      "es": "Ucrania",
+      "en": "Ukraine"
+    },
+    "flag": "FLAG_UCRANIA.jpg",
+    "folder": "world"
+  },
+  "ug": {
+    "code": "ug",
+    "iso_alpha2": "UG",
+    "name": {
+      "es": "Uganda",
+      "en": "Uganda"
+    },
+    "flag": "FLAG_UGANDA.jpg",
+    "folder": "world"
+  },
+  "eu": {
+    "code": "eu",
+    "iso_alpha2": "EU",
+    "name": {
+      "es": "Unión Europea",
+      "en": "European Union"
+    },
+    "flag": "FLAG_UNION.EUROPEA.jpg",
+    "folder": "world"
+  },
+  "uy": {
+    "code": "uy",
+    "iso_alpha2": "UY",
+    "name": {
+      "es": "Uruguay",
+      "en": "Uruguay"
+    },
+    "flag": "FLAG_URUGUAY.jpg",
+    "folder": "world"
+  },
+  "uz": {
+    "code": "uz",
+    "iso_alpha2": "UZ",
+    "name": {
+      "es": "Uzbekistán",
+      "en": "Uzbekistan"
+    },
+    "flag": "FLAG_UZBEKISTAN.jpg",
+    "folder": "world"
+  },
+  "vu": {
+    "code": "vu",
+    "iso_alpha2": "VU",
+    "name": {
+      "es": "Vanuatu",
+      "en": "Vanuatu"
+    },
+    "flag": "FLAG_VANUATU.jpg",
+    "folder": "world"
+  },
+  "ve": {
+    "code": "ve",
+    "iso_alpha2": "VE",
+    "name": {
+      "es": "Venezuela",
+      "en": "Venezuela"
+    },
+    "flag": "FLAG_VENEZUELA.jpg",
+    "folder": "world"
+  },
+  "vn": {
+    "code": "vn",
+    "iso_alpha2": "VN",
+    "name": {
+      "es": "Vietnam",
+      "en": "Vietnam"
+    },
+    "flag": "FLAG_VIETNAM.jpg",
+    "folder": "world"
+  },
+  "vns": {
+    "code": "vns",
+    "iso_alpha2": null,
+    "name": {
+      "es": "Vietnam del Sur",
+      "en": "South Vietnam"
+    },
+    "flag": "FLAG_VIETNAM.DEL.SUR.jpg",
+    "folder": "world"
+  },
+  "ye": {
+    "code": "ye",
+    "iso_alpha2": "YE",
+    "name": {
+      "es": "Yemen",
+      "en": "Yemen"
+    },
+    "flag": "FLAG_YEMEN.jpg",
+    "folder": "world"
+  },
+  "dj": {
+    "code": "dj",
+    "iso_alpha2": "DJ",
+    "name": {
+      "es": "Yibuti",
+      "en": "Djibouti"
+    },
+    "flag": "FLAG_YIBUTI.jpg",
+    "folder": "world"
+  },
+  "yu": {
+    "code": "yu",
+    "iso_alpha2": "YU",
+    "name": {
+      "es": "Yugoslavia",
+      "en": "Yugoslavia"
+    },
+    "flag": "FLAG_YUGOSLAVIA.jpg",
+    "folder": "world"
+  },
+  "zr": {
+    "code": "zr",
+    "iso_alpha2": "ZR",
+    "name": {
+      "es": "Zaire",
+      "en": "Zaire"
+    },
+    "flag": "FLAG_ZAIRE.jpg",
+    "folder": "world"
+  },
+  "zm": {
+    "code": "zm",
+    "iso_alpha2": "ZM",
+    "name": {
+      "es": "Zambia",
+      "en": "Zambia"
+    },
+    "flag": "FLAG_ZAMBIA.jpg",
+    "folder": "world"
+  },
+  "zw": {
+    "code": "zw",
+    "iso_alpha2": "ZW",
+    "name": {
+      "es": "Zimbabue",
+      "en": "Zimbabwe"
+    },
+    "flag": "FLAG_ZIMBABUE.jpg",
+    "folder": "world"
+  }
+}

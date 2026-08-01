@@ -1,10 +1,6 @@
 {
   "id": "ve-p69",
   "pick_number": "P-69",
-  "country": {
-    "en": "Venezuela",
-    "es": "Venezuela"
-  },
   "denomination": {
     "value": 2,
     "currency": "Bolívares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203218"
+  "numista": "https://en.numista.com/203218",
+  "country_code": "ve"
 }

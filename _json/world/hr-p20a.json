@@ -1,10 +1,6 @@
 {
   "id": "hr-p20a",
   "pick_number": "P-20a",
-  "country": {
-    "en": "Croatia",
-    "es": "Croacia"
-  },
   "denomination": {
     "value": 100,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203364"
+  "numista": "https://en.numista.com/203364",
+  "country_code": "hr"
 }

@@ -1,10 +1,6 @@
 {
   "id": "zm-p26e",
   "pick_number": "P-26e",
-  "country": {
-    "en": "Zambia",
-    "es": "Zambia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Kwacha",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208234"
+  "numista": "https://en.numista.com/208234",
+  "country_code": "zm"
 }

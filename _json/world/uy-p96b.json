@@ -1,10 +1,6 @@
 {
   "id": "uy-p96b",
   "pick_number": "P-96b",
-  "country": {
-    "en": "Uruguay",
-    "es": "Uruguay"
-  },
   "denomination": {
     "value": 200,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/208334"
+  "numista": "https://en.numista.com/208334",
+  "country_code": "uy"
 }

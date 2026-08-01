@@ -1,10 +1,6 @@
 {
   "id": "pk-p56a1",
   "pick_number": "P-56a.1",
-  "country": {
-    "en": "Pakistan",
-    "es": "Pakistán"
-  },
   "denomination": {
     "value": 75,
     "currency": "Rupias",
@@ -14,7 +10,17 @@
   "year": 2022,
   "numista": "https://en.numista.com/337073",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:muhammad_ali_jinnah",
+    "personaje:sir_syed_ahmad_khan",
+    "personaje:muhammad_iqbal",
+    "personaje:fatima_jinnah",
+    "simbolo:logo_del_75_aniversario",
+    "fauna:markhor",
+    "flora:cedro_deodara",
+    "lugar:tierra",
+    "lugar:montanas"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/143132-75_Rupees-2022_Commemorative_Issue-Pakist%C3%A1n",
     "group": ""
@@ -31,8 +37,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "AAA2805041",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "pk"
 }

@@ -1,10 +1,6 @@
 {
   "id": "by-p3a",
   "pick_number": "P-3a",
-  "country": {
-    "en": "Belarus",
-    "es": "Bielorrusia"
-  },
   "denomination": {
     "value": 3,
     "currency": "Rublo",
@@ -14,7 +10,10 @@
   "year": 1992,
   "numista": "https://en.numista.com/205082",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:castor_europeo",
+    "simbolo:pahonia"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/939-3_Rubles-1992-1994_Issue_Series_1992-Bielorrusia",
     "group": ""
@@ -31,8 +30,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "AK 3159655",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "by"
 }

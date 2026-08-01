@@ -44,12 +44,19 @@ for i, a in enumerate(sys.argv[1:]):
 # reusar el índice de banderas de build_web (incluye alias: Rep. Checa,
 # Rep. Dominicana, Fiyi, Moldavia, etc.) y las utilidades compartidas
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "_json"))
 import build_web
 from util import norm_flag
+from country_map import get_country_by_code, get_country_by_name
 
 
 def flag_for(country_es):
-    name = build_web.flag_file(country_es)
+    name = build_web.flag_file_for_note({"country": {"es": country_es}})
+    return (FLAGS / name) if name else None
+
+
+def flag_for_note(d):
+    name = build_web.flag_file_for_note(d)
     return (FLAGS / name) if name else None
 
 
@@ -185,7 +192,10 @@ def main():
         pback = REPO / "_originals" / _id / f"{_id}_B.jpg"
         pfull = REPO / "_FULL" / f"{_id}.jpg"
         full = f"_FULL/{_id}.jpg"
-        flag = flag_for(d["country"]["es"])
+        c_code = d.get("country_code", "")
+        c_info = get_country_by_code(c_code) if c_code else get_country_by_name((d.get("country") or {}).get("es", ""))
+        country_es = c_info["name"]["es"] if c_info else (d.get("country") or {}).get("es", "")
+        flag = flag_for_note(d)
 
         faltan = []
         if not pfront.exists():
@@ -193,11 +203,11 @@ def main():
         if not pback.exists():
             faltan.append("BACK")
         if flag is None:
-            faltan.append(f"BANDERA(FLAG_{norm_flag(d['country']['es'])})")
+            faltan.append(f"BANDERA({country_es})")
         elif not flag.exists():
             faltan.append("BANDERA(archivo)")
         if faltan:
-            print(f"⚠ {_id} ({d['country']['es']}): falta {', '.join(faltan)}")
+            print(f"⚠ {_id} ({country_es}): falta {', '.join(faltan)}")
             missing += 1
             continue
 

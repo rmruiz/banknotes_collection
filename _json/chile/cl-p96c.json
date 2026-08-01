@@ -1,10 +1,6 @@
 {
   "id": "cl-p96c",
   "pick_number": "P-96c",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -41,5 +37,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/226068"
+  "numista": "https://en.numista.com/226068",
+  "country_code": "cl"
 }

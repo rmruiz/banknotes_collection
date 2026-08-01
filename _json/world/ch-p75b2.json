@@ -1,10 +1,6 @@
 {
   "id": "ch-p75b2",
   "pick_number": "P-75b.2",
-  "country": {
-    "en": "Switzerland",
-    "es": "Suiza"
-  },
   "denomination": {
     "value": 10,
     "currency": "Francos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201562"
+  "numista": "https://en.numista.com/201562",
+  "country_code": "ch"
 }

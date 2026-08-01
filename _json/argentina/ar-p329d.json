@@ -1,10 +1,6 @@
 {
   "id": "ar-p329d",
   "pick_number": "P-329d",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Australes",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203817"
+  "numista": "https://en.numista.com/203817",
+  "country_code": "ar"
 }

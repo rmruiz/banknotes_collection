@@ -1,10 +1,6 @@
 {
   "id": "cl-p93b2",
   "pick_number": "P-93b.2",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 20,
     "currency": "Pesos",
@@ -41,5 +37,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/224447"
+  "numista": "https://en.numista.com/224447",
+  "country_code": "cl"
 }

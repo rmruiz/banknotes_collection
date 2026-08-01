@@ -1,10 +1,6 @@
 {
   "id": "kp-p46c4",
   "pick_number": "P-46c.4",
-  "country": {
-    "en": "North Korea",
-    "es": "Corea del Norte"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Wons",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201989"
+  "numista": "https://en.numista.com/201989",
+  "country_code": "kp"
 }

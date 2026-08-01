@@ -1,10 +1,6 @@
 {
   "id": "ge-p48",
   "pick_number": "P-48",
-  "country": {
-    "en": "Georgia",
-    "es": "Georgia"
-  },
   "denomination": {
     "value": 50000,
     "currency": "Kuponi",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/212490"
+  "numista": "https://en.numista.com/212490",
+  "country_code": "ge"
 }

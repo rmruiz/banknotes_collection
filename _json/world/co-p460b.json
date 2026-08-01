@@ -1,10 +1,6 @@
 {
   "id": "co-p460b",
   "pick_number": "P-460b",
-  "country": {
-    "en": "Colombia",
-    "es": "Colombia"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/206006"
+  "numista": "https://en.numista.com/206006",
+  "country_code": "co"
 }

@@ -1,10 +1,6 @@
 {
   "id": "lt-p32b",
   "pick_number": "P-32b",
-  "country": {
-    "en": "Lithuania",
-    "es": "Lituania"
-  },
   "denomination": {
     "value": 1,
     "currency": "Talonas",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208001"
+  "numista": "https://en.numista.com/208001",
+  "country_code": "lt"
 }

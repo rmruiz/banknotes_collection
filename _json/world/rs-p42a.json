@@ -1,10 +1,6 @@
 {
   "id": "rs-p42a",
   "pick_number": "P-42a",
-  "country": {
-    "en": "Serbia",
-    "es": "Serbia"
-  },
   "denomination": {
     "value": 200,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204237"
+  "numista": "https://en.numista.com/204237",
+  "country_code": "rs"
 }

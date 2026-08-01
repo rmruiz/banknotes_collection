@@ -1,10 +1,6 @@
 {
   "id": "tt-p63a",
   "pick_number": "P-63a",
-  "country": {
-    "en": "Trinidad and Tobago",
-    "es": "Trinidad y Tobago"
-  },
   "denomination": {
     "value": 20,
     "currency": "Dólares",
@@ -43,5 +39,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/290074"
+  "numista": "https://en.numista.com/290074",
+  "country_code": "tt"
 }

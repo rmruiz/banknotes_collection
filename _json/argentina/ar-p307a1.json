@@ -1,10 +1,6 @@
 {
   "id": "ar-p307a1",
   "pick_number": "P-307a.1",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 50000,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/209292"
+  "numista": "https://en.numista.com/209292",
+  "country_code": "ar"
 }

@@ -1,10 +1,6 @@
 {
   "id": "pe-p71a3",
   "pick_number": "P-71a.3",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 10,
     "currency": "Soles de Oro",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/224424"
+  "numista": "https://en.numista.com/224424",
+  "country_code": "pe"
 }

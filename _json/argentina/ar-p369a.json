@@ -1,10 +1,6 @@
 {
   "id": "ar-p369a",
   "pick_number": "P-369a",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Pesos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/414108"
+  "numista": "https://en.numista.com/414108",
+  "country_code": "ar"
 }

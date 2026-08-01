@@ -1,10 +1,6 @@
 {
   "id": "co-p426aa",
   "pick_number": "P-426Aa",
-  "country": {
-    "en": "Colombia",
-    "es": "Colombia"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos Oro",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/208337"
+  "numista": "https://en.numista.com/208337",
+  "country_code": "co"
 }

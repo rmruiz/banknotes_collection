@@ -1,10 +1,6 @@
 {
   "id": "ua-p119ad",
   "pick_number": "P-119Ad",
-  "country": {
-    "en": "Ukraine",
-    "es": "Ucrania"
-  },
   "denomination": {
     "value": 10,
     "currency": "Grivnas",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202676"
+  "numista": "https://en.numista.com/202676",
+  "country_code": "ua"
 }

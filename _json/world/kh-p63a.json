@@ -1,10 +1,6 @@
 {
   "id": "kh-p63a",
   "pick_number": "P-63a",
-  "country": {
-    "en": "Cambodia",
-    "es": "Camboya"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Rieles",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208247"
+  "numista": "https://en.numista.com/208247",
+  "country_code": "kh"
 }

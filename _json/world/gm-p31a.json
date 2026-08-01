@@ -1,10 +1,6 @@
 {
   "id": "gm-p31a",
   "pick_number": "P-31a",
-  "country": {
-    "en": "Gambia",
-    "es": "Gambia"
-  },
   "denomination": {
     "value": 5,
     "currency": "Dalasis",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/209697"
+  "numista": "https://en.numista.com/209697",
+  "country_code": "gm"
 }

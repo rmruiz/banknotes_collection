@@ -1,10 +1,6 @@
 {
   "id": "fj-p109b",
   "pick_number": "P-109b",
-  "country": {
-    "en": "Fiji",
-    "es": "Fiyi"
-  },
   "denomination": {
     "value": 2,
     "currency": "Dólares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207854"
+  "numista": "https://en.numista.com/207854",
+  "country_code": "fj"
 }

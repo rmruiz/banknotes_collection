@@ -1,10 +1,6 @@
 {
   "id": "kor-p29a1",
   "pick_number": "P-29a.1",
-  "country": {
-    "en": "Korea",
-    "es": "Corea"
-  },
   "denomination": {
     "value": 1,
     "currency": "Yen",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/210544"
+  "numista": "https://en.numista.com/210544",
+  "country_code": "kor"
 }

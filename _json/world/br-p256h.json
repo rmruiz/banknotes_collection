@@ -1,10 +1,6 @@
 {
   "id": "br-p256h",
   "pick_number": "P-256h",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 50,
     "currency": "Reales",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/202212"
+  "numista": "https://en.numista.com/202212",
+  "country_code": "br"
 }

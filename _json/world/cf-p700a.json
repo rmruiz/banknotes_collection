@@ -1,10 +1,6 @@
 {
   "id": "cf-p700a",
   "pick_number": "P-700a",
-  "country": {
-    "en": "Central African Republic",
-    "es": "Rep. Centroafricana"
-  },
   "denomination": {
     "value": 500,
     "currency": "Francos",
@@ -41,5 +37,6 @@
       "serial_number": "01657396 E6",
       "condition": "UNC"
     }
-  ]
+  ],
+  "country_code": "cf"
 }

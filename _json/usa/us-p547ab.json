@@ -1,10 +1,6 @@
 {
   "id": "us-p547ab",
   "pick_number": "P-547aB",
-  "country": {
-    "en": "United States",
-    "es": "Estados Unidos"
-  },
   "denomination": {
     "value": 10,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201824"
+  "numista": "https://en.numista.com/201824",
+  "country_code": "us"
 }

@@ -1,10 +1,6 @@
 {
   "id": "br-p254e",
   "pick_number": "P-254e",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 10,
     "currency": "Reales",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/202203"
+  "numista": "https://en.numista.com/202203",
+  "country_code": "br"
 }

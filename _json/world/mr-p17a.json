@@ -1,10 +1,6 @@
 {
   "id": "mr-p17a",
   "pick_number": "P-17a",
-  "country": {
-    "en": "Mauritania",
-    "es": "Mauritania"
-  },
   "denomination": {
     "value": 200,
     "currency": "Ouguiya",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/209724"
+  "numista": "https://en.numista.com/209724",
+  "country_code": "mr"
 }

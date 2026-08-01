@@ -1,10 +1,6 @@
 {
   "id": "br-p243ae",
   "pick_number": "P-243Ae",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 1,
     "currency": "Real",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/203534"
+  "numista": "https://en.numista.com/203534",
+  "country_code": "br"
 }

@@ -1,10 +1,6 @@
 {
   "id": "it-p109b1",
   "pick_number": "P-109b.1",
-  "country": {
-    "en": "Italy",
-    "es": "Italia"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Liras",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/202232"
+  "numista": "https://en.numista.com/202232",
+  "country_code": "it"
 }

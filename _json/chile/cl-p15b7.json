@@ -1,10 +1,6 @@
 {
   "id": "cl-p15b7",
   "pick_number": "P-15b.7",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 1,
     "currency": "Peso",
@@ -40,5 +36,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/201873"
+  "numista": "https://en.numista.com/201873",
+  "country_code": "cl"
 }

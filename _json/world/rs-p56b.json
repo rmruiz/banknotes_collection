@@ -1,10 +1,6 @@
 {
   "id": "rs-p56b",
   "pick_number": "P-56b",
-  "country": {
-    "en": "Serbia",
-    "es": "Serbia"
-  },
   "denomination": {
     "value": 50,
     "currency": "Dinares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204328"
+  "numista": "https://en.numista.com/204328",
+  "country_code": "rs"
 }

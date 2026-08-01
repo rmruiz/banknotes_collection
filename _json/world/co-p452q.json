@@ -1,10 +1,6 @@
 {
   "id": "co-p452q",
   "pick_number": "P-452q",
-  "country": {
-    "en": "Colombia",
-    "es": "Colombia"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208014"
+  "numista": "https://en.numista.com/208014",
+  "country_code": "co"
 }

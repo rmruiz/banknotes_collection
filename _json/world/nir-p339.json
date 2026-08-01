@@ -1,10 +1,6 @@
 {
   "id": "nir-p339",
   "pick_number": "P-339",
-  "country": {
-    "en": "Northern Ireland",
-    "es": "Irlanda del Norte"
-  },
   "denomination": {
     "value": 5,
     "currency": "Libras",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/215574"
+  "numista": "https://en.numista.com/215574",
+  "country_code": "nir"
 }

@@ -1,10 +1,6 @@
 {
   "id": "by-p17a2",
   "pick_number": "P-17a.2",
-  "country": {
-    "en": "Belarus",
-    "es": "Bielorrusia"
-  },
   "denomination": {
     "value": 5000,
     "currency": "Rublos",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/208211"
+  "numista": "https://en.numista.com/208211",
+  "country_code": "by"
 }

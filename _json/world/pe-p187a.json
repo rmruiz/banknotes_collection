@@ -1,10 +1,6 @@
 {
   "id": "pe-p187a",
   "pick_number": "P-187a",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 10,
     "currency": "Nuevos Soles",
@@ -38,5 +34,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/208348"
+  "numista": "https://en.numista.com/208348",
+  "country_code": "pe"
 }

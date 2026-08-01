@@ -1,10 +1,6 @@
 {
   "id": "fr-p151e",
   "pick_number": "P-151e",
-  "country": {
-    "en": "France",
-    "es": "Francia"
-  },
   "denomination": {
     "value": 20,
     "currency": "Francos Franceses",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/329910"
+  "numista": "https://en.numista.com/329910",
+  "country_code": "fr"
 }

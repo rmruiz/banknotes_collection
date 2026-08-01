@@ -1,10 +1,6 @@
 {
   "id": "st-p66b",
   "pick_number": "P-66b",
-  "country": {
-    "en": "São Tomé and Príncipe",
-    "es": "Santo Tomé y Príncipe"
-  },
   "denomination": {
     "value": 10000,
     "currency": "Libras",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201571"
+  "numista": "https://en.numista.com/201571",
+  "country_code": "st"
 }

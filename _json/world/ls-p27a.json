@@ -1,10 +1,6 @@
 {
   "id": "ls-p27a",
   "pick_number": "P-27a",
-  "country": {
-    "en": "Lesotho",
-    "es": "Lesotho"
-  },
   "denomination": {
     "value": 20,
     "currency": "Lotis",
@@ -40,5 +36,6 @@
       "condition": "AU"
     }
   ],
-  "numista": "https://en.numista.com/319561"
+  "numista": "https://en.numista.com/319561",
+  "country_code": "ls"
 }

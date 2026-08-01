@@ -1,10 +1,6 @@
 {
   "id": "sy-p113b",
   "pick_number": "P-113b",
-  "country": {
-    "en": "Syria",
-    "es": "Siria"
-  },
   "denomination": {
     "value": 100,
     "currency": "Libras",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/412116"
+  "numista": "https://en.numista.com/412116",
+  "country_code": "sy"
 }

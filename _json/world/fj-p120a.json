@@ -1,10 +1,6 @@
 {
   "id": "fj-p120a",
   "pick_number": "P-120a",
-  "country": {
-    "en": "Fiji",
-    "es": "Fiyi"
-  },
   "denomination": {
     "value": 7,
     "currency": "Dólares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201543"
+  "numista": "https://en.numista.com/201543",
+  "country_code": "fj"
 }

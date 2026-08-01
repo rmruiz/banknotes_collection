@@ -1,10 +1,6 @@
 {
   "id": "ar-p315a1",
   "pick_number": "P-315a.1",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/203789"
+  "numista": "https://en.numista.com/203789",
+  "country_code": "ar"
 }

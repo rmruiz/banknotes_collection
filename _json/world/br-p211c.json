@@ -1,10 +1,6 @@
 {
   "id": "br-p211c",
   "pick_number": "P-211c",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 100,
     "currency": "Cruzados",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202100"
+  "numista": "https://en.numista.com/202100",
+  "country_code": "br"
 }

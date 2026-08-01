@@ -1,10 +1,6 @@
 {
   "id": "ar-p361a",
   "pick_number": "P-361a",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 20,
     "currency": "Pesos",
@@ -36,5 +32,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/205902"
+  "numista": "https://en.numista.com/205902",
+  "country_code": "ar"
 }

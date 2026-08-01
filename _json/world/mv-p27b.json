@@ -1,10 +1,6 @@
 {
   "id": "mv-p27b",
   "pick_number": "P-27b",
-  "country": {
-    "en": "Maldives",
-    "es": "Maldivas"
-  },
   "denomination": {
     "value": 20,
     "currency": "Rufiyaa",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202605"
+  "numista": "https://en.numista.com/202605",
+  "country_code": "mv"
 }

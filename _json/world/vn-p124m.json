@@ -1,10 +1,6 @@
 {
   "id": "vn-p124m",
   "pick_number": "P-124m",
-  "country": {
-    "en": "Vietnam",
-    "es": "Vietnam"
-  },
   "denomination": {
     "value": 500000,
     "currency": "Dongs",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205915"
+  "numista": "https://en.numista.com/205915",
+  "country_code": "vn"
 }

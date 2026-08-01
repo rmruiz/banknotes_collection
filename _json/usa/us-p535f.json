@@ -1,10 +1,6 @@
 {
   "id": "us-p535f",
   "pick_number": "P-535F",
-  "country": {
-    "en": "United States",
-    "es": "Estados Unidos"
-  },
   "denomination": {
     "value": 100,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "XF"
     }
   ],
-  "numista": "https://en.numista.com/201734"
+  "numista": "https://en.numista.com/201734",
+  "country_code": "us"
 }

@@ -1,10 +1,6 @@
 {
   "id": "dk-p67f3",
   "pick_number": "P-67f.3",
-  "country": {
-    "en": "Denmark",
-    "es": "Dinamarca"
-  },
   "denomination": {
     "value": 200,
     "currency": "Coronas Danesas",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/205704"
+  "numista": "https://en.numista.com/205704",
+  "country_code": "dk"
 }

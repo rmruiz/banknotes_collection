@@ -1,10 +1,6 @@
 {
   "id": "gb-p391c",
   "pick_number": "P-391c",
-  "country": {
-    "en": "Great Britain",
-    "es": "Gran Bretaña"
-  },
   "denomination": {
     "value": 5,
     "currency": "Libras Esterlinas",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/202832"
+  "numista": "https://en.numista.com/202832",
+  "country_code": "gb"
 }

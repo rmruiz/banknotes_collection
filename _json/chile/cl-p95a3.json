@@ -1,10 +1,6 @@
 {
   "id": "cl-p95a3",
   "pick_number": "P-95a.3",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -39,5 +35,6 @@
       "condition": "G"
     }
   ],
-  "numista": "https://en.numista.com/226080"
+  "numista": "https://en.numista.com/226080",
+  "country_code": "cl"
 }

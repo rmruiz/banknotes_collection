@@ -1,10 +1,6 @@
 {
   "id": "cn-p861b2",
   "pick_number": "P-861b.2",
-  "country": {
-    "en": "China",
-    "es": "China"
-  },
   "denomination": {
     "value": 5,
     "currency": "Fen",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202159"
+  "numista": "https://en.numista.com/202159",
+  "country_code": "cn"
 }

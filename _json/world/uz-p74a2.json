@@ -1,10 +1,6 @@
 {
   "id": "uz-p74a2",
   "pick_number": "P-74a.2",
-  "country": {
-    "en": "Uzbekistan",
-    "es": "Uzbekistán"
-  },
   "denomination": {
     "value": 3,
     "currency": "Som",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203533"
+  "numista": "https://en.numista.com/203533",
+  "country_code": "uz"
 }

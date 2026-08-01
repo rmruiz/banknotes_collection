@@ -1,10 +1,6 @@
 {
   "id": "cl-p153e2",
   "pick_number": "P-153e.2",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 500,
     "currency": "Pesos",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205230"
+  "numista": "https://en.numista.com/205230",
+  "country_code": "cl"
 }

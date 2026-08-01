@@ -1,10 +1,6 @@
 {
   "id": "mw-p65af",
   "pick_number": "P-65Af",
-  "country": {
-    "en": "Malawi",
-    "es": "Malaui"
-  },
   "denomination": {
     "value": 200,
     "currency": "Kwacha",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/212279"
+  "numista": "https://en.numista.com/212279",
+  "country_code": "mw"
 }

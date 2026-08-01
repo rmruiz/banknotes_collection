@@ -1,10 +1,6 @@
 {
   "id": "mn-p66d",
   "pick_number": "P-66d",
-  "country": {
-    "en": "Mongolia",
-    "es": "Mongolia"
-  },
   "denomination": {
     "value": 500,
     "currency": "Tugrik - Tögrög",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203146"
+  "numista": "https://en.numista.com/203146",
+  "country_code": "mn"
 }

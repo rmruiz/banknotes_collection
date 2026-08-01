@@ -1,10 +1,6 @@
 {
   "id": "ar-p277a1",
   "pick_number": "P-277a.1",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://es.numista.com/203858"
+  "numista": "https://es.numista.com/203858",
+  "country_code": "ar"
 }

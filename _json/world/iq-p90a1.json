@@ -1,10 +1,6 @@
 {
   "id": "iq-p90a1",
   "pick_number": "P-90a.1",
-  "country": {
-    "en": "Iraq",
-    "es": "Irak"
-  },
   "denomination": {
     "value": 50,
     "currency": "Dinares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203240"
+  "numista": "https://en.numista.com/203240",
+  "country_code": "iq"
 }

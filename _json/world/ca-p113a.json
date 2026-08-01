@@ -1,10 +1,6 @@
 {
   "id": "ca-p113a",
   "pick_number": "P-113a",
-  "country": {
-    "en": "Canada",
-    "es": "Canadá"
-  },
   "denomination": {
     "value": 10,
     "currency": "Dólares",
@@ -38,5 +34,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/201672"
+  "numista": "https://en.numista.com/201672",
+  "country_code": "ca"
 }

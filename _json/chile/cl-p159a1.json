@@ -1,10 +1,6 @@
 {
   "id": "cl-p159a1",
   "pick_number": "P-159a.1",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 20000,
     "currency": "Pesos",
@@ -40,5 +36,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/232327"
+  "numista": "https://en.numista.com/232327",
+  "country_code": "cl"
 }

@@ -1,10 +1,6 @@
 {
   "id": "hr-p38b",
   "pick_number": "P-38b",
-  "country": {
-    "en": "Croatia",
-    "es": "Croacia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Kuna",
@@ -37,5 +33,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/201561"
+  "numista": "https://en.numista.com/201561",
+  "country_code": "hr"
 }

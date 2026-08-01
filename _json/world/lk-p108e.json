@@ -1,10 +1,6 @@
 {
   "id": "lk-p108e",
   "pick_number": "P-108e",
-  "country": {
-    "en": "Sri Lanka",
-    "es": "Sri Lanka"
-  },
   "denomination": {
     "value": 10,
     "currency": "Rupias",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203323"
+  "numista": "https://en.numista.com/203323",
+  "country_code": "lk"
 }

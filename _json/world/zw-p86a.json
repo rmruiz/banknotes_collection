@@ -1,10 +1,6 @@
 {
   "id": "zw-p86a",
   "pick_number": "P-86a",
-  "country": {
-    "en": "Zimbabwe",
-    "es": "Zimbabue"
-  },
   "denomination": {
     "value": 20000000000,
     "currency": "Dólares",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201952"
+  "numista": "https://en.numista.com/201952",
+  "country_code": "zw"
 }

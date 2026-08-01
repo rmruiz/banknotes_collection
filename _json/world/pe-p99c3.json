@@ -1,10 +1,6 @@
 {
   "id": "pe-p99c3",
   "pick_number": "P-99c.3",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 5,
     "currency": "Soles de Oro",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205623"
+  "numista": "https://en.numista.com/205623",
+  "country_code": "pe"
 }

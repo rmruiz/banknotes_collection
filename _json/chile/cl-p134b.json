@@ -1,10 +1,6 @@
 {
   "id": "cl-p134b",
   "pick_number": "P-134b",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 0.5,
     "currency": "Escudo",
@@ -17,7 +13,13 @@
     "Mackenna",
     "Ibañez"
   ],
-  "themes": [],
+  "themes": [
+    "personaje:bernardo_ohiggins",
+    "personaje:diego_de_almagro",
+    "arte:descubrimiento_de_chile_por_diego_de_almagro",
+    "evento:llegada_de_almagro_a_chile",
+    "transporte:caballo"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/2554-%C2%BD_Escudo-1962-1975_ND_Issue-Chile",
     "group": ""
@@ -34,8 +36,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "178483",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "cl"
 }

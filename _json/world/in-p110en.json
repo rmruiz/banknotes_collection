@@ -1,10 +1,6 @@
 {
   "id": "in-p110en",
   "pick_number": "P-110e.N",
-  "country": {
-    "en": "India",
-    "es": "India"
-  },
   "denomination": {
     "value": 20,
     "currency": "Rupias",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202624"
+  "numista": "https://en.numista.com/202624",
+  "country_code": "in"
 }

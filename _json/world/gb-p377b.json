@@ -1,10 +1,6 @@
 {
   "id": "gb-p377b",
   "pick_number": "P-377b",
-  "country": {
-    "en": "Great Britain",
-    "es": "Gran Bretaña"
-  },
   "denomination": {
     "value": 1,
     "currency": "Libra Esterlina",
@@ -38,5 +34,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/202356"
+  "numista": "https://en.numista.com/202356",
+  "country_code": "gb"
 }

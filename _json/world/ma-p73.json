@@ -1,10 +1,6 @@
 {
   "id": "ma-p73",
   "pick_number": "P-73",
-  "country": {
-    "en": "Morocco",
-    "es": "Marruecos"
-  },
   "denomination": {
     "value": 25,
     "currency": "Dirhams",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/205091"
+  "numista": "https://en.numista.com/205091",
+  "country_code": "ma"
 }

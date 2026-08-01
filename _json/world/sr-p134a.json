@@ -1,10 +1,6 @@
 {
   "id": "sr-p134a",
   "pick_number": "P-134a",
-  "country": {
-    "en": "Suriname",
-    "es": "Surinam"
-  },
   "denomination": {
     "value": 250,
     "currency": "Florines",
@@ -14,7 +10,15 @@
   "year": 1988,
   "numista": "https://en.numista.com/203200",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:anton_de_kom",
+    "fauna:tucan",
+    "construccion:edificios",
+    "construccion:casa",
+    "actividad:oratoria",
+    "evento:9_de_enero",
+    "lugar:suriname"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/16824-250_Gulden-1986-1988_Issue-Surinam",
     "group": ""
@@ -31,8 +35,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "AA563006",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "sr"
 }

@@ -1,10 +1,6 @@
 {
   "id": "pe-p199a",
   "pick_number": "P-199a",
-  "country": {
-    "en": "Peru",
-    "es": "Perú"
-  },
   "denomination": {
     "value": 100,
     "currency": "Soles",
@@ -38,5 +34,6 @@
       "condition": "AU"
     }
   ],
-  "numista": "https://en.numista.com/300713"
+  "numista": "https://en.numista.com/300713",
+  "country_code": "pe"
 }

@@ -1,10 +1,6 @@
 {
   "id": "fi-p98a23",
   "pick_number": "P-98a.23",
-  "country": {
-    "en": "Finland",
-    "es": "Finlandia"
-  },
   "denomination": {
     "value": 1,
     "currency": "Marco",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202310"
+  "numista": "https://en.numista.com/202310",
+  "country_code": "fi"
 }

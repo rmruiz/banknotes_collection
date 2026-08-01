@@ -1,10 +1,6 @@
 {
   "id": "mx-p124o3",
   "pick_number": "P-124o.3",
-  "country": {
-    "en": "Mexico",
-    "es": "México"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/210952"
+  "numista": "https://en.numista.com/210952",
+  "country_code": "mx"
 }

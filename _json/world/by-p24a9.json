@@ -1,10 +1,6 @@
 {
   "id": "by-p24a9",
   "pick_number": "P-24a.9",
-  "country": {
-    "en": "Belarus",
-    "es": "Bielorrusia"
-  },
   "denomination": {
     "value": 20,
     "currency": "Rublos",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202768"
+  "numista": "https://en.numista.com/202768",
+  "country_code": "by"
 }

@@ -1,10 +1,6 @@
 {
   "id": "br-p220a",
   "pick_number": "P-220a",
-  "country": {
-    "en": "Brazil",
-    "es": "Brasil"
-  },
   "denomination": {
     "value": 100,
     "currency": "Cruzados Novos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203188"
+  "numista": "https://en.numista.com/203188",
+  "country_code": "br"
 }

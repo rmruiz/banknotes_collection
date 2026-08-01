@@ -1,10 +1,6 @@
 {
   "id": "ar-p324b",
   "pick_number": "P-324b",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 5,
     "currency": "Australes",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202634"
+  "numista": "https://en.numista.com/202634",
+  "country_code": "ar"
 }

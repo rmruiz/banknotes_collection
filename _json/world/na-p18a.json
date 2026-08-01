@@ -1,10 +1,6 @@
 {
   "id": "na-p18a",
   "pick_number": "P-18a",
-  "country": {
-    "en": "Namibia",
-    "es": "Namibia"
-  },
   "denomination": {
     "value": 30,
     "currency": "Dólares",
@@ -40,5 +36,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/214285"
+  "numista": "https://en.numista.com/214285",
+  "country_code": "na"
 }

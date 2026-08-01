@@ -1,10 +1,6 @@
 {
   "id": "pl-p178",
   "pick_number": "P-178",
-  "country": {
-    "en": "Poland",
-    "es": "Polonia"
-  },
   "denomination": {
     "value": 50,
     "currency": "Zlotys",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202649"
+  "numista": "https://en.numista.com/202649",
+  "country_code": "pl"
 }

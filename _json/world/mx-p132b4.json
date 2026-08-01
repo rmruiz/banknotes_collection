@@ -1,10 +1,6 @@
 {
   "id": "mx-p132b4",
   "pick_number": "P-132b.4",
-  "country": {
-    "en": "Mexico",
-    "es": "México"
-  },
   "denomination": {
     "value": 20,
     "currency": "Pesos",
@@ -39,5 +35,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/306846"
+  "numista": "https://en.numista.com/306846",
+  "country_code": "mx"
 }

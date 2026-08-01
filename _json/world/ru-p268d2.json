@@ -1,10 +1,6 @@
 {
   "id": "ru-p268d2",
   "pick_number": "P-268d.2",
-  "country": {
-    "en": "Russia",
-    "es": "Rusia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Rublos",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202130"
+  "numista": "https://en.numista.com/202130",
+  "country_code": "ru"
 }

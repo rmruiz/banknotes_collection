@@ -1,10 +1,6 @@
 {
   "id": "mr-p21a",
   "pick_number": "P-21A",
-  "country": {
-    "en": "Mauritania",
-    "es": "Mauritania"
-  },
   "denomination": {
     "value": 20,
     "currency": "Ouguiya",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/318306"
+  "numista": "https://en.numista.com/318306",
+  "country_code": "mr"
 }

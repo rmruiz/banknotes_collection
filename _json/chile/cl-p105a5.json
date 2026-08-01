@@ -1,10 +1,6 @@
 {
   "id": "cl-p105a5",
   "pick_number": "P-105a.5",
-  "country": {
-    "en": "Chile",
-    "es": "Chile"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -41,5 +37,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/226077"
+  "numista": "https://en.numista.com/226077",
+  "country_code": "cl"
 }

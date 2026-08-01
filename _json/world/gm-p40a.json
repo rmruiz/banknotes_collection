@@ -1,10 +1,6 @@
 {
   "id": "gm-p40a",
   "pick_number": "P-40a",
-  "country": {
-    "en": "Gambia",
-    "es": "Gambia"
-  },
   "denomination": {
     "value": 50,
     "currency": "Dalasis",
@@ -14,7 +10,11 @@
   "year": 2019,
   "numista": "https://en.numista.com/204147",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "fauna:aguila",
+    "simbolo:escudo_de_armas_de_gambia",
+    "construccion:circulos_de_piedra_de_wassu"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/106431-50_Dalasis-2019-2023_Birds_Issue-Gambia",
     "group": ""
@@ -31,8 +31,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "B1605436",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "gm"
 }

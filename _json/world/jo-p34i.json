@@ -1,10 +1,6 @@
 {
   "id": "jo-p34i",
   "pick_number": "P-34i",
-  "country": {
-    "en": "Jordan",
-    "es": "Jordania"
-  },
   "denomination": {
     "value": 1,
     "currency": "Dinar",
@@ -38,5 +34,6 @@
       "condition": "F"
     }
   ],
-  "numista": "https://en.numista.com/204450"
+  "numista": "https://en.numista.com/204450",
+  "country_code": "jo"
 }

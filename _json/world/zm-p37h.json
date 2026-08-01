@@ -1,10 +1,6 @@
 {
   "id": "zm-p37h",
   "pick_number": "P-37h",
-  "country": {
-    "en": "Zambia",
-    "es": "Zambia"
-  },
   "denomination": {
     "value": 50,
     "currency": "Kwacha",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/204046"
+  "numista": "https://en.numista.com/204046",
+  "country_code": "zm"
 }

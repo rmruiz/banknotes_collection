@@ -1,10 +1,6 @@
 {
   "id": "lk-p123c",
   "pick_number": "P-123c",
-  "country": {
-    "en": "Sri Lanka",
-    "es": "Sri Lanka"
-  },
   "denomination": {
     "value": 20,
     "currency": "Rupias",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/203329"
+  "numista": "https://en.numista.com/203329",
+  "country_code": "lk"
 }

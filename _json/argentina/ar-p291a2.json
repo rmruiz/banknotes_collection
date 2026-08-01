@@ -1,10 +1,6 @@
 {
   "id": "ar-p291a2",
   "pick_number": "P-291a.2",
-  "country": {
-    "en": "Argentina",
-    "es": "Argentina"
-  },
   "denomination": {
     "value": 100,
     "currency": "Pesos",
@@ -37,5 +33,6 @@
       "condition": "Poor"
     }
   ],
-  "numista": "https://en.numista.com/240699"
+  "numista": "https://en.numista.com/240699",
+  "country_code": "ar"
 }

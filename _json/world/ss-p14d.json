@@ -1,10 +1,6 @@
 {
   "id": "ss-p14d",
   "pick_number": "P-14d",
-  "country": {
-    "en": "South Sudan",
-    "es": "Sudán del Sur"
-  },
   "denomination": {
     "value": 50,
     "currency": "Libras",
@@ -14,7 +10,12 @@
   "year": 2019,
   "numista": "https://en.numista.com/201860",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:dr_john_garang_de_mabior",
+    "fauna:elefantes",
+    "flora:pastizal",
+    "flora:arbol"
+  ],
   "colnect": {
     "url": "https://colnect.com/es/banknotes/banknote/109396-50_South_Sudanese_Pounds-2015-2024_Issue-Sud%C3%A1n_del_Sur",
     "group": ""
@@ -31,8 +32,9 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "AW8295137",
       "condition": ""
     }
-  ]
+  ],
+  "country_code": "ss"
 }

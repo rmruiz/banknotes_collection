@@ -1,10 +1,6 @@
 {
   "id": "zw-p43",
   "pick_number": "P-43",
-  "country": {
-    "en": "Zimbabwe",
-    "es": "Zimbabue"
-  },
   "denomination": {
     "value": 500,
     "currency": "Dólares",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/207489"
+  "numista": "https://en.numista.com/207489",
+  "country_code": "zw"
 }

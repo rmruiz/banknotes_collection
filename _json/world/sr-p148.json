@@ -1,10 +1,6 @@
 {
   "id": "sr-p148",
   "pick_number": "P-148",
-  "country": {
-    "en": "Suriname",
-    "es": "Surinam"
-  },
   "denomination": {
     "value": 25,
     "currency": "Florines",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201608"
+  "numista": "https://en.numista.com/201608",
+  "country_code": "sr"
 }

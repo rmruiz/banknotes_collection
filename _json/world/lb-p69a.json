@@ -1,10 +1,6 @@
 {
   "id": "lb-p69a",
   "pick_number": "P-69a",
-  "country": {
-    "en": "Lebanon",
-    "es": "Líbano"
-  },
   "denomination": {
     "value": 1000,
     "currency": "Libras",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/206042"
+  "numista": "https://en.numista.com/206042",
+  "country_code": "lb"
 }

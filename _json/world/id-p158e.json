@@ -1,10 +1,6 @@
 {
   "id": "id-p158e",
   "pick_number": "P-158e",
-  "country": {
-    "en": "Indonesia",
-    "es": "Indonesia"
-  },
   "denomination": {
     "value": 20000,
     "currency": "Rupias",
@@ -39,5 +35,6 @@
       "condition": "VF"
     }
   ],
-  "numista": "https://en.numista.com/206039"
+  "numista": "https://en.numista.com/206039",
+  "country_code": "id"
 }

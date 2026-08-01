@@ -1,10 +1,6 @@
 {
   "id": "bia-p5a",
   "pick_number": "P-5a",
-  "country": {
-    "en": "Biafra",
-    "es": "Biafra"
-  },
   "denomination": {
     "value": 1,
     "currency": "Libra",
@@ -38,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/201616"
+  "numista": "https://en.numista.com/201616",
+  "country_code": "bia"
 }

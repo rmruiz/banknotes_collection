@@ -1,10 +1,6 @@
 {
   "id": "aw-p21a",
   "pick_number": "P-21a",
-  "country": {
-    "en": "Aruba",
-    "es": "Aruba"
-  },
   "denomination": {
     "value": 10,
     "currency": "Florines",
@@ -40,5 +36,6 @@
       "serial_number": "A0654173",
       "condition": "UNC"
     }
-  ]
+  ],
+  "country_code": "aw"
 }

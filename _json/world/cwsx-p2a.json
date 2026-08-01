@@ -1,10 +1,6 @@
 {
   "id": "cwsx-p2a",
   "pick_number": "P-2a",
-  "country": {
-    "en": "Curaçao and Sint Maarten",
-    "es": "Curazao y San Martín"
-  },
   "denomination": {
     "value": 20,
     "currency": "Florin Caribeño",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/464541"
+  "numista": "https://en.numista.com/464541",
+  "country_code": "cwsx"
 }

@@ -1,10 +1,6 @@
 {
   "id": "au-p63a",
   "pick_number": "P-63a",
-  "country": {
-    "en": "Australia",
-    "es": "Australia"
-  },
   "denomination": {
     "value": 10,
     "currency": "Dólares Australianos",
@@ -37,5 +33,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202860"
+  "numista": "https://en.numista.com/202860",
+  "country_code": "au"
 }

@@ -1,10 +1,6 @@
 {
   "id": "id-p90a",
   "pick_number": "P-90a",
-  "country": {
-    "en": "Indonesia",
-    "es": "Indonesia"
-  },
   "denomination": {
     "value": 1,
     "currency": "Sen",
@@ -36,5 +32,6 @@
       "condition": "UNC"
     }
   ],
-  "numista": "https://en.numista.com/202984"
+  "numista": "https://en.numista.com/202984",
+  "country_code": "id"
 }
