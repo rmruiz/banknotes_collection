@@ -3,6 +3,9 @@
 """Genera la imagen consolidada (front + info + bandera + back) de cada billete,
 leyendo las rutas definidas en los JSON (specimens[0].images).
 
+Se usa como script ejecutable y tambien como módulo del servidor web (serve_web.py) sirviendo la API
+POST /api/generar_full
+
 Replica lo que hacía _append_text.sh, pero manejado por los JSON.
 
 Uso:

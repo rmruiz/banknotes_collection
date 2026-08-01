@@ -4,24 +4,29 @@
 ## 🔍 Descripción General  
 Este proyecto es un sistema integral basado en **archivos locales** (sin bases de datos SQL) que permite:  
 - Catalogar billetes con metadatos estructurados.  
-- Extraer información automáticamente usando IA local.  
-- Visualizar y buscar billetes mediante una interfaz web interactiva.  
+- Extraer información y temas automáticamente usando IA local (Ollama).  
+- Generar imágenes consolidadas (`_FULL/`) y etiquetas imprimibles en PDF (`ReportLab`).  
+- Visualizar, editar y buscar billetes mediante una interfaz web interactiva con API REST local.  
 
 ### Arquitectura  
 1. **Capa de Almacenamiento**  
-   - JSON individuales por billete en `_json/<país>/<id>.json`.  
-2. **Capa de Procesamiento**  
-   - Scripts para análisis visual (IA), generación de miniaturas y sincronización de datos.  
-3. **Capa de Presentación**  
-   - Frontend estático en `web/` con Vanilla JS y Pico.css.  
+   - JSONs individuales por billete organizados en `_json/<categoría>/<id>.json` (ej. `chile/`, `argentina/`, `usa/`, `world/`).  
+   - `_json/countries.json`: **Fuente única de verdad** para la información de países (código ISO, nombres en ES/EN, bandera asignada en `_flags/` y carpeta correspondiente).  
+   - `_json/country_map.py`: Módulo centralizado de consulta de datos de países.  
+   - Fotos originales alojadas en `_originals/<id>/<id>_A.jpg` (frente) y `<id>_B.jpg` (reverso).  
+2. **Capa de Procesamiento (`_scripts/`)**  
+   - Scripts para compilación del catálogo, generación de miniaturas, imágenes consolidadas, etiquetas PDF y extracción de metadatos con IA.  
+3. **Capa de Presentación (`web/`)**  
+   - Frontend estático responsivo en `web/` con Vanilla JS y Pico.css, alimentado por `web/collection.json`.  
 
 ---
 
 ## 🧰 Requisitos Previos  
 Asegúrate de tener instalados:  
 - [Python 3.8+](https://www.python.org/downloads/)  
-- [ImageMagick](https://imagemagick.org) (para miniaturas y generación de imágenes).  
-- [Ollama](https://ollama.com) (modelos LLM locales como `gemma4:31b`, `llava:34b`).  
+- [ImageMagick](https://imagemagick.org) (para manipulación de imágenes y composición).  
+- [ReportLab](https://www.reportlab.com/) (`pip install reportlab` para generación de PDFs).  
+- [Ollama](https://ollama.com) (modelos LLM locales para tareas de visión e IA).  
 
 ---
 
@@ -35,15 +40,14 @@ cd banknotes_collection
 
 ### Paso 2: Instalar Dependencias de Python  
 ```bash
-pip install langchain-ollama langgraph pydantic langchain-community reportlab beautifulsoup4 requests
+pip install reportlab beautifulsoup4 requests pydantic
 ```
 
-### Paso 3: Iniciar Modelos Ollama (Opcional)  
-Ejemplo para descargar un modelo:  
+### Paso 3: Iniciar Modelos Ollama (Opcional para IA)  
+Ejemplo para descargar modelos locales:  
 ```bash
 ollama pull gemma4:31b
 ollama pull llava:34b
-ollama pull qwen3:32b
 ```
 
 ### Paso 4: Ejecutar el Servidor Web  
@@ -54,51 +58,43 @@ Accede a la aplicación en [http://localhost:8000/web/](http://localhost:8000/we
 
 ---
 
-## 🛠️ Scripts Principales  
+## 🛠️ Scripts Principales (`_scripts/`)
 
-### `extract_serial.py`  
-- **Propósito**: Extrae el número de serie de billetes faltantes.  
-- **Cómo usarlo**:  
-  ```bash
-  python3 extract_serial.py
-  ```
-- **Funcionamiento**:  
-  - Analiza JSONs sin `serial_number`.  
-  - Usa Ollama (modelo `gemma4:31b`) para leer imágenes en `_originals/<id>/`.  
-
----
-
-### `banknote_processor.py`  
-- **Propósito**: Genera etiquetas temáticas usando IA.  
-- **Cómo usarlo**:  
-  ```bash
-  python3 banknote_processor.py
-  ```
-- **Flujo de Trabajo**:  
-  1. Analiza imágenes con `llama3.2-vision`.  
-  2. Busca contexto adicional en DuckDuckGo.  
-  3. Extrae etiquetas estructuradas con `qwen3:32b`.  
+| Script | Propósito | Formas de Uso |  
+|--------|-----------|---------------|  
+| `_scripts/serve_web.py` | Servidor web local y API REST para visualización y administración (crear billetes, editar JSONs, verificar billetes y solicitar generación de imágenes `_FULL/`). | `python3 _scripts/serve_web.py 8000` |  
+| `_scripts/build_web.py` | Genera el índice unificado `web/collection.json` y las miniaturas en `web/thumbs/`. | `python3 _scripts/build_web.py --force` |  
+| `_scripts/generar_imagen.py` | Genera la imagen consolidada `_FULL/<id>.jpg` (frente + info + bandera + reverso). Funciona en CLI y como servicio API del servidor web (`POST /api/generar_full`). | `python3 _scripts/generar_imagen.py` <br> `python3 _scripts/generar_imagen.py --filter chile` |  
+| `_scripts/generar_etiquetas.py` | Genera un archivo PDF (`etiquetas.pdf`) imprimible en formato Carta con etiquetas físicas estructuradas para cada billete usando ReportLab. | `python3 _scripts/generar_etiquetas.py` <br> `python3 _scripts/generar_etiquetas.py --filter chile` |  
+| `_scripts/extract_serial.py` | Extrae números de serie leyendo las imágenes de los billetes mediante IA local (Ollama). | `python3 _scripts/extract_serial.py` |  
+| `_scripts/extract_themes_from_jpgs.py` | Analiza las imágenes con visión por IA (Ollama) para extraer temas visuales y descripciones. | `python3 _scripts/extract_themes_from_jpgs.py` |  
+| `_scripts/reset_verificados.py` | Utility script para actualizar o reiniciar el campo `verificado` de los JSONs. | `python3 _scripts/reset_verificados.py` |  
+| `_scripts/util.py` | Módulo de utilidades compartidas (normalización de texto, banderas e ID canónico `make_note_id`). | Importado por otros scripts. |  
+| `_scripts/git_clean_json.sh` | Utility script para formatear/limpiar los JSONs antes de guardarlos en Git. | `./_scripts/git_clean_json.sh` |  
 
 ---
 
-### Otros Scripts Relevantes  
-| Script | Propósito | Cómo Usarlo |  
-|--------|-----------|-------------|  
-| `_scripts/build_web.py` | Genera el índice `collection.json` y miniaturas. | `python3 _scripts/build_web.py --force` |  
-| `_scripts/generar_imagen.py` | Crea imágenes Full (frente + info + bandera + reverso). | `python3 _scripts/generar_imagen.py` |  
-| `_json/generate_json.py` | Genera JSONs desde un TSV maestro. | `python3 _json/generate_json.py --master inventario.tsv` |  
+## 🌐 Gestión de Países (`_json/countries.json` y `country_map.py`)
+
+- **`_json/countries.json`**: Centraliza los metadatos de todos los países catalogados. Cada entrada incluye:
+  - `code`: Código interno (ej: `"cl"`, `"ar"`, `"us"`).
+  - `iso_alpha2`: Código ISO 3166-1 alpha-2 (ej: `"CL"`, `"AR"`, `"US"`).
+  - `name`: Nombre traducido en español (`es`) e inglés (`en`).
+  - `flag`: Nombre del archivo de imagen de la bandera en `_flags/`.
+  - `folder`: Carpeta en `_json/` donde se almacenan sus billetes (ej: `"chile"`, `"world"`).
+- **`_json/country_map.py`**: Carga automáticamente `countries.json` y expone funciones de búsqueda rápida como `get_country_by_code(code)`, `get_country_by_name(name_es)` y `get_country(query)`.
 
 ---
 
 ## 🧪 Lenguaje de Búsqueda Avanzado (QL)  
-La barra de búsqueda soporta consultas especializadas:  
+La barra de búsqueda de la aplicación web soporta consultas especializadas:  
 
-### Sintaxis Ejemplos  
+### Ejemplos de Sintaxis  
 | Consulta | Descripción |  
 |----------|-------------|  
 | `chile 1000` | Búsqueda global por "Chile" y "1000". |  
 | `"banco central"` | Coincidencia exacta de frase. |  
-| `temas:(bernardo ohiggins)` | Busca por columna `temas`. |  
+| `temas:(bernardo ohiggins)` | Busca por la columna `temas`. |  
 | `-pais:(argentina)` | Excluye billetes de Argentina. |  
 | `anio>=1950` | Filtra por año ≥ 1950. |  
 
@@ -114,18 +110,30 @@ La barra de búsqueda soporta consultas especializadas:
 ## 🖼️ Estructura del Proyecto  
 ```bash
 banknotes_collection/
-├── Readme.md                  # Este archivo.
-├── banknote_processor.py      # Análisis temático con IA.
-├── _json/                      # JSONs por billete (estructura: país/id.json).
-│   ├── country_map.py         # Mapeo de nombres de países a códigos ISO.
-│   └── generate_json.py       # Genera JSONs desde TSV.
-├── _scripts/                  # Scripts de automatización.
-│   ├── build_web.py          # Construye la web estática.
-│   ├── serve_web.py          # Servidor local con API REST.
-│   └── generar_imagen.py      # Genera imágenes Full.
-└── web/                       # Frontend (HTML, JS, CSS).
-    ├── index.html            # Página principal de la colección.
-    └── styles.css            # Estilos personalizados.
+├── Readme.md                  # Documentación principal.
+├── _FULL/                     # Imágenes consolidadas en alta resolución (<id>.jpg).
+├── _flags/                    # Banderas de países en formato JPG/PNG.
+├── _json/                     # Datos estructurados en JSON.
+│   ├── countries.json         # Fuente única de verdad para datos de países.
+│   ├── country_map.py         # Mapeo y consultas de países.
+│   ├── argentina/             # JSONs de billetes de Argentina.
+│   ├── chile/                 # JSONs de billetes de Chile.
+│   ├── usa/                   # JSONs de billetes de EE.UU.
+│   └── world/                 # JSONs de billetes del resto del mundo.
+├── _originals/                # Fotografías originales por billete (_originals/<id>/<id>_A.jpg y <id>_B.jpg).
+├── _scripts/                  # Scripts de automatización y servidor local.
+│   ├── build_web.py          # Genera el índice web (collection.json) y miniaturas.
+│   ├── serve_web.py          # Servidor web local + API REST de administración.
+│   ├── generar_imagen.py     # Genera imágenes Full en _FULL/<id>.jpg (CLI y API).
+│   ├── generar_etiquetas.py  # Genera etiquetas PDF imprimibles con ReportLab.
+│   ├── extract_serial.py     # Extracción de números de serie mediante Ollama.
+│   ├── extract_themes_from_jpgs.py # Extracción de temas con visión por IA.
+│   ├── reset_verificados.py  # Script auxiliar para estado de verificación.
+│   ├── util.py               # Convenios de ID y utilidades de normalización.
+│   └── git_clean_json.sh     # Limpiador/formateador de archivos JSON.
+└── web/                       # Aplicación web estática (HTML, JS, CSS).
+    ├── index.html            # Página principal del catálogo numismático.
+    └── styles.css            # Estilos personalizados (Pico.css).
 ```
 
 ---
@@ -133,24 +141,22 @@ banknotes_collection/
 ## 🧩 Solución de Problemas Comunes  
 
 ### Error: `Ollama no conecta`  
-- Asegúrate de que Ollama esté corriendo:  
+- Asegúrate de que Ollama esté en ejecución:  
   ```bash
   ollama serve
   ```
 
-### Imágenes no se generan  
-- Verifica que las imágenes en `_originals/<id>/` tengan nombres como `<id>_A.jpg` y `<id>_B.jpg`.  
+### Error: `No se encontró 'reportlab'`  
+- Instala ReportLab para la generación de etiquetas en PDF:  
+  ```bash
+  pip install reportlab
+  ```
 
----
-
-## 🌐 Recursos Adicionales  
-- **Documentación Web**: Abre `web/problemas.html` para ver errores detectados.  
-- **Comunidades de Apoyo**: [Enlace a foro/Discord si aplica].  
+### Imágenes no se generan en `_FULL/`  
+- Verifica que las fotos originales estén presentes en `_originals/<id>/` nombradas como `<id>_A.jpg` y `<id>_B.jpg`, y que la bandera correspondiente exista en `_flags/`.  
 
 ---
 
 ## 📜 Licencia  
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.  
-
---- 
 
