@@ -47,9 +47,19 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts
 sys.path.insert(0, str(JSON_DIR))                          # _json
 import build_web                    # reusa make_record (search, bandera, thumbs)
 import generar_imagen               # reusa compose() y flag_for()
-from util import unaccent, make_note_id          # convenios compartidos
-from country_map import COUNTRY_EN, COUNTRY_MAP, get_country_by_name  # país es -> en / -> abreviación
-from generate_json import FOLDER_ROUTE           # país -> carpeta _json destino
+from util import unaccent, make_note_id, COUNTRIES, get_country_by_name  # convenios compartidos
+
+COUNTRY_MAP = {}
+COUNTRY_EN = {}
+FOLDER_ROUTE = {}
+
+for code, info in COUNTRIES.items():
+    name_es = (info.get("name") or {}).get("es", "")
+    if name_es:
+        key_es = name_es.strip().lower()
+        COUNTRY_MAP[key_es] = code
+        COUNTRY_EN[key_es] = (info.get("name") or {}).get("en", name_es)
+        FOLDER_ROUTE[key_es] = info.get("folder", "world")
 
 BIND = "0.0.0.0"
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
@@ -536,7 +546,7 @@ class Handler(SimpleHTTPRequestHandler):
         found = COUNTRY_LOOKUP.get(unaccent(pais.strip()).lower())
         if not found:
             return self._json_error(400, f"país no reconocido: {pais.strip()!r} "
-                                         "(agregarlo a _json/country_map.py)")
+                                         "(agregarlo a _json/countries.json)")
         key_es, abbr = found
 
         _id = make_note_id(abbr, pick)

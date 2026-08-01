@@ -12,7 +12,6 @@ Este proyecto es un sistema integral basado en **archivos locales** (sin bases d
 1. **Capa de Almacenamiento**  
    - JSONs individuales por billete organizados en `_json/<categoría>/<id>.json` (ej. `chile/`, `argentina/`, `usa/`, `world/`).  
    - `_json/countries.json`: **Fuente única de verdad** para la información de países (código ISO, nombres en ES/EN, bandera asignada en `_flags/` y carpeta correspondiente).  
-   - `_json/country_map.py`: Módulo centralizado de consulta de datos de países.  
    - Fotos originales alojadas en `_originals/<id>/<id>_A.jpg` (frente) y `<id>_B.jpg` (reverso).  
 2. **Capa de Procesamiento (`_scripts/`)**  
    - Scripts para compilación del catálogo, generación de miniaturas, imágenes consolidadas, etiquetas PDF y extracción de metadatos con IA.  
@@ -74,7 +73,7 @@ Accede a la aplicación en [http://localhost:8000/web/](http://localhost:8000/we
 
 ---
 
-## 🌐 Gestión de Países (`_json/countries.json` y `country_map.py`)
+## 🌐 Gestión de Países (`_json/countries.json`)
 
 - **`_json/countries.json`**: Centraliza los metadatos de todos los países catalogados. Cada entrada incluye:
   - `code`: Código interno (ej: `"cl"`, `"ar"`, `"us"`).
@@ -82,7 +81,7 @@ Accede a la aplicación en [http://localhost:8000/web/](http://localhost:8000/we
   - `name`: Nombre traducido en español (`es`) e inglés (`en`).
   - `flag`: Nombre del archivo de imagen de la bandera en `_flags/`.
   - `folder`: Carpeta en `_json/` donde se almacenan sus billetes (ej: `"chile"`, `"world"`).
-- **`_json/country_map.py`**: Carga automáticamente `countries.json` y expone funciones de búsqueda rápida como `get_country_by_code(code)`, `get_country_by_name(name_es)` y `get_country(query)`.
+- Las funciones de búsqueda y consulta se cargan directamente a través de [`_scripts/util.py`](file:///Users/rolando/git/banknotes_collection/_scripts/util.py).
 
 ---
 
@@ -115,7 +114,6 @@ banknotes_collection/
 ├── _flags/                    # Banderas de países en formato JPG/PNG.
 ├── _json/                     # Datos estructurados en JSON.
 │   ├── countries.json         # Fuente única de verdad para datos de países.
-│   ├── country_map.py         # Mapeo y consultas de países.
 │   ├── argentina/             # JSONs de billetes de Argentina.
 │   ├── chile/                 # JSONs de billetes de Chile.
 │   ├── usa/                   # JSONs de billetes de EE.UU.
