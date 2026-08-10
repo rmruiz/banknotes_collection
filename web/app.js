@@ -762,6 +762,12 @@ function applyI18n() {
   updateSortIndicators();
   render();
   loadIssuesBadge();
+
+  // Ocultar botón de edición en producción (solo lectura)
+  const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+  if (!isLocal) {
+    document.querySelectorAll('a[href="index-edit.html"]').forEach((el) => el.style.display = "none");
+  }
 }
 
 /* --- crear billete nuevo --- */

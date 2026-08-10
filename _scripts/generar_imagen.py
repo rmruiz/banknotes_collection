@@ -27,7 +27,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
-FLAGS = REPO / "_flags"
+FLAGS = REPO / "web" / "_flags"
 
 EMAIL = "banknotes.cl@gmail.com"
 SIZE_PAIS, SIZE_DENOM, SIZE_FIRMAS, SIZE_EMAIL = 120, 80, 60, 30
@@ -189,10 +189,10 @@ def main():
         _id = d["id"]
 
         # rutas por convención a partir del id
-        pfront = REPO / "_originals" / _id / f"{_id}_A.jpg"
-        pback = REPO / "_originals" / _id / f"{_id}_B.jpg"
-        pfull = REPO / "_FULL" / f"{_id}.jpg"
-        full = f"_FULL/{_id}.jpg"
+        pfront = REPO / "web" / "_originals" / _id / f"{_id}_A.jpg"
+        pback = REPO / "web" / "_originals" / _id / f"{_id}_B.jpg"
+        pfull = REPO / "web" / "_FULL" / f"{_id}.jpg"
+        full = f"web/_FULL/{_id}.jpg"
         c_code = d.get("country_code", "")
         c_info = get_country_by_code(c_code) if c_code else get_country_by_name((d.get("country") or {}).get("es", ""))
         country_es = c_info["name"]["es"] if c_info else (d.get("country") or {}).get("es", "")

@@ -23,7 +23,7 @@ except ImportError:
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
-FLAGS = REPO / "_flags"
+FLAGS = REPO / "web" / "_flags"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from util import get_country_by_code, get_country_by_name
 

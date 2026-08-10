@@ -31,8 +31,8 @@ JSON_DIR = REPO / "_json"
 WEB = REPO / "web"
 THUMBS = WEB / "thumbs"
 DATA = WEB / "data"
-FLAGS = REPO / "_flags"
-ORIGINALS = REPO / "_originals"
+FLAGS = WEB / "_flags"
+ORIGINALS = WEB / "_originals"
 
 THUMB_WIDTH = 360   # alcanza para mostrar nítido hasta 3x (132px de alto)
 THUMB_QUALITY = 80
@@ -132,11 +132,11 @@ def make_record(d):
     def resolve(rel, thumb_suffix):
         """ruta original + ruta thumb (con ?v=<firma> para invalidar caché
         del navegador cuando la foto cambia), solo si el archivo existe."""
-        src = REPO / rel
+        src = WEB / rel
         if not src.exists():
             return "", ""
         v = file_v(src)
-        return f"../{rel}?v={v}", f"thumbs/{_id}_{thumb_suffix}.jpg?v={v}"
+        return f"{rel}?v={v}", f"thumbs/{_id}_{thumb_suffix}.jpg?v={v}"
 
     # rutas por convención a partir del id (no se guardan en los JSON)
     img_a, thumb_a = resolve(f"_originals/{_id}/{_id}_A.jpg", "A")
@@ -176,7 +176,7 @@ def make_record(d):
         "conmemorativo": bool(d.get("commemorative")),
         "remarcado": bool(d.get("overprint")),
         "verificado": bool(d.get("verificado")),
-        "flag": (lambda fn: f"../_flags/{fn}?v={file_v(FLAGS / fn)}" if fn else "")(
+        "flag": (lambda fn: f"_flags/{fn}?v={file_v(FLAGS / fn)}" if fn else "")(
             flag_file_for_note(d)),
         "thumb_a": thumb_a, "thumb_b": thumb_b, "thumb_f": thumb_f,
         "img_a": img_a, "img_b": img_b, "img_full": img_f,
@@ -253,7 +253,7 @@ def build_issues_data(records, meta, force=False, json_malos=None):
             th = f"thumbs/x_{h}_{side}.jpg"
             v = file_v(src)
             item[key_t] = f"{th}?v={v}"
-            item[key_i] = f"../_originals/{sub.name}/{src.name}?v={v}"
+            item[key_i] = f"_originals/{sub.name}/{src.name}?v={v}"
             sig = file_sig(src)
             if force or not (WEB / th).exists() or meta.get(th) != sig:
                 jobs.append((src, WEB / th, th, sig))
@@ -434,6 +434,13 @@ def build(force=False, verbose=False):
     out = DATA / "collection.json"
     _atomic_write_text(
         out, json.dumps(records, ensure_ascii=False, separators=(",", ":")))
+
+    # Sincronizar countries.json a web/data/ para acceso directo desde la web
+    if (JSON_DIR / "countries.json").exists():
+        _atomic_write_text(
+            DATA / "countries.json",
+            (JSON_DIR / "countries.json").read_text(encoding="utf-8")
+        )
 
     _atomic_write_text(
         DATA / "issues.json",
