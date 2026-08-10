@@ -40,8 +40,9 @@ from urllib.parse import unquote, urlparse, parse_qs
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
-COLLECTION = REPO / "web" / "data" / "collection.json"
-ORIGINALS = REPO / "_originals"
+WEB = REPO / "web"
+COLLECTION = WEB / "data" / "collection.json"
+ORIGINALS = WEB / "_originals"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts
 sys.path.insert(0, str(JSON_DIR))                          # _json
@@ -73,7 +74,7 @@ FOLDER_RE = re.compile(r"^[\w][\w .\-]{0,118}[\w\-]$", re.ASCII)
 
 # prefijos que el servidor está dispuesto a servir por GET (todo lo demás -> 404).
 # el frontend vive en /web/ y referencia imágenes en /_originals /_FULL /_flags.
-ALLOWED_GET_PREFIXES = ("/web/", "/_originals/", "/_FULL/", "/_flags/")
+ALLOWED_GET_PREFIXES = ("/",)
 
 WRITE_LOCK = threading.Lock()
 
@@ -286,13 +287,13 @@ def _sanitize_jpeg(data: bytes, work_dir: Path) -> bytes:
 
 
 # prefijos que SÍ pueden cachearse (imágenes pesadas e inmutables)
-CACHEABLE_PREFIXES = ("/web/thumbs/", "/_originals/", "/_FULL/", "/_flags/",
-                      "/web/pico.min.css")
+CACHEABLE_PREFIXES = ("/thumbs/", "/_originals/", "/_FULL/", "/_flags/",
+                      "/pico.min.css")
 
 
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, directory=str(REPO), **kwargs)
+        super().__init__(*args, directory=str(WEB), **kwargs)
 
     def log_message(self, fmt, *args):  # log compacto
         sys.stderr.write("%s - %s\n" % (self.address_string(), fmt % args))
@@ -308,9 +309,15 @@ class Handler(SimpleHTTPRequestHandler):
         """Choke point de GET/HEAD: solo sirve la whitelist; el resto -> 404.
         Evita exponer .git/, _json/, _scripts/, TSV fuente, etc."""
         path = unquote(self.path.split("?", 1)[0])
-        if path in ("", "/", "/web"):
-            self.send_response(302)
-            self.send_header("Location", "/web/")
+        if path == "/web":
+            self.send_response(301)
+            self.send_header("Location", "/")
+            self.end_headers()
+            return None
+        if path.startswith("/web/"):
+            self.send_response(301)
+            new_path = path[4:] or "/"
+            self.send_header("Location", new_path)
             self.end_headers()
             return None
         if ".." in path or not path.startswith(ALLOWED_GET_PREFIXES):
@@ -736,7 +743,7 @@ def main():
         print(f"  ⚠ JSON inválidos (omitidos del índice): {res['json_invalidos']}"
               " — ver página Problemas", flush=True)
     print(f"Billetes indexados: {len(IDS)}", flush=True)
-    print(f"-> http://localhost:{PORT}/web/   (Ctrl-C para salir)", flush=True)
+    print(f"-> http://localhost:{PORT}/   (Ctrl-C para salir)", flush=True)
     ThreadingHTTPServer((BIND, PORT), Handler).serve_forever()
 
 

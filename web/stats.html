@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estadísticas — Colección de Billetes</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+  <link rel="stylesheet" href="pico.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stats.css">
+  <!-- D3.js & TopoJSON para renderizado del mapa mundial SVG -->
+  <script src="d3.min.js"></script>
+  <script src="topojson-client.min.js"></script>
+</head>
+<body>
+  <main class="container-fluid">
+    <header id="top">
+      <div id="title-row">
+        <h1>📊 Estadísticas de la Colección</h1>
+        <div id="top-actions">
+          <a href="index.html" class="nav-btn" title="Ir al Catálogo Principal">📋 Catálogo</a>
+          <a href="index-edit.html" class="nav-btn" title="Ir a Modo Edición">✏️ Edición</a>
+          <a href="stats.html" class="nav-btn active" title="Dashboard de Estadísticas">📊 Dashboard</a>
+        </div>
+      </div>
+      <p class="subtitle">Análisis visual, mapa numismático interactivo y métricas de la colección en tiempo real.</p>
+    </header>
+
+    <!-- KPI Summary Cards -->
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-icon">💵</div>
+        <div class="kpi-content">
+          <span class="kpi-value" id="kpi-total-notes">0</span>
+          <span class="kpi-label">Total de Billetes</span>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-icon">🌐</div>
+        <div class="kpi-content">
+          <span class="kpi-value" id="kpi-countries-owned">0</span>
+          <span class="kpi-label">Países Coleccionados (<span id="kpi-countries-pct">0%</span>)</span>
+        </div>
+      </div>
+
+      <div class="kpi-card highlight-red">
+        <div class="kpi-icon">❌</div>
+        <div class="kpi-content">
+          <span class="kpi-value" id="kpi-countries-missing">0</span>
+          <span class="kpi-label">Países Faltantes Hoy</span>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-icon">✅</div>
+        <div class="kpi-content">
+          <span class="kpi-value" id="kpi-verified-pct">0%</span>
+          <span class="kpi-label">Billetes Verificados</span>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-icon">🔤</div>
+        <div class="kpi-content">
+          <span class="kpi-value" id="kpi-currencies-count">0</span>
+          <span class="kpi-label">Monedas Distintas</span>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-icon">⭐</div>
+        <div class="kpi-content">
+          <span class="kpi-value" id="kpi-special-count">0</span>
+          <span class="kpi-label">Conmemorativos / Remarcados</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive World Map Section -->
+    <section class="card-section map-section">
+      <div class="section-header">
+        <div>
+          <h2>🗺️ Mapa Mundial Numismático</h2>
+          <p class="section-desc">
+            Visualización geográfica de países con billetes en la colección (<span class="badge-green">Verde = Poseído</span>) 
+            y países existentes pendientes de colección (<span class="badge-red">Rojo = Faltante</span>). Bordes en negro.
+          </p>
+        </div>
+        <div class="map-controls">
+          <button id="zoom-in" title="Acercar">+</button>
+          <button id="zoom-out" title="Alejar">-</button>
+          <button id="zoom-reset" title="Restablecer vista">🎯 Reset</button>
+        </div>
+      </div>
+
+      <div class="map-container">
+        <svg id="world-map" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet"></svg>
+        <div id="map-legend">
+          <div class="legend-item"><span class="legend-box green"></span> En la colección</div>
+          <div class="legend-item"><span class="legend-box red"></span> Faltante (Existente)</div>
+          <div class="legend-item"><span class="legend-box gray"></span> Entidad Histórica / Sin datos</div>
+        </div>
+        <div id="map-tooltip" class="map-tooltip" hidden></div>
+      </div>
+    </section>
+
+    <!-- Missing Countries List -->
+    <section class="card-section">
+      <div class="section-header">
+        <div>
+          <h2>🌍 Países Existentes Faltantes (<span id="missing-count-header">0</span>)</h2>
+          <p class="section-desc">Países actuales reconocidos en el sistema de los cuales no se posee ningún billete en el catálogo.</p>
+        </div>
+        <div class="search-wrap">
+          <input type="search" id="search-missing" placeholder="Filtrar países faltantes…" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="euro-note-banner">
+        ℹ️ <strong>Nota sobre Zona Euro / Territorios:</strong> Algunos países (ej. Alemania, España, Francia, Italia) tienen billetes históricos en la colección o billetes de Euro. Ciertos microestados de la Zona Euro (como Andorra o Mónaco) o territorios no emiten papel moneda propio.
+      </div>
+
+      <div id="missing-countries-grid" class="missing-grid"></div>
+    </section>
+
+    <!-- Charts Grid Section -->
+    <section class="charts-grid">
+      <!-- Top Countries Chart -->
+      <div class="card-section chart-card">
+        <h3>🏆 Top 15 Países con más Billetes</h3>
+        <div id="top-countries-list" class="bar-chart-list"></div>
+      </div>
+
+      <!-- Decade Distribution Chart -->
+      <div class="card-section chart-card">
+        <h3>📅 Billetes por Década / Época</h3>
+        <div id="decades-chart-list" class="bar-chart-list"></div>
+      </div>
+
+      <!-- Conservation Condition Chart -->
+      <div class="card-section chart-card">
+        <h3>✨ Estado de Conservación</h3>
+        <div id="conditions-chart-list" class="bar-chart-list"></div>
+      </div>
+
+      <!-- Top Currencies Chart -->
+      <div class="card-section chart-card">
+        <h3>🔤 Monedas más Frecuentes</h3>
+        <div id="currencies-chart-list" class="bar-chart-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal detail for Country -->
+  <dialog id="country-modal">
+    <article class="modal-article">
+      <header>
+        <div class="modal-header-title">
+          <img id="country-modal-flag" alt="" src="" class="modal-flag">
+          <span id="country-modal-name"></span>
+        </div>
+        <button id="country-modal-close" aria-label="Cerrar">✕</button>
+      </header>
+      <div id="country-modal-body">
+        <p id="country-modal-summary"></p>
+        <div id="country-modal-notes-list" class="notes-mini-grid"></div>
+      </div>
+    </article>
+  </dialog>
+
+  <script src="stats.js"></script>
+</body>
+</html>

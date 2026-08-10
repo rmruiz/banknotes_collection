@@ -77,8 +77,8 @@ def process_banknote_themes():
         if len(data.get("themes", [])) > 0:
             continue
                 
-        front_image = os.path.join("_originals", banknote_id, f"{banknote_id}_A.jpg")
-        back_image = os.path.join("_originals", banknote_id, f"{banknote_id}_B.jpg")
+        front_image = os.path.join("web", "_originals", banknote_id, f"{banknote_id}_A.jpg")
+        back_image = os.path.join("web", "_originals", banknote_id, f"{banknote_id}_B.jpg")
         
         images_to_process = []
         if os.path.exists(front_image):
@@ -87,7 +87,7 @@ def process_banknote_themes():
             images_to_process.append(back_image)
             
         if not images_to_process:
-            print(f"[{banknote_id}] Saltando: No se encontraron imágenes.")
+            print(f"[{banknote_id}] Saltando: No se encontraron imágenes en web/_originals/{banknote_id}/")
             continue
 
         print(f"[{banknote_id}] Procesando...")
