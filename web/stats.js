@@ -136,9 +136,6 @@
     const missingCount = missingCountriesList.length;
     const pctOwned = totalCountriesInCatalog ? ((ownedCountriesCount / totalCountriesInCatalog) * 100).toFixed(1) : 0;
 
-    const verifiedCount = allNotes.filter(n => n.verificado).length;
-    const pctVerified = totalNotes ? ((verifiedCount / totalNotes) * 100).toFixed(1) : 0;
-
     const currenciesSet = new Set(allNotes.map(n => (n.moneda || '').trim()).filter(Boolean));
     const specialCount = allNotes.filter(n => n.conmemorativo || n.remarcado).length;
 
@@ -146,7 +143,6 @@
     document.getElementById('kpi-countries-owned').textContent = `${ownedCountriesCount} / ${totalCountriesInCatalog}`;
     document.getElementById('kpi-countries-pct').textContent = `${pctOwned}%`;
     document.getElementById('kpi-countries-missing').textContent = missingCount;
-    document.getElementById('kpi-verified-pct').textContent = `${pctVerified}%`;
     document.getElementById('kpi-currencies-count').textContent = currenciesSet.size;
     document.getElementById('kpi-special-count').textContent = specialCount;
     document.getElementById('missing-count-header').textContent = missingCount;

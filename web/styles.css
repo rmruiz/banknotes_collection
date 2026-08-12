@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+  --pico-font-family: 'DM Sans', sans-serif;
+  --pico-primary: #A16207;
+  --pico-primary-inverse: #FFFFFF;
+  --pico-background-color: #FAFAF9;
+  --pico-color: #1C1917;
+  --pico-muted-color: #44403C;
+  --pico-muted-border-color: #D6D3D1;
+}
+
 /* Ajustes sobre Pico.css */
 
 #top h1 { margin-bottom: .5rem; }
@@ -236,6 +248,13 @@ details.problema > summary:hover { color: var(--pico-primary); }
 .table-wrap { overflow-x: auto; }
 
 /* orden por columna */
+#tbl thead th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--pico-background-color);
+}
+
 #tbl th[data-sort] { cursor: pointer; user-select: none; white-space: nowrap; }
 #tbl th[data-sort]:hover { color: var(--pico-primary); }
 #tbl th.sort-asc::after { content: " ▲"; font-size: .7em; }
@@ -448,99 +467,106 @@ a.pick-link:hover { text-decoration: underline; }
 
 /* ---- móvil: tabla como tarjetas ---- */
 @media (max-width: 720px) {
-  /* 1 y 2. Ocultar ícono de problemas y selector de tamaño de fotos */
-  #alert-link,
-  #imgsize-label {
-    display: none !important;
-  }
+  #alert-link, #imgsize-label { display: none !important; }
 
-  /* Opción B: Controles en cuadrícula (Wrap) */
-  #meta {
-    flex-direction: column;
-    align-items: stretch;
-    width: 100%;
+  /* Bottom Navigation for Controls */
+  #meta { margin-bottom: 0; }
+  #controls-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--pico-background-color);
+    border-top: 1px solid var(--pico-muted-border-color);
+    padding: 0.75rem;
+    z-index: 100;
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.08);
   }
-  
   #controls {
-    flex-wrap: wrap; 
-    justify-content: space-between;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
   }
-  
   #controls > * {
-    flex: 1 1 calc(50% - 0.5rem); 
+    flex: 1 1 auto;
     margin: 0;
-  }
-  
-  #cols-dd summary {
-    width: 100%;
-    text-align: center;
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
   }
 
-  /* Ocultar cabeceras de la tabla */
+  /* Space for bottom nav */
+  body { padding-bottom: 80px; }
+
+  /* Table as Cards */
   #tbl thead { display: none; }
-  
   #tbl tr {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: .75rem;
-    border: 1px solid var(--pico-muted-border-color);
-    border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 1.25rem;
-  }
-  
-  /* 3. Incrementar el tamaño de la letra de los datos */
-  #tbl td {
     display: block;
-    border: none;
-    padding: 0;
-    text-align: left !important;
-    font-size: 2.15rem; /* Aumento del tamaño del texto base */
+    background: #fff;
+    border: 1px solid var(--pico-muted-border-color);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-  
-  /* Incrementar el tamaño de la letra de las etiquetas superiores */
+  #tbl tr:active {
+    transform: scale(0.98);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+
+  #tbl td {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 0.5rem;
+    border: none;
+    padding: 0.2rem 0;
+    text-align: left !important;
+    font-size: 1rem;
+  }
+
   #tbl td::before {
     content: attr(data-label);
-    display: block;
-    font-size: .8rem; /* Aumento de la etiqueta (antes .7rem) */
+    font-size: 0.7rem;
     color: var(--pico-muted-color);
     text-transform: uppercase;
-    letter-spacing: .04em;
-    margin-bottom: 0.2rem;
+    letter-spacing: 0.05em;
+    font-weight: 700;
   }
 
-  /* Aumentar ligeramente la letra de los inputs en celular para facilitar la edición */
-  #tbl input.cell-edit, 
-  #tbl select.cell-edit {
-    font-size: 1.05rem;
-    padding: 0.3rem 0.5rem;
-  }
-
-  /* Campos largos ocupan todo el ancho */
-  #tbl td[data-col="pais"],
-  #tbl td[data-col="denominacion"],
-  #tbl td[data-col="obs"],
-  #tbl td[data-col="temas"],
-  #tbl td[data-col="firmas"] {
-     grid-column: 1 / -1;
-  }
-
-  /* Contenedor de imágenes ocupa todo el ancho */
-  #tbl td.img {
+  /* Highlight Main Info */
+  #tbl td[data-col="pais"], 
+  #tbl td[data-sort="pick"] { 
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--pico-primary);
     grid-column: 1 / -1;
-    width: 100%;
-    margin-top: .5rem;
+    margin-bottom: 0.5rem;
   }
+  #tbl td[data-col="pais"]::before, 
+  #tbl td[data-sort="pick"]::before { display: none; }
 
+  /* Image handling */
+  #tbl td.img {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  #tbl td.img::before { display: none; }
   #tbl td.img img {
     width: 100%;
     height: auto;
-    max-width: 100%;
-    max-height: 450px; 
+    max-height: 35vh;
     object-fit: contain;
-    border-radius: 6px;
-    background: rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    background: #fdfdfd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  #tbl input.cell-edit, #tbl select.cell-edit {
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem;
   }
 }
 
