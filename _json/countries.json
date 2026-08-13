@@ -1,4 +1,254 @@
 {
+  "xk": {
+    "code": "xk",
+    "iso_alpha2": "XK",
+    "name": {
+      "es": "Kosovo",
+      "en": "Kosovo"
+    },
+    "flag": "FLAG_KOSOVO.jpg",
+    "folder": "world"
+  },
+  "cm": {
+    "code": "cm",
+    "iso_alpha2": "CM",
+    "name": {
+      "es": "Camerún",
+      "en": "Cameroon"
+    },
+    "flag": "FLAG_CAMEROON.jpg",
+    "folder": "world"
+  },
+  "tg": {
+    "code": "tg",
+    "iso_alpha2": "TG",
+    "name": {
+      "es": "Togo",
+      "en": "Togo"
+    },
+    "flag": "FLAG_TOGO.jpg",
+    "folder": "world"
+  },
+  "td": {
+    "code": "td",
+    "iso_alpha2": "TD",
+    "name": {
+      "es": "Chad",
+      "en": "Chad"
+    },
+    "flag": "FLAG_CHAD.jpg",
+    "folder": "world"
+  },
+  "cg": {
+    "code": "cg",
+    "iso_alpha2": "CG",
+    "name": {
+      "es": "Congo",
+      "en": "Congo"
+    },
+    "flag": "FLAG_CONGO.jpg",
+    "folder": "world"
+  },
+  "bj": {
+    "code": "bj",
+    "iso_alpha2": "BJ",
+    "name": {
+      "es": "Benín",
+      "en": "Benin"
+    },
+    "flag": "FLAG_BENIN.jpg",
+    "folder": "world"
+  },
+  "gq": {
+    "code": "gq",
+    "iso_alpha2": "GQ",
+    "name": {
+      "es": "Guinea Ecuatorial",
+      "en": "Equatorial Guinea"
+    },
+    "flag": "FLAG_GUINEAEQUATORIAL.jpg",
+    "folder": "world"
+  },
+  "fk": {
+    "code": "fk",
+    "iso_alpha2": "FK",
+    "name": {
+      "es": "Islas Malvinas",
+      "en": "Falkland Islands"
+    },
+    "flag": "FLAG_FALKLANDISLANDS.jpg",
+    "folder": "world"
+  },
+  "tf": {
+    "code": "tf",
+    "iso_alpha2": "TF",
+    "name": {
+      "es": "Tierras Australes Francesas",
+      "en": "French Southern Territories"
+    },
+    "flag": "FLAG_FRENCHSOUTHERNTERRITORIES.jpg",
+    "folder": "world"
+  },
+  "ga": {
+    "code": "ga",
+    "iso_alpha2": "GA",
+    "name": {
+      "es": "Gabón",
+      "en": "Gabon"
+    },
+    "flag": "FLAG_GABON.jpg",
+    "folder": "world"
+  },
+  "ps": {
+    "code": "ps",
+    "iso_alpha2": "PS",
+    "name": {
+      "es": "Palestina",
+      "en": "Palestine"
+    },
+    "flag": "FLAG_PALESTINE.jpg",
+    "folder": "world"
+  },
+  "gl": {
+    "code": "gl",
+    "iso_alpha2": "GL",
+    "name": {
+      "es": "Groenlandia",
+      "en": "Greenland"
+    },
+    "flag": "FLAG_GREENLAND.jpg",
+    "folder": "world"
+  },
+  "ie": {
+    "code": "ie",
+    "iso_alpha2": "IE",
+    "name": {
+      "es": "Irlanda",
+      "en": "Ireland"
+    },
+    "flag": "FLAG_IRELAND.jpg",
+    "folder": "world"
+  },
+  "ci": {
+    "code": "ci",
+    "iso_alpha2": "CI",
+    "name": {
+      "es": "Costa de Marfil",
+      "en": "Côte d'Ivoire"
+    },
+    "flag": "FLAG_COTEDIVOIRE.jpg",
+    "folder": "world"
+  },
+  "lv": {
+    "code": "lv",
+    "iso_alpha2": "LV",
+    "name": {
+      "es": "Letonia",
+      "en": "Latvia"
+    },
+    "flag": "FLAG_LATVIA.jpg",
+    "folder": "world"
+  },
+  "ml": {
+    "code": "ml",
+    "iso_alpha2": "ML",
+    "name": {
+      "es": "Malí",
+      "en": "Mali"
+    },
+    "flag": "FLAG_MALI.jpg",
+    "folder": "world"
+  },
+  "me": {
+    "code": "me",
+    "iso_alpha2": "ME",
+    "name": {
+      "es": "Montenegro",
+      "en": "Montenegro"
+    },
+    "flag": "FLAG_MONTENEGRO.jpg",
+    "folder": "world"
+  },
+  "nc": {
+    "code": "nc",
+    "iso_alpha2": "NC",
+    "name": {
+      "es": "Nueva Caledonia",
+      "en": "New Caledonia"
+    },
+    "flag": "FLAG_NEWCALEDONIA.jpg",
+    "folder": "world"
+  },
+  "ne": {
+    "code": "ne",
+    "iso_alpha2": "NE",
+    "name": {
+      "es": "Níger",
+      "en": "Niger"
+    },
+    "flag": "FLAG_NIGER.jpg",
+    "folder": "world"
+  },
+  "pa": {
+    "code": "pa",
+    "iso_alpha2": "PA",
+    "name": {
+      "es": "Panamá",
+      "en": "Panama"
+    },
+    "flag": "FLAG_PANAMA.jpg",
+    "folder": "world"
+  },
+  "tl": {
+    "code": "tl",
+    "iso_alpha2": "TL",
+    "name": {
+      "es": "Timor-Leste",
+      "en": "Timor-Leste"
+    },
+    "flag": "FLAG_TIMORLESTE.jpg",
+    "folder": "world"
+  },
+  "sn": {
+    "code": "sn",
+    "iso_alpha2": "SN",
+    "name": {
+      "es": "Senegal",
+      "en": "Senegal"
+    },
+    "flag": "FLAG_SENEGAL.jpg",
+    "folder": "world"
+  },
+  "sk": {
+    "code": "sk",
+    "iso_alpha2": "SK",
+    "name": {
+      "es": "Eslovaquia",
+      "en": "Slovakia"
+    },
+    "flag": "FLAG_SLOVAKIA.jpg",
+    "folder": "world"
+  },
+  "eh": {
+    "code": "eh",
+    "iso_alpha2": "EH",
+    "name": {
+      "es": "Sáhara Occidental",
+      "en": "Western Sahara"
+    },
+    "flag": "FLAG_WESTERNSAHARA.jpg",
+    "folder": "world"
+  },
+  "bf": {
+    "code": "bf",
+    "iso_alpha2": "BF",
+    "name": {
+      "es": "Burkina Faso",
+      "en": "Burkina Faso"
+    },
+    "flag": "FLAG_BURKINAFASO.jpg",
+    "folder": "world"
+  },
   "ab": {
     "code": "ab",
     "iso_alpha2": "AB",
