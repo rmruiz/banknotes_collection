@@ -94,6 +94,8 @@
         // Identificar países faltantes de countries.json
         missingCountriesList = [];
         Object.values(allCountries).forEach(cInfo => {
+            // Ignorar paises sin moneda propia (no tienen billetes)
+            if (cInfo.moneda_propia === 'no') return;
             const code = cInfo.code.toLowerCase();
             const count = (notesByCountryCode[code] || []).length;
             if (count === 0) {
@@ -106,8 +108,14 @@
 
     function renderKPIs() {
         const totalNotes = allNotes.length;
-        const totalCountriesInCatalog = Object.keys(allCountries).length;
-        const ownedCountriesCount = Object.keys(allCountries).filter(code => (notesByCountryCode[code] || []).length > 0).length;
+        // Paises del catalogo con moneda propia (con billetes);
+        // los paises sin moneda propia no cuentan ni como tenidos ni como faltantes.
+        const catalogCountryCodes = Object.keys(allCountries).filter(code => {
+            const c = allCountries[code];
+            return !(c && c.moneda_propia === 'no');
+        });
+        const totalCountriesInCatalog = catalogCountryCodes.length;
+        const ownedCountriesCount = catalogCountryCodes.filter(code => (notesByCountryCode[code] || []).length > 0).length;
         const missingCount = missingCountriesList.length;
         const pctOwned = totalCountriesInCatalog ? ((ownedCountriesCount / totalCountriesInCatalog) * 100).toFixed(1) : 0;
 
@@ -186,6 +194,10 @@
                     const numId = d.id ? String(d.id).padStart(3, '0') : '';
                     const cInfo = numericToCountry[numId] || findCountryInfo(d, null);
 
+                    // Pais sin moneda propia (y por tanto sin billetes): se pinta gris
+                    // ANTES de comprobar si hay billetes en la coleccion.
+                    if (cInfo && cInfo.moneda_propia === 'no') return 'country-path gray';
+
                     const notes = cInfo ? (notesByCountryCode[cInfo.code.toLowerCase()] || []) : [];
                     if (notes.length > 0) return 'country-path owned';
                     if (cInfo) return 'country-path missing';
@@ -209,7 +221,9 @@
                     tooltip.style.left = (event.offsetX + 15) + 'px';
                     tooltip.style.top = (event.offsetY - 10) + 'px';
 
-                    const statusBadge = count > 0
+                    const statusBadge = (cInfo && cInfo.moneda_propia === 'no')
+                           ? `<span style="color:#94a3b8; font-weight:bold;">⚪ Pais sin billetes</span>`
+                           : count > 0
                         ? `<span style="color:#10b981; font-weight:bold;">🟢 ${count} billete(s)</span>`
                         : (cInfo
                             ? `<span style="color:#ef4444; font-weight:bold;">🔴 Faltante</span>`
