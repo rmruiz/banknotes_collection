@@ -2,6 +2,7 @@
   "xk": {
     "code": "xk",
     "iso_alpha2": "XK",
+    "iso_numeric": "382",
     "name": {
       "es": "Kosovo",
       "en": "Kosovo"
@@ -12,6 +13,7 @@
   "cm": {
     "code": "cm",
     "iso_alpha2": "CM",
+    "iso_numeric": "120",
     "name": {
       "es": "Camerún",
       "en": "Cameroon"
@@ -22,6 +24,7 @@
   "tg": {
     "code": "tg",
     "iso_alpha2": "TG",
+    "iso_numeric": "768",
     "name": {
       "es": "Togo",
       "en": "Togo"
@@ -32,6 +35,7 @@
   "td": {
     "code": "td",
     "iso_alpha2": "TD",
+    "iso_numeric": "148",
     "name": {
       "es": "Chad",
       "en": "Chad"
@@ -42,6 +46,7 @@
   "cg": {
     "code": "cg",
     "iso_alpha2": "CG",
+    "iso_numeric": "178",
     "name": {
       "es": "Congo",
       "en": "Congo"
@@ -52,6 +57,7 @@
   "bj": {
     "code": "bj",
     "iso_alpha2": "BJ",
+    "iso_numeric": "204",
     "name": {
       "es": "Benín",
       "en": "Benin"
@@ -62,6 +68,7 @@
   "gq": {
     "code": "gq",
     "iso_alpha2": "GQ",
+    "iso_numeric": "226",
     "name": {
       "es": "Guinea Ecuatorial",
       "en": "Equatorial Guinea"
@@ -72,6 +79,7 @@
   "fk": {
     "code": "fk",
     "iso_alpha2": "FK",
+    "iso_numeric": "238",
     "name": {
       "es": "Islas Malvinas",
       "en": "Falkland Islands"
@@ -82,6 +90,7 @@
   "tf": {
     "code": "tf",
     "iso_alpha2": "TF",
+    "iso_numeric": "260",
     "name": {
       "es": "Tierras Australes Francesas",
       "en": "French Southern Territories"
@@ -92,6 +101,7 @@
   "ga": {
     "code": "ga",
     "iso_alpha2": "GA",
+    "iso_numeric": "266",
     "name": {
       "es": "Gabón",
       "en": "Gabon"
@@ -102,6 +112,7 @@
   "ps": {
     "code": "ps",
     "iso_alpha2": "PS",
+    "iso_numeric": "275",
     "name": {
       "es": "Palestina",
       "en": "Palestine"
@@ -112,6 +123,7 @@
   "gl": {
     "code": "gl",
     "iso_alpha2": "GL",
+    "iso_numeric": "304",
     "name": {
       "es": "Groenlandia",
       "en": "Greenland"
@@ -122,6 +134,7 @@
   "ie": {
     "code": "ie",
     "iso_alpha2": "IE",
+    "iso_numeric": "372",
     "name": {
       "es": "Irlanda",
       "en": "Ireland"
@@ -132,6 +145,7 @@
   "ci": {
     "code": "ci",
     "iso_alpha2": "CI",
+    "iso_numeric": "384",
     "name": {
       "es": "Costa de Marfil",
       "en": "Côte d'Ivoire"
@@ -142,6 +156,7 @@
   "lv": {
     "code": "lv",
     "iso_alpha2": "LV",
+    "iso_numeric": "428",
     "name": {
       "es": "Letonia",
       "en": "Latvia"
@@ -152,6 +167,7 @@
   "ml": {
     "code": "ml",
     "iso_alpha2": "ML",
+    "iso_numeric": "466",
     "name": {
       "es": "Malí",
       "en": "Mali"
@@ -162,6 +178,7 @@
   "me": {
     "code": "me",
     "iso_alpha2": "ME",
+    "iso_numeric": "499",
     "name": {
       "es": "Montenegro",
       "en": "Montenegro"
@@ -172,6 +189,7 @@
   "nc": {
     "code": "nc",
     "iso_alpha2": "NC",
+    "iso_numeric": "540",
     "name": {
       "es": "Nueva Caledonia",
       "en": "New Caledonia"
@@ -182,6 +200,7 @@
   "ne": {
     "code": "ne",
     "iso_alpha2": "NE",
+    "iso_numeric": "562",
     "name": {
       "es": "Níger",
       "en": "Niger"
@@ -192,6 +211,7 @@
   "pa": {
     "code": "pa",
     "iso_alpha2": "PA",
+    "iso_numeric": "591",
     "name": {
       "es": "Panamá",
       "en": "Panama"
@@ -202,6 +222,7 @@
   "tl": {
     "code": "tl",
     "iso_alpha2": "TL",
+    "iso_numeric": "626",
     "name": {
       "es": "Timor-Leste",
       "en": "Timor-Leste"
@@ -212,6 +233,7 @@
   "sn": {
     "code": "sn",
     "iso_alpha2": "SN",
+    "iso_numeric": "686",
     "name": {
       "es": "Senegal",
       "en": "Senegal"
@@ -222,6 +244,7 @@
   "sk": {
     "code": "sk",
     "iso_alpha2": "SK",
+    "iso_numeric": "703",
     "name": {
       "es": "Eslovaquia",
       "en": "Slovakia"
@@ -232,6 +255,7 @@
   "eh": {
     "code": "eh",
     "iso_alpha2": "EH",
+    "iso_numeric": "732",
     "name": {
       "es": "Sáhara Occidental",
       "en": "Western Sahara"
@@ -242,6 +266,7 @@
   "bf": {
     "code": "bf",
     "iso_alpha2": "BF",
+    "iso_numeric": "854",
     "name": {
       "es": "Burkina Faso",
       "en": "Burkina Faso"
@@ -252,6 +277,7 @@
   "ab": {
     "code": "ab",
     "iso_alpha2": "AB",
+    "iso_numeric": null,
     "name": {
       "es": "Abjasia",
       "en": "Abkhazia"
@@ -262,6 +288,7 @@
   "af": {
     "code": "af",
     "iso_alpha2": "AF",
+    "iso_numeric": "004",
     "name": {
       "es": "Afganistán",
       "en": "Afghanistan"
@@ -272,6 +299,7 @@
   "al": {
     "code": "al",
     "iso_alpha2": "AL",
+    "iso_numeric": "008",
     "name": {
       "es": "Albania",
       "en": "Albania"
@@ -282,6 +310,7 @@
   "de": {
     "code": "de",
     "iso_alpha2": "DE",
+    "iso_numeric": "276",
     "name": {
       "es": "Alemania",
       "en": "Germany"
@@ -292,6 +321,7 @@
   "ao": {
     "code": "ao",
     "iso_alpha2": "AO",
+    "iso_numeric": "024",
     "name": {
       "es": "Angola",
       "en": "Angola"
@@ -302,6 +332,7 @@
   "sa": {
     "code": "sa",
     "iso_alpha2": "SA",
+    "iso_numeric": "682",
     "name": {
       "es": "Arabia Saudí",
       "en": "Saudi Arabia"
@@ -312,6 +343,7 @@
   "dz": {
     "code": "dz",
     "iso_alpha2": "DZ",
+    "iso_numeric": "012",
     "name": {
       "es": "Argelia",
       "en": "Algeria"
@@ -322,6 +354,7 @@
   "ar": {
     "code": "ar",
     "iso_alpha2": "AR",
+    "iso_numeric": "032",
     "name": {
       "es": "Argentina",
       "en": "Argentina"
@@ -332,6 +365,7 @@
   "am": {
     "code": "am",
     "iso_alpha2": "AM",
+    "iso_numeric": "051",
     "name": {
       "es": "Armenia",
       "en": "Armenia"
@@ -342,6 +376,7 @@
   "aw": {
     "code": "aw",
     "iso_alpha2": "AW",
+    "iso_numeric": "533",
     "name": {
       "es": "Aruba",
       "en": "Aruba"
@@ -352,6 +387,7 @@
   "au": {
     "code": "au",
     "iso_alpha2": "AU",
+    "iso_numeric": "036",
     "name": {
       "es": "Australia",
       "en": "Australia"
@@ -362,6 +398,7 @@
   "at": {
     "code": "at",
     "iso_alpha2": "AT",
+    "iso_numeric": "040",
     "name": {
       "es": "Austria",
       "en": "Austria"
@@ -372,6 +409,7 @@
   "az": {
     "code": "az",
     "iso_alpha2": "AZ",
+    "iso_numeric": "031",
     "name": {
       "es": "Azerbaiyán",
       "en": "Azerbaijan"
@@ -382,6 +420,7 @@
   "bs": {
     "code": "bs",
     "iso_alpha2": "BS",
+    "iso_numeric": "044",
     "name": {
       "es": "Bahamas",
       "en": "Bahamas"
@@ -392,6 +431,7 @@
   "bh": {
     "code": "bh",
     "iso_alpha2": "BH",
+    "iso_numeric": "048",
     "name": {
       "es": "Baréin",
       "en": "Bahrain"
@@ -402,6 +442,7 @@
   "je": {
     "code": "je",
     "iso_alpha2": "JE",
+    "iso_numeric": "832",
     "name": {
       "es": "Bailía de Jersey",
       "en": "Bailiwick of Jersey"
@@ -412,6 +453,7 @@
   "bd": {
     "code": "bd",
     "iso_alpha2": "BD",
+    "iso_numeric": "050",
     "name": {
       "es": "Bangladesh",
       "en": "Bangladesh"
@@ -422,6 +464,7 @@
   "bb": {
     "code": "bb",
     "iso_alpha2": "BB",
+    "iso_numeric": "052",
     "name": {
       "es": "Barbados",
       "en": "Barbados"
@@ -432,6 +475,7 @@
   "be": {
     "code": "be",
     "iso_alpha2": "BE",
+    "iso_numeric": "056",
     "name": {
       "es": "Bélgica",
       "en": "Belgium"
@@ -442,6 +486,7 @@
   "bz": {
     "code": "bz",
     "iso_alpha2": "BZ",
+    "iso_numeric": "084",
     "name": {
       "es": "Belice",
       "en": "Belize"
@@ -452,6 +497,7 @@
   "bm": {
     "code": "bm",
     "iso_alpha2": "BM",
+    "iso_numeric": "060",
     "name": {
       "es": "Bermuda",
       "en": "Bermuda"
@@ -462,6 +508,7 @@
   "bia": {
     "code": "bia",
     "iso_alpha2": null,
+    "iso_numeric": null,
     "name": {
       "es": "Biafra",
       "en": "Biafra"
@@ -472,6 +519,7 @@
   "by": {
     "code": "by",
     "iso_alpha2": "BY",
+    "iso_numeric": "112",
     "name": {
       "es": "Bielorrusia",
       "en": "Belarus"
@@ -482,6 +530,7 @@
   "mm": {
     "code": "mm",
     "iso_alpha2": "MM",
+    "iso_numeric": "104",
     "name": {
       "es": "Birmania",
       "en": "Myanmar"
@@ -492,6 +541,7 @@
   "bo": {
     "code": "bo",
     "iso_alpha2": "BO",
+    "iso_numeric": "068",
     "name": {
       "es": "Bolivia",
       "en": "Bolivia"
@@ -502,6 +552,7 @@
   "bw": {
     "code": "bw",
     "iso_alpha2": "BW",
+    "iso_numeric": "072",
     "name": {
       "es": "Botswana",
       "en": "Botswana"
@@ -512,6 +563,7 @@
   "ba": {
     "code": "ba",
     "iso_alpha2": "BA",
+    "iso_numeric": "070",
     "name": {
       "es": "Bosnia y Herzegovina",
       "en": "Bosnia and Herzegovina"
@@ -522,6 +574,7 @@
   "br": {
     "code": "br",
     "iso_alpha2": "BR",
+    "iso_numeric": "076",
     "name": {
       "es": "Brasil",
       "en": "Brazil"
@@ -532,6 +585,7 @@
   "bn": {
     "code": "bn",
     "iso_alpha2": "BN",
+    "iso_numeric": "096",
     "name": {
       "es": "Brunei",
       "en": "Brunei"
@@ -542,6 +596,7 @@
   "bg": {
     "code": "bg",
     "iso_alpha2": "BG",
+    "iso_numeric": "100",
     "name": {
       "es": "Bulgaria",
       "en": "Bulgaria"
@@ -552,6 +607,7 @@
   "bi": {
     "code": "bi",
     "iso_alpha2": "BI",
+    "iso_numeric": "108",
     "name": {
       "es": "Burundi",
       "en": "Burundi"
@@ -562,6 +618,7 @@
   "bt": {
     "code": "bt",
     "iso_alpha2": "BT",
+    "iso_numeric": "064",
     "name": {
       "es": "Bután",
       "en": "Bhutan"
@@ -572,6 +629,7 @@
   "cv": {
     "code": "cv",
     "iso_alpha2": "CV",
+    "iso_numeric": "132",
     "name": {
       "es": "Cabo Verde",
       "en": "Cape Verde"
@@ -582,6 +640,7 @@
   "kh": {
     "code": "kh",
     "iso_alpha2": "KH",
+    "iso_numeric": "116",
     "name": {
       "es": "Camboya",
       "en": "Cambodia"
@@ -592,6 +651,7 @@
   "ca": {
     "code": "ca",
     "iso_alpha2": "CA",
+    "iso_numeric": "124",
     "name": {
       "es": "Canadá",
       "en": "Canada"
@@ -602,6 +662,7 @@
   "cl": {
     "code": "cl",
     "iso_alpha2": "CL",
+    "iso_numeric": "152",
     "name": {
       "es": "Chile",
       "en": "Chile"
@@ -612,6 +673,7 @@
   "cn": {
     "code": "cn",
     "iso_alpha2": "CN",
+    "iso_numeric": "156",
     "name": {
       "es": "China",
       "en": "China"
@@ -622,6 +684,7 @@
   "cy": {
     "code": "cy",
     "iso_alpha2": "CY",
+    "iso_numeric": "196",
     "name": {
       "es": "Chipre",
       "en": "Cyprus"
@@ -632,6 +695,7 @@
   "co": {
     "code": "co",
     "iso_alpha2": "CO",
+    "iso_numeric": "170",
     "name": {
       "es": "Colombia",
       "en": "Colombia"
@@ -642,6 +706,7 @@
   "km": {
     "code": "km",
     "iso_alpha2": "KM",
+    "iso_numeric": "174",
     "name": {
       "es": "Comoras",
       "en": "Comoros"
@@ -652,6 +717,7 @@
   "kor": {
     "code": "kor",
     "iso_alpha2": null,
+    "iso_numeric": null,
     "name": {
       "es": "Corea",
       "en": "Korea"
@@ -662,6 +728,7 @@
   "kp": {
     "code": "kp",
     "iso_alpha2": "KP",
+    "iso_numeric": "408",
     "name": {
       "es": "Corea del Norte",
       "en": "North Korea"
@@ -672,6 +739,7 @@
   "kr": {
     "code": "kr",
     "iso_alpha2": "KR",
+    "iso_numeric": "410",
     "name": {
       "es": "Corea del Sur",
       "en": "South Korea"
@@ -682,6 +750,7 @@
   "cr": {
     "code": "cr",
     "iso_alpha2": "CR",
+    "iso_numeric": "188",
     "name": {
       "es": "Costa Rica",
       "en": "Costa Rica"
@@ -692,6 +761,7 @@
   "hr": {
     "code": "hr",
     "iso_alpha2": "HR",
+    "iso_numeric": "191",
     "name": {
       "es": "Croacia",
       "en": "Croatia"
@@ -702,6 +772,7 @@
   "cu": {
     "code": "cu",
     "iso_alpha2": "CU",
+    "iso_numeric": "192",
     "name": {
       "es": "Cuba",
       "en": "Cuba"
@@ -712,6 +783,7 @@
   "cw": {
     "code": "cw",
     "iso_alpha2": "CW",
+    "iso_numeric": "531",
     "name": {
       "es": "Curazao",
       "en": "Curaçao"
@@ -722,6 +794,7 @@
   "cwsx": {
     "code": "cwsx",
     "iso_alpha2": null,
+    "iso_numeric": null,
     "name": {
       "es": "Curazao y San Martín",
       "en": "Curaçao and Sint Maarten"
@@ -732,6 +805,7 @@
   "dk": {
     "code": "dk",
     "iso_alpha2": "DK",
+    "iso_numeric": "208",
     "name": {
       "es": "Dinamarca",
       "en": "Denmark"
@@ -742,6 +816,7 @@
   "ec": {
     "code": "ec",
     "iso_alpha2": "EC",
+    "iso_numeric": "218",
     "name": {
       "es": "Ecuador",
       "en": "Ecuador"
@@ -752,6 +827,7 @@
   "eg": {
     "code": "eg",
     "iso_alpha2": "EG",
+    "iso_numeric": "818",
     "name": {
       "es": "Egipto",
       "en": "Egypt"
@@ -762,6 +838,7 @@
   "cd": {
     "code": "cd",
     "iso_alpha2": "CD",
+    "iso_numeric": "180",
     "name": {
       "es": "El Congo",
       "en": "Democratic Republic of the Congo"
@@ -772,6 +849,7 @@
   "ae": {
     "code": "ae",
     "iso_alpha2": "AE",
+    "iso_numeric": "784",
     "name": {
       "es": "Emiratos Árabes",
       "en": "United Arab Emirates"
@@ -782,6 +860,7 @@
   "er": {
     "code": "er",
     "iso_alpha2": "ER",
+    "iso_numeric": "232",
     "name": {
       "es": "Eritrea",
       "en": "Eritrea"
@@ -792,6 +871,7 @@
   "sct": {
     "code": "sct",
     "iso_alpha2": null,
+    "iso_numeric": null,
     "name": {
       "es": "Escocia",
       "en": "Scotland"
@@ -802,6 +882,7 @@
   "si": {
     "code": "si",
     "iso_alpha2": "SI",
+    "iso_numeric": "705",
     "name": {
       "es": "Eslovenia",
       "en": "Slovenia"
@@ -812,6 +893,7 @@
   "es": {
     "code": "es",
     "iso_alpha2": "ES",
+    "iso_numeric": "724",
     "name": {
       "es": "España",
       "en": "Spain"
@@ -822,6 +904,7 @@
   "us": {
     "code": "us",
     "iso_alpha2": "US",
+    "iso_numeric": "840",
     "name": {
       "es": "Estados Unidos",
       "en": "United States"
@@ -832,6 +915,7 @@
   "xcd": {
     "code": "xcd",
     "iso_alpha2": null,
+    "iso_numeric": null,
     "name": {
       "es": "Estados del Caribe Oriental",
       "en": "Eastern Caribbean States"
@@ -842,6 +926,7 @@
   "ee": {
     "code": "ee",
     "iso_alpha2": "EE",
+    "iso_numeric": "233",
     "name": {
       "es": "Estonia",
       "en": "Estonia"
@@ -852,6 +937,7 @@
   "et": {
     "code": "et",
     "iso_alpha2": "ET",
+    "iso_numeric": "231",
     "name": {
       "es": "Etiopía",
       "en": "Ethiopia"
@@ -862,6 +948,7 @@
   "ph": {
     "code": "ph",
     "iso_alpha2": "PH",
+    "iso_numeric": "608",
     "name": {
       "es": "Filipinas",
       "en": "Philippines"
@@ -872,6 +959,7 @@
   "fi": {
     "code": "fi",
     "iso_alpha2": "FI",
+    "iso_numeric": "246",
     "name": {
       "es": "Finlandia",
       "en": "Finland"
@@ -882,6 +970,7 @@
   "fj": {
     "code": "fj",
     "iso_alpha2": "FJ",
+    "iso_numeric": "242",
     "name": {
       "es": "Fiyi",
       "en": "Fiji"
@@ -892,6 +981,7 @@
   "fr": {
     "code": "fr",
     "iso_alpha2": "FR",
+    "iso_numeric": "250",
     "name": {
       "es": "Francia",
       "en": "France"
@@ -902,6 +992,7 @@
   "gm": {
     "code": "gm",
     "iso_alpha2": "GM",
+    "iso_numeric": "270",
     "name": {
       "es": "Gambia",
       "en": "Gambia"
@@ -912,6 +1003,7 @@
   "ge": {
     "code": "ge",
     "iso_alpha2": "GE",
+    "iso_numeric": "268",
     "name": {
       "es": "Georgia",
       "en": "Georgia"
@@ -922,6 +1014,7 @@
   "gh": {
     "code": "gh",
     "iso_alpha2": "GH",
+    "iso_numeric": "288",
     "name": {
       "es": "Ghana",
       "en": "Ghana"
@@ -932,6 +1025,7 @@
   "gb": {
     "code": "gb",
     "iso_alpha2": "GB",
+    "iso_numeric": "826",
     "name": {
       "es": "Gran Bretaña",
       "en": "Great Britain"
@@ -942,6 +1036,7 @@
   "gr": {
     "code": "gr",
     "iso_alpha2": "GR",
+    "iso_numeric": "300",
     "name": {
       "es": "Grecia",
       "en": "Greece"
@@ -952,6 +1047,7 @@
   "gt": {
     "code": "gt",
     "iso_alpha2": "GT",
+    "iso_numeric": "320",
     "name": {
       "es": "Guatemala",
       "en": "Guatemala"
@@ -962,6 +1058,7 @@
   "gg": {
     "code": "gg",
     "iso_alpha2": "GG",
+    "iso_numeric": "831",
     "name": {
       "es": "Guernsey",
       "en": "Guernsey"
@@ -972,6 +1069,7 @@
   "gn": {
     "code": "gn",
     "iso_alpha2": "GN",
+    "iso_numeric": "324",
     "name": {
       "es": "Guinea",
       "en": "Guinea"
@@ -982,6 +1080,7 @@
   "gw": {
     "code": "gw",
     "iso_alpha2": "GW",
+    "iso_numeric": "624",
     "name": {
       "es": "Guinea-bisáu",
       "en": "Guinea-Bissau"
@@ -992,6 +1091,7 @@
   "gy": {
     "code": "gy",
     "iso_alpha2": "GY",
+    "iso_numeric": "328",
     "name": {
       "es": "Guyana",
       "en": "Guyana"
@@ -1002,6 +1102,7 @@
   "ht": {
     "code": "ht",
     "iso_alpha2": "HT",
+    "iso_numeric": "332",
     "name": {
       "es": "Haití",
       "en": "Haiti"
@@ -1012,6 +1113,7 @@
   "hn": {
     "code": "hn",
     "iso_alpha2": "HN",
+    "iso_numeric": "340",
     "name": {
       "es": "Honduras",
       "en": "Honduras"
@@ -1022,6 +1124,7 @@
   "hk": {
     "code": "hk",
     "iso_alpha2": "HK",
+    "iso_numeric": "344",
     "name": {
       "es": "Hong Kong",
       "en": "Hong Kong"
@@ -1032,6 +1135,7 @@
   "hu": {
     "code": "hu",
     "iso_alpha2": "HU",
+    "iso_numeric": "348",
     "name": {
       "es": "Hungría",
       "en": "Hungary"
@@ -1042,6 +1146,7 @@
   "in": {
     "code": "in",
     "iso_alpha2": "IN",
+    "iso_numeric": "356",
     "name": {
       "es": "India",
       "en": "India"
@@ -1052,6 +1157,7 @@
   "id": {
     "code": "id",
     "iso_alpha2": "ID",
+    "iso_numeric": "360",
     "name": {
       "es": "Indonesia",
       "en": "Indonesia"
@@ -1062,6 +1168,7 @@
   "iq": {
     "code": "iq",
     "iso_alpha2": "IQ",
+    "iso_numeric": "368",
     "name": {
       "es": "Irak",
       "en": "Iraq"
@@ -1072,6 +1179,7 @@
   "ir": {
     "code": "ir",
     "iso_alpha2": "IR",
+    "iso_numeric": "364",
     "name": {
       "es": "Irán",
       "en": "Iran"
@@ -1082,6 +1190,7 @@
   "nir": {
     "code": "nir",
     "iso_alpha2": null,
+    "iso_numeric": null,
     "name": {
       "es": "Irlanda del Norte",
       "en": "Northern Ireland"
@@ -1092,6 +1201,7 @@
   "is": {
     "code": "is",
     "iso_alpha2": "IS",
+    "iso_numeric": "352",
     "name": {
       "es": "Islandia",
       "en": "Iceland"
@@ -1102,6 +1212,7 @@
   "ky": {
     "code": "ky",
     "iso_alpha2": "KY",
+    "iso_numeric": "136",
     "name": {
       "es": "Islas Caimán",
       "en": "Cayman Islands"
@@ -1112,6 +1223,7 @@
   "ck": {
     "code": "ck",
     "iso_alpha2": "CK",
+    "iso_numeric": "184",
     "name": {
       "es": "Islas Cook",
       "en": "Cook Islands"
@@ -1122,6 +1234,7 @@
   "im": {
     "code": "im",
     "iso_alpha2": "IM",
+    "iso_numeric": "833",
     "name": {
       "es": "Isla de Man",
       "en": "Isle of Man"
@@ -1132,6 +1245,7 @@
   "fo": {
     "code": "fo",
     "iso_alpha2": "FO",
+    "iso_numeric": "234",
     "name": {
       "es": "Islas Feroe",
       "en": "Faroe Islands"
@@ -1142,6 +1256,7 @@
   "sb": {
     "code": "sb",
     "iso_alpha2": "SB",
+    "iso_numeric": "090",
     "name": {
       "es": "Islas Salomón",
       "en": "Solomon Islands"
@@ -1152,6 +1267,7 @@
   "il": {
     "code": "il",
     "iso_alpha2": "IL",
+    "iso_numeric": "376",
     "name": {
       "es": "Israel",
       "en": "Israel"
@@ -1162,6 +1278,7 @@
   "it": {
     "code": "it",
     "iso_alpha2": "IT",
+    "iso_numeric": "380",
     "name": {
       "es": "Italia",
       "en": "Italy"
@@ -1172,6 +1289,7 @@
   "jm": {
     "code": "jm",
     "iso_alpha2": "JM",
+    "iso_numeric": "388",
     "name": {
       "es": "Jamaica",
       "en": "Jamaica"
@@ -1182,6 +1300,7 @@
   "jp": {
     "code": "jp",
     "iso_alpha2": "JP",
+    "iso_numeric": "392",
     "name": {
       "es": "Japón",
       "en": "Japan"
@@ -1192,6 +1311,7 @@
   "jo": {
     "code": "jo",
     "iso_alpha2": "JO",
+    "iso_numeric": "400",
     "name": {
       "es": "Jordania",
       "en": "Jordan"
@@ -1202,6 +1322,7 @@
   "kz": {
     "code": "kz",
     "iso_alpha2": "KZ",
+    "iso_numeric": "398",
     "name": {
       "es": "Kazajistán",
       "en": "Kazakhstan"
@@ -1212,6 +1333,7 @@
   "ke": {
     "code": "ke",
     "iso_alpha2": "KE",
+    "iso_numeric": "404",
     "name": {
       "es": "Kenia",
       "en": "Kenya"
@@ -1222,6 +1344,7 @@
   "kg": {
     "code": "kg",
     "iso_alpha2": "KG",
+    "iso_numeric": "417",
     "name": {
       "es": "Kirguistán",
       "en": "Kyrgyzstan"
@@ -1232,6 +1355,7 @@
   "kw": {
     "code": "kw",
     "iso_alpha2": "KW",
+    "iso_numeric": "414",
     "name": {
       "es": "Kuwait",
       "en": "Kuwait"
@@ -1242,6 +1366,7 @@
   "la": {
     "code": "la",
     "iso_alpha2": "LA",
+    "iso_numeric": "418",
     "name": {
       "es": "Laos",
       "en": "Laos"
@@ -1252,6 +1377,7 @@
   "ls": {
     "code": "ls",
     "iso_alpha2": "LS",
+    "iso_numeric": "426",
     "name": {
       "es": "Lesotho",
       "en": "Lesotho"
@@ -1262,6 +1388,7 @@
   "lb": {
     "code": "lb",
     "iso_alpha2": "LB",
+    "iso_numeric": "422",
     "name": {
       "es": "Líbano",
       "en": "Lebanon"
@@ -1272,6 +1399,7 @@
   "lr": {
     "code": "lr",
     "iso_alpha2": "LR",
+    "iso_numeric": "430",
     "name": {
       "es": "Liberia",
       "en": "Liberia"
@@ -1282,6 +1410,7 @@
   "ly": {
     "code": "ly",
     "iso_alpha2": "LY",
+    "iso_numeric": "434",
     "name": {
       "es": "Libia",
       "en": "Libya"
@@ -1292,6 +1421,7 @@
   "lt": {
     "code": "lt",
     "iso_alpha2": "LT",
+    "iso_numeric": "440",
     "name": {
       "es": "Lituania",
       "en": "Lithuania"
@@ -1302,6 +1432,7 @@
   "mo": {
     "code": "mo",
     "iso_alpha2": "MO",
+    "iso_numeric": "446",
     "name": {
       "es": "Macao (china)",
       "en": "Macau (China)"
@@ -1312,6 +1443,7 @@
   "mk": {
     "code": "mk",
     "iso_alpha2": "MK",
+    "iso_numeric": "807",
     "name": {
       "es": "Macedonia del Norte",
       "en": "North Macedonia"
@@ -1322,6 +1454,7 @@
   "mg": {
     "code": "mg",
     "iso_alpha2": "MG",
+    "iso_numeric": "450",
     "name": {
       "es": "Madagascar",
       "en": "Madagascar"
@@ -1332,6 +1465,7 @@
   "my": {
     "code": "my",
     "iso_alpha2": "MY",
+    "iso_numeric": "458",
     "name": {
       "es": "Malasia",
       "en": "Malaysia"
@@ -1342,6 +1476,7 @@
   "mw": {
     "code": "mw",
     "iso_alpha2": "MW",
+    "iso_numeric": "454",
     "name": {
       "es": "Malaui",
       "en": "Malawi"
@@ -1352,6 +1487,7 @@
   "mv": {
     "code": "mv",
     "iso_alpha2": "MV",
+    "iso_numeric": "462",
     "name": {
       "es": "Maldivas",
       "en": "Maldives"
@@ -1362,6 +1498,7 @@
   "ma": {
     "code": "ma",
     "iso_alpha2": "MA",
+    "iso_numeric": "504",
     "name": {
       "es": "Marruecos",
       "en": "Morocco"
@@ -1372,6 +1509,7 @@
   "mu": {
     "code": "mu",
     "iso_alpha2": "MU",
+    "iso_numeric": "480",
     "name": {
       "es": "Mauricio",
       "en": "Mauritius"
@@ -1382,6 +1520,7 @@
   "mr": {
     "code": "mr",
     "iso_alpha2": "MR",
+    "iso_numeric": "478",
     "name": {
       "es": "Mauritania",
       "en": "Mauritania"
@@ -1392,6 +1531,7 @@
   "mx": {
     "code": "mx",
     "iso_alpha2": "MX",
+    "iso_numeric": "484",
     "name": {
       "es": "México",
       "en": "Mexico"
@@ -1402,6 +1542,7 @@
   "md": {
     "code": "md",
     "iso_alpha2": "MD",
+    "iso_numeric": "498",
     "name": {
       "es": "Moldavia",
       "en": "Moldova"
@@ -1412,6 +1553,7 @@
   "mn": {
     "code": "mn",
     "iso_alpha2": "MN",
+    "iso_numeric": "496",
     "name": {
       "es": "Mongolia",
       "en": "Mongolia"
@@ -1422,6 +1564,7 @@
   "mz": {
     "code": "mz",
     "iso_alpha2": "MZ",
+    "iso_numeric": "508",
     "name": {
       "es": "Mozambique",
       "en": "Mozambique"
@@ -1432,6 +1575,7 @@
   "na": {
     "code": "na",
     "iso_alpha2": "NA",
+    "iso_numeric": "516",
     "name": {
       "es": "Namibia",
       "en": "Namibia"
@@ -1442,6 +1586,7 @@
   "np": {
     "code": "np",
     "iso_alpha2": "NP",
+    "iso_numeric": "524",
     "name": {
       "es": "Nepal",
       "en": "Nepal"
@@ -1452,6 +1597,7 @@
   "ni": {
     "code": "ni",
     "iso_alpha2": "NI",
+    "iso_numeric": "558",
     "name": {
       "es": "Nicaragua",
       "en": "Nicaragua"
@@ -1462,6 +1608,7 @@
   "ng": {
     "code": "ng",
     "iso_alpha2": "NG",
+    "iso_numeric": "566",
     "name": {
       "es": "Nigeria",
       "en": "Nigeria"
@@ -1472,6 +1619,7 @@
   "no": {
     "code": "no",
     "iso_alpha2": "NO",
+    "iso_numeric": "578",
     "name": {
       "es": "Noruega",
       "en": "Norway"
@@ -1482,6 +1630,7 @@
   "nz": {
     "code": "nz",
     "iso_alpha2": "NZ",
+    "iso_numeric": "554",
     "name": {
       "es": "Nueva Zelanda",
       "en": "New Zealand"
@@ -1492,6 +1641,7 @@
   "om": {
     "code": "om",
     "iso_alpha2": "OM",
+    "iso_numeric": "512",
     "name": {
       "es": "Omán",
       "en": "Oman"
@@ -1502,6 +1652,7 @@
   "nl": {
     "code": "nl",
     "iso_alpha2": "NL",
+    "iso_numeric": "528",
     "name": {
       "es": "Países Bajos",
       "en": "Netherlands"
@@ -1512,6 +1663,7 @@
   "pk": {
     "code": "pk",
     "iso_alpha2": "PK",
+    "iso_numeric": "586",
     "name": {
       "es": "Pakistán",
       "en": "Pakistan"
@@ -1522,6 +1674,7 @@
   "pg": {
     "code": "pg",
     "iso_alpha2": "PG",
+    "iso_numeric": "598",
     "name": {
       "es": "Papúa Nueva Guinea",
       "en": "Papua New Guinea"
@@ -1532,6 +1685,7 @@
   "py": {
     "code": "py",
     "iso_alpha2": "PY",
+    "iso_numeric": "600",
     "name": {
       "es": "Paraguay",
       "en": "Paraguay"
@@ -1542,6 +1696,7 @@
   "pe": {
     "code": "pe",
     "iso_alpha2": "PE",
+    "iso_numeric": "604",
     "name": {
       "es": "Perú",
       "en": "Peru"
@@ -1552,6 +1707,7 @@
   "pl": {
     "code": "pl",
     "iso_alpha2": "PL",
+    "iso_numeric": "616",
     "name": {
       "es": "Polonia",
       "en": "Poland"
@@ -1562,6 +1718,7 @@
   "pt": {
     "code": "pt",
     "iso_alpha2": "PT",
+    "iso_numeric": "620",
     "name": {
       "es": "Portugal",
       "en": "Portugal"
@@ -1572,6 +1729,7 @@
   "qa": {
     "code": "qa",
     "iso_alpha2": "QA",
+    "iso_numeric": "634",
     "name": {
       "es": "Qatar",
       "en": "Qatar"
@@ -1582,6 +1740,7 @@
   "cf": {
     "code": "cf",
     "iso_alpha2": "CF",
+    "iso_numeric": "140",
     "name": {
       "es": "Rep. Centroafricana",
       "en": "Central African Republic"
@@ -1592,6 +1751,7 @@
   "cz": {
     "code": "cz",
     "iso_alpha2": "CZ",
+    "iso_numeric": "203",
     "name": {
       "es": "Rep. Checa",
       "en": "Czech Republic"
@@ -1602,6 +1762,7 @@
   "do": {
     "code": "do",
     "iso_alpha2": "DO",
+    "iso_numeric": "214",
     "name": {
       "es": "Rep. Dominicana",
       "en": "Dominican Republic"
@@ -1612,6 +1773,7 @@
   "rw": {
     "code": "rw",
     "iso_alpha2": "RW",
+    "iso_numeric": "646",
     "name": {
       "es": "Ruanda",
       "en": "Rwanda"
@@ -1622,6 +1784,7 @@
   "ro": {
     "code": "ro",
     "iso_alpha2": "RO",
+    "iso_numeric": "642",
     "name": {
       "es": "Rumania",
       "en": "Romania"
@@ -1632,6 +1795,7 @@
   "ru": {
     "code": "ru",
     "iso_alpha2": "RU",
+    "iso_numeric": "643",
     "name": {
       "es": "Rusia",
       "en": "Russia"
@@ -1642,6 +1806,7 @@
   "ws": {
     "code": "ws",
     "iso_alpha2": "WS",
+    "iso_numeric": "882",
     "name": {
       "es": "Samoa",
       "en": "Samoa"
@@ -1652,6 +1817,7 @@
   "st": {
     "code": "st",
     "iso_alpha2": "ST",
+    "iso_numeric": "678",
     "name": {
       "es": "Santo Tomé y Príncipe",
       "en": "São Tomé and Príncipe"
@@ -1662,6 +1828,7 @@
   "rs": {
     "code": "rs",
     "iso_alpha2": "RS",
+    "iso_numeric": "688",
     "name": {
       "es": "Serbia",
       "en": "Serbia"
@@ -1672,6 +1839,7 @@
   "sc": {
     "code": "sc",
     "iso_alpha2": "SC",
+    "iso_numeric": "690",
     "name": {
       "es": "Seychelles",
       "en": "Seychelles"
@@ -1682,6 +1850,7 @@
   "sl": {
     "code": "sl",
     "iso_alpha2": "SL",
+    "iso_numeric": "694",
     "name": {
       "es": "Sierra Leona",
       "en": "Sierra Leone"
@@ -1692,6 +1861,7 @@
   "sg": {
     "code": "sg",
     "iso_alpha2": "SG",
+    "iso_numeric": "702",
     "name": {
       "es": "Singapur",
       "en": "Singapore"
@@ -1702,6 +1872,7 @@
   "sy": {
     "code": "sy",
     "iso_alpha2": "SY",
+    "iso_numeric": "760",
     "name": {
       "es": "Siria",
       "en": "Syria"
@@ -1712,6 +1883,7 @@
   "so": {
     "code": "so",
     "iso_alpha2": "SO",
+    "iso_numeric": "706",
     "name": {
       "es": "Somalia",
       "en": "Somalia"
@@ -1722,6 +1894,7 @@
   "sml": {
     "code": "sml",
     "iso_alpha2": null,
+    "iso_numeric": null,
     "name": {
       "es": "Somalilandia",
       "en": "Somaliland"
@@ -1732,6 +1905,7 @@
   "lk": {
     "code": "lk",
     "iso_alpha2": "LK",
+    "iso_numeric": "144",
     "name": {
       "es": "Sri Lanka",
       "en": "Sri Lanka"
@@ -1742,6 +1916,7 @@
   "sz": {
     "code": "sz",
     "iso_alpha2": "SZ",
+    "iso_numeric": "748",
     "name": {
       "es": "Suazilandia",
       "en": "Eswatini"
@@ -1752,6 +1927,7 @@
   "za": {
     "code": "za",
     "iso_alpha2": "ZA",
+    "iso_numeric": "710",
     "name": {
       "es": "Sudáfrica",
       "en": "South Africa"
@@ -1762,6 +1938,7 @@
   "sd": {
     "code": "sd",
     "iso_alpha2": "SD",
+    "iso_numeric": "729",
     "name": {
       "es": "Sudán",
       "en": "Sudan"
@@ -1772,6 +1949,7 @@
   "ss": {
     "code": "ss",
     "iso_alpha2": "SS",
+    "iso_numeric": "728",
     "name": {
       "es": "Sudán del Sur",
       "en": "South Sudan"
@@ -1782,6 +1960,7 @@
   "se": {
     "code": "se",
     "iso_alpha2": "SE",
+    "iso_numeric": "752",
     "name": {
       "es": "Suecia",
       "en": "Sweden"
@@ -1792,6 +1971,7 @@
   "ch": {
     "code": "ch",
     "iso_alpha2": "CH",
+    "iso_numeric": "756",
     "name": {
       "es": "Suiza",
       "en": "Switzerland"
@@ -1802,6 +1982,7 @@
   "sr": {
     "code": "sr",
     "iso_alpha2": "SR",
+    "iso_numeric": "740",
     "name": {
       "es": "Surinam",
       "en": "Suriname"
@@ -1812,6 +1993,7 @@
   "th": {
     "code": "th",
     "iso_alpha2": "TH",
+    "iso_numeric": "764",
     "name": {
       "es": "Tailandia",
       "en": "Thailand"
@@ -1822,6 +2004,7 @@
   "tw": {
     "code": "tw",
     "iso_alpha2": "TW",
+    "iso_numeric": "158",
     "name": {
       "es": "Taiwán",
       "en": "Taiwan"
@@ -1832,6 +2015,7 @@
   "tz": {
     "code": "tz",
     "iso_alpha2": "TZ",
+    "iso_numeric": "834",
     "name": {
       "es": "Tanzania",
       "en": "Tanzania"
@@ -1842,6 +2026,7 @@
   "tj": {
     "code": "tj",
     "iso_alpha2": "TJ",
+    "iso_numeric": "762",
     "name": {
       "es": "Tayikistán",
       "en": "Tajikistan"
@@ -1852,6 +2037,7 @@
   "to": {
     "code": "to",
     "iso_alpha2": "TO",
+    "iso_numeric": "776",
     "name": {
       "es": "Tonga",
       "en": "Tonga"
@@ -1862,6 +2048,7 @@
   "pmr": {
     "code": "pmr",
     "iso_alpha2": null,
+    "iso_numeric": null,
     "name": {
       "es": "Transnistria",
       "en": "Transnistria"
@@ -1872,6 +2059,7 @@
   "tt": {
     "code": "tt",
     "iso_alpha2": "TT",
+    "iso_numeric": "780",
     "name": {
       "es": "Trinidad y Tobago",
       "en": "Trinidad and Tobago"
@@ -1882,6 +2070,7 @@
   "tn": {
     "code": "tn",
     "iso_alpha2": "TN",
+    "iso_numeric": "788",
     "name": {
       "es": "Túnez",
       "en": "Tunisia"
@@ -1892,6 +2081,7 @@
   "tm": {
     "code": "tm",
     "iso_alpha2": "TM",
+    "iso_numeric": "795",
     "name": {
       "es": "Turkmenistán",
       "en": "Turkmenistan"
@@ -1902,6 +2092,7 @@
   "tr": {
     "code": "tr",
     "iso_alpha2": "TR",
+    "iso_numeric": "792",
     "name": {
       "es": "Turquía",
       "en": "Turkey"
@@ -1912,6 +2103,7 @@
   "ua": {
     "code": "ua",
     "iso_alpha2": "UA",
+    "iso_numeric": "804",
     "name": {
       "es": "Ucrania",
       "en": "Ukraine"
@@ -1922,6 +2114,7 @@
   "ug": {
     "code": "ug",
     "iso_alpha2": "UG",
+    "iso_numeric": "800",
     "name": {
       "es": "Uganda",
       "en": "Uganda"
@@ -1932,6 +2125,7 @@
   "eu": {
     "code": "eu",
     "iso_alpha2": "EU",
+    "iso_numeric": null,
     "name": {
       "es": "Unión Europea",
       "en": "European Union"
@@ -1942,6 +2136,7 @@
   "uy": {
     "code": "uy",
     "iso_alpha2": "UY",
+    "iso_numeric": "858",
     "name": {
       "es": "Uruguay",
       "en": "Uruguay"
@@ -1952,6 +2147,7 @@
   "uz": {
     "code": "uz",
     "iso_alpha2": "UZ",
+    "iso_numeric": "860",
     "name": {
       "es": "Uzbekistán",
       "en": "Uzbekistan"
@@ -1962,6 +2158,7 @@
   "vu": {
     "code": "vu",
     "iso_alpha2": "VU",
+    "iso_numeric": "548",
     "name": {
       "es": "Vanuatu",
       "en": "Vanuatu"
@@ -1972,6 +2169,7 @@
   "ve": {
     "code": "ve",
     "iso_alpha2": "VE",
+    "iso_numeric": "862",
     "name": {
       "es": "Venezuela",
       "en": "Venezuela"
@@ -1982,6 +2180,7 @@
   "vn": {
     "code": "vn",
     "iso_alpha2": "VN",
+    "iso_numeric": "704",
     "name": {
       "es": "Vietnam",
       "en": "Vietnam"
@@ -1992,6 +2191,7 @@
   "vns": {
     "code": "vns",
     "iso_alpha2": null,
+    "iso_numeric": null,
     "name": {
       "es": "Vietnam del Sur",
       "en": "South Vietnam"
@@ -2002,6 +2202,7 @@
   "ye": {
     "code": "ye",
     "iso_alpha2": "YE",
+    "iso_numeric": "887",
     "name": {
       "es": "Yemen",
       "en": "Yemen"
@@ -2012,6 +2213,7 @@
   "dj": {
     "code": "dj",
     "iso_alpha2": "DJ",
+    "iso_numeric": "262",
     "name": {
       "es": "Yibuti",
       "en": "Djibouti"
@@ -2022,6 +2224,7 @@
   "yu": {
     "code": "yu",
     "iso_alpha2": "YU",
+    "iso_numeric": null,
     "name": {
       "es": "Yugoslavia",
       "en": "Yugoslavia"
@@ -2032,6 +2235,7 @@
   "zr": {
     "code": "zr",
     "iso_alpha2": "ZR",
+    "iso_numeric": null,
     "name": {
       "es": "Zaire",
       "en": "Zaire"
@@ -2042,6 +2246,7 @@
   "zm": {
     "code": "zm",
     "iso_alpha2": "ZM",
+    "iso_numeric": "894",
     "name": {
       "es": "Zambia",
       "en": "Zambia"
@@ -2052,6 +2257,7 @@
   "zw": {
     "code": "zw",
     "iso_alpha2": "ZW",
+    "iso_numeric": "716",
     "name": {
       "es": "Zimbabue",
       "en": "Zimbabwe"
