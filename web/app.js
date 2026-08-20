@@ -819,12 +819,23 @@ async function createNewNote(e) {
 
 document.addEventListener("DOMContentLoaded", async () => {
   // no-store: siempre datos frescos aunque se sirva sin serve_web.py
-  const res = await fetch("data/collection.json", { cache: "no-store" });
-  state.all = await res.json();
-  state.filtered = state.all;
-  applyI18n();
+   const res = await fetch("data/collection.json", { cache: "no-store" });
+   state.all = await res.json();
+   state.filtered = state.all;
 
-  $("#q").addEventListener("input", debounce(applyFilter, 200));
+   // Leer parámetro q de la URL y poblar la barra de búsqueda
+   const urlParams = new URLSearchParams(window.location.search);
+   const urlQ = urlParams.get("q");
+   if (urlQ) {
+     $("#q").value = urlQ;
+   }
+
+   applyI18n();
+
+   // Si hay un valor desde la URL, aplicar el filtro
+   if (urlQ) applyFilter();
+
+    $("#q").addEventListener("input", debounce(applyFilter, 200));
 
   document.querySelector("#tbl thead").addEventListener("click", (e) => {
     const thBool = e.target.closest("th[data-col]");
