@@ -1,0 +1,8545 @@
+{
+  "AED": {
+    "codigo": "AED",
+    "nombres": {
+      "es": "Dírham de los Emiratos Árabes Unidos",
+      "en": "United Arab Emirates dirham",
+      "ar": "درهم إماراتي"
+    },
+    "nombre_corto": {
+      "es": "Dírham",
+      "en": "Dirham"
+    },
+    "simbolo": "د.إ",
+    "iso_4217": {
+      "numerico": "784",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "fils",
+        "en": "fils"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "AE"
+      ],
+      "curso_legal": [
+        "AE"
+      ],
+      "circulacion": [
+        "AE"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de los Emiratos Árabes Unidos",
+      "codigo": "CBUAE"
+    },
+    "historia": {
+      "fecha_introduccion": "1973",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "AFN": {
+    "codigo": "AFN",
+    "nombres": {
+      "es": "Afgani afgano",
+      "en": "Afghan afghani",
+      "ar": "افغانی"
+    },
+    "nombre_corto": {
+      "es": "Afgani",
+      "en": "Afghani"
+    },
+    "simbolo": "؋",
+    "iso_4217": {
+      "numerico": "971",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "pul",
+        "en": "pul"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "AF"
+      ],
+      "curso_legal": [
+        "AF"
+      ],
+      "circulacion": [
+        "AF"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Da Afghanistan Bank",
+      "codigo": "DAB"
+    },
+    "historia": {
+      "fecha_introduccion": "2002",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "ALL": {
+    "codigo": "ALL",
+    "nombres": {
+      "es": "Lek albanés",
+      "en": "Albanian lek"
+    },
+    "nombre_corto": {
+      "es": "Lek",
+      "en": "Lek"
+    },
+    "simbolo": "L",
+    "iso_4217": {
+      "numerico": "008",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "qindarka",
+        "en": "qindarka"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "AL"
+      ],
+      "curso_legal": [
+        "AL"
+      ],
+      "circulacion": [
+        "AL"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Albania",
+      "codigo": "BoA"
+    },
+    "historia": {
+      "fecha_introduccion": "1946",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "AMD": {
+    "codigo": "AMD",
+    "nombres": {
+      "es": "Dram armenio",
+      "en": "Armenian dram"
+    },
+    "nombre_corto": {
+      "es": "Dram",
+      "en": "Dram"
+    },
+    "simbolo": "֏",
+    "iso_4217": {
+      "numerico": "051",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "luma",
+        "en": "luma"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "AM"
+      ],
+      "curso_legal": [
+        "AM"
+      ],
+      "circulacion": [
+        "AM"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Armenia",
+      "codigo": "CBA"
+    },
+    "historia": {
+      "fecha_introduccion": "1993",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "ANG": {
+    "codigo": "ANG",
+    "nombres": {
+      "es": "Florín neerlandés caribeño",
+      "en": "Netherlands Antillean guilder"
+    },
+    "nombre_corto": {
+      "es": "Florín antillano",
+      "en": "Antillean guilder"
+    },
+    "simbolo": "ƒ",
+    "iso_4217": {
+      "numerico": "532",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CW",
+        "SX"
+      ],
+      "curso_legal": [
+        "CW",
+        "SX"
+      ],
+      "circulacion": [
+        "CW",
+        "SX"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Curazao y San Martín",
+      "codigo": "CBCS"
+    },
+    "historia": {
+      "fecha_introduccion": "1940",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Programado para ser reemplazado por el florín caribeño (XCG); en transición."
+  },
+  "AOA": {
+    "codigo": "AOA",
+    "nombres": {
+      "es": "Kwanza angoleño",
+      "en": "Angolan kwanza"
+    },
+    "nombre_corto": {
+      "es": "Kwanza",
+      "en": "Kwanza"
+    },
+    "simbolo": "Kz",
+    "iso_4217": {
+      "numerico": "973",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "cêntimo",
+        "en": "cêntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "AO"
+      ],
+      "curso_legal": [
+        "AO"
+      ],
+      "circulacion": [
+        "AO"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Angola",
+      "codigo": "BNA"
+    },
+    "historia": {
+      "fecha_introduccion": "1999",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "ARS": {
+    "codigo": "ARS",
+    "nombres": {
+      "es": "Peso argentino",
+      "en": "Argentine peso"
+    },
+    "nombre_corto": {
+      "es": "Peso",
+      "en": "Peso"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "032",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "AR"
+      ],
+      "curso_legal": [
+        "AR"
+      ],
+      "circulacion": [
+        "AR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de la República Argentina",
+      "codigo": "BCRA"
+    },
+    "historia": {
+      "fecha_introduccion": "1992",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "AUD": {
+    "codigo": "AUD",
+    "nombres": {
+      "es": "Dólar australiano",
+      "en": "Australian dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar australiano",
+      "en": "Australian dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "036",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "AU"
+      ],
+      "curso_legal": [
+        "AU"
+      ],
+      "circulacion": [
+        "AU",
+        "CX",
+        "CC",
+        "HM",
+        "KI",
+        "NR",
+        "NF",
+        "TV"
+      ],
+      "de_facto": [
+        "KI",
+        "NR",
+        "TV"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco de la Reserva de Australia",
+      "codigo": "RBA"
+    },
+    "historia": {
+      "fecha_introduccion": "1966",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "AWG": {
+    "codigo": "AWG",
+    "nombres": {
+      "es": "Florín arubeño",
+      "en": "Aruban florin"
+    },
+    "nombre_corto": {
+      "es": "Florín arubeño",
+      "en": "Aruban florin"
+    },
+    "simbolo": "ƒ",
+    "iso_4217": {
+      "numerico": "533",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "AW"
+      ],
+      "curso_legal": [
+        "AW"
+      ],
+      "circulacion": [
+        "AW"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Aruba",
+      "codigo": "CBA"
+    },
+    "historia": {
+      "fecha_introduccion": "1986",
+      "moneda_anterior": "ANG",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "AZN": {
+    "codigo": "AZN",
+    "nombres": {
+      "es": "Manat azerbaiyano",
+      "en": "Azerbaijani manat"
+    },
+    "nombre_corto": {
+      "es": "Manat",
+      "en": "Manat"
+    },
+    "simbolo": "₼",
+    "iso_4217": {
+      "numerico": "944",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "qəpik",
+        "en": "qapik"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "AZ"
+      ],
+      "curso_legal": [
+        "AZ"
+      ],
+      "circulacion": [
+        "AZ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Azerbaiyán",
+      "codigo": "CBAR"
+    },
+    "historia": {
+      "fecha_introduccion": "2006",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BAM": {
+    "codigo": "BAM",
+    "nombres": {
+      "es": "Marco convertible de Bosnia y Herzegovina",
+      "en": "Bosnia and Herzegovina convertible mark"
+    },
+    "nombre_corto": {
+      "es": "Marco convertible",
+      "en": "Convertible mark"
+    },
+    "simbolo": "KM",
+    "iso_4217": {
+      "numerico": "977",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "fening",
+        "en": "fening"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BA"
+      ],
+      "curso_legal": [
+        "BA"
+      ],
+      "circulacion": [
+        "BA"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Bosnia y Herzegovina",
+      "codigo": "CBBH"
+    },
+    "historia": {
+      "fecha_introduccion": "1998",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BBD": {
+    "codigo": "BBD",
+    "nombres": {
+      "es": "Dólar de Barbados",
+      "en": "Barbadian dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar de Barbados",
+      "en": "Barbadian dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "052",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BB"
+      ],
+      "curso_legal": [
+        "BB"
+      ],
+      "circulacion": [
+        "BB"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Barbados",
+      "codigo": "CBB"
+    },
+    "historia": {
+      "fecha_introduccion": "1935",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BDT": {
+    "codigo": "BDT",
+    "nombres": {
+      "es": "Taka de Bangladés",
+      "en": "Bangladeshi taka"
+    },
+    "nombre_corto": {
+      "es": "Taka",
+      "en": "Taka"
+    },
+    "simbolo": "৳",
+    "iso_4217": {
+      "numerico": "050",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "poisha",
+        "en": "poisha"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BD"
+      ],
+      "curso_legal": [
+        "BD"
+      ],
+      "circulacion": [
+        "BD"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Bangladés",
+      "codigo": "BB"
+    },
+    "historia": {
+      "fecha_introduccion": "1972",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BGN": {
+    "codigo": "BGN",
+    "nombres": {
+      "es": "Lev búlgaro",
+      "en": "Bulgarian lev"
+    },
+    "nombre_corto": {
+      "es": "Lev",
+      "en": "Lev"
+    },
+    "simbolo": "лв",
+    "iso_4217": {
+      "numerico": "975",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "stotinka",
+        "en": "stotinka"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BG"
+      ],
+      "curso_legal": [
+        "BG"
+      ],
+      "circulacion": [
+        "BG"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Bulgaria",
+      "codigo": "BNB"
+    },
+    "historia": {
+      "fecha_introduccion": "1999",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BHD": {
+    "codigo": "BHD",
+    "nombres": {
+      "es": "Dinar bareiní",
+      "en": "Bahraini dinar",
+      "ar": "دينار بحريني"
+    },
+    "nombre_corto": {
+      "es": "Dinar bareiní",
+      "en": "Bahraini dinar"
+    },
+    "simbolo": ".د.ب",
+    "iso_4217": {
+      "numerico": "048",
+      "decimales": 3
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "fils",
+        "en": "fils"
+      },
+      "factor": 1000
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BH"
+      ],
+      "curso_legal": [
+        "BH"
+      ],
+      "circulacion": [
+        "BH"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Baréin",
+      "codigo": "CBB"
+    },
+    "historia": {
+      "fecha_introduccion": "1965",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BIF": {
+    "codigo": "BIF",
+    "nombres": {
+      "es": "Franco burundés",
+      "en": "Burundian franc"
+    },
+    "nombre_corto": {
+      "es": "Franco burundés",
+      "en": "Burundian franc"
+    },
+    "simbolo": "FBu",
+    "iso_4217": {
+      "numerico": "108",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime",
+        "fr": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BI"
+      ],
+      "curso_legal": [
+        "BI"
+      ],
+      "circulacion": [
+        "BI"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la República de Burundi",
+      "codigo": "BRB"
+    },
+    "historia": {
+      "fecha_introduccion": "1960",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BMD": {
+    "codigo": "BMD",
+    "nombres": {
+      "es": "Dólar bermudeño",
+      "en": "Bermudian dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar bermudeño",
+      "en": "Bermudian dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "060",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BM"
+      ],
+      "curso_legal": [
+        "BM"
+      ],
+      "circulacion": [
+        "BM"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Autoridad Monetaria de Bermudas",
+      "codigo": "BMA"
+    },
+    "historia": {
+      "fecha_introduccion": "1970",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BND": {
+    "codigo": "BND",
+    "nombres": {
+      "es": "Dólar de Brunéi",
+      "en": "Brunei dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar de Brunéi",
+      "en": "Brunei dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "096",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BN"
+      ],
+      "curso_legal": [
+        "BN",
+        "SG"
+      ],
+      "circulacion": [
+        "BN",
+        "SG"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Autoridad Monetaria de Brunéi Darussalam",
+      "codigo": "AMBD"
+    },
+    "historia": {
+      "fecha_introduccion": "1967",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BOB": {
+    "codigo": "BOB",
+    "nombres": {
+      "es": "Boliviano",
+      "en": "Boliviano"
+    },
+    "nombre_corto": {
+      "es": "Boliviano",
+      "en": "Boliviano"
+    },
+    "simbolo": "Bs",
+    "iso_4217": {
+      "numerico": "068",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BO"
+      ],
+      "curso_legal": [
+        "BO"
+      ],
+      "circulacion": [
+        "BO"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Bolivia",
+      "codigo": "BCB"
+    },
+    "historia": {
+      "fecha_introduccion": "1987",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BOV": {
+    "codigo": "BOV",
+    "nombres": {
+      "es": "Mvdol boliviano",
+      "en": "Bolivian mvdol"
+    },
+    "nombre_corto": {
+      "es": "Mvdol",
+      "en": "Mvdol"
+    },
+    "simbolo": null,
+    "iso_4217": {
+      "numerico": "984",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BO"
+      ],
+      "curso_legal": [],
+      "circulacion": [
+        "BO"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Bolivia",
+      "codigo": "BCB"
+    },
+    "historia": {
+      "fecha_introduccion": null,
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Unidad de cuenta indexada, no utilizada en transacciones cotidianas."
+  },
+  "BRL": {
+    "codigo": "BRL",
+    "nombres": {
+      "es": "Real brasileño",
+      "en": "Brazilian real"
+    },
+    "nombre_corto": {
+      "es": "Real",
+      "en": "Real"
+    },
+    "simbolo": "R$",
+    "iso_4217": {
+      "numerico": "986",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BR"
+      ],
+      "curso_legal": [
+        "BR"
+      ],
+      "circulacion": [
+        "BR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Brasil",
+      "codigo": "BCB"
+    },
+    "historia": {
+      "fecha_introduccion": "1994",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BSD": {
+    "codigo": "BSD",
+    "nombres": {
+      "es": "Dólar bahameño",
+      "en": "Bahamian dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar bahameño",
+      "en": "Bahamian dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "044",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BS"
+      ],
+      "curso_legal": [
+        "BS"
+      ],
+      "circulacion": [
+        "BS"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de las Bahamas",
+      "codigo": "CBOB"
+    },
+    "historia": {
+      "fecha_introduccion": "1966",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BTN": {
+    "codigo": "BTN",
+    "nombres": {
+      "es": "Ngultrum butanés",
+      "en": "Bhutanese ngultrum"
+    },
+    "nombre_corto": {
+      "es": "Ngultrum",
+      "en": "Ngultrum"
+    },
+    "simbolo": "Nu.",
+    "iso_4217": {
+      "numerico": "064",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "chetrum",
+        "en": "chetrum"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BT"
+      ],
+      "curso_legal": [
+        "BT"
+      ],
+      "circulacion": [
+        "BT"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Autoridad Monetaria Real de Bután",
+      "codigo": "RMA"
+    },
+    "historia": {
+      "fecha_introduccion": "1974",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "El ngultrum está a la par y circula junto con la rupia india (INR) en Bután."
+  },
+  "BWP": {
+    "codigo": "BWP",
+    "nombres": {
+      "es": "Pula botsuano",
+      "en": "Botswana pula"
+    },
+    "nombre_corto": {
+      "es": "Pula",
+      "en": "Pula"
+    },
+    "simbolo": "P",
+    "iso_4217": {
+      "numerico": "072",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "thebe",
+        "en": "thebe"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BW"
+      ],
+      "curso_legal": [
+        "BW"
+      ],
+      "circulacion": [
+        "BW"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Botsuana",
+      "codigo": "BoB"
+    },
+    "historia": {
+      "fecha_introduccion": "1976",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BYN": {
+    "codigo": "BYN",
+    "nombres": {
+      "es": "Rublo bielorruso",
+      "en": "Belarusian ruble"
+    },
+    "nombre_corto": {
+      "es": "Rublo bielorruso",
+      "en": "Belarusian ruble"
+    },
+    "simbolo": "Br",
+    "iso_4217": {
+      "numerico": "933",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "kopek",
+        "en": "kopek"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BY"
+      ],
+      "curso_legal": [
+        "BY"
+      ],
+      "circulacion": [
+        "BY"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de la República de Bielorrusia",
+      "codigo": "NBRB"
+    },
+    "historia": {
+      "fecha_introduccion": "2016",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "BZD": {
+    "codigo": "BZD",
+    "nombres": {
+      "es": "Dólar beliceño",
+      "en": "Belize dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar beliceño",
+      "en": "Belize dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "084",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BZ"
+      ],
+      "curso_legal": [
+        "BZ"
+      ],
+      "circulacion": [
+        "BZ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Belice",
+      "codigo": "CBB"
+    },
+    "historia": {
+      "fecha_introduccion": "1973",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "CAD": {
+    "codigo": "CAD",
+    "nombres": {
+      "es": "Dólar canadiense",
+      "en": "Canadian dollar",
+      "fr": "dollar canadien"
+    },
+    "nombre_corto": {
+      "es": "Dólar canadiense",
+      "en": "Canadian dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "124",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent",
+        "fr": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CA"
+      ],
+      "curso_legal": [
+        "CA"
+      ],
+      "circulacion": [
+        "CA"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Canadá",
+      "codigo": "BoC"
+    },
+    "historia": {
+      "fecha_introduccion": "1858",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "CDF": {
+    "codigo": "CDF",
+    "nombres": {
+      "es": "Franco congoleño",
+      "en": "Congolese franc",
+      "fr": "franc congolais"
+    },
+    "nombre_corto": {
+      "es": "Franco congoleño",
+      "en": "Congolese franc"
+    },
+    "simbolo": "FC",
+    "iso_4217": {
+      "numerico": "976",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime",
+        "fr": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CD"
+      ],
+      "curso_legal": [
+        "CD"
+      ],
+      "circulacion": [
+        "CD"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central del Congo",
+      "codigo": "BCC"
+    },
+    "historia": {
+      "fecha_introduccion": "1998",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "CHE": {
+    "codigo": "CHE",
+    "nombres": {
+      "es": "Euro WIR",
+      "en": "WIR euro"
+    },
+    "nombre_corto": {
+      "es": "Euro WIR",
+      "en": "WIR euro"
+    },
+    "simbolo": null,
+    "iso_4217": {
+      "numerico": "947",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CH"
+      ],
+      "curso_legal": [],
+      "circulacion": [
+        "CH"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco WIR",
+      "codigo": "WIR"
+    },
+    "historia": {
+      "fecha_introduccion": null,
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Unidad de cuenta complementaria utilizada por el Banco WIR en Suiza."
+  },
+  "CHF": {
+    "codigo": "CHF",
+    "nombres": {
+      "es": "Franco suizo",
+      "en": "Swiss franc",
+      "fr": "franc suisse"
+    },
+    "nombre_corto": {
+      "es": "Franco suizo",
+      "en": "Swiss franc"
+    },
+    "simbolo": "CHF",
+    "iso_4217": {
+      "numerico": "756",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "rappen/centime",
+        "fr": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CH",
+        "LI"
+      ],
+      "curso_legal": [
+        "CH",
+        "LI"
+      ],
+      "circulacion": [
+        "CH",
+        "LI"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional Suizo",
+      "codigo": "SNB"
+    },
+    "historia": {
+      "fecha_introduccion": "1850",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "CHW": {
+    "codigo": "CHW",
+    "nombres": {
+      "es": "Franco WIR",
+      "en": "WIR franc"
+    },
+    "nombre_corto": {
+      "es": "Franco WIR",
+      "en": "WIR franc"
+    },
+    "simbolo": null,
+    "iso_4217": {
+      "numerico": "948",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CH"
+      ],
+      "curso_legal": [],
+      "circulacion": [
+        "CH"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco WIR",
+      "codigo": "WIR"
+    },
+    "historia": {
+      "fecha_introduccion": null,
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Moneda complementaria utilizada por empresas suizas afiliadas al Banco WIR."
+  },
+  "CLF": {
+    "codigo": "CLF",
+    "nombres": {
+      "es": "Unidad de Fomento chilena",
+      "en": "Chilean unit of account (UF)"
+    },
+    "nombre_corto": {
+      "es": "Unidad de Fomento",
+      "en": "Unidad de Fomento"
+    },
+    "simbolo": "UF",
+    "iso_4217": {
+      "numerico": "990",
+      "decimales": 4
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CL"
+      ],
+      "curso_legal": [],
+      "circulacion": [
+        "CL"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Chile",
+      "codigo": "BCCH"
+    },
+    "historia": {
+      "fecha_introduccion": "1967",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Unidad de cuenta indexada a la inflación, utilizada en contratos y créditos."
+  },
+  "CLP": {
+    "codigo": "CLP",
+    "nombres": {
+      "es": "Peso chileno",
+      "en": "Chilean peso"
+    },
+    "nombre_corto": {
+      "es": "Peso chileno",
+      "en": "Chilean peso"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "152",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CL"
+      ],
+      "curso_legal": [
+        "CL"
+      ],
+      "circulacion": [
+        "CL"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Chile",
+      "codigo": "BCCH"
+    },
+    "historia": {
+      "fecha_introduccion": "1975",
+      "moneda_anterior": "CLE",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "CNY": {
+    "codigo": "CNY",
+    "nombres": {
+      "es": "Yuan chino (Renminbi)",
+      "en": "Chinese yuan (Renminbi)"
+    },
+    "nombre_corto": {
+      "es": "Yuan",
+      "en": "Yuan"
+    },
+    "simbolo": "¥",
+    "iso_4217": {
+      "numerico": "156",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "jiao / fen",
+        "en": "jiao / fen"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CN"
+      ],
+      "curso_legal": [
+        "CN"
+      ],
+      "circulacion": [
+        "CN"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Popular de China",
+      "codigo": "PBOC"
+    },
+    "historia": {
+      "fecha_introduccion": "1948",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "COP": {
+    "codigo": "COP",
+    "nombres": {
+      "es": "Peso colombiano",
+      "en": "Colombian peso"
+    },
+    "nombre_corto": {
+      "es": "Peso colombiano",
+      "en": "Colombian peso"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "170",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CO"
+      ],
+      "curso_legal": [
+        "CO"
+      ],
+      "circulacion": [
+        "CO"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la República",
+      "codigo": "BR"
+    },
+    "historia": {
+      "fecha_introduccion": "1810",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "COU": {
+    "codigo": "COU",
+    "nombres": {
+      "es": "Unidad de Valor Real colombiana",
+      "en": "Colombian unit of real value"
+    },
+    "nombre_corto": {
+      "es": "Unidad de Valor Real",
+      "en": "Unidad de Valor Real"
+    },
+    "simbolo": null,
+    "iso_4217": {
+      "numerico": "970",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CO"
+      ],
+      "curso_legal": [],
+      "circulacion": [
+        "CO"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la República",
+      "codigo": "BR"
+    },
+    "historia": {
+      "fecha_introduccion": null,
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Unidad de cuenta indexada, no circula físicamente."
+  },
+  "CRC": {
+    "codigo": "CRC",
+    "nombres": {
+      "es": "Colón costarricense",
+      "en": "Costa Rican colón"
+    },
+    "nombre_corto": {
+      "es": "Colón",
+      "en": "Colón"
+    },
+    "simbolo": "₡",
+    "iso_4217": {
+      "numerico": "188",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CR"
+      ],
+      "curso_legal": [
+        "CR"
+      ],
+      "circulacion": [
+        "CR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Costa Rica",
+      "codigo": "BCCR"
+    },
+    "historia": {
+      "fecha_introduccion": "1896",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "CUP": {
+    "codigo": "CUP",
+    "nombres": {
+      "es": "Peso cubano",
+      "en": "Cuban peso"
+    },
+    "nombre_corto": {
+      "es": "Peso cubano",
+      "en": "Cuban peso"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "192",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CU"
+      ],
+      "curso_legal": [
+        "CU"
+      ],
+      "circulacion": [
+        "CU"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Cuba",
+      "codigo": "BCC"
+    },
+    "historia": {
+      "fecha_introduccion": "1857",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "CVE": {
+    "codigo": "CVE",
+    "nombres": {
+      "es": "Escudo caboverdiano",
+      "en": "Cape Verdean escudo"
+    },
+    "nombre_corto": {
+      "es": "Escudo caboverdiano",
+      "en": "Cape Verdean escudo"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "132",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CV"
+      ],
+      "curso_legal": [
+        "CV"
+      ],
+      "circulacion": [
+        "CV"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Cabo Verde",
+      "codigo": "BCV"
+    },
+    "historia": {
+      "fecha_introduccion": "1914",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "CZK": {
+    "codigo": "CZK",
+    "nombres": {
+      "es": "Corona checa",
+      "en": "Czech koruna"
+    },
+    "nombre_corto": {
+      "es": "Corona checa",
+      "en": "Czech koruna"
+    },
+    "simbolo": "Kč",
+    "iso_4217": {
+      "numerico": "203",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "haler",
+        "en": "haléř"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CZ"
+      ],
+      "curso_legal": [
+        "CZ"
+      ],
+      "circulacion": [
+        "CZ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional Checo",
+      "codigo": "CNB"
+    },
+    "historia": {
+      "fecha_introduccion": "1993",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "DJF": {
+    "codigo": "DJF",
+    "nombres": {
+      "es": "Franco yibutiano",
+      "en": "Djiboutian franc",
+      "fr": "franc djiboutien"
+    },
+    "nombre_corto": {
+      "es": "Franco yibutiano",
+      "en": "Djiboutian franc"
+    },
+    "simbolo": "Fdj",
+    "iso_4217": {
+      "numerico": "262",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime",
+        "fr": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "DJ"
+      ],
+      "curso_legal": [
+        "DJ"
+      ],
+      "circulacion": [
+        "DJ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Yibuti",
+      "codigo": "BCD"
+    },
+    "historia": {
+      "fecha_introduccion": "1949",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "DKK": {
+    "codigo": "DKK",
+    "nombres": {
+      "es": "Corona danesa",
+      "en": "Danish krone"
+    },
+    "nombre_corto": {
+      "es": "Corona danesa",
+      "en": "Danish krone"
+    },
+    "simbolo": "kr",
+    "iso_4217": {
+      "numerico": "208",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "øre",
+        "en": "øre"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "DK"
+      ],
+      "curso_legal": [
+        "DK",
+        "FO",
+        "GL"
+      ],
+      "circulacion": [
+        "DK",
+        "FO",
+        "GL"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Dinamarca",
+      "codigo": "DN"
+    },
+    "historia": {
+      "fecha_introduccion": "1875",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "DOP": {
+    "codigo": "DOP",
+    "nombres": {
+      "es": "Peso dominicano",
+      "en": "Dominican peso"
+    },
+    "nombre_corto": {
+      "es": "Peso dominicano",
+      "en": "Dominican peso"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "214",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "DO"
+      ],
+      "curso_legal": [
+        "DO"
+      ],
+      "circulacion": [
+        "DO"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de la República Dominicana",
+      "codigo": "BCRD"
+    },
+    "historia": {
+      "fecha_introduccion": "1947",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "DZD": {
+    "codigo": "DZD",
+    "nombres": {
+      "es": "Dinar argelino",
+      "en": "Algerian dinar",
+      "ar": "دينار جزائري"
+    },
+    "nombre_corto": {
+      "es": "Dinar argelino",
+      "en": "Algerian dinar"
+    },
+    "simbolo": "د.ج",
+    "iso_4217": {
+      "numerico": "012",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime",
+        "fr": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "DZ"
+      ],
+      "curso_legal": [
+        "DZ"
+      ],
+      "circulacion": [
+        "DZ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Argelia",
+      "codigo": "BA"
+    },
+    "historia": {
+      "fecha_introduccion": "1964",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "EGP": {
+    "codigo": "EGP",
+    "nombres": {
+      "es": "Libra egipcia",
+      "en": "Egyptian pound",
+      "ar": "جنيه مصري"
+    },
+    "nombre_corto": {
+      "es": "Libra egipcia",
+      "en": "Egyptian pound"
+    },
+    "simbolo": "ج.م",
+    "iso_4217": {
+      "numerico": "818",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "piastra",
+        "en": "piastre"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "EG"
+      ],
+      "curso_legal": [
+        "EG"
+      ],
+      "circulacion": [
+        "EG"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Egipto",
+      "codigo": "CBE"
+    },
+    "historia": {
+      "fecha_introduccion": "1834",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "ERN": {
+    "codigo": "ERN",
+    "nombres": {
+      "es": "Nakfa eritreo",
+      "en": "Eritrean nakfa"
+    },
+    "nombre_corto": {
+      "es": "Nakfa",
+      "en": "Nakfa"
+    },
+    "simbolo": "Nfk",
+    "iso_4217": {
+      "numerico": "232",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "ER"
+      ],
+      "curso_legal": [
+        "ER"
+      ],
+      "circulacion": [
+        "ER"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Eritrea",
+      "codigo": "BOE"
+    },
+    "historia": {
+      "fecha_introduccion": "1997",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "ETB": {
+    "codigo": "ETB",
+    "nombres": {
+      "es": "Birr etíope",
+      "en": "Ethiopian birr"
+    },
+    "nombre_corto": {
+      "es": "Birr",
+      "en": "Birr"
+    },
+    "simbolo": "Br",
+    "iso_4217": {
+      "numerico": "230",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "santim",
+        "en": "santim"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "ET"
+      ],
+      "curso_legal": [
+        "ET"
+      ],
+      "circulacion": [
+        "ET"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Etiopía",
+      "codigo": "NBE"
+    },
+    "historia": {
+      "fecha_introduccion": "1976",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "EUR": {
+    "codigo": "EUR",
+    "nombres": {
+      "es": "Euro",
+      "en": "Euro"
+    },
+    "nombre_corto": {
+      "es": "Euro",
+      "en": "Euro"
+    },
+    "simbolo": "€",
+    "iso_4217": {
+      "numerico": "978",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "AD",
+        "AT",
+        "BE",
+        "CY",
+        "DE",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PT",
+        "SI",
+        "SK",
+        "MC",
+        "SM",
+        "VA"
+      ],
+      "curso_legal": [
+        "AD",
+        "AT",
+        "BE",
+        "CY",
+        "DE",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PT",
+        "SI",
+        "SK",
+        "MC",
+        "SM",
+        "VA"
+      ],
+      "circulacion": [
+        "AD",
+        "AT",
+        "BE",
+        "CY",
+        "DE",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PT",
+        "SI",
+        "SK",
+        "MC",
+        "SM",
+        "VA",
+        "ME",
+        "XK"
+      ],
+      "de_facto": [
+        "ME",
+        "XK"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco Central Europeo",
+      "codigo": "BCE"
+    },
+    "historia": {
+      "fecha_introduccion": "1999-01-01",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Circulación fiduciaria desde 2002. Utilizado de facto en Montenegro y Kosovo sin acuerdo monetario formal."
+  },
+  "FJD": {
+    "codigo": "FJD",
+    "nombres": {
+      "es": "Dólar fiyiano",
+      "en": "Fijian dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar fiyiano",
+      "en": "Fijian dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "242",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "FJ"
+      ],
+      "curso_legal": [
+        "FJ"
+      ],
+      "circulacion": [
+        "FJ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la Reserva de Fiyi",
+      "codigo": "RBF"
+    },
+    "historia": {
+      "fecha_introduccion": "1969",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "FKP": {
+    "codigo": "FKP",
+    "nombres": {
+      "es": "Libra de las Islas Malvinas",
+      "en": "Falkland Islands pound"
+    },
+    "nombre_corto": {
+      "es": "Libra malvinense",
+      "en": "Falkland Islands pound"
+    },
+    "simbolo": "£",
+    "iso_4217": {
+      "numerico": "238",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "penique",
+        "en": "penny"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "FK"
+      ],
+      "curso_legal": [
+        "FK"
+      ],
+      "circulacion": [
+        "FK"
+      ],
+      "de_facto": [
+        "GS"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Gobierno de las Islas Malvinas",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1899",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "GBP": {
+    "codigo": "GBP",
+    "nombres": {
+      "es": "Libra esterlina",
+      "en": "Pound sterling"
+    },
+    "nombre_corto": {
+      "es": "Libra esterlina",
+      "en": "Pound sterling"
+    },
+    "simbolo": "£",
+    "iso_4217": {
+      "numerico": "826",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "penique",
+        "en": "penny"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "GB"
+      ],
+      "curso_legal": [
+        "GB",
+        "IM",
+        "JE",
+        "GG"
+      ],
+      "circulacion": [
+        "GB",
+        "IM",
+        "JE",
+        "GG",
+        "IO"
+      ],
+      "de_facto": [
+        "IO"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco de Inglaterra",
+      "codigo": "BoE"
+    },
+    "historia": {
+      "fecha_introduccion": "775",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "GEL": {
+    "codigo": "GEL",
+    "nombres": {
+      "es": "Lari georgiano",
+      "en": "Georgian lari"
+    },
+    "nombre_corto": {
+      "es": "Lari",
+      "en": "Lari"
+    },
+    "simbolo": "₾",
+    "iso_4217": {
+      "numerico": "981",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "tetri",
+        "en": "tetri"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "GE"
+      ],
+      "curso_legal": [
+        "GE"
+      ],
+      "circulacion": [
+        "GE"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Georgia",
+      "codigo": "NBG"
+    },
+    "historia": {
+      "fecha_introduccion": "1995",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "GHS": {
+    "codigo": "GHS",
+    "nombres": {
+      "es": "Cedi ghanés",
+      "en": "Ghanaian cedi"
+    },
+    "nombre_corto": {
+      "es": "Cedi",
+      "en": "Cedi"
+    },
+    "simbolo": "₵",
+    "iso_4217": {
+      "numerico": "936",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "pesewa",
+        "en": "pesewa"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "GH"
+      ],
+      "curso_legal": [
+        "GH"
+      ],
+      "circulacion": [
+        "GH"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Ghana",
+      "codigo": "BOG"
+    },
+    "historia": {
+      "fecha_introduccion": "2007",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "GIP": {
+    "codigo": "GIP",
+    "nombres": {
+      "es": "Libra gibraltareña",
+      "en": "Gibraltar pound"
+    },
+    "nombre_corto": {
+      "es": "Libra gibraltareña",
+      "en": "Gibraltar pound"
+    },
+    "simbolo": "£",
+    "iso_4217": {
+      "numerico": "292",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "penique",
+        "en": "penny"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "GI"
+      ],
+      "curso_legal": [
+        "GI"
+      ],
+      "circulacion": [
+        "GI"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Gobierno de Gibraltar",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1934",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "GMD": {
+    "codigo": "GMD",
+    "nombres": {
+      "es": "Dalasi gambiano",
+      "en": "Gambian dalasi"
+    },
+    "nombre_corto": {
+      "es": "Dalasi",
+      "en": "Dalasi"
+    },
+    "simbolo": "D",
+    "iso_4217": {
+      "numerico": "270",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "bututs",
+        "en": "butut"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "GM"
+      ],
+      "curso_legal": [
+        "GM"
+      ],
+      "circulacion": [
+        "GM"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Gambia",
+      "codigo": "CBG"
+    },
+    "historia": {
+      "fecha_introduccion": "1971",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "GNF": {
+    "codigo": "GNF",
+    "nombres": {
+      "es": "Franco guineano",
+      "en": "Guinean franc",
+      "fr": "franc guinéen"
+    },
+    "nombre_corto": {
+      "es": "Franco guineano",
+      "en": "Guinean franc"
+    },
+    "simbolo": "FG",
+    "iso_4217": {
+      "numerico": "324",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime",
+        "fr": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "GN"
+      ],
+      "curso_legal": [
+        "GN"
+      ],
+      "circulacion": [
+        "GN"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de la República de Guinea",
+      "codigo": "BCRG"
+    },
+    "historia": {
+      "fecha_introduccion": "1985",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "GTQ": {
+    "codigo": "GTQ",
+    "nombres": {
+      "es": "Quetzal guatemalteco",
+      "en": "Guatemalan quetzal"
+    },
+    "nombre_corto": {
+      "es": "Quetzal",
+      "en": "Quetzal"
+    },
+    "simbolo": "Q",
+    "iso_4217": {
+      "numerico": "320",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "GT"
+      ],
+      "curso_legal": [
+        "GT"
+      ],
+      "circulacion": [
+        "GT"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Guatemala",
+      "codigo": "BANGUAT"
+    },
+    "historia": {
+      "fecha_introduccion": "1925",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "GYD": {
+    "codigo": "GYD",
+    "nombres": {
+      "es": "Dólar guyanés",
+      "en": "Guyanese dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar guyanés",
+      "en": "Guyanese dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "328",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "GY"
+      ],
+      "curso_legal": [
+        "GY"
+      ],
+      "circulacion": [
+        "GY"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Guyana",
+      "codigo": "BOG"
+    },
+    "historia": {
+      "fecha_introduccion": "1839",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "HKD": {
+    "codigo": "HKD",
+    "nombres": {
+      "es": "Dólar de Hong Kong",
+      "en": "Hong Kong dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar de Hong Kong",
+      "en": "Hong Kong dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "344",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "HK"
+      ],
+      "curso_legal": [
+        "HK"
+      ],
+      "circulacion": [
+        "HK"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Autoridad Monetaria de Hong Kong",
+      "codigo": "HKMA"
+    },
+    "historia": {
+      "fecha_introduccion": "1863",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "HNL": {
+    "codigo": "HNL",
+    "nombres": {
+      "es": "Lempira hondureño",
+      "en": "Honduran lempira"
+    },
+    "nombre_corto": {
+      "es": "Lempira",
+      "en": "Lempira"
+    },
+    "simbolo": "L",
+    "iso_4217": {
+      "numerico": "340",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "HN"
+      ],
+      "curso_legal": [
+        "HN"
+      ],
+      "circulacion": [
+        "HN"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Honduras",
+      "codigo": "BCH"
+    },
+    "historia": {
+      "fecha_introduccion": "1931",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "HTG": {
+    "codigo": "HTG",
+    "nombres": {
+      "es": "Gourde haitiano",
+      "en": "Haitian gourde"
+    },
+    "nombre_corto": {
+      "es": "Gourde",
+      "en": "Gourde"
+    },
+    "simbolo": "G",
+    "iso_4217": {
+      "numerico": "332",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "HT"
+      ],
+      "curso_legal": [
+        "HT"
+      ],
+      "circulacion": [
+        "HT"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la República de Haití",
+      "codigo": "BRH"
+    },
+    "historia": {
+      "fecha_introduccion": "1813",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "HUF": {
+    "codigo": "HUF",
+    "nombres": {
+      "es": "Forinto húngaro",
+      "en": "Hungarian forint"
+    },
+    "nombre_corto": {
+      "es": "Forinto",
+      "en": "Forint"
+    },
+    "simbolo": "Ft",
+    "iso_4217": {
+      "numerico": "348",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "HU"
+      ],
+      "curso_legal": [
+        "HU"
+      ],
+      "circulacion": [
+        "HU"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Hungría",
+      "codigo": "MNB"
+    },
+    "historia": {
+      "fecha_introduccion": "1946",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "IDR": {
+    "codigo": "IDR",
+    "nombres": {
+      "es": "Rupia indonesia",
+      "en": "Indonesian rupiah"
+    },
+    "nombre_corto": {
+      "es": "Rupia indonesia",
+      "en": "Rupiah"
+    },
+    "simbolo": "Rp",
+    "iso_4217": {
+      "numerico": "360",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "sen",
+        "en": "sen"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "ID"
+      ],
+      "curso_legal": [
+        "ID"
+      ],
+      "circulacion": [
+        "ID"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Indonesia",
+      "codigo": "BI"
+    },
+    "historia": {
+      "fecha_introduccion": "1946",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "ILS": {
+    "codigo": "ILS",
+    "nombres": {
+      "es": "Nuevo shéquel israelí",
+      "en": "Israeli new shekel",
+      "ar": "شيكل إسرائيلي جديد"
+    },
+    "nombre_corto": {
+      "es": "Séquel",
+      "en": "New shekel"
+    },
+    "simbolo": "₪",
+    "iso_4217": {
+      "numerico": "376",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "agora",
+        "en": "agora"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "IL"
+      ],
+      "curso_legal": [
+        "IL"
+      ],
+      "circulacion": [
+        "IL",
+        "PS"
+      ],
+      "de_facto": [
+        "PS"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco de Israel",
+      "codigo": "BOI"
+    },
+    "historia": {
+      "fecha_introduccion": "1985",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "INR": {
+    "codigo": "INR",
+    "nombres": {
+      "es": "Rupia india",
+      "en": "Indian rupee"
+    },
+    "nombre_corto": {
+      "es": "Rupia india",
+      "en": "Indian rupee"
+    },
+    "simbolo": "₹",
+    "iso_4217": {
+      "numerico": "356",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "paisa",
+        "en": "paisa"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "IN"
+      ],
+      "curso_legal": [
+        "IN"
+      ],
+      "circulacion": [
+        "IN",
+        "BT",
+        "NP"
+      ],
+      "de_facto": [
+        "BT",
+        "NP"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco de la Reserva de la India",
+      "codigo": "RBI"
+    },
+    "historia": {
+      "fecha_introduccion": "1957",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "IQD": {
+    "codigo": "IQD",
+    "nombres": {
+      "es": "Dinar iraquí",
+      "en": "Iraqi dinar",
+      "ar": "دينار عراقي"
+    },
+    "nombre_corto": {
+      "es": "Dinar iraquí",
+      "en": "Iraqi dinar"
+    },
+    "simbolo": "ع.د",
+    "iso_4217": {
+      "numerico": "368",
+      "decimales": 3
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "fils",
+        "en": "fils"
+      },
+      "factor": 1000
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "IQ"
+      ],
+      "curso_legal": [
+        "IQ"
+      ],
+      "circulacion": [
+        "IQ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Irak",
+      "codigo": "CBI"
+    },
+    "historia": {
+      "fecha_introduccion": "1932",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "IRR": {
+    "codigo": "IRR",
+    "nombres": {
+      "es": "Rial iraní",
+      "en": "Iranian rial",
+      "ar": "ریال ایران"
+    },
+    "nombre_corto": {
+      "es": "Rial iraní",
+      "en": "Iranian rial"
+    },
+    "simbolo": "﷼",
+    "iso_4217": {
+      "numerico": "364",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "dinar",
+        "en": "dinar"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "IR"
+      ],
+      "curso_legal": [
+        "IR"
+      ],
+      "circulacion": [
+        "IR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de la República Islámica de Irán",
+      "codigo": "CBI"
+    },
+    "historia": {
+      "fecha_introduccion": "1932",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "ISK": {
+    "codigo": "ISK",
+    "nombres": {
+      "es": "Corona islandesa",
+      "en": "Icelandic króna"
+    },
+    "nombre_corto": {
+      "es": "Corona islandesa",
+      "en": "Icelandic króna"
+    },
+    "simbolo": "kr",
+    "iso_4217": {
+      "numerico": "352",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "aurar",
+        "en": "eyrir"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "IS"
+      ],
+      "curso_legal": [
+        "IS"
+      ],
+      "circulacion": [
+        "IS"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Islandia",
+      "codigo": "CBI"
+    },
+    "historia": {
+      "fecha_introduccion": "1918",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "JMD": {
+    "codigo": "JMD",
+    "nombres": {
+      "es": "Dólar jamaicano",
+      "en": "Jamaican dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar jamaicano",
+      "en": "Jamaican dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "388",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "JM"
+      ],
+      "curso_legal": [
+        "JM"
+      ],
+      "circulacion": [
+        "JM"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Jamaica",
+      "codigo": "BOJ"
+    },
+    "historia": {
+      "fecha_introduccion": "1969",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "JOD": {
+    "codigo": "JOD",
+    "nombres": {
+      "es": "Dinar jordano",
+      "en": "Jordanian dinar",
+      "ar": "دينار أردني"
+    },
+    "nombre_corto": {
+      "es": "Dinar jordano",
+      "en": "Jordanian dinar"
+    },
+    "simbolo": "د.ا",
+    "iso_4217": {
+      "numerico": "400",
+      "decimales": 3
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "piastra / fils",
+        "en": "piastre / fils"
+      },
+      "factor": 1000
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "JO"
+      ],
+      "curso_legal": [
+        "JO"
+      ],
+      "circulacion": [
+        "JO"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Jordania",
+      "codigo": "CBJ"
+    },
+    "historia": {
+      "fecha_introduccion": "1950",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "JPY": {
+    "codigo": "JPY",
+    "nombres": {
+      "es": "Yen japonés",
+      "en": "Japanese yen"
+    },
+    "nombre_corto": {
+      "es": "Yen",
+      "en": "Yen"
+    },
+    "simbolo": "¥",
+    "iso_4217": {
+      "numerico": "392",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "sen",
+        "en": "sen"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "JP"
+      ],
+      "curso_legal": [
+        "JP"
+      ],
+      "circulacion": [
+        "JP"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Japón",
+      "codigo": "BOJ"
+    },
+    "historia": {
+      "fecha_introduccion": "1871",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "KES": {
+    "codigo": "KES",
+    "nombres": {
+      "es": "Chelín keniano",
+      "en": "Kenyan shilling"
+    },
+    "nombre_corto": {
+      "es": "Chelín keniano",
+      "en": "Kenyan shilling"
+    },
+    "simbolo": "Sh",
+    "iso_4217": {
+      "numerico": "404",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "KE"
+      ],
+      "curso_legal": [
+        "KE"
+      ],
+      "circulacion": [
+        "KE"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Kenia",
+      "codigo": "CBK"
+    },
+    "historia": {
+      "fecha_introduccion": "1966",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "KGS": {
+    "codigo": "KGS",
+    "nombres": {
+      "es": "Som kirguís",
+      "en": "Kyrgyzstani som"
+    },
+    "nombre_corto": {
+      "es": "Som",
+      "en": "Som"
+    },
+    "simbolo": "с",
+    "iso_4217": {
+      "numerico": "417",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "tyiyn",
+        "en": "tyiyn"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "KG"
+      ],
+      "curso_legal": [
+        "KG"
+      ],
+      "circulacion": [
+        "KG"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de la República Kirguisa",
+      "codigo": "NBKR"
+    },
+    "historia": {
+      "fecha_introduccion": "1993",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "KHR": {
+    "codigo": "KHR",
+    "nombres": {
+      "es": "Riel camboyano",
+      "en": "Cambodian riel"
+    },
+    "nombre_corto": {
+      "es": "Riel",
+      "en": "Riel"
+    },
+    "simbolo": "៛",
+    "iso_4217": {
+      "numerico": "116",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "sen",
+        "en": "sen"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "KH"
+      ],
+      "curso_legal": [
+        "KH"
+      ],
+      "circulacion": [
+        "KH"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Camboya",
+      "codigo": "NBC"
+    },
+    "historia": {
+      "fecha_introduccion": "1980",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "El dólar estadounidense circula ampliamente de facto junto al riel."
+  },
+  "KMF": {
+    "codigo": "KMF",
+    "nombres": {
+      "es": "Franco comorense",
+      "en": "Comorian franc",
+      "fr": "franc comorien"
+    },
+    "nombre_corto": {
+      "es": "Franco comorense",
+      "en": "Comorian franc"
+    },
+    "simbolo": "CF",
+    "iso_4217": {
+      "numerico": "174",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime",
+        "fr": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "KM"
+      ],
+      "curso_legal": [
+        "KM"
+      ],
+      "circulacion": [
+        "KM"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de las Comoras",
+      "codigo": "BCC"
+    },
+    "historia": {
+      "fecha_introduccion": "1981",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "KPW": {
+    "codigo": "KPW",
+    "nombres": {
+      "es": "Won norcoreano",
+      "en": "North Korean won"
+    },
+    "nombre_corto": {
+      "es": "Won norcoreano",
+      "en": "North Korean won"
+    },
+    "simbolo": "₩",
+    "iso_4217": {
+      "numerico": "408",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "chon",
+        "en": "chon"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "KP"
+      ],
+      "curso_legal": [
+        "KP"
+      ],
+      "circulacion": [
+        "KP"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Corea",
+      "codigo": "CBK"
+    },
+    "historia": {
+      "fecha_introduccion": "1947",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "KRW": {
+    "codigo": "KRW",
+    "nombres": {
+      "es": "Won surcoreano",
+      "en": "South Korean won"
+    },
+    "nombre_corto": {
+      "es": "Won",
+      "en": "Won"
+    },
+    "simbolo": "₩",
+    "iso_4217": {
+      "numerico": "410",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "jeon",
+        "en": "jeon"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "KR"
+      ],
+      "curso_legal": [
+        "KR"
+      ],
+      "circulacion": [
+        "KR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Corea",
+      "codigo": "BOK"
+    },
+    "historia": {
+      "fecha_introduccion": "1962",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "KWD": {
+    "codigo": "KWD",
+    "nombres": {
+      "es": "Dinar kuwaití",
+      "en": "Kuwaiti dinar",
+      "ar": "دينار كويتي"
+    },
+    "nombre_corto": {
+      "es": "Dinar kuwaití",
+      "en": "Kuwaiti dinar"
+    },
+    "simbolo": "د.ك",
+    "iso_4217": {
+      "numerico": "414",
+      "decimales": 3
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "fils",
+        "en": "fils"
+      },
+      "factor": 1000
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "KW"
+      ],
+      "curso_legal": [
+        "KW"
+      ],
+      "circulacion": [
+        "KW"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Kuwait",
+      "codigo": "CBK"
+    },
+    "historia": {
+      "fecha_introduccion": "1961",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "KYD": {
+    "codigo": "KYD",
+    "nombres": {
+      "es": "Dólar de las Islas Caimán",
+      "en": "Cayman Islands dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar caimano",
+      "en": "Cayman Islands dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "136",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "KY"
+      ],
+      "curso_legal": [
+        "KY"
+      ],
+      "circulacion": [
+        "KY"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Autoridad Monetaria de las Islas Caimán",
+      "codigo": "CIMA"
+    },
+    "historia": {
+      "fecha_introduccion": "1972",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "KZT": {
+    "codigo": "KZT",
+    "nombres": {
+      "es": "Tenge kazajo",
+      "en": "Kazakhstani tenge"
+    },
+    "nombre_corto": {
+      "es": "Tenge",
+      "en": "Tenge"
+    },
+    "simbolo": "₸",
+    "iso_4217": {
+      "numerico": "398",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "tıyn",
+        "en": "tiyn"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "KZ"
+      ],
+      "curso_legal": [
+        "KZ"
+      ],
+      "circulacion": [
+        "KZ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Kazajistán",
+      "codigo": "NBK"
+    },
+    "historia": {
+      "fecha_introduccion": "1993",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "LAK": {
+    "codigo": "LAK",
+    "nombres": {
+      "es": "Kip laosiano",
+      "en": "Lao kip"
+    },
+    "nombre_corto": {
+      "es": "Kip",
+      "en": "Kip"
+    },
+    "simbolo": "₭",
+    "iso_4217": {
+      "numerico": "418",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "att",
+        "en": "att"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "LA"
+      ],
+      "curso_legal": [
+        "LA"
+      ],
+      "circulacion": [
+        "LA"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la RDP Lao",
+      "codigo": "BOL"
+    },
+    "historia": {
+      "fecha_introduccion": "1979",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "LBP": {
+    "codigo": "LBP",
+    "nombres": {
+      "es": "Libra libanesa",
+      "en": "Lebanese pound",
+      "ar": "ليرة لبنانية"
+    },
+    "nombre_corto": {
+      "es": "Libra libanesa",
+      "en": "Lebanese pound"
+    },
+    "simbolo": "ل.ل",
+    "iso_4217": {
+      "numerico": "422",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "piastra",
+        "en": "piastre"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "LB"
+      ],
+      "curso_legal": [
+        "LB"
+      ],
+      "circulacion": [
+        "LB"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central del Líbano",
+      "codigo": "BDL"
+    },
+    "historia": {
+      "fecha_introduccion": "1948",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "LKR": {
+    "codigo": "LKR",
+    "nombres": {
+      "es": "Rupia de Sri Lanka",
+      "en": "Sri Lankan rupee"
+    },
+    "nombre_corto": {
+      "es": "Rupia de Sri Lanka",
+      "en": "Sri Lankan rupee"
+    },
+    "simbolo": "Rs",
+    "iso_4217": {
+      "numerico": "144",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "LK"
+      ],
+      "curso_legal": [
+        "LK"
+      ],
+      "circulacion": [
+        "LK"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Sri Lanka",
+      "codigo": "CBSL"
+    },
+    "historia": {
+      "fecha_introduccion": "1872",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "LRD": {
+    "codigo": "LRD",
+    "nombres": {
+      "es": "Dólar liberiano",
+      "en": "Liberian dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar liberiano",
+      "en": "Liberian dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "430",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "LR"
+      ],
+      "curso_legal": [
+        "LR"
+      ],
+      "circulacion": [
+        "LR"
+      ],
+      "de_facto": [
+        "LR"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Liberia",
+      "codigo": "CBL"
+    },
+    "historia": {
+      "fecha_introduccion": "1943",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "El dólar estadounidense circula ampliamente de facto junto al dólar liberiano."
+  },
+  "LSL": {
+    "codigo": "LSL",
+    "nombres": {
+      "es": "Loti de Lesoto",
+      "en": "Lesotho loti"
+    },
+    "nombre_corto": {
+      "es": "Loti",
+      "en": "Loti"
+    },
+    "simbolo": "L",
+    "iso_4217": {
+      "numerico": "426",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "sente",
+        "en": "sente"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "LS"
+      ],
+      "curso_legal": [
+        "LS"
+      ],
+      "circulacion": [
+        "LS"
+      ],
+      "de_facto": [
+        "LS"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Lesoto",
+      "codigo": "CBL"
+    },
+    "historia": {
+      "fecha_introduccion": "1980",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "El rand sudafricano (ZAR) también tiene curso legal en Lesoto, a la par con el loti."
+  },
+  "LYD": {
+    "codigo": "LYD",
+    "nombres": {
+      "es": "Dinar libio",
+      "en": "Libyan dinar",
+      "ar": "دينار ليبي"
+    },
+    "nombre_corto": {
+      "es": "Dinar libio",
+      "en": "Libyan dinar"
+    },
+    "simbolo": "ل.د",
+    "iso_4217": {
+      "numerico": "434",
+      "decimales": 3
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "dirham",
+        "en": "dirham"
+      },
+      "factor": 1000
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "LY"
+      ],
+      "curso_legal": [
+        "LY"
+      ],
+      "circulacion": [
+        "LY"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Libia",
+      "codigo": "CBL"
+    },
+    "historia": {
+      "fecha_introduccion": "1971",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "MAD": {
+    "codigo": "MAD",
+    "nombres": {
+      "es": "Dírham marroquí",
+      "en": "Moroccan dirham",
+      "ar": "درهم مغربي"
+    },
+    "nombre_corto": {
+      "es": "Dírham",
+      "en": "Dirham"
+    },
+    "simbolo": "د.م.",
+    "iso_4217": {
+      "numerico": "504",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime",
+        "fr": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MA"
+      ],
+      "curso_legal": [
+        "MA"
+      ],
+      "circulacion": [
+        "MA",
+        "EH"
+      ],
+      "de_facto": [
+        "EH"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Bank Al-Maghrib",
+      "codigo": "BAM"
+    },
+    "historia": {
+      "fecha_introduccion": "1965",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "MDL": {
+    "codigo": "MDL",
+    "nombres": {
+      "es": "Leu moldavo",
+      "en": "Moldovan leu"
+    },
+    "nombre_corto": {
+      "es": "Leu moldavo",
+      "en": "Moldovan leu"
+    },
+    "simbolo": "L",
+    "iso_4217": {
+      "numerico": "498",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "ban",
+        "en": "ban"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MD"
+      ],
+      "curso_legal": [
+        "MD"
+      ],
+      "circulacion": [
+        "MD"
+      ],
+      "de_facto": [
+        "MD"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Moldavia",
+      "codigo": "BNM"
+    },
+    "historia": {
+      "fecha_introduccion": "1993",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "En Transnistria circula el rublo transnistrio, no reconocido internacionalmente."
+  },
+  "MGA": {
+    "codigo": "MGA",
+    "nombres": {
+      "es": "Ariary malgache",
+      "en": "Malagasy ariary"
+    },
+    "nombre_corto": {
+      "es": "Ariary",
+      "en": "Ariary"
+    },
+    "simbolo": "Ar",
+    "iso_4217": {
+      "numerico": "969",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "iraimbilanja",
+        "en": "iraimbilanja"
+      },
+      "factor": 5
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MG"
+      ],
+      "curso_legal": [
+        "MG"
+      ],
+      "circulacion": [
+        "MG"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Madagascar",
+      "codigo": "BFM"
+    },
+    "historia": {
+      "fecha_introduccion": "2005",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "1 ariary equivale a 5 iraimbilanja (subdivisión no decimal)."
+  },
+  "MKD": {
+    "codigo": "MKD",
+    "nombres": {
+      "es": "Denar macedonio",
+      "en": "Macedonian denar"
+    },
+    "nombre_corto": {
+      "es": "Denar",
+      "en": "Denar"
+    },
+    "simbolo": "ден",
+    "iso_4217": {
+      "numerico": "807",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "deni",
+        "en": "deni"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MK"
+      ],
+      "curso_legal": [
+        "MK"
+      ],
+      "circulacion": [
+        "MK"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de la República de Macedonia del Norte",
+      "codigo": "NBRM"
+    },
+    "historia": {
+      "fecha_introduccion": "1992",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "MMK": {
+    "codigo": "MMK",
+    "nombres": {
+      "es": "Kyat birmano",
+      "en": "Myanmar kyat"
+    },
+    "nombre_corto": {
+      "es": "Kyat",
+      "en": "Kyat"
+    },
+    "simbolo": "K",
+    "iso_4217": {
+      "numerico": "104",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "pya",
+        "en": "pya"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MM"
+      ],
+      "curso_legal": [
+        "MM"
+      ],
+      "circulacion": [
+        "MM"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Myanmar",
+      "codigo": "CBM"
+    },
+    "historia": {
+      "fecha_introduccion": "1952",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "MNT": {
+    "codigo": "MNT",
+    "nombres": {
+      "es": "Tugrik mongol",
+      "en": "Mongolian tögrög"
+    },
+    "nombre_corto": {
+      "es": "Tugrik",
+      "en": "Tögrög"
+    },
+    "simbolo": "₮",
+    "iso_4217": {
+      "numerico": "496",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "möngö",
+        "en": "möngö"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MN"
+      ],
+      "curso_legal": [
+        "MN"
+      ],
+      "circulacion": [
+        "MN"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Mongolia",
+      "codigo": "BOM"
+    },
+    "historia": {
+      "fecha_introduccion": "1925",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "MOP": {
+    "codigo": "MOP",
+    "nombres": {
+      "es": "Pataca de Macao",
+      "en": "Macanese pataca"
+    },
+    "nombre_corto": {
+      "es": "Pataca",
+      "en": "Pataca"
+    },
+    "simbolo": "MOP$",
+    "iso_4217": {
+      "numerico": "446",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "avo",
+        "en": "avo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MO"
+      ],
+      "curso_legal": [
+        "MO"
+      ],
+      "circulacion": [
+        "MO"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Autoridad Monetaria de Macao",
+      "codigo": "AMCM"
+    },
+    "historia": {
+      "fecha_introduccion": "1901",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "MRU": {
+    "codigo": "MRU",
+    "nombres": {
+      "es": "Ouguiya mauritana",
+      "en": "Mauritanian ouguiya"
+    },
+    "nombre_corto": {
+      "es": "Ouguiya",
+      "en": "Ouguiya"
+    },
+    "simbolo": "UM",
+    "iso_4217": {
+      "numerico": "929",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "khoums",
+        "en": "khoums"
+      },
+      "factor": 5
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MR"
+      ],
+      "curso_legal": [
+        "MR"
+      ],
+      "circulacion": [
+        "MR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Mauritania",
+      "codigo": "BCM"
+    },
+    "historia": {
+      "fecha_introduccion": "2018",
+      "moneda_anterior": "MRO",
+      "moneda_sucesora": null
+    },
+    "notas": "1 ouguiya equivale a 5 khoums (subdivisión no decimal)."
+  },
+  "MUR": {
+    "codigo": "MUR",
+    "nombres": {
+      "es": "Rupia mauriciana",
+      "en": "Mauritian rupee"
+    },
+    "nombre_corto": {
+      "es": "Rupia mauriciana",
+      "en": "Mauritian rupee"
+    },
+    "simbolo": "₨",
+    "iso_4217": {
+      "numerico": "480",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MU"
+      ],
+      "curso_legal": [
+        "MU"
+      ],
+      "circulacion": [
+        "MU"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Mauricio",
+      "codigo": "BOM"
+    },
+    "historia": {
+      "fecha_introduccion": "1877",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "MVR": {
+    "codigo": "MVR",
+    "nombres": {
+      "es": "Rufiyaa maldivana",
+      "en": "Maldivian rufiyaa"
+    },
+    "nombre_corto": {
+      "es": "Rufiyaa",
+      "en": "Rufiyaa"
+    },
+    "simbolo": "Rf",
+    "iso_4217": {
+      "numerico": "462",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "laari",
+        "en": "laari"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MV"
+      ],
+      "curso_legal": [
+        "MV"
+      ],
+      "circulacion": [
+        "MV"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Autoridad Monetaria de Maldivas",
+      "codigo": "MMA"
+    },
+    "historia": {
+      "fecha_introduccion": "1981",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "MWK": {
+    "codigo": "MWK",
+    "nombres": {
+      "es": "Kwacha malauí",
+      "en": "Malawian kwacha"
+    },
+    "nombre_corto": {
+      "es": "Kwacha malauí",
+      "en": "Malawian kwacha"
+    },
+    "simbolo": "MK",
+    "iso_4217": {
+      "numerico": "454",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "tambala",
+        "en": "tambala"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MW"
+      ],
+      "curso_legal": [
+        "MW"
+      ],
+      "circulacion": [
+        "MW"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la Reserva de Malaui",
+      "codigo": "RBM"
+    },
+    "historia": {
+      "fecha_introduccion": "1971",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "MXN": {
+    "codigo": "MXN",
+    "nombres": {
+      "es": "Peso mexicano",
+      "en": "Mexican peso"
+    },
+    "nombre_corto": {
+      "es": "Peso mexicano",
+      "en": "Mexican peso"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "484",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MX"
+      ],
+      "curso_legal": [
+        "MX"
+      ],
+      "circulacion": [
+        "MX"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de México",
+      "codigo": "Banxico"
+    },
+    "historia": {
+      "fecha_introduccion": "1993",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "MYR": {
+    "codigo": "MYR",
+    "nombres": {
+      "es": "Ringgit malasio",
+      "en": "Malaysian ringgit"
+    },
+    "nombre_corto": {
+      "es": "Ringgit",
+      "en": "Ringgit"
+    },
+    "simbolo": "RM",
+    "iso_4217": {
+      "numerico": "458",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "sen",
+        "en": "sen"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MY"
+      ],
+      "curso_legal": [
+        "MY"
+      ],
+      "circulacion": [
+        "MY"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Negara Malasia",
+      "codigo": "BNM"
+    },
+    "historia": {
+      "fecha_introduccion": "1967",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "MZN": {
+    "codigo": "MZN",
+    "nombres": {
+      "es": "Metical mozambiqueño",
+      "en": "Mozambican metical"
+    },
+    "nombre_corto": {
+      "es": "Metical",
+      "en": "Metical"
+    },
+    "simbolo": "MT",
+    "iso_4217": {
+      "numerico": "943",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "MZ"
+      ],
+      "curso_legal": [
+        "MZ"
+      ],
+      "circulacion": [
+        "MZ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Mozambique",
+      "codigo": "BM"
+    },
+    "historia": {
+      "fecha_introduccion": "2006",
+      "moneda_anterior": "MZM",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "NAD": {
+    "codigo": "NAD",
+    "nombres": {
+      "es": "Dólar namibio",
+      "en": "Namibian dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar namibio",
+      "en": "Namibian dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "516",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "NA"
+      ],
+      "curso_legal": [
+        "NA"
+      ],
+      "circulacion": [
+        "NA"
+      ],
+      "de_facto": [
+        "NA"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco de Namibia",
+      "codigo": "BON"
+    },
+    "historia": {
+      "fecha_introduccion": "1993",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "El rand sudafricano (ZAR) también tiene curso legal en Namibia, a la par con el dólar namibio."
+  },
+  "NGN": {
+    "codigo": "NGN",
+    "nombres": {
+      "es": "Naira nigeriana",
+      "en": "Nigerian naira"
+    },
+    "nombre_corto": {
+      "es": "Naira",
+      "en": "Naira"
+    },
+    "simbolo": "₦",
+    "iso_4217": {
+      "numerico": "566",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "kobo",
+        "en": "kobo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "NG"
+      ],
+      "curso_legal": [
+        "NG"
+      ],
+      "circulacion": [
+        "NG"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Nigeria",
+      "codigo": "CBN"
+    },
+    "historia": {
+      "fecha_introduccion": "1973",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "NIO": {
+    "codigo": "NIO",
+    "nombres": {
+      "es": "Córdoba oro nicaragüense",
+      "en": "Nicaraguan córdoba"
+    },
+    "nombre_corto": {
+      "es": "Córdoba",
+      "en": "Córdoba"
+    },
+    "simbolo": "C$",
+    "iso_4217": {
+      "numerico": "558",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "NI"
+      ],
+      "curso_legal": [
+        "NI"
+      ],
+      "circulacion": [
+        "NI"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Nicaragua",
+      "codigo": "BCN"
+    },
+    "historia": {
+      "fecha_introduccion": "1912",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "NOK": {
+    "codigo": "NOK",
+    "nombres": {
+      "es": "Corona noruega",
+      "en": "Norwegian krone"
+    },
+    "nombre_corto": {
+      "es": "Corona noruega",
+      "en": "Norwegian krone"
+    },
+    "simbolo": "kr",
+    "iso_4217": {
+      "numerico": "578",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "øre",
+        "en": "øre"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "NO"
+      ],
+      "curso_legal": [
+        "NO",
+        "SJ",
+        "BV"
+      ],
+      "circulacion": [
+        "NO",
+        "SJ",
+        "BV"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Noruega",
+      "codigo": "NB"
+    },
+    "historia": {
+      "fecha_introduccion": "1875",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "NPR": {
+    "codigo": "NPR",
+    "nombres": {
+      "es": "Rupia nepalí",
+      "en": "Nepalese rupee"
+    },
+    "nombre_corto": {
+      "es": "Rupia nepalí",
+      "en": "Nepalese rupee"
+    },
+    "simbolo": "₨",
+    "iso_4217": {
+      "numerico": "524",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "paisa",
+        "en": "paisa"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "NP"
+      ],
+      "curso_legal": [
+        "NP"
+      ],
+      "circulacion": [
+        "NP"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Nepal (Nepal Rastra Bank)",
+      "codigo": "NRB"
+    },
+    "historia": {
+      "fecha_introduccion": "1932",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "NZD": {
+    "codigo": "NZD",
+    "nombres": {
+      "es": "Dólar neozelandés",
+      "en": "New Zealand dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar neozelandés",
+      "en": "New Zealand dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "554",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "NZ"
+      ],
+      "curso_legal": [
+        "NZ",
+        "CK",
+        "NU",
+        "PN",
+        "TK"
+      ],
+      "circulacion": [
+        "NZ",
+        "CK",
+        "NU",
+        "PN",
+        "TK"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la Reserva de Nueva Zelanda",
+      "codigo": "RBNZ"
+    },
+    "historia": {
+      "fecha_introduccion": "1967",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "OMR": {
+    "codigo": "OMR",
+    "nombres": {
+      "es": "Rial omaní",
+      "en": "Omani rial",
+      "ar": "ريال عماني"
+    },
+    "nombre_corto": {
+      "es": "Rial omaní",
+      "en": "Omani rial"
+    },
+    "simbolo": "ر.ع.",
+    "iso_4217": {
+      "numerico": "512",
+      "decimales": 3
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "baisa",
+        "en": "baisa"
+      },
+      "factor": 1000
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "OM"
+      ],
+      "curso_legal": [
+        "OM"
+      ],
+      "circulacion": [
+        "OM"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Omán",
+      "codigo": "CBO"
+    },
+    "historia": {
+      "fecha_introduccion": "1970",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "PAB": {
+    "codigo": "PAB",
+    "nombres": {
+      "es": "Balboa panameño",
+      "en": "Panamanian balboa"
+    },
+    "nombre_corto": {
+      "es": "Balboa",
+      "en": "Balboa"
+    },
+    "simbolo": "B/.",
+    "iso_4217": {
+      "numerico": "590",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centésimo",
+        "en": "centésimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "PA"
+      ],
+      "curso_legal": [
+        "PA"
+      ],
+      "circulacion": [
+        "PA"
+      ],
+      "de_facto": [
+        "PA"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Panamá",
+      "codigo": "BNP"
+    },
+    "historia": {
+      "fecha_introduccion": "1904",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "El dólar estadounidense (USD) circula ampliamente y tiene curso legal junto al balboa; no se emiten billetes de balboa."
+  },
+  "PEN": {
+    "codigo": "PEN",
+    "nombres": {
+      "es": "Sol peruano",
+      "en": "Peruvian sol"
+    },
+    "nombre_corto": {
+      "es": "Sol",
+      "en": "Sol"
+    },
+    "simbolo": "S/",
+    "iso_4217": {
+      "numerico": "604",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "PE"
+      ],
+      "curso_legal": [
+        "PE"
+      ],
+      "circulacion": [
+        "PE"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Reserva del Perú",
+      "codigo": "BCRP"
+    },
+    "historia": {
+      "fecha_introduccion": "1991",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "PGK": {
+    "codigo": "PGK",
+    "nombres": {
+      "es": "Kina papú",
+      "en": "Papua New Guinean kina"
+    },
+    "nombre_corto": {
+      "es": "Kina",
+      "en": "Kina"
+    },
+    "simbolo": "K",
+    "iso_4217": {
+      "numerico": "598",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "toea",
+        "en": "toea"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "PG"
+      ],
+      "curso_legal": [
+        "PG"
+      ],
+      "circulacion": [
+        "PG"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Papúa Nueva Guinea",
+      "codigo": "BPNG"
+    },
+    "historia": {
+      "fecha_introduccion": "1975",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "PHP": {
+    "codigo": "PHP",
+    "nombres": {
+      "es": "Peso filipino",
+      "en": "Philippine peso"
+    },
+    "nombre_corto": {
+      "es": "Peso filipino",
+      "en": "Philippine peso"
+    },
+    "simbolo": "₱",
+    "iso_4217": {
+      "numerico": "608",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "PH"
+      ],
+      "curso_legal": [
+        "PH"
+      ],
+      "circulacion": [
+        "PH"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Filipinas",
+      "codigo": "BSP"
+    },
+    "historia": {
+      "fecha_introduccion": "1946",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "PKR": {
+    "codigo": "PKR",
+    "nombres": {
+      "es": "Rupia pakistaní",
+      "en": "Pakistani rupee"
+    },
+    "nombre_corto": {
+      "es": "Rupia pakistaní",
+      "en": "Pakistani rupee"
+    },
+    "simbolo": "₨",
+    "iso_4217": {
+      "numerico": "586",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "paisa",
+        "en": "paisa"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "PK"
+      ],
+      "curso_legal": [
+        "PK"
+      ],
+      "circulacion": [
+        "PK"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Estatal de Pakistán",
+      "codigo": "SBP"
+    },
+    "historia": {
+      "fecha_introduccion": "1948",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "PLN": {
+    "codigo": "PLN",
+    "nombres": {
+      "es": "Zloty polaco",
+      "en": "Polish złoty"
+    },
+    "nombre_corto": {
+      "es": "Zloty",
+      "en": "Złoty"
+    },
+    "simbolo": "zł",
+    "iso_4217": {
+      "numerico": "985",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "grosz",
+        "en": "grosz"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "PL"
+      ],
+      "curso_legal": [
+        "PL"
+      ],
+      "circulacion": [
+        "PL"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Polonia",
+      "codigo": "NBP"
+    },
+    "historia": {
+      "fecha_introduccion": "1995",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "PYG": {
+    "codigo": "PYG",
+    "nombres": {
+      "es": "Guaraní paraguayo",
+      "en": "Paraguayan guaraní"
+    },
+    "nombre_corto": {
+      "es": "Guaraní",
+      "en": "Guaraní"
+    },
+    "simbolo": "₲",
+    "iso_4217": {
+      "numerico": "600",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "PY"
+      ],
+      "curso_legal": [
+        "PY"
+      ],
+      "circulacion": [
+        "PY"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central del Paraguay",
+      "codigo": "BCP"
+    },
+    "historia": {
+      "fecha_introduccion": "1943",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "QAR": {
+    "codigo": "QAR",
+    "nombres": {
+      "es": "Rial catarí",
+      "en": "Qatari riyal",
+      "ar": "ريال قطري"
+    },
+    "nombre_corto": {
+      "es": "Rial catarí",
+      "en": "Qatari riyal"
+    },
+    "simbolo": "ر.ق",
+    "iso_4217": {
+      "numerico": "634",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "dirham",
+        "en": "dirham"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "QA"
+      ],
+      "curso_legal": [
+        "QA"
+      ],
+      "circulacion": [
+        "QA"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Catar",
+      "codigo": "QCB"
+    },
+    "historia": {
+      "fecha_introduccion": "1973",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "RON": {
+    "codigo": "RON",
+    "nombres": {
+      "es": "Leu rumano",
+      "en": "Romanian leu"
+    },
+    "nombre_corto": {
+      "es": "Leu rumano",
+      "en": "Romanian leu"
+    },
+    "simbolo": "lei",
+    "iso_4217": {
+      "numerico": "946",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "ban",
+        "en": "ban"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "RO"
+      ],
+      "curso_legal": [
+        "RO"
+      ],
+      "circulacion": [
+        "RO"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Rumania",
+      "codigo": "BNR"
+    },
+    "historia": {
+      "fecha_introduccion": "2005",
+      "moneda_anterior": "ROL",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "RSD": {
+    "codigo": "RSD",
+    "nombres": {
+      "es": "Dinar serbio",
+      "en": "Serbian dinar"
+    },
+    "nombre_corto": {
+      "es": "Dinar serbio",
+      "en": "Serbian dinar"
+    },
+    "simbolo": "дин.",
+    "iso_4217": {
+      "numerico": "941",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "para",
+        "en": "para"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "RS"
+      ],
+      "curso_legal": [
+        "RS"
+      ],
+      "circulacion": [
+        "RS"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Serbia",
+      "codigo": "NBS"
+    },
+    "historia": {
+      "fecha_introduccion": "2003",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "RUB": {
+    "codigo": "RUB",
+    "nombres": {
+      "es": "Rublo ruso",
+      "en": "Russian ruble"
+    },
+    "nombre_corto": {
+      "es": "Rublo ruso",
+      "en": "Russian ruble"
+    },
+    "simbolo": "₽",
+    "iso_4217": {
+      "numerico": "643",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "kopek",
+        "en": "kopek"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "RU"
+      ],
+      "curso_legal": [
+        "RU"
+      ],
+      "circulacion": [
+        "RU",
+        "GE-AB",
+        "GE-OS",
+        "UA-CRIMEA"
+      ],
+      "de_facto": [
+        "GE-AB",
+        "GE-OS"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco de Rusia",
+      "codigo": "CBR"
+    },
+    "historia": {
+      "fecha_introduccion": "1998",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Circula de facto en Abjasia y Osetia del Sur, y desde 2014 en Crimea, territorios de estatus disputado."
+  },
+  "RWF": {
+    "codigo": "RWF",
+    "nombres": {
+      "es": "Franco ruandés",
+      "en": "Rwandan franc",
+      "fr": "franc rwandais"
+    },
+    "nombre_corto": {
+      "es": "Franco ruandés",
+      "en": "Rwandan franc"
+    },
+    "simbolo": "FRw",
+    "iso_4217": {
+      "numerico": "646",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime",
+        "fr": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "RW"
+      ],
+      "curso_legal": [
+        "RW"
+      ],
+      "circulacion": [
+        "RW"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Ruanda",
+      "codigo": "BNR"
+    },
+    "historia": {
+      "fecha_introduccion": "1964",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SAR": {
+    "codigo": "SAR",
+    "nombres": {
+      "es": "Riyal saudí",
+      "en": "Saudi riyal",
+      "ar": "ريال سعودي"
+    },
+    "nombre_corto": {
+      "es": "Riyal saudí",
+      "en": "Saudi riyal"
+    },
+    "simbolo": "ر.س",
+    "iso_4217": {
+      "numerico": "682",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "halala",
+        "en": "halala"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SA"
+      ],
+      "curso_legal": [
+        "SA"
+      ],
+      "circulacion": [
+        "SA"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central Saudí",
+      "codigo": "SAMA"
+    },
+    "historia": {
+      "fecha_introduccion": "1952",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SBD": {
+    "codigo": "SBD",
+    "nombres": {
+      "es": "Dólar de las Islas Salomón",
+      "en": "Solomon Islands dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar salomonense",
+      "en": "Solomon Islands dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "090",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SB"
+      ],
+      "curso_legal": [
+        "SB"
+      ],
+      "circulacion": [
+        "SB"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de las Islas Salomón",
+      "codigo": "CBSI"
+    },
+    "historia": {
+      "fecha_introduccion": "1977",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SCR": {
+    "codigo": "SCR",
+    "nombres": {
+      "es": "Rupia seychelense",
+      "en": "Seychellois rupee"
+    },
+    "nombre_corto": {
+      "es": "Rupia seychelense",
+      "en": "Seychellois rupee"
+    },
+    "simbolo": "₨",
+    "iso_4217": {
+      "numerico": "690",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SC"
+      ],
+      "curso_legal": [
+        "SC"
+      ],
+      "circulacion": [
+        "SC"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Seychelles",
+      "codigo": "CBS"
+    },
+    "historia": {
+      "fecha_introduccion": "1914",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SDG": {
+    "codigo": "SDG",
+    "nombres": {
+      "es": "Libra sudanesa",
+      "en": "Sudanese pound",
+      "ar": "جنيه سوداني"
+    },
+    "nombre_corto": {
+      "es": "Libra sudanesa",
+      "en": "Sudanese pound"
+    },
+    "simbolo": "ج.س.",
+    "iso_4217": {
+      "numerico": "938",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "piastra",
+        "en": "piastre"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SD"
+      ],
+      "curso_legal": [
+        "SD"
+      ],
+      "circulacion": [
+        "SD"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Sudán",
+      "codigo": "CBOS"
+    },
+    "historia": {
+      "fecha_introduccion": "2007",
+      "moneda_anterior": "SDD",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SEK": {
+    "codigo": "SEK",
+    "nombres": {
+      "es": "Corona sueca",
+      "en": "Swedish krona"
+    },
+    "nombre_corto": {
+      "es": "Corona sueca",
+      "en": "Swedish krona"
+    },
+    "simbolo": "kr",
+    "iso_4217": {
+      "numerico": "752",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "öre",
+        "en": "öre"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SE"
+      ],
+      "curso_legal": [
+        "SE"
+      ],
+      "circulacion": [
+        "SE"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Suecia (Riksbank)",
+      "codigo": "RB"
+    },
+    "historia": {
+      "fecha_introduccion": "1873",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SGD": {
+    "codigo": "SGD",
+    "nombres": {
+      "es": "Dólar de Singapur",
+      "en": "Singapore dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar de Singapur",
+      "en": "Singapore dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "702",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SG"
+      ],
+      "curso_legal": [
+        "SG",
+        "BN"
+      ],
+      "circulacion": [
+        "SG",
+        "BN"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Autoridad Monetaria de Singapur",
+      "codigo": "MAS"
+    },
+    "historia": {
+      "fecha_introduccion": "1967",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SHP": {
+    "codigo": "SHP",
+    "nombres": {
+      "es": "Libra de Santa Elena",
+      "en": "Saint Helena pound"
+    },
+    "nombre_corto": {
+      "es": "Libra de Santa Elena",
+      "en": "Saint Helena pound"
+    },
+    "simbolo": "£",
+    "iso_4217": {
+      "numerico": "654",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "penique",
+        "en": "penny"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SH"
+      ],
+      "curso_legal": [
+        "SH"
+      ],
+      "circulacion": [
+        "SH"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Gobierno de Santa Elena",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1976",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SLE": {
+    "codigo": "SLE",
+    "nombres": {
+      "es": "Leona de Sierra Leona",
+      "en": "Sierra Leonean leone"
+    },
+    "nombre_corto": {
+      "es": "Leone",
+      "en": "Leone"
+    },
+    "simbolo": "Le",
+    "iso_4217": {
+      "numerico": "925",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SL"
+      ],
+      "curso_legal": [
+        "SL"
+      ],
+      "circulacion": [
+        "SL"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Sierra Leona",
+      "codigo": "BSL"
+    },
+    "historia": {
+      "fecha_introduccion": "2022",
+      "moneda_anterior": "SLL",
+      "moneda_sucesora": null
+    },
+    "notas": "Redenominación de la antigua leona (SLL) a razón de 1000:1."
+  },
+  "SOS": {
+    "codigo": "SOS",
+    "nombres": {
+      "es": "Chelín somalí",
+      "en": "Somali shilling"
+    },
+    "nombre_corto": {
+      "es": "Chelín somalí",
+      "en": "Somali shilling"
+    },
+    "simbolo": "Sh",
+    "iso_4217": {
+      "numerico": "706",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SO"
+      ],
+      "curso_legal": [
+        "SO"
+      ],
+      "circulacion": [
+        "SO"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Somalia",
+      "codigo": "CBS"
+    },
+    "historia": {
+      "fecha_introduccion": "1960",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SRD": {
+    "codigo": "SRD",
+    "nombres": {
+      "es": "Dólar surinamés",
+      "en": "Surinamese dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar surinamés",
+      "en": "Surinamese dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "968",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SR"
+      ],
+      "curso_legal": [
+        "SR"
+      ],
+      "circulacion": [
+        "SR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Surinam",
+      "codigo": "CBvS"
+    },
+    "historia": {
+      "fecha_introduccion": "2004",
+      "moneda_anterior": "SRG",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SSP": {
+    "codigo": "SSP",
+    "nombres": {
+      "es": "Libra sursudanesa",
+      "en": "South Sudanese pound"
+    },
+    "nombre_corto": {
+      "es": "Libra sursudanesa",
+      "en": "South Sudanese pound"
+    },
+    "simbolo": "£",
+    "iso_4217": {
+      "numerico": "728",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "piastra",
+        "en": "piastre"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SS"
+      ],
+      "curso_legal": [
+        "SS"
+      ],
+      "circulacion": [
+        "SS"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Sudán del Sur",
+      "codigo": "BOSS"
+    },
+    "historia": {
+      "fecha_introduccion": "2011",
+      "moneda_anterior": "SDG",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "STN": {
+    "codigo": "STN",
+    "nombres": {
+      "es": "Dobra de Santo Tomé y Príncipe",
+      "en": "São Tomé and Príncipe dobra"
+    },
+    "nombre_corto": {
+      "es": "Dobra",
+      "en": "Dobra"
+    },
+    "simbolo": "Db",
+    "iso_4217": {
+      "numerico": "930",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "cêntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "ST"
+      ],
+      "curso_legal": [
+        "ST"
+      ],
+      "circulacion": [
+        "ST"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Santo Tomé y Príncipe",
+      "codigo": "BCSTP"
+    },
+    "historia": {
+      "fecha_introduccion": "2018",
+      "moneda_anterior": "STD",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SVC": {
+    "codigo": "SVC",
+    "nombres": {
+      "es": "Colón salvadoreño",
+      "en": "Salvadoran colón"
+    },
+    "nombre_corto": {
+      "es": "Colón salvadoreño",
+      "en": "Salvadoran colón"
+    },
+    "simbolo": "₡",
+    "iso_4217": {
+      "numerico": "222",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "fuera_de_circulacion",
+    "uso": {
+      "emisor": [
+        "SV"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Reserva de El Salvador",
+      "codigo": "BCR"
+    },
+    "historia": {
+      "fecha_introduccion": "1892",
+      "moneda_anterior": null,
+      "moneda_sucesora": "USD"
+    },
+    "notas": "El colón fue reemplazado por el dólar estadounidense como moneda de curso legal en 2001, aunque el código ISO no ha sido retirado."
+  },
+  "SYP": {
+    "codigo": "SYP",
+    "nombres": {
+      "es": "Libra siria",
+      "en": "Syrian pound",
+      "ar": "ليرة سورية"
+    },
+    "nombre_corto": {
+      "es": "Libra siria",
+      "en": "Syrian pound"
+    },
+    "simbolo": "ل.س",
+    "iso_4217": {
+      "numerico": "760",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "piastra",
+        "en": "piastre"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SY"
+      ],
+      "curso_legal": [
+        "SY"
+      ],
+      "circulacion": [
+        "SY"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Siria",
+      "codigo": "CBS"
+    },
+    "historia": {
+      "fecha_introduccion": "1919",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "SZL": {
+    "codigo": "SZL",
+    "nombres": {
+      "es": "Lilangeni de Eswatini",
+      "en": "Swazi lilangeni"
+    },
+    "nombre_corto": {
+      "es": "Lilangeni",
+      "en": "Lilangeni"
+    },
+    "simbolo": "L",
+    "iso_4217": {
+      "numerico": "748",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "SZ"
+      ],
+      "curso_legal": [
+        "SZ"
+      ],
+      "circulacion": [
+        "SZ"
+      ],
+      "de_facto": [
+        "SZ"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Eswatini",
+      "codigo": "CBE"
+    },
+    "historia": {
+      "fecha_introduccion": "1974",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "El rand sudafricano (ZAR) también tiene curso legal en Eswatini, a la par con el lilangeni."
+  },
+  "THB": {
+    "codigo": "THB",
+    "nombres": {
+      "es": "Baht tailandés",
+      "en": "Thai baht"
+    },
+    "nombre_corto": {
+      "es": "Baht",
+      "en": "Baht"
+    },
+    "simbolo": "฿",
+    "iso_4217": {
+      "numerico": "764",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "satang",
+        "en": "satang"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "TH"
+      ],
+      "curso_legal": [
+        "TH"
+      ],
+      "circulacion": [
+        "TH"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Tailandia",
+      "codigo": "BOT"
+    },
+    "historia": {
+      "fecha_introduccion": "1897",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "TJS": {
+    "codigo": "TJS",
+    "nombres": {
+      "es": "Somoni tayiko",
+      "en": "Tajikistani somoni"
+    },
+    "nombre_corto": {
+      "es": "Somoni",
+      "en": "Somoni"
+    },
+    "simbolo": "ЅМ",
+    "iso_4217": {
+      "numerico": "972",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "diram",
+        "en": "diram"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "TJ"
+      ],
+      "curso_legal": [
+        "TJ"
+      ],
+      "circulacion": [
+        "TJ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Tayikistán",
+      "codigo": "NBT"
+    },
+    "historia": {
+      "fecha_introduccion": "2000",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "TMT": {
+    "codigo": "TMT",
+    "nombres": {
+      "es": "Manat turcomano",
+      "en": "Turkmenistan manat"
+    },
+    "nombre_corto": {
+      "es": "Manat turcomano",
+      "en": "Turkmenistan manat"
+    },
+    "simbolo": "m",
+    "iso_4217": {
+      "numerico": "934",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "tenge",
+        "en": "tenge"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "TM"
+      ],
+      "curso_legal": [
+        "TM"
+      ],
+      "circulacion": [
+        "TM"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Turkmenistán",
+      "codigo": "CBT"
+    },
+    "historia": {
+      "fecha_introduccion": "2009",
+      "moneda_anterior": "TMM",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "TND": {
+    "codigo": "TND",
+    "nombres": {
+      "es": "Dinar tunecino",
+      "en": "Tunisian dinar",
+      "ar": "دينار تونسي"
+    },
+    "nombre_corto": {
+      "es": "Dinar tunecino",
+      "en": "Tunisian dinar"
+    },
+    "simbolo": "د.ت",
+    "iso_4217": {
+      "numerico": "788",
+      "decimales": 3
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "millime",
+        "en": "millime",
+        "fr": "millime"
+      },
+      "factor": 1000
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "TN"
+      ],
+      "curso_legal": [
+        "TN"
+      ],
+      "circulacion": [
+        "TN"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Túnez",
+      "codigo": "BCT"
+    },
+    "historia": {
+      "fecha_introduccion": "1960",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "TOP": {
+    "codigo": "TOP",
+    "nombres": {
+      "es": "Paʻanga tongano",
+      "en": "Tongan paʻanga"
+    },
+    "nombre_corto": {
+      "es": "Paʻanga",
+      "en": "Paʻanga"
+    },
+    "simbolo": "T$",
+    "iso_4217": {
+      "numerico": "776",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "seniti",
+        "en": "seniti"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "TO"
+      ],
+      "curso_legal": [
+        "TO"
+      ],
+      "circulacion": [
+        "TO"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Reserva de Tonga",
+      "codigo": "NRBT"
+    },
+    "historia": {
+      "fecha_introduccion": "1967",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "TRY": {
+    "codigo": "TRY",
+    "nombres": {
+      "es": "Lira turca",
+      "en": "Turkish lira"
+    },
+    "nombre_corto": {
+      "es": "Lira turca",
+      "en": "Turkish lira"
+    },
+    "simbolo": "₺",
+    "iso_4217": {
+      "numerico": "949",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "kuruş",
+        "en": "kuruş"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "TR"
+      ],
+      "curso_legal": [
+        "TR"
+      ],
+      "circulacion": [
+        "TR",
+        "CY-TRNC"
+      ],
+      "de_facto": [
+        "CY-TRNC"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco Central de la República de Turquía",
+      "codigo": "TCMB"
+    },
+    "historia": {
+      "fecha_introduccion": "2005",
+      "moneda_anterior": "TRL",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "TTD": {
+    "codigo": "TTD",
+    "nombres": {
+      "es": "Dólar de Trinidad y Tobago",
+      "en": "Trinidad and Tobago dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar de Trinidad y Tobago",
+      "en": "Trinidad and Tobago dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "780",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "TT"
+      ],
+      "curso_legal": [
+        "TT"
+      ],
+      "circulacion": [
+        "TT"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Trinidad y Tobago",
+      "codigo": "CBTT"
+    },
+    "historia": {
+      "fecha_introduccion": "1964",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "TWD": {
+    "codigo": "TWD",
+    "nombres": {
+      "es": "Nuevo dólar taiwanés",
+      "en": "New Taiwan dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar taiwanés",
+      "en": "New Taiwan dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "901",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "TW"
+      ],
+      "curso_legal": [
+        "TW"
+      ],
+      "circulacion": [
+        "TW"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de la República de China (Taiwán)",
+      "codigo": "CBC"
+    },
+    "historia": {
+      "fecha_introduccion": "1949",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "TZS": {
+    "codigo": "TZS",
+    "nombres": {
+      "es": "Chelín tanzano",
+      "en": "Tanzanian shilling"
+    },
+    "nombre_corto": {
+      "es": "Chelín tanzano",
+      "en": "Tanzanian shilling"
+    },
+    "simbolo": "Sh",
+    "iso_4217": {
+      "numerico": "834",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "TZ"
+      ],
+      "curso_legal": [
+        "TZ"
+      ],
+      "circulacion": [
+        "TZ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Tanzania",
+      "codigo": "BOT"
+    },
+    "historia": {
+      "fecha_introduccion": "1966",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "UAH": {
+    "codigo": "UAH",
+    "nombres": {
+      "es": "Grivna ucraniana",
+      "en": "Ukrainian hryvnia"
+    },
+    "nombre_corto": {
+      "es": "Grivna",
+      "en": "Hryvnia"
+    },
+    "simbolo": "₴",
+    "iso_4217": {
+      "numerico": "980",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "kópek",
+        "en": "kopiyka"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "UA"
+      ],
+      "curso_legal": [
+        "UA"
+      ],
+      "circulacion": [
+        "UA"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Ucrania",
+      "codigo": "NBU"
+    },
+    "historia": {
+      "fecha_introduccion": "1996",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "En territorios ocupados por Rusia (Crimea, partes de Donetsk, Lugansk, Zaporiyia y Jersón) circula de facto el rublo ruso."
+  },
+  "UGX": {
+    "codigo": "UGX",
+    "nombres": {
+      "es": "Chelín ugandés",
+      "en": "Ugandan shilling"
+    },
+    "nombre_corto": {
+      "es": "Chelín ugandés",
+      "en": "Ugandan shilling"
+    },
+    "simbolo": "Sh",
+    "iso_4217": {
+      "numerico": "800",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "UG"
+      ],
+      "curso_legal": [
+        "UG"
+      ],
+      "circulacion": [
+        "UG"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Uganda",
+      "codigo": "BOU"
+    },
+    "historia": {
+      "fecha_introduccion": "1966",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "USD": {
+    "codigo": "USD",
+    "nombres": {
+      "es": "Dólar estadounidense",
+      "en": "United States dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar estadounidense",
+      "en": "US dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "840",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "US"
+      ],
+      "curso_legal": [
+        "US",
+        "AS",
+        "GU",
+        "MP",
+        "PR",
+        "VI",
+        "UM",
+        "EC",
+        "SV",
+        "TL",
+        "MH",
+        "FM",
+        "PW",
+        "PA",
+        "TC",
+        "BQ"
+      ],
+      "circulacion": [
+        "US",
+        "AS",
+        "GU",
+        "MP",
+        "PR",
+        "VI",
+        "UM",
+        "EC",
+        "SV",
+        "TL",
+        "MH",
+        "FM",
+        "PW",
+        "PA",
+        "TC",
+        "BQ",
+        "ZW",
+        "LR",
+        "KH"
+      ],
+      "de_facto": [
+        "ZW",
+        "LR",
+        "KH"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Sistema de la Reserva Federal",
+      "codigo": "FED"
+    },
+    "historia": {
+      "fecha_introduccion": "1792",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "USN": {
+    "codigo": "USN",
+    "nombres": {
+      "es": "Dólar estadounidense (siguiente día)",
+      "en": "United States dollar (next day)"
+    },
+    "nombre_corto": {
+      "es": "Dólar (siguiente día)",
+      "en": "US dollar (next day)"
+    },
+    "simbolo": null,
+    "iso_4217": {
+      "numerico": "997",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "US"
+      ],
+      "curso_legal": [],
+      "circulacion": [
+        "US"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Sistema de la Reserva Federal",
+      "codigo": "FED"
+    },
+    "historia": {
+      "fecha_introduccion": null,
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Código utilizado para operaciones financieras liquidadas al día siguiente; no circula físicamente."
+  },
+  "UYI": {
+    "codigo": "UYI",
+    "nombres": {
+      "es": "Peso uruguayo en unidades indexadas (UI)",
+      "en": "Uruguay peso en unidades indexadas"
+    },
+    "nombre_corto": {
+      "es": "Unidad Indexada",
+      "en": "Unidad Indexada"
+    },
+    "simbolo": null,
+    "iso_4217": {
+      "numerico": "940",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "UY"
+      ],
+      "curso_legal": [],
+      "circulacion": [
+        "UY"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central del Uruguay",
+      "codigo": "BCU"
+    },
+    "historia": {
+      "fecha_introduccion": null,
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Unidad de cuenta indexada a la inflación, utilizada en contratos financieros."
+  },
+  "UYU": {
+    "codigo": "UYU",
+    "nombres": {
+      "es": "Peso uruguayo",
+      "en": "Uruguayan peso"
+    },
+    "nombre_corto": {
+      "es": "Peso uruguayo",
+      "en": "Uruguayan peso"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "858",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centésimo",
+        "en": "centésimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "UY"
+      ],
+      "curso_legal": [
+        "UY"
+      ],
+      "circulacion": [
+        "UY"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central del Uruguay",
+      "codigo": "BCU"
+    },
+    "historia": {
+      "fecha_introduccion": "1993",
+      "moneda_anterior": "UYP",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "UYW": {
+    "codigo": "UYW",
+    "nombres": {
+      "es": "Unidad Previsional uruguaya",
+      "en": "Uruguay unidad previsional"
+    },
+    "nombre_corto": {
+      "es": "Unidad Previsional",
+      "en": "Unidad Previsional"
+    },
+    "simbolo": null,
+    "iso_4217": {
+      "numerico": "927",
+      "decimales": 4
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "UY"
+      ],
+      "curso_legal": [],
+      "circulacion": [
+        "UY"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central del Uruguay",
+      "codigo": "BCU"
+    },
+    "historia": {
+      "fecha_introduccion": "2018",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Unidad de cuenta utilizada para expresar aportes y prestaciones de la seguridad social."
+  },
+  "UZS": {
+    "codigo": "UZS",
+    "nombres": {
+      "es": "Som uzbeko",
+      "en": "Uzbekistani som"
+    },
+    "nombre_corto": {
+      "es": "Som uzbeko",
+      "en": "Uzbekistani som"
+    },
+    "simbolo": "so'm",
+    "iso_4217": {
+      "numerico": "860",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "tiyin",
+        "en": "tiyin"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "UZ"
+      ],
+      "curso_legal": [
+        "UZ"
+      ],
+      "circulacion": [
+        "UZ"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de la República de Uzbekistán",
+      "codigo": "CBU"
+    },
+    "historia": {
+      "fecha_introduccion": "1994",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "VES": {
+    "codigo": "VES",
+    "nombres": {
+      "es": "Bolívar soberano venezolano",
+      "en": "Venezuelan sovereign bolívar"
+    },
+    "nombre_corto": {
+      "es": "Bolívar soberano",
+      "en": "Sovereign bolívar"
+    },
+    "simbolo": "Bs.S",
+    "iso_4217": {
+      "numerico": "928",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "VE"
+      ],
+      "curso_legal": [
+        "VE"
+      ],
+      "circulacion": [
+        "VE"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Venezuela",
+      "codigo": "BCV"
+    },
+    "historia": {
+      "fecha_introduccion": "2018",
+      "moneda_anterior": "VEF",
+      "moneda_sucesora": null
+    },
+    "notas": "En 2021 se realizó una nueva redenominación (bolívar digital), manteniendo el mismo código ISO VES."
+  },
+  "VND": {
+    "codigo": "VND",
+    "nombres": {
+      "es": "Dong vietnamita",
+      "en": "Vietnamese đồng"
+    },
+    "nombre_corto": {
+      "es": "Dong",
+      "en": "Đồng"
+    },
+    "simbolo": "₫",
+    "iso_4217": {
+      "numerico": "704",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "hào / xu",
+        "en": "hào / xu"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "VN"
+      ],
+      "curso_legal": [
+        "VN"
+      ],
+      "circulacion": [
+        "VN"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Estatal de Vietnam",
+      "codigo": "SBV"
+    },
+    "historia": {
+      "fecha_introduccion": "1978",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "VUV": {
+    "codigo": "VUV",
+    "nombres": {
+      "es": "Vatu vanuatuense",
+      "en": "Vanuatu vatu"
+    },
+    "nombre_corto": {
+      "es": "Vatu",
+      "en": "Vatu"
+    },
+    "simbolo": "VT",
+    "iso_4217": {
+      "numerico": "548",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "VU"
+      ],
+      "curso_legal": [
+        "VU"
+      ],
+      "circulacion": [
+        "VU"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la Reserva de Vanuatu",
+      "codigo": "RBV"
+    },
+    "historia": {
+      "fecha_introduccion": "1981",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "WST": {
+    "codigo": "WST",
+    "nombres": {
+      "es": "Tala samoano",
+      "en": "Samoan tālā"
+    },
+    "nombre_corto": {
+      "es": "Tala",
+      "en": "Tālā"
+    },
+    "simbolo": "T",
+    "iso_4217": {
+      "numerico": "882",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "sene",
+        "en": "sene"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "WS"
+      ],
+      "curso_legal": [
+        "WS"
+      ],
+      "circulacion": [
+        "WS"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Samoa",
+      "codigo": "CBS"
+    },
+    "historia": {
+      "fecha_introduccion": "1967",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "XAF": {
+    "codigo": "XAF",
+    "nombres": {
+      "es": "Franco CFA de África Central",
+      "en": "Central African CFA franc",
+      "fr": "franc CFA (BEAC)"
+    },
+    "nombre_corto": {
+      "es": "Franco CFA (BEAC)",
+      "en": "Central African CFA franc"
+    },
+    "simbolo": "FCFA",
+    "iso_4217": {
+      "numerico": "950",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime",
+        "fr": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CM",
+        "CF",
+        "TD",
+        "CG",
+        "GQ",
+        "GA"
+      ],
+      "curso_legal": [
+        "CM",
+        "CF",
+        "TD",
+        "CG",
+        "GQ",
+        "GA"
+      ],
+      "circulacion": [
+        "CM",
+        "CF",
+        "TD",
+        "CG",
+        "GQ",
+        "GA"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de los Estados de África Central",
+      "codigo": "BEAC"
+    },
+    "historia": {
+      "fecha_introduccion": "1945",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Vinculado al euro mediante un tipo de cambio fijo garantizado por el Tesoro francés."
+  },
+  "XCD": {
+    "codigo": "XCD",
+    "nombres": {
+      "es": "Dólar del Caribe Oriental",
+      "en": "East Caribbean dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar del Caribe Oriental",
+      "en": "East Caribbean dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "951",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "AG",
+        "DM",
+        "GD",
+        "KN",
+        "LC",
+        "VC",
+        "AI",
+        "MS"
+      ],
+      "curso_legal": [
+        "AG",
+        "DM",
+        "GD",
+        "KN",
+        "LC",
+        "VC",
+        "AI",
+        "MS"
+      ],
+      "circulacion": [
+        "AG",
+        "DM",
+        "GD",
+        "KN",
+        "LC",
+        "VC",
+        "AI",
+        "MS"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central del Caribe Oriental",
+      "codigo": "ECCB"
+    },
+    "historia": {
+      "fecha_introduccion": "1965",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "XDR": {
+    "codigo": "XDR",
+    "nombres": {
+      "es": "Derechos Especiales de Giro (FMI)",
+      "en": "Special Drawing Rights (IMF)"
+    },
+    "nombre_corto": {
+      "es": "DEG",
+      "en": "SDR"
+    },
+    "simbolo": "SDR",
+    "iso_4217": {
+      "numerico": "960",
+      "decimales": null
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Fondo Monetario Internacional",
+      "codigo": "FMI"
+    },
+    "historia": {
+      "fecha_introduccion": "1969",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Activo de reserva internacional creado por el FMI; su valor se basa en una cesta de monedas (USD, EUR, CNY, JPY, GBP). No circula como moneda física."
+  },
+  "XOF": {
+    "codigo": "XOF",
+    "nombres": {
+      "es": "Franco CFA de África Occidental",
+      "en": "West African CFA franc",
+      "fr": "franc CFA (BCEAO)"
+    },
+    "nombre_corto": {
+      "es": "Franco CFA (BCEAO)",
+      "en": "West African CFA franc"
+    },
+    "simbolo": "CFA",
+    "iso_4217": {
+      "numerico": "952",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime",
+        "fr": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "BJ",
+        "BF",
+        "CI",
+        "GW",
+        "ML",
+        "NE",
+        "SN",
+        "TG"
+      ],
+      "curso_legal": [
+        "BJ",
+        "BF",
+        "CI",
+        "GW",
+        "ML",
+        "NE",
+        "SN",
+        "TG"
+      ],
+      "circulacion": [
+        "BJ",
+        "BF",
+        "CI",
+        "GW",
+        "ML",
+        "NE",
+        "SN",
+        "TG"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de los Estados de África Occidental",
+      "codigo": "BCEAO"
+    },
+    "historia": {
+      "fecha_introduccion": "1945",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Vinculado al euro mediante un tipo de cambio fijo garantizado por el Tesoro francés."
+  },
+  "XPF": {
+    "codigo": "XPF",
+    "nombres": {
+      "es": "Franco CFP",
+      "en": "CFP franc",
+      "fr": "franc CFP"
+    },
+    "nombre_corto": {
+      "es": "Franco CFP",
+      "en": "CFP franc"
+    },
+    "simbolo": "₣",
+    "iso_4217": {
+      "numerico": "953",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "PF",
+        "NC",
+        "WF"
+      ],
+      "curso_legal": [
+        "PF",
+        "NC",
+        "WF"
+      ],
+      "circulacion": [
+        "PF",
+        "NC",
+        "WF"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Instituto de Emisión de Ultramar",
+      "codigo": "IEOM"
+    },
+    "historia": {
+      "fecha_introduccion": "1945",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Vinculado al euro mediante un tipo de cambio fijo garantizado por el Tesoro francés."
+  },
+  "ZAR": {
+    "codigo": "ZAR",
+    "nombres": {
+      "es": "Rand sudafricano",
+      "en": "South African rand"
+    },
+    "nombre_corto": {
+      "es": "Rand",
+      "en": "Rand"
+    },
+    "simbolo": "R",
+    "iso_4217": {
+      "numerico": "710",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "ZA"
+      ],
+      "curso_legal": [
+        "ZA",
+        "NA",
+        "LS",
+        "SZ"
+      ],
+      "circulacion": [
+        "ZA",
+        "NA",
+        "LS",
+        "SZ"
+      ],
+      "de_facto": [
+        "NA",
+        "LS",
+        "SZ"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco de la Reserva de Sudáfrica",
+      "codigo": "SARB"
+    },
+    "historia": {
+      "fecha_introduccion": "1961",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "ZMW": {
+    "codigo": "ZMW",
+    "nombres": {
+      "es": "Kwacha zambiano",
+      "en": "Zambian kwacha"
+    },
+    "nombre_corto": {
+      "es": "Kwacha zambiano",
+      "en": "Zambian kwacha"
+    },
+    "simbolo": "ZK",
+    "iso_4217": {
+      "numerico": "967",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "ngwee",
+        "en": "ngwee"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "ZM"
+      ],
+      "curso_legal": [
+        "ZM"
+      ],
+      "circulacion": [
+        "ZM"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Zambia",
+      "codigo": "BOZ"
+    },
+    "historia": {
+      "fecha_introduccion": "2013",
+      "moneda_anterior": "ZMK",
+      "moneda_sucesora": null
+    },
+    "notas": null
+  },
+  "ZWG": {
+    "codigo": "ZWG",
+    "nombres": {
+      "es": "Dólar zimbabuense",
+      "en": "Zimbabwe gold"
+    },
+    "nombre_corto": {
+      "es": "ZiG",
+      "en": "ZiG"
+    },
+    "simbolo": "ZiG",
+    "iso_4217": {
+      "numerico": "924",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "ZW"
+      ],
+      "curso_legal": [
+        "ZW"
+      ],
+      "circulacion": [
+        "ZW"
+      ],
+      "de_facto": [
+        "ZW"
+      ]
+    },
+    "banco_central": {
+      "nombre": "Banco de la Reserva de Zimbabue",
+      "codigo": "RBZ"
+    },
+    "historia": {
+      "fecha_introduccion": "2024",
+      "moneda_anterior": "ZWL",
+      "moneda_sucesora": null
+    },
+    "notas": "Moneda respaldada por oro y otros activos de reserva, introducida en abril de 2024. El dólar estadounidense circula ampliamente de facto junto al ZiG."
+  },
+  "CLE": {
+    "codigo": "CLE",
+    "nombres": {
+      "es": "Escudo chileno",
+      "en": "Chilean escudo"
+    },
+    "nombre_corto": {
+      "es": "Escudo chileno",
+      "en": "Chilean escudo"
+    },
+    "simbolo": "Eº",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centésimo",
+        "en": "centésimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "CL"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Chile",
+      "codigo": "BCCH"
+    },
+    "historia": {
+      "fecha_introduccion": "1960",
+      "moneda_anterior": null,
+      "moneda_sucesora": "CLP"
+    },
+    "notas": "Sustituido por el peso chileno en 1975 a razón de 1 peso = 1000 escudos."
+  },
+  "ESP": {
+    "codigo": "ESP",
+    "nombres": {
+      "es": "Peseta española",
+      "en": "Spanish peseta"
+    },
+    "nombre_corto": {
+      "es": "Peseta",
+      "en": "Peseta"
+    },
+    "simbolo": "₧",
+    "iso_4217": {
+      "numerico": "724",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "ES"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de España",
+      "codigo": "BdE"
+    },
+    "historia": {
+      "fecha_introduccion": "1868",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "Sustituida por el euro; dejó de tener curso legal el 28 de febrero de 2002."
+  },
+  "DEM": {
+    "codigo": "DEM",
+    "nombres": {
+      "es": "Marco alemán",
+      "en": "German mark"
+    },
+    "nombre_corto": {
+      "es": "Marco alemán",
+      "en": "Deutsche Mark"
+    },
+    "simbolo": "DM",
+    "iso_4217": {
+      "numerico": "276",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "pfennig",
+        "en": "pfennig"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "DE"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Deutsche Bundesbank",
+      "codigo": "BBk"
+    },
+    "historia": {
+      "fecha_introduccion": "1948",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "Sustituido por el euro; dejó de tener curso legal el 28 de febrero de 2002."
+  },
+  "VEF": {
+    "codigo": "VEF",
+    "nombres": {
+      "es": "Bolívar fuerte venezolano",
+      "en": "Venezuelan bolívar fuerte"
+    },
+    "nombre_corto": {
+      "es": "Bolívar fuerte",
+      "en": "Bolívar fuerte"
+    },
+    "simbolo": "Bs.F",
+    "iso_4217": {
+      "numerico": "937",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "VE"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Venezuela",
+      "codigo": "BCV"
+    },
+    "historia": {
+      "fecha_introduccion": "2008",
+      "moneda_anterior": "VEB",
+      "moneda_sucesora": "VES"
+    },
+    "notas": "Reemplazado por el bolívar soberano (VES) en 2018 a razón de 1 VES = 100.000 VEF."
+  },
+  "CUC": {
+    "codigo": "CUC",
+    "nombres": {
+      "es": "Peso convertible cubano",
+      "en": "Cuban convertible peso"
+    },
+    "nombre_corto": {
+      "es": "Peso convertible",
+      "en": "Convertible peso"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "931",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "CU"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Cuba",
+      "codigo": "BCC"
+    },
+    "historia": {
+      "fecha_introduccion": "1994",
+      "moneda_anterior": null,
+      "moneda_sucesora": "CUP"
+    },
+    "notas": "Retirado de circulación en 2021 dentro del proceso de unificación monetaria cubana."
+  },
+  "HRK": {
+    "codigo": "HRK",
+    "nombres": {
+      "es": "Kuna croata",
+      "en": "Croatian kuna"
+    },
+    "nombre_corto": {
+      "es": "Kuna",
+      "en": "Kuna"
+    },
+    "simbolo": "kn",
+    "iso_4217": {
+      "numerico": "191",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "lipa",
+        "en": "lipa"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "HR"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Croacia",
+      "codigo": "HNB"
+    },
+    "historia": {
+      "fecha_introduccion": "1994",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "Sustituida por el euro el 1 de enero de 2023."
+  },
+  "XEU": {
+    "codigo": "XEU",
+    "nombres": {
+      "es": "Unidad Monetaria Europea",
+      "en": "European Currency Unit"
+    },
+    "nombre_corto": {
+      "es": "ECU",
+      "en": "ECU"
+    },
+    "simbolo": "ECU",
+    "iso_4217": {
+      "numerico": "954",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "historica",
+    "uso": {
+      "emisor": [],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Comunidad Económica Europea / Instituto Monetario Europeo",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1979",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "Unidad de cuenta precursora del euro, sustituida a razón de 1 ECU = 1 EUR el 1 de enero de 1999."
+  },
+  "YUD": {
+    "codigo": "YUD",
+    "nombres": {
+      "es": "Dinar yugoslavo",
+      "en": "Yugoslav dinar"
+    },
+    "nombre_corto": {
+      "es": "Dinar yugoslavo",
+      "en": "Yugoslav dinar"
+    },
+    "simbolo": "дин.",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "YU"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Yugoslavia",
+      "codigo": "NBY"
+    },
+    "historia": {
+      "fecha_introduccion": "1966",
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Moneda de la extinta República Federativa Socialista de Yugoslavia; sucedida por distintas monedas nacionales tras su disolución."
+  },
+  "ZAL": {
+    "codigo": "ZAL",
+    "nombres": {
+      "es": "Rand sudafricano (financiero)",
+      "en": "South African financial rand"
+    },
+    "nombre_corto": {
+      "es": "Rand financiero",
+      "en": "Financial rand"
+    },
+    "simbolo": "R",
+    "iso_4217": {
+      "numerico": "991",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "ZA"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la Reserva de Sudáfrica",
+      "codigo": "SARB"
+    },
+    "historia": {
+      "fecha_introduccion": "1985",
+      "moneda_anterior": null,
+      "moneda_sucesora": "ZAR"
+    },
+    "notas": "Tipo de cambio dual utilizado para transacciones de capital durante el apartheid; abolido en 1995."
+  },
+  "ZRZ": {
+    "codigo": "ZRZ",
+    "nombres": {
+      "es": "Zaire (República Democrática del Congo)",
+      "en": "Zairean zaire"
+    },
+    "nombre_corto": {
+      "es": "Zaire",
+      "en": "Zaire"
+    },
+    "simbolo": "Z",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "likuta",
+        "en": "likuta"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "CD"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central del Zaire",
+      "codigo": "BCZ"
+    },
+    "historia": {
+      "fecha_introduccion": "1967",
+      "moneda_anterior": null,
+      "moneda_sucesora": "ZRN"
+    },
+    "notas": "Precursor del nuevo zaire (ZRN) introducido en 1993, y posteriormente del franco congoleño (CDF) en 1998."
+  },
+  "ZWL": {
+    "codigo": "ZWL",
+    "nombres": {
+      "es": "Dólar zimbabuense (antiguo)",
+      "en": "Zimbabwean dollar"
+    },
+    "nombre_corto": {
+      "es": "Dólar zimbabuense",
+      "en": "Zimbabwean dollar"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "932",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "ZW"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la Reserva de Zimbabue",
+      "codigo": "RBZ"
+    },
+    "historia": {
+      "fecha_introduccion": "2009",
+      "moneda_anterior": null,
+      "moneda_sucesora": "ZWG"
+    },
+    "notas": "Cuarta versión del dólar zimbabuense, tras varias redenominaciones por hiperinflación; abandonado de facto en 2009 en favor de monedas extranjeras y sustituido formalmente por el ZWG en 2024."
+  }
+}

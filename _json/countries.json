@@ -307,7 +307,7 @@
       "en": "Western Sahara"
     },
     "vigente": "si",
-    "moneda_propia": "si",
+    "moneda_propia": "no",
     "flag": "FLAG_WESTERNSAHARA.jpg",
     "folder": "world"
   },
