@@ -8,6 +8,7 @@
       "en": "Kosovo"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_KOSOVO.jpg",
     "folder": "world"
   },
@@ -20,6 +21,7 @@
       "en": "Cameroon"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CAMEROON.jpg",
     "folder": "world"
   },
@@ -32,6 +34,7 @@
       "en": "Togo"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TOGO.jpg",
     "folder": "world"
   },
@@ -44,6 +47,7 @@
       "en": "Chad"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CHAD.jpg",
     "folder": "world"
   },
@@ -56,6 +60,7 @@
       "en": "Congo"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CONGO.jpg",
     "folder": "world"
   },
@@ -68,6 +73,7 @@
       "en": "Benin"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BENIN.jpg",
     "folder": "world"
   },
@@ -80,6 +86,7 @@
       "en": "Equatorial Guinea"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GUINEAEQUATORIAL.jpg",
     "folder": "world"
   },
@@ -92,6 +99,7 @@
       "en": "Falkland Islands"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_FALKLANDISLANDS.jpg",
     "folder": "world"
   },
@@ -104,6 +112,7 @@
       "en": "French Southern Territories"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_FRENCHSOUTHERNTERRITORIES.jpg",
     "folder": "world"
   },
@@ -116,6 +125,7 @@
       "en": "Gabon"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GABON.jpg",
     "folder": "world"
   },
@@ -128,6 +138,7 @@
       "en": "Palestine"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_PALESTINE.jpg",
     "folder": "world"
   },
@@ -140,6 +151,7 @@
       "en": "Greenland"
     },
     "vigente": "si",
+    "moneda_propia": "no",
     "flag": "FLAG_GREENLAND.jpg",
     "folder": "world"
   },
@@ -152,6 +164,7 @@
       "en": "Ireland"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_IRELAND.jpg",
     "folder": "world"
   },
@@ -164,6 +177,7 @@
       "en": "Côte d'Ivoire"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_COTEDIVOIRE.jpg",
     "folder": "world"
   },
@@ -176,6 +190,7 @@
       "en": "Latvia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_LATVIA.jpg",
     "folder": "world"
   },
@@ -188,6 +203,7 @@
       "en": "Mali"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MALI.jpg",
     "folder": "world"
   },
@@ -200,6 +216,7 @@
       "en": "Montenegro"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MONTENEGRO.jpg",
     "folder": "world"
   },
@@ -212,6 +229,7 @@
       "en": "New Caledonia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_NEWCALEDONIA.jpg",
     "folder": "world"
   },
@@ -224,6 +242,7 @@
       "en": "Niger"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_NIGER.jpg",
     "folder": "world"
   },
@@ -236,6 +255,7 @@
       "en": "Panama"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_PANAMA.jpg",
     "folder": "world"
   },
@@ -248,6 +268,7 @@
       "en": "Timor-Leste"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TIMORLESTE.jpg",
     "folder": "world"
   },
@@ -260,6 +281,7 @@
       "en": "Senegal"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SENEGAL.jpg",
     "folder": "world"
   },
@@ -272,6 +294,7 @@
       "en": "Slovakia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SLOVAKIA.jpg",
     "folder": "world"
   },
@@ -284,6 +307,7 @@
       "en": "Western Sahara"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_WESTERNSAHARA.jpg",
     "folder": "world"
   },
@@ -296,6 +320,7 @@
       "en": "Burkina Faso"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BURKINAFASO.jpg",
     "folder": "world"
   },
@@ -308,6 +333,7 @@
       "en": "Abkhazia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ABJASIA.jpg",
     "folder": "world"
   },
@@ -320,6 +346,7 @@
       "en": "Afghanistan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_AFGANISTAN.jpg",
     "folder": "world"
   },
@@ -332,6 +359,7 @@
       "en": "Albania"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ALBANIA.jpg",
     "folder": "world"
   },
@@ -344,6 +372,7 @@
       "en": "Germany"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ALEMANIA.jpg",
     "folder": "world"
   },
@@ -356,6 +385,7 @@
       "en": "Angola"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ANGOLA.jpg",
     "folder": "world"
   },
@@ -368,6 +398,7 @@
       "en": "Saudi Arabia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ARABIA.SAUDI.jpg",
     "folder": "world"
   },
@@ -380,6 +411,7 @@
       "en": "Algeria"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ARGELIA.jpg",
     "folder": "world"
   },
@@ -392,6 +424,7 @@
       "en": "Argentina"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ARGENTINA.jpg",
     "folder": "argentina"
   },
@@ -404,6 +437,7 @@
       "en": "Armenia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ARMENIA.jpg",
     "folder": "world"
   },
@@ -416,6 +450,7 @@
       "en": "Aruba"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ARUBA.jpg",
     "folder": "world"
   },
@@ -428,6 +463,7 @@
       "en": "Australia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_AUSTRALIA.jpg",
     "folder": "world"
   },
@@ -440,6 +476,7 @@
       "en": "Austria"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_AUSTRIA.jpg",
     "folder": "world"
   },
@@ -452,6 +489,7 @@
       "en": "Azerbaijan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_AZERBAIYAN.jpg",
     "folder": "world"
   },
@@ -464,6 +502,7 @@
       "en": "Bahamas"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BAHAMAS.jpg",
     "folder": "world"
   },
@@ -476,6 +515,7 @@
       "en": "Bahrain"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BAREIN.jpg",
     "folder": "world"
   },
@@ -488,6 +528,7 @@
       "en": "Bailiwick of Jersey"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BAILIA.DE.JERSEY.jpg",
     "folder": "world"
   },
@@ -500,6 +541,7 @@
       "en": "Bangladesh"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BANGLADESH.jpg",
     "folder": "world"
   },
@@ -512,6 +554,7 @@
       "en": "Barbados"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BARBADOS.jpg",
     "folder": "world"
   },
@@ -524,6 +567,7 @@
       "en": "Belgium"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BELGICA.jpg",
     "folder": "world"
   },
@@ -536,6 +580,7 @@
       "en": "Belize"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BELICE.jpg",
     "folder": "world"
   },
@@ -548,6 +593,7 @@
       "en": "Bermuda"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BERMUDA.jpg",
     "folder": "world"
   },
@@ -560,6 +606,7 @@
       "en": "Biafra"
     },
     "vigente": "no",
+    "moneda_propia": "si",
     "flag": "FLAG_BIAFRA.jpg",
     "folder": "world"
   },
@@ -572,6 +619,7 @@
       "en": "Belarus"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BIELORRUSIA.jpg",
     "folder": "world"
   },
@@ -584,6 +632,7 @@
       "en": "Myanmar"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BIRMANIA.jpg",
     "folder": "world"
   },
@@ -596,6 +645,7 @@
       "en": "Bolivia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BOLIVIA.jpg",
     "folder": "world"
   },
@@ -608,6 +658,7 @@
       "en": "Botswana"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BOTSWANA.jpg",
     "folder": "world"
   },
@@ -620,6 +671,7 @@
       "en": "Bosnia and Herzegovina"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BOZNIA.Y.HERZEGOVINA.jpg",
     "folder": "world"
   },
@@ -632,6 +684,7 @@
       "en": "Brazil"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BRASIL.jpg",
     "folder": "world"
   },
@@ -644,6 +697,7 @@
       "en": "Brunei"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BRUNEI.jpg",
     "folder": "world"
   },
@@ -656,6 +710,7 @@
       "en": "Bulgaria"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BULGARIA.jpg",
     "folder": "world"
   },
@@ -668,6 +723,7 @@
       "en": "Burundi"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BURUNDI.jpg",
     "folder": "world"
   },
@@ -680,6 +736,7 @@
       "en": "Bhutan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_BUTAN.jpg",
     "folder": "world"
   },
@@ -692,6 +749,7 @@
       "en": "Cape Verde"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CABO.VERDE.jpg",
     "folder": "world"
   },
@@ -704,6 +762,7 @@
       "en": "Cambodia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CAMBOYA.jpg",
     "folder": "world"
   },
@@ -716,6 +775,7 @@
       "en": "Canada"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CANADA.jpg",
     "folder": "world"
   },
@@ -728,6 +788,7 @@
       "en": "Chile"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CHILE.jpg",
     "folder": "chile"
   },
@@ -740,6 +801,7 @@
       "en": "China"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CHINA.jpg",
     "folder": "world"
   },
@@ -752,6 +814,7 @@
       "en": "Cyprus"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CHIPRE.jpg",
     "folder": "world"
   },
@@ -764,6 +827,7 @@
       "en": "Colombia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_COLOMBIA.jpg",
     "folder": "world"
   },
@@ -776,6 +840,7 @@
       "en": "Comoros"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_COMORAS.jpg",
     "folder": "world"
   },
@@ -788,6 +853,7 @@
       "en": "Korea"
     },
     "vigente": "no",
+    "moneda_propia": "si",
     "flag": "FLAG_COREA.jpg",
     "folder": "world"
   },
@@ -800,6 +866,7 @@
       "en": "North Korea"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_COREA.DEL.NORTE.jpg",
     "folder": "world"
   },
@@ -812,6 +879,7 @@
       "en": "South Korea"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_COREA.DEL.SUR.jpg",
     "folder": "world"
   },
@@ -824,6 +892,7 @@
       "en": "Costa Rica"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_COSTA.RICA.jpg",
     "folder": "world"
   },
@@ -836,6 +905,7 @@
       "en": "Croatia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CROACIA.jpg",
     "folder": "world"
   },
@@ -848,6 +918,7 @@
       "en": "Cuba"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CUBA.jpg",
     "folder": "world"
   },
@@ -860,6 +931,7 @@
       "en": "Curaçao"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CURAZAO.jpg",
     "folder": "world"
   },
@@ -872,6 +944,7 @@
       "en": "Curaçao and Sint Maarten"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_CURAZAO.Y.SAN.MARTIN.jpg",
     "folder": "world"
   },
@@ -884,6 +957,7 @@
       "en": "Denmark"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_DINAMARCA.jpg",
     "folder": "world"
   },
@@ -896,6 +970,7 @@
       "en": "Ecuador"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ECUADOR.jpg",
     "folder": "world"
   },
@@ -908,6 +983,7 @@
       "en": "Egypt"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_EGIPTO.jpg",
     "folder": "world"
   },
@@ -920,6 +996,7 @@
       "en": "Democratic Republic of the Congo"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_EL.CONGO.jpg",
     "folder": "world"
   },
@@ -932,6 +1009,7 @@
       "en": "United Arab Emirates"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_EMIRATOS.ARABES.jpg",
     "folder": "world"
   },
@@ -944,6 +1022,7 @@
       "en": "Eritrea"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ERITREA.jpg",
     "folder": "world"
   },
@@ -956,6 +1035,7 @@
       "en": "Scotland"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ESCOCIA.jpg",
     "folder": "world"
   },
@@ -968,6 +1048,7 @@
       "en": "Slovenia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ESLOVENIA.jpg",
     "folder": "world"
   },
@@ -980,6 +1061,7 @@
       "en": "Spain"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ESPAÑA.jpg",
     "folder": "world"
   },
@@ -992,6 +1074,7 @@
       "en": "United States"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ESTADOS.UNIDOS.jpg",
     "folder": "usa"
   },
@@ -1004,6 +1087,7 @@
       "en": "Eastern Caribbean States"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ESTADOS.DEL.CARIBE.ORIENTAL.jpg",
     "folder": "world"
   },
@@ -1016,6 +1100,7 @@
       "en": "Estonia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ESTONIA.jpg",
     "folder": "world"
   },
@@ -1028,6 +1113,7 @@
       "en": "Ethiopia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ETIOPIA.jpg",
     "folder": "world"
   },
@@ -1040,6 +1126,7 @@
       "en": "Philippines"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_FILIPINAS.jpg",
     "folder": "world"
   },
@@ -1052,6 +1139,7 @@
       "en": "Finland"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_FINLANDIA.jpg",
     "folder": "world"
   },
@@ -1064,6 +1152,7 @@
       "en": "Fiji"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_FIJI.jpg",
     "folder": "world"
   },
@@ -1076,6 +1165,7 @@
       "en": "France"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_FRANCIA.jpg",
     "folder": "world"
   },
@@ -1088,6 +1178,7 @@
       "en": "Gambia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GAMBIA.jpg",
     "folder": "world"
   },
@@ -1100,6 +1191,7 @@
       "en": "Georgia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GEORGIA.jpg",
     "folder": "world"
   },
@@ -1112,6 +1204,7 @@
       "en": "Ghana"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GHANA.jpg",
     "folder": "world"
   },
@@ -1124,6 +1217,7 @@
       "en": "Great Britain"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GRAN.BRETAÑA.jpg",
     "folder": "world"
   },
@@ -1136,6 +1230,7 @@
       "en": "Greece"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GRECIA.jpg",
     "folder": "world"
   },
@@ -1148,6 +1243,7 @@
       "en": "Guatemala"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GUATEMALA.jpg",
     "folder": "world"
   },
@@ -1160,6 +1256,7 @@
       "en": "Guernsey"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GUERNSEY.jpg",
     "folder": "world"
   },
@@ -1172,6 +1269,7 @@
       "en": "Guinea"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GUINEA.jpg",
     "folder": "world"
   },
@@ -1184,6 +1282,7 @@
       "en": "Guinea-Bissau"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GUINEA.BISAU.jpg",
     "folder": "world"
   },
@@ -1196,6 +1295,7 @@
       "en": "Guyana"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_GUYANA.jpg",
     "folder": "world"
   },
@@ -1208,6 +1308,7 @@
       "en": "Haiti"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_HAITI.jpg",
     "folder": "world"
   },
@@ -1220,6 +1321,7 @@
       "en": "Honduras"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_HONDURAS.jpg",
     "folder": "world"
   },
@@ -1232,6 +1334,7 @@
       "en": "Hong Kong"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_HONG.KONG.jpg",
     "folder": "world"
   },
@@ -1244,6 +1347,7 @@
       "en": "Hungary"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_HUNGRIA.jpg",
     "folder": "world"
   },
@@ -1256,6 +1360,7 @@
       "en": "India"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_INDIA.jpg",
     "folder": "world"
   },
@@ -1268,6 +1373,7 @@
       "en": "Indonesia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_INDONESIA.jpg",
     "folder": "world"
   },
@@ -1280,6 +1386,7 @@
       "en": "Iraq"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_IRAK.jpg",
     "folder": "world"
   },
@@ -1292,6 +1399,7 @@
       "en": "Iran"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_IRAN.jpg",
     "folder": "world"
   },
@@ -1304,6 +1412,7 @@
       "en": "Northern Ireland"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_IRLANDA.DEL.NORTE.jpg",
     "folder": "world"
   },
@@ -1316,6 +1425,7 @@
       "en": "Iceland"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ISLANDIA.jpg",
     "folder": "world"
   },
@@ -1328,6 +1438,7 @@
       "en": "Cayman Islands"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ISLAS.CAIMAN.jpg",
     "folder": "world"
   },
@@ -1340,6 +1451,7 @@
       "en": "Cook Islands"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ISLAS.COOK.jpg",
     "folder": "world"
   },
@@ -1352,6 +1464,7 @@
       "en": "Isle of Man"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ISLA.DE.MAN.jpg",
     "folder": "world"
   },
@@ -1364,6 +1477,7 @@
       "en": "Faroe Islands"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ISLASFEROE.jpg",
     "folder": "world"
   },
@@ -1376,6 +1490,7 @@
       "en": "Solomon Islands"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ISLAS.SALOMON.jpg",
     "folder": "world"
   },
@@ -1388,6 +1503,7 @@
       "en": "Israel"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ISRAEL.jpg",
     "folder": "world"
   },
@@ -1400,6 +1516,7 @@
       "en": "Italy"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ITALIA.jpg",
     "folder": "world"
   },
@@ -1412,6 +1529,7 @@
       "en": "Jamaica"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_JAMAICA.jpg",
     "folder": "world"
   },
@@ -1424,6 +1542,7 @@
       "en": "Japan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_JAPON.jpg",
     "folder": "world"
   },
@@ -1436,6 +1555,7 @@
       "en": "Jordan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_JORDANIA.jpg",
     "folder": "world"
   },
@@ -1448,6 +1568,7 @@
       "en": "Kazakhstan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_KAZAJISTAN.jpg",
     "folder": "world"
   },
@@ -1460,6 +1581,7 @@
       "en": "Kenya"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_KENIA.jpg",
     "folder": "world"
   },
@@ -1472,6 +1594,7 @@
       "en": "Kyrgyzstan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_KIRGUISTAN.jpg",
     "folder": "world"
   },
@@ -1484,6 +1607,7 @@
       "en": "Kuwait"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_KUWAIT.jpg",
     "folder": "world"
   },
@@ -1496,6 +1620,7 @@
       "en": "Laos"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_LAOS.jpg",
     "folder": "world"
   },
@@ -1508,6 +1633,7 @@
       "en": "Lesotho"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_LESOTHO.jpg",
     "folder": "world"
   },
@@ -1520,6 +1646,7 @@
       "en": "Lebanon"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_LIBANO.jpg",
     "folder": "world"
   },
@@ -1532,6 +1659,7 @@
       "en": "Liberia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_LIBERIA.jpg",
     "folder": "world"
   },
@@ -1544,6 +1672,7 @@
       "en": "Libya"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_LIBIA.jpg",
     "folder": "world"
   },
@@ -1556,6 +1685,7 @@
       "en": "Lithuania"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_LITUANIA.jpg",
     "folder": "world"
   },
@@ -1568,6 +1698,7 @@
       "en": "Macau (China)"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MACAO.jpg",
     "folder": "world"
   },
@@ -1580,6 +1711,7 @@
       "en": "North Macedonia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MACEDONIA.DEL.NORTE.jpg",
     "folder": "world"
   },
@@ -1592,6 +1724,7 @@
       "en": "Madagascar"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MADAGASCAR.jpg",
     "folder": "world"
   },
@@ -1604,6 +1737,7 @@
       "en": "Malaysia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MALASIA.jpg",
     "folder": "world"
   },
@@ -1616,6 +1750,7 @@
       "en": "Malawi"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MALAUI.jpg",
     "folder": "world"
   },
@@ -1628,6 +1763,7 @@
       "en": "Maldives"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MALDIVAS.jpg",
     "folder": "world"
   },
@@ -1640,6 +1776,7 @@
       "en": "Morocco"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MARRUECOS.jpg",
     "folder": "world"
   },
@@ -1652,6 +1789,7 @@
       "en": "Mauritius"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MAURICIO.jpg",
     "folder": "world"
   },
@@ -1664,6 +1802,7 @@
       "en": "Mauritania"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MAURITANIA.jpg",
     "folder": "world"
   },
@@ -1676,6 +1815,7 @@
       "en": "Mexico"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MEXICO.jpg",
     "folder": "world"
   },
@@ -1688,6 +1828,7 @@
       "en": "Moldova"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MOLDOVIA.jpg",
     "folder": "world"
   },
@@ -1700,6 +1841,7 @@
       "en": "Mongolia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MONGOLIA.jpg",
     "folder": "world"
   },
@@ -1712,6 +1854,7 @@
       "en": "Mozambique"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_MOZAMBIQUE.jpg",
     "folder": "world"
   },
@@ -1724,6 +1867,7 @@
       "en": "Namibia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_NAMIBIA.jpg",
     "folder": "world"
   },
@@ -1736,6 +1880,7 @@
       "en": "Nepal"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_NEPAL.jpg",
     "folder": "world"
   },
@@ -1748,6 +1893,7 @@
       "en": "Nicaragua"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_NICARAGUA.jpg",
     "folder": "world"
   },
@@ -1760,6 +1906,7 @@
       "en": "Nigeria"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_NIGERIA.jpg",
     "folder": "world"
   },
@@ -1772,6 +1919,7 @@
       "en": "Norway"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_NORUEGA.jpg",
     "folder": "world"
   },
@@ -1784,6 +1932,7 @@
       "en": "New Zealand"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_NUEVA.ZELANDA.jpg",
     "folder": "world"
   },
@@ -1796,6 +1945,7 @@
       "en": "Oman"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_OMAN.jpg",
     "folder": "world"
   },
@@ -1808,6 +1958,7 @@
       "en": "Netherlands"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_PAISES.BAJOS.jpg",
     "folder": "world"
   },
@@ -1820,6 +1971,7 @@
       "en": "Pakistan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_PAKISTAN.jpg",
     "folder": "world"
   },
@@ -1832,6 +1984,7 @@
       "en": "Papua New Guinea"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_PAPUA.NUEVA.GUINEA.jpg",
     "folder": "world"
   },
@@ -1844,6 +1997,7 @@
       "en": "Paraguay"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_PARAGUAY.jpg",
     "folder": "world"
   },
@@ -1856,6 +2010,7 @@
       "en": "Peru"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_PERU.jpg",
     "folder": "world"
   },
@@ -1868,6 +2023,7 @@
       "en": "Poland"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_POLONIA.jpg",
     "folder": "world"
   },
@@ -1880,6 +2036,7 @@
       "en": "Portugal"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_PORTUGAL.jpg",
     "folder": "world"
   },
@@ -1892,6 +2049,7 @@
       "en": "Qatar"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_QATAR.jpg",
     "folder": "world"
   },
@@ -1904,6 +2062,7 @@
       "en": "Central African Republic"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_REPUBLICA.CENTROAFRICANA.jpg",
     "folder": "world"
   },
@@ -1916,6 +2075,7 @@
       "en": "Czech Republic"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_REPUBLICA.CHECA.jpg",
     "folder": "world"
   },
@@ -1928,6 +2088,7 @@
       "en": "Dominican Republic"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_REPUBLICA.DOMINICANA.jpg",
     "folder": "world"
   },
@@ -1940,6 +2101,7 @@
       "en": "Rwanda"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_RUANDA.jpg",
     "folder": "world"
   },
@@ -1952,6 +2114,7 @@
       "en": "Romania"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_RUMANIA.jpg",
     "folder": "world"
   },
@@ -1964,6 +2127,7 @@
       "en": "Russia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_RUSIA.jpg",
     "folder": "world"
   },
@@ -1976,6 +2140,7 @@
       "en": "Samoa"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SAMOA.jpg",
     "folder": "world"
   },
@@ -1988,6 +2153,7 @@
       "en": "São Tomé and Príncipe"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SANTO.TOME.Y.PRINCIPE.jpg",
     "folder": "world"
   },
@@ -2000,6 +2166,7 @@
       "en": "Serbia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SERBIA.jpg",
     "folder": "world"
   },
@@ -2012,6 +2179,7 @@
       "en": "Seychelles"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SEYCHELLES.jpg",
     "folder": "world"
   },
@@ -2024,6 +2192,7 @@
       "en": "Sierra Leone"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SIERRA.LEONA.jpg",
     "folder": "world"
   },
@@ -2036,6 +2205,7 @@
       "en": "Singapore"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SINGAPUR.jpg",
     "folder": "world"
   },
@@ -2048,6 +2218,7 @@
       "en": "Syria"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SIRIA.jpg",
     "folder": "world"
   },
@@ -2060,6 +2231,7 @@
       "en": "Somalia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SOMALIA.jpg",
     "folder": "world"
   },
@@ -2072,6 +2244,7 @@
       "en": "Somaliland"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SOMALILANDIA.jpg",
     "folder": "world"
   },
@@ -2084,6 +2257,7 @@
       "en": "Sri Lanka"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SRI.LANKA.jpg",
     "folder": "world"
   },
@@ -2096,6 +2270,7 @@
       "en": "Eswatini"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SUAZILANDIA.jpg",
     "folder": "world"
   },
@@ -2108,6 +2283,7 @@
       "en": "South Africa"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SUD.AFRICA.jpg",
     "folder": "world"
   },
@@ -2120,6 +2296,7 @@
       "en": "Sudan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SUDAN.jpg",
     "folder": "world"
   },
@@ -2132,6 +2309,7 @@
       "en": "South Sudan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SUDAN.DEL.SUR.jpg",
     "folder": "world"
   },
@@ -2144,6 +2322,7 @@
       "en": "Sweden"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SUECIA.jpg",
     "folder": "world"
   },
@@ -2156,6 +2335,7 @@
       "en": "Switzerland"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SUIZA.jpg",
     "folder": "world"
   },
@@ -2168,6 +2348,7 @@
       "en": "Suriname"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_SURINAM.jpg",
     "folder": "world"
   },
@@ -2180,6 +2361,7 @@
       "en": "Thailand"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TAILANDIA.jpg",
     "folder": "world"
   },
@@ -2192,6 +2374,7 @@
       "en": "Taiwan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TAIWAN.jpg",
     "folder": "world"
   },
@@ -2204,6 +2387,7 @@
       "en": "Tanzania"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TANZANIA.jpg",
     "folder": "world"
   },
@@ -2216,6 +2400,7 @@
       "en": "Tajikistan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TAYIKISTAN.jpg",
     "folder": "world"
   },
@@ -2228,6 +2413,7 @@
       "en": "Tonga"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TONGA.jpg",
     "folder": "world"
   },
@@ -2240,6 +2426,7 @@
       "en": "Transnistria"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TRANSNISTRIA.jpg",
     "folder": "world"
   },
@@ -2252,6 +2439,7 @@
       "en": "Trinidad and Tobago"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TRINIDAD.Y.TOBAGO.jpg",
     "folder": "world"
   },
@@ -2264,6 +2452,7 @@
       "en": "Tunisia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TUNEZ.jpg",
     "folder": "world"
   },
@@ -2276,6 +2465,7 @@
       "en": "Turkmenistan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TURKMENISTAN.jpg",
     "folder": "world"
   },
@@ -2288,6 +2478,7 @@
       "en": "Turkey"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_TURQUIA.jpg",
     "folder": "world"
   },
@@ -2300,6 +2491,7 @@
       "en": "Ukraine"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_UCRANIA.jpg",
     "folder": "world"
   },
@@ -2312,6 +2504,7 @@
       "en": "Uganda"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_UGANDA.jpg",
     "folder": "world"
   },
@@ -2324,6 +2517,7 @@
       "en": "European Union"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_UNION.EUROPEA.jpg",
     "folder": "world"
   },
@@ -2336,6 +2530,7 @@
       "en": "Uruguay"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_URUGUAY.jpg",
     "folder": "world"
   },
@@ -2348,6 +2543,7 @@
       "en": "Uzbekistan"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_UZBEKISTAN.jpg",
     "folder": "world"
   },
@@ -2360,6 +2556,7 @@
       "en": "Vanuatu"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_VANUATU.jpg",
     "folder": "world"
   },
@@ -2372,6 +2569,7 @@
       "en": "Venezuela"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_VENEZUELA.jpg",
     "folder": "world"
   },
@@ -2384,6 +2582,7 @@
       "en": "Vietnam"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_VIETNAM.jpg",
     "folder": "world"
   },
@@ -2396,6 +2595,7 @@
       "en": "South Vietnam"
     },
     "vigente": "no",
+    "moneda_propia": "si",
     "flag": "FLAG_VIETNAM.DEL.SUR.jpg",
     "folder": "world"
   },
@@ -2408,6 +2608,7 @@
       "en": "Yemen"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_YEMEN.jpg",
     "folder": "world"
   },
@@ -2420,6 +2621,7 @@
       "en": "Djibouti"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_YIBUTI.jpg",
     "folder": "world"
   },
@@ -2432,6 +2634,7 @@
       "en": "Yugoslavia"
     },
     "vigente": "no",
+    "moneda_propia": "si",
     "flag": "FLAG_YUGOSLAVIA.jpg",
     "folder": "world"
   },
@@ -2444,6 +2647,7 @@
       "en": "Zaire"
     },
     "vigente": "no",
+    "moneda_propia": "si",
     "flag": "FLAG_ZAIRE.jpg",
     "folder": "world"
   },
@@ -2456,6 +2660,7 @@
       "en": "Zambia"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ZAMBIA.jpg",
     "folder": "world"
   },
@@ -2468,8 +2673,8 @@
       "en": "Zimbabwe"
     },
     "vigente": "si",
+    "moneda_propia": "si",
     "flag": "FLAG_ZIMBABUE.jpg",
     "folder": "world"
   }
 }
-
