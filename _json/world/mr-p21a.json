@@ -4,6 +4,7 @@
   "denomination": {
     "value": 20,
     "currency": "Ouguiya",
+    "iso4217": "MRU",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Bolivianos",
+    "iso4217": "BOB",
     "subtype": "",
     "alternatives": []
   },

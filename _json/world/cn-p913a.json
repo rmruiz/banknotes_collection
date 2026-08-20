@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Yuan",
+    "iso4217": "CNY",
     "subtype": "",
     "alternatives": []
   },

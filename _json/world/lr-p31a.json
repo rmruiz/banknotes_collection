@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Dólares",
+    "iso4217": "LRD",
     "subtype": "",
     "alternatives": []
   },

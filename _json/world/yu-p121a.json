@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5000000,
     "currency": "Dinares",
+    "iso4217": "YUD",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 200,
     "currency": "Vatu",
+    "iso4217": "VUV",
     "subtype": "",
     "alternatives": []
   },

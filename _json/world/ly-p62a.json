@@ -4,6 +4,7 @@
   "denomination": {
     "value": 0.25,
     "currency": "Dinar",
+    "iso4217": "LYD",
     "subtype": "",
     "alternatives": []
   },

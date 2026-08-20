@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Dracmas",
+    "iso4217": "EUR",
     "subtype": "",
     "alternatives": []
   },

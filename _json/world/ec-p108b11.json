@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Sucres",
+    "iso4217": "USD",
     "subtype": "",
     "alternatives": []
   },

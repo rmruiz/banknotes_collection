@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1000,
     "currency": "Tenge",
+    "iso4217": "KZT",
     "subtype": "",
     "alternatives": []
   },

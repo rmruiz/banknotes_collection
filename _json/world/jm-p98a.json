@@ -4,6 +4,7 @@
   "denomination": {
     "value": 500,
     "currency": "Dólar",
+    "iso4217": "JMD",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Florines",
+    "iso4217": "SRD",
     "subtype": "",
     "alternatives": []
   },

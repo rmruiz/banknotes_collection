@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1,
     "currency": "Libras",
+    "iso4217": "EGP",
     "subtype": "",
     "alternatives": []
   },

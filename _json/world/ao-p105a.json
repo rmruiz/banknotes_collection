@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Escudos",
+    "iso4217": "AOA",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Dinares",
+    "iso4217": "HRK",
     "subtype": "",
     "alternatives": []
   },

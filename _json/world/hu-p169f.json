@@ -4,6 +4,7 @@
   "denomination": {
     "value": 20,
     "currency": "Florines",
+    "iso4217": "HUF",
     "subtype": "",
     "alternatives": []
   },

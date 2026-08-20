@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Taka",
+    "iso4217": "BDT",
     "subtype": "",
     "alternatives": []
   },

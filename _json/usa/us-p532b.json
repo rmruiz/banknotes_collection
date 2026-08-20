@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Dólares",
+    "iso4217": "USD",
     "subtype": "",
     "alternatives": []
   },

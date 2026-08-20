@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1000,
     "currency": "Leones",
+    "iso4217": "SLE",
     "subtype": "",
     "alternatives": []
   },

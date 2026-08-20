@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50000,
     "currency": "Pesos",
+    "iso4217": "CLP",
     "subtype": "",
     "alternatives": [
       "5.000 Condores"

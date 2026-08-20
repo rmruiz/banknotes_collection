@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Piastras",
+    "iso4217": "EGP",
     "subtype": "",
     "alternatives": []
   },

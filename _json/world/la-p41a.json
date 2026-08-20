@@ -4,6 +4,7 @@
   "denomination": {
     "value": 2000,
     "currency": "Kip",
+    "iso4217": "LAK",
     "subtype": "",
     "alternatives": []
   },

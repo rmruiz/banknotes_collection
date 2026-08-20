@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Tugrik - Tögrög",
+    "iso4217": "MNT",
     "subtype": "",
     "alternatives": []
   },

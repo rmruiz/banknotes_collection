@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Denares",
+    "iso4217": "MKD",
     "subtype": "",
     "alternatives": []
   },

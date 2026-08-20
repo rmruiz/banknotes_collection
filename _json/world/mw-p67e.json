@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1000,
     "currency": "Kwacha",
+    "iso4217": "MWK",
     "subtype": "",
     "alternatives": []
   },

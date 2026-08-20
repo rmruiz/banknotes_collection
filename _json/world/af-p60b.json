@@ -4,6 +4,7 @@
   "denomination": {
     "value": 500,
     "currency": "Afghanis",
+    "iso4217": "AFN",
     "subtype": "",
     "alternatives": []
   },

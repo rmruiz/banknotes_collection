@@ -4,6 +4,7 @@
   "denomination": {
     "value": 0.2,
     "currency": "Riel",
+    "iso4217": "KHR",
     "subtype": "",
     "alternatives": []
   },

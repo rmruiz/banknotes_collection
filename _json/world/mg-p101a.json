@@ -4,6 +4,7 @@
   "denomination": {
     "value": 2000,
     "currency": "Ariary",
+    "iso4217": "MGA",
     "subtype": "",
     "alternatives": []
   },

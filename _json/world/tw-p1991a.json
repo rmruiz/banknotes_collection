@@ -4,6 +4,7 @@
   "denomination": {
     "value": 100,
     "currency": "Nuevo Dólar",
+    "iso4217": "TWD",
     "subtype": "",
     "alternatives": []
   },

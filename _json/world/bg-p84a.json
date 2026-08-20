@@ -4,6 +4,7 @@
   "denomination": {
     "value": 25,
     "currency": "Lev",
+    "iso4217": "BGN",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 2,
     "currency": "Talas",
+    "iso4217": "WST",
     "subtype": "",
     "alternatives": []
   },

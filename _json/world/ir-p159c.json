@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10000,
     "currency": "Riales",
+    "iso4217": "IRR",
     "subtype": "",
     "alternatives": []
   },

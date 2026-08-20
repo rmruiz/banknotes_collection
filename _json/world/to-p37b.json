@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1,
     "currency": "Pa'anga",
+    "iso4217": "TOP",
     "subtype": "",
     "alternatives": []
   },

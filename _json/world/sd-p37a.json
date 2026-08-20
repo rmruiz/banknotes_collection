@@ -4,6 +4,7 @@
   "denomination": {
     "value": 25,
     "currency": "Placas",
+    "iso4217": "SDG",
     "subtype": "",
     "alternatives": []
   },

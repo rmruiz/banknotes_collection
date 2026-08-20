@@ -4,6 +4,7 @@
   "denomination": {
     "value": 500,
     "currency": "Cruzados",
+    "iso4217": "BRL",
     "subtype": "",
     "alternatives": []
   },

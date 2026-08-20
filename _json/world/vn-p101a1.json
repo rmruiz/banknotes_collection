@@ -4,6 +4,7 @@
   "denomination": {
     "value": 500,
     "currency": "Dongs",
+    "iso4217": "VND",
     "subtype": "",
     "alternatives": []
   },

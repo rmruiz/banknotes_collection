@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Dinares",
+    "iso4217": "BAM",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Kwanzas",
+    "iso4217": "AOA",
     "subtype": "",
     "alternatives": []
   },

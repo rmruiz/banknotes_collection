@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Rands",
+    "iso4217": "ZAR",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 100,
     "currency": "Baisas",
+    "iso4217": "OMR",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Colones",
+    "iso4217": "CRC",
     "subtype": "",
     "alternatives": []
   },

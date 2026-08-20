@@ -4,6 +4,7 @@
   "denomination": {
     "value": 0.5,
     "currency": "Dólar",
+    "iso4217": "BSD",
     "subtype": "",
     "alternatives": []
   },

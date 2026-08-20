@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Soles de Oro",
+    "iso4217": "PEN",
     "subtype": "",
     "alternatives": []
   },

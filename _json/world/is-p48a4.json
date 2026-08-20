@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Coronas",
+    "iso4217": "ISK",
     "subtype": "",
     "alternatives": []
   },

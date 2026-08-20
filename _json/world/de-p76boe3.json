@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1000,
     "currency": "Marcos",
+    "iso4217": "DEM",
     "subtype": "",
     "alternatives": []
   },

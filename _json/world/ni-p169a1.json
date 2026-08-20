@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Centavos",
+    "iso4217": "NIO",
     "subtype": "",
     "alternatives": []
   },

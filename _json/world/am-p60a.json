@@ -4,6 +4,7 @@
   "denomination": {
     "value": 500,
     "currency": "Dram",
+    "iso4217": "AMD",
     "subtype": "",
     "alternatives": []
   },

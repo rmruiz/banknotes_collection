@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Kuna",
+    "iso4217": "HRK",
     "subtype": "",
     "alternatives": []
   },

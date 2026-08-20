@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10000,
     "currency": "Yenes",
+    "iso4217": "JPY",
     "subtype": "",
     "alternatives": []
   },

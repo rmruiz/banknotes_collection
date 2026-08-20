@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Ngultrum",
+    "iso4217": "BTN",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 25,
     "currency": "Gurdes",
+    "iso4217": "HTG",
     "subtype": "",
     "alternatives": []
   },

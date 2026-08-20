@@ -4,6 +4,7 @@
   "denomination": {
     "value": 200,
     "currency": "Libras",
+    "iso4217": "SYP",
     "subtype": "",
     "alternatives": []
   },

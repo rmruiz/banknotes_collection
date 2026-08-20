@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1,
     "currency": "Austral",
+    "iso4217": "ARS",
     "subtype": "Austral",
     "alternatives": []
   },
