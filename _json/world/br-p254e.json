@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Reales",
+    "iso4217": "BRL",
     "subtype": "",
     "alternatives": []
   },

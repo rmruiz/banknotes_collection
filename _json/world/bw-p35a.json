@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Pula",
+    "iso4217": "BWP",
     "subtype": "",
     "alternatives": []
   },

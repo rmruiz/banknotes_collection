@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Chelines",
+    "iso4217": "EUR",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1000,
     "currency": "Intis",
+    "iso4217": "PEN",
     "subtype": "",
     "alternatives": []
   },

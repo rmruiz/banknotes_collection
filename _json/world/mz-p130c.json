@@ -4,6 +4,7 @@
   "denomination": {
     "value": 100,
     "currency": "Meticales",
+    "iso4217": "MZN",
     "subtype": "",
     "alternatives": []
   },

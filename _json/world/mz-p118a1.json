@@ -4,6 +4,7 @@
   "denomination": {
     "value": 500,
     "currency": "Escudos",
+    "iso4217": "MZN",
     "subtype": "",
     "alternatives": []
   },

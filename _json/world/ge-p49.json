@@ -4,6 +4,7 @@
   "denomination": {
     "value": 150000,
     "currency": "Kuponi",
+    "iso4217": "GEL",
     "subtype": "",
     "alternatives": []
   },

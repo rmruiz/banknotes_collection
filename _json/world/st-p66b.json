@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10000,
     "currency": "Libras",
+    "iso4217": "STN",
     "subtype": "",
     "alternatives": []
   },

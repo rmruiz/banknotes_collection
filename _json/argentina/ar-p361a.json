@@ -4,6 +4,7 @@
   "denomination": {
     "value": 20,
     "currency": "Pesos",
+    "iso4217": "ARS",
     "subtype": "Cuarta serie «Fauna Autóctona de la República Argentina»",
     "alternatives": []
   },

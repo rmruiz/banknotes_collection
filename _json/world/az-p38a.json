@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1,
     "currency": "Manat",
+    "iso4217": "AZN",
     "subtype": "",
     "alternatives": []
   },

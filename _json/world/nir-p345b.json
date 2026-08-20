@@ -4,6 +4,7 @@
   "denomination": {
     "value": 20,
     "currency": "Libras",
+    "iso4217": "GBP",
     "subtype": "",
     "alternatives": []
   },

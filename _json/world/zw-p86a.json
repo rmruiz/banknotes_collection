@@ -4,6 +4,7 @@
   "denomination": {
     "value": 20000000000,
     "currency": "Dólares",
+    "iso4217": "ZWL",
     "subtype": "",
     "alternatives": []
   },

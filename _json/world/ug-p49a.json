@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1000,
     "currency": "Chelines",
+    "iso4217": "UGX",
     "subtype": "",
     "alternatives": []
   },

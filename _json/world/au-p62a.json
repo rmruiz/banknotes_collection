@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Dólares Australianos",
+    "iso4217": "AUD",
     "subtype": "",
     "alternatives": []
   },

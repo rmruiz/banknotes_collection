@@ -4,6 +4,7 @@
   "denomination": {
     "value": 100,
     "currency": "Francos Franceses",
+    "iso4217": "EUR",
     "subtype": "",
     "alternatives": []
   },

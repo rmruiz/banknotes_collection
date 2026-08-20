@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Pyas",
+    "iso4217": "MMK",
     "subtype": "",
     "alternatives": []
   },

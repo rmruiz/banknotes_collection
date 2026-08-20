@@ -4,6 +4,7 @@
   "denomination": {
     "value": 200,
     "currency": "Escudos",
+    "iso4217": "CVE",
     "subtype": "",
     "alternatives": []
   },

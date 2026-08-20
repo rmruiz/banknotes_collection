@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Uguiyas",
+    "iso4217": "MRU",
     "subtype": "",
     "alternatives": []
   },

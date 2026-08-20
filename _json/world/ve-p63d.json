@@ -4,6 +4,7 @@
   "denomination": {
     "value": 20,
     "currency": "Bolívares",
+    "iso4217": "VEF",
     "subtype": "",
     "alternatives": []
   },

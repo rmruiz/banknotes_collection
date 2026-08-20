@@ -4,6 +4,7 @@
   "denomination": {
     "value": 2000,
     "currency": "Shillings",
+    "iso4217": "TZS",
     "subtype": "",
     "alternatives": []
   },

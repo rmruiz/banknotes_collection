@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Kronur",
+    "iso4217": "DKK",
     "subtype": "",
     "alternatives": []
   },

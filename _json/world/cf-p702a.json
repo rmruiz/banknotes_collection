@@ -4,6 +4,7 @@
   "denomination": {
     "value": 2000,
     "currency": "Francos",
+    "iso4217": "XAF",
     "subtype": "",
     "alternatives": []
   },

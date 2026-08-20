@@ -4,6 +4,7 @@
   "denomination": {
     "value": 100,
     "currency": "Naira",
+    "iso4217": "NGN",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Dirhams",
+    "iso4217": "AED",
     "subtype": "",
     "alternatives": []
   },

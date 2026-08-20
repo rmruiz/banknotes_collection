@@ -4,6 +4,7 @@
   "denomination": {
     "value": 75,
     "currency": "Rupias",
+    "iso4217": "PKR",
     "subtype": "",
     "alternatives": []
   },

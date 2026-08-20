@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50000,
     "currency": "Pesos",
+    "iso4217": "ARS",
     "subtype": "Peso Ley 18.188",
     "alternatives": []
   },

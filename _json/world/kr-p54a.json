@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1000,
     "currency": "Wons",
+    "iso4217": "KRW",
     "subtype": "",
     "alternatives": []
   },

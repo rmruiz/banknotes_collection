@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Riales",
+    "iso4217": "QAR",
     "subtype": "",
     "alternatives": []
   },

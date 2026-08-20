@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Cedis",
+    "iso4217": "GHS",
     "subtype": "",
     "alternatives": []
   },

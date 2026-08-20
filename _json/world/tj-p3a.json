@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Rublos",
+    "iso4217": "TJS",
     "subtype": "",
     "alternatives": []
   },

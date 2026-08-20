@@ -4,6 +4,7 @@
   "denomination": {
     "value": 7,
     "currency": "Dólares",
+    "iso4217": "FJD",
     "subtype": "",
     "alternatives": []
   },

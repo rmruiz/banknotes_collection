@@ -4,6 +4,7 @@
   "denomination": {
     "value": 40,
     "currency": "Francos",
+    "iso4217": "DJF",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 500,
     "currency": "Pesos",
+    "iso4217": "MXN",
     "subtype": "",
     "alternatives": []
   },

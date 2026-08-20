@@ -4,6 +4,7 @@
   "denomination": {
     "value": 500,
     "currency": "Dinares",
+    "iso4217": "IQD",
     "subtype": "",
     "alternatives": []
   },

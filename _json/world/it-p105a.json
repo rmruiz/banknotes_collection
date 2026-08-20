@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5000,
     "currency": "Liras",
+    "iso4217": "EUR",
     "subtype": "",
     "alternatives": []
   },

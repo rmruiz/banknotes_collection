@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Jiao",
+    "iso4217": "CNY",
     "subtype": "",
     "alternatives": []
   },

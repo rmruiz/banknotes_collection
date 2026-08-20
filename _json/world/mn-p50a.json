@@ -4,6 +4,7 @@
   "denomination": {
     "value": 20,
     "currency": "Mongo",
+    "iso4217": "MNT",
     "subtype": "",
     "alternatives": []
   },

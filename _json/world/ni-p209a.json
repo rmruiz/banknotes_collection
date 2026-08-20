@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Córdobas",
+    "iso4217": "NIO",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Céntimos",
+    "iso4217": "CDF",
     "subtype": "",
     "alternatives": []
   },

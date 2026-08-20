@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Pence",
+    "iso4217": "GBP",
     "subtype": "",
     "alternatives": []
   },

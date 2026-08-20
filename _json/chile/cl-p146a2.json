@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1000,
     "currency": "Escudos",
+    "iso4217": "CLP",
     "subtype": "",
     "alternatives": []
   },

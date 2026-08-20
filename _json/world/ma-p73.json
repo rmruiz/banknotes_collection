@@ -4,6 +4,7 @@
   "denomination": {
     "value": 25,
     "currency": "Dirhams",
+    "iso4217": "MAD",
     "subtype": "",
     "alternatives": []
   },

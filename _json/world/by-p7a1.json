@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Rublo",
+    "iso4217": "BYN",
     "subtype": "",
     "alternatives": []
   },

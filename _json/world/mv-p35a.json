@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Rufiyaa",
+    "iso4217": "MVR",
     "subtype": "",
     "alternatives": []
   },

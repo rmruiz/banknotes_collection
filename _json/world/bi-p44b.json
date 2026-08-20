@@ -4,6 +4,7 @@
   "denomination": {
     "value": 100,
     "currency": "Francos",
+    "iso4217": "BIF",
     "subtype": "",
     "alternatives": []
   },

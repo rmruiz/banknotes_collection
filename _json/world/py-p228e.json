@@ -4,6 +4,7 @@
   "denomination": {
     "value": 2000,
     "currency": "Guaraníes",
+    "iso4217": "PYG",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Zaires",
+    "iso4217": "CDF",
     "subtype": "",
     "alternatives": []
   },

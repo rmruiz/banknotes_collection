@@ -4,6 +4,7 @@
   "denomination": {
     "value": 30,
     "currency": "Dólares",
+    "iso4217": "NAD",
     "subtype": "",
     "alternatives": []
   },

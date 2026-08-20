@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Soms",
+    "iso4217": "UZS",
     "subtype": "",
     "alternatives": []
   },

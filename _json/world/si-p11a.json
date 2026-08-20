@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Tólares",
+    "iso4217": "EUR",
     "subtype": "",
     "alternatives": []
   },

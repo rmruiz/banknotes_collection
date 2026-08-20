@@ -4,6 +4,7 @@
   "denomination": {
     "value": 100,
     "currency": "Rupias",
+    "iso4217": "INR",
     "subtype": "",
     "alternatives": []
   },

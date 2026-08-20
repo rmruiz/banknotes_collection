@@ -4,6 +4,7 @@
   "denomination": {
     "value": 100,
     "currency": "Pesos Oro",
+    "iso4217": "COP",
     "subtype": "",
     "alternatives": []
   },

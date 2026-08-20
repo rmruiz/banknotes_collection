@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Rupias",
+    "iso4217": "LKR",
     "subtype": "",
     "alternatives": []
   },

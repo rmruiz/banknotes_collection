@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Florines",
+    "iso4217": "EUR",
     "subtype": "",
     "alternatives": []
   },

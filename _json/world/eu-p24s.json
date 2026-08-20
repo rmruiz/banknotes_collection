@@ -4,6 +4,7 @@
   "denomination": {
     "value": 100,
     "currency": "Euros",
+    "iso4217": "EUR",
     "subtype": "",
     "alternatives": []
   },

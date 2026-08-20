@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Florin Caribeño",
+    "iso4217": "ANG",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Nakfa",
+    "iso4217": "ERN",
     "subtype": "",
     "alternatives": []
   },

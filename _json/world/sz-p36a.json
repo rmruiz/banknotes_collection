@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Lilangeni",
+    "iso4217": "SZL",
     "subtype": "",
     "alternatives": []
   },

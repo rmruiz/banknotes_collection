@@ -4,6 +4,7 @@
   "denomination": {
     "value": 20,
     "currency": "Pesos",
+    "iso4217": "CUP",
     "subtype": "",
     "alternatives": []
   },

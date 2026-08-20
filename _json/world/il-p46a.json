@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Sheqalim",
+    "iso4217": "ILS",
     "subtype": "",
     "alternatives": []
   },

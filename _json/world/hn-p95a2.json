@@ -4,6 +4,7 @@
   "denomination": {
     "value": 20,
     "currency": "Lempiras",
+    "iso4217": "HNL",
     "subtype": "",
     "alternatives": []
   },

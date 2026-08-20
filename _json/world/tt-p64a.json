@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Dólares",
+    "iso4217": "TTD",
     "subtype": "",
     "alternatives": []
   },

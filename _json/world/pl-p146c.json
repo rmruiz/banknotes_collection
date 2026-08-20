@@ -4,6 +4,7 @@
   "denomination": {
     "value": 1000,
     "currency": "Zlotys",
+    "iso4217": "PLN",
     "subtype": "",
     "alternatives": []
   },

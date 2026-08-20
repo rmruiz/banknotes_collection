@@ -4,6 +4,7 @@
   "denomination": {
     "value": null,
     "currency": "",
+    "iso4217": "CLP",
     "subtype": "",
     "alternatives": []
   },

@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Sen",
+    "iso4217": "IDR",
     "subtype": "",
     "alternatives": []
   },

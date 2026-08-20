@@ -4,6 +4,7 @@
   "denomination": {
     "value": 2,
     "currency": "Kwacha",
+    "iso4217": "ZMW",
     "subtype": "",
     "alternatives": []
   },

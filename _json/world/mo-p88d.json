@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Patacas",
+    "iso4217": "MOP",
     "subtype": "",
     "alternatives": []
   },

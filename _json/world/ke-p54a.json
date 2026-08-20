@@ -4,6 +4,7 @@
   "denomination": {
     "value": 200,
     "currency": "Chelines",
+    "iso4217": "KES",
     "subtype": "",
     "alternatives": []
   },

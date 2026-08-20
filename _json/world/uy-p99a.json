@@ -4,6 +4,7 @@
   "denomination": {
     "value": 2000,
     "currency": "Pesos",
+    "iso4217": "UYU",
     "subtype": "",
     "alternatives": []
   },

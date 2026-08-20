@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Francos",
+    "iso4217": "CHF",
     "subtype": "",
     "alternatives": []
   },

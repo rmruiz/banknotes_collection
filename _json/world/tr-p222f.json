@@ -4,6 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Liras",
+    "iso4217": "TRY",
     "subtype": "",
     "alternatives": []
   },

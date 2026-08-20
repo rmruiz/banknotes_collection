@@ -4,6 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Kyats",
+    "iso4217": "MMK",
     "subtype": "",
     "alternatives": []
   },

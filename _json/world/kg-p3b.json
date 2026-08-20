@@ -4,6 +4,7 @@
   "denomination": {
     "value": 50,
     "currency": "Tyiyn",
+    "iso4217": "KGS",
     "subtype": "",
     "alternatives": []
   },
