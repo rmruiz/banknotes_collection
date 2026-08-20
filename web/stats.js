@@ -319,6 +319,7 @@
             .slice(0, 15);
 
         renderBarList('top-countries-list', sortedCountries, allNotes.length, (label) => {
+            if (label === 'DESCONOCIDO') return `pais:""`;
             return `pais:"${label}"`;
         });
 
@@ -331,7 +332,7 @@
                 const key = `${dec}s`;
                 decadeCounts[key] = (decadeCounts[key] || 0) + 1;
             } else {
-                decadeCounts['Sin fecha / Otro'] = (decadeCounts['Sin fecha / Otro'] || 0) + 1;
+                decadeCounts['Sin fecha'] = (decadeCounts['Sin fecha'] || 0) + 1;
             }
         });
 
@@ -349,6 +350,7 @@
                 const end = start + 10;
                 return `anio>=${start} anio<${end}`;
             }
+            if (label === 'SIN FECHA') return `anio:""`;
             return `anio:(${label})`;
         });
 
@@ -361,6 +363,7 @@
 
         const sortedConds = Object.entries(condCounts).sort((a, b) => b[1] - a[1]);
         renderBarList('conditions-chart-list', sortedConds, allNotes.length, (label) => {
+            if (label === 'SIN ESPECIFICAR') return `condicion:""`;
             return `condicion:"${label}"`;
         });
 
@@ -373,6 +376,7 @@
 
         const sortedCurrs = Object.entries(currCounts).sort((a, b) => b[1] - a[1]).slice(0, 12);
         renderBarList('currencies-chart-list', sortedCurrs, allNotes.length, (label) => {
+            if (label === 'SIN MONEDA') return `moneda:""`;
             return `moneda:"${label}"`;
         });
     }
