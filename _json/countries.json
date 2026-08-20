@@ -7,6 +7,7 @@
       "es": "Kosovo",
       "en": "Kosovo"
     },
+    "vigente": "si",
     "flag": "FLAG_KOSOVO.jpg",
     "folder": "world"
   },
@@ -18,6 +19,7 @@
       "es": "Camerún",
       "en": "Cameroon"
     },
+    "vigente": "si",
     "flag": "FLAG_CAMEROON.jpg",
     "folder": "world"
   },
@@ -29,6 +31,7 @@
       "es": "Togo",
       "en": "Togo"
     },
+    "vigente": "si",
     "flag": "FLAG_TOGO.jpg",
     "folder": "world"
   },
@@ -40,6 +43,7 @@
       "es": "Chad",
       "en": "Chad"
     },
+    "vigente": "si",
     "flag": "FLAG_CHAD.jpg",
     "folder": "world"
   },
@@ -51,6 +55,7 @@
       "es": "Congo",
       "en": "Congo"
     },
+    "vigente": "si",
     "flag": "FLAG_CONGO.jpg",
     "folder": "world"
   },
@@ -62,6 +67,7 @@
       "es": "Benín",
       "en": "Benin"
     },
+    "vigente": "si",
     "flag": "FLAG_BENIN.jpg",
     "folder": "world"
   },
@@ -73,6 +79,7 @@
       "es": "Guinea Ecuatorial",
       "en": "Equatorial Guinea"
     },
+    "vigente": "si",
     "flag": "FLAG_GUINEAEQUATORIAL.jpg",
     "folder": "world"
   },
@@ -84,6 +91,7 @@
       "es": "Islas Malvinas",
       "en": "Falkland Islands"
     },
+    "vigente": "si",
     "flag": "FLAG_FALKLANDISLANDS.jpg",
     "folder": "world"
   },
@@ -95,6 +103,7 @@
       "es": "Tierras Australes Francesas",
       "en": "French Southern Territories"
     },
+    "vigente": "si",
     "flag": "FLAG_FRENCHSOUTHERNTERRITORIES.jpg",
     "folder": "world"
   },
@@ -106,6 +115,7 @@
       "es": "Gabón",
       "en": "Gabon"
     },
+    "vigente": "si",
     "flag": "FLAG_GABON.jpg",
     "folder": "world"
   },
@@ -117,6 +127,7 @@
       "es": "Palestina",
       "en": "Palestine"
     },
+    "vigente": "si",
     "flag": "FLAG_PALESTINE.jpg",
     "folder": "world"
   },
@@ -128,6 +139,7 @@
       "es": "Groenlandia",
       "en": "Greenland"
     },
+    "vigente": "si",
     "flag": "FLAG_GREENLAND.jpg",
     "folder": "world"
   },
@@ -139,6 +151,7 @@
       "es": "Irlanda",
       "en": "Ireland"
     },
+    "vigente": "si",
     "flag": "FLAG_IRELAND.jpg",
     "folder": "world"
   },
@@ -150,6 +163,7 @@
       "es": "Costa de Marfil",
       "en": "Côte d'Ivoire"
     },
+    "vigente": "si",
     "flag": "FLAG_COTEDIVOIRE.jpg",
     "folder": "world"
   },
@@ -161,6 +175,7 @@
       "es": "Letonia",
       "en": "Latvia"
     },
+    "vigente": "si",
     "flag": "FLAG_LATVIA.jpg",
     "folder": "world"
   },
@@ -172,6 +187,7 @@
       "es": "Malí",
       "en": "Mali"
     },
+    "vigente": "si",
     "flag": "FLAG_MALI.jpg",
     "folder": "world"
   },
@@ -183,6 +199,7 @@
       "es": "Montenegro",
       "en": "Montenegro"
     },
+    "vigente": "si",
     "flag": "FLAG_MONTENEGRO.jpg",
     "folder": "world"
   },
@@ -194,6 +211,7 @@
       "es": "Nueva Caledonia",
       "en": "New Caledonia"
     },
+    "vigente": "si",
     "flag": "FLAG_NEWCALEDONIA.jpg",
     "folder": "world"
   },
@@ -205,6 +223,7 @@
       "es": "Níger",
       "en": "Niger"
     },
+    "vigente": "si",
     "flag": "FLAG_NIGER.jpg",
     "folder": "world"
   },
@@ -216,6 +235,7 @@
       "es": "Panamá",
       "en": "Panama"
     },
+    "vigente": "si",
     "flag": "FLAG_PANAMA.jpg",
     "folder": "world"
   },
@@ -227,6 +247,7 @@
       "es": "Timor-Leste",
       "en": "Timor-Leste"
     },
+    "vigente": "si",
     "flag": "FLAG_TIMORLESTE.jpg",
     "folder": "world"
   },
@@ -238,6 +259,7 @@
       "es": "Senegal",
       "en": "Senegal"
     },
+    "vigente": "si",
     "flag": "FLAG_SENEGAL.jpg",
     "folder": "world"
   },
@@ -249,6 +271,7 @@
       "es": "Eslovaquia",
       "en": "Slovakia"
     },
+    "vigente": "si",
     "flag": "FLAG_SLOVAKIA.jpg",
     "folder": "world"
   },
@@ -260,6 +283,7 @@
       "es": "Sáhara Occidental",
       "en": "Western Sahara"
     },
+    "vigente": "si",
     "flag": "FLAG_WESTERNSAHARA.jpg",
     "folder": "world"
   },
@@ -271,6 +295,7 @@
       "es": "Burkina Faso",
       "en": "Burkina Faso"
     },
+    "vigente": "si",
     "flag": "FLAG_BURKINAFASO.jpg",
     "folder": "world"
   },
@@ -282,6 +307,7 @@
       "es": "Abjasia",
       "en": "Abkhazia"
     },
+    "vigente": "si",
     "flag": "FLAG_ABJASIA.jpg",
     "folder": "world"
   },
@@ -293,6 +319,7 @@
       "es": "Afganistán",
       "en": "Afghanistan"
     },
+    "vigente": "si",
     "flag": "FLAG_AFGANISTAN.jpg",
     "folder": "world"
   },
@@ -304,6 +331,7 @@
       "es": "Albania",
       "en": "Albania"
     },
+    "vigente": "si",
     "flag": "FLAG_ALBANIA.jpg",
     "folder": "world"
   },
@@ -315,6 +343,7 @@
       "es": "Alemania",
       "en": "Germany"
     },
+    "vigente": "si",
     "flag": "FLAG_ALEMANIA.jpg",
     "folder": "world"
   },
@@ -326,6 +355,7 @@
       "es": "Angola",
       "en": "Angola"
     },
+    "vigente": "si",
     "flag": "FLAG_ANGOLA.jpg",
     "folder": "world"
   },
@@ -337,6 +367,7 @@
       "es": "Arabia Saudí",
       "en": "Saudi Arabia"
     },
+    "vigente": "si",
     "flag": "FLAG_ARABIA.SAUDI.jpg",
     "folder": "world"
   },
@@ -348,6 +379,7 @@
       "es": "Argelia",
       "en": "Algeria"
     },
+    "vigente": "si",
     "flag": "FLAG_ARGELIA.jpg",
     "folder": "world"
   },
@@ -359,6 +391,7 @@
       "es": "Argentina",
       "en": "Argentina"
     },
+    "vigente": "si",
     "flag": "FLAG_ARGENTINA.jpg",
     "folder": "argentina"
   },
@@ -370,6 +403,7 @@
       "es": "Armenia",
       "en": "Armenia"
     },
+    "vigente": "si",
     "flag": "FLAG_ARMENIA.jpg",
     "folder": "world"
   },
@@ -381,6 +415,7 @@
       "es": "Aruba",
       "en": "Aruba"
     },
+    "vigente": "si",
     "flag": "FLAG_ARUBA.jpg",
     "folder": "world"
   },
@@ -392,6 +427,7 @@
       "es": "Australia",
       "en": "Australia"
     },
+    "vigente": "si",
     "flag": "FLAG_AUSTRALIA.jpg",
     "folder": "world"
   },
@@ -403,6 +439,7 @@
       "es": "Austria",
       "en": "Austria"
     },
+    "vigente": "si",
     "flag": "FLAG_AUSTRIA.jpg",
     "folder": "world"
   },
@@ -414,6 +451,7 @@
       "es": "Azerbaiyán",
       "en": "Azerbaijan"
     },
+    "vigente": "si",
     "flag": "FLAG_AZERBAIYAN.jpg",
     "folder": "world"
   },
@@ -425,6 +463,7 @@
       "es": "Bahamas",
       "en": "Bahamas"
     },
+    "vigente": "si",
     "flag": "FLAG_BAHAMAS.jpg",
     "folder": "world"
   },
@@ -436,6 +475,7 @@
       "es": "Baréin",
       "en": "Bahrain"
     },
+    "vigente": "si",
     "flag": "FLAG_BAREIN.jpg",
     "folder": "world"
   },
@@ -447,6 +487,7 @@
       "es": "Bailía de Jersey",
       "en": "Bailiwick of Jersey"
     },
+    "vigente": "si",
     "flag": "FLAG_BAILIA.DE.JERSEY.jpg",
     "folder": "world"
   },
@@ -458,6 +499,7 @@
       "es": "Bangladesh",
       "en": "Bangladesh"
     },
+    "vigente": "si",
     "flag": "FLAG_BANGLADESH.jpg",
     "folder": "world"
   },
@@ -469,6 +511,7 @@
       "es": "Barbados",
       "en": "Barbados"
     },
+    "vigente": "si",
     "flag": "FLAG_BARBADOS.jpg",
     "folder": "world"
   },
@@ -480,6 +523,7 @@
       "es": "Bélgica",
       "en": "Belgium"
     },
+    "vigente": "si",
     "flag": "FLAG_BELGICA.jpg",
     "folder": "world"
   },
@@ -491,6 +535,7 @@
       "es": "Belice",
       "en": "Belize"
     },
+    "vigente": "si",
     "flag": "FLAG_BELICE.jpg",
     "folder": "world"
   },
@@ -502,6 +547,7 @@
       "es": "Bermuda",
       "en": "Bermuda"
     },
+    "vigente": "si",
     "flag": "FLAG_BERMUDA.jpg",
     "folder": "world"
   },
@@ -513,6 +559,7 @@
       "es": "Biafra",
       "en": "Biafra"
     },
+    "vigente": "no",
     "flag": "FLAG_BIAFRA.jpg",
     "folder": "world"
   },
@@ -524,6 +571,7 @@
       "es": "Bielorrusia",
       "en": "Belarus"
     },
+    "vigente": "si",
     "flag": "FLAG_BIELORRUSIA.jpg",
     "folder": "world"
   },
@@ -535,6 +583,7 @@
       "es": "Birmania",
       "en": "Myanmar"
     },
+    "vigente": "si",
     "flag": "FLAG_BIRMANIA.jpg",
     "folder": "world"
   },
@@ -546,6 +595,7 @@
       "es": "Bolivia",
       "en": "Bolivia"
     },
+    "vigente": "si",
     "flag": "FLAG_BOLIVIA.jpg",
     "folder": "world"
   },
@@ -557,6 +607,7 @@
       "es": "Botswana",
       "en": "Botswana"
     },
+    "vigente": "si",
     "flag": "FLAG_BOTSWANA.jpg",
     "folder": "world"
   },
@@ -568,6 +619,7 @@
       "es": "Bosnia y Herzegovina",
       "en": "Bosnia and Herzegovina"
     },
+    "vigente": "si",
     "flag": "FLAG_BOZNIA.Y.HERZEGOVINA.jpg",
     "folder": "world"
   },
@@ -579,6 +631,7 @@
       "es": "Brasil",
       "en": "Brazil"
     },
+    "vigente": "si",
     "flag": "FLAG_BRASIL.jpg",
     "folder": "world"
   },
@@ -590,6 +643,7 @@
       "es": "Brunei",
       "en": "Brunei"
     },
+    "vigente": "si",
     "flag": "FLAG_BRUNEI.jpg",
     "folder": "world"
   },
@@ -601,6 +655,7 @@
       "es": "Bulgaria",
       "en": "Bulgaria"
     },
+    "vigente": "si",
     "flag": "FLAG_BULGARIA.jpg",
     "folder": "world"
   },
@@ -612,6 +667,7 @@
       "es": "Burundi",
       "en": "Burundi"
     },
+    "vigente": "si",
     "flag": "FLAG_BURUNDI.jpg",
     "folder": "world"
   },
@@ -623,6 +679,7 @@
       "es": "Bután",
       "en": "Bhutan"
     },
+    "vigente": "si",
     "flag": "FLAG_BUTAN.jpg",
     "folder": "world"
   },
@@ -634,6 +691,7 @@
       "es": "Cabo Verde",
       "en": "Cape Verde"
     },
+    "vigente": "si",
     "flag": "FLAG_CABO.VERDE.jpg",
     "folder": "world"
   },
@@ -645,6 +703,7 @@
       "es": "Camboya",
       "en": "Cambodia"
     },
+    "vigente": "si",
     "flag": "FLAG_CAMBOYA.jpg",
     "folder": "world"
   },
@@ -656,6 +715,7 @@
       "es": "Canadá",
       "en": "Canada"
     },
+    "vigente": "si",
     "flag": "FLAG_CANADA.jpg",
     "folder": "world"
   },
@@ -667,6 +727,7 @@
       "es": "Chile",
       "en": "Chile"
     },
+    "vigente": "si",
     "flag": "FLAG_CHILE.jpg",
     "folder": "chile"
   },
@@ -678,6 +739,7 @@
       "es": "China",
       "en": "China"
     },
+    "vigente": "si",
     "flag": "FLAG_CHINA.jpg",
     "folder": "world"
   },
@@ -689,6 +751,7 @@
       "es": "Chipre",
       "en": "Cyprus"
     },
+    "vigente": "si",
     "flag": "FLAG_CHIPRE.jpg",
     "folder": "world"
   },
@@ -700,6 +763,7 @@
       "es": "Colombia",
       "en": "Colombia"
     },
+    "vigente": "si",
     "flag": "FLAG_COLOMBIA.jpg",
     "folder": "world"
   },
@@ -711,6 +775,7 @@
       "es": "Comoras",
       "en": "Comoros"
     },
+    "vigente": "si",
     "flag": "FLAG_COMORAS.jpg",
     "folder": "world"
   },
@@ -722,6 +787,7 @@
       "es": "Corea",
       "en": "Korea"
     },
+    "vigente": "no",
     "flag": "FLAG_COREA.jpg",
     "folder": "world"
   },
@@ -733,6 +799,7 @@
       "es": "Corea del Norte",
       "en": "North Korea"
     },
+    "vigente": "si",
     "flag": "FLAG_COREA.DEL.NORTE.jpg",
     "folder": "world"
   },
@@ -744,6 +811,7 @@
       "es": "Corea del Sur",
       "en": "South Korea"
     },
+    "vigente": "si",
     "flag": "FLAG_COREA.DEL.SUR.jpg",
     "folder": "world"
   },
@@ -755,6 +823,7 @@
       "es": "Costa Rica",
       "en": "Costa Rica"
     },
+    "vigente": "si",
     "flag": "FLAG_COSTA.RICA.jpg",
     "folder": "world"
   },
@@ -766,6 +835,7 @@
       "es": "Croacia",
       "en": "Croatia"
     },
+    "vigente": "si",
     "flag": "FLAG_CROACIA.jpg",
     "folder": "world"
   },
@@ -777,6 +847,7 @@
       "es": "Cuba",
       "en": "Cuba"
     },
+    "vigente": "si",
     "flag": "FLAG_CUBA.jpg",
     "folder": "world"
   },
@@ -788,6 +859,7 @@
       "es": "Curazao",
       "en": "Curaçao"
     },
+    "vigente": "si",
     "flag": "FLAG_CURAZAO.jpg",
     "folder": "world"
   },
@@ -799,6 +871,7 @@
       "es": "Curazao y San Martín",
       "en": "Curaçao and Sint Maarten"
     },
+    "vigente": "si",
     "flag": "FLAG_CURAZAO.Y.SAN.MARTIN.jpg",
     "folder": "world"
   },
@@ -810,6 +883,7 @@
       "es": "Dinamarca",
       "en": "Denmark"
     },
+    "vigente": "si",
     "flag": "FLAG_DINAMARCA.jpg",
     "folder": "world"
   },
@@ -821,6 +895,7 @@
       "es": "Ecuador",
       "en": "Ecuador"
     },
+    "vigente": "si",
     "flag": "FLAG_ECUADOR.jpg",
     "folder": "world"
   },
@@ -832,6 +907,7 @@
       "es": "Egipto",
       "en": "Egypt"
     },
+    "vigente": "si",
     "flag": "FLAG_EGIPTO.jpg",
     "folder": "world"
   },
@@ -843,6 +919,7 @@
       "es": "El Congo",
       "en": "Democratic Republic of the Congo"
     },
+    "vigente": "si",
     "flag": "FLAG_EL.CONGO.jpg",
     "folder": "world"
   },
@@ -854,6 +931,7 @@
       "es": "Emiratos Árabes",
       "en": "United Arab Emirates"
     },
+    "vigente": "si",
     "flag": "FLAG_EMIRATOS.ARABES.jpg",
     "folder": "world"
   },
@@ -865,6 +943,7 @@
       "es": "Eritrea",
       "en": "Eritrea"
     },
+    "vigente": "si",
     "flag": "FLAG_ERITREA.jpg",
     "folder": "world"
   },
@@ -876,6 +955,7 @@
       "es": "Escocia",
       "en": "Scotland"
     },
+    "vigente": "si",
     "flag": "FLAG_ESCOCIA.jpg",
     "folder": "world"
   },
@@ -887,6 +967,7 @@
       "es": "Eslovenia",
       "en": "Slovenia"
     },
+    "vigente": "si",
     "flag": "FLAG_ESLOVENIA.jpg",
     "folder": "world"
   },
@@ -898,6 +979,7 @@
       "es": "España",
       "en": "Spain"
     },
+    "vigente": "si",
     "flag": "FLAG_ESPAÑA.jpg",
     "folder": "world"
   },
@@ -909,6 +991,7 @@
       "es": "Estados Unidos",
       "en": "United States"
     },
+    "vigente": "si",
     "flag": "FLAG_ESTADOS.UNIDOS.jpg",
     "folder": "usa"
   },
@@ -920,6 +1003,7 @@
       "es": "Estados del Caribe Oriental",
       "en": "Eastern Caribbean States"
     },
+    "vigente": "si",
     "flag": "FLAG_ESTADOS.DEL.CARIBE.ORIENTAL.jpg",
     "folder": "world"
   },
@@ -931,6 +1015,7 @@
       "es": "Estonia",
       "en": "Estonia"
     },
+    "vigente": "si",
     "flag": "FLAG_ESTONIA.jpg",
     "folder": "world"
   },
@@ -942,6 +1027,7 @@
       "es": "Etiopía",
       "en": "Ethiopia"
     },
+    "vigente": "si",
     "flag": "FLAG_ETIOPIA.jpg",
     "folder": "world"
   },
@@ -953,6 +1039,7 @@
       "es": "Filipinas",
       "en": "Philippines"
     },
+    "vigente": "si",
     "flag": "FLAG_FILIPINAS.jpg",
     "folder": "world"
   },
@@ -964,6 +1051,7 @@
       "es": "Finlandia",
       "en": "Finland"
     },
+    "vigente": "si",
     "flag": "FLAG_FINLANDIA.jpg",
     "folder": "world"
   },
@@ -975,6 +1063,7 @@
       "es": "Fiyi",
       "en": "Fiji"
     },
+    "vigente": "si",
     "flag": "FLAG_FIJI.jpg",
     "folder": "world"
   },
@@ -986,6 +1075,7 @@
       "es": "Francia",
       "en": "France"
     },
+    "vigente": "si",
     "flag": "FLAG_FRANCIA.jpg",
     "folder": "world"
   },
@@ -997,6 +1087,7 @@
       "es": "Gambia",
       "en": "Gambia"
     },
+    "vigente": "si",
     "flag": "FLAG_GAMBIA.jpg",
     "folder": "world"
   },
@@ -1008,6 +1099,7 @@
       "es": "Georgia",
       "en": "Georgia"
     },
+    "vigente": "si",
     "flag": "FLAG_GEORGIA.jpg",
     "folder": "world"
   },
@@ -1019,6 +1111,7 @@
       "es": "Ghana",
       "en": "Ghana"
     },
+    "vigente": "si",
     "flag": "FLAG_GHANA.jpg",
     "folder": "world"
   },
@@ -1030,6 +1123,7 @@
       "es": "Gran Bretaña",
       "en": "Great Britain"
     },
+    "vigente": "si",
     "flag": "FLAG_GRAN.BRETAÑA.jpg",
     "folder": "world"
   },
@@ -1041,6 +1135,7 @@
       "es": "Grecia",
       "en": "Greece"
     },
+    "vigente": "si",
     "flag": "FLAG_GRECIA.jpg",
     "folder": "world"
   },
@@ -1052,6 +1147,7 @@
       "es": "Guatemala",
       "en": "Guatemala"
     },
+    "vigente": "si",
     "flag": "FLAG_GUATEMALA.jpg",
     "folder": "world"
   },
@@ -1063,6 +1159,7 @@
       "es": "Guernsey",
       "en": "Guernsey"
     },
+    "vigente": "si",
     "flag": "FLAG_GUERNSEY.jpg",
     "folder": "world"
   },
@@ -1074,6 +1171,7 @@
       "es": "Guinea",
       "en": "Guinea"
     },
+    "vigente": "si",
     "flag": "FLAG_GUINEA.jpg",
     "folder": "world"
   },
@@ -1085,6 +1183,7 @@
       "es": "Guinea-bisáu",
       "en": "Guinea-Bissau"
     },
+    "vigente": "si",
     "flag": "FLAG_GUINEA.BISAU.jpg",
     "folder": "world"
   },
@@ -1096,6 +1195,7 @@
       "es": "Guyana",
       "en": "Guyana"
     },
+    "vigente": "si",
     "flag": "FLAG_GUYANA.jpg",
     "folder": "world"
   },
@@ -1107,6 +1207,7 @@
       "es": "Haití",
       "en": "Haiti"
     },
+    "vigente": "si",
     "flag": "FLAG_HAITI.jpg",
     "folder": "world"
   },
@@ -1118,6 +1219,7 @@
       "es": "Honduras",
       "en": "Honduras"
     },
+    "vigente": "si",
     "flag": "FLAG_HONDURAS.jpg",
     "folder": "world"
   },
@@ -1129,6 +1231,7 @@
       "es": "Hong Kong",
       "en": "Hong Kong"
     },
+    "vigente": "si",
     "flag": "FLAG_HONG.KONG.jpg",
     "folder": "world"
   },
@@ -1140,6 +1243,7 @@
       "es": "Hungría",
       "en": "Hungary"
     },
+    "vigente": "si",
     "flag": "FLAG_HUNGRIA.jpg",
     "folder": "world"
   },
@@ -1151,6 +1255,7 @@
       "es": "India",
       "en": "India"
     },
+    "vigente": "si",
     "flag": "FLAG_INDIA.jpg",
     "folder": "world"
   },
@@ -1162,6 +1267,7 @@
       "es": "Indonesia",
       "en": "Indonesia"
     },
+    "vigente": "si",
     "flag": "FLAG_INDONESIA.jpg",
     "folder": "world"
   },
@@ -1173,6 +1279,7 @@
       "es": "Irak",
       "en": "Iraq"
     },
+    "vigente": "si",
     "flag": "FLAG_IRAK.jpg",
     "folder": "world"
   },
@@ -1184,6 +1291,7 @@
       "es": "Irán",
       "en": "Iran"
     },
+    "vigente": "si",
     "flag": "FLAG_IRAN.jpg",
     "folder": "world"
   },
@@ -1195,6 +1303,7 @@
       "es": "Irlanda del Norte",
       "en": "Northern Ireland"
     },
+    "vigente": "si",
     "flag": "FLAG_IRLANDA.DEL.NORTE.jpg",
     "folder": "world"
   },
@@ -1206,6 +1315,7 @@
       "es": "Islandia",
       "en": "Iceland"
     },
+    "vigente": "si",
     "flag": "FLAG_ISLANDIA.jpg",
     "folder": "world"
   },
@@ -1217,6 +1327,7 @@
       "es": "Islas Caimán",
       "en": "Cayman Islands"
     },
+    "vigente": "si",
     "flag": "FLAG_ISLAS.CAIMAN.jpg",
     "folder": "world"
   },
@@ -1228,6 +1339,7 @@
       "es": "Islas Cook",
       "en": "Cook Islands"
     },
+    "vigente": "si",
     "flag": "FLAG_ISLAS.COOK.jpg",
     "folder": "world"
   },
@@ -1239,6 +1351,7 @@
       "es": "Isla de Man",
       "en": "Isle of Man"
     },
+    "vigente": "si",
     "flag": "FLAG_ISLA.DE.MAN.jpg",
     "folder": "world"
   },
@@ -1250,6 +1363,7 @@
       "es": "Islas Feroe",
       "en": "Faroe Islands"
     },
+    "vigente": "si",
     "flag": "FLAG_ISLASFEROE.jpg",
     "folder": "world"
   },
@@ -1261,6 +1375,7 @@
       "es": "Islas Salomón",
       "en": "Solomon Islands"
     },
+    "vigente": "si",
     "flag": "FLAG_ISLAS.SALOMON.jpg",
     "folder": "world"
   },
@@ -1272,6 +1387,7 @@
       "es": "Israel",
       "en": "Israel"
     },
+    "vigente": "si",
     "flag": "FLAG_ISRAEL.jpg",
     "folder": "world"
   },
@@ -1283,6 +1399,7 @@
       "es": "Italia",
       "en": "Italy"
     },
+    "vigente": "si",
     "flag": "FLAG_ITALIA.jpg",
     "folder": "world"
   },
@@ -1294,6 +1411,7 @@
       "es": "Jamaica",
       "en": "Jamaica"
     },
+    "vigente": "si",
     "flag": "FLAG_JAMAICA.jpg",
     "folder": "world"
   },
@@ -1305,6 +1423,7 @@
       "es": "Japón",
       "en": "Japan"
     },
+    "vigente": "si",
     "flag": "FLAG_JAPON.jpg",
     "folder": "world"
   },
@@ -1316,6 +1435,7 @@
       "es": "Jordania",
       "en": "Jordan"
     },
+    "vigente": "si",
     "flag": "FLAG_JORDANIA.jpg",
     "folder": "world"
   },
@@ -1327,6 +1447,7 @@
       "es": "Kazajistán",
       "en": "Kazakhstan"
     },
+    "vigente": "si",
     "flag": "FLAG_KAZAJISTAN.jpg",
     "folder": "world"
   },
@@ -1338,6 +1459,7 @@
       "es": "Kenia",
       "en": "Kenya"
     },
+    "vigente": "si",
     "flag": "FLAG_KENIA.jpg",
     "folder": "world"
   },
@@ -1349,6 +1471,7 @@
       "es": "Kirguistán",
       "en": "Kyrgyzstan"
     },
+    "vigente": "si",
     "flag": "FLAG_KIRGUISTAN.jpg",
     "folder": "world"
   },
@@ -1360,6 +1483,7 @@
       "es": "Kuwait",
       "en": "Kuwait"
     },
+    "vigente": "si",
     "flag": "FLAG_KUWAIT.jpg",
     "folder": "world"
   },
@@ -1371,6 +1495,7 @@
       "es": "Laos",
       "en": "Laos"
     },
+    "vigente": "si",
     "flag": "FLAG_LAOS.jpg",
     "folder": "world"
   },
@@ -1382,6 +1507,7 @@
       "es": "Lesotho",
       "en": "Lesotho"
     },
+    "vigente": "si",
     "flag": "FLAG_LESOTHO.jpg",
     "folder": "world"
   },
@@ -1393,6 +1519,7 @@
       "es": "Líbano",
       "en": "Lebanon"
     },
+    "vigente": "si",
     "flag": "FLAG_LIBANO.jpg",
     "folder": "world"
   },
@@ -1404,6 +1531,7 @@
       "es": "Liberia",
       "en": "Liberia"
     },
+    "vigente": "si",
     "flag": "FLAG_LIBERIA.jpg",
     "folder": "world"
   },
@@ -1415,6 +1543,7 @@
       "es": "Libia",
       "en": "Libya"
     },
+    "vigente": "si",
     "flag": "FLAG_LIBIA.jpg",
     "folder": "world"
   },
@@ -1426,6 +1555,7 @@
       "es": "Lituania",
       "en": "Lithuania"
     },
+    "vigente": "si",
     "flag": "FLAG_LITUANIA.jpg",
     "folder": "world"
   },
@@ -1437,6 +1567,7 @@
       "es": "Macao (china)",
       "en": "Macau (China)"
     },
+    "vigente": "si",
     "flag": "FLAG_MACAO.jpg",
     "folder": "world"
   },
@@ -1448,6 +1579,7 @@
       "es": "Macedonia del Norte",
       "en": "North Macedonia"
     },
+    "vigente": "si",
     "flag": "FLAG_MACEDONIA.DEL.NORTE.jpg",
     "folder": "world"
   },
@@ -1459,6 +1591,7 @@
       "es": "Madagascar",
       "en": "Madagascar"
     },
+    "vigente": "si",
     "flag": "FLAG_MADAGASCAR.jpg",
     "folder": "world"
   },
@@ -1470,6 +1603,7 @@
       "es": "Malasia",
       "en": "Malaysia"
     },
+    "vigente": "si",
     "flag": "FLAG_MALASIA.jpg",
     "folder": "world"
   },
@@ -1481,6 +1615,7 @@
       "es": "Malaui",
       "en": "Malawi"
     },
+    "vigente": "si",
     "flag": "FLAG_MALAUI.jpg",
     "folder": "world"
   },
@@ -1492,6 +1627,7 @@
       "es": "Maldivas",
       "en": "Maldives"
     },
+    "vigente": "si",
     "flag": "FLAG_MALDIVAS.jpg",
     "folder": "world"
   },
@@ -1503,6 +1639,7 @@
       "es": "Marruecos",
       "en": "Morocco"
     },
+    "vigente": "si",
     "flag": "FLAG_MARRUECOS.jpg",
     "folder": "world"
   },
@@ -1514,6 +1651,7 @@
       "es": "Mauricio",
       "en": "Mauritius"
     },
+    "vigente": "si",
     "flag": "FLAG_MAURICIO.jpg",
     "folder": "world"
   },
@@ -1525,6 +1663,7 @@
       "es": "Mauritania",
       "en": "Mauritania"
     },
+    "vigente": "si",
     "flag": "FLAG_MAURITANIA.jpg",
     "folder": "world"
   },
@@ -1536,6 +1675,7 @@
       "es": "México",
       "en": "Mexico"
     },
+    "vigente": "si",
     "flag": "FLAG_MEXICO.jpg",
     "folder": "world"
   },
@@ -1547,6 +1687,7 @@
       "es": "Moldavia",
       "en": "Moldova"
     },
+    "vigente": "si",
     "flag": "FLAG_MOLDOVIA.jpg",
     "folder": "world"
   },
@@ -1558,6 +1699,7 @@
       "es": "Mongolia",
       "en": "Mongolia"
     },
+    "vigente": "si",
     "flag": "FLAG_MONGOLIA.jpg",
     "folder": "world"
   },
@@ -1569,6 +1711,7 @@
       "es": "Mozambique",
       "en": "Mozambique"
     },
+    "vigente": "si",
     "flag": "FLAG_MOZAMBIQUE.jpg",
     "folder": "world"
   },
@@ -1580,6 +1723,7 @@
       "es": "Namibia",
       "en": "Namibia"
     },
+    "vigente": "si",
     "flag": "FLAG_NAMIBIA.jpg",
     "folder": "world"
   },
@@ -1591,6 +1735,7 @@
       "es": "Nepal",
       "en": "Nepal"
     },
+    "vigente": "si",
     "flag": "FLAG_NEPAL.jpg",
     "folder": "world"
   },
@@ -1602,6 +1747,7 @@
       "es": "Nicaragua",
       "en": "Nicaragua"
     },
+    "vigente": "si",
     "flag": "FLAG_NICARAGUA.jpg",
     "folder": "world"
   },
@@ -1613,6 +1759,7 @@
       "es": "Nigeria",
       "en": "Nigeria"
     },
+    "vigente": "si",
     "flag": "FLAG_NIGERIA.jpg",
     "folder": "world"
   },
@@ -1624,6 +1771,7 @@
       "es": "Noruega",
       "en": "Norway"
     },
+    "vigente": "si",
     "flag": "FLAG_NORUEGA.jpg",
     "folder": "world"
   },
@@ -1635,6 +1783,7 @@
       "es": "Nueva Zelanda",
       "en": "New Zealand"
     },
+    "vigente": "si",
     "flag": "FLAG_NUEVA.ZELANDA.jpg",
     "folder": "world"
   },
@@ -1646,6 +1795,7 @@
       "es": "Omán",
       "en": "Oman"
     },
+    "vigente": "si",
     "flag": "FLAG_OMAN.jpg",
     "folder": "world"
   },
@@ -1657,6 +1807,7 @@
       "es": "Países Bajos",
       "en": "Netherlands"
     },
+    "vigente": "si",
     "flag": "FLAG_PAISES.BAJOS.jpg",
     "folder": "world"
   },
@@ -1668,6 +1819,7 @@
       "es": "Pakistán",
       "en": "Pakistan"
     },
+    "vigente": "si",
     "flag": "FLAG_PAKISTAN.jpg",
     "folder": "world"
   },
@@ -1679,6 +1831,7 @@
       "es": "Papúa Nueva Guinea",
       "en": "Papua New Guinea"
     },
+    "vigente": "si",
     "flag": "FLAG_PAPUA.NUEVA.GUINEA.jpg",
     "folder": "world"
   },
@@ -1690,6 +1843,7 @@
       "es": "Paraguay",
       "en": "Paraguay"
     },
+    "vigente": "si",
     "flag": "FLAG_PARAGUAY.jpg",
     "folder": "world"
   },
@@ -1701,6 +1855,7 @@
       "es": "Perú",
       "en": "Peru"
     },
+    "vigente": "si",
     "flag": "FLAG_PERU.jpg",
     "folder": "world"
   },
@@ -1712,6 +1867,7 @@
       "es": "Polonia",
       "en": "Poland"
     },
+    "vigente": "si",
     "flag": "FLAG_POLONIA.jpg",
     "folder": "world"
   },
@@ -1723,6 +1879,7 @@
       "es": "Portugal",
       "en": "Portugal"
     },
+    "vigente": "si",
     "flag": "FLAG_PORTUGAL.jpg",
     "folder": "world"
   },
@@ -1734,6 +1891,7 @@
       "es": "Qatar",
       "en": "Qatar"
     },
+    "vigente": "si",
     "flag": "FLAG_QATAR.jpg",
     "folder": "world"
   },
@@ -1745,6 +1903,7 @@
       "es": "Rep. Centroafricana",
       "en": "Central African Republic"
     },
+    "vigente": "si",
     "flag": "FLAG_REPUBLICA.CENTROAFRICANA.jpg",
     "folder": "world"
   },
@@ -1756,6 +1915,7 @@
       "es": "Rep. Checa",
       "en": "Czech Republic"
     },
+    "vigente": "si",
     "flag": "FLAG_REPUBLICA.CHECA.jpg",
     "folder": "world"
   },
@@ -1767,6 +1927,7 @@
       "es": "Rep. Dominicana",
       "en": "Dominican Republic"
     },
+    "vigente": "si",
     "flag": "FLAG_REPUBLICA.DOMINICANA.jpg",
     "folder": "world"
   },
@@ -1778,6 +1939,7 @@
       "es": "Ruanda",
       "en": "Rwanda"
     },
+    "vigente": "si",
     "flag": "FLAG_RUANDA.jpg",
     "folder": "world"
   },
@@ -1789,6 +1951,7 @@
       "es": "Rumania",
       "en": "Romania"
     },
+    "vigente": "si",
     "flag": "FLAG_RUMANIA.jpg",
     "folder": "world"
   },
@@ -1800,6 +1963,7 @@
       "es": "Rusia",
       "en": "Russia"
     },
+    "vigente": "si",
     "flag": "FLAG_RUSIA.jpg",
     "folder": "world"
   },
@@ -1811,6 +1975,7 @@
       "es": "Samoa",
       "en": "Samoa"
     },
+    "vigente": "si",
     "flag": "FLAG_SAMOA.jpg",
     "folder": "world"
   },
@@ -1822,6 +1987,7 @@
       "es": "Santo Tomé y Príncipe",
       "en": "São Tomé and Príncipe"
     },
+    "vigente": "si",
     "flag": "FLAG_SANTO.TOME.Y.PRINCIPE.jpg",
     "folder": "world"
   },
@@ -1833,6 +1999,7 @@
       "es": "Serbia",
       "en": "Serbia"
     },
+    "vigente": "si",
     "flag": "FLAG_SERBIA.jpg",
     "folder": "world"
   },
@@ -1844,6 +2011,7 @@
       "es": "Seychelles",
       "en": "Seychelles"
     },
+    "vigente": "si",
     "flag": "FLAG_SEYCHELLES.jpg",
     "folder": "world"
   },
@@ -1855,6 +2023,7 @@
       "es": "Sierra Leona",
       "en": "Sierra Leone"
     },
+    "vigente": "si",
     "flag": "FLAG_SIERRA.LEONA.jpg",
     "folder": "world"
   },
@@ -1866,6 +2035,7 @@
       "es": "Singapur",
       "en": "Singapore"
     },
+    "vigente": "si",
     "flag": "FLAG_SINGAPUR.jpg",
     "folder": "world"
   },
@@ -1877,6 +2047,7 @@
       "es": "Siria",
       "en": "Syria"
     },
+    "vigente": "si",
     "flag": "FLAG_SIRIA.jpg",
     "folder": "world"
   },
@@ -1888,6 +2059,7 @@
       "es": "Somalia",
       "en": "Somalia"
     },
+    "vigente": "si",
     "flag": "FLAG_SOMALIA.jpg",
     "folder": "world"
   },
@@ -1899,6 +2071,7 @@
       "es": "Somalilandia",
       "en": "Somaliland"
     },
+    "vigente": "si",
     "flag": "FLAG_SOMALILANDIA.jpg",
     "folder": "world"
   },
@@ -1910,6 +2083,7 @@
       "es": "Sri Lanka",
       "en": "Sri Lanka"
     },
+    "vigente": "si",
     "flag": "FLAG_SRI.LANKA.jpg",
     "folder": "world"
   },
@@ -1921,6 +2095,7 @@
       "es": "Suazilandia",
       "en": "Eswatini"
     },
+    "vigente": "si",
     "flag": "FLAG_SUAZILANDIA.jpg",
     "folder": "world"
   },
@@ -1932,6 +2107,7 @@
       "es": "Sudáfrica",
       "en": "South Africa"
     },
+    "vigente": "si",
     "flag": "FLAG_SUD.AFRICA.jpg",
     "folder": "world"
   },
@@ -1943,6 +2119,7 @@
       "es": "Sudán",
       "en": "Sudan"
     },
+    "vigente": "si",
     "flag": "FLAG_SUDAN.jpg",
     "folder": "world"
   },
@@ -1954,6 +2131,7 @@
       "es": "Sudán del Sur",
       "en": "South Sudan"
     },
+    "vigente": "si",
     "flag": "FLAG_SUDAN.DEL.SUR.jpg",
     "folder": "world"
   },
@@ -1965,6 +2143,7 @@
       "es": "Suecia",
       "en": "Sweden"
     },
+    "vigente": "si",
     "flag": "FLAG_SUECIA.jpg",
     "folder": "world"
   },
@@ -1976,6 +2155,7 @@
       "es": "Suiza",
       "en": "Switzerland"
     },
+    "vigente": "si",
     "flag": "FLAG_SUIZA.jpg",
     "folder": "world"
   },
@@ -1987,6 +2167,7 @@
       "es": "Surinam",
       "en": "Suriname"
     },
+    "vigente": "si",
     "flag": "FLAG_SURINAM.jpg",
     "folder": "world"
   },
@@ -1998,6 +2179,7 @@
       "es": "Tailandia",
       "en": "Thailand"
     },
+    "vigente": "si",
     "flag": "FLAG_TAILANDIA.jpg",
     "folder": "world"
   },
@@ -2009,6 +2191,7 @@
       "es": "Taiwán",
       "en": "Taiwan"
     },
+    "vigente": "si",
     "flag": "FLAG_TAIWAN.jpg",
     "folder": "world"
   },
@@ -2020,6 +2203,7 @@
       "es": "Tanzania",
       "en": "Tanzania"
     },
+    "vigente": "si",
     "flag": "FLAG_TANZANIA.jpg",
     "folder": "world"
   },
@@ -2031,6 +2215,7 @@
       "es": "Tayikistán",
       "en": "Tajikistan"
     },
+    "vigente": "si",
     "flag": "FLAG_TAYIKISTAN.jpg",
     "folder": "world"
   },
@@ -2042,6 +2227,7 @@
       "es": "Tonga",
       "en": "Tonga"
     },
+    "vigente": "si",
     "flag": "FLAG_TONGA.jpg",
     "folder": "world"
   },
@@ -2053,6 +2239,7 @@
       "es": "Transnistria",
       "en": "Transnistria"
     },
+    "vigente": "si",
     "flag": "FLAG_TRANSNISTRIA.jpg",
     "folder": "world"
   },
@@ -2064,6 +2251,7 @@
       "es": "Trinidad y Tobago",
       "en": "Trinidad and Tobago"
     },
+    "vigente": "si",
     "flag": "FLAG_TRINIDAD.Y.TOBAGO.jpg",
     "folder": "world"
   },
@@ -2075,6 +2263,7 @@
       "es": "Túnez",
       "en": "Tunisia"
     },
+    "vigente": "si",
     "flag": "FLAG_TUNEZ.jpg",
     "folder": "world"
   },
@@ -2086,6 +2275,7 @@
       "es": "Turkmenistán",
       "en": "Turkmenistan"
     },
+    "vigente": "si",
     "flag": "FLAG_TURKMENISTAN.jpg",
     "folder": "world"
   },
@@ -2097,6 +2287,7 @@
       "es": "Turquía",
       "en": "Turkey"
     },
+    "vigente": "si",
     "flag": "FLAG_TURQUIA.jpg",
     "folder": "world"
   },
@@ -2108,6 +2299,7 @@
       "es": "Ucrania",
       "en": "Ukraine"
     },
+    "vigente": "si",
     "flag": "FLAG_UCRANIA.jpg",
     "folder": "world"
   },
@@ -2119,6 +2311,7 @@
       "es": "Uganda",
       "en": "Uganda"
     },
+    "vigente": "si",
     "flag": "FLAG_UGANDA.jpg",
     "folder": "world"
   },
@@ -2130,6 +2323,7 @@
       "es": "Unión Europea",
       "en": "European Union"
     },
+    "vigente": "si",
     "flag": "FLAG_UNION.EUROPEA.jpg",
     "folder": "world"
   },
@@ -2141,6 +2335,7 @@
       "es": "Uruguay",
       "en": "Uruguay"
     },
+    "vigente": "si",
     "flag": "FLAG_URUGUAY.jpg",
     "folder": "world"
   },
@@ -2152,6 +2347,7 @@
       "es": "Uzbekistán",
       "en": "Uzbekistan"
     },
+    "vigente": "si",
     "flag": "FLAG_UZBEKISTAN.jpg",
     "folder": "world"
   },
@@ -2163,6 +2359,7 @@
       "es": "Vanuatu",
       "en": "Vanuatu"
     },
+    "vigente": "si",
     "flag": "FLAG_VANUATU.jpg",
     "folder": "world"
   },
@@ -2174,6 +2371,7 @@
       "es": "Venezuela",
       "en": "Venezuela"
     },
+    "vigente": "si",
     "flag": "FLAG_VENEZUELA.jpg",
     "folder": "world"
   },
@@ -2185,6 +2383,7 @@
       "es": "Vietnam",
       "en": "Vietnam"
     },
+    "vigente": "si",
     "flag": "FLAG_VIETNAM.jpg",
     "folder": "world"
   },
@@ -2196,6 +2395,7 @@
       "es": "Vietnam del Sur",
       "en": "South Vietnam"
     },
+    "vigente": "no",
     "flag": "FLAG_VIETNAM.DEL.SUR.jpg",
     "folder": "world"
   },
@@ -2207,6 +2407,7 @@
       "es": "Yemen",
       "en": "Yemen"
     },
+    "vigente": "si",
     "flag": "FLAG_YEMEN.jpg",
     "folder": "world"
   },
@@ -2218,6 +2419,7 @@
       "es": "Yibuti",
       "en": "Djibouti"
     },
+    "vigente": "si",
     "flag": "FLAG_YIBUTI.jpg",
     "folder": "world"
   },
@@ -2229,6 +2431,7 @@
       "es": "Yugoslavia",
       "en": "Yugoslavia"
     },
+    "vigente": "no",
     "flag": "FLAG_YUGOSLAVIA.jpg",
     "folder": "world"
   },
@@ -2240,6 +2443,7 @@
       "es": "Zaire",
       "en": "Zaire"
     },
+    "vigente": "no",
     "flag": "FLAG_ZAIRE.jpg",
     "folder": "world"
   },
@@ -2251,6 +2455,7 @@
       "es": "Zambia",
       "en": "Zambia"
     },
+    "vigente": "si",
     "flag": "FLAG_ZAMBIA.jpg",
     "folder": "world"
   },
@@ -2262,7 +2467,9 @@
       "es": "Zimbabue",
       "en": "Zimbabwe"
     },
+    "vigente": "si",
     "flag": "FLAG_ZIMBABUE.jpg",
     "folder": "world"
   }
 }
+
