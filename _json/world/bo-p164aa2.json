@@ -4,7 +4,7 @@
   "denomination": {
     "value": 100,
     "currency": "Pesos",
-    "iso4217": "BOB",
+    "iso4217": "BOP",
     "subtype": "",
     "alternatives": []
   },

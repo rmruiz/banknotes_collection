@@ -23,6 +23,8 @@ const L = {
   perpage: ["Por página", "Per page"],
   billetes: ["billetes", "banknotes"],
   resultados: ["resultados", "results"],
+  page_go: ["Ir", "Go"],
+  page_label: ["Ir a página", "Go to page"],
   issues_none: ["Sin problemas detectados", "No issues detected"],
   issues_some: ["problemas detectados — click para verlos",
                 "issues detected — click to view"],
@@ -446,6 +448,11 @@ function renderPager(pages) {
                       : btn(p, p, { current: p === cur });
   }
   html += btn("»", cur + 1, { nav: true, disabled: cur >= pages });
+  html += `<form class="page-jump" aria-label="${t("page_label")}">
+    <input type="number" min="1" max="${pages}" value="${cur}"
+           aria-label="${t("page_label")}" class="page-jump-input">
+    <button type="submit">${t("page_go")}</button>
+  </form>`;
   $("#pager").innerHTML = html;
 }
 
@@ -957,6 +964,22 @@ document.addEventListener("DOMContentLoaded", async () => {
     const b = e.target.closest("button[data-page]");
     if (!b || b.disabled) return;
     state.page = parseInt(b.dataset.page, 10);
+    render();
+    $("#top").scrollIntoView({ behavior: "instant" });
+  });
+
+  $("#pager").addEventListener("submit", (e) => {
+    const form = e.target.closest(".page-jump");
+    if (!form) return;
+    e.preventDefault();
+    const input = form.querySelector(".page-jump-input");
+    const pages = Math.max(1, Math.ceil(state.filtered.length / state.perPage));
+    const requested = Number.parseInt(input.value, 10);
+    if (!Number.isFinite(requested)) {
+      input.value = state.page;
+      return;
+    }
+    state.page = Math.min(Math.max(requested, 1), pages);
     render();
     $("#top").scrollIntoView({ behavior: "instant" });
   });
