@@ -48,7 +48,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts
 sys.path.insert(0, str(JSON_DIR))                          # _json
 import build_web                    # reusa make_record (search, bandera, thumbs)
 import generar_imagen               # reusa compose() y flag_for()
-from util import unaccent, make_note_id, COUNTRIES, get_country_by_name  # convenios compartidos
+from util import (unaccent, make_note_id, COUNTRIES, CURRENCIES,
+                  get_country_by_name)  # convenios compartidos
 
 COUNTRY_MAP = {}
 COUNTRY_EN = {}
@@ -207,12 +208,21 @@ def _set_firmas(d, v):
     d["signatures"] = [s.strip() for s in v.split(" - ") if s.strip()]
 
 
+def _v_currency_code(v):
+    return isinstance(v, str) and (not v.strip() or v.strip().upper() in CURRENCIES)
+
+
+def _set_currency_code(d, v):
+    d["denomination"]["iso4217"] = v.strip().upper() or None
+
+
 FIELDS = {
     "pais": (_v_str(80, allow_empty=False), _set_pais),
     "colnect": (_v_url, lambda d, v: d["colnect"].update(url=v.strip())),
     "numista": (_v_url, lambda d, v: d.update(numista=v.strip())),
     "valor": (_v_num, lambda d, v: d["denomination"].update(value=v)),
     "moneda": (_v_str(80), lambda d, v: d["denomination"].update(currency=v.strip())),
+    "currency_code": (_v_currency_code, _set_currency_code),
     "anio": (_v_year, lambda d, v: d.update(year=v)),
     "verificado": (lambda v: isinstance(v, bool), lambda d, v: d.update(verificado=v)),
     "conmemorativo": (lambda v: isinstance(v, bool),
@@ -438,6 +448,7 @@ class Handler(SimpleHTTPRequestHandler):
             "denomination": {
                 "value": info["value"],
                 "currency": info["currency"],
+                "iso4217": None,
                 "subtype": "",
                 "alternatives": [],
             },
@@ -564,7 +575,7 @@ class Handler(SimpleHTTPRequestHandler):
             "id": _id,
             "pick_number": pick,
             "country_code": abbr.lower(),
-            "denomination": {"value": None, "currency": "",
+            "denomination": {"value": None, "currency": "", "iso4217": None,
                              "subtype": "", "alternatives": []},
             "year": None,
             "numista": "",

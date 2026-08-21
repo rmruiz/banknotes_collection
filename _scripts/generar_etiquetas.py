@@ -25,7 +25,7 @@ REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
 FLAGS = REPO / "web" / "_flags"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from util import get_country_by_code, get_country_by_name
+from util import get_country_by_code, get_country_by_name, currency_name
 
 try:
     import build_web
@@ -129,7 +129,9 @@ def load_records(filter_str=None, solo_verificados=False):
             "pick": d.get("pick_number", "") or "",
             "pais": pais,
             "value": (d.get("denomination") or {}).get("value", "") or "",
-            "currency": (d.get("denomination") or {}).get("currency", "") or "",
+            "currency": currency_name(
+                (d.get("denomination") or {}).get("iso4217"),
+                (d.get("denomination") or {}).get("currency", "") or ""),
             "anio": str(d.get("year") or ""),
             "serie": (d.get("notes") or {}).get("serie", "") or "",
             "zone": (d.get("notes") or {}).get("zone", "") or "",

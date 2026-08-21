@@ -243,6 +243,22 @@ Puede ser `null` cuando no existan observaciones.
 
 ## Convenciones
 
+### Vínculo con los billetes
+
+Los JSON individuales de billetes referencian este catálogo mediante
+`denomination.iso4217`. El código debe identificar la moneda efectivamente
+emitida por el billete, incluida la moneda histórica cuando corresponda.
+
+El campo `denomination.currency` conserva el texto original de la fuente y no
+se reemplaza automáticamente: puede contener un nombre local, una variante
+histórica o una denominación impresa que todavía requiere revisión. Si falta el
+código ISO o no existe en este catálogo, el build mantiene el billete visible con
+ese texto y lo informa en `web/data/issues.json`.
+
+No debe confundirse la moneda del billete con la moneda actualmente utilizada por
+el país. La relación geográfica actual se expresa en `uso`, mientras que la
+referencia histórica se expresa en `historia`.
+
 Los nombres de campos deben utilizar `snake_case`.
 
 Los códigos ISO deben utilizar mayúsculas.

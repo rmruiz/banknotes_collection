@@ -48,7 +48,7 @@ for i, a in enumerate(sys.argv[1:]):
 # Rep. Dominicana, Fiyi, Moldavia, etc.) y las utilidades compartidas
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_web
-from util import norm_flag, get_country_by_code, get_country_by_name
+from util import norm_flag, get_country_by_code, get_country_by_name, currency_name
 
 
 def flag_for(country_es):
@@ -76,7 +76,11 @@ def compose(d, front, back, flag, dest, tmp):
     T = lambda n: str(tmp / n)
     dn = d["denomination"]
     line1 = d["country"]["es"]
-    denom = build_web.denominacion_full(dn)
+    original_currency = dn.get("currency", "")
+    catalog_currency = currency_name(dn.get("iso4217"), original_currency)
+    denom = f"{build_web.fmt_valor(dn.get('value'))} {catalog_currency}".strip()
+    if original_currency and catalog_currency != original_currency:
+        denom += f" [{original_currency}]"
     line2 = f"{denom} - {d.get('year','')}"
     firmas = " - ".join(d.get("signatures") or [])
 

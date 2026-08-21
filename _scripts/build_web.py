@@ -24,7 +24,9 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts (util)
-from util import unaccent, norm_flag, COUNTRIES, get_country_by_code, get_country_by_name   # noqa: E402
+from util import (unaccent, norm_flag, COUNTRIES, CURRENCIES,
+                  get_country_by_code, get_country_by_name,
+                  get_currency_by_code)   # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
@@ -148,6 +150,10 @@ def make_record(d):
     pais_es = c_info["name"]["es"] if c_info else (d.get("country") or {}).get("es", "")
     pais_en = c_info["name"]["en"] if c_info else (d.get("country") or {}).get("en", "")
 
+    currency_code = str(dn.get("iso4217") or "").strip().upper()
+    currency_info = get_currency_by_code(currency_code)
+    currency_short = (currency_info or {}).get("nombre_corto") or {}
+
     firmas = " - ".join(d.get("signatures") or [])
     rec = {
         "id": d["id"],
@@ -157,6 +163,11 @@ def make_record(d):
         "pais_en": pais_en,
         "valor": dn.get("value"),
         "moneda": dn.get("currency", ""),
+        "currency_code": currency_code,
+        "currency_name_es": currency_short.get("es", "") or ((currency_info or {}).get("nombres") or {}).get("es", ""),
+        "currency_name_en": currency_short.get("en", "") or ((currency_info or {}).get("nombres") or {}).get("en", ""),
+        "currency_symbol": (currency_info or {}).get("simbolo") or "",
+        "currency_status": (currency_info or {}).get("estado") or "",
         "denominacion": denominacion_full(dn),
         "subtipo": dn.get("subtype", ""),
         "alternativas": " · ".join(dn.get("alternatives") or []),
@@ -184,6 +195,8 @@ def make_record(d):
     rec["search"] = build_search(
         d["id"], rec["pick"], rec["pais"], rec["pais_en"],
         rec["denominacion"], rec["moneda"], rec["valor"], rec["anio"],
+        rec["currency_code"], rec["currency_name_es"], rec["currency_name_en"],
+        rec["currency_symbol"], rec["currency_status"],
         firmas, rec["temas"], rec["obs"], rec["grupo"], dn.get("subtype", ""),
         " ".join(dn.get("alternatives") or []),
         notes.get("vigencia", ""), notes.get("serie", ""),
@@ -297,6 +310,12 @@ def build_issues_data(records, meta, force=False, json_malos=None):
     sin_full = [_mini(r) for r in records
                 if r["thumb_a"] and r["thumb_b"] and not r["thumb_f"]]
 
+    monedas_sin_vinculo = [
+        {**_mini(r), "currency_code": r["currency_code"],
+         "moneda": r["moneda"]}
+        for r in records if not r["currency_code"] or r["currency_code"] not in CURRENCIES
+    ]
+
     issues = {
         "generado": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "categorias": [
@@ -311,6 +330,16 @@ def build_issues_data(records, meta, force=False, json_malos=None):
                                 "presionar «Recargar datos»."),
                 "columnas": ["Archivo", "Error"],
                 "items": json_malos or [],
+            },
+            {
+                "clave": "monedas_sin_vinculo",
+                "titulo": "Billetes sin moneda vinculada al catálogo",
+                "descripcion": ("El código ISO 4217 falta o no existe en "
+                                "_json/currencies.json. Se conserva el nombre "
+                                "original y el billete sigue visible, pero debe "
+                                "revisarse especialmente en emisiones históricas."),
+                "columnas": ["ID", "País", "Denominación", "Moneda original", "ISO 4217"],
+                "items": monedas_sin_vinculo,
             },
             {
                 "clave": "carpetas_sin_json",
@@ -440,6 +469,13 @@ def build(force=False, verbose=False):
         _atomic_write_text(
             DATA / "countries.json",
             (JSON_DIR / "countries.json").read_text(encoding="utf-8")
+        )
+
+    # Sincronizar currencies.json a web/data/ para acceso directo desde la web
+    if (JSON_DIR / "currencies.json").exists():
+        _atomic_write_text(
+            DATA / "currencies.json",
+            (JSON_DIR / "currencies.json").read_text(encoding="utf-8")
         )
 
     _atomic_write_text(

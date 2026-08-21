@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from langchain_community.tools import DuckDuckGoSearchRun
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from util import get_country_by_code, get_country_by_name
+from util import get_country_by_code, get_country_by_name, currency_name
 
 # Diccionario estricto de conceptos permitidos
 ALLOWED_KEYS = {
@@ -106,7 +106,8 @@ def process_banknote_themes():
             c_info = get_country_by_code(code) if code else get_country_by_name((data.get("country") or {}).get("es", ""))
             country = c_info["name"]["es"] if c_info else (data.get("country") or {}).get("es", "")
             value = data.get("denomination", {}).get("value", "")
-            currency = data.get("denomination", {}).get("currency", "")
+            denomination = data.get("denomination", {})
+            currency = currency_name(denomination.get("iso4217"), denomination.get("currency", ""))
             year = data.get("year", "")
             contexto = get_search_context(country, value, currency, year)
 
