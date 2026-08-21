@@ -660,6 +660,48 @@
     },
     "notas": null
   },
+  "BAD": {
+    "codigo": "BAD",
+    "nombres": {
+      "es": "Dinar de Bosnia y Herzegovina",
+      "en": "Bosnia and Herzegovina dinar"
+    },
+    "nombre_corto": {
+      "es": "Dinar",
+      "en": "Dinar"
+    },
+    "simbolo": "дин",
+    "iso_4217": {
+      "numerico": "070",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "para",
+        "en": "para"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["BA"],
+      "curso_legal": ["BA"],
+      "circulacion": ["BA"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Bosnia y Herzegovina",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1992",
+      "moneda_anterior": "YUN",
+      "moneda_sucesora": "BAN"
+    },
+    "notas": "El dinar de Bosnia y Herzegovina fue introducido en julio de 1992, después de la independencia, sustituyendo al dinar yugoslavo. En 1994 fue reemplazado por el nuevo dinar de Bosnia y Herzegovina (BAN), a razón de 10.000 dinares antiguos por 1 nuevo dinar. La unidad se dividía en 100 para."
+  },
   "BAM": {
     "codigo": "BAM",
     "nombres": {
@@ -1127,10 +1169,10 @@
     },
     "historia": {
       "fecha_introduccion": "1967",
-      "moneda_anterior": null,
+      "moneda_anterior": "M$",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En 2019 la unidad monetaria oficial era el dólar de Brunei (Brunei dollar), aunque tradicionalmente también se denomina Ringgit Brunei. El dólar de Brunei está vinculado a la par con el dólar de Singapur mediante el Currency Interchangeability Agreement, por lo que el dólar de Singapur es aceptado como moneda de curso consuetudinario en Brunei. La unidad se divide en 100 centavos."
   },
   "BOB": {
     "codigo": "BOB",
@@ -1179,6 +1221,48 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "BOP": {
+    "codigo": "BOP",
+    "nombres": {
+      "es": "Peso boliviano",
+      "en": "Bolivian peso"
+    },
+    "nombre_corto": {
+      "es": "Peso",
+      "en": "Peso"
+    },
+    "simbolo": "$b",
+    "iso_4217": {
+      "numerico": "068",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["BO"],
+      "curso_legal": ["BO"],
+      "circulacion": ["BO"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Bolivia",
+      "codigo": "BCB"
+    },
+    "historia": {
+      "fecha_introduccion": "1963",
+      "moneda_anterior": null,
+      "moneda_sucesora": "BOB"
+    },
+    "notas": "Creado por la reforma monetaria aprobada en 1962 y puesto en circulación el 1 de enero de 1963. Sustituyó al boliviano a razón de 1 peso boliviano = 1.000 bolivianos. Permaneció vigente hasta 1986 y fue reemplazado por el nuevo boliviano en 1987 a razón de 1 BOB = 1.000.000 BOP. Su centésima parte se denominó centavo y su símbolo oficial fue $b."
   },
   "BOV": {
     "codigo": "BOV",
@@ -1270,6 +1354,90 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "BRC": {
+    "codigo": "BRC",
+    "nombres": {
+      "es": "Cruzado brasileño",
+      "en": "Brazilian cruzado"
+    },
+    "nombre_corto": {
+      "es": "Cruzado",
+      "en": "Cruzado"
+    },
+    "simbolo": "Cz$",
+    "iso_4217": {
+      "numerico": "076",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["BR"],
+      "curso_legal": ["BR"],
+      "circulacion": ["BR"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Brasil",
+      "codigo": "BCB"
+    },
+    "historia": {
+      "fecha_introduccion": "1986",
+      "moneda_anterior": "BRZ",
+      "moneda_sucesora": "BRN"
+    },
+    "notas": "El cruzado fue la moneda de Brasil entre el 28 de febrero de 1986 y el 15 de enero de 1989. En 1988 estaba vigente y se dividía en 100 centavos. Fue introducido a razón de 1 cruzado por 1.000 cruzeiros. En enero de 1989 fue reemplazado por el cruzado novo, a razón de 1.000 cruzados por 1 cruzado novo."
+  },
+  "BRZ": {
+    "codigo": "BRZ",
+    "nombres": {
+      "es": "Cruzeiro brasileño",
+      "en": "Brazilian cruzeiro"
+    },
+    "nombre_corto": {
+      "es": "Cruzeiro",
+      "en": "Cruzeiro"
+    },
+    "simbolo": "Cr$",
+    "iso_4217": {
+      "numerico": "076",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["BR"],
+      "curso_legal": ["BR"],
+      "circulacion": ["BR"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Brasil",
+      "codigo": "BCB"
+    },
+    "historia": {
+      "fecha_introduccion": "1942",
+      "moneda_anterior": null,
+      "moneda_sucesora": "BRN"
+    },
+    "notas": "El cruzeiro fue introducido en 1942. En 1964 se eliminó el centavo como fracción práctica y los valores se expresaban sin centavos. Permaneció vigente hasta el 12 de febrero de 1967, cuando fue sustituido por el cruzeiro novo. El código BRR corresponde al cruzeiro real de 1993-1994 y no a esta emisión."
   },
   "BSD": {
     "codigo": "BSD",
