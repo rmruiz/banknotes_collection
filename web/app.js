@@ -601,7 +601,7 @@ const EDIT_COLS = {
   pais: ["pais", "text"],
   monto: ["valor", "number"],
   moneda: ["moneda", "text"],
-  currency_code: ["currency_code", "text"],
+  currency_code: ["currency_code", "currency"],
   subtipo: ["subtipo", "text"],
   alternativas: ["alternativas", "text"],
   anio: ["anio", "number"],
@@ -664,10 +664,13 @@ function startEdit(td, rec) {
   if (td.querySelector("input, select")) return;   // ya en edición
   const [field, type] = EDIT_COLS[td.dataset.col];
 
-  if (type === "select") {
+  if (type === "select" || type === "currency") {
     const sel = document.createElement("select");
     sel.className = "cell-edit";
-    sel.innerHTML = CONDICIONES.map((c) =>
+    const options = type === "currency"
+      ? ["", ...Object.keys(state.currencies).sort()]
+      : CONDICIONES;
+    sel.innerHTML = options.map((c) =>
       `<option value="${c}" ${c === (rec[field] ?? "") ? "selected" : ""}>${c || "—"}</option>`).join("");
     td.textContent = "";
     td.appendChild(sel);
@@ -887,8 +890,12 @@ document.addEventListener("DOMContentLoaded", async () => {
       const res = await fetch("/api/rebuild", { method: "POST" });
       const out = await res.json().catch(() => ({}));
       if (!res.ok || !out.ok) throw new Error(out.error || `HTTP ${res.status}`);
-      const data = await fetch("data/collection.json", { cache: "no-store" });
+      const [data, currenciesData] = await Promise.all([
+        fetch("data/collection.json", { cache: "no-store" }),
+        fetch("data/currencies.json", { cache: "no-store" }),
+      ]);
       state.all = await data.json();
+      state.currencies = await currenciesData.json();
       applyFilter();   // re-aplica búsqueda/orden/filtro sobre los datos frescos
       loadIssuesBadge();
       btn.textContent = `✓ ${out.thumbs_generadas} ${t("thumbs_new")}`

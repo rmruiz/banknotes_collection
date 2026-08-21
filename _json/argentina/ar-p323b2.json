@@ -4,7 +4,7 @@
   "denomination": {
     "value": 1,
     "currency": "Austral",
-    "iso4217": "ARS",
+    "iso4217": "ARA",
     "subtype": "Austral",
     "alternatives": []
   },
@@ -20,7 +20,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": false,
+  "verificado": true,
   "notes": {
     "serie": "",
     "bank": "",
