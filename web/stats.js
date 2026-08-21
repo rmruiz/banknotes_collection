@@ -8,6 +8,7 @@
 
     let allNotes = [];
     let allCountries = {};
+    let allCurrencies = {};
     let notesByCountryCode = {}; // code -> [notes]
     let notesByIsoA2 = {};          // ISO_A2 -> [notes]
     let missingCountriesList = [];
@@ -17,7 +18,7 @@
 
     async function init() {
         try {
-            let notesData, countriesData;
+            let notesData, countriesData, currenciesData;
 
             try {
                 const notesRes = await fetch('data/collection.json');
@@ -38,8 +39,16 @@
                 }
             }
 
+            try {
+                const currenciesRes = await fetch('data/currencies.json');
+                currenciesData = await currenciesRes.json();
+            } catch (e) {
+                console.error('Error cargando data/currencies.json:', e);
+            }
+
             allNotes = notesData || [];
             allCountries = countriesData || {};
+            allCurrencies = currenciesData || {};
 
             processData();
             renderKPIs();
@@ -119,7 +128,7 @@
         const missingCount = missingCountriesList.length;
         const pctOwned = totalCountriesInCatalog ? ((ownedCountriesCount / totalCountriesInCatalog) * 100).toFixed(1) : 0;
 
-        const currenciesSet = new Set(allNotes.map(n => (n.moneda || '').trim()).filter(Boolean));
+        const currenciesSet = new Set(allNotes.map(n => n.currency_code || '').filter(Boolean));
         const specialCount = allNotes.filter(n => n.conmemorativo || n.remarcado).length;
 
         document.getElementById('kpi-total-notes').textContent = totalNotes.toLocaleString('es-ES');
@@ -356,14 +365,21 @@
         // 4. Monedas Más Frecuentes
         const currCounts = {};
         allNotes.forEach(n => {
-            const curr = (n.moneda || 'Sin moneda').trim() || 'Sin moneda';
-            currCounts[curr] = (currCounts[curr] || 0) + 1;
+            const code = (n.currency_code || '').trim().toUpperCase();
+            const info = allCurrencies[code];
+            const names = info && (info.nombre_corto || info.nombres);
+            const label = names && (names.es || names.en);
+            const curr = code && label ? `${label} (${code})` : (code || 'Sin moneda vinculada');
+            if (!currCounts[curr]) currCounts[curr] = { count: 0, code };
+            currCounts[curr].count += 1;
         });
 
-        const sortedCurrs = Object.entries(currCounts).sort((a, b) => b[1] - a[1]).slice(0, 12);
-        renderBarList('currencies-chart-list', sortedCurrs, allNotes.length, (label) => {
-            if (label === 'SIN MONEDA') return `moneda:""`;
-            return `moneda:"${label}"`;
+        const sortedCurrs = Object.entries(currCounts)
+            .map(([label, value]) => [label, value.count, value.code])
+            .sort((a, b) => b[1] - a[1]).slice(0, 12);
+        renderBarList('currencies-chart-list', sortedCurrs, allNotes.length, (label, item) => {
+            const code = item && item[2];
+            return code ? `currency_code:"${code}"` : `currency_code:""`;
         });
     }
 
@@ -373,7 +389,8 @@
 
         const maxCount = dataItems.length ? Math.max(...dataItems.map(d => d[1])) : 1;
 
-        dataItems.forEach(([label, count]) => {
+        dataItems.forEach((item) => {
+            const [label, count] = item;
             const pct = ((count / total) * 100).toFixed(1);
             const barWidthPct = ((count / maxCount) * 100).toFixed(1);
 
@@ -388,7 +405,7 @@
                 row.style.padding = '4px 6px';
                 row.title = `Ver en catálogo: ${label}`;
 
-                const query = queryBuilder(label);
+                const query = queryBuilder(label, item);
                 row.addEventListener('click', () => {
                     window.location.href = `index.html?q=${encodeURIComponent(query)}`;
                 });

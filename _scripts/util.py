@@ -34,6 +34,7 @@ def make_note_id(abbr, pick):
 
 REPO = Path(__file__).resolve().parent.parent
 COUNTRIES_FILE = REPO / "_json" / "countries.json"
+CURRENCIES_FILE = REPO / "_json" / "currencies.json"
 
 
 def load_countries():
@@ -66,3 +67,28 @@ def get_country_by_name(name_es):
     if not name_es:
         return None
     return COUNTRY_BY_NAME.get(str(name_es).strip().lower())
+
+
+def load_currencies():
+    """Carga _json/currencies.json (fuente única de verdad de monedas)."""
+    if not CURRENCIES_FILE.exists():
+        return {}
+    with CURRENCIES_FILE.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+CURRENCIES = load_currencies()
+
+
+def get_currency_by_code(code):
+    """Retorna metadatos de la moneda dado su código ISO 4217."""
+    if not code:
+        return None
+    return CURRENCIES.get(str(code).strip().upper())
+
+
+def currency_name(code, fallback="", language="es"):
+    """Nombre corto localizado, con el texto original como fallback."""
+    info = get_currency_by_code(code) or {}
+    names = info.get("nombre_corto") or info.get("nombres") or {}
+    return names.get(language) or names.get("es") or names.get("en") or fallback

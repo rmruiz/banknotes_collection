@@ -32,6 +32,7 @@ const L = {
   pais: ["País", "Country"],
   monto: ["Monto", "Amount"],
   moneda: ["Moneda", "Currency"],
+  currency_code: ["ISO 4217", "ISO 4217"],
   denominacion: ["Moneda Full", "Denomination"],
   subtipo: ["Subtipo", "Subtype"],
   alternativas: ["Otra moneda", "Other currency"],
@@ -80,6 +81,7 @@ const COLUMNS = [
   ["pais", "País", true],
   ["monto", "Monto", false],
   ["moneda", "Moneda", false],
+  ["currency_code", "ISO 4217", false],
   ["denominacion", "Moneda Full", true],
   ["subtipo", "Subtipo", false],
   ["alternativas", "Otra moneda", false],
@@ -117,6 +119,7 @@ function loadCols() {
 
 const state = {
   all: [],       // todos los registros
+  currencies: {}, // catálogo ISO 4217 publicado por el build
   filtered: [],  // resultado de la búsqueda
   page: 1,
   perPage: 25,
@@ -149,6 +152,12 @@ function esc(s) {
 function fmtValor(v) {
   if (v === null || v === undefined) return "";
   return v.toLocaleString("es-CL");
+}
+
+function currencyDisplay(rec) {
+  const name = lang === "en" ? rec.currency_name_en : rec.currency_name_es;
+  if (!name) return rec.moneda || "";
+  return rec.currency_symbol ? `${name} (${rec.currency_symbol})` : name;
 }
 
 function debounce(fn, ms) {
@@ -369,7 +378,8 @@ function render() {
       ${txtCell(r, "id")}
       <td data-label="${t("pais")}" data-col="pais" class="${isEditMode ? "editable" : ""}">${esc(paisDisplay(r))}</td>
       <td data-label="${t("monto")}" data-col="monto" class="num ${isEditMode ? "editable" : ""}">${fmtValor(r.valor)}</td>
-      <td data-label="${t("moneda")}" data-col="moneda" class="${isEditMode ? "editable" : ""}">${esc(r.moneda)}</td>
+      <td data-label="${t("moneda")}" data-col="moneda" class="${isEditMode ? "editable" : ""}" title="${esc(r.moneda)}">${esc(currencyDisplay(r))}</td>
+      ${txtCell(r, "currency_code")}
       ${txtCell(r, "denominacion")}
       ${txtCell(r, "subtipo")}
       ${txtCell(r, "alternativas")}
@@ -457,6 +467,8 @@ const DETAIL_FIELDS = [
   ["id", "ID"],
   ["pick", "Pick"],
   ["pais", "País"],
+  ["currency_code", "ISO 4217"],
+  ["currency_name_es", "Nombre moneda"],
   ["denominacion", "Moneda Full"],
   ["subtipo", "Subtipo"],
   ["alternativas", "Otra moneda"],
@@ -489,6 +501,7 @@ function detailValue(key, val, r) {
     return esc(r.pais_en && r.pais_en !== r.pais
       ? `${paisDisplay(r)} (${otro})` : paisDisplay(r));
   }
+  if (key === "currency_name_es") return esc(currencyDisplay(r));
   if (typeof val === "boolean") return t("si");
   return esc(val);
 }
@@ -588,6 +601,7 @@ const EDIT_COLS = {
   pais: ["pais", "text"],
   monto: ["valor", "number"],
   moneda: ["moneda", "text"],
+  currency_code: ["currency_code", "text"],
   subtipo: ["subtipo", "text"],
   alternativas: ["alternativas", "text"],
   anio: ["anio", "number"],
@@ -819,8 +833,12 @@ async function createNewNote(e) {
 
 document.addEventListener("DOMContentLoaded", async () => {
   // no-store: siempre datos frescos aunque se sirva sin serve_web.py
-   const res = await fetch("data/collection.json", { cache: "no-store" });
+   const [res, currenciesRes] = await Promise.all([
+     fetch("data/collection.json", { cache: "no-store" }),
+     fetch("data/currencies.json", { cache: "no-store" }).catch(() => null),
+   ]);
    state.all = await res.json();
+   state.currencies = currenciesRes ? await currenciesRes.json() : {};
    state.filtered = state.all;
 
    // Leer parámetro q de la URL y poblar la barra de búsqueda

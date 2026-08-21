@@ -11,12 +11,13 @@ Este proyecto es un sistema integral basado en **archivos locales** (sin bases d
 ### Arquitectura  
 1. **Capa de Almacenamiento**  
    - JSONs individuales por billete organizados en `_json/<categoría>/<id>.json` (ej. `chile/`, `argentina/`, `usa/`, `world/`).  
-   - `_json/countries.json`: **Fuente única de verdad** para la información de países (código ISO, nombres en ES/EN, bandera asignada en `_flags/` y carpeta correspondiente).  
+  - `_json/countries.json`: **Fuente única de verdad** para la información de países (código ISO, nombres en ES/EN, bandera asignada en `_flags/` y carpeta correspondiente).
+  - `_json/currencies.json`: **Fuente única de verdad** para monedas, códigos ISO 4217, nombres, símbolos y estado histórico.
    - Fotos originales alojadas en `_originals/<id>/<id>_A.jpg` (frente) y `<id>_B.jpg` (reverso).  
 2. **Capa de Procesamiento (`_scripts/`)**  
    - Scripts para compilación del catálogo, generación de miniaturas, imágenes consolidadas, etiquetas PDF y extracción de metadatos con IA.  
 3. **Capa de Presentación (`web/`)**  
-   - Frontend estático responsivo en `web/` con Vanilla JS y Pico.css, alimentado por `web/collection.json`.  
+  - Frontend estático responsivo en `web/` con Vanilla JS y Pico.css, alimentado por `web/data/collection.json` y `web/data/currencies.json`.
 
 ---
 
@@ -62,7 +63,7 @@ Accede a la aplicación en [http://localhost:8000/web/](http://localhost:8000/we
 | Script | Propósito | Formas de Uso |  
 |--------|-----------|---------------|  
 | `_scripts/serve_web.py` | Servidor web local y API REST para visualización y administración (crear billetes, editar JSONs, verificar billetes y solicitar generación de imágenes `_FULL/`). | `python3 _scripts/serve_web.py 8000` |  
-| `_scripts/build_web.py` | Genera el índice unificado `web/collection.json` y las miniaturas en `web/thumbs/`. | `python3 _scripts/build_web.py --force` |  
+| `_scripts/build_web.py` | Genera el índice unificado `web/data/collection.json`, publica `web/data/currencies.json` y genera las miniaturas en `web/thumbs/`. | `python3 _scripts/build_web.py --force` |
 | `_scripts/generar_imagen.py` | Genera la imagen consolidada `_FULL/<id>.jpg` (frente + info + bandera + reverso). Funciona en CLI y como servicio API del servidor web (`POST /api/generar_full`). | `python3 _scripts/generar_imagen.py` <br> `python3 _scripts/generar_imagen.py --filter chile` |  
 | `_scripts/generar_etiquetas.py` | Genera un archivo PDF (`etiquetas.pdf`) imprimible en formato Carta con etiquetas físicas estructuradas para cada billete usando ReportLab. | `python3 _scripts/generar_etiquetas.py` <br> `python3 _scripts/generar_etiquetas.py --filter chile` |  
 | `_scripts/extract_serial.py` | Extrae números de serie leyendo las imágenes de los billetes mediante IA local (Ollama). | `python3 _scripts/extract_serial.py` |  
@@ -82,6 +83,19 @@ Accede a la aplicación en [http://localhost:8000/web/](http://localhost:8000/we
   - `flag`: Nombre del archivo de imagen de la bandera en `_flags/`.
   - `folder`: Carpeta en `_json/` donde se almacenan sus billetes (ej: `"chile"`, `"world"`).
 - Las funciones de búsqueda y consulta se cargan directamente a través de [`_scripts/util.py`](file:///Users/rolando/git/banknotes_collection/_scripts/util.py).
+
+## 💱 Gestión de Monedas (`_json/currencies.json`)
+
+Los JSON individuales de billetes enlazan con el catálogo mediante
+`denomination.iso4217`. El código identifica la moneda efectivamente emitida por
+el billete, incluida la moneda histórica cuando corresponda. El campo
+`denomination.currency` conserva el texto original de la fuente.
+
+El build publica el catálogo como `web/data/currencies.json`. Los billetes sin
+código o con una referencia inexistente siguen apareciendo usando el texto
+original, pero se reportan en `issues.json` bajo `monedas_sin_vinculo`. Los casos
+en que el código es válido pero puede no corresponder históricamente al billete
+requieren revisión manual y no se corrigen automáticamente.
 
 ---
 
