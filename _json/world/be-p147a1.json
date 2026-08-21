@@ -4,7 +4,7 @@
   "denomination": {
     "value": 100,
     "currency": "Francos",
-    "iso4217": "EUR",
+    "iso4217": "BEF",
     "subtype": "",
     "alternatives": []
   },

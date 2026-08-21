@@ -4,7 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Apsar",
-    "iso4217": "RUB",
+    "iso4217": "APS",
     "subtype": "",
     "alternatives": []
   },

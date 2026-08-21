@@ -292,6 +292,129 @@
     },
     "notas": null
   },
+  "AOS": {
+    "codigo": "AOS",
+    "nombres": {
+      "es": "Escudo angolano",
+      "en": "Angolan escudo"
+    },
+    "nombre_corto": {
+      "es": "Escudo",
+      "en": "Escudo"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["AO"],
+      "curso_legal": ["AO"],
+      "circulacion": ["AO"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Angola",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1958",
+      "moneda_anterior": "ANG",
+      "moneda_sucesora": "AOK"
+    },
+    "notas": "Escudo angolano de la segunda emisión, utilizado entre 1958 y 1977. Fue sustituido por el primer kwanza (AOK) a la paridad de 1 kwanza = 1 escudo."
+  },
+  "APS": {
+    "codigo": "APS",
+    "nombres": {
+      "es": "Apsar",
+      "en": "Apsar"
+    },
+    "nombre_corto": {
+      "es": "Apsar",
+      "en": "Apsar"
+    },
+    "simbolo": "ҧ",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": null
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": null
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": ["GE-AB"],
+      "curso_legal": ["GE-AB"],
+      "circulacion": ["GE-AB"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": null,
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": null,
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Funciona con valor legal local fijado en paridad (1 apsar = 10 rublos), pero se acuña principalmente para coleccionistas"
+  },
+  "ARA": {
+    "codigo": "ARA",
+    "nombres": {
+      "es": "Austral argentino",
+      "en": "Argentine austral"
+    },
+    "nombre_corto": {
+      "es": "Austral",
+      "en": "Austral"
+    },
+    "simbolo": "₳",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["AR"],
+      "curso_legal": ["AR"],
+      "circulacion": ["AR"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de la República Argentina",
+      "codigo": "BCRA"
+    },
+    "historia": {
+      "fecha_introduccion": "1985",
+      "moneda_anterior": "ARL",
+      "moneda_sucesora": "ARS"
+    },
+    "notas": "El austral fue la moneda de Argentina entre 1985 y 1991. En 1988 circulaba en denominaciones expresadas en australes y centavos. Fue reemplazado por el peso argentino a razón de 10.000 australes por 1 peso argentino."
+  },
   "ARS": {
     "codigo": "ARS",
     "nombres": {
@@ -339,6 +462,48 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "ATK": {
+    "codigo": "ATK",
+    "nombres": {
+      "es": "Corona austriaca",
+      "en": "Austrian krone"
+    },
+    "nombre_corto": {
+      "es": "Corona",
+      "en": "Krone"
+    },
+    "simbolo": "K",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "heller",
+        "en": "heller"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["AT"],
+      "curso_legal": ["AT"],
+      "circulacion": ["AT"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Austrohúngaro",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1919",
+      "moneda_anterior": null,
+      "moneda_sucesora": "ATS"
+    },
+    "notas": "Tras la disolución del Imperio austrohúngaro en 1918, la corona continuó siendo la moneda de Austria hasta 1925, cuando fue sustituida por el schilling. La corona austrohúngara original se introdujo en 1892."
   },
   "AUD": {
     "codigo": "AUD",
@@ -638,6 +803,90 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "BEF": {
+    "codigo": "BEF",
+    "nombres": {
+      "es": "Franco belga",
+      "en": "Belgian franc"
+    },
+    "nombre_corto": {
+      "es": "Franco",
+      "en": "Franc"
+    },
+    "simbolo": "Fr",
+    "iso_4217": {
+      "numerico": "056",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["BE"],
+      "curso_legal": ["BE"],
+      "circulacion": ["BE"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Bélgica",
+      "codigo": "NBB"
+    },
+    "historia": {
+      "fecha_introduccion": "1832",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "El franco belga fue la moneda de Bélgica hasta la introducción del euro. En 1999 el euro pasó a ser la moneda oficial para operaciones contables y electrónicas, mientras el franco belga continuó circulando físicamente hasta 2002. El franco belga no utilizaba decimales en la práctica monetaria."
+  },
+  "BFL": {
+    "codigo": "BFL",
+    "nombres": {
+      "es": "Libra biafreña",
+      "en": "Biafran pound"
+    },
+    "nombre_corto": {
+      "es": "Libra",
+      "en": "Pound"
+    },
+    "simbolo": "£",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "chelín",
+        "en": "shilling"
+      },
+      "factor": 20
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["BI"],
+      "curso_legal": ["BI"],
+      "circulacion": ["BI"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Bank of Biafra",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1968",
+      "moneda_anterior": "NGP",
+      "moneda_sucesora": "NGN"
+    },
+    "notas": "La libra biafreña fue la moneda de la República de Biafra durante la Guerra Civil Nigeriana. Se introdujo en 1968 y coexistió con la libra nigeriana. Una libra se dividía en 20 chelines y cada chelín en 12 peniques. Biafra dejó de existir en 1970."
   },
   "BGN": {
     "codigo": "BGN",

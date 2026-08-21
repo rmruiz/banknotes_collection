@@ -4,7 +4,7 @@
   "denomination": {
     "value": 1000,
     "currency": "Australes",
-    "iso4217": "ARS",
+    "iso4217": "ARA",
     "subtype": "Austral",
     "alternatives": []
   },
