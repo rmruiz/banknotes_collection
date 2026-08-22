@@ -4,7 +4,7 @@
   "denomination": {
     "value": 500,
     "currency": "Intis",
-    "iso4217": "PEN",
+    "iso4217": "PEI",
     "subtype": "",
     "alternatives": []
   },
@@ -20,7 +20,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",
