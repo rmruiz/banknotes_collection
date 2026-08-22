@@ -2684,6 +2684,48 @@
   },
   "notas": "En 1982 el sucre era la moneda oficial de Ecuador y se dividía en 100 centavos. El Banco Central del Ecuador documenta que el sucre fue la moneda de curso legal desde 1884 hasta 2000. Fue reemplazado por el dólar estadounidense como moneda de curso legal en 2000."
 },
+  "EEK": {
+    "codigo": "EEK",
+    "nombres": {
+      "es": "Corona estonia",
+      "en": "Estonian kroon"
+    },
+    "nombre_corto": {
+      "es": "Corona",
+      "en": "Kroon"
+    },
+    "simbolo": "kr",
+    "iso_4217": {
+      "numerico": "233",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "séntimo",
+        "en": "senti"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["EE"],
+      "curso_legal": ["EE"],
+      "circulacion": ["EE"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Eesti Pank",
+      "codigo": "EP"
+    },
+    "historia": {
+      "fecha_introduccion": "1992",
+      "moneda_anterior": "SUR",
+      "moneda_sucesora": "EUR"
+    },
+    "notas": null
+  },
   "EGP": {
     "codigo": "EGP",
     "nombres": {
@@ -2951,6 +2993,48 @@
     },
     "notas": "Circulación fiduciaria desde 2002. Utilizado de facto en Montenegro y Kosovo sin acuerdo monetario formal."
   },
+  "FIM": {
+    "codigo": "FIM",
+    "nombres": {
+      "es": "Marco finlandés",
+      "en": "Finnish markka"
+    },
+    "nombre_corto": {
+      "es": "Marco",
+      "en": "Markka"
+    },
+    "simbolo": "mk",
+    "iso_4217": {
+      "numerico": "246",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "penique",
+        "en": "penni"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["FI"],
+      "curso_legal": ["FI"],
+      "circulacion": ["FI"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Finlandia",
+      "codigo": "BOF"
+    },
+    "historia": {
+      "fecha_introduccion": "1860",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": null
+  },
   "FJD": {
     "codigo": "FJD",
     "nombres": {
@@ -3049,6 +3133,48 @@
     },
     "notas": null
   },
+  "FRF": {
+    "codigo": "FRF",
+    "nombres": {
+      "es": "Franco francés",
+      "en": "French franc"
+    },
+    "nombre_corto": {
+      "es": "Franco",
+      "en": "Franc"
+    },
+    "simbolo": "₣",
+    "iso_4217": {
+      "numerico": "250",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centime"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["FR"],
+      "curso_legal": ["FR"],
+      "circulacion": ["FR"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Francia",
+      "codigo": "BdF"
+    },
+    "historia": {
+      "fecha_introduccion": "1960",
+      "moneda_anterior": "FRF",
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "En 1991 estaba vigente el franco francés de la llamada nueva serie monetaria, posterior a la reforma de 1960."
+  },
   "GBP": {
     "codigo": "GBP",
     "nombres": {
@@ -3105,6 +3231,48 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "GEK": {
+    "codigo": "GEK",
+    "nombres": {
+      "es": "Cupón georgiano",
+      "en": "Georgian coupon"
+    },
+    "nombre_corto": {
+      "es": "Cupón",
+      "en": "Coupon"
+    },
+    "simbolo": null,
+    "iso_4217": {
+      "numerico": "268",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": null,
+        "en": null
+      },
+      "factor": 1
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["GE"],
+      "curso_legal": ["GE"],
+      "circulacion": ["GE"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Georgia",
+      "codigo": "NBG"
+    },
+    "historia": {
+      "fecha_introduccion": "1993",
+      "moneda_anterior": "RUR",
+      "moneda_sucesora": "GEL"
+    },
+    "notas": "En 1994 el cupón georgiano era la moneda provisional de Georgia. No tenía una subunidad monetaria efectiva."
   },
   "GEL": {
     "codigo": "GEL",
@@ -6076,7 +6244,7 @@
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En 1969 la denominación monetaria en Filipinas era peso; en filipino, piso."
   },
   "PKR": {
     "codigo": "PKR",
@@ -6810,6 +6978,48 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "SIT": {
+    "codigo": "SIT",
+    "nombres": {
+      "es": "Tolar esloveno",
+      "en": "Slovenian tolar"
+    },
+    "nombre_corto": {
+      "es": "Tolar",
+      "en": "Tolar"
+    },
+    "simbolo": "T",
+    "iso_4217": {
+      "numerico": "705",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "stotin",
+        "en": "stotin"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["SI"],
+      "curso_legal": ["SI"],
+      "circulacion": ["SI"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Eslovenia",
+      "codigo": "Banka Slovenije"
+    },
+    "historia": {
+      "fecha_introduccion": "1991",
+      "moneda_anterior": "YUN",
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "El tolar fue introducido el 8 de octubre de 1991. Por tanto, no era la moneda vigente en 1990; en 1990 Eslovenia utilizaba el dinar yugoslavo."
   },
   "SLE": {
     "codigo": "SLE",

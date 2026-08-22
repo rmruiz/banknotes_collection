@@ -4,7 +4,7 @@
   "denomination": {
     "value": 1,
     "currency": "Tólar",
-    "iso4217": "EUR",
+    "iso4217": "SIT",
     "subtype": "",
     "alternatives": []
   },
@@ -20,7 +20,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",
