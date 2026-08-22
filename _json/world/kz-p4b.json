@@ -4,9 +4,10 @@
   "denomination": {
     "value": 10,
     "currency": "Tyin",
-    "iso4217": "KZT",
+    "iso4217": "KGS",
     "subtype": "",
-    "alternatives": []
+    "alternatives": [],
+    "subunidad": true
   },
   "year": 1993,
   "signatures": [],
@@ -20,7 +21,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

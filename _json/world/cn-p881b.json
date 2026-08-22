@@ -6,7 +6,8 @@
     "currency": "Jiao",
     "iso4217": "CNY",
     "subtype": "",
-    "alternatives": []
+    "alternatives": [],
+    "subunidad": true
   },
   "year": 1980,
   "signatures": [],

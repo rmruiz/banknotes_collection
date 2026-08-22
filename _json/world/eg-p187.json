@@ -6,7 +6,8 @@
     "currency": "Piastres",
     "iso4217": "EGP",
     "subtype": "",
-    "alternatives": []
+    "alternatives": [],
+    "subunidad": true
   },
   "year": 1998,
   "signatures": [],
@@ -20,7 +21,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

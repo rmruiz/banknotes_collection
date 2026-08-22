@@ -87,8 +87,40 @@ def get_currency_by_code(code):
     return CURRENCIES.get(str(code).strip().upper())
 
 
-def currency_name(code, fallback="", language="es"):
-    """Nombre corto localizado, con el texto original como fallback."""
+def is_true(v):
+    """Interpreta de forma tolerante un flag booleano del JSON de billetes.
+
+    Acepta booleano nativo, o cadenas 'true'/'1'/'yes'/'si'/'sí'/'verdadero'
+    (case-insensitive); lo demás (incl. 'false', 0, None o ausente) -> False.
+    Sirve para campos como 'denomination.subunidad' que el proyecto define como
+    booleano pero que algunos JSONs antiguos podrían escribir como texto."""
+    if isinstance(v, bool):
+        return v
+    if isinstance(v, (int, float)):
+        return v != 0
+    return str(v).strip().lower() in (
+        "true", "1", "yes", "si", "sí", "verdadero", "verdadera")
+
+
+def currency_name(code, fallback="", language="es", subunit=False):
+    """Nombre corto localizado de la moneda, con el texto original del
+    billete (`fallback`) como último recurso.
+
+    Cuando `subunit` es verdadero y la moneda define una subunidad con nombre,
+    devuelve el nombre de la subunidad (ej. 'Centavo') en vez de la unidad
+    principal ('Peso'); si la subunidad no está catalogada, cae al `fallback`
+    y, por último, a la unidad principal."""
     info = get_currency_by_code(code) or {}
-    names = info.get("nombre_corto") or info.get("nombres") or {}
-    return names.get(language) or names.get("es") or names.get("en") or fallback
+    short = info.get("nombre_corto") or {}
+    full = info.get("nombres") or {}
+    main = (short.get(language) or full.get(language) or
+            short.get("es") or full.get("es") or
+            short.get("en") or full.get("en"))
+    if is_true(subunit):
+        sub = (info.get("subunidad") or {}).get("nombres") or {}
+        sub_name = sub.get(language) or sub.get("es") or sub.get("en")
+        if sub_name:
+            return sub_name.capitalize()
+        if fallback:
+            return fallback
+    return main or fallback

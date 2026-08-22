@@ -77,7 +77,8 @@ def compose(d, front, back, flag, dest, tmp):
     dn = d["denomination"]
     line1 = d["country"]["es"]
     original_currency = dn.get("currency", "")
-    catalog_currency = currency_name(dn.get("iso4217"), original_currency)
+    catalog_currency = currency_name(dn.get("iso4217"), original_currency,
+                                     subunit=dn.get("subunidad"))
     denom = f"{build_web.fmt_valor(dn.get('value'))} {catalog_currency}".strip()
     if original_currency and catalog_currency != original_currency:
         denom += f" [{original_currency}]"

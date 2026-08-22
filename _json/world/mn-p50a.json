@@ -6,7 +6,8 @@
     "currency": "Mongo",
     "iso4217": "MNT",
     "subtype": "",
-    "alternatives": []
+    "alternatives": [],
+    "subunidad": true
   },
   "year": 1993,
   "signatures": [],
@@ -20,7 +21,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

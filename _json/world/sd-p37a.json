@@ -6,7 +6,8 @@
     "currency": "Placas",
     "iso4217": "SDG",
     "subtype": "",
-    "alternatives": []
+    "alternatives": [],
+    "subunidad": true
   },
   "year": 1987,
   "signatures": [],
@@ -21,7 +22,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

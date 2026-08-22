@@ -1397,6 +1397,54 @@
     },
     "notas": "El cruzado fue la moneda de Brasil entre el 28 de febrero de 1986 y el 15 de enero de 1989. En 1988 estaba vigente y se dividía en 100 centavos. Fue introducido a razón de 1 cruzado por 1.000 cruzeiros. En enero de 1989 fue reemplazado por el cruzado novo, a razón de 1.000 cruzados por 1 cruzado novo."
   },
+  "BRN": {
+  "codigo": "BRN",
+  "nombres": {
+    "es": "Cruzado novo brasileño",
+    "en": "Brazilian cruzado novo"
+  },
+  "nombre_corto": {
+    "es": "Cruzado novo",
+    "en": "Cruzado novo"
+  },
+  "simbolo": "NCz$",
+  "iso_4217": {
+    "numerico": "076",
+    "decimales": 2
+  },
+  "subunidad": {
+    "codigo": null,
+    "nombres": {
+      "es": "centavo",
+      "en": "centavo"
+    },
+    "factor": 100
+  },
+  "tipo": "fiat",
+  "estado": "historica",
+  "uso": {
+    "emisor": [
+      "BR"
+    ],
+    "curso_legal": [
+      "BR"
+    ],
+    "circulacion": [
+      "BR"
+    ],
+    "de_facto": []
+  },
+  "banco_central": {
+    "nombre": "Banco Central de Brasil",
+    "codigo": "BCB"
+  },
+  "historia": {
+    "fecha_introduccion": "1989",
+    "moneda_anterior": "BRC",
+    "moneda_sucesora": "BRE"
+  },
+  "notas": "El cruzado novo fue introducido el 16 de enero de 1989, sustituyendo al cruzado a razón de 1 cruzado novo = 1.000 cruzados. Se dividía en 100 centavos y utilizaba el símbolo NCz$. En 1990 fue sustituido por el cruzeiro a la paridad de 1 cruzado novo = 1 cruzeiro."
+},
   "BRZ": {
     "codigo": "BRZ",
     "nombres": {
@@ -2292,6 +2340,54 @@
     },
     "notas": null
   },
+  "CYP": {
+  "codigo": "CYP",
+  "nombres": {
+    "es": "Libra chipriota",
+    "en": "Cyprus pound"
+  },
+  "nombre_corto": {
+    "es": "Libra",
+    "en": "Pound"
+  },
+  "simbolo": "£",
+  "iso_4217": {
+    "numerico": "196",
+    "decimales": 2
+  },
+  "subunidad": {
+    "codigo": null,
+    "nombres": {
+      "es": "céntimo",
+      "en": "cent"
+    },
+    "factor": 100
+  },
+  "tipo": "fiat",
+  "estado": "historica",
+  "uso": {
+    "emisor": [
+      "CY"
+    ],
+    "curso_legal": [
+      "CY"
+    ],
+    "circulacion": [
+      "CY"
+    ],
+    "de_facto": []
+  },
+  "banco_central": {
+    "nombre": "Banco Central de Chipre",
+    "codigo": "CBC"
+  },
+  "historia": {
+    "fecha_introduccion": "1879",
+    "moneda_anterior": null,
+    "moneda_sucesora": "EUR"
+  },
+  "notas": "En 2004 la libra chipriota utilizaba el sistema decimal de 100 céntimos por libra, introducido en 1983 en sustitución del sistema anterior basado en mils. La libra chipriota fue sustituida por el euro el 1 de enero de 2008."
+},
   "CZK": {
     "codigo": "CZK",
     "nombres": {
@@ -2540,6 +2636,54 @@
     },
     "notas": null
   },
+  "ECS": {
+  "codigo": "ECS",
+  "nombres": {
+    "es": "Sucre ecuatoriano",
+    "en": "Ecuadorian sucre"
+  },
+  "nombre_corto": {
+    "es": "Sucre",
+    "en": "Sucre"
+  },
+  "simbolo": "S/",
+  "iso_4217": {
+    "numerico": "218",
+    "decimales": 2
+  },
+  "subunidad": {
+    "codigo": null,
+    "nombres": {
+      "es": "centavo",
+      "en": "centavo"
+    },
+    "factor": 100
+  },
+  "tipo": "fiat",
+  "estado": "historica",
+  "uso": {
+    "emisor": [
+      "EC"
+    ],
+    "curso_legal": [
+      "EC"
+    ],
+    "circulacion": [
+      "EC"
+    ],
+    "de_facto": []
+  },
+  "banco_central": {
+    "nombre": "Banco Central del Ecuador",
+    "codigo": "BCE"
+  },
+  "historia": {
+    "fecha_introduccion": "1884",
+    "moneda_anterior": null,
+    "moneda_sucesora": "USD"
+  },
+  "notas": "En 1982 el sucre era la moneda oficial de Ecuador y se dividía en 100 centavos. El Banco Central del Ecuador documenta que el sucre fue la moneda de curso legal desde 1884 hasta 2000. Fue reemplazado por el dólar estadounidense como moneda de curso legal en 2000."
+},
   "EGP": {
     "codigo": "EGP",
     "nombres": {
@@ -3396,6 +3540,54 @@
     },
     "notas": null
   },
+  "HRD": {
+  "codigo": "HRD",
+  "nombres": {
+    "es": "Dinar croata",
+    "en": "Croatian dinar"
+  },
+  "nombre_corto": {
+    "es": "Dinar",
+    "en": "Dinar"
+  },
+  "simbolo": "CRD",
+  "iso_4217": {
+    "numerico": "191",
+    "decimales": 2
+  },
+  "subunidad": {
+    "codigo": null,
+    "nombres": {
+      "es": null,
+      "en": null
+    },
+    "factor": 1
+  },
+  "tipo": "fiat",
+  "estado": "historica",
+  "uso": {
+    "emisor": [
+      "HR"
+    ],
+    "curso_legal": [
+      "HR"
+    ],
+    "circulacion": [
+      "HR"
+    ],
+    "de_facto": []
+  },
+  "banco_central": {
+    "nombre": "Banco Nacional de Croacia",
+    "codigo": "HNB"
+  },
+  "historia": {
+    "fecha_introduccion": "1991",
+    "moneda_anterior": "YUN",
+    "moneda_sucesora": "HRK"
+  },
+  "notas": "El dinar croata fue introducido el 23 de diciembre de 1991, sustituyendo a la par al dinar yugoslavo. Fue una moneda transitoria de Croacia y fue reemplazado por la kuna el 30 de mayo de 1994, a razón de 1 kuna = 1.000 dinares. La abreviatura oficial establecida por la legislación croata fue CRD."
+},
   "HTG": {
     "codigo": "HTG",
     "nombres": {
@@ -8168,6 +8360,57 @@
     },
     "notas": null
   },
+  "XCG": {
+  "codigo": "XCG",
+  "nombres": {
+    "es": "Florín caribeño",
+    "en": "Caribbean guilder"
+  },
+  "nombre_corto": {
+    "es": "Florín caribeño",
+    "en": "Caribbean guilder"
+  },
+  "simbolo": "Cg",
+  "iso_4217": {
+    "numerico": null,
+    "decimales": 2
+  },
+  "subunidad": {
+    "codigo": null,
+    "nombres": {
+      "es": "centavo",
+      "en": "cent"
+    },
+    "factor": 100
+  },
+  "tipo": "fiat",
+  "estado": "circulacion",
+  "uso": {
+    "emisor": [
+      "CW",
+      "SX"
+    ],
+    "curso_legal": [
+      "CW",
+      "SX"
+    ],
+    "circulacion": [
+      "CW",
+      "SX"
+    ],
+    "de_facto": []
+  },
+  "banco_central": {
+    "nombre": "Banco Central de Curazao y San Martín",
+    "codigo": "CBCS"
+  },
+  "historia": {
+    "fecha_introduccion": "2025",
+    "moneda_anterior": "ANG",
+    "moneda_sucesora": null
+  },
+  "notas": "El florín caribeño fue introducido el 31 de marzo de 2025 como moneda común de Curazao y San Martín, reemplazando al florín de las Antillas Neerlandesas. Tiene una paridad fija de Cg 1,79 por USD 1. El código monetario es XCG y el símbolo es Cg."
+},
   "XDR": {
     "codigo": "XDR",
     "nombres": {

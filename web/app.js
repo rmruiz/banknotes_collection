@@ -51,6 +51,7 @@ const L = {
   grupo: ["Grupo Colnect", "Colnect group"],
   conmemorativo: ["Conmemorativo", "Commemorative"],
   remarcado: ["Remarcado", "Overprint"],
+  subunidad: ["Subunidad", "Subunit"],
   front: ["Front", "Front"],
   back: ["Back", "Back"],
   full: ["Full", "Full"],
@@ -100,6 +101,7 @@ const COLUMNS = [
   ["grupo", "Grupo Colnect", false],
   ["conmemorativo", "Conmemorativo", false],
   ["remarcado", "Remarcado", false],
+  ["subunidad", "Subunidad", false],
   ["front", "Front", true],
   ["back", "Back", true],
   ["full", "Full", true],
@@ -129,7 +131,7 @@ const state = {
   cols: loadCols(),  // columnas visibles
   sort: { key: null, dir: 1 },  // orden activo (dir: 1 asc, -1 desc)
   // filtros cíclicos de columnas booleanas: both -> on -> off
-  boolFilters: { verificado: "both", conmemorativo: "both", remarcado: "both" },
+  boolFilters: { verificado: "both", conmemorativo: "both", remarcado: "both", subunidad: "both" },
 };
 
 // columna de la tabla -> campo booleano filtrable/editable
@@ -137,6 +139,7 @@ const BOOL_COLS = {
   verif: "verificado",
   conmemorativo: "conmemorativo",
   remarcado: "remarcado",
+  subunidad: "subunidad",
 };
 
 /* --- utilidades --- */
@@ -398,6 +401,7 @@ function render() {
       ${txtCell(r, "grupo")}
       ${checkCell(r, "conmemorativo", "conmemorativo")}
       ${checkCell(r, "remarcado", "remarcado")}
+      ${checkCell(r, "subunidad", "subunidad")}
       ${thumbCell(r, "thumb_a", "img_a", "Front", "front")}
       ${thumbCell(r, "thumb_b", "img_b", "Back", "back")}
       ${thumbCell(r, "thumb_f", "img_full", "Full", "full")}
@@ -494,6 +498,7 @@ const DETAIL_FIELDS = [
   ["numista", "Numista"],
   ["conmemorativo", "Conmemorativo"],
   ["remarcado", "Remarcado"],
+  ["subunidad", "Subunidad"],
 ];
 
 function detailValue(key, val, r) {

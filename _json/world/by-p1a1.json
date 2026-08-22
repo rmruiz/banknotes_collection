@@ -5,6 +5,7 @@
     "value": 50,
     "currency": "kopeks",
     "iso4217": "BYN",
+    "subunidad": true,
     "subtype": "",
     "alternatives": []
   },
@@ -19,7 +20,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

@@ -5,6 +5,7 @@
     "value": 10,
     "currency": "Sen",
     "iso4217": "JPY",
+    "subunidad": true,
     "subtype": "",
     "alternatives": []
   },
@@ -20,7 +21,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",
