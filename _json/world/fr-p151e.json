@@ -4,7 +4,7 @@
   "denomination": {
     "value": 20,
     "currency": "Francos Franceses",
-    "iso4217": "EUR",
+    "iso4217": "FRF",
     "subtype": "",
     "alternatives": []
   },
@@ -20,7 +20,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

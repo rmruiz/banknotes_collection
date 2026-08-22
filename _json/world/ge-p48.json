@@ -4,9 +4,10 @@
   "denomination": {
     "value": 50000,
     "currency": "Kuponi",
-    "iso4217": "GEL",
+    "iso4217": "GEK",
     "subtype": "",
-    "alternatives": []
+    "alternatives": [],
+    "subunidad": true
   },
   "year": 1994,
   "signatures": [],
@@ -21,7 +22,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",
