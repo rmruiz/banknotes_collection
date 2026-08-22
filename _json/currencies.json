@@ -8,7 +8,9 @@
     },
     "nombre_corto": {
       "es": "Dírham",
-      "en": "Dirham"
+      "es_p": "Dírhams",
+      "en": "Dirham",
+      "en_p": "Dirhams"
     },
     "simbolo": "د.إ",
     "iso_4217": {
@@ -43,10 +45,11 @@
     },
     "historia": {
       "fecha_introduccion": "1973",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "El nombre «dírham» deriva del griego «dracma», llegado al árabe a través de siglos de comercio mediterráneo."
   },
   "AFN": {
     "codigo": "AFN",
@@ -57,7 +60,9 @@
     },
     "nombre_corto": {
       "es": "Afgani",
-      "en": "Afghani"
+      "es_p": "Afganis",
+      "en": "Afghani",
+      "en_p": "Afghanis"
     },
     "simbolo": "؋",
     "iso_4217": {
@@ -92,10 +97,11 @@
     },
     "historia": {
       "fecha_introduccion": "2002",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "AFA",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En el canje de 2002 se cambiaron 1.000 afganis antiguos por 1 nuevo para unificar las emisiones rivales que circulaban tras la guerra civil."
   },
   "ALL": {
     "codigo": "ALL",
@@ -105,7 +111,9 @@
     },
     "nombre_corto": {
       "es": "Lek",
-      "en": "Lek"
+      "es_p": "Leks",
+      "en": "Lek",
+      "en_p": "Leks"
     },
     "simbolo": "L",
     "iso_4217": {
@@ -140,10 +148,11 @@
     },
     "historia": {
       "fecha_introduccion": "1946",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Su nombre se asocia tradicionalmente a Alejandro Magno, llamado «Leka i Madh» en albanés."
   },
   "AMD": {
     "codigo": "AMD",
@@ -153,7 +162,9 @@
     },
     "nombre_corto": {
       "es": "Dram",
-      "en": "Dram"
+      "es_p": "Drams",
+      "en": "Dram",
+      "en_p": "Drams"
     },
     "simbolo": "֏",
     "iso_4217": {
@@ -188,10 +199,11 @@
     },
     "historia": {
       "fecha_introduccion": "1993",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "La palabra «dram» comparte raíz con la dracma griega, al igual que el dírham árabe."
   },
   "ANG": {
     "codigo": "ANG",
@@ -201,7 +213,9 @@
     },
     "nombre_corto": {
       "es": "Florín antillano",
-      "en": "Antillean guilder"
+      "es_p": "Florines antillanos",
+      "en": "Antillean guilder",
+      "en_p": "Antillean guilders"
     },
     "simbolo": "ƒ",
     "iso_4217": {
@@ -239,10 +253,11 @@
     },
     "historia": {
       "fecha_introduccion": "1940",
+      "fecha_fin": "2024",
       "moneda_anterior": null,
-      "moneda_sucesora": null
+      "moneda_sucesora": "XCG"
     },
-    "notas": "Programado para ser reemplazado por el florín caribeño (XCG); en transición."
+    "notas": "Sobrevivió 15 años a la entidad que le dio nombre: las Antillas Neerlandesas se disolvieron en 2010 y el florín siguió circulando."
   },
   "AOA": {
     "codigo": "AOA",
@@ -252,7 +267,9 @@
     },
     "nombre_corto": {
       "es": "Kwanza",
-      "en": "Kwanza"
+      "es_p": "Kwanzas",
+      "en": "Kwanza",
+      "en_p": "Kwanzas"
     },
     "simbolo": "Kz",
     "iso_4217": {
@@ -287,10 +304,11 @@
     },
     "historia": {
       "fecha_introduccion": "1999",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "AOR",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Toma su nombre del río Cuanza, el más importante de Angola."
   },
   "AOS": {
     "codigo": "AOS",
@@ -300,7 +318,9 @@
     },
     "nombre_corto": {
       "es": "Escudo",
-      "en": "Escudo"
+      "es_p": "Escudos",
+      "en": "Escudo",
+      "en_p": "Escudos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -318,9 +338,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["AO"],
-      "curso_legal": ["AO"],
-      "circulacion": ["AO"],
+      "emisor": [
+        "AO"
+      ],
+      "curso_legal": [
+        "AO"
+      ],
+      "circulacion": [
+        "AO"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -329,10 +355,11 @@
     },
     "historia": {
       "fecha_introduccion": "1958",
-      "moneda_anterior": "ANG",
+      "fecha_fin": "1976",
+      "moneda_anterior": null,
       "moneda_sucesora": "AOK"
     },
-    "notas": "Escudo angolano de la segunda emisión, utilizado entre 1958 y 1977. Fue sustituido por el primer kwanza (AOK) a la paridad de 1 kwanza = 1 escudo."
+    "notas": "Mantenía paridad con el escudo portugués, reflejo del estatus colonial de Angola."
   },
   "APS": {
     "codigo": "APS",
@@ -342,7 +369,9 @@
     },
     "nombre_corto": {
       "es": "Apsar",
-      "en": "Apsar"
+      "es_p": "Apsares",
+      "en": "Apsar",
+      "en_p": "Apsars"
     },
     "simbolo": "ҧ",
     "iso_4217": {
@@ -357,9 +386,15 @@
     "tipo": "fiat",
     "estado": "circulacion",
     "uso": {
-      "emisor": ["GE-AB"],
-      "curso_legal": ["GE-AB"],
-      "circulacion": ["GE-AB"],
+      "emisor": [
+        "GE-AB"
+      ],
+      "curso_legal": [
+        "GE-AB"
+      ],
+      "circulacion": [
+        "GE-AB"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -368,10 +403,11 @@
     },
     "historia": {
       "fecha_introduccion": null,
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Funciona con valor legal local fijado en paridad (1 apsar = 10 rublos), pero se acuña principalmente para coleccionistas"
+    "notas": "Sus monedas conmemorativas se acuñan en Moscú y se venden sobre todo a coleccionistas; en el día a día abjasio domina el rublo ruso."
   },
   "ARA": {
     "codigo": "ARA",
@@ -381,7 +417,9 @@
     },
     "nombre_corto": {
       "es": "Austral",
-      "en": "Austral"
+      "es_p": "Australes",
+      "en": "Austral",
+      "en_p": "Australes"
     },
     "simbolo": "₳",
     "iso_4217": {
@@ -399,9 +437,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["AR"],
-      "curso_legal": ["AR"],
-      "circulacion": ["AR"],
+      "emisor": [
+        "AR"
+      ],
+      "curso_legal": [
+        "AR"
+      ],
+      "circulacion": [
+        "AR"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -410,10 +454,11 @@
     },
     "historia": {
       "fecha_introduccion": "1985",
-      "moneda_anterior": "ARL",
+      "fecha_fin": "1991",
+      "moneda_anterior": "ARP",
       "moneda_sucesora": "ARS"
     },
-    "notas": "El austral fue la moneda de Argentina entre 1985 y 1991. En 1988 circulaba en denominaciones expresadas en australes y centavos. Fue reemplazado por el peso argentino a razón de 10.000 australes por 1 peso argentino."
+    "notas": "Por la urgencia del cambio, al principio se sobreestamparon billetes de pesos argentinos con el nuevo valor en australes."
   },
   "ARS": {
     "codigo": "ARS",
@@ -423,7 +468,9 @@
     },
     "nombre_corto": {
       "es": "Peso",
-      "en": "Peso"
+      "es_p": "Pesos",
+      "en": "Peso",
+      "en_p": "Pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -458,10 +505,11 @@
     },
     "historia": {
       "fecha_introduccion": "1992",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "ARA",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Nació con paridad fija 1 a 1 con el dólar estadounidense, régimen de convertibilidad que duró hasta 2002."
   },
   "ATK": {
     "codigo": "ATK",
@@ -471,7 +519,9 @@
     },
     "nombre_corto": {
       "es": "Corona",
-      "en": "Krone"
+      "es_p": "Coronas",
+      "en": "Krone",
+      "en_p": "Kronen"
     },
     "simbolo": "K",
     "iso_4217": {
@@ -489,9 +539,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["AT"],
-      "curso_legal": ["AT"],
-      "circulacion": ["AT"],
+      "emisor": [
+        "AT"
+      ],
+      "curso_legal": [
+        "AT"
+      ],
+      "circulacion": [
+        "AT"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -500,10 +556,11 @@
     },
     "historia": {
       "fecha_introduccion": "1919",
+      "fecha_fin": "1924",
       "moneda_anterior": null,
       "moneda_sucesora": "ATS"
     },
-    "notas": "Tras la disolución del Imperio austrohúngaro en 1918, la corona continuó siendo la moneda de Austria hasta 1925, cuando fue sustituida por el schilling. La corona austrohúngara original se introdujo en 1892."
+    "notas": "La hiperinflación de 1922 obligó a emitir billetes de 500.000 coronas y precipitó la creación del chelín austríaco."
   },
   "AUD": {
     "codigo": "AUD",
@@ -513,7 +570,9 @@
     },
     "nombre_corto": {
       "es": "Dólar australiano",
-      "en": "Australian dollar"
+      "es_p": "Dólares australianos",
+      "en": "Australian dollar",
+      "en_p": "Australian dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -559,10 +618,11 @@
     },
     "historia": {
       "fecha_introduccion": "1966",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Australia fue pionera mundial del billete de polímero: el primero se emitió en 1988 y desde 1996 toda la serie es plástica."
   },
   "AWG": {
     "codigo": "AWG",
@@ -572,7 +632,9 @@
     },
     "nombre_corto": {
       "es": "Florín arubeño",
-      "en": "Aruban florin"
+      "es_p": "Florines arubeños",
+      "en": "Aruban florin",
+      "en_p": "Aruban florins"
     },
     "simbolo": "ƒ",
     "iso_4217": {
@@ -607,10 +669,11 @@
     },
     "historia": {
       "fecha_introduccion": "1986",
+      "fecha_fin": null,
       "moneda_anterior": "ANG",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Su moneda de 50 céntimos, conocida como «yotin», es cuadrada y una de las piezas más reconocibles del Caribe."
   },
   "AZN": {
     "codigo": "AZN",
@@ -620,7 +683,9 @@
     },
     "nombre_corto": {
       "es": "Manat",
-      "en": "Manat"
+      "es_p": "Manats",
+      "en": "Manat",
+      "en_p": "Manats"
     },
     "simbolo": "₼",
     "iso_4217": {
@@ -655,10 +720,11 @@
     },
     "historia": {
       "fecha_introduccion": "2006",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "AZM",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sus billetes de 2006 fueron diseñados por Robert Kalina, el mismo diseñador de los billetes de euro."
   },
   "BAD": {
     "codigo": "BAD",
@@ -668,7 +734,9 @@
     },
     "nombre_corto": {
       "es": "Dinar",
-      "en": "Dinar"
+      "es_p": "Dinares",
+      "en": "Dinar",
+      "en_p": "Dinars"
     },
     "simbolo": "дин",
     "iso_4217": {
@@ -686,9 +754,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["BA"],
-      "curso_legal": ["BA"],
-      "circulacion": ["BA"],
+      "emisor": [
+        "BA"
+      ],
+      "curso_legal": [
+        "BA"
+      ],
+      "circulacion": [
+        "BA"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -697,10 +771,11 @@
     },
     "historia": {
       "fecha_introduccion": "1992",
+      "fecha_fin": "1997",
       "moneda_anterior": "YUN",
-      "moneda_sucesora": "BAN"
+      "moneda_sucesora": "BAM"
     },
-    "notas": "El dinar de Bosnia y Herzegovina fue introducido en julio de 1992, después de la independencia, sustituyendo al dinar yugoslavo. En 1994 fue reemplazado por el nuevo dinar de Bosnia y Herzegovina (BAN), a razón de 10.000 dinares antiguos por 1 nuevo dinar. La unidad se dividía en 100 para."
+    "notas": "Muchos de sus billetes se imprimieron con urgencia en plena guerra y tuvieron validez efectiva solo en parte del territorio."
   },
   "BAM": {
     "codigo": "BAM",
@@ -710,7 +785,9 @@
     },
     "nombre_corto": {
       "es": "Marco convertible",
-      "en": "Convertible mark"
+      "es_p": "Marcos convertibles",
+      "en": "Convertible mark",
+      "en_p": "Convertible marks"
     },
     "simbolo": "KM",
     "iso_4217": {
@@ -745,10 +822,11 @@
     },
     "historia": {
       "fecha_introduccion": "1998",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "BAD",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Se llamó «convertible» por nacer anclado 1 a 1 al marco alemán; hoy mantiene con el euro la paridad heredada de aquel ancla."
   },
   "BBD": {
     "codigo": "BBD",
@@ -758,7 +836,9 @@
     },
     "nombre_corto": {
       "es": "Dólar de Barbados",
-      "en": "Barbadian dollar"
+      "es_p": "Dólares de Barbados",
+      "en": "Barbadian dollar",
+      "en_p": "Barbadian dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -793,10 +873,11 @@
     },
     "historia": {
       "fecha_introduccion": "1935",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Mantiene un tipo de cambio fijo de 2 dólares de Barbados por 1 dólar estadounidense desde 1975."
   },
   "BDT": {
     "codigo": "BDT",
@@ -806,7 +887,9 @@
     },
     "nombre_corto": {
       "es": "Taka",
-      "en": "Taka"
+      "es_p": "Takas",
+      "en": "Taka",
+      "en_p": "Takas"
     },
     "simbolo": "৳",
     "iso_4217": {
@@ -841,10 +924,11 @@
     },
     "historia": {
       "fecha_introduccion": "1972",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Taka» proviene del sánscrito «tanka», nombre de antiguas monedas de plata del subcontinente indio."
   },
   "BEF": {
     "codigo": "BEF",
@@ -854,7 +938,9 @@
     },
     "nombre_corto": {
       "es": "Franco",
-      "en": "Franc"
+      "es_p": "Francos",
+      "en": "Franc",
+      "en_p": "Francs"
     },
     "simbolo": "Fr",
     "iso_4217": {
@@ -872,9 +958,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["BE"],
-      "curso_legal": ["BE"],
-      "circulacion": ["BE"],
+      "emisor": [
+        "BE"
+      ],
+      "curso_legal": [
+        "BE"
+      ],
+      "circulacion": [
+        "BE"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -883,10 +975,11 @@
     },
     "historia": {
       "fecha_introduccion": "1832",
+      "fecha_fin": "1998",
       "moneda_anterior": null,
       "moneda_sucesora": "EUR"
     },
-    "notas": "El franco belga fue la moneda de Bélgica hasta la introducción del euro. En 1999 el euro pasó a ser la moneda oficial para operaciones contables y electrónicas, mientras el franco belga continuó circulando físicamente hasta 2002. El franco belga no utilizaba decimales en la práctica monetaria."
+    "notas": "Sus billetes eran bilingües y Bélgica alternaba si el francés o el neerlandés aparecía primero según la cara y la serie."
   },
   "BFL": {
     "codigo": "BFL",
@@ -896,7 +989,9 @@
     },
     "nombre_corto": {
       "es": "Libra",
-      "en": "Pound"
+      "es_p": "Libras",
+      "en": "Pound",
+      "en_p": "Pounds"
     },
     "simbolo": "£",
     "iso_4217": {
@@ -914,9 +1009,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["BI"],
-      "curso_legal": ["BI"],
-      "circulacion": ["BI"],
+      "emisor": [
+        "BI"
+      ],
+      "curso_legal": [
+        "BI"
+      ],
+      "circulacion": [
+        "BI"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -925,10 +1026,11 @@
     },
     "historia": {
       "fecha_introduccion": "1968",
-      "moneda_anterior": "NGP",
-      "moneda_sucesora": "NGN"
+      "fecha_fin": null,
+      "moneda_anterior": null,
+      "moneda_sucesora": null
     },
-    "notas": "La libra biafreña fue la moneda de la República de Biafra durante la Guerra Civil Nigeriana. Se introdujo en 1968 y coexistió con la libra nigeriana. Una libra se dividía en 20 chelines y cada chelín en 12 peniques. Biafra dejó de existir en 1970."
+    "notas": "Emitida por una república no reconocida durante la guerra de Biafra, hoy es sobre todo pieza de colección."
   },
   "BGN": {
     "codigo": "BGN",
@@ -938,7 +1040,9 @@
     },
     "nombre_corto": {
       "es": "Lev",
-      "en": "Lev"
+      "es_p": "Levs",
+      "en": "Lev",
+      "en_p": "Leva"
     },
     "simbolo": "лв",
     "iso_4217": {
@@ -973,10 +1077,11 @@
     },
     "historia": {
       "fecha_introduccion": "1999",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "BGL",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Lev» significa «león» en búlgaro antiguo, el animal heráldico del escudo nacional."
   },
   "BHD": {
     "codigo": "BHD",
@@ -987,7 +1092,9 @@
     },
     "nombre_corto": {
       "es": "Dinar bareiní",
-      "en": "Bahraini dinar"
+      "es_p": "Dinares bareiníes",
+      "en": "Bahraini dinar",
+      "en_p": "Bahraini dinars"
     },
     "simbolo": ".د.ب",
     "iso_4217": {
@@ -1022,10 +1129,11 @@
     },
     "historia": {
       "fecha_introduccion": "1965",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Es una de las unidades monetarias con mayor valor de cambio del mundo frente al dólar."
   },
   "BIF": {
     "codigo": "BIF",
@@ -1035,7 +1143,9 @@
     },
     "nombre_corto": {
       "es": "Franco burundés",
-      "en": "Burundian franc"
+      "es_p": "Francos burundeses",
+      "en": "Burundian franc",
+      "en_p": "Burundian francs"
     },
     "simbolo": "FBu",
     "iso_4217": {
@@ -1071,10 +1181,11 @@
     },
     "historia": {
       "fecha_introduccion": "1960",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Comparte origen con el franco ruandés: ambos nacieron de la partición del franco de Ruanda-Urundi tras la independencia."
   },
   "BMD": {
     "codigo": "BMD",
@@ -1084,7 +1195,9 @@
     },
     "nombre_corto": {
       "es": "Dólar bermudeño",
-      "en": "Bermudian dollar"
+      "es_p": "Dólares bermudeños",
+      "en": "Bermudian dollar",
+      "en_p": "Bermudian dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -1119,10 +1232,11 @@
     },
     "historia": {
       "fecha_introduccion": "1970",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Circula a la par del dólar estadounidense, que se acepta indistintamente en toda la isla."
   },
   "BND": {
     "codigo": "BND",
@@ -1132,7 +1246,9 @@
     },
     "nombre_corto": {
       "es": "Dólar de Brunéi",
-      "en": "Brunei dollar"
+      "es_p": "Dólares de Brunéi",
+      "en": "Brunei dollar",
+      "en_p": "Brunei dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -1169,10 +1285,11 @@
     },
     "historia": {
       "fecha_introduccion": "1967",
-      "moneda_anterior": "M$",
+      "fecha_fin": null,
+      "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "En 2019 la unidad monetaria oficial era el dólar de Brunei (Brunei dollar), aunque tradicionalmente también se denomina Ringgit Brunei. El dólar de Brunei está vinculado a la par con el dólar de Singapur mediante el Currency Interchangeability Agreement, por lo que el dólar de Singapur es aceptado como moneda de curso consuetudinario en Brunei. La unidad se divide en 100 centavos."
+    "notas": "Por un acuerdo de intercambiabilidad de 1967, los dólares de Brunéi y de Singapur se aceptan mutuamente a la par en ambos países."
   },
   "BOB": {
     "codigo": "BOB",
@@ -1182,7 +1299,9 @@
     },
     "nombre_corto": {
       "es": "Boliviano",
-      "en": "Boliviano"
+      "es_p": "Bolivianos",
+      "en": "Boliviano",
+      "en_p": "Bolivianos"
     },
     "simbolo": "Bs",
     "iso_4217": {
@@ -1217,10 +1336,11 @@
     },
     "historia": {
       "fecha_introduccion": "1987",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "BOP",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Recuperó el nombre de la moneda boliviana del siglo XIX tras la hiperinflación que destruyó al peso."
   },
   "BOP": {
     "codigo": "BOP",
@@ -1230,7 +1350,9 @@
     },
     "nombre_corto": {
       "es": "Peso",
-      "en": "Peso"
+      "es_p": "Pesos",
+      "en": "Peso",
+      "en_p": "Pesos"
     },
     "simbolo": "$b",
     "iso_4217": {
@@ -1248,9 +1370,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["BO"],
-      "curso_legal": ["BO"],
-      "circulacion": ["BO"],
+      "emisor": [
+        "BO"
+      ],
+      "curso_legal": [
+        "BO"
+      ],
+      "circulacion": [
+        "BO"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -1259,10 +1387,11 @@
     },
     "historia": {
       "fecha_introduccion": "1963",
+      "fecha_fin": "1986",
       "moneda_anterior": null,
       "moneda_sucesora": "BOB"
     },
-    "notas": "Creado por la reforma monetaria aprobada en 1962 y puesto en circulación el 1 de enero de 1963. Sustituyó al boliviano a razón de 1 peso boliviano = 1.000 bolivianos. Permaneció vigente hasta 1986 y fue reemplazado por el nuevo boliviano en 1987 a razón de 1 BOB = 1.000.000 BOP. Su centésima parte se denominó centavo y su símbolo oficial fue $b."
+    "notas": "La hiperinflación de 1985, una de las peores del siglo XX en tiempos de paz, obligó a emitir billetes de hasta 10 millones de pesos."
   },
   "BOV": {
     "codigo": "BOV",
@@ -1272,7 +1401,9 @@
     },
     "nombre_corto": {
       "es": "Mvdol",
-      "en": "Mvdol"
+      "es_p": "Mvdols",
+      "en": "Mvdol",
+      "en_p": "Mvdols"
     },
     "simbolo": null,
     "iso_4217": {
@@ -1302,10 +1433,62 @@
     },
     "historia": {
       "fecha_introduccion": null,
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Unidad de cuenta indexada, no utilizada en transacciones cotidianas."
+    "notas": "El «mvdol» mantiene el valor respecto al dólar: se usa en contratos y estados financieros y nunca se imprime."
+  },
+  "BRC": {
+    "codigo": "BRC",
+    "nombres": {
+      "es": "Cruzado brasileño",
+      "en": "Brazilian cruzado"
+    },
+    "nombre_corto": {
+      "es": "Cruzado",
+      "es_p": "Cruzados",
+      "en": "Cruzado",
+      "en_p": "Cruzados"
+    },
+    "simbolo": "Cz$",
+    "iso_4217": {
+      "numerico": "076",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "BR"
+      ],
+      "curso_legal": [
+        "BR"
+      ],
+      "circulacion": [
+        "BR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Brasil",
+      "codigo": "BCB"
+    },
+    "historia": {
+      "fecha_introduccion": "1986",
+      "fecha_fin": "1988",
+      "moneda_anterior": "BRB",
+      "moneda_sucesora": "BRN"
+    },
+    "notas": "Recupera el nombre de una antigua moneda de oro portuguesa marcada con una cruz, el «cruzado»."
   },
   "BRL": {
     "codigo": "BRL",
@@ -1315,7 +1498,9 @@
     },
     "nombre_corto": {
       "es": "Real",
-      "en": "Real"
+      "es_p": "Reales",
+      "en": "Real",
+      "en_p": "Reais"
     },
     "simbolo": "R$",
     "iso_4217": {
@@ -1350,22 +1535,25 @@
     },
     "historia": {
       "fecha_introduccion": "1994",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "BRR",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "El Plan Real usó una unidad de transición, la URV, para desindexar la economía meses antes de imprimir el primer billete."
   },
-  "BRC": {
-    "codigo": "BRC",
+  "BRN": {
+    "codigo": "BRN",
     "nombres": {
-      "es": "Cruzado brasileño",
-      "en": "Brazilian cruzado"
+      "es": "Cruzado novo brasileño",
+      "en": "Brazilian cruzado novo"
     },
     "nombre_corto": {
-      "es": "Cruzado",
-      "en": "Cruzado"
+      "es": "Cruzado novo",
+      "es_p": "Cruzados novos",
+      "en": "Cruzado novo",
+      "en_p": "Cruzados novos"
     },
-    "simbolo": "Cz$",
+    "simbolo": "NCz$",
     "iso_4217": {
       "numerico": "076",
       "decimales": 2
@@ -1381,9 +1569,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["BR"],
-      "curso_legal": ["BR"],
-      "circulacion": ["BR"],
+      "emisor": [
+        "BR"
+      ],
+      "curso_legal": [
+        "BR"
+      ],
+      "circulacion": [
+        "BR"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -1391,60 +1585,13 @@
       "codigo": "BCB"
     },
     "historia": {
-      "fecha_introduccion": "1986",
-      "moneda_anterior": "BRZ",
-      "moneda_sucesora": "BRN"
+      "fecha_introduccion": "1989",
+      "fecha_fin": "1989",
+      "moneda_anterior": "BRC",
+      "moneda_sucesora": "BRE"
     },
-    "notas": "El cruzado fue la moneda de Brasil entre el 28 de febrero de 1986 y el 15 de enero de 1989. En 1988 estaba vigente y se dividía en 100 centavos. Fue introducido a razón de 1 cruzado por 1.000 cruzeiros. En enero de 1989 fue reemplazado por el cruzado novo, a razón de 1.000 cruzados por 1 cruzado novo."
+    "notas": "Existió menos de dos años antes de volver a llamarse cruzeiro sin cambiar de valor: solo cambió el nombre."
   },
-  "BRN": {
-  "codigo": "BRN",
-  "nombres": {
-    "es": "Cruzado novo brasileño",
-    "en": "Brazilian cruzado novo"
-  },
-  "nombre_corto": {
-    "es": "Cruzado novo",
-    "en": "Cruzado novo"
-  },
-  "simbolo": "NCz$",
-  "iso_4217": {
-    "numerico": "076",
-    "decimales": 2
-  },
-  "subunidad": {
-    "codigo": null,
-    "nombres": {
-      "es": "centavo",
-      "en": "centavo"
-    },
-    "factor": 100
-  },
-  "tipo": "fiat",
-  "estado": "historica",
-  "uso": {
-    "emisor": [
-      "BR"
-    ],
-    "curso_legal": [
-      "BR"
-    ],
-    "circulacion": [
-      "BR"
-    ],
-    "de_facto": []
-  },
-  "banco_central": {
-    "nombre": "Banco Central de Brasil",
-    "codigo": "BCB"
-  },
-  "historia": {
-    "fecha_introduccion": "1989",
-    "moneda_anterior": "BRC",
-    "moneda_sucesora": "BRE"
-  },
-  "notas": "El cruzado novo fue introducido el 16 de enero de 1989, sustituyendo al cruzado a razón de 1 cruzado novo = 1.000 cruzados. Se dividía en 100 centavos y utilizaba el símbolo NCz$. En 1990 fue sustituido por el cruzeiro a la paridad de 1 cruzado novo = 1 cruzeiro."
-},
   "BRZ": {
     "codigo": "BRZ",
     "nombres": {
@@ -1453,7 +1600,9 @@
     },
     "nombre_corto": {
       "es": "Cruzeiro",
-      "en": "Cruzeiro"
+      "es_p": "Cruzeiros",
+      "en": "Cruzeiro",
+      "en_p": "Cruzeiros"
     },
     "simbolo": "Cr$",
     "iso_4217": {
@@ -1471,9 +1620,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["BR"],
-      "curso_legal": ["BR"],
-      "circulacion": ["BR"],
+      "emisor": [
+        "BR"
+      ],
+      "curso_legal": [
+        "BR"
+      ],
+      "circulacion": [
+        "BR"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -1482,10 +1637,11 @@
     },
     "historia": {
       "fecha_introduccion": "1942",
+      "fecha_fin": "1966",
       "moneda_anterior": null,
-      "moneda_sucesora": "BRN"
+      "moneda_sucesora": "BRB"
     },
-    "notas": "El cruzeiro fue introducido en 1942. En 1964 se eliminó el centavo como fracción práctica y los valores se expresaban sin centavos. Permaneció vigente hasta el 12 de febrero de 1967, cuando fue sustituido por el cruzeiro novo. El código BRR corresponde al cruzeiro real de 1993-1994 y no a esta emisión."
+    "notas": "En 1967 sus billetes fueron sobreestampados con el valor en cruzeiros novos, quitándoles tres ceros de un plumazo."
   },
   "BSD": {
     "codigo": "BSD",
@@ -1495,7 +1651,9 @@
     },
     "nombre_corto": {
       "es": "Dólar bahameño",
-      "en": "Bahamian dollar"
+      "es_p": "Dólares bahameños",
+      "en": "Bahamian dollar",
+      "en_p": "Bahamian dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -1530,10 +1688,11 @@
     },
     "historia": {
       "fecha_introduccion": "1966",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Emite billetes de 3 dólares y monedas de 15 centavos, denominaciones rarísimas en el mundo."
   },
   "BTN": {
     "codigo": "BTN",
@@ -1543,7 +1702,9 @@
     },
     "nombre_corto": {
       "es": "Ngultrum",
-      "en": "Ngultrum"
+      "es_p": "Ngultrums",
+      "en": "Ngultrum",
+      "en_p": "Ngultrums"
     },
     "simbolo": "Nu.",
     "iso_4217": {
@@ -1578,10 +1739,11 @@
     },
     "historia": {
       "fecha_introduccion": "1974",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "El ngultrum está a la par y circula junto con la rupia india (INR) en Bután."
+    "notas": "Su nombre proviene de «ngul», «plata» en dzongkha, y está fijado a la par con la rupia india."
   },
   "BWP": {
     "codigo": "BWP",
@@ -1591,7 +1753,9 @@
     },
     "nombre_corto": {
       "es": "Pula",
-      "en": "Pula"
+      "es_p": "Pulas",
+      "en": "Pula",
+      "en_p": "Pula"
     },
     "simbolo": "P",
     "iso_4217": {
@@ -1626,10 +1790,11 @@
     },
     "historia": {
       "fecha_introduccion": "1976",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Pula» significa «lluvia» en setsuana, un bien tan preciado junto al Kalahari que es también el lema nacional."
   },
   "BYN": {
     "codigo": "BYN",
@@ -1639,7 +1804,9 @@
     },
     "nombre_corto": {
       "es": "Rublo bielorruso",
-      "en": "Belarusian ruble"
+      "es_p": "Rublos bielorrusos",
+      "en": "Belarusian ruble",
+      "en_p": "Belarusian rubles"
     },
     "simbolo": "Br",
     "iso_4217": {
@@ -1674,10 +1841,11 @@
     },
     "historia": {
       "fecha_introduccion": "2016",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "BYR",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Los billetes emitidos en 2016 se habían impreso en 2009: esperaron siete años en bóvedas hasta la redenominación."
   },
   "BZD": {
     "codigo": "BZD",
@@ -1687,7 +1855,9 @@
     },
     "nombre_corto": {
       "es": "Dólar beliceño",
-      "en": "Belize dollar"
+      "es_p": "Dólares beliceños",
+      "en": "Belize dollar",
+      "en_p": "Belize dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -1722,10 +1892,11 @@
     },
     "historia": {
       "fecha_introduccion": "1973",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sus billetes fueron de los últimos del continente americano en retratar a la reina Isabel II."
   },
   "CAD": {
     "codigo": "CAD",
@@ -1736,7 +1907,9 @@
     },
     "nombre_corto": {
       "es": "Dólar canadiense",
-      "en": "Canadian dollar"
+      "es_p": "Dólares canadienses",
+      "en": "Canadian dollar",
+      "en_p": "Canadian dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -1772,10 +1945,11 @@
     },
     "historia": {
       "fecha_introduccion": "1858",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sus billetes de polímero tienen ventanas transparentes; el de 100 alimentó el rumor popular de que olía a jarabe de arce."
   },
   "CDF": {
     "codigo": "CDF",
@@ -1786,7 +1960,9 @@
     },
     "nombre_corto": {
       "es": "Franco congoleño",
-      "en": "Congolese franc"
+      "es_p": "Francos congoleños",
+      "en": "Congolese franc",
+      "en_p": "Congolese francs"
     },
     "simbolo": "FC",
     "iso_4217": {
@@ -1822,10 +1998,11 @@
     },
     "historia": {
       "fecha_introduccion": "1998",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "ZRN",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Restauró el nombre de la primera moneda independiente del país tras el paréntesis del zaire y el nuevo zaire."
   },
   "CHE": {
     "codigo": "CHE",
@@ -1835,7 +2012,9 @@
     },
     "nombre_corto": {
       "es": "Euro WIR",
-      "en": "WIR euro"
+      "es_p": "Euros WIR",
+      "en": "WIR euro",
+      "en_p": "WIR euros"
     },
     "simbolo": null,
     "iso_4217": {
@@ -1865,10 +2044,11 @@
     },
     "historia": {
       "fecha_introduccion": null,
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Unidad de cuenta complementaria utilizada por el Banco WIR en Suiza."
+    "notas": "Pertenece al sistema WIR, una banca cooperativa suiza creada en 1934 como red de crédito mutuo entre pymes."
   },
   "CHF": {
     "codigo": "CHF",
@@ -1879,7 +2059,9 @@
     },
     "nombre_corto": {
       "es": "Franco suizo",
-      "en": "Swiss franc"
+      "es_p": "Francos suizos",
+      "en": "Swiss franc",
+      "en_p": "Swiss francs"
     },
     "simbolo": "CHF",
     "iso_4217": {
@@ -1918,10 +2100,11 @@
     },
     "historia": {
       "fecha_introduccion": "1850",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Es la única gran divisa cuyos billetes se imprimen en cuatro idiomas nacionales, incluido el romanche."
   },
   "CHW": {
     "codigo": "CHW",
@@ -1931,7 +2114,9 @@
     },
     "nombre_corto": {
       "es": "Franco WIR",
-      "en": "WIR franc"
+      "es_p": "Francos WIR",
+      "en": "WIR franc",
+      "en_p": "WIR francs"
     },
     "simbolo": null,
     "iso_4217": {
@@ -1961,10 +2146,58 @@
     },
     "historia": {
       "fecha_introduccion": null,
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Moneda complementaria utilizada por empresas suizas afiliadas al Banco WIR."
+    "notas": "Es dinero complementario puramente contable entre empresas suizas: no existen billetes ni monedas WIR."
+  },
+  "CLE": {
+    "codigo": "CLE",
+    "nombres": {
+      "es": "Escudo chileno",
+      "en": "Chilean escudo"
+    },
+    "nombre_corto": {
+      "es": "Escudo chileno",
+      "es_p": "Escudos chilenos",
+      "en": "Chilean escudo",
+      "en_p": "Chilean escudos"
+    },
+    "simbolo": "Eº",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centésimo",
+        "en": "centésimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "CL"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Chile",
+      "codigo": "BCCH"
+    },
+    "historia": {
+      "fecha_introduccion": "1960",
+      "fecha_fin": "1974",
+      "moneda_anterior": null,
+      "moneda_sucesora": "CLP"
+    },
+    "notas": "Duró apenas quince años: la inflación de los setenta lo condenó y muchos chilenos siguieron contando en «pesos» toda su vigencia."
   },
   "CLF": {
     "codigo": "CLF",
@@ -1974,7 +2207,9 @@
     },
     "nombre_corto": {
       "es": "Unidad de Fomento",
-      "en": "Unidad de Fomento"
+      "es_p": "Unidades de Fomento",
+      "en": "Unidad de Fomento",
+      "en_p": "Unidades de Fomento"
     },
     "simbolo": "UF",
     "iso_4217": {
@@ -2004,10 +2239,11 @@
     },
     "historia": {
       "fecha_introduccion": "1967",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Unidad de cuenta indexada a la inflación, utilizada en contratos y créditos."
+    "notas": "La Unidad de Fomento se reajusta a diario según el IPC y es el estándar de los créditos hipotecarios en Chile."
   },
   "CLP": {
     "codigo": "CLP",
@@ -2017,7 +2253,9 @@
     },
     "nombre_corto": {
       "es": "Peso chileno",
-      "en": "Chilean peso"
+      "es_p": "Pesos chilenos",
+      "en": "Chilean peso",
+      "en_p": "Chilean pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -2052,10 +2290,11 @@
     },
     "historia": {
       "fecha_introduccion": "1975",
+      "fecha_fin": null,
       "moneda_anterior": "CLE",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Su moneda de 50 pesos de 2008 se hizo célebre por un error de acuñación: decía «CHIIE» en lugar de «CHILE»."
   },
   "CNY": {
     "codigo": "CNY",
@@ -2065,7 +2304,9 @@
     },
     "nombre_corto": {
       "es": "Yuan",
-      "en": "Yuan"
+      "es_p": "Yuanes",
+      "en": "Yuan",
+      "en_p": "Yuan"
     },
     "simbolo": "¥",
     "iso_4217": {
@@ -2100,10 +2341,11 @@
     },
     "historia": {
       "fecha_introduccion": "1948",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Yuan» significa «objeto redondo» y comparte etimología con el yen japonés y el won coreano."
   },
   "COP": {
     "codigo": "COP",
@@ -2113,7 +2355,9 @@
     },
     "nombre_corto": {
       "es": "Peso colombiano",
-      "en": "Colombian peso"
+      "es_p": "Pesos colombianos",
+      "en": "Colombian peso",
+      "en_p": "Colombian pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -2148,10 +2392,11 @@
     },
     "historia": {
       "fecha_introduccion": "1810",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Su serie actual celebra la biodiversidad y a Gabriel García Márquez, retratado en el billete de 50.000 pesos."
   },
   "COU": {
     "codigo": "COU",
@@ -2161,7 +2406,9 @@
     },
     "nombre_corto": {
       "es": "Unidad de Valor Real",
-      "en": "Unidad de Valor Real"
+      "es_p": "Unidades de Valor Real",
+      "en": "Unidad de Valor Real",
+      "en_p": "Unidades de Valor Real"
     },
     "simbolo": null,
     "iso_4217": {
@@ -2191,10 +2438,11 @@
     },
     "historia": {
       "fecha_introduccion": null,
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Unidad de cuenta indexada, no circula físicamente."
+    "notas": "La Unidad de Valor Real se recalcula con la inflación y se usa para créditos de vivienda; nunca se imprime."
   },
   "CRC": {
     "codigo": "CRC",
@@ -2204,7 +2452,9 @@
     },
     "nombre_corto": {
       "es": "Colón",
-      "en": "Colón"
+      "es_p": "Colones",
+      "en": "Colón",
+      "en_p": "Colones"
     },
     "simbolo": "₡",
     "iso_4217": {
@@ -2239,10 +2489,58 @@
     },
     "historia": {
       "fecha_introduccion": "1896",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sus billetes, con perezosos, tiburones martillo y colibríes, figuran entre los más coloridos del mundo."
+  },
+  "CUC": {
+    "codigo": "CUC",
+    "nombres": {
+      "es": "Peso convertible cubano",
+      "en": "Cuban convertible peso"
+    },
+    "nombre_corto": {
+      "es": "Peso convertible",
+      "es_p": "Pesos convertibles",
+      "en": "Convertible peso",
+      "en_p": "Convertible pesos"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "931",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "CU"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Cuba",
+      "codigo": "BCC"
+    },
+    "historia": {
+      "fecha_introduccion": "1994",
+      "fecha_fin": "2020",
+      "moneda_anterior": null,
+      "moneda_sucesora": "CUP"
+    },
+    "notas": "Apodado «chavito», convivió 27 años con el peso cubano y creó una economía dual con tiendas separadas para cada moneda."
   },
   "CUP": {
     "codigo": "CUP",
@@ -2252,7 +2550,9 @@
     },
     "nombre_corto": {
       "es": "Peso cubano",
-      "en": "Cuban peso"
+      "es_p": "Pesos cubanos",
+      "en": "Cuban peso",
+      "en_p": "Cuban pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -2287,10 +2587,11 @@
     },
     "historia": {
       "fecha_introduccion": "1857",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Llegó a convivir simultáneamente con certificados de divisas y con el peso convertible: hasta tres formas de dinero a la vez."
   },
   "CVE": {
     "codigo": "CVE",
@@ -2300,7 +2601,9 @@
     },
     "nombre_corto": {
       "es": "Escudo caboverdiano",
-      "en": "Cape Verdean escudo"
+      "es_p": "Escudos caboverdianos",
+      "en": "Cape Verdean escudo",
+      "en_p": "Cape Verdean escudos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -2335,59 +2638,63 @@
     },
     "historia": {
       "fecha_introduccion": "1914",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Está anclado al euro mediante un acuerdo con Portugal, herencia de su antigua paridad con el escudo portugués."
   },
   "CYP": {
-  "codigo": "CYP",
-  "nombres": {
-    "es": "Libra chipriota",
-    "en": "Cyprus pound"
-  },
-  "nombre_corto": {
-    "es": "Libra",
-    "en": "Pound"
-  },
-  "simbolo": "£",
-  "iso_4217": {
-    "numerico": "196",
-    "decimales": 2
-  },
-  "subunidad": {
-    "codigo": null,
+    "codigo": "CYP",
     "nombres": {
-      "es": "céntimo",
-      "en": "cent"
+      "es": "Libra chipriota",
+      "en": "Cyprus pound"
     },
-    "factor": 100
+    "nombre_corto": {
+      "es": "Libra",
+      "es_p": "Libras",
+      "en": "Pound",
+      "en_p": "Pounds"
+    },
+    "simbolo": "£",
+    "iso_4217": {
+      "numerico": "196",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "CY"
+      ],
+      "curso_legal": [
+        "CY"
+      ],
+      "circulacion": [
+        "CY"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Chipre",
+      "codigo": "CBC"
+    },
+    "historia": {
+      "fecha_introduccion": "1879",
+      "fecha_fin": "2007",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "Estuvo ligada al patrón de la libra esterlina hasta 1972; al retirarse era una de las libras más valiosas del mundo."
   },
-  "tipo": "fiat",
-  "estado": "historica",
-  "uso": {
-    "emisor": [
-      "CY"
-    ],
-    "curso_legal": [
-      "CY"
-    ],
-    "circulacion": [
-      "CY"
-    ],
-    "de_facto": []
-  },
-  "banco_central": {
-    "nombre": "Banco Central de Chipre",
-    "codigo": "CBC"
-  },
-  "historia": {
-    "fecha_introduccion": "1879",
-    "moneda_anterior": null,
-    "moneda_sucesora": "EUR"
-  },
-  "notas": "En 2004 la libra chipriota utilizaba el sistema decimal de 100 céntimos por libra, introducido en 1983 en sustitución del sistema anterior basado en mils. La libra chipriota fue sustituida por el euro el 1 de enero de 2008."
-},
   "CZK": {
     "codigo": "CZK",
     "nombres": {
@@ -2396,7 +2703,9 @@
     },
     "nombre_corto": {
       "es": "Corona checa",
-      "en": "Czech koruna"
+      "es_p": "Coronas checas",
+      "en": "Czech koruna",
+      "en_p": "Czech korunas"
     },
     "simbolo": "Kč",
     "iso_4217": {
@@ -2431,10 +2740,58 @@
     },
     "historia": {
       "fecha_introduccion": "1993",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "CSK",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Tras la partición de Checoslovaquia en 1993, las coronas checas se distinguieron al principio pegando estampillas sobre los billetes checoslovacos."
+  },
+  "DEM": {
+    "codigo": "DEM",
+    "nombres": {
+      "es": "Marco alemán",
+      "en": "German mark"
+    },
+    "nombre_corto": {
+      "es": "Marco alemán",
+      "es_p": "Marcos alemanes",
+      "en": "Deutsche Mark",
+      "en_p": "Deutsche Marks"
+    },
+    "simbolo": "DM",
+    "iso_4217": {
+      "numerico": "276",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "pfennig",
+        "en": "pfennig"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "DE"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Deutsche Bundesbank",
+      "codigo": "BBk"
+    },
+    "historia": {
+      "fecha_introduccion": "1948",
+      "fecha_fin": "1998",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "El Bundesbank sigue cambiando marcos por euros sin fecha límite: aún hay miles de millones sin canjear."
   },
   "DJF": {
     "codigo": "DJF",
@@ -2445,7 +2802,9 @@
     },
     "nombre_corto": {
       "es": "Franco yibutiano",
-      "en": "Djiboutian franc"
+      "es_p": "Francos yibutianos",
+      "en": "Djiboutian franc",
+      "en_p": "Djiboutian francs"
     },
     "simbolo": "Fdj",
     "iso_4217": {
@@ -2481,10 +2840,11 @@
     },
     "historia": {
       "fecha_introduccion": "1949",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Está fijado al dólar estadounidense desde 1949, uno de los anclajes cambiarios más antiguos aún vigentes."
   },
   "DKK": {
     "codigo": "DKK",
@@ -2494,7 +2854,9 @@
     },
     "nombre_corto": {
       "es": "Corona danesa",
-      "en": "Danish krone"
+      "es_p": "Coronas danesas",
+      "en": "Danish krone",
+      "en_p": "Danish kroner"
     },
     "simbolo": "kr",
     "iso_4217": {
@@ -2533,10 +2895,11 @@
     },
     "historia": {
       "fecha_introduccion": "1875",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Es la única moneda europea dentro del MTC II, con banda de fluctuación formal frente al euro."
   },
   "DOP": {
     "codigo": "DOP",
@@ -2546,7 +2909,9 @@
     },
     "nombre_corto": {
       "es": "Peso dominicano",
-      "en": "Dominican peso"
+      "es_p": "Pesos dominicanos",
+      "en": "Dominican peso",
+      "en_p": "Dominican pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -2581,10 +2946,11 @@
     },
     "historia": {
       "fecha_introduccion": "1947",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sus billetes llevan impreso el lema nacional dominicano: «Dios, Patria y Libertad»."
   },
   "DZD": {
     "codigo": "DZD",
@@ -2595,7 +2961,9 @@
     },
     "nombre_corto": {
       "es": "Dinar argelino",
-      "en": "Algerian dinar"
+      "es_p": "Dinares argelinos",
+      "en": "Algerian dinar",
+      "en_p": "Algerian dinars"
     },
     "simbolo": "د.ج",
     "iso_4217": {
@@ -2631,59 +2999,63 @@
     },
     "historia": {
       "fecha_introduccion": "1964",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Dinar» proviene del denario romano, nombre que perdura en una decena de monedas actuales."
   },
   "ECS": {
-  "codigo": "ECS",
-  "nombres": {
-    "es": "Sucre ecuatoriano",
-    "en": "Ecuadorian sucre"
-  },
-  "nombre_corto": {
-    "es": "Sucre",
-    "en": "Sucre"
-  },
-  "simbolo": "S/",
-  "iso_4217": {
-    "numerico": "218",
-    "decimales": 2
-  },
-  "subunidad": {
-    "codigo": null,
+    "codigo": "ECS",
     "nombres": {
-      "es": "centavo",
-      "en": "centavo"
+      "es": "Sucre ecuatoriano",
+      "en": "Ecuadorian sucre"
     },
-    "factor": 100
+    "nombre_corto": {
+      "es": "Sucre",
+      "es_p": "Sucres",
+      "en": "Sucre",
+      "en_p": "Sucres"
+    },
+    "simbolo": "S/",
+    "iso_4217": {
+      "numerico": "218",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "EC"
+      ],
+      "curso_legal": [
+        "EC"
+      ],
+      "circulacion": [
+        "EC"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central del Ecuador",
+      "codigo": "BCE"
+    },
+    "historia": {
+      "fecha_introduccion": "1884",
+      "fecha_fin": "1999",
+      "moneda_anterior": null,
+      "moneda_sucesora": "USD"
+    },
+    "notas": "Debe su nombre al mariscal Antonio José de Sucre, héroe de la independencia sudamericana."
   },
-  "tipo": "fiat",
-  "estado": "historica",
-  "uso": {
-    "emisor": [
-      "EC"
-    ],
-    "curso_legal": [
-      "EC"
-    ],
-    "circulacion": [
-      "EC"
-    ],
-    "de_facto": []
-  },
-  "banco_central": {
-    "nombre": "Banco Central del Ecuador",
-    "codigo": "BCE"
-  },
-  "historia": {
-    "fecha_introduccion": "1884",
-    "moneda_anterior": null,
-    "moneda_sucesora": "USD"
-  },
-  "notas": "En 1982 el sucre era la moneda oficial de Ecuador y se dividía en 100 centavos. El Banco Central del Ecuador documenta que el sucre fue la moneda de curso legal desde 1884 hasta 2000. Fue reemplazado por el dólar estadounidense como moneda de curso legal en 2000."
-},
   "EEK": {
     "codigo": "EEK",
     "nombres": {
@@ -2692,7 +3064,9 @@
     },
     "nombre_corto": {
       "es": "Corona",
-      "en": "Kroon"
+      "es_p": "Coronas",
+      "en": "Kroon",
+      "en_p": "Kroons"
     },
     "simbolo": "kr",
     "iso_4217": {
@@ -2710,9 +3084,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["EE"],
-      "curso_legal": ["EE"],
-      "circulacion": ["EE"],
+      "emisor": [
+        "EE"
+      ],
+      "curso_legal": [
+        "EE"
+      ],
+      "circulacion": [
+        "EE"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -2721,10 +3101,11 @@
     },
     "historia": {
       "fecha_introduccion": "1992",
+      "fecha_fin": "2010",
       "moneda_anterior": "SUR",
       "moneda_sucesora": "EUR"
     },
-    "notas": null
+    "notas": "Su billete de 10 coronas mostraba el roble de Tamme-Lauri, el árbol más antiguo de Estonia."
   },
   "EGP": {
     "codigo": "EGP",
@@ -2735,7 +3116,9 @@
     },
     "nombre_corto": {
       "es": "Libra egipcia",
-      "en": "Egyptian pound"
+      "es_p": "Libras egipcias",
+      "en": "Egyptian pound",
+      "en_p": "Egyptian pounds"
     },
     "simbolo": "ج.م",
     "iso_4217": {
@@ -2770,10 +3153,11 @@
     },
     "historia": {
       "fecha_introduccion": "1834",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En árabe se la llama «geneih», adaptación de «guinea», la antigua moneda de oro británica."
   },
   "ERN": {
     "codigo": "ERN",
@@ -2783,7 +3167,9 @@
     },
     "nombre_corto": {
       "es": "Nakfa",
-      "en": "Nakfa"
+      "es_p": "Nakfas",
+      "en": "Nakfa",
+      "en_p": "Nakfas"
     },
     "simbolo": "Nfk",
     "iso_4217": {
@@ -2818,10 +3204,58 @@
     },
     "historia": {
       "fecha_introduccion": "1997",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Lleva el nombre de Nakfa, la ciudad símbolo de la resistencia durante la guerra de independencia eritrea."
+  },
+  "ESP": {
+    "codigo": "ESP",
+    "nombres": {
+      "es": "Peseta española",
+      "en": "Spanish peseta"
+    },
+    "nombre_corto": {
+      "es": "Peseta",
+      "es_p": "Pesetas",
+      "en": "Peseta",
+      "en_p": "Pesetas"
+    },
+    "simbolo": "₧",
+    "iso_4217": {
+      "numerico": "724",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "ES"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de España",
+      "codigo": "BdE"
+    },
+    "historia": {
+      "fecha_introduccion": "1868",
+      "fecha_fin": "1998",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "«Peseta» procede del catalán «peceta» («piececita»); popularmente se la llamaba «rubia» por el color de sus monedas."
   },
   "ETB": {
     "codigo": "ETB",
@@ -2831,7 +3265,9 @@
     },
     "nombre_corto": {
       "es": "Birr",
-      "en": "Birr"
+      "es_p": "Birrs",
+      "en": "Birr",
+      "en_p": "Birr"
     },
     "simbolo": "Br",
     "iso_4217": {
@@ -2866,10 +3302,11 @@
     },
     "historia": {
       "fecha_introduccion": "1976",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Birr» significa «plata» en amárico; antes de usarlo, Etiopía empleó barras de sal como dinero."
   },
   "EUR": {
     "codigo": "EUR",
@@ -2879,7 +3316,9 @@
     },
     "nombre_corto": {
       "es": "Euro",
-      "en": "Euro"
+      "es_p": "Euros",
+      "en": "Euro",
+      "en_p": "Euros"
     },
     "simbolo": "€",
     "iso_4217": {
@@ -2988,10 +3427,11 @@
     },
     "historia": {
       "fecha_introduccion": "1999-01-01",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "XEU",
       "moneda_sucesora": null
     },
-    "notas": "Circulación fiduciaria desde 2002. Utilizado de facto en Montenegro y Kosovo sin acuerdo monetario formal."
+    "notas": "Los puentes de sus billetes eran arquitecturas ficticias, hasta que la ciudad neerlandesa de Spijkenisse los construyó todos en la realidad."
   },
   "FIM": {
     "codigo": "FIM",
@@ -3001,7 +3441,9 @@
     },
     "nombre_corto": {
       "es": "Marco",
-      "en": "Markka"
+      "es_p": "Marcos",
+      "en": "Markka",
+      "en_p": "Markkaa"
     },
     "simbolo": "mk",
     "iso_4217": {
@@ -3019,9 +3461,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["FI"],
-      "curso_legal": ["FI"],
-      "circulacion": ["FI"],
+      "emisor": [
+        "FI"
+      ],
+      "curso_legal": [
+        "FI"
+      ],
+      "circulacion": [
+        "FI"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -3030,10 +3478,11 @@
     },
     "historia": {
       "fecha_introduccion": "1860",
+      "fecha_fin": "1998",
       "moneda_anterior": null,
       "moneda_sucesora": "EUR"
     },
-    "notas": null
+    "notas": "«Markka» venía de una antigua unidad de peso germánica; Finlandia fue el único país nórdico en cambiarla por el euro."
   },
   "FJD": {
     "codigo": "FJD",
@@ -3043,7 +3492,9 @@
     },
     "nombre_corto": {
       "es": "Dólar fiyiano",
-      "en": "Fijian dollar"
+      "es_p": "Dólares fiyianos",
+      "en": "Fijian dollar",
+      "en_p": "Fijian dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -3078,10 +3529,11 @@
     },
     "historia": {
       "fecha_introduccion": "1969",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Mantuvo el retrato de Isabel II hasta 2013, cuando lo sustituyó por flora y fauna locales."
   },
   "FKP": {
     "codigo": "FKP",
@@ -3091,7 +3543,9 @@
     },
     "nombre_corto": {
       "es": "Libra malvinense",
-      "en": "Falkland Islands pound"
+      "es_p": "Libras malvinenses",
+      "en": "Falkland Islands pound",
+      "en_p": "Falkland Islands pounds"
     },
     "simbolo": "£",
     "iso_4217": {
@@ -3128,10 +3582,11 @@
     },
     "historia": {
       "fecha_introduccion": "1899",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Circula a la par de la libra esterlina, pero sus billetes rara vez se aceptan fuera de las islas."
   },
   "FRF": {
     "codigo": "FRF",
@@ -3141,7 +3596,9 @@
     },
     "nombre_corto": {
       "es": "Franco",
-      "en": "Franc"
+      "es_p": "Francos",
+      "en": "Franc",
+      "en_p": "Francs"
     },
     "simbolo": "₣",
     "iso_4217": {
@@ -3159,9 +3616,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["FR"],
-      "curso_legal": ["FR"],
-      "circulacion": ["FR"],
+      "emisor": [
+        "FR"
+      ],
+      "curso_legal": [
+        "FR"
+      ],
+      "circulacion": [
+        "FR"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -3170,10 +3633,11 @@
     },
     "historia": {
       "fecha_introduccion": "1960",
-      "moneda_anterior": "FRF",
+      "fecha_fin": "1998",
+      "moneda_anterior": null,
       "moneda_sucesora": "EUR"
     },
-    "notas": "En 1991 estaba vigente el franco francés de la llamada nueva serie monetaria, posterior a la reforma de 1960."
+    "notas": "El «nuevo franco» de 1960 quitó dos ceros; décadas después muchos franceses aún calculaban precios en francos antiguos."
   },
   "GBP": {
     "codigo": "GBP",
@@ -3183,7 +3647,9 @@
     },
     "nombre_corto": {
       "es": "Libra",
-      "en": "Pound"
+      "es_p": "Libras",
+      "en": "Pound",
+      "en_p": "Pounds"
     },
     "simbolo": "£",
     "iso_4217": {
@@ -3227,10 +3693,11 @@
     },
     "historia": {
       "fecha_introduccion": "775",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Sterling» procede probablemente de la plata de ley de los comerciantes bálticos, los «easterlings»."
   },
   "GEK": {
     "codigo": "GEK",
@@ -3240,7 +3707,9 @@
     },
     "nombre_corto": {
       "es": "Cupón",
-      "en": "Coupon"
+      "es_p": "Cupones",
+      "en": "Coupon",
+      "en_p": "Coupons"
     },
     "simbolo": null,
     "iso_4217": {
@@ -3258,9 +3727,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["GE"],
-      "curso_legal": ["GE"],
-      "circulacion": ["GE"],
+      "emisor": [
+        "GE"
+      ],
+      "curso_legal": [
+        "GE"
+      ],
+      "circulacion": [
+        "GE"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -3269,10 +3744,11 @@
     },
     "historia": {
       "fecha_introduccion": "1993",
+      "fecha_fin": "1994",
       "moneda_anterior": "RUR",
       "moneda_sucesora": "GEL"
     },
-    "notas": "En 1994 el cupón georgiano era la moneda provisional de Georgia. No tenía una subunidad monetaria efectiva."
+    "notas": "Los cupones llegaron a emitirse en denominaciones de un millón durante una de las peores hiperinflaciones postsoviéticas."
   },
   "GEL": {
     "codigo": "GEL",
@@ -3282,7 +3758,9 @@
     },
     "nombre_corto": {
       "es": "Lari",
-      "en": "Lari"
+      "es_p": "Laris",
+      "en": "Lari",
+      "en_p": "Lari"
     },
     "simbolo": "₾",
     "iso_4217": {
@@ -3317,10 +3795,11 @@
     },
     "historia": {
       "fecha_introduccion": "1995",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "GEK",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Lari» significa «bien» o «propiedad» en georgiano antiguo; su símbolo ₾ se adoptó en 2014."
   },
   "GHS": {
     "codigo": "GHS",
@@ -3330,7 +3809,9 @@
     },
     "nombre_corto": {
       "es": "Cedi",
-      "en": "Cedi"
+      "es_p": "Cedis",
+      "en": "Cedi",
+      "en_p": "Cedis"
     },
     "simbolo": "₵",
     "iso_4217": {
@@ -3365,10 +3846,11 @@
     },
     "historia": {
       "fecha_introduccion": "2007",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "GHC",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Cedi» proviene de la palabra akan para el caurí, la concha que sirvió de dinero en África occidental."
   },
   "GIP": {
     "codigo": "GIP",
@@ -3378,7 +3860,9 @@
     },
     "nombre_corto": {
       "es": "Libra gibraltareña",
-      "en": "Gibraltar pound"
+      "es_p": "Libras gibraltareñas",
+      "en": "Gibraltar pound",
+      "en_p": "Gibraltar pounds"
     },
     "simbolo": "£",
     "iso_4217": {
@@ -3413,10 +3897,11 @@
     },
     "historia": {
       "fecha_introduccion": "1934",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Gibraltar imprime sus propias libras, pero la libra esterlina circula indistintamente en el peñón."
   },
   "GMD": {
     "codigo": "GMD",
@@ -3426,7 +3911,9 @@
     },
     "nombre_corto": {
       "es": "Dalasi",
-      "en": "Dalasi"
+      "es_p": "Dalasis",
+      "en": "Dalasi",
+      "en_p": "Dalasis"
     },
     "simbolo": "D",
     "iso_4217": {
@@ -3461,10 +3948,11 @@
     },
     "historia": {
       "fecha_introduccion": "1971",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Dalasi» deriva del nombre local que recibía la antigua moneda de 5 francos; sus billetes destacan aves del río Gambia."
   },
   "GNF": {
     "codigo": "GNF",
@@ -3475,7 +3963,9 @@
     },
     "nombre_corto": {
       "es": "Franco guineano",
-      "en": "Guinean franc"
+      "es_p": "Francos guineanos",
+      "en": "Guinean franc",
+      "en_p": "Guinean francs"
     },
     "simbolo": "FG",
     "iso_4217": {
@@ -3511,59 +4001,63 @@
     },
     "historia": {
       "fecha_introduccion": "1985",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Guinea fue el primer país del África occidental francófona en abandonar la zona del franco tras la independencia."
   },
   "GRD": {
-  "codigo": "GRD",
-  "nombres": {
-    "es": "Dracma griego",
-    "en": "Greek drachma"
-  },
-  "nombre_corto": {
-    "es": "Dracma",
-    "en": "Drachma"
-  },
-  "simbolo": "₯",
-  "iso_4217": {
-    "numerico": "300",
-    "decimales": 0
-  },
-  "subunidad": {
-    "codigo": null,
+    "codigo": "GRD",
     "nombres": {
-      "es": "lepta",
-      "en": "lepta"
+      "es": "Dracma griego",
+      "en": "Greek drachma"
     },
-    "factor": 100
+    "nombre_corto": {
+      "es": "Dracma",
+      "es_p": "Dracmas",
+      "en": "Drachma",
+      "en_p": "Drachmas"
+    },
+    "simbolo": "₯",
+    "iso_4217": {
+      "numerico": "300",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "lepta",
+        "en": "lepta"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "GR"
+      ],
+      "curso_legal": [
+        "GR"
+      ],
+      "circulacion": [
+        "GR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Grecia",
+      "codigo": "BoG"
+    },
+    "historia": {
+      "fecha_introduccion": "1954",
+      "fecha_fin": "2000",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "Revivió el nombre de la moneda de la Grecia clásica, acuñada ya en el siglo VI a. C."
   },
-  "tipo": "fiat",
-  "estado": "historica",
-  "uso": {
-    "emisor": [
-      "GR"
-    ],
-    "curso_legal": [
-      "GR"
-    ],
-    "circulacion": [
-      "GR"
-    ],
-    "de_facto": []
-  },
-  "banco_central": {
-    "nombre": "Banco de Grecia",
-    "codigo": "BoG"
-  },
-  "historia": {
-    "fecha_introduccion": "1954",
-    "moneda_anterior": null,
-    "moneda_sucesora": "EUR"
-  },
-  "notas": "En 1978 el dracma era la moneda oficial de Grecia. Se dividía nominalmente en 100 lepta. El Banco de Grecia registra billetes de 50 y 100 dracmas fechados en 1978. La moneda fue sustituida por el euro en 2002."
-},
   "GTQ": {
     "codigo": "GTQ",
     "nombres": {
@@ -3572,7 +4066,9 @@
     },
     "nombre_corto": {
       "es": "Quetzal",
-      "en": "Quetzal"
+      "es_p": "Quetzales",
+      "en": "Quetzal",
+      "en_p": "Quetzales"
     },
     "simbolo": "Q",
     "iso_4217": {
@@ -3607,10 +4103,11 @@
     },
     "historia": {
       "fecha_introduccion": "1925",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Lleva el nombre del quetzal, ave cuyas plumas sirvieron como medio de pago en la cultura maya."
   },
   "GWP": {
     "codigo": "GWP",
@@ -3620,7 +4117,9 @@
     },
     "nombre_corto": {
       "es": "Peso",
-      "en": "Peso"
+      "es_p": "Pesos",
+      "en": "Peso",
+      "en_p": "Pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -3638,9 +4137,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["GW"],
-      "curso_legal": ["GW"],
-      "circulacion": ["GW"],
+      "emisor": [
+        "GW"
+      ],
+      "curso_legal": [
+        "GW"
+      ],
+      "circulacion": [
+        "GW"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -3649,10 +4154,11 @@
     },
     "historia": {
       "fecha_introduccion": "1975",
+      "fecha_fin": "1996",
       "moneda_anterior": "GWE",
       "moneda_sucesora": "XOF"
     },
-    "notas": "El peso de Guinea-Bisáu estaba vigente en 1990 y se dividía en 100 centavos."
+    "notas": "Al cambiarlo por el franco CFA en 1997, Guinea-Bisáu se convirtió en uno de los pocos miembros de la zona sin pasado colonial francés."
   },
   "GYD": {
     "codigo": "GYD",
@@ -3662,7 +4168,9 @@
     },
     "nombre_corto": {
       "es": "Dólar guyanés",
-      "en": "Guyanese dollar"
+      "es_p": "Dólares guyaneses",
+      "en": "Guyanese dollar",
+      "en_p": "Guyanese dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -3697,10 +4205,11 @@
     },
     "historia": {
       "fecha_introduccion": "1839",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sus billetes muestran la catarata Kaieteur, una de las de mayor caída libre continua del mundo."
   },
   "HKD": {
     "codigo": "HKD",
@@ -3710,7 +4219,9 @@
     },
     "nombre_corto": {
       "es": "Dólar de Hong Kong",
-      "en": "Hong Kong dollar"
+      "es_p": "Dólares de Hong Kong",
+      "en": "Hong Kong dollar",
+      "en_p": "Hong Kong dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -3745,10 +4256,11 @@
     },
     "historia": {
       "fecha_introduccion": "1863",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Tres bancos comerciales privados emiten sus billetes, un esquema casi único en el mundo actual."
   },
   "HNL": {
     "codigo": "HNL",
@@ -3758,7 +4270,9 @@
     },
     "nombre_corto": {
       "es": "Lempira",
-      "en": "Lempira"
+      "es_p": "Lempiras",
+      "en": "Lempira",
+      "en_p": "Lempiras"
     },
     "simbolo": "L",
     "iso_4217": {
@@ -3793,59 +4307,110 @@
     },
     "historia": {
       "fecha_introduccion": "1931",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Lleva el nombre del cacique Lempira, líder de la resistencia indígena contra los conquistadores."
   },
   "HRD": {
-  "codigo": "HRD",
-  "nombres": {
-    "es": "Dinar croata",
-    "en": "Croatian dinar"
-  },
-  "nombre_corto": {
-    "es": "Dinar",
-    "en": "Dinar"
-  },
-  "simbolo": "CRD",
-  "iso_4217": {
-    "numerico": "191",
-    "decimales": 2
-  },
-  "subunidad": {
-    "codigo": null,
+    "codigo": "HRD",
     "nombres": {
-      "es": null,
-      "en": null
+      "es": "Dinar croata",
+      "en": "Croatian dinar"
     },
-    "factor": 1
+    "nombre_corto": {
+      "es": "Dinar",
+      "es_p": "Dinares",
+      "en": "Dinar",
+      "en_p": "Dinars"
+    },
+    "simbolo": "CRD",
+    "iso_4217": {
+      "numerico": "191",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": null,
+        "en": null
+      },
+      "factor": 1
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "HR"
+      ],
+      "curso_legal": [
+        "HR"
+      ],
+      "circulacion": [
+        "HR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Croacia",
+      "codigo": "HNB"
+    },
+    "historia": {
+      "fecha_introduccion": "1991",
+      "fecha_fin": "1993",
+      "moneda_anterior": "YUN",
+      "moneda_sucesora": "HRK"
+    },
+    "notas": "Moneda de transición en plena guerra: todos sus billetes mostraban al científico Ruđer Bošković."
   },
-  "tipo": "fiat",
-  "estado": "historica",
-  "uso": {
-    "emisor": [
-      "HR"
-    ],
-    "curso_legal": [
-      "HR"
-    ],
-    "circulacion": [
-      "HR"
-    ],
-    "de_facto": []
+  "HRK": {
+    "codigo": "HRK",
+    "nombres": {
+      "es": "Kuna croata",
+      "en": "Croatian kuna"
+    },
+    "nombre_corto": {
+      "es": "Kuna",
+      "es_p": "Kunas",
+      "en": "Kuna",
+      "en_p": "Kuna"
+    },
+    "simbolo": "kn",
+    "iso_4217": {
+      "numerico": "191",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "lipa",
+        "en": "lipa"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "HR"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Croacia",
+      "codigo": "HNB"
+    },
+    "historia": {
+      "fecha_introduccion": "1994",
+      "fecha_fin": "2022",
+      "moneda_anterior": "HRD",
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "«Kuna» significa «marta»: las pieles de este animal se usaron como medio de pago en la Croacia medieval."
   },
-  "banco_central": {
-    "nombre": "Banco Nacional de Croacia",
-    "codigo": "HNB"
-  },
-  "historia": {
-    "fecha_introduccion": "1991",
-    "moneda_anterior": "YUN",
-    "moneda_sucesora": "HRK"
-  },
-  "notas": "El dinar croata fue introducido el 23 de diciembre de 1991, sustituyendo a la par al dinar yugoslavo. Fue una moneda transitoria de Croacia y fue reemplazado por la kuna el 30 de mayo de 1994, a razón de 1 kuna = 1.000 dinares. La abreviatura oficial establecida por la legislación croata fue CRD."
-},
   "HTG": {
     "codigo": "HTG",
     "nombres": {
@@ -3854,7 +4419,9 @@
     },
     "nombre_corto": {
       "es": "Gourde",
-      "en": "Gourde"
+      "es_p": "Gourdes",
+      "en": "Gourde",
+      "en_p": "Gourdes"
     },
     "simbolo": "G",
     "iso_4217": {
@@ -3889,10 +4456,11 @@
     },
     "historia": {
       "fecha_introduccion": "1813",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Gourde» proviene del español «gorda», por los «pesos gordos» de plata que circulaban en el Caribe colonial."
   },
   "HUF": {
     "codigo": "HUF",
@@ -3902,7 +4470,9 @@
     },
     "nombre_corto": {
       "es": "Forinto",
-      "en": "Forint"
+      "es_p": "Forintos",
+      "en": "Forint",
+      "en_p": "Forints"
     },
     "simbolo": "Ft",
     "iso_4217": {
@@ -3934,10 +4504,11 @@
     },
     "historia": {
       "fecha_introduccion": "1946",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Forint» procede de Florencia, cuyo florín de oro fue patrón monetario de la Europa medieval."
   },
   "IDR": {
     "codigo": "IDR",
@@ -3947,7 +4518,9 @@
     },
     "nombre_corto": {
       "es": "Rupia indonesia",
-      "en": "Rupiah"
+      "es_p": "Rupias indonesias",
+      "en": "Rupiah",
+      "en_p": "Rupiah"
     },
     "simbolo": "Rp",
     "iso_4217": {
@@ -3982,107 +4555,114 @@
     },
     "historia": {
       "fecha_introduccion": "1946",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Existe el billete de 100.000 rupias y el banco central estudia desde hace años quitarle tres ceros a la moneda."
   },
   "ILP": {
-  "codigo": "ILP",
-  "nombres": {
-    "es": "Lira israelí",
-    "en": "Israeli pound"
-  },
-  "nombre_corto": {
-    "es": "Lira",
-    "en": "Pound"
-  },
-  "simbolo": "£",
-  "iso_4217": {
-    "numerico": "376",
-    "decimales": 2
-  },
-  "subunidad": {
-    "codigo": null,
+    "codigo": "ILP",
     "nombres": {
-      "es": "agora",
-      "en": "agora"
+      "es": "Lira israelí",
+      "en": "Israeli pound"
     },
-    "factor": 100
+    "nombre_corto": {
+      "es": "Lira",
+      "es_p": "Liras",
+      "en": "Pound",
+      "en_p": "Pounds"
+    },
+    "simbolo": "£",
+    "iso_4217": {
+      "numerico": "376",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "agora",
+        "en": "agora"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "IL"
+      ],
+      "curso_legal": [
+        "IL"
+      ],
+      "circulacion": [
+        "IL"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Israel",
+      "codigo": "BOI"
+    },
+    "historia": {
+      "fecha_introduccion": "1952",
+      "fecha_fin": "1979",
+      "moneda_anterior": null,
+      "moneda_sucesora": "ILR"
+    },
+    "notas": "El nombre «lira» se abandonó tras una campaña pública que exigía una denominación de origen hebreo."
   },
-  "tipo": "fiat",
-  "estado": "historica",
-  "uso": {
-    "emisor": [
-      "IL"
-    ],
-    "curso_legal": [
-      "IL"
-    ],
-    "circulacion": [
-      "IL"
-    ],
-    "de_facto": []
-  },
-  "banco_central": {
-    "nombre": "Banco de Israel",
-    "codigo": "BOI"
-  },
-  "historia": {
-    "fecha_introduccion": "1952",
-    "moneda_anterior": "ILP",
-    "moneda_sucesora": "ILR"
-  },
-  "notas": "En 1968 la lira israelí se dividía en 100 agorot. El sistema de 100 agorot por lira entró en vigor el 1 de enero de 1960, reemplazando el sistema anterior de 1.000 prutot por lira. La lira fue sustituida por el sheqel en 1980."
-},
-"ILR": {
-  "codigo": "ILR",
-  "nombres": {
-    "es": "Sheqel israelí",
-    "en": "Israeli shekel"
-  },
-  "nombre_corto": {
-    "es": "Sheqel",
-    "en": "Shekel"
-  },
-  "simbolo": "IS",
-  "iso_4217": {
-    "numerico": "376",
-    "decimales": 2
-  },
-  "subunidad": {
-    "codigo": null,
+  "ILR": {
+    "codigo": "ILR",
     "nombres": {
-      "es": "agora nueva",
-      "en": "new agora"
+      "es": "Sheqel israelí",
+      "en": "Israeli shekel"
     },
-    "factor": 100
+    "nombre_corto": {
+      "es": "Sheqel",
+      "es_p": "Sheqels",
+      "en": "Shekel",
+      "en_p": "Shekels"
+    },
+    "simbolo": "IS",
+    "iso_4217": {
+      "numerico": "376",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "agora nueva",
+        "en": "new agora"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "IL"
+      ],
+      "curso_legal": [
+        "IL"
+      ],
+      "circulacion": [
+        "IL"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Israel",
+      "codigo": "BOI"
+    },
+    "historia": {
+      "fecha_introduccion": "1980",
+      "fecha_fin": "1984",
+      "moneda_anterior": "ILP",
+      "moneda_sucesora": "ILS"
+    },
+    "notas": "Recuperó el nombre bíblico «shekel», una unidad de peso mencionada ya en textos mesopotámicos."
   },
-  "tipo": "fiat",
-  "estado": "historica",
-  "uso": {
-    "emisor": [
-      "IL"
-    ],
-    "curso_legal": [
-      "IL"
-    ],
-    "circulacion": [
-      "IL"
-    ],
-    "de_facto": []
-  },
-  "banco_central": {
-    "nombre": "Banco de Israel",
-    "codigo": "BOI"
-  },
-  "historia": {
-    "fecha_introduccion": "1980",
-    "moneda_anterior": "ILP",
-    "moneda_sucesora": "ILS"
-  },
-  "notas": "El sheqel israelí antiguo fue preparado como nueva serie de billetes a partir de 1978. El billete de 50 sheqalim está fechado 1978, pero el sheqel fue declarado moneda de curso legal el 22 de febrero de 1980 y los primeros billetes entraron en circulación el 24 de febrero de 1980. Se introdujo a razón de 1 sheqel = 10 libras israelíes y se dividía en 100 nuevas agorot. El símbolo monetario utilizado era IS; no debe confundirse con el símbolo ₪ del nuevo sheqel."
-},
   "ILS": {
     "codigo": "ILS",
     "nombres": {
@@ -4092,7 +4672,9 @@
     },
     "nombre_corto": {
       "es": "Séquel",
-      "en": "New shekel"
+      "es_p": "Séqueles",
+      "en": "New shekel",
+      "en_p": "New shekels"
     },
     "simbolo": "₪",
     "iso_4217": {
@@ -4130,10 +4712,11 @@
     },
     "historia": {
       "fecha_introduccion": "1985",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "ILR",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Su símbolo ₪ combina las letras hebreas shin y jet, iniciales de «shekel jadash» («nuevo séquel»)."
   },
   "INR": {
     "codigo": "INR",
@@ -4143,7 +4726,9 @@
     },
     "nombre_corto": {
       "es": "Rupia india",
-      "en": "Indian rupee"
+      "es_p": "Rupias indias",
+      "en": "Indian rupee",
+      "en_p": "Indian rupees"
     },
     "simbolo": "₹",
     "iso_4217": {
@@ -4183,10 +4768,11 @@
     },
     "historia": {
       "fecha_introduccion": "1957",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Rupia» deriva del sánscrito «rupya» («plata labrada»); el símbolo ₹ se eligió por concurso público en 2010."
   },
   "IQD": {
     "codigo": "IQD",
@@ -4197,7 +4783,9 @@
     },
     "nombre_corto": {
       "es": "Dinar iraquí",
-      "en": "Iraqi dinar"
+      "es_p": "Dinares iraquíes",
+      "en": "Iraqi dinar",
+      "en_p": "Iraqi dinars"
     },
     "simbolo": "ع.د",
     "iso_4217": {
@@ -4232,10 +4820,11 @@
     },
     "historia": {
       "fecha_introduccion": "1932",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Tras 2003, los billetes con el retrato de Sadam Huseín se canjearon en solo tres meses por una serie impresa en el extranjero."
   },
   "IRR": {
     "codigo": "IRR",
@@ -4246,7 +4835,9 @@
     },
     "nombre_corto": {
       "es": "Rial iraní",
-      "en": "Iranian rial"
+      "es_p": "Riales iraníes",
+      "en": "Iranian rial",
+      "en_p": "Iranian rials"
     },
     "simbolo": "﷼",
     "iso_4217": {
@@ -4281,10 +4872,11 @@
     },
     "historia": {
       "fecha_introduccion": "1932",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En la vida diaria los iraníes cuentan en «tomanes»: un tomán equivale a diez riales."
   },
   "ISK": {
     "codigo": "ISK",
@@ -4294,7 +4886,9 @@
     },
     "nombre_corto": {
       "es": "Corona islandesa",
-      "en": "Icelandic króna"
+      "es_p": "Coronas islandesas",
+      "en": "Icelandic króna",
+      "en_p": "Icelandic krónur"
     },
     "simbolo": "kr",
     "iso_4217": {
@@ -4329,10 +4923,11 @@
     },
     "historia": {
       "fecha_introduccion": "1918",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Tras la crisis de 2008 estuvo sometida a controles de capital durante casi una década, algo insólito en Europa occidental."
   },
   "ITL": {
     "codigo": "ITL",
@@ -4342,7 +4937,9 @@
     },
     "nombre_corto": {
       "es": "Lira",
-      "en": "Lira"
+      "es_p": "Liras",
+      "en": "Lira",
+      "en_p": "Lire"
     },
     "simbolo": "₤",
     "iso_4217": {
@@ -4360,9 +4957,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["IT"],
-      "curso_legal": ["IT"],
-      "circulacion": ["IT"],
+      "emisor": [
+        "IT"
+      ],
+      "curso_legal": [
+        "IT"
+      ],
+      "circulacion": [
+        "IT"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -4371,10 +4974,11 @@
     },
     "historia": {
       "fecha_introduccion": "1861",
+      "fecha_fin": "1998",
       "moneda_anterior": null,
       "moneda_sucesora": "EUR"
     },
-    "notas": "En 1982 la lira italiana no utilizaba centésimos en la circulación práctica; ISO 4217 la clasifica con cero decimales."
+    "notas": "«Lira» proviene del latín «libra»; al retirarse, 1 euro valía exactamente 1.936,27 liras, cifra que memorizó toda una generación."
   },
   "JMD": {
     "codigo": "JMD",
@@ -4384,7 +4988,9 @@
     },
     "nombre_corto": {
       "es": "Dólar jamaicano",
-      "en": "Jamaican dollar"
+      "es_p": "Dólares jamaicanos",
+      "en": "Jamaican dollar",
+      "en_p": "Jamaican dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -4419,10 +5025,11 @@
     },
     "historia": {
       "fecha_introduccion": "1969",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En 2022-2023 migró sus billetes al polímero con una serie que conmemora los 60 años de independencia."
   },
   "JOD": {
     "codigo": "JOD",
@@ -4433,7 +5040,9 @@
     },
     "nombre_corto": {
       "es": "Dinar jordano",
-      "en": "Jordanian dinar"
+      "es_p": "Dinares jordanos",
+      "en": "Jordanian dinar",
+      "en_p": "Jordanian dinars"
     },
     "simbolo": "د.ا",
     "iso_4217": {
@@ -4468,10 +5077,11 @@
     },
     "historia": {
       "fecha_introduccion": "1950",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Mantiene un tipo fijo con el dólar desde 1995 y es una de las monedas más valiosas del mundo por unidad."
   },
   "JPY": {
     "codigo": "JPY",
@@ -4481,7 +5091,9 @@
     },
     "nombre_corto": {
       "es": "Yen",
-      "en": "Yen"
+      "es_p": "Yenes",
+      "en": "Yen",
+      "en_p": "Yen"
     },
     "simbolo": "¥",
     "iso_4217": {
@@ -4516,10 +5128,11 @@
     },
     "historia": {
       "fecha_introduccion": "1871",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En japonés se pronuncia «en» («círculo»); la grafía «yen» viene de transcripciones occidentales del siglo XIX."
   },
   "KES": {
     "codigo": "KES",
@@ -4529,7 +5142,9 @@
     },
     "nombre_corto": {
       "es": "Chelín keniano",
-      "en": "Kenyan shilling"
+      "es_p": "Chelines kenianos",
+      "en": "Kenyan shilling",
+      "en_p": "Kenyan shillings"
     },
     "simbolo": "Sh",
     "iso_4217": {
@@ -4564,10 +5179,11 @@
     },
     "historia": {
       "fecha_introduccion": "1966",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Por mandato constitucional, la serie de 2019 sustituyó los retratos de presidentes por fauna y escenas de servicios públicos."
   },
   "KGS": {
     "codigo": "KGS",
@@ -4577,7 +5193,9 @@
     },
     "nombre_corto": {
       "es": "Som",
-      "en": "Som"
+      "es_p": "Soms",
+      "en": "Som",
+      "en_p": "Soms"
     },
     "simbolo": "с",
     "iso_4217": {
@@ -4612,10 +5230,11 @@
     },
     "historia": {
       "fecha_introduccion": "1993",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Kirguistán fue la primera república exsoviética de Asia Central en abandonar el rublo y emitir moneda propia."
   },
   "KHR": {
     "codigo": "KHR",
@@ -4625,7 +5244,9 @@
     },
     "nombre_corto": {
       "es": "Riel",
-      "en": "Riel"
+      "es_p": "Rieles",
+      "en": "Riel",
+      "en_p": "Riels"
     },
     "simbolo": "៛",
     "iso_4217": {
@@ -4660,10 +5281,11 @@
     },
     "historia": {
       "fecha_introduccion": "1980",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "El dólar estadounidense circula ampliamente de facto junto al riel."
+    "notas": "Los Jemeres Rojos abolieron el dinero por completo: Camboya pasó cinco años sin moneda alguna antes de reintroducir el riel."
   },
   "KMF": {
     "codigo": "KMF",
@@ -4674,7 +5296,9 @@
     },
     "nombre_corto": {
       "es": "Franco comorense",
-      "en": "Comorian franc"
+      "es_p": "Francos comorenses",
+      "en": "Comorian franc",
+      "en_p": "Comorian francs"
     },
     "simbolo": "CF",
     "iso_4217": {
@@ -4710,10 +5334,11 @@
     },
     "historia": {
       "fecha_introduccion": "1981",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Está anclado al euro con convertibilidad garantizada por el Tesoro francés, herencia de la zona del franco."
   },
   "KPW": {
     "codigo": "KPW",
@@ -4723,7 +5348,9 @@
     },
     "nombre_corto": {
       "es": "Won norcoreano",
-      "en": "North Korean won"
+      "es_p": "Wones norcoreanos",
+      "en": "North Korean won",
+      "en_p": "North Korean won"
     },
     "simbolo": "₩",
     "iso_4217": {
@@ -4758,10 +5385,11 @@
     },
     "historia": {
       "fecha_introduccion": "1947",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Históricamente existieron tres variantes: para locales, para visitantes de países socialistas y para visitantes de países capitalistas."
   },
   "KRW": {
     "codigo": "KRW",
@@ -4771,7 +5399,9 @@
     },
     "nombre_corto": {
       "es": "Won",
-      "en": "Won"
+      "es_p": "Wones",
+      "en": "Won",
+      "en_p": "Won"
     },
     "simbolo": "₩",
     "iso_4217": {
@@ -4806,59 +5436,63 @@
     },
     "historia": {
       "fecha_introduccion": "1962",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Won», como el yuan chino y el yen japonés, deriva del carácter que significa «redondo»."
   },
   "KRY": {
-  "codigo": "KRY",
-  "nombres": {
-    "es": "Yen coreano",
-    "en": "Korean yen"
-  },
-  "nombre_corto": {
-    "es": "Yen",
-    "en": "Yen"
-  },
-  "simbolo": "圓",
-  "iso_4217": {
-    "numerico": null,
-    "decimales": 0
-  },
-  "subunidad": {
-    "codigo": null,
+    "codigo": "KRY",
     "nombres": {
-      "es": "sen",
-      "en": "sen"
+      "es": "Yen coreano",
+      "en": "Korean yen"
     },
-    "factor": 100
+    "nombre_corto": {
+      "es": "Yen",
+      "es_p": "Yenes",
+      "en": "Yen",
+      "en_p": "Yen"
+    },
+    "simbolo": "圓",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "sen",
+        "en": "sen"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "KR"
+      ],
+      "curso_legal": [
+        "KR"
+      ],
+      "circulacion": [
+        "KR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Chōsen",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1910",
+      "fecha_fin": null,
+      "moneda_anterior": null,
+      "moneda_sucesora": null
+    },
+    "notas": "Era emitido por el Banco de Chōsen durante la ocupación japonesa y circulaba a la par del yen japonés."
   },
-  "tipo": "fiat",
-  "estado": "historica",
-  "uso": {
-    "emisor": [
-      "KR"
-    ],
-    "curso_legal": [
-      "KR"
-    ],
-    "circulacion": [
-      "KR"
-    ],
-    "de_facto": []
-  },
-  "banco_central": {
-    "nombre": "Banco de Chōsen",
-    "codigo": null
-  },
-  "historia": {
-    "fecha_introduccion": "1910",
-    "moneda_anterior": "KPW",
-    "moneda_sucesora": "KRW"
-  },
-  "notas": "En 1932 Corea, bajo dominio japonés, utilizaba el yen coreano. Era equivalente al yen japonés y estaba dividido en 100 sen. El Banco de Chōsen emitió billetes específicamente para Corea, incluyendo emisiones de 1, 5 y 10 yenes de 1932. KRY se utiliza aquí como código interno de la base; no es un código ISO 4217 oficial."
-},
   "KWD": {
     "codigo": "KWD",
     "nombres": {
@@ -4868,7 +5502,9 @@
     },
     "nombre_corto": {
       "es": "Dinar kuwaití",
-      "en": "Kuwaiti dinar"
+      "es_p": "Dinares kuwaitíes",
+      "en": "Kuwaiti dinar",
+      "en_p": "Kuwaiti dinars"
     },
     "simbolo": "د.ك",
     "iso_4217": {
@@ -4903,10 +5539,11 @@
     },
     "historia": {
       "fecha_introduccion": "1961",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Es la unidad monetaria con mayor valor de cambio del mundo frente al dólar estadounidense."
   },
   "KYD": {
     "codigo": "KYD",
@@ -4916,7 +5553,9 @@
     },
     "nombre_corto": {
       "es": "Dólar caimano",
-      "en": "Cayman Islands dollar"
+      "es_p": "Dólares caimanos",
+      "en": "Cayman Islands dollar",
+      "en_p": "Cayman Islands dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -4951,10 +5590,11 @@
     },
     "historia": {
       "fecha_introduccion": "1972",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Es la moneda de mayor valor unitario del hemisferio occidental: un dólar caimano vale más que uno estadounidense."
   },
   "KZT": {
     "codigo": "KZT",
@@ -4964,7 +5604,9 @@
     },
     "nombre_corto": {
       "es": "Tenge",
-      "en": "Tenge"
+      "es_p": "Tenges",
+      "en": "Tenge",
+      "en_p": "Tenge"
     },
     "simbolo": "₸",
     "iso_4217": {
@@ -4999,10 +5641,11 @@
     },
     "historia": {
       "fecha_introduccion": "1993",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Tenge» significa «balanza»; de la misma raíz deriva la palabra rusa «dengi» («dinero»)."
   },
   "LAK": {
     "codigo": "LAK",
@@ -5012,7 +5655,9 @@
     },
     "nombre_corto": {
       "es": "Kip",
-      "en": "Kip"
+      "es_p": "Kips",
+      "en": "Kip",
+      "en_p": "Kip"
     },
     "simbolo": "₭",
     "iso_4217": {
@@ -5047,10 +5692,11 @@
     },
     "historia": {
       "fecha_introduccion": "1979",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En Laos conviven a diario tres monedas: el kip, el baht tailandés y el dólar estadounidense."
   },
   "LBP": {
     "codigo": "LBP",
@@ -5061,7 +5707,9 @@
     },
     "nombre_corto": {
       "es": "Libra libanesa",
-      "en": "Lebanese pound"
+      "es_p": "Libras libanesas",
+      "en": "Lebanese pound",
+      "en_p": "Lebanese pounds"
     },
     "simbolo": "ل.ل",
     "iso_4217": {
@@ -5096,10 +5744,11 @@
     },
     "historia": {
       "fecha_introduccion": "1948",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "La crisis iniciada en 2019 le hizo perder más del 98 % de su valor de mercado frente al dólar."
   },
   "LKR": {
     "codigo": "LKR",
@@ -5109,7 +5758,9 @@
     },
     "nombre_corto": {
       "es": "Rupia de Sri Lanka",
-      "en": "Sri Lankan rupee"
+      "es_p": "Rupias de Sri Lanka",
+      "en": "Sri Lankan rupee",
+      "en_p": "Sri Lankan rupees"
     },
     "simbolo": "Rs",
     "iso_4217": {
@@ -5144,52 +5795,11 @@
     },
     "historia": {
       "fecha_introduccion": "1872",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
-  },
-  "LTL": {
-    "codigo": "LTL",
-    "nombres": {
-      "es": "Litas lituano",
-      "en": "Lithuanian litas"
-    },
-    "nombre_corto": {
-      "es": "Litas",
-      "en": "Litas"
-    },
-    "simbolo": "Lt",
-    "iso_4217": {
-      "numerico": "440",
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {
-        "es": "centas",
-        "en": "centas"
-      },
-      "factor": 100
-    },
-    "tipo": "fiat",
-    "estado": "historica",
-    "uso": {
-      "emisor": ["LT"],
-      "curso_legal": ["LT"],
-      "circulacion": ["LT"],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Banco de Lituania",
-      "codigo": "LB"
-    },
-    "historia": {
-      "fecha_introduccion": "1993",
-      "moneda_anterior": "LTT",
-      "moneda_sucesora": "EUR"
-    },
-    "notas": "El talonas de 1992 precedió al litas. Si el registro de tu colección se refiere realmente al talonas de 1992, debe utilizarse LTT y no LTL."
+    "notas": "Sus billetes, impresos en cingalés, tamil e inglés, son famosos por sus motivos de danzas tradicionales."
   },
   "LRD": {
     "codigo": "LRD",
@@ -5199,7 +5809,9 @@
     },
     "nombre_corto": {
       "es": "Dólar liberiano",
-      "en": "Liberian dollar"
+      "es_p": "Dólares liberianos",
+      "en": "Liberian dollar",
+      "en_p": "Liberian dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -5236,10 +5848,11 @@
     },
     "historia": {
       "fecha_introduccion": "1943",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "El dólar estadounidense circula ampliamente de facto junto al dólar liberiano."
+    "notas": "Liberia usó el dólar estadounidense como única moneda durante buena parte del siglo XX antes de reintroducir la propia."
   },
   "LSL": {
     "codigo": "LSL",
@@ -5249,7 +5862,9 @@
     },
     "nombre_corto": {
       "es": "Loti",
-      "en": "Loti"
+      "es_p": "Lotis",
+      "en": "Loti",
+      "en_p": "Maloti"
     },
     "simbolo": "L",
     "iso_4217": {
@@ -5286,10 +5901,62 @@
     },
     "historia": {
       "fecha_introduccion": "1980",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "El rand sudafricano (ZAR) también tiene curso legal en Lesoto, a la par con el loti."
+    "notas": "Forma parte del Área Monetaria Común: está a la par del rand sudafricano, que también es de curso legal en Lesoto."
+  },
+  "LTL": {
+    "codigo": "LTL",
+    "nombres": {
+      "es": "Litas lituano",
+      "en": "Lithuanian litas"
+    },
+    "nombre_corto": {
+      "es": "Litas",
+      "es_p": "Litas",
+      "en": "Litas",
+      "en_p": "Litai"
+    },
+    "simbolo": "Lt",
+    "iso_4217": {
+      "numerico": "440",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centas",
+        "en": "centas"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "LT"
+      ],
+      "curso_legal": [
+        "LT"
+      ],
+      "circulacion": [
+        "LT"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Lituania",
+      "codigo": "LB"
+    },
+    "historia": {
+      "fecha_introduccion": "1993",
+      "fecha_fin": "2014",
+      "moneda_anterior": "LTT",
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "Su tipo de conversión al euro (3,4528) quedó fijado años antes de que Lituania pudiera por fin adoptarlo en 2015."
   },
   "LTT": {
     "codigo": "LTT",
@@ -5299,7 +5966,9 @@
     },
     "nombre_corto": {
       "es": "Talonas",
-      "en": "Talonas"
+      "es_p": "Talonas",
+      "en": "Talonas",
+      "en_p": "Talonai"
     },
     "simbolo": null,
     "iso_4217": {
@@ -5317,9 +5986,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["LT"],
-      "curso_legal": ["LT"],
-      "circulacion": ["LT"],
+      "emisor": [
+        "LT"
+      ],
+      "curso_legal": [
+        "LT"
+      ],
+      "circulacion": [
+        "LT"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -5328,10 +6003,11 @@
     },
     "historia": {
       "fecha_introduccion": "1992",
+      "fecha_fin": "1992",
       "moneda_anterior": "SUR",
       "moneda_sucesora": "LTL"
     },
-    "notas": "El talonas fue la moneda provisional utilizada por Lituania en 1992 antes de la introducción del litas."
+    "notas": "Apodados «dinero zoológico» porque todos los billetes mostraban animales, y «vagnorkės» por el primer ministro Vagnorius."
   },
   "LYD": {
     "codigo": "LYD",
@@ -5342,7 +6018,9 @@
     },
     "nombre_corto": {
       "es": "Dinar libio",
-      "en": "Libyan dinar"
+      "es_p": "Dinares libios",
+      "en": "Libyan dinar",
+      "en_p": "Libyan dinars"
     },
     "simbolo": "ل.د",
     "iso_4217": {
@@ -5377,10 +6055,11 @@
     },
     "historia": {
       "fecha_introduccion": "1971",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Tras 2011 circularon a la vez billetes impresos en el Reino Unido y en Rusia por los gobiernos rivales del país."
   },
   "MAD": {
     "codigo": "MAD",
@@ -5391,7 +6070,9 @@
     },
     "nombre_corto": {
       "es": "Dírham",
-      "en": "Dirham"
+      "es_p": "Dírhams",
+      "en": "Dirham",
+      "en_p": "Dirhams"
     },
     "simbolo": "د.م.",
     "iso_4217": {
@@ -5430,10 +6111,11 @@
     },
     "historia": {
       "fecha_introduccion": "1965",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Es una moneda parcialmente no convertible: sacar dírhams de Marruecos está restringido por ley."
   },
   "MDL": {
     "codigo": "MDL",
@@ -5443,7 +6125,9 @@
     },
     "nombre_corto": {
       "es": "Leu moldavo",
-      "en": "Moldovan leu"
+      "es_p": "Leus moldavos",
+      "en": "Moldovan leu",
+      "en_p": "Moldovan lei"
     },
     "simbolo": "L",
     "iso_4217": {
@@ -5480,10 +6164,11 @@
     },
     "historia": {
       "fecha_introduccion": "1993",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "En Transnistria circula el rublo transnistrio, no reconocido internacionalmente."
+    "notas": "Comparte con el leu rumano el origen del nombre: los «táleros del león» neerlandeses que circularon por los Balcanes."
   },
   "MGA": {
     "codigo": "MGA",
@@ -5493,7 +6178,9 @@
     },
     "nombre_corto": {
       "es": "Ariary",
-      "en": "Ariary"
+      "es_p": "Ariarys",
+      "en": "Ariary",
+      "en_p": "Ariary"
     },
     "simbolo": "Ar",
     "iso_4217": {
@@ -5528,10 +6215,11 @@
     },
     "historia": {
       "fecha_introduccion": "2005",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "MGF",
       "moneda_sucesora": null
     },
-    "notas": "1 ariary equivale a 5 iraimbilanja (subdivisión no decimal)."
+    "notas": "Su nombre designaba al dólar de plata que circulaba en Madagascar en el siglo XIX."
   },
   "MKD": {
     "codigo": "MKD",
@@ -5541,7 +6229,9 @@
     },
     "nombre_corto": {
       "es": "Denar",
-      "en": "Denar"
+      "es_p": "Denares",
+      "en": "Denar",
+      "en_p": "Denari"
     },
     "simbolo": "ден",
     "iso_4217": {
@@ -5576,10 +6266,11 @@
     },
     "historia": {
       "fecha_introduccion": "1992",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "YUN",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "El denar toma su nombre del denario romano, acuñado cuando Macedonia era provincia de Roma."
   },
   "MMK": {
     "codigo": "MMK",
@@ -5589,7 +6280,9 @@
     },
     "nombre_corto": {
       "es": "Kyat",
-      "en": "Kyat"
+      "es_p": "Kyats",
+      "en": "Kyat",
+      "en_p": "Kyats"
     },
     "simbolo": "K",
     "iso_4217": {
@@ -5624,10 +6317,11 @@
     },
     "historia": {
       "fecha_introduccion": "1952",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "El general Ne Win emitió billetes de 45 y 90 kyats porque eran divisibles por nueve, su número de la suerte."
   },
   "MNT": {
     "codigo": "MNT",
@@ -5637,7 +6331,9 @@
     },
     "nombre_corto": {
       "es": "Tugrik",
-      "en": "Tögrög"
+      "es_p": "Tugriks",
+      "en": "Tögrög",
+      "en_p": "Tögrögs"
     },
     "simbolo": "₮",
     "iso_4217": {
@@ -5672,10 +6368,11 @@
     },
     "historia": {
       "fecha_introduccion": "1925",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sus billetes retratan a Gengis Kan en las denominaciones altas y al revolucionario Sühbaatar en las bajas."
   },
   "MOP": {
     "codigo": "MOP",
@@ -5685,7 +6382,9 @@
     },
     "nombre_corto": {
       "es": "Pataca",
-      "en": "Pataca"
+      "es_p": "Patacas",
+      "en": "Pataca",
+      "en_p": "Patacas"
     },
     "simbolo": "MOP$",
     "iso_4217": {
@@ -5720,10 +6419,11 @@
     },
     "historia": {
       "fecha_introduccion": "1901",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Pataca» era el nombre portugués del peso de plata mexicano que dominaba el comercio asiático; Macao conservó la palabra."
   },
   "MRU": {
     "codigo": "MRU",
@@ -5733,7 +6433,9 @@
     },
     "nombre_corto": {
       "es": "Ouguiya",
-      "en": "Ouguiya"
+      "es_p": "Ouguiyas",
+      "en": "Ouguiya",
+      "en_p": "Ouguiyas"
     },
     "simbolo": "UM",
     "iso_4217": {
@@ -5768,10 +6470,11 @@
     },
     "historia": {
       "fecha_introduccion": "2018",
+      "fecha_fin": null,
       "moneda_anterior": "MRO",
       "moneda_sucesora": null
     },
-    "notas": "1 ouguiya equivale a 5 khoums (subdivisión no decimal)."
+    "notas": "En la redenominación de 2018 Mauritania quitó un cero y aprovechó para pasar varios billetes a polímero."
   },
   "MUR": {
     "codigo": "MUR",
@@ -5781,7 +6484,9 @@
     },
     "nombre_corto": {
       "es": "Rupia mauriciana",
-      "en": "Mauritian rupee"
+      "es_p": "Rupias mauricianas",
+      "en": "Mauritian rupee",
+      "en_p": "Mauritian rupees"
     },
     "simbolo": "₨",
     "iso_4217": {
@@ -5816,10 +6521,11 @@
     },
     "historia": {
       "fecha_introduccion": "1877",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sus billetes incluyen textos en inglés, tamil e hindi, reflejo de la población multiétnica de la isla."
   },
   "MVR": {
     "codigo": "MVR",
@@ -5829,7 +6535,9 @@
     },
     "nombre_corto": {
       "es": "Rufiyaa",
-      "en": "Rufiyaa"
+      "es_p": "Rufiyaas",
+      "en": "Rufiyaa",
+      "en_p": "Rufiyaa"
     },
     "simbolo": "Rf",
     "iso_4217": {
@@ -5847,10 +6555,18 @@
     "tipo": "fiat",
     "estado": "circulacion",
     "uso": {
-      "emisor": ["MV"],
-      "curso_legal": ["MV"],
-      "circulacion": ["MV"],
-      "de_facto": ["USD"]
+      "emisor": [
+        "MV"
+      ],
+      "curso_legal": [
+        "MV"
+      ],
+      "circulacion": [
+        "MV"
+      ],
+      "de_facto": [
+        "USD"
+      ]
     },
     "banco_central": {
       "nombre": "Autoridad Monetaria de Maldivas",
@@ -5858,10 +6574,11 @@
     },
     "historia": {
       "fecha_introduccion": "1981",
+      "fecha_fin": null,
       "moneda_anterior": "MVQ",
       "moneda_sucesora": null
     },
-    "notas": "En 2011 la rufiyaa era la moneda oficial de Maldivas."
+    "notas": "Antes de la rufiyaa, las Maldivas fueron el gran exportador mundial de conchas de cauri usadas como dinero."
   },
   "MWK": {
     "codigo": "MWK",
@@ -5871,7 +6588,9 @@
     },
     "nombre_corto": {
       "es": "Kwacha malauí",
-      "en": "Malawian kwacha"
+      "es_p": "Kwachas malauíes",
+      "en": "Malawian kwacha",
+      "en_p": "Malawian kwacha"
     },
     "simbolo": "MK",
     "iso_4217": {
@@ -5906,10 +6625,11 @@
     },
     "historia": {
       "fecha_introduccion": "1971",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Kwacha» significa «amanecer» y su subunidad «tambala» significa «gallo»: el gallo que anuncia el amanecer."
   },
   "MXN": {
     "codigo": "MXN",
@@ -5919,7 +6639,9 @@
     },
     "nombre_corto": {
       "es": "Peso mexicano",
-      "en": "Mexican peso"
+      "es_p": "Pesos mexicanos",
+      "en": "Mexican peso",
+      "en_p": "Mexican pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -5954,10 +6676,11 @@
     },
     "historia": {
       "fecha_introduccion": "1993",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "MXP",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Su antecesor de plata fue la primera divisa global: el «real de a ocho» dio origen al dólar estadounidense y a los yuanes y yenes asiáticos."
   },
   "MYR": {
     "codigo": "MYR",
@@ -5967,7 +6690,9 @@
     },
     "nombre_corto": {
       "es": "Ringgit",
-      "en": "Ringgit"
+      "es_p": "Ringgits",
+      "en": "Ringgit",
+      "en_p": "Ringgit"
     },
     "simbolo": "RM",
     "iso_4217": {
@@ -6002,10 +6727,11 @@
     },
     "historia": {
       "fecha_introduccion": "1967",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Ringgit» significa «dentado» en malayo, por los bordes serrados de los reales de a ocho españoles."
   },
   "MZE": {
     "codigo": "MZE",
@@ -6015,7 +6741,9 @@
     },
     "nombre_corto": {
       "es": "Escudo",
-      "en": "Escudo"
+      "es_p": "Escudos",
+      "en": "Escudo",
+      "en_p": "Escudos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -6033,9 +6761,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["MZ"],
-      "curso_legal": ["MZ"],
-      "circulacion": ["MZ"],
+      "emisor": [
+        "MZ"
+      ],
+      "curso_legal": [
+        "MZ"
+      ],
+      "circulacion": [
+        "MZ"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -6044,10 +6778,11 @@
     },
     "historia": {
       "fecha_introduccion": "1914",
+      "fecha_fin": "1979",
       "moneda_anterior": null,
       "moneda_sucesora": "MZM"
     },
-    "notas": "En 1970 Mozambique todavía utilizaba el escudo mozambiqueño. Fue reemplazado por el metical en 1980."
+    "notas": "Compartía diseños con los escudos de otras colonias portuguesas, cambiando apenas el nombre del territorio."
   },
   "MZN": {
     "codigo": "MZN",
@@ -6057,7 +6792,9 @@
     },
     "nombre_corto": {
       "es": "Metical",
-      "en": "Metical"
+      "es_p": "Meticales",
+      "en": "Metical",
+      "en_p": "Meticais"
     },
     "simbolo": "MT",
     "iso_4217": {
@@ -6092,10 +6829,11 @@
     },
     "historia": {
       "fecha_introduccion": "2006",
+      "fecha_fin": null,
       "moneda_anterior": "MZM",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Metical» proviene del árabe «mithqal», una unidad de peso para el oro usada en el comercio del Índico."
   },
   "NAD": {
     "codigo": "NAD",
@@ -6105,7 +6843,9 @@
     },
     "nombre_corto": {
       "es": "Dólar namibio",
-      "en": "Namibian dollar"
+      "es_p": "Dólares namibios",
+      "en": "Namibian dollar",
+      "en_p": "Namibian dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -6142,10 +6882,11 @@
     },
     "historia": {
       "fecha_introduccion": "1993",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "El rand sudafricano (ZAR) también tiene curso legal en Namibia, a la par con el dólar namibio."
+    "notas": "Está a la par del rand sudafricano, que sigue siendo de curso legal en Namibia."
   },
   "NGN": {
     "codigo": "NGN",
@@ -6155,7 +6896,9 @@
     },
     "nombre_corto": {
       "es": "Naira",
-      "en": "Naira"
+      "es_p": "Nairas",
+      "en": "Naira",
+      "en_p": "Naira"
     },
     "simbolo": "₦",
     "iso_4217": {
@@ -6190,10 +6933,11 @@
     },
     "historia": {
       "fecha_introduccion": "1973",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "El rediseño de billetes de 2023 provocó una escasez nacional de efectivo que acabó en el Tribunal Supremo."
   },
   "NIO": {
     "codigo": "NIO",
@@ -6203,7 +6947,9 @@
     },
     "nombre_corto": {
       "es": "Córdoba",
-      "en": "Córdoba"
+      "es_p": "Córdobas",
+      "en": "Córdoba",
+      "en_p": "Córdobas"
     },
     "simbolo": "C$",
     "iso_4217": {
@@ -6238,10 +6984,11 @@
     },
     "historia": {
       "fecha_introduccion": "1912",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Lleva el nombre de Francisco Hernández de Córdoba, fundador de las ciudades de León y Granada."
   },
   "NLG": {
     "codigo": "NLG",
@@ -6251,7 +6998,9 @@
     },
     "nombre_corto": {
       "es": "Florín",
-      "en": "Guilder"
+      "es_p": "Florines",
+      "en": "Guilder",
+      "en_p": "Guilders"
     },
     "simbolo": "ƒ",
     "iso_4217": {
@@ -6269,9 +7018,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["NL"],
-      "curso_legal": ["NL"],
-      "circulacion": ["NL"],
+      "emisor": [
+        "NL"
+      ],
+      "curso_legal": [
+        "NL"
+      ],
+      "circulacion": [
+        "NL"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -6280,10 +7035,11 @@
     },
     "historia": {
       "fecha_introduccion": "1816",
+      "fecha_fin": "1998",
       "moneda_anterior": null,
       "moneda_sucesora": "EUR"
     },
-    "notas": "En 1997 el florín neerlandés era la moneda oficial de los Países Bajos."
+    "notas": "Los billetes neerlandeses de los años 80, con girasoles y faros, se consideran clásicos del diseño gráfico monetario."
   },
   "NOK": {
     "codigo": "NOK",
@@ -6293,7 +7049,9 @@
     },
     "nombre_corto": {
       "es": "Corona noruega",
-      "en": "Norwegian krone"
+      "es_p": "Coronas noruegas",
+      "en": "Norwegian krone",
+      "en_p": "Norwegian kroner"
     },
     "simbolo": "kr",
     "iso_4217": {
@@ -6332,10 +7090,11 @@
     },
     "historia": {
       "fecha_introduccion": "1875",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Su serie actual, con motivos marinos y reversos «pixelados», ganó premios internacionales de diseño."
   },
   "NPR": {
     "codigo": "NPR",
@@ -6345,7 +7104,9 @@
     },
     "nombre_corto": {
       "es": "Rupia nepalí",
-      "en": "Nepalese rupee"
+      "es_p": "Rupias nepalíes",
+      "en": "Nepalese rupee",
+      "en_p": "Nepalese rupees"
     },
     "simbolo": "₨",
     "iso_4217": {
@@ -6380,10 +7141,11 @@
     },
     "historia": {
       "fecha_introduccion": "1932",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Está fijada a la rupia india a razón de 1,6 por 1; los billetes indios de alta denominación están prohibidos en Nepal."
   },
   "NZD": {
     "codigo": "NZD",
@@ -6393,7 +7155,9 @@
     },
     "nombre_corto": {
       "es": "Dólar neozelandés",
-      "en": "New Zealand dollar"
+      "es_p": "Dólares neozelandeses",
+      "en": "New Zealand dollar",
+      "en_p": "New Zealand dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -6436,10 +7200,11 @@
     },
     "historia": {
       "fecha_introduccion": "1967",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sir Edmund Hillary apareció en el billete de 5 dólares en vida, un honor rarísimo para alguien que no es jefe de Estado."
   },
   "OMR": {
     "codigo": "OMR",
@@ -6450,7 +7215,9 @@
     },
     "nombre_corto": {
       "es": "Rial omaní",
-      "en": "Omani rial"
+      "es_p": "Riales omaníes",
+      "en": "Omani rial",
+      "en_p": "Omani rials"
     },
     "simbolo": "ر.ع.",
     "iso_4217": {
@@ -6485,10 +7252,11 @@
     },
     "historia": {
       "fecha_introduccion": "1970",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Antes del rial circulaba en Omán el tálero de María Teresa, una moneda austríaca del siglo XVIII acuñada hasta el XX."
   },
   "PAB": {
     "codigo": "PAB",
@@ -6498,7 +7266,9 @@
     },
     "nombre_corto": {
       "es": "Balboa",
-      "en": "Balboa"
+      "es_p": "Balboas",
+      "en": "Balboa",
+      "en_p": "Balboas"
     },
     "simbolo": "B/.",
     "iso_4217": {
@@ -6535,10 +7305,11 @@
     },
     "historia": {
       "fecha_introduccion": "1904",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "El dólar estadounidense (USD) circula ampliamente y tiene curso legal junto al balboa; no se emiten billetes de balboa."
+    "notas": "Panamá no imprime billetes propios: el balboa solo existe en monedas y convive con el dólar estadounidense."
   },
   "PEI": {
     "codigo": "PEI",
@@ -6548,7 +7319,9 @@
     },
     "nombre_corto": {
       "es": "Inti",
-      "en": "Inti"
+      "es_p": "Intis",
+      "en": "Inti",
+      "en_p": "Intis"
     },
     "simbolo": "I/.",
     "iso_4217": {
@@ -6566,9 +7339,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["PE"],
-      "curso_legal": ["PE"],
-      "circulacion": ["PE"],
+      "emisor": [
+        "PE"
+      ],
+      "curso_legal": [
+        "PE"
+      ],
+      "circulacion": [
+        "PE"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -6577,10 +7356,11 @@
     },
     "historia": {
       "fecha_introduccion": "1985",
+      "fecha_fin": "1990",
       "moneda_anterior": "PES",
       "moneda_sucesora": "PEN"
     },
-    "notas": "El inti estaba vigente en 1987. Sustituyó al sol de oro a razón de 1 inti = 1.000 soles."
+    "notas": "Nombrado por Inti, el dios sol inca, acabó devorado por la hiperinflación con billetes de 5 millones."
   },
   "PEN": {
     "codigo": "PEN",
@@ -6590,7 +7370,9 @@
     },
     "nombre_corto": {
       "es": "Sol",
-      "en": "Sol"
+      "es_p": "Soles",
+      "en": "Sol",
+      "en_p": "Soles"
     },
     "simbolo": "S/",
     "iso_4217": {
@@ -6625,10 +7407,11 @@
     },
     "historia": {
       "fecha_introduccion": "1991",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "PEI",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Nació como «nuevo sol»; en 2015 el Perú le quitó oficialmente el «nuevo» del nombre."
   },
   "PES": {
     "codigo": "PES",
@@ -6638,7 +7421,9 @@
     },
     "nombre_corto": {
       "es": "Sol de oro",
-      "en": "Sol de oro"
+      "es_p": "Soles de oro",
+      "en": "Sol de oro",
+      "en_p": "Soles de oro"
     },
     "simbolo": "S/o",
     "iso_4217": {
@@ -6656,9 +7441,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["PE"],
-      "curso_legal": ["PE"],
-      "circulacion": ["PE"],
+      "emisor": [
+        "PE"
+      ],
+      "curso_legal": [
+        "PE"
+      ],
+      "circulacion": [
+        "PE"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -6667,10 +7458,11 @@
     },
     "historia": {
       "fecha_introduccion": "1863",
+      "fecha_fin": "1984",
       "moneda_anterior": null,
       "moneda_sucesora": "PEI"
     },
-    "notas": "En 1955 el sol de oro era la moneda vigente de Perú. El nombre sol de oro se utilizaba oficialmente desde la década de 1930."
+    "notas": "El «sol de oro» nunca fue de oro: el nombre buscaba transmitir estabilidad tras el abandono de la libra peruana."
   },
   "PGK": {
     "codigo": "PGK",
@@ -6680,7 +7472,9 @@
     },
     "nombre_corto": {
       "es": "Kina",
-      "en": "Kina"
+      "es_p": "Kinas",
+      "en": "Kina",
+      "en_p": "Kina"
     },
     "simbolo": "K",
     "iso_4217": {
@@ -6715,10 +7509,11 @@
     },
     "historia": {
       "fecha_introduccion": "1975",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Kina» y su subunidad «toea» son nombres de conchas usadas como dinero tradicional en Papúa."
   },
   "PHP": {
     "codigo": "PHP",
@@ -6728,7 +7523,9 @@
     },
     "nombre_corto": {
       "es": "Peso filipino",
-      "en": "Philippine peso"
+      "es_p": "Pesos filipinos",
+      "en": "Philippine peso",
+      "en_p": "Philippine pesos"
     },
     "simbolo": "₱",
     "iso_4217": {
@@ -6763,10 +7560,11 @@
     },
     "historia": {
       "fecha_introduccion": "1946",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "En 1969 la denominación monetaria en Filipinas era peso; en filipino, piso."
+    "notas": "En filipino se escribe «piso»; los billetes actuales muestran especies endémicas como el águila filipina."
   },
   "PKR": {
     "codigo": "PKR",
@@ -6776,7 +7574,9 @@
     },
     "nombre_corto": {
       "es": "Rupia pakistaní",
-      "en": "Pakistani rupee"
+      "es_p": "Rupias pakistaníes",
+      "en": "Pakistani rupee",
+      "en_p": "Pakistani rupees"
     },
     "simbolo": "₨",
     "iso_4217": {
@@ -6811,10 +7611,11 @@
     },
     "historia": {
       "fecha_introduccion": "1948",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En 2022 emitió un billete conmemorativo de 75 rupias, una denominación insólita, por su 75.º aniversario."
   },
   "PLN": {
     "codigo": "PLN",
@@ -6824,7 +7625,9 @@
     },
     "nombre_corto": {
       "es": "Zloty",
-      "en": "Złoty"
+      "es_p": "Zlotys",
+      "en": "Złoty",
+      "en_p": "Złotys"
     },
     "simbolo": "zł",
     "iso_4217": {
@@ -6859,59 +7662,63 @@
     },
     "historia": {
       "fecha_introduccion": "1995",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "PLZ",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Złoty» significa «dorado»; la redenominación de 1995 eliminó cuatro ceros tras la inflación postcomunista."
   },
   "PTE": {
-  "codigo": "PTE",
-  "nombres": {
-    "es": "Escudo portugués",
-    "en": "Portuguese escudo"
-  },
-  "nombre_corto": {
-    "es": "Escudo",
-    "en": "Escudo"
-  },
-  "simbolo": "$",
-  "iso_4217": {
-    "numerico": "620",
-    "decimales": 0
-  },
-  "subunidad": {
-    "codigo": null,
+    "codigo": "PTE",
     "nombres": {
-      "es": "centavo",
-      "en": "centavo"
+      "es": "Escudo portugués",
+      "en": "Portuguese escudo"
     },
-    "factor": 100
+    "nombre_corto": {
+      "es": "Escudo",
+      "es_p": "Escudos",
+      "en": "Escudo",
+      "en_p": "Escudos"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "620",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "PT"
+      ],
+      "curso_legal": [
+        "PT"
+      ],
+      "circulacion": [
+        "PT"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Portugal",
+      "codigo": "BdP"
+    },
+    "historia": {
+      "fecha_introduccion": "1911",
+      "fecha_fin": "1998",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "Su última serie de billetes retrataba a los protagonistas de la era de los Descubrimientos, de Enrique el Navegante en adelante."
   },
-  "tipo": "fiat",
-  "estado": "historica",
-  "uso": {
-    "emisor": [
-      "PT"
-    ],
-    "curso_legal": [
-      "PT"
-    ],
-    "circulacion": [
-      "PT"
-    ],
-    "de_facto": []
-  },
-  "banco_central": {
-    "nombre": "Banco de Portugal",
-    "codigo": "BdP"
-  },
-  "historia": {
-    "fecha_introduccion": "1911",
-    "moneda_anterior": "PTE",
-    "moneda_sucesora": "EUR"
-  },
-  "notas": "En 1968 el escudo portugués era la moneda oficial de Portugal. El escudo se dividía nominalmente en 100 centavos. El Banco de Portugal emitió, entre otras, series de billetes fechadas en 1968, como los de 50 y 1.000 escudos. El escudo fue sustituido por el euro en 2002."
-},
   "PYG": {
     "codigo": "PYG",
     "nombres": {
@@ -6920,7 +7727,9 @@
     },
     "nombre_corto": {
       "es": "Guaraní",
-      "en": "Guaraní"
+      "es_p": "Guaraníes",
+      "en": "Guaraní",
+      "en_p": "Guaraníes"
     },
     "simbolo": "₲",
     "iso_4217": {
@@ -6955,10 +7764,11 @@
     },
     "historia": {
       "fecha_introduccion": "1943",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Es la moneda sudamericana más longeva sin redenominación: nunca le han quitado ceros desde su creación."
   },
   "QAR": {
     "codigo": "QAR",
@@ -6969,7 +7779,9 @@
     },
     "nombre_corto": {
       "es": "Rial catarí",
-      "en": "Qatari riyal"
+      "es_p": "Riales cataríes",
+      "en": "Qatari riyal",
+      "en_p": "Qatari riyals"
     },
     "simbolo": "ر.ق",
     "iso_4217": {
@@ -7004,10 +7816,11 @@
     },
     "historia": {
       "fecha_introduccion": "1973",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Surgió al disolverse el riyal de Catar y Dubái, cuando Dubái se integró en los Emiratos Árabes Unidos."
   },
   "RON": {
     "codigo": "RON",
@@ -7017,7 +7830,9 @@
     },
     "nombre_corto": {
       "es": "Leu rumano",
-      "en": "Romanian leu"
+      "es_p": "Leus rumanos",
+      "en": "Romanian leu",
+      "en_p": "Romanian lei"
     },
     "simbolo": "lei",
     "iso_4217": {
@@ -7052,10 +7867,11 @@
     },
     "historia": {
       "fecha_introduccion": "2005",
+      "fecha_fin": null,
       "moneda_anterior": "ROL",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "La redenominación de 2005 quitó cuatro ceros; sus billetes de polímero tienen los mismos tamaños que los euros para facilitar una futura transición."
   },
   "RSD": {
     "codigo": "RSD",
@@ -7065,7 +7881,9 @@
     },
     "nombre_corto": {
       "es": "Dinar serbio",
-      "en": "Serbian dinar"
+      "es_p": "Dinares serbios",
+      "en": "Serbian dinar",
+      "en_p": "Serbian dinars"
     },
     "simbolo": "дин.",
     "iso_4217": {
@@ -7100,10 +7918,11 @@
     },
     "historia": {
       "fecha_introduccion": "2003",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Nikola Tesla aparece en el billete de 100 dinares, junto a científicos y artistas en el resto de la serie."
   },
   "RUB": {
     "codigo": "RUB",
@@ -7113,7 +7932,9 @@
     },
     "nombre_corto": {
       "es": "Rublo ruso",
-      "en": "Russian ruble"
+      "es_p": "Rublos rusos",
+      "en": "Russian ruble",
+      "en_p": "Russian rubles"
     },
     "simbolo": "₽",
     "iso_4217": {
@@ -7154,10 +7975,11 @@
     },
     "historia": {
       "fecha_introduccion": "1998",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "RUR",
       "moneda_sucesora": null
     },
-    "notas": "Circula de facto en Abjasia y Osetia del Sur, y desde 2014 en Crimea, territorios de estatus disputado."
+    "notas": "Es uno de los nombres monetarios más antiguos aún en uso: «rublo» se documenta desde el siglo XIII."
   },
   "RWF": {
     "codigo": "RWF",
@@ -7168,7 +7990,9 @@
     },
     "nombre_corto": {
       "es": "Franco ruandés",
-      "en": "Rwandan franc"
+      "es_p": "Francos ruandeses",
+      "en": "Rwandan franc",
+      "en_p": "Rwandan francs"
     },
     "simbolo": "FRw",
     "iso_4217": {
@@ -7204,10 +8028,11 @@
     },
     "historia": {
       "fecha_introduccion": "1964",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Nació de la partición del franco de Ruanda-Urundi; los billetes actuales destacan a los gorilas de montaña."
   },
   "SAR": {
     "codigo": "SAR",
@@ -7218,7 +8043,9 @@
     },
     "nombre_corto": {
       "es": "Riyal saudí",
-      "en": "Saudi riyal"
+      "es_p": "Riyales saudíes",
+      "en": "Saudi riyal",
+      "en_p": "Saudi riyals"
     },
     "simbolo": "ر.س",
     "iso_4217": {
@@ -7253,10 +8080,11 @@
     },
     "historia": {
       "fecha_introduccion": "1952",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Riyal» comparte etimología con el «real» español; mantiene tipo fijo con el dólar desde 1986."
   },
   "SBD": {
     "codigo": "SBD",
@@ -7266,7 +8094,9 @@
     },
     "nombre_corto": {
       "es": "Dólar salomonense",
-      "en": "Solomon Islands dollar"
+      "es_p": "Dólares salomonenses",
+      "en": "Solomon Islands dollar",
+      "en_p": "Solomon Islands dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -7301,10 +8131,11 @@
     },
     "historia": {
       "fecha_introduccion": "1977",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En las islas aún se usa dinero tradicional de conchas y dientes de delfín en ceremonias, junto al dólar."
   },
   "SCR": {
     "codigo": "SCR",
@@ -7314,7 +8145,9 @@
     },
     "nombre_corto": {
       "es": "Rupia seychelense",
-      "en": "Seychellois rupee"
+      "es_p": "Rupias seychelenses",
+      "en": "Seychellois rupee",
+      "en_p": "Seychellois rupees"
     },
     "simbolo": "₨",
     "iso_4217": {
@@ -7349,10 +8182,11 @@
     },
     "historia": {
       "fecha_introduccion": "1914",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Su serie de 2016 está dedicada por completo a especies endémicas, como el loro negro de Praslin."
   },
   "SDG": {
     "codigo": "SDG",
@@ -7363,7 +8197,9 @@
     },
     "nombre_corto": {
       "es": "Libra sudanesa",
-      "en": "Sudanese pound"
+      "es_p": "Libras sudanesas",
+      "en": "Sudanese pound",
+      "en_p": "Sudanese pounds"
     },
     "simbolo": "ج.س.",
     "iso_4217": {
@@ -7398,10 +8234,11 @@
     },
     "historia": {
       "fecha_introduccion": "2007",
+      "fecha_fin": null,
       "moneda_anterior": "SDD",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "La libra de 2007 sustituyó al dinar como gesto de reconciliación tras el acuerdo de paz Norte-Sur."
   },
   "SEK": {
     "codigo": "SEK",
@@ -7411,7 +8248,9 @@
     },
     "nombre_corto": {
       "es": "Corona sueca",
-      "en": "Swedish krona"
+      "es_p": "Coronas suecas",
+      "en": "Swedish krona",
+      "en_p": "Swedish kronor"
     },
     "simbolo": "kr",
     "iso_4217": {
@@ -7446,10 +8285,11 @@
     },
     "historia": {
       "fecha_introduccion": "1873",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Suecia es una de las sociedades con menos efectivo del mundo y su banco central ensaya la «e-krona» digital."
   },
   "SGD": {
     "codigo": "SGD",
@@ -7459,7 +8299,9 @@
     },
     "nombre_corto": {
       "es": "Dólar de Singapur",
-      "en": "Singapore dollar"
+      "es_p": "Dólares de Singapur",
+      "en": "Singapore dollar",
+      "en_p": "Singapore dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -7496,10 +8338,11 @@
     },
     "historia": {
       "fecha_introduccion": "1967",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Emitió un billete de 10.000 dólares, de los de mayor valor facial del mundo, retirado en 2014 por riesgo de blanqueo."
   },
   "SHP": {
     "codigo": "SHP",
@@ -7509,7 +8352,9 @@
     },
     "nombre_corto": {
       "es": "Libra de Santa Elena",
-      "en": "Saint Helena pound"
+      "es_p": "Libras de Santa Elena",
+      "en": "Saint Helena pound",
+      "en_p": "Saint Helena pounds"
     },
     "simbolo": "£",
     "iso_4217": {
@@ -7544,10 +8389,11 @@
     },
     "historia": {
       "fecha_introduccion": "1976",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Es una de las monedas con menos usuarios del planeta: sirve a unos pocos miles de habitantes de islas remotas."
   },
   "SIT": {
     "codigo": "SIT",
@@ -7557,7 +8403,9 @@
     },
     "nombre_corto": {
       "es": "Tolar",
-      "en": "Tolar"
+      "es_p": "Tólares",
+      "en": "Tolar",
+      "en_p": "Tolars"
     },
     "simbolo": "T",
     "iso_4217": {
@@ -7575,9 +8423,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["SI"],
-      "curso_legal": ["SI"],
-      "circulacion": ["SI"],
+      "emisor": [
+        "SI"
+      ],
+      "curso_legal": [
+        "SI"
+      ],
+      "circulacion": [
+        "SI"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -7586,10 +8440,11 @@
     },
     "historia": {
       "fecha_introduccion": "1991",
+      "fecha_fin": "2006",
       "moneda_anterior": "YUN",
       "moneda_sucesora": "EUR"
     },
-    "notas": "El tolar fue introducido el 8 de octubre de 1991. Por tanto, no era la moneda vigente en 1990; en 1990 Eslovenia utilizaba el dinar yugoslavo."
+    "notas": "«Tolar» comparte raíz con «dólar»: ambos descienden del «thaler» acuñado en Bohemia."
   },
   "SLE": {
     "codigo": "SLE",
@@ -7599,7 +8454,9 @@
     },
     "nombre_corto": {
       "es": "Leone",
-      "en": "Leone"
+      "es_p": "Leones",
+      "en": "Leone",
+      "en_p": "Leones"
     },
     "simbolo": "Le",
     "iso_4217": {
@@ -7634,10 +8491,11 @@
     },
     "historia": {
       "fecha_introduccion": "2022",
+      "fecha_fin": null,
       "moneda_anterior": "SLL",
       "moneda_sucesora": null
     },
-    "notas": "Redenominación de la antigua leona (SLL) a razón de 1000:1."
+    "notas": "El nuevo leone de 2022 quitó tres ceros; el nombre alude a «Sierra Leona», la «montaña de leones»."
   },
   "SLS": {
     "codigo": "SLS",
@@ -7647,7 +8505,9 @@
     },
     "nombre_corto": {
       "es": "Chelín",
-      "en": "Shilling"
+      "es_p": "Chelines",
+      "en": "Shilling",
+      "en_p": "Shillings"
     },
     "simbolo": "Sl.Sh",
     "iso_4217": {
@@ -7665,9 +8525,15 @@
     "tipo": "fiat",
     "estado": "circulacion",
     "uso": {
-      "emisor": ["SO"],
-      "curso_legal": ["SO"],
-      "circulacion": ["SO"],
+      "emisor": [
+        "SO"
+      ],
+      "curso_legal": [
+        "SO"
+      ],
+      "circulacion": [
+        "SO"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -7676,10 +8542,11 @@
     },
     "historia": {
       "fecha_introduccion": "1994",
+      "fecha_fin": null,
       "moneda_anterior": "SOS",
       "moneda_sucesora": null
     },
-    "notas": "SLS es un código interno utilizado aquí; el chelín de Somalilandia no tiene código ISO 4217 oficial. Fue introducido el 18 de octubre de 1994."
+    "notas": "Moneda de un Estado no reconocido: no cotiza internacionalmente y los cambistas de Hargeisa apilan fajos al aire libre."
   },
   "SOS": {
     "codigo": "SOS",
@@ -7689,7 +8556,9 @@
     },
     "nombre_corto": {
       "es": "Chelín somalí",
-      "en": "Somali shilling"
+      "es_p": "Chelines somalíes",
+      "en": "Somali shilling",
+      "en_p": "Somali shillings"
     },
     "simbolo": "Sh",
     "iso_4217": {
@@ -7724,10 +8593,11 @@
     },
     "historia": {
       "fecha_introduccion": "1960",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Tras el colapso estatal circularon durante años billetes impresos por facciones y falsificaciones toleradas como dinero de facto."
   },
   "SRD": {
     "codigo": "SRD",
@@ -7737,7 +8607,9 @@
     },
     "nombre_corto": {
       "es": "Dólar surinamés",
-      "en": "Surinamese dollar"
+      "es_p": "Dólares surinameses",
+      "en": "Surinamese dollar",
+      "en_p": "Surinamese dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -7772,10 +8644,11 @@
     },
     "historia": {
       "fecha_introduccion": "2004",
+      "fecha_fin": null,
       "moneda_anterior": "SRG",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Al quitar tres ceros al florín, las monedas antiguas en centavos siguieron valiendo su valor facial: se revalorizaron mil veces de la noche a la mañana."
   },
   "SRG": {
     "codigo": "SRG",
@@ -7785,7 +8658,9 @@
     },
     "nombre_corto": {
       "es": "Florín",
-      "en": "Guilder"
+      "es_p": "Florines",
+      "en": "Guilder",
+      "en_p": "Guilders"
     },
     "simbolo": "ƒ",
     "iso_4217": {
@@ -7803,9 +8678,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["SR"],
-      "curso_legal": ["SR"],
-      "circulacion": ["SR"],
+      "emisor": [
+        "SR"
+      ],
+      "curso_legal": [
+        "SR"
+      ],
+      "circulacion": [
+        "SR"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -7814,10 +8695,11 @@
     },
     "historia": {
       "fecha_introduccion": "1942",
+      "fecha_fin": "2003",
       "moneda_anterior": null,
       "moneda_sucesora": "SRD"
     },
-    "notas": "En 1985 y 1988 la misma moneda era el florín de Surinam. 'Gulden' y 'florín' son denominaciones lingüísticas de la misma unidad."
+    "notas": "La inflación de los años 90 lo llevó de un billete máximo de 25 florines a otro de 25.000 en menos de una década."
   },
   "SSP": {
     "codigo": "SSP",
@@ -7827,7 +8709,9 @@
     },
     "nombre_corto": {
       "es": "Libra sursudanesa",
-      "en": "South Sudanese pound"
+      "es_p": "Libras sursudanesas",
+      "en": "South Sudanese pound",
+      "en_p": "South Sudanese pounds"
     },
     "simbolo": "£",
     "iso_4217": {
@@ -7862,10 +8746,11 @@
     },
     "historia": {
       "fecha_introduccion": "2011",
+      "fecha_fin": null,
       "moneda_anterior": "SDG",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sus billetes estaban impresos antes de que el país existiera: se emitieron a los pocos días de la independencia de 2011."
   },
   "STD": {
     "codigo": "STD",
@@ -7875,7 +8760,9 @@
     },
     "nombre_corto": {
       "es": "Dobra",
-      "en": "Dobra"
+      "es_p": "Dobras",
+      "en": "Dobra",
+      "en_p": "Dobras"
     },
     "simbolo": "Db",
     "iso_4217": {
@@ -7893,9 +8780,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["ST"],
-      "curso_legal": ["ST"],
-      "circulacion": ["ST"],
+      "emisor": [
+        "ST"
+      ],
+      "curso_legal": [
+        "ST"
+      ],
+      "circulacion": [
+        "ST"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -7904,10 +8797,11 @@
     },
     "historia": {
       "fecha_introduccion": "1977",
-      "moneda_anterior": "PTE",
+      "fecha_fin": "2017",
+      "moneda_anterior": null,
       "moneda_sucesora": "STN"
     },
-    "notas": "En 1996 la moneda de Santo Tomé y Príncipe era la dobra, no una libra. La primera dobra estuvo vigente de 1977 a 2018."
+    "notas": "Llegó a ser una de las monedas menos valiosas del mundo: hacían falta más de 20.000 dobras por un dólar antes de la reforma."
   },
   "STN": {
     "codigo": "STN",
@@ -7917,7 +8811,9 @@
     },
     "nombre_corto": {
       "es": "Dobra",
-      "en": "Dobra"
+      "es_p": "Dobras",
+      "en": "Dobra",
+      "en_p": "Dobras"
     },
     "simbolo": "Db",
     "iso_4217": {
@@ -7952,10 +8848,11 @@
     },
     "historia": {
       "fecha_introduccion": "2018",
+      "fecha_fin": null,
       "moneda_anterior": "STD",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "La redenominación de 2018 quitó tres ceros y consolidó el ancla de la dobra al euro pactada con Portugal."
   },
   "SVC": {
     "codigo": "SVC",
@@ -7965,7 +8862,9 @@
     },
     "nombre_corto": {
       "es": "Colón salvadoreño",
-      "en": "Salvadoran colón"
+      "es_p": "Colones salvadoreños",
+      "en": "Salvadoran colón",
+      "en_p": "Salvadoran colones"
     },
     "simbolo": "₡",
     "iso_4217": {
@@ -7996,10 +8895,11 @@
     },
     "historia": {
       "fecha_introduccion": "1892",
+      "fecha_fin": "2000",
       "moneda_anterior": null,
       "moneda_sucesora": "USD"
     },
-    "notas": "El colón fue reemplazado por el dólar estadounidense como moneda de curso legal en 2001, aunque el código ISO no ha sido retirado."
+    "notas": "Aunque el dólar lo desplazó desde 2001, el colón nunca fue desmonetizado: legalmente sigue siendo válido."
   },
   "SYP": {
     "codigo": "SYP",
@@ -8010,7 +8910,9 @@
     },
     "nombre_corto": {
       "es": "Libra siria",
-      "en": "Syrian pound"
+      "es_p": "Libras sirias",
+      "en": "Syrian pound",
+      "en_p": "Syrian pounds"
     },
     "simbolo": "ل.س",
     "iso_4217": {
@@ -8045,10 +8947,11 @@
     },
     "historia": {
       "fecha_introduccion": "1919",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "La guerra hundió su valor: pasó de unas 47 libras por dólar en 2011 a varios miles en el mercado paralelo."
   },
   "SZL": {
     "codigo": "SZL",
@@ -8058,7 +8961,9 @@
     },
     "nombre_corto": {
       "es": "Lilangeni",
-      "en": "Lilangeni"
+      "es_p": "Emalangeni",
+      "en": "Lilangeni",
+      "en_p": "Emalangeni"
     },
     "simbolo": "L",
     "iso_4217": {
@@ -8095,10 +9000,11 @@
     },
     "historia": {
       "fecha_introduccion": "1974",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "El rand sudafricano (ZAR) también tiene curso legal en Eswatini, a la par con el lilangeni."
+    "notas": "Está en paridad con el rand sudafricano, que circula libremente en Esuatini."
   },
   "THB": {
     "codigo": "THB",
@@ -8108,7 +9014,9 @@
     },
     "nombre_corto": {
       "es": "Baht",
-      "en": "Baht"
+      "es_p": "Bahts",
+      "en": "Baht",
+      "en_p": "Baht"
     },
     "simbolo": "฿",
     "iso_4217": {
@@ -8143,10 +9051,11 @@
     },
     "historia": {
       "fecha_introduccion": "1897",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "El baht es también una unidad de peso para el oro (15,2 g) y las joyerías tailandesas aún cotizan así."
   },
   "TJR": {
     "codigo": "TJR",
@@ -8156,7 +9065,9 @@
     },
     "nombre_corto": {
       "es": "Rublo",
-      "en": "Ruble"
+      "es_p": "Rublos",
+      "en": "Ruble",
+      "en_p": "Rubles"
     },
     "simbolo": "руб",
     "iso_4217": {
@@ -8174,9 +9085,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["TJ"],
-      "curso_legal": ["TJ"],
-      "circulacion": ["TJ"],
+      "emisor": [
+        "TJ"
+      ],
+      "curso_legal": [
+        "TJ"
+      ],
+      "circulacion": [
+        "TJ"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -8185,10 +9102,11 @@
     },
     "historia": {
       "fecha_introduccion": "1995",
+      "fecha_fin": "1999",
       "moneda_anterior": "RUR",
       "moneda_sucesora": "TJS"
     },
-    "notas": "Corrección: el rublo tayiko no estaba vigente en 1994. Fue introducido el 10 de mayo de 1995; en 1994 Tayikistán utilizaba el rublo ruso."
+    "notas": "Sus billetes copiaban casi exactamente el diseño de los rublos soviéticos, cambiando solo textos y colores."
   },
   "TJS": {
     "codigo": "TJS",
@@ -8198,7 +9116,9 @@
     },
     "nombre_corto": {
       "es": "Somoni",
-      "en": "Somoni"
+      "es_p": "Somonis",
+      "en": "Somoni",
+      "en_p": "Somoni"
     },
     "simbolo": "ЅМ",
     "iso_4217": {
@@ -8233,10 +9153,11 @@
     },
     "historia": {
       "fecha_introduccion": "2000",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "TJR",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Lleva el nombre de Ismail Somoni, fundador del Estado samánida y considerado padre de la nación tayika."
   },
   "TMT": {
     "codigo": "TMT",
@@ -8246,7 +9167,9 @@
     },
     "nombre_corto": {
       "es": "Manat turcomano",
-      "en": "Turkmenistan manat"
+      "es_p": "Manats turcomanos",
+      "en": "Turkmenistan manat",
+      "en_p": "Turkmenistan manats"
     },
     "simbolo": "m",
     "iso_4217": {
@@ -8281,10 +9204,11 @@
     },
     "historia": {
       "fecha_introduccion": "2009",
+      "fecha_fin": null,
       "moneda_anterior": "TMM",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Tras la redenominación, los billetes dejaron de mostrar únicamente al presidente Niyázov y pasaron a retratar héroes históricos."
   },
   "TND": {
     "codigo": "TND",
@@ -8295,7 +9219,9 @@
     },
     "nombre_corto": {
       "es": "Dinar tunecino",
-      "en": "Tunisian dinar"
+      "es_p": "Dinares tunecinos",
+      "en": "Tunisian dinar",
+      "en_p": "Tunisian dinars"
     },
     "simbolo": "د.ت",
     "iso_4217": {
@@ -8331,10 +9257,11 @@
     },
     "historia": {
       "fecha_introduccion": "1960",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Es una moneda no convertible: importar o exportar dinares tunecinos está prohibido."
   },
   "TOP": {
     "codigo": "TOP",
@@ -8344,7 +9271,9 @@
     },
     "nombre_corto": {
       "es": "Paʻanga",
-      "en": "Paʻanga"
+      "es_p": "Paʻangas",
+      "en": "Paʻanga",
+      "en_p": "Paʻanga"
     },
     "simbolo": "T$",
     "iso_4217": {
@@ -8379,10 +9308,11 @@
     },
     "historia": {
       "fecha_introduccion": "1967",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Paʻanga» es el nombre de la semilla de una liana que recordaba a las monedas; el tongano no tenía palabra para «dinero»."
   },
   "TRY": {
     "codigo": "TRY",
@@ -8392,7 +9322,9 @@
     },
     "nombre_corto": {
       "es": "Lira turca",
-      "en": "Turkish lira"
+      "es_p": "Liras turcas",
+      "en": "Turkish lira",
+      "en_p": "Turkish liras"
     },
     "simbolo": "₺",
     "iso_4217": {
@@ -8430,10 +9362,11 @@
     },
     "historia": {
       "fecha_introduccion": "2005",
+      "fecha_fin": null,
       "moneda_anterior": "TRL",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "La redenominación de 2005 eliminó seis ceros de golpe; antes existían billetes de 20 millones de liras."
   },
   "TTD": {
     "codigo": "TTD",
@@ -8443,7 +9376,9 @@
     },
     "nombre_corto": {
       "es": "Dólar de Trinidad y Tobago",
-      "en": "Trinidad and Tobago dollar"
+      "es_p": "Dólares de Trinidad y Tobago",
+      "en": "Trinidad and Tobago dollar",
+      "en_p": "Trinidad and Tobago dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -8478,10 +9413,11 @@
     },
     "historia": {
       "fecha_introduccion": "1964",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sus billetes pasaron al polímero entre 2019 y 2020, retirando los de papel de 100 en cuestión de semanas para combatir el lavado."
   },
   "TWD": {
     "codigo": "TWD",
@@ -8491,7 +9427,9 @@
     },
     "nombre_corto": {
       "es": "Dólar taiwanés",
-      "en": "New Taiwan dollar"
+      "es_p": "Dólares taiwaneses",
+      "en": "New Taiwan dollar",
+      "en_p": "New Taiwan dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -8526,10 +9464,11 @@
     },
     "historia": {
       "fecha_introduccion": "1949",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "El «nuevo» de su nombre lo distingue del dólar taiwanés arrasado por la hiperinflación de los años cuarenta."
   },
   "TZS": {
     "codigo": "TZS",
@@ -8539,7 +9478,9 @@
     },
     "nombre_corto": {
       "es": "Chelín tanzano",
-      "en": "Tanzanian shilling"
+      "es_p": "Chelines tanzanos",
+      "en": "Tanzanian shilling",
+      "en_p": "Tanzanian shillings"
     },
     "simbolo": "Sh",
     "iso_4217": {
@@ -8574,10 +9515,11 @@
     },
     "historia": {
       "fecha_introduccion": "1966",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Sus billetes combinan fauna africana con los retratos de los padres fundadores Nyerere y Karume."
   },
   "UAH": {
     "codigo": "UAH",
@@ -8587,7 +9529,9 @@
     },
     "nombre_corto": {
       "es": "Grivna",
-      "en": "Hryvnia"
+      "es_p": "Grivnas",
+      "en": "Hryvnia",
+      "en_p": "Hryvnias"
     },
     "simbolo": "₴",
     "iso_4217": {
@@ -8622,10 +9566,11 @@
     },
     "historia": {
       "fecha_introduccion": "1996",
-      "moneda_anterior": null,
+      "fecha_fin": null,
+      "moneda_anterior": "UAK",
       "moneda_sucesora": null
     },
-    "notas": "En territorios ocupados por Rusia (Crimea, partes de Donetsk, Lugansk, Zaporiyia y Jersón) circula de facto el rublo ruso."
+    "notas": "Toma su nombre de la «grivna», una unidad de peso de plata de la Rus de Kiev medieval."
   },
   "UAK": {
     "codigo": "UAK",
@@ -8635,7 +9580,9 @@
     },
     "nombre_corto": {
       "es": "Karbóvanets",
-      "en": "Karbovanets"
+      "es_p": "Karbóvanets",
+      "en": "Karbovanets",
+      "en_p": "Karbovantsi"
     },
     "simbolo": "крб",
     "iso_4217": {
@@ -8653,9 +9600,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["UA"],
-      "curso_legal": ["UA"],
-      "circulacion": ["UA"],
+      "emisor": [
+        "UA"
+      ],
+      "curso_legal": [
+        "UA"
+      ],
+      "circulacion": [
+        "UA"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -8664,12 +9617,12 @@
     },
     "historia": {
       "fecha_introduccion": "1992",
+      "fecha_fin": "1995",
       "moneda_anterior": "SUR",
       "moneda_sucesora": "UAH"
     },
-    "notas": "Corrección: el karbóvanets ucraniano no existía como moneda independiente en 1991; fue introducido en 1992 tras la independencia."
+    "notas": "Los cupones-karbóvanets nacieron como medida provisional y sufrieron una inflación anual de cinco dígitos."
   },
-
   "UGX": {
     "codigo": "UGX",
     "nombres": {
@@ -8678,7 +9631,9 @@
     },
     "nombre_corto": {
       "es": "Chelín ugandés",
-      "en": "Ugandan shilling"
+      "es_p": "Chelines ugandeses",
+      "en": "Ugandan shilling",
+      "en_p": "Ugandan shillings"
     },
     "simbolo": "Sh",
     "iso_4217": {
@@ -8713,10 +9668,11 @@
     },
     "historia": {
       "fecha_introduccion": "1966",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Su billete de 50.000 chelines fue elegido «Billete del Año 2010» por la Sociedad Internacional de Coleccionistas de Billetes."
   },
   "USD": {
     "codigo": "USD",
@@ -8726,7 +9682,9 @@
     },
     "nombre_corto": {
       "es": "Dólar estadounidense",
-      "en": "US dollar"
+      "es_p": "Dólares estadounidenses",
+      "en": "US dollar",
+      "en_p": "US dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -8798,10 +9756,11 @@
     },
     "historia": {
       "fecha_introduccion": "1792",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Más de la mitad de los billetes de 100 dólares circulan fuera de Estados Unidos."
   },
   "USN": {
     "codigo": "USN",
@@ -8811,7 +9770,9 @@
     },
     "nombre_corto": {
       "es": "Dólar (siguiente día)",
-      "en": "US dollar (next day)"
+      "es_p": "Dólares (siguiente día)",
+      "en": "US dollar (next day)",
+      "en_p": "US dollars (next day)"
     },
     "simbolo": null,
     "iso_4217": {
@@ -8841,10 +9802,11 @@
     },
     "historia": {
       "fecha_introduccion": null,
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Código utilizado para operaciones financieras liquidadas al día siguiente; no circula físicamente."
+    "notas": "Es un código para liquidaciones interbancarias con valor al día siguiente: nunca existe como efectivo."
   },
   "UYI": {
     "codigo": "UYI",
@@ -8854,7 +9816,9 @@
     },
     "nombre_corto": {
       "es": "Unidad Indexada",
-      "en": "Unidad Indexada"
+      "es_p": "Unidades Indexadas",
+      "en": "Unidad Indexada",
+      "en_p": "Unidades Indexadas"
     },
     "simbolo": null,
     "iso_4217": {
@@ -8884,10 +9848,11 @@
     },
     "historia": {
       "fecha_introduccion": null,
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Unidad de cuenta indexada a la inflación, utilizada en contratos financieros."
+    "notas": "Unidad indexada a la inflación creada en 2002; se usa en créditos y contratos reajustables y no se imprime."
   },
   "UYU": {
     "codigo": "UYU",
@@ -8897,7 +9862,9 @@
     },
     "nombre_corto": {
       "es": "Peso uruguayo",
-      "en": "Uruguayan peso"
+      "es_p": "Pesos uruguayos",
+      "en": "Uruguayan peso",
+      "en_p": "Uruguayan pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -8932,10 +9899,11 @@
     },
     "historia": {
       "fecha_introduccion": "1993",
+      "fecha_fin": null,
       "moneda_anterior": "UYP",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "El peso de 1993 quitó tres ceros al «nuevo peso», la segunda redenominación uruguaya en menos de veinte años."
   },
   "UYW": {
     "codigo": "UYW",
@@ -8945,7 +9913,9 @@
     },
     "nombre_corto": {
       "es": "Unidad Previsional",
-      "en": "Unidad Previsional"
+      "es_p": "Unidades Previsionales",
+      "en": "Unidad Previsional",
+      "en_p": "Unidades Previsionales"
     },
     "simbolo": null,
     "iso_4217": {
@@ -8975,10 +9945,11 @@
     },
     "historia": {
       "fecha_introduccion": "2018",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Unidad de cuenta utilizada para expresar aportes y prestaciones de la seguridad social."
+    "notas": "Unidad ligada al índice medio de salarios, creada en 2018 para préstamos y ahorro previsional."
   },
   "UZS": {
     "codigo": "UZS",
@@ -8988,7 +9959,9 @@
     },
     "nombre_corto": {
       "es": "Som uzbeko",
-      "en": "Uzbekistani som"
+      "es_p": "Soms uzbekos",
+      "en": "Uzbekistani som",
+      "en_p": "Uzbekistani soms"
     },
     "simbolo": "so'm",
     "iso_4217": {
@@ -9023,10 +9996,11 @@
     },
     "historia": {
       "fecha_introduccion": "1994",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Durante años su billete más alto valía menos de un dólar, lo que obligaba a cargar bolsas de efectivo para compras grandes."
   },
   "VEB": {
     "codigo": "VEB",
@@ -9036,7 +10010,9 @@
     },
     "nombre_corto": {
       "es": "Bolívar",
-      "en": "Bolívar"
+      "es_p": "Bolívares",
+      "en": "Bolívar",
+      "en_p": "Bolívares"
     },
     "simbolo": "Bs",
     "iso_4217": {
@@ -9054,9 +10030,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["VE"],
-      "curso_legal": ["VE"],
-      "circulacion": ["VE"],
+      "emisor": [
+        "VE"
+      ],
+      "curso_legal": [
+        "VE"
+      ],
+      "circulacion": [
+        "VE"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -9065,98 +10047,12 @@
     },
     "historia": {
       "fecha_introduccion": "1879",
+      "fecha_fin": "2007",
       "moneda_anterior": null,
       "moneda_sucesora": "VEF"
     },
-    "notas": "El código VEB corresponde al bolívar que estuvo vigente hasta 2008. Por tanto, los registros de 1989, 1995 y 1998 pertenecen al mismo código histórico VEB."
+    "notas": "Lleva el nombre de Simón Bolívar desde 1879 y fue una de las monedas más estables de América hasta los años ochenta."
   },
-
-  "VEF": {
-    "codigo": "VEF",
-    "nombres": {
-      "es": "Bolívar fuerte venezolano",
-      "en": "Venezuelan bolívar fuerte"
-    },
-    "nombre_corto": {
-      "es": "Bolívar fuerte",
-      "en": "Bolívar fuerte"
-    },
-    "simbolo": "Bs.F",
-    "iso_4217": {
-      "numerico": "937",
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {
-        "es": "céntimo",
-        "en": "céntimo"
-      },
-      "factor": 100
-    },
-    "tipo": "fiat",
-    "estado": "historica",
-    "uso": {
-      "emisor": ["VE"],
-      "curso_legal": ["VE"],
-      "circulacion": ["VE"],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Banco Central de Venezuela",
-      "codigo": "BCV"
-    },
-    "historia": {
-      "fecha_introduccion": "2008",
-      "moneda_anterior": "VEB",
-      "moneda_sucesora": "VES"
-    },
-    "notas": "En 2007 fue creado el bolívar fuerte, que entró en circulación en 2008. Un bolívar fuerte equivalía a 1.000 bolívares anteriores."
-  },
-
-  "VES": {
-    "codigo": "VES",
-    "nombres": {
-      "es": "Bolívar soberano venezolano",
-      "en": "Venezuelan sovereign bolívar"
-    },
-    "nombre_corto": {
-      "es": "Bolívar soberano",
-      "en": "Sovereign bolívar"
-    },
-    "simbolo": "Bs.S",
-    "iso_4217": {
-      "numerico": "928",
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {
-        "es": "céntimo",
-        "en": "céntimo"
-      },
-      "factor": 100
-    },
-    "tipo": "fiat",
-    "estado": "historica",
-    "uso": {
-      "emisor": ["VE"],
-      "curso_legal": ["VE"],
-      "circulacion": ["VE"],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Banco Central de Venezuela",
-      "codigo": "BCV"
-    },
-    "historia": {
-      "fecha_introduccion": "2018",
-      "moneda_anterior": "VEF",
-      "moneda_sucesora": "VED"
-    },
-    "notas": "El bolívar soberano fue introducido el 20 de agosto de 2018, eliminando cinco ceros del bolívar fuerte."
-  },
-
   "VED": {
     "codigo": "VED",
     "nombres": {
@@ -9165,7 +10061,9 @@
     },
     "nombre_corto": {
       "es": "Bolívar digital",
-      "en": "Digital bolívar"
+      "es_p": "Bolívares digitales",
+      "en": "Digital bolívar",
+      "en_p": "Digital bolívares"
     },
     "simbolo": "Bs.D",
     "iso_4217": {
@@ -9183,9 +10081,15 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": ["VE"],
-      "curso_legal": ["VE"],
-      "circulacion": ["VE"],
+      "emisor": [
+        "VE"
+      ],
+      "curso_legal": [
+        "VE"
+      ],
+      "circulacion": [
+        "VE"
+      ],
       "de_facto": []
     },
     "banco_central": {
@@ -9194,10 +10098,113 @@
     },
     "historia": {
       "fecha_introduccion": "2021",
+      "fecha_fin": null,
       "moneda_anterior": "VES",
       "moneda_sucesora": null
     },
-    "notas": "El bolívar digital entró en vigor el 1 de octubre de 2021 mediante una nueva reconversión de 1.000.000 a 1. En 2021 coexistió con el bolívar soberano durante el período de transición."
+    "notas": "El bolívar digital quitó seis ceros; en total, Venezuela ha eliminado catorce ceros de su moneda desde 2008."
+  },
+  "VEF": {
+    "codigo": "VEF",
+    "nombres": {
+      "es": "Bolívar fuerte venezolano",
+      "en": "Venezuelan bolívar fuerte"
+    },
+    "nombre_corto": {
+      "es": "Bolívar fuerte",
+      "es_p": "Bolívares fuertes",
+      "en": "Bolívar fuerte",
+      "en_p": "Bolívares fuertes"
+    },
+    "simbolo": "Bs.F",
+    "iso_4217": {
+      "numerico": "937",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "VE"
+      ],
+      "curso_legal": [
+        "VE"
+      ],
+      "circulacion": [
+        "VE"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Venezuela",
+      "codigo": "BCV"
+    },
+    "historia": {
+      "fecha_introduccion": "2008",
+      "fecha_fin": "2017",
+      "moneda_anterior": "VEB",
+      "moneda_sucesora": "VES"
+    },
+    "notas": "El «fuerte» quitó tres ceros en 2008; su nombre evocaba al «peso fuerte» de la época colonial."
+  },
+  "VES": {
+    "codigo": "VES",
+    "nombres": {
+      "es": "Bolívar soberano venezolano",
+      "en": "Venezuelan sovereign bolívar"
+    },
+    "nombre_corto": {
+      "es": "Bolívar soberano",
+      "es_p": "Bolívares soberanos",
+      "en": "Sovereign bolívar",
+      "en_p": "Sovereign bolívares"
+    },
+    "simbolo": "Bs.S",
+    "iso_4217": {
+      "numerico": "928",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "VE"
+      ],
+      "curso_legal": [
+        "VE"
+      ],
+      "circulacion": [
+        "VE"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Venezuela",
+      "codigo": "BCV"
+    },
+    "historia": {
+      "fecha_introduccion": "2018",
+      "fecha_fin": "2020",
+      "moneda_anterior": "VEF",
+      "moneda_sucesora": "VED"
+    },
+    "notas": "La hiperinflación lo devaluó tanto que sus billetes se usaron para hacer artesanías y bolsos."
   },
   "VND": {
     "codigo": "VND",
@@ -9207,7 +10214,9 @@
     },
     "nombre_corto": {
       "es": "Dong",
-      "en": "Đồng"
+      "es_p": "Dongs",
+      "en": "Đồng",
+      "en_p": "Đồng"
     },
     "simbolo": "₫",
     "iso_4217": {
@@ -9242,10 +10251,11 @@
     },
     "historia": {
       "fecha_introduccion": "1978",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Đồng» significa «cobre»; el efectivo vietnamita es casi todo billetes, hoy mayoritariamente de polímero."
   },
   "VUV": {
     "codigo": "VUV",
@@ -9255,7 +10265,9 @@
     },
     "nombre_corto": {
       "es": "Vatu",
-      "en": "Vatu"
+      "es_p": "Vatus",
+      "en": "Vatu",
+      "en_p": "Vatu"
     },
     "simbolo": "VT",
     "iso_4217": {
@@ -9287,10 +10299,11 @@
     },
     "historia": {
       "fecha_introduccion": "1981",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En zonas rurales de Vanuatu, esteras tejidas y colmillos de cerdo siguen sirviendo como pago ceremonial junto al vatu."
   },
   "WST": {
     "codigo": "WST",
@@ -9300,7 +10313,9 @@
     },
     "nombre_corto": {
       "es": "Tala",
-      "en": "Tālā"
+      "es_p": "Talas",
+      "en": "Tālā",
+      "en_p": "Tālā"
     },
     "simbolo": "T",
     "iso_4217": {
@@ -9335,10 +10350,11 @@
     },
     "historia": {
       "fecha_introduccion": "1967",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Tālā» es la adaptación samoana de «dólar» (del alemán «Taler»), herencia del periodo colonial alemán."
   },
   "XAF": {
     "codigo": "XAF",
@@ -9349,7 +10365,9 @@
     },
     "nombre_corto": {
       "es": "Franco CFA (BEAC)",
-      "en": "Central African CFA franc"
+      "es_p": "Francos CFA (BEAC)",
+      "en": "Central African CFA franc",
+      "en_p": "Central African CFA francs"
     },
     "simbolo": "FCFA",
     "iso_4217": {
@@ -9400,10 +10418,11 @@
     },
     "historia": {
       "fecha_introduccion": "1945",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Vinculado al euro mediante un tipo de cambio fijo garantizado por el Tesoro francés."
+    "notas": "Aunque vale exactamente lo mismo que el franco CFA de África Occidental, ninguno de los dos se acepta en la zona del otro."
   },
   "XCD": {
     "codigo": "XCD",
@@ -9413,7 +10432,9 @@
     },
     "nombre_corto": {
       "es": "Dólar del Caribe Oriental",
-      "en": "East Caribbean dollar"
+      "es_p": "Dólares del Caribe Oriental",
+      "en": "East Caribbean dollar",
+      "en_p": "East Caribbean dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -9469,62 +10490,66 @@
     },
     "historia": {
       "fecha_introduccion": "1965",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "Ocho territorios del Caribe Oriental la comparten y está fijada al dólar estadounidense desde 1976."
   },
   "XCG": {
-  "codigo": "XCG",
-  "nombres": {
-    "es": "Florín caribeño",
-    "en": "Caribbean guilder"
-  },
-  "nombre_corto": {
-    "es": "Florín caribeño",
-    "en": "Caribbean guilder"
-  },
-  "simbolo": "Cg",
-  "iso_4217": {
-    "numerico": null,
-    "decimales": 2
-  },
-  "subunidad": {
-    "codigo": null,
+    "codigo": "XCG",
     "nombres": {
-      "es": "centavo",
-      "en": "cent"
+      "es": "Florín caribeño",
+      "en": "Caribbean guilder"
     },
-    "factor": 100
+    "nombre_corto": {
+      "es": "Florín caribeño",
+      "es_p": "Florines caribeños",
+      "en": "Caribbean guilder",
+      "en_p": "Caribbean guilders"
+    },
+    "simbolo": "Cg",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": [
+        "CW",
+        "SX"
+      ],
+      "curso_legal": [
+        "CW",
+        "SX"
+      ],
+      "circulacion": [
+        "CW",
+        "SX"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Curazao y San Martín",
+      "codigo": "CBCS"
+    },
+    "historia": {
+      "fecha_introduccion": "2025",
+      "fecha_fin": null,
+      "moneda_anterior": "ANG",
+      "moneda_sucesora": null
+    },
+    "notas": "Sus billetes y monedas estrenan diseños de fauna y paisajes marinos del Caribe, incluida la tortuga carey."
   },
-  "tipo": "fiat",
-  "estado": "circulacion",
-  "uso": {
-    "emisor": [
-      "CW",
-      "SX"
-    ],
-    "curso_legal": [
-      "CW",
-      "SX"
-    ],
-    "circulacion": [
-      "CW",
-      "SX"
-    ],
-    "de_facto": []
-  },
-  "banco_central": {
-    "nombre": "Banco Central de Curazao y San Martín",
-    "codigo": "CBCS"
-  },
-  "historia": {
-    "fecha_introduccion": "2025",
-    "moneda_anterior": "ANG",
-    "moneda_sucesora": null
-  },
-  "notas": "El florín caribeño fue introducido el 31 de marzo de 2025 como moneda común de Curazao y San Martín, reemplazando al florín de las Antillas Neerlandesas. Tiene una paridad fija de Cg 1,79 por USD 1. El código monetario es XCG y el símbolo es Cg."
-},
   "XDR": {
     "codigo": "XDR",
     "nombres": {
@@ -9533,7 +10558,9 @@
     },
     "nombre_corto": {
       "es": "DEG",
-      "en": "SDR"
+      "es_p": "DEG",
+      "en": "SDR",
+      "en_p": "SDRs"
     },
     "simbolo": "SDR",
     "iso_4217": {
@@ -9559,10 +10586,53 @@
     },
     "historia": {
       "fecha_introduccion": "1969",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Activo de reserva internacional creado por el FMI; su valor se basa en una cesta de monedas (USD, EUR, CNY, JPY, GBP). No circula como moneda física."
+    "notas": "No es dinero de bolsillo: es un activo de reserva del FMI cuyo valor combina una cesta de cinco divisas."
+  },
+  "XEU": {
+    "codigo": "XEU",
+    "nombres": {
+      "es": "Unidad Monetaria Europea",
+      "en": "European Currency Unit"
+    },
+    "nombre_corto": {
+      "es": "ECU",
+      "es_p": "ECU",
+      "en": "ECU",
+      "en_p": "ECUs"
+    },
+    "simbolo": "ECU",
+    "iso_4217": {
+      "numerico": "954",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "historica",
+    "uso": {
+      "emisor": [],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Comunidad Económica Europea / Instituto Monetario Europeo",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1979",
+      "fecha_fin": "1998",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "Era una cesta contable de monedas europeas; su nombre coincidía a propósito con el «écu», antigua moneda de oro francesa."
   },
   "XOF": {
     "codigo": "XOF",
@@ -9573,7 +10643,9 @@
     },
     "nombre_corto": {
       "es": "Franco CFA (BCEAO)",
-      "en": "West African CFA franc"
+      "es_p": "Francos CFA (BCEAO)",
+      "en": "West African CFA franc",
+      "en_p": "West African CFA francs"
     },
     "simbolo": "CFA",
     "iso_4217": {
@@ -9630,10 +10702,11 @@
     },
     "historia": {
       "fecha_introduccion": "1945",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Vinculado al euro mediante un tipo de cambio fijo garantizado por el Tesoro francés."
+    "notas": "Está previsto que lo reemplace el «eco», un proyecto de moneda regional aplazado varias veces."
   },
   "XPF": {
     "codigo": "XPF",
@@ -9644,7 +10717,9 @@
     },
     "nombre_corto": {
       "es": "Franco CFP",
-      "en": "CFP franc"
+      "es_p": "Francos CFP",
+      "en": "CFP franc",
+      "en_p": "CFP francs"
     },
     "simbolo": "₣",
     "iso_4217": {
@@ -9682,10 +10757,99 @@
     },
     "historia": {
       "fecha_introduccion": "1945",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": "Vinculado al euro mediante un tipo de cambio fijo garantizado por el Tesoro francés."
+    "notas": "Lo comparten tres territorios franceses del Pacífico situados a más de 15.000 km de París, con billetes comunes."
+  },
+  "YUD": {
+    "codigo": "YUD",
+    "nombres": {
+      "es": "Dinar yugoslavo",
+      "en": "Yugoslav dinar"
+    },
+    "nombre_corto": {
+      "es": "Dinar yugoslavo",
+      "es_p": "Dinares yugoslavos",
+      "en": "Yugoslav dinar",
+      "en_p": "Yugoslav dinars"
+    },
+    "simbolo": "дин.",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "YU"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Yugoslavia",
+      "codigo": "NBY"
+    },
+    "historia": {
+      "fecha_introduccion": "1966",
+      "fecha_fin": "1989",
+      "moneda_anterior": null,
+      "moneda_sucesora": "YUN"
+    },
+    "notas": "El nombre «dinar yugoslavo» encadenó varias redenominaciones que, en total, borraron más de veinte ceros."
+  },
+  "ZAL": {
+    "codigo": "ZAL",
+    "nombres": {
+      "es": "Rand sudafricano (financiero)",
+      "en": "South African financial rand"
+    },
+    "nombre_corto": {
+      "es": "Rand financiero",
+      "es_p": "Rands financieros",
+      "en": "Financial rand",
+      "en_p": "Financial rand"
+    },
+    "simbolo": "R",
+    "iso_4217": {
+      "numerico": "991",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {},
+      "factor": 100
+    },
+    "tipo": "unidad_de_cuenta",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "ZA"
+      ],
+      "curso_legal": [],
+      "circulacion": [],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de la Reserva de Sudáfrica",
+      "codigo": "SARB"
+    },
+    "historia": {
+      "fecha_introduccion": "1985",
+      "fecha_fin": "1994",
+      "moneda_anterior": null,
+      "moneda_sucesora": "ZAR"
+    },
+    "notas": "Solo existió en cuentas bancarias: era un tipo de cambio paralelo para inversores extranjeros durante las sanciones al apartheid."
   },
   "ZAR": {
     "codigo": "ZAR",
@@ -9695,7 +10859,9 @@
     },
     "nombre_corto": {
       "es": "Rand",
-      "en": "Rand"
+      "es_p": "Rands",
+      "en": "Rand",
+      "en_p": "Rand"
     },
     "simbolo": "R",
     "iso_4217": {
@@ -9740,10 +10906,11 @@
     },
     "historia": {
       "fecha_introduccion": "1961",
+      "fecha_fin": null,
       "moneda_anterior": null,
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "«Rand» viene de Witwatersrand, la cordillera aurífera donde nació Johannesburgo y de la que salió gran parte del oro mundial."
   },
   "ZMW": {
     "codigo": "ZMW",
@@ -9753,7 +10920,9 @@
     },
     "nombre_corto": {
       "es": "Kwacha zambiano",
-      "en": "Zambian kwacha"
+      "es_p": "Kwachas zambianos",
+      "en": "Zambian kwacha",
+      "en_p": "Zambian kwacha"
     },
     "simbolo": "ZK",
     "iso_4217": {
@@ -9788,10 +10957,62 @@
     },
     "historia": {
       "fecha_introduccion": "2013",
+      "fecha_fin": null,
       "moneda_anterior": "ZMK",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "La redenominación de 2013 quitó tres ceros; el águila pescadora del escudo aparece en todos los billetes."
+  },
+  "ZRZ": {
+    "codigo": "ZRZ",
+    "nombres": {
+      "es": "Zaire",
+      "en": "Zaire"
+    },
+    "nombre_corto": {
+      "es": "Zaire",
+      "es_p": "Zaires",
+      "en": "Zaire",
+      "en_p": "Zaires"
+    },
+    "simbolo": "Z",
+    "iso_4217": {
+      "numerico": "180",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "makuta",
+        "en": "likuta"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": [
+        "ZR"
+      ],
+      "curso_legal": [
+        "ZR"
+      ],
+      "circulacion": [
+        "ZR"
+      ],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional del Congo",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1971",
+      "fecha_fin": "1992",
+      "moneda_anterior": null,
+      "moneda_sucesora": "ZRN"
+    },
+    "notas": "País, río y moneda compartían nombre: «Zaire» viene del kikongo «nzere», «el río que se traga a todos los ríos»."
   },
   "ZWG": {
     "codigo": "ZWG",
@@ -9801,7 +11022,9 @@
     },
     "nombre_corto": {
       "es": "ZiG",
-      "en": "ZiG"
+      "es_p": "ZiG",
+      "en": "ZiG",
+      "en_p": "ZiG"
     },
     "simbolo": "ZiG",
     "iso_4217": {
@@ -9838,393 +11061,11 @@
     },
     "historia": {
       "fecha_introduccion": "2024",
+      "fecha_fin": null,
       "moneda_anterior": "ZWL",
       "moneda_sucesora": null
     },
-    "notas": "Moneda respaldada por oro y otros activos de reserva, introducida en abril de 2024. El dólar estadounidense circula ampliamente de facto junto al ZiG."
-  },
-  "CLE": {
-    "codigo": "CLE",
-    "nombres": {
-      "es": "Escudo chileno",
-      "en": "Chilean escudo"
-    },
-    "nombre_corto": {
-      "es": "Escudo chileno",
-      "en": "Chilean escudo"
-    },
-    "simbolo": "Eº",
-    "iso_4217": {
-      "numerico": null,
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {
-        "es": "centésimo",
-        "en": "centésimo"
-      },
-      "factor": 100
-    },
-    "tipo": "fiat",
-    "estado": "historica",
-    "uso": {
-      "emisor": [
-        "CL"
-      ],
-      "curso_legal": [],
-      "circulacion": [],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Banco Central de Chile",
-      "codigo": "BCCH"
-    },
-    "historia": {
-      "fecha_introduccion": "1960",
-      "moneda_anterior": null,
-      "moneda_sucesora": "CLP"
-    },
-    "notas": "Sustituido por el peso chileno en 1975 a razón de 1 peso = 1000 escudos."
-  },
-  "ESP": {
-    "codigo": "ESP",
-    "nombres": {
-      "es": "Peseta española",
-      "en": "Spanish peseta"
-    },
-    "nombre_corto": {
-      "es": "Peseta",
-      "en": "Peseta"
-    },
-    "simbolo": "₧",
-    "iso_4217": {
-      "numerico": "724",
-      "decimales": 0
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {
-        "es": "céntimo",
-        "en": "céntimo"
-      },
-      "factor": 100
-    },
-    "tipo": "fiat",
-    "estado": "historica",
-    "uso": {
-      "emisor": [
-        "ES"
-      ],
-      "curso_legal": [],
-      "circulacion": [],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Banco de España",
-      "codigo": "BdE"
-    },
-    "historia": {
-      "fecha_introduccion": "1868",
-      "moneda_anterior": null,
-      "moneda_sucesora": "EUR"
-    },
-    "notas": "Sustituida por el euro; dejó de tener curso legal el 28 de febrero de 2002."
-  },
-  "DEM": {
-    "codigo": "DEM",
-    "nombres": {
-      "es": "Marco alemán",
-      "en": "German mark"
-    },
-    "nombre_corto": {
-      "es": "Marco alemán",
-      "en": "Deutsche Mark"
-    },
-    "simbolo": "DM",
-    "iso_4217": {
-      "numerico": "276",
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {
-        "es": "pfennig",
-        "en": "pfennig"
-      },
-      "factor": 100
-    },
-    "tipo": "fiat",
-    "estado": "historica",
-    "uso": {
-      "emisor": [
-        "DE"
-      ],
-      "curso_legal": [],
-      "circulacion": [],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Deutsche Bundesbank",
-      "codigo": "BBk"
-    },
-    "historia": {
-      "fecha_introduccion": "1948",
-      "moneda_anterior": null,
-      "moneda_sucesora": "EUR"
-    },
-    "notas": "Sustituido por el euro; dejó de tener curso legal el 28 de febrero de 2002."
-  },
-  "CUC": {
-    "codigo": "CUC",
-    "nombres": {
-      "es": "Peso convertible cubano",
-      "en": "Cuban convertible peso"
-    },
-    "nombre_corto": {
-      "es": "Peso convertible",
-      "en": "Convertible peso"
-    },
-    "simbolo": "$",
-    "iso_4217": {
-      "numerico": "931",
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {
-        "es": "centavo",
-        "en": "centavo"
-      },
-      "factor": 100
-    },
-    "tipo": "fiat",
-    "estado": "historica",
-    "uso": {
-      "emisor": [
-        "CU"
-      ],
-      "curso_legal": [],
-      "circulacion": [],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Banco Central de Cuba",
-      "codigo": "BCC"
-    },
-    "historia": {
-      "fecha_introduccion": "1994",
-      "moneda_anterior": null,
-      "moneda_sucesora": "CUP"
-    },
-    "notas": "Retirado de circulación en 2021 dentro del proceso de unificación monetaria cubana."
-  },
-  "HRK": {
-    "codigo": "HRK",
-    "nombres": {
-      "es": "Kuna croata",
-      "en": "Croatian kuna"
-    },
-    "nombre_corto": {
-      "es": "Kuna",
-      "en": "Kuna"
-    },
-    "simbolo": "kn",
-    "iso_4217": {
-      "numerico": "191",
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {
-        "es": "lipa",
-        "en": "lipa"
-      },
-      "factor": 100
-    },
-    "tipo": "fiat",
-    "estado": "historica",
-    "uso": {
-      "emisor": [
-        "HR"
-      ],
-      "curso_legal": [],
-      "circulacion": [],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Banco Nacional de Croacia",
-      "codigo": "HNB"
-    },
-    "historia": {
-      "fecha_introduccion": "1994",
-      "moneda_anterior": null,
-      "moneda_sucesora": "EUR"
-    },
-    "notas": "Sustituida por el euro el 1 de enero de 2023."
-  },
-  "XEU": {
-    "codigo": "XEU",
-    "nombres": {
-      "es": "Unidad Monetaria Europea",
-      "en": "European Currency Unit"
-    },
-    "nombre_corto": {
-      "es": "ECU",
-      "en": "ECU"
-    },
-    "simbolo": "ECU",
-    "iso_4217": {
-      "numerico": "954",
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {},
-      "factor": 100
-    },
-    "tipo": "unidad_de_cuenta",
-    "estado": "historica",
-    "uso": {
-      "emisor": [],
-      "curso_legal": [],
-      "circulacion": [],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Comunidad Económica Europea / Instituto Monetario Europeo",
-      "codigo": null
-    },
-    "historia": {
-      "fecha_introduccion": "1979",
-      "moneda_anterior": null,
-      "moneda_sucesora": "EUR"
-    },
-    "notas": "Unidad de cuenta precursora del euro, sustituida a razón de 1 ECU = 1 EUR el 1 de enero de 1999."
-  },
-  "YUD": {
-    "codigo": "YUD",
-    "nombres": {
-      "es": "Dinar yugoslavo",
-      "en": "Yugoslav dinar"
-    },
-    "nombre_corto": {
-      "es": "Dinar yugoslavo",
-      "en": "Yugoslav dinar"
-    },
-    "simbolo": "дин.",
-    "iso_4217": {
-      "numerico": null,
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {},
-      "factor": 100
-    },
-    "tipo": "fiat",
-    "estado": "historica",
-    "uso": {
-      "emisor": [
-        "YU"
-      ],
-      "curso_legal": [],
-      "circulacion": [],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Banco Nacional de Yugoslavia",
-      "codigo": "NBY"
-    },
-    "historia": {
-      "fecha_introduccion": "1966",
-      "moneda_anterior": null,
-      "moneda_sucesora": null
-    },
-    "notas": "Moneda de la extinta República Federativa Socialista de Yugoslavia; sucedida por distintas monedas nacionales tras su disolución."
-  },
-  "ZAL": {
-    "codigo": "ZAL",
-    "nombres": {
-      "es": "Rand sudafricano (financiero)",
-      "en": "South African financial rand"
-    },
-    "nombre_corto": {
-      "es": "Rand financiero",
-      "en": "Financial rand"
-    },
-    "simbolo": "R",
-    "iso_4217": {
-      "numerico": "991",
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {},
-      "factor": 100
-    },
-    "tipo": "unidad_de_cuenta",
-    "estado": "historica",
-    "uso": {
-      "emisor": [
-        "ZA"
-      ],
-      "curso_legal": [],
-      "circulacion": [],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Banco de la Reserva de Sudáfrica",
-      "codigo": "SARB"
-    },
-    "historia": {
-      "fecha_introduccion": "1985",
-      "moneda_anterior": null,
-      "moneda_sucesora": "ZAR"
-    },
-    "notas": "Tipo de cambio dual utilizado para transacciones de capital durante el apartheid; abolido en 1995."
-  },
-  "ZRZ": {
-    "codigo": "ZRZ",
-    "nombres": {
-      "es": "Zaire",
-      "en": "Zaire"
-    },
-    "nombre_corto": {
-      "es": "Zaire",
-      "en": "Zaire"
-    },
-    "simbolo": "Z",
-    "iso_4217": {
-      "numerico": "180",
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {
-        "es": "makuta",
-        "en": "likuta"
-      },
-      "factor": 100
-    },
-    "tipo": "fiat",
-    "estado": "historica",
-    "uso": {
-      "emisor": ["ZR"],
-      "curso_legal": ["ZR"],
-      "circulacion": ["ZR"],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Banco Nacional del Congo",
-      "codigo": null
-    },
-    "historia": {
-      "fecha_introduccion": "1971",
-      "moneda_anterior": "CDF",
-      "moneda_sucesora": "ZRN"
-    },
-    "notas": "En 1977 el zaire era la moneda de Zaire (actual República Democrática del Congo)."
+    "notas": "«ZiG» significa «Zimbabwe Gold»: nació respaldado por reservas físicas de oro del banco central."
   },
   "ZWL": {
     "codigo": "ZWL",
@@ -10234,7 +11075,9 @@
     },
     "nombre_corto": {
       "es": "Dólar zimbabuense",
-      "en": "Zimbabwean dollar"
+      "es_p": "Dólares zimbabuenses",
+      "en": "Zimbabwean dollar",
+      "en_p": "Zimbabwean dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -10265,9 +11108,10 @@
     },
     "historia": {
       "fecha_introduccion": "2009",
-      "moneda_anterior": null,
+      "fecha_fin": "2023",
+      "moneda_anterior": "ZWR",
       "moneda_sucesora": "ZWG"
     },
-    "notas": "Cuarta versión del dólar zimbabuense, tras varias redenominaciones por hiperinflación; abandonado de facto en 2009 en favor de monedas extranjeras y sustituido formalmente por el ZWG en 2024."
+    "notas": "Pertenece al linaje monetario del billete de 100 billones, uno de los de mayor valor facial jamás impresos, hoy pieza de colección."
   }
 }
