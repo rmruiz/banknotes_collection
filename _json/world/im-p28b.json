@@ -6,7 +6,8 @@
     "currency": "Pence",
     "iso4217": "GBP",
     "subtype": "",
-    "alternatives": []
+    "alternatives": [],
+    "subunidad": true
   },
   "year": 1974,
   "signatures": [],
@@ -21,7 +22,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

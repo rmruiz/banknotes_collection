@@ -3182,8 +3182,8 @@
       "en": "Pound sterling"
     },
     "nombre_corto": {
-      "es": "Libra esterlina",
-      "en": "Pound sterling"
+      "es": "Libra",
+      "en": "Pound"
     },
     "simbolo": "£",
     "iso_4217": {
@@ -3563,6 +3563,48 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "GWP": {
+    "codigo": "GWP",
+    "nombres": {
+      "es": "Peso de Guinea-Bisáu",
+      "en": "Guinea-Bissau peso"
+    },
+    "nombre_corto": {
+      "es": "Peso",
+      "en": "Peso"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "624",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["GW"],
+      "curso_legal": ["GW"],
+      "circulacion": ["GW"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Guinea-Bisáu",
+      "codigo": "BNGB"
+    },
+    "historia": {
+      "fecha_introduccion": "1975",
+      "moneda_anterior": "GWE",
+      "moneda_sucesora": "XOF"
+    },
+    "notas": "El peso de Guinea-Bisáu estaba vigente en 1990 y se dividía en 100 centavos."
   },
   "GYD": {
     "codigo": "GYD",
@@ -4147,6 +4189,48 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "ITL": {
+    "codigo": "ITL",
+    "nombres": {
+      "es": "Lira italiana",
+      "en": "Italian lira"
+    },
+    "nombre_corto": {
+      "es": "Lira",
+      "en": "Lira"
+    },
+    "simbolo": "₤",
+    "iso_4217": {
+      "numerico": "380",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "centesimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["IT"],
+      "curso_legal": ["IT"],
+      "circulacion": ["IT"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Italia",
+      "codigo": "BI"
+    },
+    "historia": {
+      "fecha_introduccion": "1861",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "En 1982 la lira italiana no utilizaba centésimos en la circulación práctica; ISO 4217 la clasifica con cero decimales."
   },
   "JMD": {
     "codigo": "JMD",
@@ -4873,6 +4957,48 @@
     },
     "notas": null
   },
+  "LTL": {
+    "codigo": "LTL",
+    "nombres": {
+      "es": "Litas lituano",
+      "en": "Lithuanian litas"
+    },
+    "nombre_corto": {
+      "es": "Litas",
+      "en": "Litas"
+    },
+    "simbolo": "Lt",
+    "iso_4217": {
+      "numerico": "440",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centas",
+        "en": "centas"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["LT"],
+      "curso_legal": ["LT"],
+      "circulacion": ["LT"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Lituania",
+      "codigo": "LB"
+    },
+    "historia": {
+      "fecha_introduccion": "1993",
+      "moneda_anterior": "LTT",
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "El talonas de 1992 precedió al litas. Si el registro de tu colección se refiere realmente al talonas de 1992, debe utilizarse LTT y no LTL."
+  },
   "LRD": {
     "codigo": "LRD",
     "nombres": {
@@ -4972,6 +5098,48 @@
       "moneda_sucesora": null
     },
     "notas": "El rand sudafricano (ZAR) también tiene curso legal en Lesoto, a la par con el loti."
+  },
+  "LTT": {
+    "codigo": "LTT",
+    "nombres": {
+      "es": "Talonas lituano",
+      "en": "Lithuanian talonas"
+    },
+    "nombre_corto": {
+      "es": "Talonas",
+      "en": "Talonas"
+    },
+    "simbolo": null,
+    "iso_4217": {
+      "numerico": "440",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centas",
+        "en": "centas"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["LT"],
+      "curso_legal": ["LT"],
+      "circulacion": ["LT"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Lituania",
+      "codigo": "LB"
+    },
+    "historia": {
+      "fecha_introduccion": "1992",
+      "moneda_anterior": "SUR",
+      "moneda_sucesora": "LTL"
+    },
+    "notas": "El talonas fue la moneda provisional utilizada por Lituania en 1992 antes de la introducción del litas."
   },
   "LYD": {
     "codigo": "LYD",
@@ -5464,7 +5632,7 @@
   "MVR": {
     "codigo": "MVR",
     "nombres": {
-      "es": "Rufiyaa maldivana",
+      "es": "Rufiyaa de Maldivas",
       "en": "Maldivian rufiyaa"
     },
     "nombre_corto": {
@@ -5487,16 +5655,10 @@
     "tipo": "fiat",
     "estado": "circulacion",
     "uso": {
-      "emisor": [
-        "MV"
-      ],
-      "curso_legal": [
-        "MV"
-      ],
-      "circulacion": [
-        "MV"
-      ],
-      "de_facto": []
+      "emisor": ["MV"],
+      "curso_legal": ["MV"],
+      "circulacion": ["MV"],
+      "de_facto": ["USD"]
     },
     "banco_central": {
       "nombre": "Autoridad Monetaria de Maldivas",
@@ -5504,10 +5666,10 @@
     },
     "historia": {
       "fecha_introduccion": "1981",
-      "moneda_anterior": null,
+      "moneda_anterior": "MVQ",
       "moneda_sucesora": null
     },
-    "notas": null
+    "notas": "En 2011 la rufiyaa era la moneda oficial de Maldivas."
   },
   "MWK": {
     "codigo": "MWK",
@@ -5652,6 +5814,48 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "MZE": {
+    "codigo": "MZE",
+    "nombres": {
+      "es": "Escudo mozambiqueño",
+      "en": "Mozambican escudo"
+    },
+    "nombre_corto": {
+      "es": "Escudo",
+      "en": "Escudo"
+    },
+    "simbolo": "$",
+    "iso_4217": {
+      "numerico": "508",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["MZ"],
+      "curso_legal": ["MZ"],
+      "circulacion": ["MZ"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional Ultramarino",
+      "codigo": null
+    },
+    "historia": {
+      "fecha_introduccion": "1914",
+      "moneda_anterior": null,
+      "moneda_sucesora": "MZM"
+    },
+    "notas": "En 1970 Mozambique todavía utilizaba el escudo mozambiqueño. Fue reemplazado por el metical en 1980."
   },
   "MZN": {
     "codigo": "MZN",
@@ -5846,6 +6050,48 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "NLG": {
+    "codigo": "NLG",
+    "nombres": {
+      "es": "Florín neerlandés",
+      "en": "Dutch guilder"
+    },
+    "nombre_corto": {
+      "es": "Florín",
+      "en": "Guilder"
+    },
+    "simbolo": "ƒ",
+    "iso_4217": {
+      "numerico": "528",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["NL"],
+      "curso_legal": ["NL"],
+      "circulacion": ["NL"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "De Nederlandsche Bank",
+      "codigo": "DNB"
+    },
+    "historia": {
+      "fecha_introduccion": "1816",
+      "moneda_anterior": null,
+      "moneda_sucesora": "EUR"
+    },
+    "notas": "En 1997 el florín neerlandés era la moneda oficial de los Países Bajos."
   },
   "NOK": {
     "codigo": "NOK",
@@ -6102,6 +6348,48 @@
     },
     "notas": "El dólar estadounidense (USD) circula ampliamente y tiene curso legal junto al balboa; no se emiten billetes de balboa."
   },
+  "PEI": {
+    "codigo": "PEI",
+    "nombres": {
+      "es": "Inti peruano",
+      "en": "Peruvian inti"
+    },
+    "nombre_corto": {
+      "es": "Inti",
+      "en": "Inti"
+    },
+    "simbolo": "I/.",
+    "iso_4217": {
+      "numerico": "604",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["PE"],
+      "curso_legal": ["PE"],
+      "circulacion": ["PE"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Reserva del Perú",
+      "codigo": "BCRP"
+    },
+    "historia": {
+      "fecha_introduccion": "1985",
+      "moneda_anterior": "PES",
+      "moneda_sucesora": "PEN"
+    },
+    "notas": "El inti estaba vigente en 1987. Sustituyó al sol de oro a razón de 1 inti = 1.000 soles."
+  },
   "PEN": {
     "codigo": "PEN",
     "nombres": {
@@ -6149,6 +6437,48 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "PES": {
+    "codigo": "PES",
+    "nombres": {
+      "es": "Sol de oro peruano",
+      "en": "Peruvian sol de oro"
+    },
+    "nombre_corto": {
+      "es": "Sol de oro",
+      "en": "Sol de oro"
+    },
+    "simbolo": "S/o",
+    "iso_4217": {
+      "numerico": "604",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "centavo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["PE"],
+      "curso_legal": ["PE"],
+      "circulacion": ["PE"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Reserva del Perú",
+      "codigo": "BCRP"
+    },
+    "historia": {
+      "fecha_introduccion": "1863",
+      "moneda_anterior": null,
+      "moneda_sucesora": "PEI"
+    },
+    "notas": "En 1955 el sol de oro era la moneda vigente de Perú. El nombre sol de oro se utilizaba oficialmente desde la década de 1930."
   },
   "PGK": {
     "codigo": "PGK",
