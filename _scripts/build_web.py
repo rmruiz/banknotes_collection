@@ -26,7 +26,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts (util)
 from util import (unaccent, norm_flag, COUNTRIES, CURRENCIES,
                   get_country_by_code, get_country_by_name,
-                  get_currency_by_code)   # noqa: E402
+                  get_currency_by_code, is_true, currency_name)   # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
@@ -151,8 +151,9 @@ def make_record(d):
     pais_en = c_info["name"]["en"] if c_info else (d.get("country") or {}).get("en", "")
 
     currency_code = str(dn.get("iso4217") or "").strip().upper()
-    currency_info = get_currency_by_code(currency_code)
-    currency_short = (currency_info or {}).get("nombre_corto") or {}
+    currency_info = get_currency_by_code(currency_code) or {}
+    is_subunit = is_true(dn.get("subunidad"))
+    raw_currency = dn.get("currency", "")
 
     firmas = " - ".join(d.get("signatures") or [])
     rec = {
@@ -164,11 +165,15 @@ def make_record(d):
         "valor": dn.get("value"),
         "moneda": dn.get("currency", ""),
         "currency_code": currency_code,
-        "currency_name_es": currency_short.get("es", "") or ((currency_info or {}).get("nombres") or {}).get("es", ""),
-        "currency_name_en": currency_short.get("en", "") or ((currency_info or {}).get("nombres") or {}).get("en", ""),
-        "currency_symbol": (currency_info or {}).get("simbolo") or "",
-        "currency_status": (currency_info or {}).get("estado") or "",
-        "denominacion": denominacion_full(dn),
+          # Cuando el billete usa la subunidad (ej. 'centavos') se muestra el
+          # nombre de subunidad en vez de la unidad principal (ej. 'peso'), y se
+          # oculta el símbolo de la unidad principal.
+          "currency_name_es": currency_name(currency_code, raw_currency, "es", subunit=is_subunit),
+          "currency_name_en": currency_name(currency_code, raw_currency, "en", subunit=is_subunit),
+          "currency_symbol": "" if is_subunit else (currency_info.get("simbolo") or ""),
+          "currency_status": currency_info.get("estado") or "",
+          "denominacion": denominacion_full(dn),
+          "subunidad": is_subunit,
         "subtipo": dn.get("subtype", ""),
         "alternativas": " · ".join(dn.get("alternatives") or []),
         "anio": d.get("year"),

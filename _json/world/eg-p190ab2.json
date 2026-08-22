@@ -5,6 +5,7 @@
     "value": 5,
     "currency": "Piastras",
     "iso4217": "EGP",
+    "subunidad": true,
     "subtype": "",
     "alternatives": []
   },
@@ -19,7 +20,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

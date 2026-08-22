@@ -5,6 +5,7 @@
     "value": 10,
     "currency": "Centavos",
     "iso4217": "NIO",
+    "subunidad": true,
     "subtype": "",
     "alternatives": []
   },
@@ -21,7 +22,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

@@ -107,7 +107,8 @@ def process_banknote_themes():
             country = c_info["name"]["es"] if c_info else (data.get("country") or {}).get("es", "")
             value = data.get("denomination", {}).get("value", "")
             denomination = data.get("denomination", {})
-            currency = currency_name(denomination.get("iso4217"), denomination.get("currency", ""))
+            currency = currency_name(denomination.get("iso4217"), denomination.get("currency", ""),
+                                     subunit=denomination.get("subunidad"))
             year = data.get("year", "")
             contexto = get_search_context(country, value, currency, year)
 

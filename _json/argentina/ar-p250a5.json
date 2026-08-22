@@ -5,6 +5,7 @@
     "value": 50,
     "currency": "Centavos",
     "iso4217": "ARS",
+    "subunidad": true,
     "subtype": "Moneda Nacional: Efigie del Progreso",
     "alternatives": []
   },
@@ -19,7 +20,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

@@ -5,6 +5,7 @@
     "value": 100,
     "currency": "Baisas",
     "iso4217": "OMR",
+    "subunidad": true,
     "subtype": "",
     "alternatives": []
   },
@@ -21,7 +22,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

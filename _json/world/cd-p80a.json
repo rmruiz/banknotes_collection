@@ -5,6 +5,7 @@
     "value": 1,
     "currency": "Céntimo",
     "iso4217": "CDF",
+    "subunidad": true,
     "subtype": "",
     "alternatives": []
   },
@@ -20,7 +21,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

@@ -5,6 +5,7 @@
     "value": 1,
     "currency": "Sen",
     "iso4217": "IDR",
+    "subunidad": true,
     "subtype": "",
     "alternatives": []
   },
@@ -19,7 +20,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

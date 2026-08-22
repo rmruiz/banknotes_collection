@@ -5,6 +5,7 @@
     "value": 1,
     "currency": "Centavo",
     "iso4217": "HKD",
+    "subunidad": true,
     "subtype": "",
     "alternatives": []
   },

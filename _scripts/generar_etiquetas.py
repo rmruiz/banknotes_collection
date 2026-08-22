@@ -131,7 +131,8 @@ def load_records(filter_str=None, solo_verificados=False):
             "value": (d.get("denomination") or {}).get("value", "") or "",
             "currency": currency_name(
                 (d.get("denomination") or {}).get("iso4217"),
-                (d.get("denomination") or {}).get("currency", "") or ""),
+                (d.get("denomination") or {}).get("currency", "") or "",
+                subunit=(d.get("denomination") or {}).get("subunidad")),
             "anio": str(d.get("year") or ""),
             "serie": (d.get("notes") or {}).get("serie", "") or "",
             "zone": (d.get("notes") or {}).get("zone", "") or "",

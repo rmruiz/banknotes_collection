@@ -4,7 +4,7 @@
   "denomination": {
     "value": 100000,
     "currency": "Dinares",
-    "iso4217": "HRK",
+    "iso4217": "HRD",
     "subtype": "",
     "alternatives": []
   },
@@ -20,7 +20,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

@@ -49,7 +49,7 @@ sys.path.insert(0, str(JSON_DIR))                          # _json
 import build_web                    # reusa make_record (search, bandera, thumbs)
 import generar_imagen               # reusa compose() y flag_for()
 from util import (unaccent, make_note_id, COUNTRIES, CURRENCIES,
-                  get_country_by_name)  # convenios compartidos
+                  get_country_by_name, is_true)  # convenios compartidos
 
 COUNTRY_MAP = {}
 COUNTRY_EN = {}
@@ -216,6 +216,24 @@ def _set_currency_code(d, v):
     d["denomination"]["iso4217"] = v.strip().upper() or None
 
 
+def _v_bool(v):
+    """Booleano o texto 'true'/'false'/'1'/'0'/'sí'/'no' (tolerante)."""
+    if isinstance(v, bool):
+        return True
+    return isinstance(v, str) and v.strip().lower() in (
+          "true", "false", "1", "0", "si", "sí", "no", "yes")
+
+
+def _set_subunidad(d, v):
+    """Marca/desmarca 'denomination.subunidad'; al desmarcarlo lo elimina del
+    JSON para no dejar ruido en los ~99% de billetes que no lo usan."""
+    dn = d["denomination"]
+    if is_true(v):
+        dn["subunidad"] = True
+    else:
+        dn.pop("subunidad", None)
+
+
 FIELDS = {
     "pais": (_v_str(80, allow_empty=False), _set_pais),
     "colnect": (_v_url, lambda d, v: d["colnect"].update(url=v.strip())),
@@ -223,6 +241,7 @@ FIELDS = {
     "valor": (_v_num, lambda d, v: d["denomination"].update(value=v)),
     "moneda": (_v_str(80), lambda d, v: d["denomination"].update(currency=v.strip())),
     "currency_code": (_v_currency_code, _set_currency_code),
+     "subunidad": (_v_bool, _set_subunidad),
     "anio": (_v_year, lambda d, v: d.update(year=v)),
     "verificado": (lambda v: isinstance(v, bool), lambda d, v: d.update(verificado=v)),
     "conmemorativo": (lambda v: isinstance(v, bool),

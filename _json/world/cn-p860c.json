@@ -6,7 +6,8 @@
     "currency": "Fen",
     "iso4217": "CNY",
     "subtype": "",
-    "alternatives": []
+    "alternatives": [],
+    "subunidad": true
   },
   "year": 1953,
   "signatures": [],
