@@ -4,7 +4,7 @@
   "denomination": {
     "value": 5,
     "currency": "Zaires",
-    "iso4217": "CDF",
+    "iso4217": "ZRZ",
     "subtype": "",
     "alternatives": []
   },
@@ -21,7 +21,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

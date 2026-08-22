@@ -4,7 +4,7 @@
   "denomination": {
     "value": 10,
     "currency": "Rublos",
-    "iso4217": "TJS",
+    "iso4217": "TJR",
     "subtype": "",
     "alternatives": []
   },
@@ -20,7 +20,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

@@ -4,7 +4,7 @@
   "denomination": {
     "value": 500,
     "currency": "Bolívares",
-    "iso4217": "VEF",
+    "iso4217": "VEB",
     "subtype": "",
     "alternatives": []
   },
@@ -20,7 +20,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

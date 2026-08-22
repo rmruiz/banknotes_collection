@@ -4,7 +4,7 @@
   "denomination": {
     "value": 1000,
     "currency": "Dracmas",
-    "iso4217": "EUR",
+    "iso4217": "GRD",
     "subtype": "",
     "alternatives": []
   },
@@ -21,7 +21,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",
