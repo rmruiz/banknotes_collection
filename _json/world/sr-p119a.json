@@ -4,7 +4,7 @@
   "denomination": {
     "value": 2.5,
     "currency": "Gulden",
-    "iso4217": "SRD",
+    "iso4217": "SRG",
     "subtype": "",
     "alternatives": []
   },
@@ -21,7 +21,7 @@
   },
   "commemorative": false,
   "overprint": false,
-  "verificado": true,
+  "verificado": false,
   "notes": {
     "serie": "",
     "bank": "",

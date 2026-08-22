@@ -3516,6 +3516,54 @@
     },
     "notas": null
   },
+  "GRD": {
+  "codigo": "GRD",
+  "nombres": {
+    "es": "Dracma griego",
+    "en": "Greek drachma"
+  },
+  "nombre_corto": {
+    "es": "Dracma",
+    "en": "Drachma"
+  },
+  "simbolo": "₯",
+  "iso_4217": {
+    "numerico": "300",
+    "decimales": 0
+  },
+  "subunidad": {
+    "codigo": null,
+    "nombres": {
+      "es": "lepta",
+      "en": "lepta"
+    },
+    "factor": 100
+  },
+  "tipo": "fiat",
+  "estado": "historica",
+  "uso": {
+    "emisor": [
+      "GR"
+    ],
+    "curso_legal": [
+      "GR"
+    ],
+    "circulacion": [
+      "GR"
+    ],
+    "de_facto": []
+  },
+  "banco_central": {
+    "nombre": "Banco de Grecia",
+    "codigo": "BoG"
+  },
+  "historia": {
+    "fecha_introduccion": "1954",
+    "moneda_anterior": null,
+    "moneda_sucesora": "EUR"
+  },
+  "notas": "En 1978 el dracma era la moneda oficial de Grecia. Se dividía nominalmente en 100 lepta. El Banco de Grecia registra billetes de 50 y 100 dracmas fechados en 1978. La moneda fue sustituida por el euro en 2002."
+},
   "GTQ": {
     "codigo": "GTQ",
     "nombres": {
@@ -3939,6 +3987,102 @@
     },
     "notas": null
   },
+  "ILP": {
+  "codigo": "ILP",
+  "nombres": {
+    "es": "Lira israelí",
+    "en": "Israeli pound"
+  },
+  "nombre_corto": {
+    "es": "Lira",
+    "en": "Pound"
+  },
+  "simbolo": "£",
+  "iso_4217": {
+    "numerico": "376",
+    "decimales": 2
+  },
+  "subunidad": {
+    "codigo": null,
+    "nombres": {
+      "es": "agora",
+      "en": "agora"
+    },
+    "factor": 100
+  },
+  "tipo": "fiat",
+  "estado": "historica",
+  "uso": {
+    "emisor": [
+      "IL"
+    ],
+    "curso_legal": [
+      "IL"
+    ],
+    "circulacion": [
+      "IL"
+    ],
+    "de_facto": []
+  },
+  "banco_central": {
+    "nombre": "Banco de Israel",
+    "codigo": "BOI"
+  },
+  "historia": {
+    "fecha_introduccion": "1952",
+    "moneda_anterior": "ILP",
+    "moneda_sucesora": "ILR"
+  },
+  "notas": "En 1968 la lira israelí se dividía en 100 agorot. El sistema de 100 agorot por lira entró en vigor el 1 de enero de 1960, reemplazando el sistema anterior de 1.000 prutot por lira. La lira fue sustituida por el sheqel en 1980."
+},
+"ILR": {
+  "codigo": "ILR",
+  "nombres": {
+    "es": "Sheqel israelí",
+    "en": "Israeli shekel"
+  },
+  "nombre_corto": {
+    "es": "Sheqel",
+    "en": "Shekel"
+  },
+  "simbolo": "IS",
+  "iso_4217": {
+    "numerico": "376",
+    "decimales": 2
+  },
+  "subunidad": {
+    "codigo": null,
+    "nombres": {
+      "es": "agora nueva",
+      "en": "new agora"
+    },
+    "factor": 100
+  },
+  "tipo": "fiat",
+  "estado": "historica",
+  "uso": {
+    "emisor": [
+      "IL"
+    ],
+    "curso_legal": [
+      "IL"
+    ],
+    "circulacion": [
+      "IL"
+    ],
+    "de_facto": []
+  },
+  "banco_central": {
+    "nombre": "Banco de Israel",
+    "codigo": "BOI"
+  },
+  "historia": {
+    "fecha_introduccion": "1980",
+    "moneda_anterior": "ILP",
+    "moneda_sucesora": "ILS"
+  },
+  "notas": "El sheqel israelí antiguo fue preparado como nueva serie de billetes a partir de 1978. El billete de 50 sheqalim está fechado 1978, pero el sheqel fue declarado moneda de curso legal el 22 de febrero de 1980 y los primeros billetes entraron en circulación el 24 de febrero de 1980. Se introdujo a razón de 1 sheqel = 10 libras israelíes y se dividía en 100 nuevas agorot. El símbolo monetario utilizado era IS; no debe confundirse con el símbolo ₪ del nuevo sheqel."
+},
   "ILS": {
     "codigo": "ILS",
     "nombres": {
@@ -4667,6 +4811,54 @@
     },
     "notas": null
   },
+  "KRY": {
+  "codigo": "KRY",
+  "nombres": {
+    "es": "Yen coreano",
+    "en": "Korean yen"
+  },
+  "nombre_corto": {
+    "es": "Yen",
+    "en": "Yen"
+  },
+  "simbolo": "圓",
+  "iso_4217": {
+    "numerico": null,
+    "decimales": 0
+  },
+  "subunidad": {
+    "codigo": null,
+    "nombres": {
+      "es": "sen",
+      "en": "sen"
+    },
+    "factor": 100
+  },
+  "tipo": "fiat",
+  "estado": "historica",
+  "uso": {
+    "emisor": [
+      "KR"
+    ],
+    "curso_legal": [
+      "KR"
+    ],
+    "circulacion": [
+      "KR"
+    ],
+    "de_facto": []
+  },
+  "banco_central": {
+    "nombre": "Banco de Chōsen",
+    "codigo": null
+  },
+  "historia": {
+    "fecha_introduccion": "1910",
+    "moneda_anterior": "KPW",
+    "moneda_sucesora": "KRW"
+  },
+  "notas": "En 1932 Corea, bajo dominio japonés, utilizaba el yen coreano. Era equivalente al yen japonés y estaba dividido en 100 sen. El Banco de Chōsen emitió billetes específicamente para Corea, incluyendo emisiones de 1, 5 y 10 yenes de 1932. KRY se utiliza aquí como código interno de la base; no es un código ISO 4217 oficial."
+},
   "KWD": {
     "codigo": "KWD",
     "nombres": {
@@ -6672,6 +6864,54 @@
     },
     "notas": null
   },
+  "PTE": {
+  "codigo": "PTE",
+  "nombres": {
+    "es": "Escudo portugués",
+    "en": "Portuguese escudo"
+  },
+  "nombre_corto": {
+    "es": "Escudo",
+    "en": "Escudo"
+  },
+  "simbolo": "$",
+  "iso_4217": {
+    "numerico": "620",
+    "decimales": 0
+  },
+  "subunidad": {
+    "codigo": null,
+    "nombres": {
+      "es": "centavo",
+      "en": "centavo"
+    },
+    "factor": 100
+  },
+  "tipo": "fiat",
+  "estado": "historica",
+  "uso": {
+    "emisor": [
+      "PT"
+    ],
+    "curso_legal": [
+      "PT"
+    ],
+    "circulacion": [
+      "PT"
+    ],
+    "de_facto": []
+  },
+  "banco_central": {
+    "nombre": "Banco de Portugal",
+    "codigo": "BdP"
+  },
+  "historia": {
+    "fecha_introduccion": "1911",
+    "moneda_anterior": "PTE",
+    "moneda_sucesora": "EUR"
+  },
+  "notas": "En 1968 el escudo portugués era la moneda oficial de Portugal. El escudo se dividía nominalmente en 100 centavos. El Banco de Portugal emitió, entre otras, series de billetes fechadas en 1968, como los de 50 y 1.000 escudos. El escudo fue sustituido por el euro en 2002."
+},
   "PYG": {
     "codigo": "PYG",
     "nombres": {
@@ -7399,6 +7639,48 @@
     },
     "notas": "Redenominación de la antigua leona (SLL) a razón de 1000:1."
   },
+  "SLS": {
+    "codigo": "SLS",
+    "nombres": {
+      "es": "Chelín somalilandés",
+      "en": "Somaliland shilling"
+    },
+    "nombre_corto": {
+      "es": "Chelín",
+      "en": "Shilling"
+    },
+    "simbolo": "Sl.Sh",
+    "iso_4217": {
+      "numerico": null,
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "circulacion",
+    "uso": {
+      "emisor": ["SO"],
+      "curso_legal": ["SO"],
+      "circulacion": ["SO"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco de Somalilandia",
+      "codigo": "CBS"
+    },
+    "historia": {
+      "fecha_introduccion": "1994",
+      "moneda_anterior": "SOS",
+      "moneda_sucesora": null
+    },
+    "notas": "SLS es un código interno utilizado aquí; el chelín de Somalilandia no tiene código ISO 4217 oficial. Fue introducido el 18 de octubre de 1994."
+  },
   "SOS": {
     "codigo": "SOS",
     "nombres": {
@@ -7495,6 +7777,48 @@
     },
     "notas": null
   },
+  "SRG": {
+    "codigo": "SRG",
+    "nombres": {
+      "es": "Florín de Surinam",
+      "en": "Surinamese guilder"
+    },
+    "nombre_corto": {
+      "es": "Florín",
+      "en": "Guilder"
+    },
+    "simbolo": "ƒ",
+    "iso_4217": {
+      "numerico": "740",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "centavo",
+        "en": "cent"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["SR"],
+      "curso_legal": ["SR"],
+      "circulacion": ["SR"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Surinam",
+      "codigo": "CBvS"
+    },
+    "historia": {
+      "fecha_introduccion": "1942",
+      "moneda_anterior": null,
+      "moneda_sucesora": "SRD"
+    },
+    "notas": "En 1985 y 1988 la misma moneda era el florín de Surinam. 'Gulden' y 'florín' son denominaciones lingüísticas de la misma unidad."
+  },
   "SSP": {
     "codigo": "SSP",
     "nombres": {
@@ -7542,6 +7866,48 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "STD": {
+    "codigo": "STD",
+    "nombres": {
+      "es": "Dobra de Santo Tomé y Príncipe",
+      "en": "São Tomé and Príncipe dobra"
+    },
+    "nombre_corto": {
+      "es": "Dobra",
+      "en": "Dobra"
+    },
+    "simbolo": "Db",
+    "iso_4217": {
+      "numerico": "678",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "cêntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["ST"],
+      "curso_legal": ["ST"],
+      "circulacion": ["ST"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Santo Tomé y Príncipe",
+      "codigo": "BCSTP"
+    },
+    "historia": {
+      "fecha_introduccion": "1977",
+      "moneda_anterior": "PTE",
+      "moneda_sucesora": "STN"
+    },
+    "notas": "En 1996 la moneda de Santo Tomé y Príncipe era la dobra, no una libra. La primera dobra estuvo vigente de 1977 a 2018."
   },
   "STN": {
     "codigo": "STN",
@@ -7781,6 +8147,48 @@
       "moneda_sucesora": null
     },
     "notas": null
+  },
+  "TJR": {
+    "codigo": "TJR",
+    "nombres": {
+      "es": "Rublo tayiko",
+      "en": "Tajikistani ruble"
+    },
+    "nombre_corto": {
+      "es": "Rublo",
+      "en": "Ruble"
+    },
+    "simbolo": "руб",
+    "iso_4217": {
+      "numerico": "762",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": null,
+        "en": null
+      },
+      "factor": 1
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["TJ"],
+      "curso_legal": ["TJ"],
+      "circulacion": ["TJ"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Tayikistán",
+      "codigo": "NBT"
+    },
+    "historia": {
+      "fecha_introduccion": "1995",
+      "moneda_anterior": "RUR",
+      "moneda_sucesora": "TJS"
+    },
+    "notas": "Corrección: el rublo tayiko no estaba vigente en 1994. Fue introducido el 10 de mayo de 1995; en 1994 Tayikistán utilizaba el rublo ruso."
   },
   "TJS": {
     "codigo": "TJS",
@@ -8219,6 +8627,49 @@
     },
     "notas": "En territorios ocupados por Rusia (Crimea, partes de Donetsk, Lugansk, Zaporiyia y Jersón) circula de facto el rublo ruso."
   },
+  "UAK": {
+    "codigo": "UAK",
+    "nombres": {
+      "es": "Karbóvanets ucraniano",
+      "en": "Ukrainian karbovanets"
+    },
+    "nombre_corto": {
+      "es": "Karbóvanets",
+      "en": "Karbovanets"
+    },
+    "simbolo": "крб",
+    "iso_4217": {
+      "numerico": "804",
+      "decimales": 0
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": null,
+        "en": null
+      },
+      "factor": 1
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["UA"],
+      "curso_legal": ["UA"],
+      "circulacion": ["UA"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Nacional de Ucrania",
+      "codigo": "NBU"
+    },
+    "historia": {
+      "fecha_introduccion": "1992",
+      "moneda_anterior": "SUR",
+      "moneda_sucesora": "UAH"
+    },
+    "notas": "Corrección: el karbóvanets ucraniano no existía como moneda independiente en 1991; fue introducido en 1992 tras la independencia."
+  },
+
   "UGX": {
     "codigo": "UGX",
     "nombres": {
@@ -8577,6 +9028,92 @@
     },
     "notas": null
   },
+  "VEB": {
+    "codigo": "VEB",
+    "nombres": {
+      "es": "Bolívar venezolano",
+      "en": "Venezuelan bolívar"
+    },
+    "nombre_corto": {
+      "es": "Bolívar",
+      "en": "Bolívar"
+    },
+    "simbolo": "Bs",
+    "iso_4217": {
+      "numerico": "862",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["VE"],
+      "curso_legal": ["VE"],
+      "circulacion": ["VE"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Venezuela",
+      "codigo": "BCV"
+    },
+    "historia": {
+      "fecha_introduccion": "1879",
+      "moneda_anterior": null,
+      "moneda_sucesora": "VEF"
+    },
+    "notas": "El código VEB corresponde al bolívar que estuvo vigente hasta 2008. Por tanto, los registros de 1989, 1995 y 1998 pertenecen al mismo código histórico VEB."
+  },
+
+  "VEF": {
+    "codigo": "VEF",
+    "nombres": {
+      "es": "Bolívar fuerte venezolano",
+      "en": "Venezuelan bolívar fuerte"
+    },
+    "nombre_corto": {
+      "es": "Bolívar fuerte",
+      "en": "Bolívar fuerte"
+    },
+    "simbolo": "Bs.F",
+    "iso_4217": {
+      "numerico": "937",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["VE"],
+      "curso_legal": ["VE"],
+      "circulacion": ["VE"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Venezuela",
+      "codigo": "BCV"
+    },
+    "historia": {
+      "fecha_introduccion": "2008",
+      "moneda_anterior": "VEB",
+      "moneda_sucesora": "VES"
+    },
+    "notas": "En 2007 fue creado el bolívar fuerte, que entró en circulación en 2008. Un bolívar fuerte equivalía a 1.000 bolívares anteriores."
+  },
+
   "VES": {
     "codigo": "VES",
     "nombres": {
@@ -8601,17 +9138,11 @@
       "factor": 100
     },
     "tipo": "fiat",
-    "estado": "circulacion",
+    "estado": "historica",
     "uso": {
-      "emisor": [
-        "VE"
-      ],
-      "curso_legal": [
-        "VE"
-      ],
-      "circulacion": [
-        "VE"
-      ],
+      "emisor": ["VE"],
+      "curso_legal": ["VE"],
+      "circulacion": ["VE"],
       "de_facto": []
     },
     "banco_central": {
@@ -8621,9 +9152,52 @@
     "historia": {
       "fecha_introduccion": "2018",
       "moneda_anterior": "VEF",
+      "moneda_sucesora": "VED"
+    },
+    "notas": "El bolívar soberano fue introducido el 20 de agosto de 2018, eliminando cinco ceros del bolívar fuerte."
+  },
+
+  "VED": {
+    "codigo": "VED",
+    "nombres": {
+      "es": "Bolívar digital venezolano",
+      "en": "Venezuelan digital bolívar"
+    },
+    "nombre_corto": {
+      "es": "Bolívar digital",
+      "en": "Digital bolívar"
+    },
+    "simbolo": "Bs.D",
+    "iso_4217": {
+      "numerico": "926",
+      "decimales": 2
+    },
+    "subunidad": {
+      "codigo": null,
+      "nombres": {
+        "es": "céntimo",
+        "en": "céntimo"
+      },
+      "factor": 100
+    },
+    "tipo": "fiat",
+    "estado": "historica",
+    "uso": {
+      "emisor": ["VE"],
+      "curso_legal": ["VE"],
+      "circulacion": ["VE"],
+      "de_facto": []
+    },
+    "banco_central": {
+      "nombre": "Banco Central de Venezuela",
+      "codigo": "BCV"
+    },
+    "historia": {
+      "fecha_introduccion": "2021",
+      "moneda_anterior": "VES",
       "moneda_sucesora": null
     },
-    "notas": "En 2021 se realizó una nueva redenominación (bolívar digital), manteniendo el mismo código ISO VES."
+    "notas": "El bolívar digital entró en vigor el 1 de octubre de 2021 mediante una nueva reconversión de 1.000.000 a 1. En 2021 coexistió con el bolívar soberano durante el período de transición."
   },
   "VND": {
     "codigo": "VND",
@@ -9401,50 +9975,6 @@
     },
     "notas": "Sustituido por el euro; dejó de tener curso legal el 28 de febrero de 2002."
   },
-  "VEF": {
-    "codigo": "VEF",
-    "nombres": {
-      "es": "Bolívar fuerte venezolano",
-      "en": "Venezuelan bolívar fuerte"
-    },
-    "nombre_corto": {
-      "es": "Bolívar fuerte",
-      "en": "Bolívar fuerte"
-    },
-    "simbolo": "Bs.F",
-    "iso_4217": {
-      "numerico": "937",
-      "decimales": 2
-    },
-    "subunidad": {
-      "codigo": null,
-      "nombres": {
-        "es": "céntimo",
-        "en": "céntimo"
-      },
-      "factor": 100
-    },
-    "tipo": "fiat",
-    "estado": "historica",
-    "uso": {
-      "emisor": [
-        "VE"
-      ],
-      "curso_legal": [],
-      "circulacion": [],
-      "de_facto": []
-    },
-    "banco_central": {
-      "nombre": "Banco Central de Venezuela",
-      "codigo": "BCV"
-    },
-    "historia": {
-      "fecha_introduccion": "2008",
-      "moneda_anterior": "VEB",
-      "moneda_sucesora": "VES"
-    },
-    "notas": "Reemplazado por el bolívar soberano (VES) en 2018 a razón de 1 VES = 100.000 VEF."
-  },
   "CUC": {
     "codigo": "CUC",
     "nombres": {
@@ -9657,8 +10187,8 @@
   "ZRZ": {
     "codigo": "ZRZ",
     "nombres": {
-      "es": "Zaire (República Democrática del Congo)",
-      "en": "Zairean zaire"
+      "es": "Zaire",
+      "en": "Zaire"
     },
     "nombre_corto": {
       "es": "Zaire",
@@ -9666,13 +10196,13 @@
     },
     "simbolo": "Z",
     "iso_4217": {
-      "numerico": null,
+      "numerico": "180",
       "decimales": 2
     },
     "subunidad": {
       "codigo": null,
       "nombres": {
-        "es": "likuta",
+        "es": "makuta",
         "en": "likuta"
       },
       "factor": 100
@@ -9680,23 +10210,21 @@
     "tipo": "fiat",
     "estado": "historica",
     "uso": {
-      "emisor": [
-        "CD"
-      ],
-      "curso_legal": [],
-      "circulacion": [],
+      "emisor": ["ZR"],
+      "curso_legal": ["ZR"],
+      "circulacion": ["ZR"],
       "de_facto": []
     },
     "banco_central": {
-      "nombre": "Banco Central del Zaire",
-      "codigo": "BCZ"
+      "nombre": "Banco Nacional del Congo",
+      "codigo": null
     },
     "historia": {
-      "fecha_introduccion": "1967",
-      "moneda_anterior": null,
+      "fecha_introduccion": "1971",
+      "moneda_anterior": "CDF",
       "moneda_sucesora": "ZRN"
     },
-    "notas": "Precursor del nuevo zaire (ZRN) introducido en 1993, y posteriormente del franco congoleño (CDF) en 1998."
+    "notas": "En 1977 el zaire era la moneda de Zaire (actual República Democrática del Congo)."
   },
   "ZWL": {
     "codigo": "ZWL",
