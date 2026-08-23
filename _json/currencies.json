@@ -212,10 +212,10 @@
       "en": "Netherlands Antillean guilder"
     },
     "nombre_corto": {
-      "es": "Florín antillano",
-      "es_p": "Florines antillanos",
-      "en": "Antillean guilder",
-      "en_p": "Antillean guilders"
+      "es": "Florín",
+      "es_p": "Florines",
+      "en": "Guilder",
+      "en_p": "Guilders"
     },
     "simbolo": "ƒ",
     "iso_4217": {
@@ -569,10 +569,10 @@
       "en": "Australian dollar"
     },
     "nombre_corto": {
-      "es": "Dólar australiano",
-      "es_p": "Dólares australianos",
-      "en": "Australian dollar",
-      "en_p": "Australian dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -631,10 +631,10 @@
       "en": "Aruban florin"
     },
     "nombre_corto": {
-      "es": "Florín arubeño",
-      "es_p": "Florines arubeños",
-      "en": "Aruban florin",
-      "en_p": "Aruban florins"
+      "es": "Florín",
+      "es_p": "Florines",
+      "en": "Florin",
+      "en_p": "Florins"
     },
     "simbolo": "ƒ",
     "iso_4217": {
@@ -835,10 +835,10 @@
       "en": "Barbadian dollar"
     },
     "nombre_corto": {
-      "es": "Dólar de Barbados",
-      "es_p": "Dólares de Barbados",
-      "en": "Barbadian dollar",
-      "en_p": "Barbadian dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -1091,10 +1091,10 @@
       "ar": "دينار بحريني"
     },
     "nombre_corto": {
-      "es": "Dinar bareiní",
-      "es_p": "Dinares bareiníes",
-      "en": "Bahraini dinar",
-      "en_p": "Bahraini dinars"
+      "es": "Dinar",
+      "es_p": "Dinares",
+      "en": "Dinar",
+      "en_p": "Dinars"
     },
     "simbolo": ".د.ب",
     "iso_4217": {
@@ -1142,10 +1142,10 @@
       "en": "Burundian franc"
     },
     "nombre_corto": {
-      "es": "Franco burundés",
-      "es_p": "Francos burundeses",
-      "en": "Burundian franc",
-      "en_p": "Burundian francs"
+      "es": "Franco",
+      "es_p": "Francos",
+      "en": "Franc",
+      "en_p": "Francs"
     },
     "simbolo": "FBu",
     "iso_4217": {
@@ -1194,10 +1194,10 @@
       "en": "Bermudian dollar"
     },
     "nombre_corto": {
-      "es": "Dólar bermudeño",
-      "es_p": "Dólares bermudeños",
-      "en": "Bermudian dollar",
-      "en_p": "Bermudian dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -1245,10 +1245,10 @@
       "en": "Brunei dollar"
     },
     "nombre_corto": {
-      "es": "Dólar de Brunéi",
-      "es_p": "Dólares de Brunéi",
-      "en": "Brunei dollar",
-      "en_p": "Brunei dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -1650,10 +1650,10 @@
       "en": "Bahamian dollar"
     },
     "nombre_corto": {
-      "es": "Dólar bahameño",
-      "es_p": "Dólares bahameños",
-      "en": "Bahamian dollar",
-      "en_p": "Bahamian dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -1803,10 +1803,10 @@
       "en": "Belarusian ruble"
     },
     "nombre_corto": {
-      "es": "Rublo bielorruso",
-      "es_p": "Rublos bielorrusos",
-      "en": "Belarusian ruble",
-      "en_p": "Belarusian rubles"
+      "es": "Rublo",
+      "es_p": "Rublos",
+      "en": "Ruble",
+      "en_p": "Rubles"
     },
     "simbolo": "Br",
     "iso_4217": {
@@ -1854,10 +1854,10 @@
       "en": "Belize dollar"
     },
     "nombre_corto": {
-      "es": "Dólar beliceño",
-      "es_p": "Dólares beliceños",
-      "en": "Belize dollar",
-      "en_p": "Belize dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -1906,10 +1906,10 @@
       "fr": "dollar canadien"
     },
     "nombre_corto": {
-      "es": "Dólar canadiense",
-      "es_p": "Dólares canadienses",
-      "en": "Canadian dollar",
-      "en_p": "Canadian dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -1959,10 +1959,10 @@
       "fr": "franc congolais"
     },
     "nombre_corto": {
-      "es": "Franco congoleño",
-      "es_p": "Francos congoleños",
-      "en": "Congolese franc",
-      "en_p": "Congolese francs"
+      "es": "Franco",
+      "es_p": "Francos",
+      "en": "Franc",
+      "en_p": "Francs"
     },
     "simbolo": "FC",
     "iso_4217": {
@@ -2159,10 +2159,10 @@
       "en": "Chilean escudo"
     },
     "nombre_corto": {
-      "es": "Escudo chileno",
-      "es_p": "Escudos chilenos",
-      "en": "Chilean escudo",
-      "en_p": "Chilean escudos"
+      "es": "Escudo",
+      "es_p": "Escudos",
+      "en": "Escudo",
+      "en_p": "Escudos"
     },
     "simbolo": "Eº",
     "iso_4217": {
@@ -2252,10 +2252,10 @@
       "en": "Chilean peso"
     },
     "nombre_corto": {
-      "es": "Peso chileno",
-      "es_p": "Pesos chilenos",
-      "en": "Chilean peso",
-      "en_p": "Chilean pesos"
+      "es": "Peso",
+      "es_p": "Pesos",
+      "en": "Peso",
+      "en_p": "Pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -2354,10 +2354,10 @@
       "en": "Colombian peso"
     },
     "nombre_corto": {
-      "es": "Peso colombiano",
-      "es_p": "Pesos colombianos",
-      "en": "Colombian peso",
-      "en_p": "Colombian pesos"
+      "es": "Peso",
+      "es_p": "Pesos",
+      "en": "Peso",
+      "en_p": "Pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -2600,10 +2600,10 @@
       "en": "Cape Verdean escudo"
     },
     "nombre_corto": {
-      "es": "Escudo caboverdiano",
-      "es_p": "Escudos caboverdianos",
-      "en": "Cape Verdean escudo",
-      "en_p": "Cape Verdean escudos"
+      "es": "Escudo",
+      "es_p": "Escudos",
+      "en": "Escudo",
+      "en_p": "Escudos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -2853,10 +2853,10 @@
       "en": "Danish krone"
     },
     "nombre_corto": {
-      "es": "Corona danesa",
-      "es_p": "Coronas danesas",
-      "en": "Danish krone",
-      "en_p": "Danish kroner"
+      "es": "Corona",
+      "es_p": "Coronas",
+      "en": "Krone",
+      "en_p": "Kroner"
     },
     "simbolo": "kr",
     "iso_4217": {
@@ -2960,10 +2960,10 @@
       "ar": "دينار جزائري"
     },
     "nombre_corto": {
-      "es": "Dinar argelino",
-      "es_p": "Dinares argelinos",
-      "en": "Algerian dinar",
-      "en_p": "Algerian dinars"
+      "es": "Dinar",
+      "es_p": "Dinares",
+      "en": "Dinar",
+      "en_p": "Dinars"
     },
     "simbolo": "د.ج",
     "iso_4217": {
@@ -3115,10 +3115,10 @@
       "ar": "جنيه مصري"
     },
     "nombre_corto": {
-      "es": "Libra egipcia",
-      "es_p": "Libras egipcias",
-      "en": "Egyptian pound",
-      "en_p": "Egyptian pounds"
+      "es": "Libra",
+      "es_p": "Libras",
+      "en": "Pound",
+      "en_p": "Pounds"
     },
     "simbolo": "ج.م",
     "iso_4217": {
@@ -3491,10 +3491,10 @@
       "en": "Fijian dollar"
     },
     "nombre_corto": {
-      "es": "Dólar fiyiano",
-      "es_p": "Dólares fiyianos",
-      "en": "Fijian dollar",
-      "en_p": "Fijian dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -5295,10 +5295,10 @@
       "fr": "franc comorien"
     },
     "nombre_corto": {
-      "es": "Franco comorense",
-      "es_p": "Francos comorenses",
-      "en": "Comorian franc",
-      "en_p": "Comorian francs"
+      "es": "Franco",
+      "es_p": "Francos",
+      "en": "Franc",
+      "en_p": "Francs"
     },
     "simbolo": "CF",
     "iso_4217": {
@@ -5347,10 +5347,10 @@
       "en": "North Korean won"
     },
     "nombre_corto": {
-      "es": "Won norcoreano",
-      "es_p": "Wones norcoreanos",
-      "en": "North Korean won",
-      "en_p": "North Korean won"
+      "es": "Won",
+      "es_p": "Wones",
+      "en": "Won",
+      "en_p": "Won"
     },
     "simbolo": "₩",
     "iso_4217": {
@@ -7522,10 +7522,10 @@
       "en": "Philippine peso"
     },
     "nombre_corto": {
-      "es": "Peso filipino",
-      "es_p": "Pesos filipinos",
-      "en": "Philippine peso",
-      "en_p": "Philippine pesos"
+      "es": "Peso",
+      "es_p": "Pesos",
+      "en": "Peso",
+      "en_p": "Pesos"
     },
     "simbolo": "₱",
     "iso_4217": {
@@ -8042,10 +8042,10 @@
       "ar": "ريال سعودي"
     },
     "nombre_corto": {
-      "es": "Riyal saudí",
-      "es_p": "Riyales saudíes",
-      "en": "Saudi riyal",
-      "en_p": "Saudi riyals"
+      "es": "Riyal",
+      "es_p": "Riyales",
+      "en": "Riyal",
+      "en_p": "Riyals"
     },
     "simbolo": "ر.س",
     "iso_4217": {
@@ -9681,10 +9681,10 @@
       "en": "United States dollar"
     },
     "nombre_corto": {
-      "es": "Dólar estadounidense",
-      "es_p": "Dólares estadounidenses",
-      "en": "US dollar",
-      "en_p": "US dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -10431,10 +10431,10 @@
       "en": "East Caribbean dollar"
     },
     "nombre_corto": {
-      "es": "Dólar del Caribe Oriental",
-      "es_p": "Dólares del Caribe Oriental",
-      "en": "East Caribbean dollar",
-      "en_p": "East Caribbean dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -10503,10 +10503,10 @@
       "en": "Caribbean guilder"
     },
     "nombre_corto": {
-      "es": "Florín caribeño",
-      "es_p": "Florines caribeños",
-      "en": "Caribbean guilder",
-      "en_p": "Caribbean guilders"
+      "es": "Florín",
+      "es_p": "Florines",
+      "en": "Guilder",
+      "en_p": "Guilders"
     },
     "simbolo": "Cg",
     "iso_4217": {
