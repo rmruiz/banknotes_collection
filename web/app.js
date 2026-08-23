@@ -747,11 +747,26 @@ function startEdit(td, rec) {
   if (type === "select" || type === "currency") {
     const sel = document.createElement("select");
     sel.className = "cell-edit";
-    const options = type === "currency"
-      ? ["", ...Object.keys(state.currencies).sort()]
-      : CONDICIONES;
-    sel.innerHTML = options.map((c) =>
-      `<option value="${c}" ${c === (rec[field] ?? "") ? "selected" : ""}>${c || "—"}</option>`).join("");
+    let options;
+    if (type === "currency") {
+       // Muestra "CÓDIGO — Nombre (símbolo)" para cada opción del catálogo.
+      const key = lang === "en" ? "en" : "es";
+      options = ["", ...Object.keys(state.currencies).sort()];
+      sel.innerHTML = options.map((c) => {
+        if (!c) return `<option value="" ${!rec[field] ? "selected" : ""}>—</option>`;
+        const info = state.currencies[c] || {};
+        const full = (info.nombres || {})[key] ||
+                       (info.nombres || {}).es ||
+                       (info.nombres || {}).en || "";
+        const symbol = info.simbolo || "";
+        const label = toTitleCase(full) + (symbol ? ` (${symbol})` : "");
+        const text = label ? `${c} — ${label}` : c;
+        return `<option value="${c}" ${c === (rec[field] ?? "") ? "selected" : ""}>${esc(text)}</option>`;
+        }).join("");
+      } else {
+      sel.innerHTML = CONDICIONES.map((c) =>
+         `<option value="${c}" ${c === (rec[field] ?? "") ? "selected" : ""}>${esc(c)}</option>`).join("");
+      }
     td.textContent = "";
     td.appendChild(sel);
     sel.focus();
