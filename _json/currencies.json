@@ -3962,10 +3962,10 @@
       "fr": "franc guinéen"
     },
     "nombre_corto": {
-      "es": "Franco guineano",
-      "es_p": "Francos guineanos",
-      "en": "Guinean franc",
-      "en_p": "Guinean francs"
+      "es": "Franco",
+      "es_p": "Francos",
+      "en": "Franc",
+      "en_p": "Francs"
     },
     "simbolo": "FG",
     "iso_4217": {
@@ -4167,10 +4167,10 @@
       "en": "Guyanese dollar"
     },
     "nombre_corto": {
-      "es": "Dólar guyanés",
-      "es_p": "Dólares guyaneses",
-      "en": "Guyanese dollar",
-      "en_p": "Guyanese dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -4218,10 +4218,10 @@
       "en": "Hong Kong dollar"
     },
     "nombre_corto": {
-      "es": "Dólar de Hong Kong",
-      "es_p": "Dólares de Hong Kong",
-      "en": "Hong Kong dollar",
-      "en_p": "Hong Kong dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -4517,8 +4517,8 @@
       "en": "Indonesian rupiah"
     },
     "nombre_corto": {
-      "es": "Rupia indonesia",
-      "es_p": "Rupias indonesias",
+      "es": "Rupia",
+      "es_p": "Rupias",
       "en": "Rupiah",
       "en_p": "Rupiah"
     },
@@ -4725,10 +4725,10 @@
       "en": "Indian rupee"
     },
     "nombre_corto": {
-      "es": "Rupia india",
-      "es_p": "Rupias indias",
-      "en": "Indian rupee",
-      "en_p": "Indian rupees"
+      "es": "Rupia",
+      "es_p": "Rupias",
+      "en": "Rupee",
+      "en_p": "Rupees"
     },
     "simbolo": "₹",
     "iso_4217": {
@@ -4782,10 +4782,10 @@
       "ar": "دينار عراقي"
     },
     "nombre_corto": {
-      "es": "Dinar iraquí",
-      "es_p": "Dinares iraquíes",
-      "en": "Iraqi dinar",
-      "en_p": "Iraqi dinars"
+      "es": "Dinar",
+      "es_p": "Dinares",
+      "en": "Dinar",
+      "en_p": "Dinars"
     },
     "simbolo": "ع.د",
     "iso_4217": {
@@ -4834,10 +4834,10 @@
       "ar": "ریال ایران"
     },
     "nombre_corto": {
-      "es": "Rial iraní",
-      "es_p": "Riales iraníes",
-      "en": "Iranian rial",
-      "en_p": "Iranian rials"
+      "es": "Rial",
+      "es_p": "Riales",
+      "en": "Rial",
+      "en_p": "Rials"
     },
     "simbolo": "﷼",
     "iso_4217": {
@@ -4885,10 +4885,10 @@
       "en": "Icelandic króna"
     },
     "nombre_corto": {
-      "es": "Corona islandesa",
-      "es_p": "Coronas islandesas",
-      "en": "Icelandic króna",
-      "en_p": "Icelandic krónur"
+      "es": "Corona",
+      "es_p": "Coronas",
+      "en": "Króna",
+      "en_p": "Krónur"
     },
     "simbolo": "kr",
     "iso_4217": {
@@ -4987,10 +4987,10 @@
       "en": "Jamaican dollar"
     },
     "nombre_corto": {
-      "es": "Dólar jamaicano",
-      "es_p": "Dólares jamaicanos",
-      "en": "Jamaican dollar",
-      "en_p": "Jamaican dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -5039,10 +5039,10 @@
       "ar": "دينار أردني"
     },
     "nombre_corto": {
-      "es": "Dinar jordano",
-      "es_p": "Dinares jordanos",
-      "en": "Jordanian dinar",
-      "en_p": "Jordanian dinars"
+      "es": "Dinar",
+      "es_p": "Dinares",
+      "en": "Dinar",
+      "en_p": "Dinars"
     },
     "simbolo": "د.ا",
     "iso_4217": {
@@ -5141,10 +5141,10 @@
       "en": "Kenyan shilling"
     },
     "nombre_corto": {
-      "es": "Chelín keniano",
-      "es_p": "Chelines kenianos",
-      "en": "Kenyan shilling",
-      "en_p": "Kenyan shillings"
+      "es": "Chelín",
+      "es_p": "Chelines",
+      "en": "Shilling",
+      "en_p": "Shillings"
     },
     "simbolo": "Sh",
     "iso_4217": {
@@ -5501,10 +5501,10 @@
       "ar": "دينار كويتي"
     },
     "nombre_corto": {
-      "es": "Dinar kuwaití",
-      "es_p": "Dinares kuwaitíes",
-      "en": "Kuwaiti dinar",
-      "en_p": "Kuwaiti dinars"
+      "es": "Dinar",
+      "es_p": "Dinares",
+      "en": "Dinar",
+      "en_p": "Dinars"
     },
     "simbolo": "د.ك",
     "iso_4217": {
@@ -5552,10 +5552,10 @@
       "en": "Cayman Islands dollar"
     },
     "nombre_corto": {
-      "es": "Dólar caimano",
-      "es_p": "Dólares caimanos",
-      "en": "Cayman Islands dollar",
-      "en_p": "Cayman Islands dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -5706,10 +5706,10 @@
       "ar": "ليرة لبنانية"
     },
     "nombre_corto": {
-      "es": "Libra libanesa",
-      "es_p": "Libras libanesas",
-      "en": "Lebanese pound",
-      "en_p": "Lebanese pounds"
+      "es": "Libra",
+      "es_p": "Libras",
+      "en": "Pound",
+      "en_p": "Pounds"
     },
     "simbolo": "ل.ل",
     "iso_4217": {
@@ -5808,10 +5808,10 @@
       "en": "Liberian dollar"
     },
     "nombre_corto": {
-      "es": "Dólar liberiano",
-      "es_p": "Dólares liberianos",
-      "en": "Liberian dollar",
-      "en_p": "Liberian dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -6017,10 +6017,10 @@
       "ar": "دينار ليبي"
     },
     "nombre_corto": {
-      "es": "Dinar libio",
-      "es_p": "Dinares libios",
-      "en": "Libyan dinar",
-      "en_p": "Libyan dinars"
+      "es": "Dinar",
+      "es_p": "Dinares",
+      "en": "Dinar",
+      "en_p": "Dinars"
     },
     "simbolo": "ل.د",
     "iso_4217": {
@@ -6124,10 +6124,10 @@
       "en": "Moldovan leu"
     },
     "nombre_corto": {
-      "es": "Leu moldavo",
-      "es_p": "Leus moldavos",
-      "en": "Moldovan leu",
-      "en_p": "Moldovan lei"
+      "es": "Leu",
+      "es_p": "Leus",
+      "en": "Leu",
+      "en_p": "Lei"
     },
     "simbolo": "L",
     "iso_4217": {
@@ -6483,10 +6483,10 @@
       "en": "Mauritian rupee"
     },
     "nombre_corto": {
-      "es": "Rupia mauriciana",
-      "es_p": "Rupias mauricianas",
-      "en": "Mauritian rupee",
-      "en_p": "Mauritian rupees"
+      "es": "Rupia",
+      "es_p": "Rupias",
+      "en": "Rupee",
+      "en_p": "Rupees"
     },
     "simbolo": "₨",
     "iso_4217": {
@@ -6587,10 +6587,10 @@
       "en": "Malawian kwacha"
     },
     "nombre_corto": {
-      "es": "Kwacha malauí",
-      "es_p": "Kwachas malauíes",
-      "en": "Malawian kwacha",
-      "en_p": "Malawian kwacha"
+      "es": "Kwacha",
+      "es_p": "Kwachas",
+      "en": "Kwacha",
+      "en_p": "Kwacha"
     },
     "simbolo": "MK",
     "iso_4217": {
@@ -6638,10 +6638,10 @@
       "en": "Mexican peso"
     },
     "nombre_corto": {
-      "es": "Peso mexicano",
-      "es_p": "Pesos mexicanos",
-      "en": "Mexican peso",
-      "en_p": "Mexican pesos"
+      "es": "Peso",
+      "es_p": "Pesos",
+      "en": "Peso",
+      "en_p": "Pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -6842,10 +6842,10 @@
       "en": "Namibian dollar"
     },
     "nombre_corto": {
-      "es": "Dólar namibio",
-      "es_p": "Dólares namibios",
-      "en": "Namibian dollar",
-      "en_p": "Namibian dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -7048,10 +7048,10 @@
       "en": "Norwegian krone"
     },
     "nombre_corto": {
-      "es": "Corona noruega",
-      "es_p": "Coronas noruegas",
-      "en": "Norwegian krone",
-      "en_p": "Norwegian kroner"
+      "es": "Corona",
+      "es_p": "Coronas",
+      "en": "Krone",
+      "en_p": "Kroner"
     },
     "simbolo": "kr",
     "iso_4217": {
@@ -7103,10 +7103,10 @@
       "en": "Nepalese rupee"
     },
     "nombre_corto": {
-      "es": "Rupia nepalí",
-      "es_p": "Rupias nepalíes",
-      "en": "Nepalese rupee",
-      "en_p": "Nepalese rupees"
+      "es": "Rupia",
+      "es_p": "Rupias",
+      "en": "Rupee",
+      "en_p": "Rupees"
     },
     "simbolo": "₨",
     "iso_4217": {
@@ -7154,10 +7154,10 @@
       "en": "New Zealand dollar"
     },
     "nombre_corto": {
-      "es": "Dólar neozelandés",
-      "es_p": "Dólares neozelandeses",
-      "en": "New Zealand dollar",
-      "en_p": "New Zealand dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -7214,10 +7214,10 @@
       "ar": "ريال عماني"
     },
     "nombre_corto": {
-      "es": "Rial omaní",
-      "es_p": "Riales omaníes",
-      "en": "Omani rial",
-      "en_p": "Omani rials"
+      "es": "Rial",
+      "es_p": "Riales",
+      "en": "Rial",
+      "en_p": "Rials"
     },
     "simbolo": "ر.ع.",
     "iso_4217": {
@@ -7573,10 +7573,10 @@
       "en": "Pakistani rupee"
     },
     "nombre_corto": {
-      "es": "Rupia pakistaní",
-      "es_p": "Rupias pakistaníes",
-      "en": "Pakistani rupee",
-      "en_p": "Pakistani rupees"
+      "es": "Rupia",
+      "es_p": "Rupias",
+      "en": "Rupee",
+      "en_p": "Rupees"
     },
     "simbolo": "₨",
     "iso_4217": {
@@ -7778,10 +7778,10 @@
       "ar": "ريال قطري"
     },
     "nombre_corto": {
-      "es": "Rial catarí",
-      "es_p": "Riales cataríes",
-      "en": "Qatari riyal",
-      "en_p": "Qatari riyals"
+      "es": "Rial",
+      "es_p": "Riales",
+      "en": "Riyal",
+      "en_p": "Riyals"
     },
     "simbolo": "ر.ق",
     "iso_4217": {
@@ -8093,10 +8093,10 @@
       "en": "Solomon Islands dollar"
     },
     "nombre_corto": {
-      "es": "Dólar salomonense",
-      "es_p": "Dólares salomonenses",
-      "en": "Solomon Islands dollar",
-      "en_p": "Solomon Islands dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -10638,14 +10638,14 @@
     "codigo": "XOF",
     "nombres": {
       "es": "Franco CFA de África Occidental",
-      "en": "West African CFA franc",
-      "fr": "franc CFA (BCEAO)"
+      "en": "West African CFA Franc",
+      "fr": "Franc CFA (BCEAO)"
     },
     "nombre_corto": {
-      "es": "Franco CFA (BCEAO)",
-      "es_p": "Francos CFA (BCEAO)",
-      "en": "West African CFA franc",
-      "en_p": "West African CFA francs"
+      "es": "Franco",
+      "es_p": "Francos",
+      "en": "Franc",
+      "en_p": "Francs"
     },
     "simbolo": "CFA",
     "iso_4217": {
