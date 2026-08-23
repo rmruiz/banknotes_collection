@@ -2058,10 +2058,10 @@
       "fr": "franc suisse"
     },
     "nombre_corto": {
-      "es": "Franco suizo",
-      "es_p": "Francos suizos",
-      "en": "Swiss franc",
-      "en_p": "Swiss francs"
+      "es": "Franco",
+      "es_p": "Francos",
+      "en": "Franc",
+      "en_p": "Francs"
     },
     "simbolo": "CHF",
     "iso_4217": {
@@ -2702,10 +2702,10 @@
       "en": "Czech koruna"
     },
     "nombre_corto": {
-      "es": "Corona checa",
-      "es_p": "Coronas checas",
-      "en": "Czech koruna",
-      "en_p": "Czech korunas"
+      "es": "Corona",
+      "es_p": "Coronas",
+      "en": "Koruna",
+      "en_p": "Korunas"
     },
     "simbolo": "Kč",
     "iso_4217": {
@@ -2801,10 +2801,10 @@
       "fr": "franc djiboutien"
     },
     "nombre_corto": {
-      "es": "Franco yibutiano",
-      "es_p": "Francos yibutianos",
-      "en": "Djiboutian franc",
-      "en_p": "Djiboutian francs"
+      "es": "Franco",
+      "es_p": "Francos",
+      "en": "Franc",
+      "en_p": "Francs"
     },
     "simbolo": "Fdj",
     "iso_4217": {
@@ -2908,10 +2908,10 @@
       "en": "Dominican peso"
     },
     "nombre_corto": {
-      "es": "Peso dominicano",
-      "es_p": "Pesos dominicanos",
-      "en": "Dominican peso",
-      "en_p": "Dominican pesos"
+      "es": "Peso",
+      "es_p": "Pesos",
+      "en": "Peso",
+      "en_p": "Pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -5757,10 +5757,10 @@
       "en": "Sri Lankan rupee"
     },
     "nombre_corto": {
-      "es": "Rupia de Sri Lanka",
-      "es_p": "Rupias de Sri Lanka",
-      "en": "Sri Lankan rupee",
-      "en_p": "Sri Lankan rupees"
+      "es": "Rupia",
+      "es_p": "Rupias",
+      "en": "Rupee",
+      "en_p": "Rupees"
     },
     "simbolo": "Rs",
     "iso_4217": {
@@ -7829,10 +7829,10 @@
       "en": "Romanian leu"
     },
     "nombre_corto": {
-      "es": "Leu rumano",
-      "es_p": "Leus rumanos",
-      "en": "Romanian leu",
-      "en_p": "Romanian lei"
+      "es": "Leu",
+      "es_p": "Leus",
+      "en": "Leu",
+      "en_p": "Lei"
     },
     "simbolo": "lei",
     "iso_4217": {
@@ -7880,10 +7880,10 @@
       "en": "Serbian dinar"
     },
     "nombre_corto": {
-      "es": "Dinar serbio",
-      "es_p": "Dinares serbios",
-      "en": "Serbian dinar",
-      "en_p": "Serbian dinars"
+      "es": "Dinar",
+      "es_p": "Dinares",
+      "en": "Dinar",
+      "en_p": "Dinars"
     },
     "simbolo": "дин.",
     "iso_4217": {
@@ -7931,10 +7931,10 @@
       "en": "Russian ruble"
     },
     "nombre_corto": {
-      "es": "Rublo ruso",
-      "es_p": "Rublos rusos",
-      "en": "Russian ruble",
-      "en_p": "Russian rubles"
+      "es": "Rublo",
+      "es_p": "Rublos",
+      "en": "Ruble",
+      "en_p": "Rubles"
     },
     "simbolo": "₽",
     "iso_4217": {
@@ -7989,10 +7989,10 @@
       "fr": "franc rwandais"
     },
     "nombre_corto": {
-      "es": "Franco ruandés",
-      "es_p": "Francos ruandeses",
-      "en": "Rwandan franc",
-      "en_p": "Rwandan francs"
+      "es": "Franco",
+      "es_p": "Francos",
+      "en": "Franc",
+      "en_p": "Francs"
     },
     "simbolo": "FRw",
     "iso_4217": {
@@ -8144,10 +8144,10 @@
       "en": "Seychellois rupee"
     },
     "nombre_corto": {
-      "es": "Rupia seychelense",
-      "es_p": "Rupias seychelenses",
-      "en": "Seychellois rupee",
-      "en_p": "Seychellois rupees"
+      "es": "Rupia",
+      "es_p": "Rupias",
+      "en": "Rupee",
+      "en_p": "Rupees"
     },
     "simbolo": "₨",
     "iso_4217": {
@@ -8196,10 +8196,10 @@
       "ar": "جنيه سوداني"
     },
     "nombre_corto": {
-      "es": "Libra sudanesa",
-      "es_p": "Libras sudanesas",
-      "en": "Sudanese pound",
-      "en_p": "Sudanese pounds"
+      "es": "Libra",
+      "es_p": "Libras",
+      "en": "Pound",
+      "en_p": "Pounds"
     },
     "simbolo": "ج.س.",
     "iso_4217": {
@@ -8247,10 +8247,10 @@
       "en": "Swedish krona"
     },
     "nombre_corto": {
-      "es": "Corona sueca",
-      "es_p": "Coronas suecas",
-      "en": "Swedish krona",
-      "en_p": "Swedish kronor"
+      "es": "Corona",
+      "es_p": "Coronas",
+      "en": "Krona",
+      "en_p": "Kronor"
     },
     "simbolo": "kr",
     "iso_4217": {
@@ -8298,10 +8298,10 @@
       "en": "Singapore dollar"
     },
     "nombre_corto": {
-      "es": "Dólar de Singapur",
-      "es_p": "Dólares de Singapur",
-      "en": "Singapore dollar",
-      "en_p": "Singapore dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -8555,10 +8555,10 @@
       "en": "Somali shilling"
     },
     "nombre_corto": {
-      "es": "Chelín somalí",
-      "es_p": "Chelines somalíes",
-      "en": "Somali shilling",
-      "en_p": "Somali shillings"
+      "es": "Chelín",
+      "es_p": "Chelines",
+      "en": "Shilling",
+      "en_p": "Shillings"
     },
     "simbolo": "Sh",
     "iso_4217": {
@@ -8708,10 +8708,10 @@
       "en": "South Sudanese pound"
     },
     "nombre_corto": {
-      "es": "Libra sursudanesa",
-      "es_p": "Libras sursudanesas",
-      "en": "South Sudanese pound",
-      "en_p": "South Sudanese pounds"
+      "es": "Libra",
+      "es_p": "Libras",
+      "en": "Pound",
+      "en_p": "Pounds"
     },
     "simbolo": "£",
     "iso_4217": {
@@ -8909,10 +8909,10 @@
       "ar": "ليرة سورية"
     },
     "nombre_corto": {
-      "es": "Libra siria",
-      "es_p": "Libras sirias",
-      "en": "Syrian pound",
-      "en_p": "Syrian pounds"
+      "es": "Libra",
+      "es_p": "Libras",
+      "en": "Pound",
+      "en_p": "Pounds"
     },
     "simbolo": "ل.س",
     "iso_4217": {
@@ -9166,10 +9166,10 @@
       "en": "Turkmenistan manat"
     },
     "nombre_corto": {
-      "es": "Manat turcomano",
-      "es_p": "Manats turcomanos",
-      "en": "Turkmenistan manat",
-      "en_p": "Turkmenistan manats"
+      "es": "Manat",
+      "es_p": "Manats",
+      "en": "Manat",
+      "en_p": "Manats"
     },
     "simbolo": "m",
     "iso_4217": {
@@ -9218,10 +9218,10 @@
       "ar": "دينار تونسي"
     },
     "nombre_corto": {
-      "es": "Dinar tunecino",
-      "es_p": "Dinares tunecinos",
-      "en": "Tunisian dinar",
-      "en_p": "Tunisian dinars"
+      "es": "Dinar",
+      "es_p": "Dinares",
+      "en": "Dinar",
+      "en_p": "Dinars"
     },
     "simbolo": "د.ت",
     "iso_4217": {
@@ -9321,10 +9321,10 @@
       "en": "Turkish lira"
     },
     "nombre_corto": {
-      "es": "Lira turca",
-      "es_p": "Liras turcas",
-      "en": "Turkish lira",
-      "en_p": "Turkish liras"
+      "es": "Lira",
+      "es_p": "Liras",
+      "en": "Lira",
+      "en_p": "Liras"
     },
     "simbolo": "₺",
     "iso_4217": {
@@ -9375,10 +9375,10 @@
       "en": "Trinidad and Tobago dollar"
     },
     "nombre_corto": {
-      "es": "Dólar de Trinidad y Tobago",
-      "es_p": "Dólares de Trinidad y Tobago",
-      "en": "Trinidad and Tobago dollar",
-      "en_p": "Trinidad and Tobago dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -9426,10 +9426,10 @@
       "en": "New Taiwan dollar"
     },
     "nombre_corto": {
-      "es": "Dólar taiwanés",
-      "es_p": "Dólares taiwaneses",
-      "en": "New Taiwan dollar",
-      "en_p": "New Taiwan dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -9477,10 +9477,10 @@
       "en": "Tanzanian shilling"
     },
     "nombre_corto": {
-      "es": "Chelín tanzano",
-      "es_p": "Chelines tanzanos",
-      "en": "Tanzanian shilling",
-      "en_p": "Tanzanian shillings"
+      "es": "Chelín",
+      "es_p": "Chelines",
+      "en": "Shilling",
+      "en_p": "Shillings"
     },
     "simbolo": "Sh",
     "iso_4217": {
@@ -9630,10 +9630,10 @@
       "en": "Ugandan shilling"
     },
     "nombre_corto": {
-      "es": "Chelín ugandés",
-      "es_p": "Chelines ugandeses",
-      "en": "Ugandan shilling",
-      "en_p": "Ugandan shillings"
+      "es": "Chelín",
+      "es_p": "Chelines",
+      "en": "Shilling",
+      "en_p": "Shillings"
     },
     "simbolo": "Sh",
     "iso_4217": {
@@ -9861,10 +9861,10 @@
       "en": "Uruguayan peso"
     },
     "nombre_corto": {
-      "es": "Peso uruguayo",
-      "es_p": "Pesos uruguayos",
-      "en": "Uruguayan peso",
-      "en_p": "Uruguayan pesos"
+      "es": "Peso",
+      "es_p": "Pesos",
+      "en": "UPeso",
+      "en_p": "Pesos"
     },
     "simbolo": "$",
     "iso_4217": {
@@ -9958,10 +9958,10 @@
       "en": "Uzbekistani som"
     },
     "nombre_corto": {
-      "es": "Som uzbeko",
-      "es_p": "Soms uzbekos",
-      "en": "Uzbekistani som",
-      "en_p": "Uzbekistani soms"
+      "es": "Som",
+      "es_p": "Soms",
+      "en": "Som",
+      "en_p": "Soms"
     },
     "simbolo": "so'm",
     "iso_4217": {
@@ -10060,10 +10060,10 @@
       "en": "Venezuelan digital bolívar"
     },
     "nombre_corto": {
-      "es": "Bolívar digital",
-      "es_p": "Bolívares digitales",
-      "en": "Digital bolívar",
-      "en_p": "Digital bolívares"
+      "es": "Bolívar",
+      "es_p": "Bolívares",
+      "en": "Bolívar",
+      "en_p": "Bolívares"
     },
     "simbolo": "Bs.D",
     "iso_4217": {
@@ -10111,10 +10111,10 @@
       "en": "Venezuelan bolívar fuerte"
     },
     "nombre_corto": {
-      "es": "Bolívar fuerte",
-      "es_p": "Bolívares fuertes",
-      "en": "Bolívar fuerte",
-      "en_p": "Bolívares fuertes"
+      "es": "Bolívar",
+      "es_p": "Bolívares",
+      "en": "Bolívar",
+      "en_p": "Bolívares"
     },
     "simbolo": "Bs.F",
     "iso_4217": {
@@ -10162,10 +10162,10 @@
       "en": "Venezuelan sovereign bolívar"
     },
     "nombre_corto": {
-      "es": "Bolívar soberano",
-      "es_p": "Bolívares soberanos",
-      "en": "Sovereign bolívar",
-      "en_p": "Sovereign bolívares"
+      "es": "Bolívar",
+      "es_p": "Bolívares",
+      "en": "Bolívar",
+      "en_p": "Bolívares"
     },
     "simbolo": "Bs.S",
     "iso_4217": {
@@ -10364,10 +10364,10 @@
       "fr": "franc CFA (BEAC)"
     },
     "nombre_corto": {
-      "es": "Franco CFA (BEAC)",
-      "es_p": "Francos CFA (BEAC)",
-      "en": "Central African CFA franc",
-      "en_p": "Central African CFA francs"
+      "es": "Franco",
+      "es_p": "Francos",
+      "en": "Franc",
+      "en_p": "Francs"
     },
     "simbolo": "FCFA",
     "iso_4217": {
@@ -10770,10 +10770,10 @@
       "en": "Yugoslav dinar"
     },
     "nombre_corto": {
-      "es": "Dinar yugoslavo",
-      "es_p": "Dinares yugoslavos",
-      "en": "Yugoslav dinar",
-      "en_p": "Yugoslav dinars"
+      "es": "Dinar",
+      "es_p": "Dinares",
+      "en": "Dinar",
+      "en_p": "Dinars"
     },
     "simbolo": "дин.",
     "iso_4217": {
@@ -10919,10 +10919,10 @@
       "en": "Zambian kwacha"
     },
     "nombre_corto": {
-      "es": "Kwacha zambiano",
-      "es_p": "Kwachas zambianos",
-      "en": "Zambian kwacha",
-      "en_p": "Zambian kwacha"
+      "es": "Kwacha",
+      "es_p": "Kwachas",
+      "en": "Kwacha",
+      "en_p": "Kwacha"
     },
     "simbolo": "ZK",
     "iso_4217": {
@@ -11074,10 +11074,10 @@
       "en": "Zimbabwean dollar"
     },
     "nombre_corto": {
-      "es": "Dólar zimbabuense",
-      "es_p": "Dólares zimbabuenses",
-      "en": "Zimbabwean dollar",
-      "en_p": "Zimbabwean dollars"
+      "es": "Dólar",
+      "es_p": "Dólares",
+      "en": "Dollar",
+      "en_p": "Dollars"
     },
     "simbolo": "$",
     "iso_4217": {
