@@ -2753,10 +2753,10 @@
       "en": "German mark"
     },
     "nombre_corto": {
-      "es": "Marco alemán",
-      "es_p": "Marcos alemanes",
-      "en": "Deutsche Mark",
-      "en_p": "Deutsche Marks"
+      "es": "Marco",
+      "es_p": "Marcos",
+      "en": "Mark",
+      "en_p": "Marks"
     },
     "simbolo": "DM",
     "iso_4217": {
