@@ -75,7 +75,13 @@ def compose(d, front, back, flag, dest, tmp):
     """Replica el pipeline de _append_text.sh."""
     T = lambda n: str(tmp / n)
     dn = d["denomination"]
-    line1 = d["country"]["es"]
+    # país: resolver por country_code (campo canónico); si no, fallback
+    # al legacy `country: {es, en}` por compatibilidad.
+    c_code = d.get("country_code", "")
+    c_info = get_country_by_code(c_code) if c_code else \
+             get_country_by_name((d.get("country") or {}).get("es", ""))
+    line1 = c_info["name"]["es"] if c_info else \
+           (d.get("country") or {}).get("es", "")
     original_currency = dn.get("currency", "")
     catalog_currency = currency_name(dn.get("iso4217"), original_currency,
                                      subunit=dn.get("subunidad"))

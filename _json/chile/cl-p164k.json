@@ -12,7 +12,10 @@
   "year": 2025,
   "numista": "https://en.numista.com/205233",
   "signatures": [],
-  "themes": [],
+  "themes": [
+    "personaje:arturo_prat",
+    "lugar:parque_nacional_alberto_de_agostini"
+  ],
   "colnect": {
     "url": "",
     "group": ""
@@ -29,7 +32,7 @@
   },
   "specimens": [
     {
-      "serial_number": "",
+      "serial_number": "BB51125063",
       "condition": ""
     }
   ]

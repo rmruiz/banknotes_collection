@@ -43,6 +43,7 @@ JSON_DIR = REPO / "_json"
 WEB = REPO / "web"
 COLLECTION = WEB / "data" / "collection.json"
 ORIGINALS = WEB / "_originals"
+FULL = WEB / "_FULL"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts
 sys.path.insert(0, str(JSON_DIR))                          # _json
@@ -153,13 +154,13 @@ def parse_old_folder(name):
 
 def _set_pais(d, v):
     v = v.strip()
-    d["country"]["es"] = v
-    en = COUNTRY_EN.get(v.lower())
-    if en:
-        d["country"]["en"] = en
+    # country_code es el campo canónico; country es duplicado por compatibilidad
     c_info = get_country_by_name(v)
-    if c_info:
-        d["country_code"] = c_info["code"]
+    if not c_info:
+        raise ValueError(f"país no reconocido: {v!r}")
+    d["country_code"] = c_info["code"]
+    name = c_info["name"]
+    d["country"] = {"es": name.get("es", v), "en": name.get("en", v)}
 
 
 def _v_str(maxlen, allow_empty=True):
@@ -559,7 +560,7 @@ class Handler(SimpleHTTPRequestHandler):
             return self._json_error(400,
                                     f"sin bandera para {country_es}")
 
-        pfull = REPO / "_FULL" / f"{_id}.jpg"
+        pfull = FULL / f"{_id}.jpg"
         try:
             with WRITE_LOCK:
                 with tempfile.TemporaryDirectory() as td:
@@ -678,9 +679,9 @@ class Handler(SimpleHTTPRequestHandler):
                             if f and f != target:
                                 f.rename(target)
                     # imagen consolidada
-                    old_full = REPO / "_FULL" / f"{_id}.jpg"
+                    old_full = FULL / f"{_id}.jpg"
                     if old_full.exists():
-                        old_full.rename(REPO / "_FULL" / f"{new_id}.jpg")
+                        old_full.rename(FULL / f"{new_id}.jpg")
         except OSError as e:
             return self._json_error(500, f"error al cambiar pick: {e}")
 
