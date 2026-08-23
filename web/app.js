@@ -159,10 +159,62 @@ function fmtValor(v) {
   return v.toLocaleString("es-CL");
 }
 
+// --- Helpers de moneda basados en web/data/currencies.json ---
+// La columna "Moneda" usa el nombre completo (nombres.es/en) + símbolo.
+// La columna "Moneda Full" usa el monto (con formato de moneda) + nombre_corto.
+
+function currencyInfoFor(rec) {
+  const code = (rec.currency_code || "").trim().toUpperCase();
+  if (!code) return null;
+  return (state.currencies && state.currencies[code]) || null;
+}
+
+// Columna "Moneda": nombre completo + símbolo del catálogo.
 function currencyDisplay(rec) {
-  const name = lang === "en" ? rec.currency_name_en : rec.currency_name_es;
-  if (!name) return rec.moneda || "";
-  return rec.currency_symbol ? `${name} (${rec.currency_symbol})` : name;
+  const info = currencyInfoFor(rec);
+  const key = lang === "en" ? "en" : "es";
+  let name = "";
+  if (info) {
+    const full = (info.nombres || {})[key] ||
+                 (info.nombres || {}).es ||
+                 (info.nombres || {}).en ||
+                 "";
+    name = full;
+  }
+  if (!name) {
+    // Fallback a los campos ya pre-generados en build_web.py (nombre corto
+    // o el texto libre original), para que sigamos mostrando algo útil
+    // incluso si el catálogo no tiene el código.
+    name = lang === "en"
+      ? (rec.currency_name_en || rec.moneda || "")
+      : (rec.currency_name_es || rec.moneda || "");
+  }
+  const symbol = info ? (info.simbolo || "") : (rec.currency_symbol || "");
+  return symbol ? `${name} (${symbol})` : name;
+}
+
+// Nombre corto de la moneda (nombre_corto) para "Moneda Full".
+// Se respeta el plural si el monto no es 1 (null -> plural/indeterminado).
+function currencyShortName(rec) {
+  const info = currencyInfoFor(rec);
+  if (!info) return "";
+  const key = lang === "en" ? "en" : "es";
+  const short = info.nombre_corto || {};
+  const valor = rec.valor;
+  const plural = valor !== 1;
+  const pk = plural ? `${key}_p` : key;
+  return short[pk] || short[key] || short.es_p || short.es || short.en_p || short.en ||
+         (info.nombres || {})[key] || (info.nombres || {}).es || "";
+}
+
+// "Moneda Full" = monto (con formato) + nombre corto. Se calcula a la fly
+// con el catálogo cargado en `state.currencies`; el valor precargado en
+// `rec.denominacion` (build_web) ya sigue este patrón.
+function denominationFullDisplay(rec) {
+  const short = currencyShortName(rec);
+  if (short) return `${fmtValor(rec.valor)} ${short}`.trim();
+  // Fallback: usa el campo precargado (ya es "monto moneda").
+  return rec.denominacion || "";
 }
 
 function debounce(fn, ms) {
@@ -369,6 +421,9 @@ function render() {
 
   const txtCell = (r, key) => {
     const isEditable = isEditMode && EDIT_COLS[key];
+    if (key === "denominacion") {
+      return `<td data-label="${t("denominacion")}" data-col="denominacion" class="${isEditMode ? "editable" : ""}">${esc(denominationFullDisplay(r))}</td>`;
+    }
     return `<td data-label="${t(key)}" data-col="${key}" class="${isEditable ? "editable" : ""}">${esc(r[key])}</td>`;
   };
   const checkCell = (r, col, field) => `
@@ -464,7 +519,7 @@ function renderPager(pages) {
 
 function openModal(imgPath, id, side) {
   const rec = state.all.find((r) => r.id === id);
-  const parts = [rec.pick || rec.id, paisDisplay(rec), rec.denominacion, rec.anio, side];
+  const parts = [rec.pick || rec.id, paisDisplay(rec), denominationFullDisplay(rec), rec.anio, side];
   $("#modal-title").textContent = parts.filter(Boolean).join(" · ");
   const img = $("#modal-img");
   img.src = imgPath;
@@ -514,6 +569,7 @@ function detailValue(key, val, r) {
       ? `${paisDisplay(r)} (${otro})` : paisDisplay(r));
   }
   if (key === "currency_name_es") return esc(currencyDisplay(r));
+  if (key === "denominacion") return esc(denominationFullDisplay(r));
   if (typeof val === "boolean") return t("si");
   return esc(val);
 }
@@ -531,7 +587,7 @@ function renderDetail() {
   if (!r) return;
 
   $("#detail-title").textContent =
-    [r.pick || r.id, paisDisplay(r), r.denominacion, r.anio].filter(Boolean).join(" · ");
+    [r.pick || r.id, paisDisplay(r), denominationFullDisplay(r), r.anio].filter(Boolean).join(" · ");
 
   const flag = $("#detail-flag");
   if (r.flag) {

@@ -66,8 +66,25 @@ def fmt_valor(v):
 
 
 def denominacion_full(dn):
-    """'Moneda Full' compuesta: Monto + Moneda (ya no se guarda en el JSON)."""
-    return f"{fmt_valor(dn.get('value'))} {dn.get('currency', '')}".strip()
+    """'Moneda Full' compuesta: Monto + Moneda (ya no se guarda en el JSON).
+
+    Usa el nombre corto (nombre_corto) del catálogo ISO 4217, respetando el
+    plural si el monto no es 1. Se cae al texto libre del billete si el
+    catálogo no conoce el código."""
+    fmt_v = fmt_valor(dn.get("value"))
+    currency_code = str(dn.get("iso4217") or "").strip().upper()
+    is_subunit = is_true(dn.get("subunidad"))
+    short = currency_name(currency_code, "", "es", subunit=is_subunit)
+    raw = dn.get("currency", "")
+    if not short:
+        short = raw
+    # Plural cuando el valor no es 1 (None se trata como plural/indeterminado)
+    if short:
+        info = get_currency_by_code(currency_code) or {}
+        plur = (info.get("nombre_corto") or {}).get("es_p")
+        if plur and fmt_v != "1":
+            short = plur
+    return f"{fmt_v} {short}".strip()
 
 
 def file_sig(path):
