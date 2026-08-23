@@ -151,8 +151,6 @@ La barra de búsqueda de la aplicación web soporta consultas especializadas:
 ```bash
 banknotes_collection/
 ├── Readme.md                  # Documentación principal.
-├── _FULL/                     # Imágenes consolidadas en alta resolución (<id>.jpg).
-├── _flags/                    # Banderas de países en formato JPG/PNG.
 ├── _json/                     # Datos estructurados en JSON.
 │   ├── countries.json         # Fuente única de verdad para datos de países.
 │   ├── currencies.json        # Fuente única de verdad para monedas.
@@ -162,7 +160,6 @@ banknotes_collection/
 │   ├── chile/                 # JSONs de billetes de Chile.
 │   ├── usa/                   # JSONs de billetes de EE.UU.
 │   └── world/                 # JSONs de billetes del resto del mundo.
-├── _originals/                # Fotografías originales por billete (_originals/<id>/<id>_A.jpg y <id>_B.jpg).
 ├── _scripts/                  # Scripts de automatización y servidor local.
 │   ├── build_web.py          # Genera el índice web (collection.json) y miniaturas.
 │   ├── serve_web.py          # Servidor web local + API REST de administración.
@@ -173,7 +170,10 @@ banknotes_collection/
 │   ├── reset_verificados.py  # Script auxiliar para estado de verificación.
 │   ├── util.py               # Convenios de ID y utilidades de normalización.
 │   └── git_clean_json.sh     # Limpiador/formateador de archivos JSON.
-└── web/                       # Aplicación web estática (HTML, JS, CSS).
+└── web/                      # Aplicación web estática (HTML, JS, CSS).
+    ├── _originals/           # Fotografías originales por billete (_originals/<id>/<id>_A.jpg y <id>_B.jpg).
+    ├── _FULL/                # Imágenes consolidadas en alta resolución (<id>.jpg).
+    ├── _flags/               # Banderas de países en formato JPG/PNG.
     ├── index.html            # Página principal del catálogo numismático.
     ├── index-edit.html       # Página de edición.
     ├── problemas.html        # Página de seguimiento de problemas.
