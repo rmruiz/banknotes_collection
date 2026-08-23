@@ -224,9 +224,9 @@ function currencyShortName(rec) {
 // `rec.denominacion` (build_web) ya sigue este patrón.
 function denominationFullDisplay(rec) {
   const short = currencyShortName(rec);
-  if (short) return `${fmtValor(rec.valor)} ${short}`.trim();
+  if (short) return toTitleCase(`${fmtValor(rec.valor)} ${short}`).trim();
   // Fallback: usa el campo precargado (ya es "monto moneda").
-  return rec.denominacion || "";
+  return toTitleCase(rec.denominacion || "");
 }
 
 function debounce(fn, ms) {
