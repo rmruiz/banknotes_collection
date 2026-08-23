@@ -302,7 +302,7 @@
     }
 
     function renderCharts() {
-        // 1. Top 15 Países
+            // 1. Países con más billetes (todos, sin límite)
         const countryCounts = {};
         allNotes.forEach(n => {
             const pais = n.pais || 'Desconocido';
@@ -311,7 +311,7 @@
 
         const sortedCountries = Object.entries(countryCounts)
             .sort((a, b) => b[1] - a[1])
-            .slice(0, 15);
+                ;
 
         renderBarList('top-countries-list', sortedCountries, allNotes.length, (label) => {
             if (label === 'DESCONOCIDO') return `pais:""`;
@@ -376,7 +376,7 @@
 
         const sortedCurrs = Object.entries(currCounts)
             .map(([label, value]) => [label, value.count, value.code])
-            .sort((a, b) => b[1] - a[1]).slice(0, 12);
+                .sort((a, b) => b[1] - a[1]);
         renderBarList('currencies-chart-list', sortedCurrs, allNotes.length, (label, item) => {
             const code = item && item[2];
             return code ? `currency_code:"${code}"` : `currency_code:""`;

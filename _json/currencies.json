@@ -10763,6 +10763,54 @@
     },
     "notas": "Lo comparten tres territorios franceses del Pacífico situados a más de 15.000 km de París, con billetes comunes."
   },
+  "YER": {
+  "codigo": "YER",
+  "nombres": {
+    "es": "Rial yemení",
+    "en": "Yemeni rial"
+  },
+  "nombre_corto": {
+    "es": "Rial",
+    "en": "Rial"
+  },
+  "simbolo": "﷼",
+  "iso_4217": {
+    "numerico": "886",
+    "decimales": 2
+  },
+  "subunidad": {
+    "codigo": null,
+    "nombres": {
+      "es": "fils",
+      "en": "fils"
+    },
+    "factor": 100
+  },
+  "tipo": "fiat",
+  "estado": "circulacion",
+  "uso": {
+    "emisor": [
+      "YE"
+    ],
+    "curso_legal": [
+      "YE"
+    ],
+    "circulacion": [
+      "YE"
+    ],
+    "de_facto": []
+  },
+  "banco_central": {
+    "nombre": "Banco Central de Yemen",
+    "codigo": "CBY"
+  },
+  "historia": {
+    "fecha_introduccion": "1990",
+    "moneda_anterior": null,
+    "moneda_sucesora": null
+  },
+  "notas": "El rial yemení fue introducido tras la unificación de Yemen en 1990. En 1994 ya era la moneda oficial del país y en 2018 continuaba siendo la misma moneda. Se divide nominalmente en 100 fils, aunque las denominaciones fraccionarias dejaron de utilizarse en la práctica. En 2017–2018 el Banco Central de Yemen emitió una nueva serie de billetes, pero sin cambiar la unidad monetaria ni su código ISO 4217."
+ },
   "YUD": {
     "codigo": "YUD",
     "nombres": {
