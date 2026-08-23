@@ -21,6 +21,47 @@ const RENDERERS = {
       </table></div>`;
   },
 
+  monedas_sin_vinculo(cat) {
+    const imgCell = (thumb, img, alt) => thumb
+        ? `<td class="img"><a href="${esc(img)}" target="_blank" rel="noopener">
+             <img src="${esc(thumb)}" loading="lazy" alt="${esc(alt)}"></a></td>`
+         : `<td class="img"></td>`;
+    const filas = cat.items.map((it) => `
+         <tr data-id="${esc(it.id)}">
+           <td>${esc(it.pick) || esc(it.id)}</td>
+           <td>${esc(it.pais)}</td>
+           <td>${esc(it.denominacion)}</td>
+           <td>${esc(it.moneda || "")}</td>
+           <td>${esc(it.currency_code || "")}</td>
+           ${imgCell(it.thumb_a, it.img_a, "Front " + it.id)}
+           ${imgCell(it.thumb_b, it.img_b, "Back " + it.id)}
+         </tr>`).join("");
+    return `<div class="table-wrap"><table>
+           <thead><tr><th>Pick</th><th>País</th><th>Moneda Full</th><th>Moneda original</th><th>ISO 4217</th><th>Front</th><th>Back</th></tr></thead>
+           <tbody>${filas}</tbody>
+         </table></div>`;
+    },
+
+  picks_sin_formato(cat) {
+     // items llegan como filas [id, pais, denom, anio] desde build_web.py.
+    const filas = cat.items.map((row) => {
+      const [id, pais, denom, anio] = Array.isArray(row)
+        ? row
+        : [row?.id, row?.pais, row?.denominacion, row?.anio];
+       return `
+         <tr data-id="${esc(id || "")}">
+           <td>${esc(id || "")}</td>
+           <td>${esc(pais || "")}</td>
+           <td>${esc(denom || "")}</td>
+           <td>${esc(anio ?? "")}</td>
+         </tr>`;
+       }).join("");
+    return `<div class="table-wrap"><table>
+           <thead><tr><th>ID</th><th>País</th><th>Moneda Full</th><th>Año</th></tr></thead>
+           <tbody>${filas}</tbody>
+         </table></div>`;
+    },
+
   carpetas_sin_json(cat) {
     const imgCell = (thumb, img, alt) => thumb
       ? `<td class="img"><a href="${esc(img)}" target="_blank" rel="noopener">
@@ -137,12 +178,22 @@ const RENDERERS = {
 };
 
 function genericTable(cat) {
+   // Un item puede ser una lista (fila de celdas) o un objeto (diccionario
+   // con las mismas claves que cat.columnas). Normalizamos a lista.
+  const asRow = (item) => {
+    if (Array.isArray(item)) return item;
+    if (item && typeof item === "object") {
+        const cols = cat.columnas || Object.keys(item);
+        return cols.map((c) => item[c] ?? "");
+       }
+    return [item];
+   };
   const filas = cat.items.map((item) =>
-    `<tr>${item.map((v) => `<td>${esc(v)}</td>`).join("")}</tr>`).join("");
+     `<tr>${asRow(item).map((v) => `<td>${esc(v)}</td>`).join("")}</tr>`).join("");
   return `<div class="table-wrap"><table>
-      <thead><tr>${(cat.columnas || []).map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead>
-      <tbody>${filas}</tbody>
-    </table></div>`;
+        <thead><tr>${(cat.columnas || []).map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead>
+        <tbody>${filas}</tbody>
+      </table></div>`;
 }
 
 async function load() {
@@ -172,7 +223,7 @@ async function load() {
       <p class="desc">${esc(cat.descripcion)}</p>
       ${cat.items.length === 0
         ? `<p class="ok">✓ Sin problemas en esta categoría.</p>`
-        : (RENDERERS[cat.clave] || genericTable)(cat)}
+         : (() => { try { return (RENDERERS[cat.clave] || genericTable)(cat); } catch (e) { console.error("Render error en", cat.clave, e); return `<p class="err-detalle">No se pudo renderizar: <code>${esc(e.message)}</code></p>`; } })()}
     </details>`).join("");
 
   document.querySelectorAll("details.problema").forEach((det) => {
