@@ -1,0 +1,36 @@
+{
+  "id": "cl-p164k",
+  "pick_number": "P-164k",
+  "country_code": "cl",
+  "denomination": {
+    "value": 10000,
+    "currency": "CLP",
+    "iso4217": "CLP",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2025,
+  "numista": "https://en.numista.com/205233",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": false,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": ""
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": ""
+    }
+  ]
+}
