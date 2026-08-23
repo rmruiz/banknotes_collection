@@ -169,6 +169,17 @@ function currencyInfoFor(rec) {
   return (state.currencies && state.currencies[code]) || null;
 }
 
+// Capitaliza la primera letra de cada palabra (respeta tildes y paréntesis).
+// Ejemplos:
+//     'marco alemán'             -> 'Marco Alemán'
+//     'yuan chino (renminbi)'    -> 'Yuan Chino (Renminbi)'
+//     'united states dollar'     -> 'United States Dollar'
+function toTitleCase(s) {
+  if (s === null || s === undefined) return "";
+  return String(s).replace(/(\s|\(|\[)\w/g, (m) => m.toUpperCase())
+                    .replace(/^\w/, (m) => m.toUpperCase());
+}
+
 // Columna "Moneda": nombre completo + símbolo del catálogo.
 function currencyDisplay(rec) {
   const info = currencyInfoFor(rec);
@@ -190,7 +201,8 @@ function currencyDisplay(rec) {
       : (rec.currency_name_es || rec.moneda || "");
   }
   const symbol = info ? (info.simbolo || "") : (rec.currency_symbol || "");
-  return symbol ? `${name} (${symbol})` : name;
+  const title = toTitleCase(name);
+  return symbol ? `${title} (${symbol})` : title;
 }
 
 // Nombre corto de la moneda (nombre_corto) para "Moneda Full".
