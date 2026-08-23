@@ -12,6 +12,8 @@ Este proyecto es un sistema integral basado en **archivos locales** (sin bases d
 1. **Capa de Almacenamiento**  
    - JSONs individuales por billete organizados en `_json/<categoría>/<id>.json` (ej. `chile/`, `argentina/`, `usa/`, `world/`).  
   - `_json/countries.json`: **Fuente única de verdad** para la información de países (código ISO, nombres en ES/EN, bandera asignada en `_flags/` y carpeta correspondiente).
+   - `_json/countries.md`: Documentación detallada sobre la estructura del archivo countries.json
+   - `_json/currencies.md`: Documentación detallada sobre la estructura del archivo currencies.json
   - `_json/currencies.json`: **Fuente única de verdad** para monedas, códigos ISO 4217, nombres, símbolos y estado histórico.
    - Fotos originales alojadas en `_originals/<id>/<id>_A.jpg` (frente) y `<id>_B.jpg` (reverso).  
 2. **Capa de Procesamiento (`_scripts/`)**  
@@ -48,6 +50,31 @@ Ejemplo para descargar modelos locales:
 ```bash
 ollama pull gemma4:31b
 ollama pull llava:34b
+## 🖼️ Despliegue en Firebase
+
+Para desplegar la aplicación web en Firebase Hosting:
+
+1. Asegúrate de tener instalado Firebase CLI:
+```bash
+npm install -g firebase-tools
+```
+
+2. Autentícate con tu cuenta de Firebase:
+```bash
+firebase login
+```
+
+3. Inicializa el proyecto Firebase (si aún no está configurado):
+```bash
+firebase init hosting
+```
+
+4. Despliega la aplicación:
+```bash
+firebase deploy --only hosting
+```
+
+> Nota: El directorio público para Firebase es `web/` según la configuración en `firebase.json`.
 ```
 
 ### Paso 4: Ejecutar el Servidor Web  
@@ -128,6 +155,9 @@ banknotes_collection/
 ├── _flags/                    # Banderas de países en formato JPG/PNG.
 ├── _json/                     # Datos estructurados en JSON.
 │   ├── countries.json         # Fuente única de verdad para datos de países.
+│   ├── currencies.json        # Fuente única de verdad para monedas.
+│   ├── countries.md           # Documentación detallada de countries.json
+│   ├── currencies.md          # Documentación detallada de currencies.json
 │   ├── argentina/             # JSONs de billetes de Argentina.
 │   ├── chile/                 # JSONs de billetes de Chile.
 │   ├── usa/                   # JSONs de billetes de EE.UU.
@@ -145,7 +175,17 @@ banknotes_collection/
 │   └── git_clean_json.sh     # Limpiador/formateador de archivos JSON.
 └── web/                       # Aplicación web estática (HTML, JS, CSS).
     ├── index.html            # Página principal del catálogo numismático.
-    └── styles.css            # Estilos personalizados (Pico.css).
+    ├── index-edit.html       # Página de edición.
+    ├── problemas.html        # Página de seguimiento de problemas.
+    ├── stats.html            # Página de estadísticas.
+    ├── app.js                # Lógica principal de la aplicación web.
+    ├── problemas.js          # Lógica para la página de problemas.
+    ├── stats.js              # Lógica para la página de estadísticas.
+    ├── styles.css            # Estilos personalizados (Pico.css).
+    ├── stats.css             # Estilos específicos para estadísticas.
+    └── data/                 # Datos generados para la aplicación web.
+        ├── collection.json   # Índice unificado del catálogo.
+        └── currencies.json   # Información de monedas.
 ```
 
 ---
