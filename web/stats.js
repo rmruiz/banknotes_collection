@@ -277,7 +277,8 @@
                         statusBadge = `<span style="color:#ef4444; font-weight:bold;">🔴 Moneda vigente faltante: ${mv}</span>` + countLine;
                     }
 
-                    const displayCode = (cInfo && cInfo.iso_alpha2) || a2 || (cInfo && cInfo.code ? cInfo.code.toUpperCase() : 'N/A');
+                    // (antes referenciaba `a2`, indefinida en este scope: ReferenceError)
+                    const displayCode = (cInfo && cInfo.iso_alpha2) || (cInfo && cInfo.code ? cInfo.code.toUpperCase() : 'N/A');
 
                     tooltip.innerHTML = `
                         <div style="display:flex; align-items:center; gap:6px;">

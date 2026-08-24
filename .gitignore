@@ -13,3 +13,6 @@ web/data.json
 .agents/
 .firebase/hosting.d2Vi.cache
 aider
+node_modules/
+package-lock.json
+package.json
