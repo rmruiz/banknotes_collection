@@ -13,6 +13,23 @@
     let notesByIsoA2 = {};          // ISO_A2 -> [notes]
     let missingCountriesList = [];
     let numericToCountry = {};
+    let ownedCurrencies = new Set(); // códigos ISO 4217 presentes en la colección
+
+    // Códigos ISO 4217 de "fondo"/reporte que usa countries.json en
+    // moneda_vigente (USN, COU, CHW, BOV, UYW…) mapeados al código de
+    // circulación equivalente (USD, COP, CHF, BOB, UYU…) que usa la
+    // colección. Sin esto, países como EE. UU. o Colombia quedarían en rojo
+    // aunque se posea su moneda vigente.
+    const FUND_CODE_ALIASES = {
+        BOV: 'BOB', CHE: 'CHF', CHW: 'CHF', CHY: 'CHF', COU: 'COP',
+        GWP: 'GPE', GYE: 'GYF', MXV: 'MXN', PTV: 'PTL',
+        UYP: 'UYU', UYW: 'UYU', USN: 'USD'
+    };
+    function normalizeCurrency(code) {
+        if (!code) return '';
+        const up = String(code).trim().toUpperCase();
+        return FUND_CODE_ALIASES[up] || up;
+    }
 
     document.addEventListener('DOMContentLoaded', init);
 
@@ -99,6 +116,14 @@
                 notesByIsoA2[a2].push(note);
             }
         });
+
+        // Monedas (código ISO 4217) presentes en la colección, normalizando
+        // los códigos "fund" a su equivalente de circulación.
+        // Se usa para el mapa de "Cobertura de Moneda Vigente": los países
+        // se colorean según si su moneda_vigente (también ISO 4217) está aquí.
+        ownedCurrencies = new Set(
+            allNotes.map(n => normalizeCurrency(n.currency_code)).filter(Boolean)
+        );
 
         // Identificar países faltantes de countries.json
         missingCountriesList = [];
@@ -191,6 +216,21 @@
             return null;
         }
 
+        // Cobertura de Moneda Vigente:
+        //  - 'owned'   (verde): la moneda_vigente del país está en la colección.
+        //  - 'missing' (rojo):  el país existe en el catálogo y define
+        //                       moneda_vigente, pero no la posee en la colección
+        //                       (incluye países sin billetes o solo con billetes
+        //                       de monedas históricas ya no vigentes).
+        //  - 'gray'    (gris):  el país no está en el catálogo o no define
+        //                       moneda_vigente (p. ej. sin moneda propia).
+        function getMapStatus(cInfo) {
+            if (!cInfo || !cInfo.moneda_vigente) return 'gray';
+            return ownedCurrencies.has(normalizeCurrency(cInfo.moneda_vigente))
+                ? 'owned'
+                : 'missing';
+        }
+
         loadWorldMap.then(world => {
             const countriesGeo = topojson.feature(world, world.objects.countries).features;
 
@@ -202,15 +242,7 @@
                 .attr('class', d => {
                     const numId = d.id ? String(d.id).padStart(3, '0') : '';
                     const cInfo = numericToCountry[numId] || findCountryInfo(d, null);
-
-                    // Pais sin moneda propia (y por tanto sin billetes): se pinta gris
-                    // ANTES de comprobar si hay billetes en la coleccion.
-                    if (cInfo && cInfo.moneda_propia === 'no') return 'country-path gray';
-
-                    const notes = cInfo ? (notesByCountryCode[cInfo.code.toLowerCase()] || []) : [];
-                    if (notes.length > 0) return 'country-path owned';
-                    if (cInfo) return 'country-path missing';
-                    return 'country-path gray';
+                    return `country-path ${getMapStatus(cInfo)}`;
                 })
                 .on('mouseover', (event, d) => {
                     const numId = d.id ? String(d.id).padStart(3, '0') : '';
@@ -230,13 +262,20 @@
                     tooltip.style.left = (event.offsetX + 15) + 'px';
                     tooltip.style.top = (event.offsetY - 10) + 'px';
 
-                    const statusBadge = (cInfo && cInfo.moneda_propia === 'no')
-                           ? `<span style="color:#94a3b8; font-weight:bold;">⚪ Pais sin billetes</span>`
-                           : count > 0
-                        ? `<span style="color:#10b981; font-weight:bold;">🟢 ${count} billete(s)</span>`
-                        : (cInfo
-                            ? `<span style="color:#ef4444; font-weight:bold;">🔴 Faltante</span>`
-                            : `<span style="color:#94a3b8; font-weight:bold;">⚪ Sin datos / Fuera de catálogo</span>`);
+                    const mv = cInfo && cInfo.moneda_vigente;
+                    const mapStatus = getMapStatus(cInfo);
+                    const countLine = count > 0 ? ` · ${count} billete(s) en catálogo` : '';
+
+                    let statusBadge;
+                    if (!cInfo) {
+                        statusBadge = `<span style="color:#94a3b8; font-weight:bold;">⚪ Sin datos / Fuera de catálogo</span>`;
+                    } else if (!mv) {
+                        statusBadge = `<span style="color:#94a3b8; font-weight:bold;">⚪ Sin moneda vigente definida</span>` + countLine;
+                    } else if (mapStatus === 'owned') {
+                        statusBadge = `<span style="color:#10b981; font-weight:bold;">🟢 Moneda vigente en la colección: ${mv}</span>` + countLine;
+                    } else {
+                        statusBadge = `<span style="color:#ef4444; font-weight:bold;">🔴 Moneda vigente faltante: ${mv}</span>` + countLine;
+                    }
 
                     const displayCode = (cInfo && cInfo.iso_alpha2) || a2 || (cInfo && cInfo.code ? cInfo.code.toUpperCase() : 'N/A');
 

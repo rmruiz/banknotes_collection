@@ -73,8 +73,10 @@
           <div>
             <h2>🗺️ Mapa Mundial Numismático</h2>
             <p class="section-desc">
-            Visualización geográfica de países con billetes en la colección (<span class="badge-green">Verde = Poseído</span>) 
-            y países existentes pendientes de colección (<span class="badge-red">Rojo = Faltante</span>). Bordes en negro.
+            Cobertura de Moneda Vigente por país: se pinta de verde si la <strong>moneda vigente</strong> del país
+            (según <code>moneda_vigente</code> en countries.json) está en la colección
+            (<span class="badge-green">Verde = Moneda vigente poseída</span>) y de rojo si no está
+            (<span class="badge-red">Rojo = Moneda vigente faltante</span>). Gris: sin datos o sin moneda vigente definida. Bordes en negro.
             </p>
           </div>
           <div class="map-controls">
@@ -87,9 +89,9 @@
         <div class="map-container">
           <svg id="world-map" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet"></svg>
           <div id="map-legend">
-            <div class="legend-item"><span class="legend-box green"></span> En la colección</div>
-            <div class="legend-item"><span class="legend-box red"></span> Faltante (Existente)</div>
-            <div class="legend-item"><span class="legend-box gray"></span> Pais sin billetes</div>
+            <div class="legend-item"><span class="legend-box green"></span> Moneda vigente en la colección</div>
+            <div class="legend-item"><span class="legend-box red"></span> Moneda vigente faltante</div>
+            <div class="legend-item"><span class="legend-box gray"></span> Sin datos / sin moneda vigente</div>
           </div>
           <div id="map-tooltip" class="map-tooltip" hidden></div>
         </div>
