@@ -11,7 +11,10 @@
   },
   "year": 2025,
   "numista": "https://en.numista.com/205233",
-  "signatures": [],
+  "signatures": [
+    "Costa",
+    "Herrera"
+  ],
   "themes": [
     "personaje:arturo_prat",
     "lugar:parque_nacional_alberto_de_agostini"
