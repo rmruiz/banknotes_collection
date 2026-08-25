@@ -31,6 +31,14 @@
         return FUND_CODE_ALIASES[up] || up;
     }
 
+    // Escapa caracteres especiales para insertar texto de forma segura en HTML
+    // (copiado de web/app.js).
+    function esc(s) {
+        return String(s ?? "").replace(/[&<>"']/g, (c) => ({
+            "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+        }[c]));
+    }
+
     document.addEventListener('DOMContentLoaded', init);
 
     async function init() {
@@ -487,7 +495,9 @@
             notes.forEach(n => {
                 const card = document.createElement('div');
                 card.className = 'note-mini-card';
+                const imgSrc = n.img_full || n.thumb_f || n.thumb_a || "";
                 card.innerHTML = `
+                    ${imgSrc ? `<img class="note-mini-img" src="${esc(imgSrc)}" alt="${esc(n.pick || n.id)}" loading="lazy" onerror="this.style.display='none'">` : ""}
                     <span class="note-mini-pick">${n.pick || n.id}</span>
                     <span class="note-mini-val">${n.denominacion || n.valor + ' ' + n.moneda}</span>
                     <span class="note-mini-year">${n.anio || 's/f'}</span>

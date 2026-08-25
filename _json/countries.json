@@ -2559,7 +2559,8 @@
     },
     "vigente": "si",
     "flag": "FLAG_VENEZUELA.jpg",
-    "folder": "world"
+    "folder": "world",
+    "moneda_vigente": "VED"
   },
   "vn": {
     "code": "vn",
