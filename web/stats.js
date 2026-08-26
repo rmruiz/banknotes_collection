@@ -498,9 +498,14 @@
                 const imgSrc = n.img_full || n.thumb_f || n.thumb_a || "";
                 card.innerHTML = `
                     ${imgSrc ? `<img class="note-mini-img" src="${esc(imgSrc)}" alt="${esc(n.pick || n.id)}" loading="lazy" onerror="this.style.display='none'">` : ""}
-                    <span class="note-mini-pick">${n.pick || n.id}</span>
-                    <span class="note-mini-val">${n.denominacion || n.valor + ' ' + n.moneda}</span>
-                    <span class="note-mini-year">${n.anio || 's/f'}</span>
+                    <div class="note-mini-meta">
+                        <div class="note-mini-row">
+                            <span class="note-mini-pick">${n.pick || n.id}</span>
+                            <span class="note-mini-iso">${esc(n.currency_code || '')}</span>
+                        </div>
+                        <div class="note-mini-val">${n.denominacion || n.valor + ' ' + n.moneda}</div>
+                        <div class="note-mini-year">${n.anio || 's/f'}</div>
+                    </div>
                 `;
                 notesListEl.appendChild(card);
             });

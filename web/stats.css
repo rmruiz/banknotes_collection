@@ -363,33 +363,70 @@
   height: 18px;
   object-fit: cover;
   border-radius: 3px;
-  margin-right: 0.5rem;
+  margin-right: 0.6rem;
 }
 
 .modal-header-title {
   display: flex;
   align-items: center;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 700;
+  gap: 0.4rem;
+}
+
+#country-modal-close {
+  background: transparent;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+  padding: 0;
+  color: var(--pico-muted-color);
+}
+
+#country-modal-close:hover {
+  background: var(--pico-primary);
+  color: var(--pico-primary-inverse);
+  border-color: var(--pico-primary);
+}
+
+#country-modal-summary {
+  font-size: 0.85rem;
+  color: var(--pico-muted-color);
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .notes-mini-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-  gap: 0.6rem;
+  gap: 0.8rem;
   max-height: 420px;
   overflow-y: auto;
-  margin-top: 0.85rem;
+  margin-top: 1rem;
+  padding: 0.2rem;
 }
 
 .note-mini-card {
   display: flex;
   flex-direction: column;
-  padding: 0.5rem;
+  padding: 0.6rem;
   background: var(--pico-card-background-color, #FFFFFF);
   border: 1px solid var(--pico-muted-border-color);
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 0.78rem;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.note-mini-card:hover {
+  border-color: var(--pico-primary);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 .note-mini-img {
@@ -397,8 +434,20 @@
   height: auto;
   display: block;
   border-radius: 4px;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.6rem;
   background: var(--pico-muted-border-color);
+}
+
+.note-mini-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.note-mini-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .note-mini-pick {
@@ -406,8 +455,20 @@
   color: var(--pico-primary);
 }
 
+.note-mini-iso {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--pico-muted-color);
+  background: var(--pico-muted-border-color);
+  padding: 1px 4px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
 .note-mini-val {
   font-weight: 600;
+  line-height: 1.2;
 }
 
 .note-mini-year {
