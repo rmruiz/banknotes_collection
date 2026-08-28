@@ -317,8 +317,7 @@ def _sanitize_jpeg(data: bytes, work_dir: Path) -> bytes:
 
 
 # prefijos que SÍ pueden cachearse (imágenes pesadas e inmutables)
-CACHEABLE_PREFIXES = ("/thumbs/", "/_originals/", "/_FULL/", "/_flags/",
-                      "/pico.min.css")
+CACHEABLE_PREFIXES = ("/thumbs/", "/_originals/", "/_FULL/", "/_flags/")
 
 
 class Handler(SimpleHTTPRequestHandler):

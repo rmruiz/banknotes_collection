@@ -1,264 +1,299 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+/* Colección de billetes — paleta, layout y componentes basados en template.html */
 
-:root {
-  --pico-font-family: 'DM Sans', sans-serif;
-  --pico-primary: #A16207;
+/* Pico define su paleta clara/oscura con selectores como
+   ":root:not([data-theme=dark])" (especificidad 0,2,0), que le ganaría a un
+   ":root" simple sin importar el orden de carga. Como las páginas fijan
+   data-theme="light" (ver <html>), igualamos esa especificidad apuntando a
+   ":root[data-theme='light']" para que nuestra paleta del template gane
+   siempre, sin depender del tema del sistema operativo. */
+:root[data-theme="light"] {
+  --pico-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --pico-primary: #0055cc;
   --pico-primary-inverse: #FFFFFF;
-  --pico-background-color: #FAFAF9;
-  --pico-color: #1C1917;
-  --pico-muted-color: #44403C;
-  --pico-muted-border-color: #D6D3D1;
+  --pico-background-color: #f5f5f5;
+  --pico-color: #171717;
+  --pico-muted-color: #666666;
+  --pico-muted-border-color: #e0e0e0;
+  --pico-card-background-color: #ffffff;
+
+  /* tokens propios del sistema visual del template */
+  --border-color: #eaeaea;
+  --radius-lg: 12px;
+  --radius-md: 8px;
+  --radius-pill: 999px;
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, .05);
 }
 
-/* Ajustes sobre Pico.css */
+/* ---------- Reset base (reemplaza lo que daba Pico CSS, ya removido) ---------- */
 
-#top h1 { margin-bottom: .5rem; }
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-#title-row {
+html {
+  font-family: var(--pico-font-family);
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  background-color: var(--pico-background-color);
+}
+
+/* Enlaces sin estilo propio más abajo (p.ej. los de Colnect/Numista dentro
+   del modal de detalle) — sin esto caen al azul/subrayado por defecto del
+   navegador en vez del azul de marca. */
+a { color: var(--pico-primary); }
+a:visited { color: var(--pico-primary); }
+
+/* Base para inputs/selects de texto que no tienen su propia regla más
+   específica (ID/clase) más abajo. Envuelto en :where() a propósito: le da
+   especificidad CERO, para que CUALQUIER otra regla (aunque sea de la misma
+   "categoría" de especificidad, como ".search-wrap input") la gane siempre,
+   sin depender del orden de aparición en el archivo. No se toca "width" acá
+   a propósito: algunos inputs (p.ej. #q.search-input) dependen de flex-grow
+   para su ancho, y un "width" acá competiría con eso. */
+:where(input:not([type="checkbox"]):not([type="radio"]), select) {
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--radius-md);
+  background-color: #fff;
+  color: var(--pico-color);
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+}
+:where(input:not([type="checkbox"]):not([type="radio"]), select):focus {
+  border-color: var(--pico-primary);
+}
+
+input[type="checkbox"] {
+  accent-color: var(--pico-primary);
+}
+input[type="checkbox"]:disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+/* Máscara superior: oculta las filas en el hueco entre el borde de la ventana
+   y el buscador sticky (que empieza en top:16px) al hacer scroll. */
+.scroll-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 16px;
+  background-color: var(--pico-background-color);
+  z-index: 95;
+  pointer-events: none;
+}
+
+main.container-fluid {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  max-width: none;
 }
+
+/* ---------- ZONA 1: barra de título ---------- */
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  width: 95%;
+  max-width: 1200px;
+  margin: 0;
+}
+
+.top-bar .page-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--pico-color);
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
 #alert-link {
   display: inline-flex;
   align-items: center;
   gap: .35rem;
-  margin-top: .35rem;
-  padding: .25rem .7rem;
+  padding: .3rem .8rem;
   border: 1px solid #e6b800;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   background: rgba(255, 200, 0, .12);
   color: inherit;
   text-decoration: none;
-  font-size: .9rem;
+  font-size: .85rem;
   white-space: nowrap;
 }
 #alert-link:hover { background: rgba(255, 200, 0, .25); }
-#top-actions {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-}
-#lang-toggle {
-  width: auto;
-  margin: .35rem 0 0;
-  padding: .2rem .55rem;
-  background: transparent;
-  border: 1px solid var(--pico-muted-border-color);
-  border-radius: 999px;
-  font-size: 1.05rem;
-  line-height: 1.3;
-  cursor: pointer;
-}
-#lang-toggle:hover { border-color: var(--pico-primary); }
 #alert-link.ok { border-color: var(--pico-muted-border-color); background: transparent; opacity: .6; }
 #alert-count { font-weight: 600; }
 
-/* página de problemas */
-details.problema { margin-bottom: 1.5rem; }
-details.problema > summary {
-  cursor: pointer;
-  font-size: 1.15rem;
-  font-weight: 600;
-  padding: .35rem 0;
-  list-style-position: outside;
+/* ---------- contenedor base (tarjetas blancas flotantes) ---------- */
+
+.container-base {
+  background-color: var(--pico-card-background-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  width: 95%;
+  max-width: 1200px;
+  box-sizing: border-box;
 }
-details.problema > summary:hover { color: var(--pico-primary); }
-#prob-top nav { margin-bottom: .5rem; }
-#prob-top h1 { margin-bottom: .25rem; }
-#gen { color: var(--pico-muted-color); font-size: .85rem; }
-.problema { margin-bottom: 2rem; }
-.problema h2 { font-size: 1.15rem; margin-bottom: .25rem; }
-.problema .badge {
-  display: inline-block;
-  padding: 0 .55rem;
-  border-radius: 999px;
-  background: rgba(255, 200, 0, .25);
-  border: 1px solid #e6b800;
-  font-size: .85rem;
-  vertical-align: middle;
-}
-.problema .desc { color: var(--pico-muted-color); font-size: .9rem; }
-.problema .ok { color: var(--pico-ins-color, green); }
-.problema td { font-size: .9rem; overflow-wrap: anywhere; vertical-align: middle; }
-.problema td code {
-  font-size: .8rem;
-  word-break: break-all;
-  background: none;
-  padding: 0;
-}
-.problema td.err-detalle code { color: var(--pico-del-color, #b00020); }
-.problema td.img { width: 96px; }
-.problema td.img img {
-  height: 44px;
-  width: auto;
-  max-width: 106px;
-  object-fit: contain;
-  border-radius: 3px;
-  cursor: zoom-in;
-  display: block;
-}
-.problema .edit-folder {
+
+/* ---------- ZONA 2: buscador (sticky) ---------- */
+
+.search-container {
+  height: 52px;
   display: flex;
-  gap: .4rem;
   align-items: center;
-  min-width: 24rem;
+  gap: 12px;
+  padding: 0 16px 0 24px;
+  position: sticky;
+  top: 16px;
+  z-index: 100;
+  will-change: transform;
+  transform: translateZ(0);
 }
-.problema .edit-folder input {
-  flex: 1;
+
+#q.search-input {
+  height: fit-content;
+  margin: 0; /* Pico pone margin-bottom por defecto en <input>: sin resetearlo,
+                el buscador queda descentrado dentro de .search-container */
+  background-color: #f9f9f9;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 3px 12px 3px 30px;
+  font-size: 14px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  outline: none;
+  color: var(--pico-color);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="%23666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>');
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  background-size: 13px;
+}
+
+.search-icons {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+/* ---------- botones de icono (mode-toggle, lang-toggle, footer) ---------- */
+
+.icon-btn {
+  background-color: #fff;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--radius-md);
+  padding: 8px;
+  width: auto;
   height: auto;
   margin: 0;
-  padding: .2rem .5rem;
-  font-size: .85rem;
+  cursor: pointer;
+  color: #444;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-soft);
+  line-height: 1;
+  font-size: 1rem;
+  text-decoration: none;
 }
-.problema .edit-folder button {
-  width: auto;
-  margin: 0;
-  padding: .2rem .6rem;
-  font-size: .8rem;
-  white-space: nowrap;
+.icon-btn:hover { background-color: #f9f9f9; color: var(--pico-primary); border-color: var(--pico-primary); }
+#lang-toggle.icon-btn { font-size: 1rem; }
+
+/* ---------- ZONA 4: tabla ---------- */
+
+/* Importante: NO se usa overflow-x/y aquí. Cualquier ancestro con overflow
+   distinto de "visible" pasa a ser el contenedor de referencia para los
+   descendientes "position: sticky" (thead y .table-footer más abajo),
+   rompiendo el efecto de pegado respecto a la página real. Si la tabla es
+   más ancha que la tarjeta (muchas columnas activadas), es la página
+   completa la que se desplaza en horizontal — igual que en template.html,
+   que tampoco recorta la tabla — para no sacrificar la cabecera/pie fijos. */
+.table-container {
+  display: flex;
+  flex-direction: column;
 }
-.problema td.files { color: var(--pico-muted-color); font-size: .8rem; }
-.problema .edit-folder.pick-edit { min-width: 15rem; }
-.problema .edit-folder.url-edit { min-width: 22rem; }
-.problema td.upload-cell { min-width: 13rem; }
-.problema input.upload-photo {
+
+/* separate + spacing:0 en vez de collapse: los navegadores no repintan bien
+   los "th" sticky por encima de las filas que scrollean debajo cuando la
+   tabla usa border-collapse:collapse (las filas "sangran" sobre el header
+   durante el scroll). Como cada celda ya dibuja un solo borde por lado
+   (bottom/right), el resultado visual es idéntico. */
+table {
   width: 100%;
-  max-width: 14rem;
-  height: auto;
-  margin: 0;
-  padding: .15rem;
-  font-size: .75rem;
-}
-.problema button.gen-full {
-  width: auto;
-  margin: 0;
-  padding: .2rem .6rem;
-  font-size: .8rem;
-  white-space: nowrap;
+  border-collapse: separate;
+  border-spacing: 0;
 }
 
-#meta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: .5rem;
-}
-#count { color: var(--pico-muted-color); }
-#perpage-label {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-  margin: 0;
-  white-space: nowrap;
-  color: var(--pico-muted-color);
-}
-#perpage { width: auto; margin: 0; padding: .2rem 2rem .2rem .6rem; }
-#imgsize-label {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-  margin: 0;
-  white-space: nowrap;
-  color: var(--pico-muted-color);
-}
-#imgsize { width: auto; margin: 0; padding: .2rem 2rem .2rem .6rem; }
+#tbl { min-width: 1000px; }
 
-#controls {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-#rebuild {
-  width: auto;
-  margin: 0;
-  padding: .2rem .7rem;
-  background: transparent;
+th {
+  text-align: left;
+  padding: 12px 16px;
+  font-size: 13px;
+  font-weight: 500;
   color: var(--pico-muted-color);
-  border: 1px solid var(--pico-muted-border-color);
-  border-radius: var(--pico-border-radius);
-  font-size: .875rem;
+  border-right: 1px solid var(--border-color);
+  border-bottom: 2px solid #d0d0d0;
   white-space: nowrap;
-  cursor: pointer;
+  background-color: #fff;
 }
-#rebuild:hover:not([disabled]) { color: var(--pico-primary); border-color: var(--pico-primary); }
-#rebuild[disabled] { opacity: .6; cursor: wait; }
-#new-note {
-  width: auto;
-  margin: 0;
-  padding: .2rem .7rem;
-  background: transparent;
-  color: var(--pico-muted-color);
-  border: 1px solid var(--pico-muted-border-color);
-  border-radius: var(--pico-border-radius);
-  font-size: .875rem;
-  white-space: nowrap;
-  cursor: pointer;
-}
-#new-note:hover { color: var(--pico-primary); border-color: var(--pico-primary); }
+th:last-child { border-right: none; }
 
-/* modal de billete nuevo */
-#new-dialog article { max-width: min(94vw, 420px); padding: .75rem; }
-#new-dialog article > header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: .5rem;
-  padding: .4rem .6rem;
-}
-#new-title { font-weight: 600; }
-#new-close {
-  width: auto; margin: 0; padding: .1rem .6rem;
-  background: transparent; color: inherit; border: none;
-  font-size: 1.1rem; cursor: pointer;
-}
-#new-form { padding: 0 .5rem .5rem; }
-#new-form label { font-size: .9rem; }
-#new-form button[type="submit"] { margin-top: .25rem; }
-#cols-dd { margin: 0; width: auto; }
-#cols-dd summary {
-  margin: 0;
-  padding: .2rem 2rem .2rem .6rem;
-  width: auto;
-  height: auto;          /* Pico fija un height calc() más alto que el resto */
-  line-height: 1.6;
-  font-size: .875rem;
-  color: var(--pico-muted-color);
-}
-#cols-dd ul {
-  min-width: 12rem;
-  max-height: 60vh;
-  overflow-y: auto;
-}
-#tbl td.bool { text-align: center; }
-#cols-dd li { padding: .15rem .75rem; }
-#cols-dd label {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-  margin: 0;
-  cursor: pointer;
-  white-space: nowrap;
-}
-#cols-dd input[type="checkbox"] { margin: 0; }
-
-.table-wrap { overflow-x: auto; }
-
-/* orden por columna */
+/* cabecera pegajosa debajo del buscador (solo tabla principal) */
 #tbl thead th {
   position: sticky;
-  top: 0;
-  z-index: 10;
-  background: var(--pico-background-color);
+  top: 68px; /* 16px top del buscador + 52px de alto */
+  z-index: 80;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+  /* promueve el header a su propia capa de composición y le da un contexto
+     de apilamiento propio e inequívoco: sin esto, algunos navegadores
+     repintan mal (o mezclan el orden de las capas) y las filas alcanzan a
+     "asomarse" sobre el header durante el scroll, sobre todo con muchas
+     imágenes en pantalla. will-change + transform + isolation son tres
+     mecanismos independientes que refuerzan lo mismo por las dudas. */
+  will-change: transform;
+  transform: translateZ(0);
+  isolation: isolate;
+}
+#tbl thead th:first-child { border-top-left-radius: var(--radius-lg); }
+#tbl thead th:last-child { border-top-right-radius: var(--radius-lg); }
+
+.th-icon {
+  vertical-align: middle;
+  margin-right: 6px;
+  color: #888;
 }
 
+td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  font-size: 14px;
+  color: var(--pico-color);
+  background-color: #fff;
+  vertical-align: middle;
+}
+td:last-child { border-right: none; }
+
+/* orden por columna */
 #tbl th[data-sort] { cursor: pointer; user-select: none; white-space: nowrap; }
 #tbl th[data-sort]:hover { color: var(--pico-primary); }
-#tbl th.sort-asc::after { content: " ▲"; font-size: .7em; }
-#tbl th.sort-desc::after { content: " ▼"; font-size: .7em; }
+#tbl th.sort-asc .th-label::after { content: " ▲"; font-size: .7em; }
+#tbl th.sort-desc .th-label::after { content: " ▼"; font-size: .7em; }
+#tbl th.sort-asc:not(:has(.th-label))::after { content: " ▲"; font-size: .7em; }
+#tbl th.sort-desc:not(:has(.th-label))::after { content: " ▼"; font-size: .7em; }
 
 /* filtros de headers booleanos (both -> on -> off) */
 #tbl th[data-col="verif"],
@@ -270,43 +305,110 @@ details.problema > summary:hover { color: var(--pico-primary); }
 #tbl th[data-vf="on"], #tbl th[data-vf="off"] { color: var(--pico-primary); }
 #tbl th[data-vf="on"]::after { content: " ✓"; }
 #tbl th[data-vf="off"]::after { content: " ✗"; }
-#tbl { margin-bottom: .75rem; }
-#tbl td, #tbl th { padding: .35rem .6rem; vertical-align: middle; }
+
 #tbl .num { text-align: right; }
+.checkbox-cell { text-align: center; }
 
 /* miniaturas (tamaño controlado por el selector "Fotos": 1x/2x/3x) */
 #tbl { --thumb-h: 44px; }
 #tbl[data-imgsize="2"] { --thumb-h: 88px; }
 #tbl[data-imgsize="3"] { --thumb-h: 132px; }
-#tbl td.img { width: calc(var(--thumb-h) * 2.05); }
+#tbl td.img { width: calc(var(--thumb-h) * 2.05); padding: 6px 16px; }
 #tbl td.img img {
   height: var(--thumb-h);
   width: auto;
   max-width: calc(var(--thumb-h) * 2.4);
   object-fit: contain;
-  border-radius: 3px;
+  border-radius: 4px;
   cursor: zoom-in;
   display: block;
 }
 
-/* alineación por columna: País/Año/Full/Colnect centradas, Front a la derecha */
+/* alineación por columna: País/Año centradas (Full/Colnect/Numista/Verif ya
+   se centran vía .checkbox-cell, .ext o .verif), Front a la derecha */
 #tbl th[data-col="pais"], #tbl td[data-col="pais"],
-#tbl th[data-col="anio"], #tbl td[data-col="anio"],
-#tbl th[data-col="full"], #tbl td[data-col="full"],
-#tbl th[data-col="colnect"], #tbl td[data-col="colnect"] { text-align: center; }
+#tbl th[data-col="anio"], #tbl td[data-col="anio"] { text-align: center; }
 #tbl th[data-col="front"], #tbl td[data-col="front"] { text-align: right; }
 #tbl td[data-col="full"] img { margin-left: auto; margin-right: auto; }
 #tbl td[data-col="front"] img { margin-left: auto; }
 
-/* links de la tabla */
+/* ---------- celdas con estilo propio (inspiradas en las píldoras del template) ---------- */
+
+#rows tr td:first-child {
+  font-weight: 500;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 13px;
+}
+
+#tbl td[data-col="monto"] { font-weight: 600; }
+#tbl td[data-col="denominacion"] { font-weight: 500; }
+
+.moneda-pill {
+  background-color: #f5f5f5;
+  color: #555;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  display: inline-block;
+}
+
+.iso-pill {
+  background-color: #f5edff;
+  color: #7e22ce;
+  padding: 3px 9px;
+  border-radius: 4px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+
+/* celdas de texto secundario: columnas de detalle opcionales */
+#tbl td[data-col="id"],
+#tbl td[data-col="subtipo"],
+#tbl td[data-col="alternativas"],
+#tbl td[data-col="firmas"],
+#tbl td[data-col="temas"],
+#tbl td[data-col="vigencia"],
+#tbl td[data-col="obs"],
+#tbl td[data-col="serie"],
+#tbl td[data-col="banco"],
+#tbl td[data-col="zona"],
+#tbl td[data-col="serial"],
+#tbl td[data-col="condicion"],
+#tbl td[data-col="grupo"] {
+  font-size: 13px;
+  color: #555;
+  max-width: 260px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* links externos (Colnect / Numista) como píldora azul, igual que .website-pill del template */
 #tbl td.ext { text-align: center; }
+#tbl td.ext a {
+  background-color: #eef5ff;
+  color: #0055cc;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+  text-decoration: none;
+}
+#tbl td.ext a:hover { background-color: #e0edff; }
+
 #tbl td.verif { text-align: center; }
 #tbl td.verif input { margin: 0; cursor: pointer; }
+
+a.pick-link { text-decoration: none; color: inherit; }
+a.pick-link:hover { text-decoration: underline; color: var(--pico-primary); }
 
 /* celdas editables (click -> input, Enter guarda, Esc cancela) */
 #tbl td.editable { cursor: text; }
 #tbl td.editable:hover {
-  background: var(--pico-text-selection-color, rgba(2, 154, 232, .12));
+  background: rgba(0, 85, 204, .08);
   border-radius: 4px;
 }
 #tbl input.cell-edit {
@@ -325,40 +427,325 @@ details.problema > summary:hover { color: var(--pico-primary); }
   padding: .1rem 1.8rem .1rem .4rem;
   font-size: inherit;
 }
-#tbl td.ext a { text-decoration: none; font-size: 1.05rem; }
-a.pick-link { text-decoration: none; }
-a.pick-link:hover { text-decoration: underline; }
 
-/* modal de detalle */
-#detail article {
-  max-width: min(94vw, 640px);
-  padding: .75rem;
+/* ---------- ZONA 5: footer de la tabla (paginación y controles, sticky) ---------- */
+
+.table-footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  border-top: 1px solid var(--border-color);
+  background-color: #fff;
+
+  position: sticky;
+  bottom: 0;
+  z-index: 90;
+  will-change: transform;
+  transform: translateZ(0);
+
+  border-bottom-left-radius: var(--radius-lg);
+  border-bottom-right-radius: var(--radius-lg);
+
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.05);
 }
-#detail article > header {
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.footer-center { display: flex; justify-content: center; }
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+#count { color: var(--pico-muted-color); font-size: 14px; white-space: nowrap; }
+
+#new-note, #rebuild {
+  width: auto;
+  margin: 0;
+  padding: 6px 12px;
+  background: transparent;
+  color: var(--pico-muted-color);
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--radius-md);
+  font-size: .8rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+#new-note:hover, #rebuild:hover:not([disabled]) { color: var(--pico-primary); border-color: var(--pico-primary); }
+#rebuild[disabled] { opacity: .6; cursor: wait; }
+
+/* Selectores tipo píldora (Fotos, Por página) */
+.select-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.label-text {
+  font-size: 14px;
+  color: var(--pico-muted-color);
+  margin-right: -2px;
+  white-space: nowrap;
+}
+#imgsize-label, #perpage-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  white-space: nowrap;
+  color: var(--pico-muted-color);
+  font-size: 14px;
+}
+.select-wrapper select,
+#imgsize, #perpage {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 16px;
+  padding: 6px 30px 6px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  font-family: inherit;
+  outline: none;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+.select-wrapper select:focus,
+#imgsize:focus, #perpage:focus { border-color: var(--pico-primary); }
+.select-icon {
+  position: absolute;
+  right: 10px;
+  pointer-events: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+/* Columnas: <details> con el look de píldora. Pico daba a ".dropdown" su
+   position:relative, el position:absolute + flex del <ul>, y el ocultado
+   del triángulo nativo de <summary> — todo eso hay que declararlo ahora. */
+#cols-dd { position: relative; margin: 0; width: auto; }
+#cols-dd summary {
+  margin: 0;
+  padding: 6px 30px 6px 12px;
+  width: auto;
+  height: auto;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  background-color: transparent;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 16px;
+  list-style: none;
+  cursor: pointer;
+  outline: none;
+}
+#cols-dd summary::-webkit-details-marker { display: none; }
+#cols-dd summary::marker { display: none; }
+#cols-dd summary::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-left: 6px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="%23333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+}
+#cols-dd summary:focus, #cols-dd[open] summary { border-color: var(--pico-primary); }
+/* #cols-dd vive en el footer-left (cerca del borde inferior/izquierdo de la
+   ventana): se abre hacia arriba y anclado a la izquierda para no salir de
+   la pantalla. */
+#cols-dd ul {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  min-width: 12rem;
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  top: auto;
+  bottom: 100%;
+  left: 0;
+  right: auto;
+  margin: 0 0 8px;
+  font-family: var(--pico-font-family);
+  font-size: 13px;
+}
+#cols-dd li { padding: .15rem .75rem; }
+#cols-dd label {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  color: var(--pico-color);
+}
+#cols-dd input[type="checkbox"] { margin: 0; }
+
+/* ---------- Paginación (misma estructura que hoy, look del template) ---------- */
+
+#pager {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  color: var(--pico-muted-color);
+}
+#pager button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  width: auto;
+  margin: 0;
+  padding: 0 8px;
+  background: transparent;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+#pager button:hover:not([disabled]):not(.current) { background-color: #f5f5f5; }
+#pager button.current {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+  font-weight: 500;
+}
+#pager button.current:hover { background-color: #000; }
+#pager button[disabled] { opacity: .35; cursor: default; }
+#pager .gap { padding: 0 4px; color: #999; }
+#pager .page-jump {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0 0 0 8px;
+}
+#pager .page-jump-input {
+  width: 40px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+  -moz-appearance: textfield;
+}
+#pager .page-jump-input::-webkit-outer-spin-button,
+#pager .page-jump-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+#pager .page-jump-input:focus { border-color: var(--pico-primary); }
+#pager .page-jump button {
+  height: 28px;
+  padding: 0 10px;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 6px;
+  background: #fff;
+}
+#pager .page-jump button:hover { border-color: var(--pico-primary); color: var(--pico-primary); }
+
+/* ---------- diálogos (modal / nuevo billete / detalle) ---------- */
+
+/* Pico centraba y atenuaba el fondo de <dialog> automáticamente; sin Pico
+   hay que declararlo a mano (showModal() solo mueve el elemento al top
+   layer, no le da position/display/fondo). */
+dialog {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  background-color: rgba(232, 234, 237, .75);
+  backdrop-filter: blur(6px);
+}
+dialog:not([open]) { display: none; }
+
+dialog article {
+  background: var(--pico-card-background-color);
+  width: 100%;
+  max-height: calc(100vh - 2rem);
+  margin: 1rem;
+  overflow: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+dialog article > header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: .5rem;
-  padding: .4rem .6rem;
+  padding: .6rem .8rem;
+  border-bottom: 1px solid var(--border-color);
 }
-#detail-title { font-weight: 600; flex: 1; }
+dialog article > header button {
+  width: auto;
+  margin: 0;
+  padding: .1rem .6rem;
+  background: transparent;
+  color: var(--pico-muted-color);
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+dialog article > header button:hover { color: var(--pico-color); }
+
+#new-dialog article { max-width: min(94vw, 420px); padding: .75rem; }
+#new-title, #modal-title, #detail-title { font-weight: 600; }
+#new-form { padding: 0 .5rem .5rem; }
+#new-form label { font-size: .9rem; }
+#new-form input { display: block; width: 100%; margin: 4px 0 12px; }
+#new-form button[type="submit"] {
+  margin-top: .25rem;
+  width: auto;
+  padding: 8px 16px;
+  background: var(--pico-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#new-form button[type="submit"]:hover { background: #0044a3; }
+
+#detail article { max-width: min(94vw, 640px); padding: .75rem; }
 #detail-flag {
   height: 28px;
   width: auto;
   border: 1px solid var(--pico-muted-border-color);
   border-radius: 2px;
 }
-#detail-close {
-  width: auto;
-  margin: 0;
-  padding: .1rem .6rem;
-  background: transparent;
-  color: inherit;
-  border: none;
-  font-size: 1.1rem;
-  cursor: pointer;
-}
+#detail-title { flex: 1; }
 #detail-body {
   display: grid;
   grid-template-columns: max-content 1fr;
@@ -373,13 +760,7 @@ a.pick-link:hover { text-decoration: underline; }
   align-self: baseline;
 }
 #detail-body dd { margin: 0; overflow-wrap: anywhere; }
-
-/* navegación y fotos del detalle */
-#detail-wrap {
-  display: flex;
-  align-items: center;
-  gap: .25rem;
-}
+#detail-wrap { display: flex; align-items: center; gap: .25rem; }
 #detail-main { flex: 1; min-width: 0; }
 #detail .arrow {
   width: auto;
@@ -388,12 +769,13 @@ a.pick-link:hover { text-decoration: underline; }
   background: transparent;
   color: inherit;
   border: 1px solid var(--pico-muted-border-color);
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   font-size: 1.4rem;
   line-height: 1.2;
   align-self: center;
   cursor: pointer;
 }
+#detail .arrow:hover:not([disabled]) { border-color: var(--pico-primary); color: var(--pico-primary); }
 #detail .arrow[disabled] { opacity: .3; cursor: default; }
 #detail-imgs {
   display: flex;
@@ -410,131 +792,168 @@ a.pick-link:hover { text-decoration: underline; }
   cursor: zoom-in;
 }
 
-/* paginación */
-#pager {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .25rem;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-#pager button {
-  width: auto;
-  margin: 0;
-  padding: .25rem .7rem;
-  background: transparent;
-  color: inherit;
-  border: 1px solid var(--pico-muted-border-color);
-}
-#pager button.current {
-  background: var(--pico-primary);
-  border-color: var(--pico-primary);
-  color: var(--pico-primary-inverse);
-}
-#pager button[disabled] { opacity: .35; cursor: default; }
-#pager .gap { padding: .25rem .3rem; color: var(--pico-muted-color); }
-#pager .page-jump {
-  display: flex;
-  gap: .25rem;
-  margin: 0 0 0 .5rem;
-}
-#pager .page-jump-input {
-  width: 4.5rem;
-  margin: 0;
-  padding: .25rem .4rem;
-  text-align: center;
-}
-#pager .page-jump button { padding-left: .7rem; padding-right: .7rem; }
+#modal article { max-width: min(96vw, 1100px); padding: .75rem; }
+#modal-body { text-align: center; }
+#modal-img { max-width: 100%; max-height: 82vh; object-fit: contain; }
 
-/* modal */
-#modal article {
-  max-width: min(96vw, 1100px);
-  padding: .75rem;
+/* Diálogo de detalle de país (stats.html) */
+.modal-article { max-width: min(94vw, 600px); padding: 1rem; }
+
+/* ---------- página de problemas ---------- */
+
+/* Pico daba a <main class="container"> su ancho/centrado/padding; ahora hay
+   que declararlo (mismo tope de 1200px que .container-base en el catálogo). */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
 }
-#modal article > header {
+
+#prob-top nav { margin-bottom: .5rem; }
+#prob-top nav a { color: var(--pico-muted-color); text-decoration: none; }
+#prob-top nav a:hover { color: var(--pico-primary); }
+#prob-top h1 { margin-bottom: .25rem; font-size: 24px; font-weight: 600; }
+#gen { color: var(--pico-muted-color); font-size: .85rem; }
+
+#secciones {
+  background-color: var(--pico-card-background-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 1.5rem;
+}
+
+details.problema { margin-bottom: 1.5rem; }
+details.problema:last-child { margin-bottom: 0; }
+details.problema > summary {
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: .35rem 0;
+  list-style-position: outside;
+  color: var(--pico-color);
+}
+details.problema > summary:hover { color: var(--pico-primary); }
+.problema { margin-bottom: 2rem; }
+.problema h2 { font-size: 1.1rem; margin-bottom: .25rem; }
+.problema .badge {
+  display: inline-block;
+  padding: 1px 10px;
+  border-radius: var(--radius-pill);
+  background: #f5edff;
+  color: #7e22ce;
+  font-size: .78rem;
+  font-weight: 700;
+  vertical-align: middle;
+}
+.problema .desc { color: var(--pico-muted-color); font-size: .9rem; }
+.problema .ok { color: #10b981; }
+.problema .table-wrap { border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: auto; }
+.problema table { min-width: 0; }
+.problema td { font-size: .85rem; overflow-wrap: anywhere; vertical-align: middle; }
+.problema td code {
+  font-size: .8rem;
+  word-break: break-all;
+  background: none;
+  padding: 0;
+}
+.problema td.err-detalle code { color: #b00020; }
+.problema td.img { width: 96px; }
+.problema td.img img {
+  height: 44px;
+  width: auto;
+  max-width: 106px;
+  object-fit: contain;
+  border-radius: 4px;
+  cursor: zoom-in;
+  display: block;
+}
+.problema .edit-folder {
   display: flex;
+  gap: .4rem;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: .5rem;
-  padding: .4rem .6rem;
+  min-width: 24rem;
 }
-#modal-title { font-weight: 600; }
-#modal-close {
+.problema .edit-folder input {
+  flex: 1;
+  height: auto;
+  margin: 0;
+  padding: .3rem .5rem;
+  font-size: .85rem;
+}
+.problema .edit-folder button,
+.problema button.gen-full {
   width: auto;
   margin: 0;
-  padding: .1rem .6rem;
-  background: transparent;
-  color: inherit;
-  border: none;
-  font-size: 1.1rem;
+  padding: .3rem .7rem;
+  font-size: .8rem;
+  white-space: nowrap;
+  background: #fff;
+  color: var(--pico-color);
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--radius-md);
   cursor: pointer;
 }
-#modal-body { text-align: center; }
-#modal-img {
-  max-width: 100%;
-  max-height: 82vh;
-  object-fit: contain;
+.problema .edit-folder button:hover,
+.problema button.gen-full:hover { border-color: var(--pico-primary); color: var(--pico-primary); }
+.problema td.files { color: var(--pico-muted-color); font-size: .8rem; }
+.problema .edit-folder.pick-edit { min-width: 15rem; }
+.problema .edit-folder.url-edit { min-width: 22rem; }
+.problema td.upload-cell { min-width: 13rem; }
+.problema input.upload-photo {
+  width: 100%;
+  max-width: 14rem;
+  height: auto;
+  margin: 0;
+  padding: .2rem;
+  font-size: .75rem;
 }
 
 /* ---- móvil: tabla como tarjetas ---- */
 @media (max-width: 720px) {
+  main.container-fluid { padding-top: 12px; gap: 12px; }
+  .top-bar { padding: 0 16px; }
+  .search-container { padding: 0 10px 0 16px; }
   #alert-link, #imgsize-label { display: none !important; }
 
-  /* Bottom Navigation for Controls */
-  #meta { margin-bottom: 0; }
-  #controls-container {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: var(--pico-background-color);
-    border-top: 1px solid var(--pico-muted-border-color);
-    padding: 0.75rem;
-    z-index: 100;
-    box-shadow: 0 -4px 12px rgba(0,0,0,0.08);
+  .table-footer {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 8px;
+    padding: 12px 16px;
   }
-  #controls {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: center;
-  }
-  #controls > * {
-    flex: 1 1 auto;
-    margin: 0;
-    font-size: 0.85rem;
-    padding: 0.4rem 0.6rem;
-  }
+  .footer-left, .footer-right { justify-content: center; }
 
-  /* Space for bottom nav */
-  body { padding-bottom: 80px; }
-
-  /* Table as Cards */
+  /* Tabla como tarjetas */
+  #tbl { min-width: 0; }
   #tbl thead { display: none; }
   #tbl tr {
     display: block;
     background: #fff;
-    border: 1px solid var(--pico-muted-border-color);
-    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
     padding: 1rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin: 1rem;
+    box-shadow: var(--shadow-soft);
   }
-  #tbl tr:active {
-    transform: scale(0.98);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-  }
+  #tbl tbody { display: block; }
 
   #tbl td {
     display: grid;
     grid-template-columns: 90px 1fr;
     gap: 0.5rem;
     border: none;
-    padding: 0.2rem 0;
+    padding: 0.25rem 0;
     text-align: left !important;
     font-size: 1rem;
+    max-width: none;
+    white-space: normal;
+  }
+
+  /* Las píldoras (moneda/ISO/enlaces) no deben estirarse a todo el ancho
+     de la columna de valor en la vista de tarjetas móvil. */
+  #tbl td.ext a, #tbl td .moneda-pill, #tbl td .iso-pill {
+    justify-self: start;
   }
 
   #tbl td::before {
@@ -546,19 +965,19 @@ a.pick-link:hover { text-decoration: underline; }
     font-weight: 700;
   }
 
-  /* Highlight Main Info */
-  #tbl td[data-col="pais"], 
-  #tbl td[data-sort="pick"] { 
-    font-size: 1.2rem;
+  /* Info principal destacada */
+  #tbl td[data-col="pais"],
+  #rows tr td:first-child {
+    font-size: 1.15rem;
     font-weight: 700;
     color: var(--pico-primary);
     grid-column: 1 / -1;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
+    font-family: inherit;
   }
-  #tbl td[data-col="pais"]::before, 
-  #tbl td[data-sort="pick"]::before { display: none; }
+  #tbl td[data-col="pais"]::before,
+  #rows tr td:first-child::before { display: none; }
 
-  /* Image handling */
   #tbl td.img {
     display: block;
     width: 100%;
@@ -571,9 +990,8 @@ a.pick-link:hover { text-decoration: underline; }
     height: auto;
     max-height: 35vh;
     object-fit: contain;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     background: #fdfdfd;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
 
   #tbl input.cell-edit, #tbl select.cell-edit {
@@ -581,4 +999,3 @@ a.pick-link:hover { text-decoration: underline; }
     padding: 0.2rem 0.4rem;
   }
 }
-

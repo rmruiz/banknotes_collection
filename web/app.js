@@ -436,7 +436,11 @@ function render() {
     if (key === "denominacion") {
       return `<td data-label="${t("denominacion")}" data-col="denominacion" class="${isEditMode ? "editable" : ""}">${esc(denominationFullDisplay(r))}</td>`;
     }
-    return `<td data-label="${t(key)}" data-col="${key}" class="${isEditable ? "editable" : ""}">${esc(r[key])}</td>`;
+    const val = r[key];
+    if (key === "currency_code" && val) {
+      return `<td data-label="${t(key)}" data-col="${key}" class="${isEditable ? "editable" : ""}" title="${esc(val)}"><span class="iso-pill">${esc(val)}</span></td>`;
+    }
+    return `<td data-label="${t(key)}" data-col="${key}" class="${isEditable ? "editable" : ""}" title="${esc(val)}">${esc(val)}</td>`;
   };
   const checkCell = (r, col, field) => `
     <td data-label="${t(col)}" data-col="${col}" class="verif">
@@ -450,7 +454,7 @@ function render() {
       ${txtCell(r, "id")}
       <td data-label="${t("pais")}" data-col="pais" class="${isEditMode ? "editable" : ""}">${esc(paisDisplay(r))}</td>
       <td data-label="${t("monto")}" data-col="monto" class="num ${isEditMode ? "editable" : ""}">${fmtValor(r.valor)}</td>
-      <td data-label="${t("moneda")}" data-col="moneda" class="${isEditMode ? "editable" : ""}" title="${esc(r.moneda)}">${esc(currencyDisplay(r))}</td>
+      <td data-label="${t("moneda")}" data-col="moneda" class="${isEditMode ? "editable" : ""}" title="${esc(r.moneda)}">${currencyDisplay(r) ? `<span class="moneda-pill">${esc(currencyDisplay(r))}</span>` : ""}</td>
       ${txtCell(r, "currency_code")}
       ${txtCell(r, "denominacion")}
       ${txtCell(r, "subtipo")}
@@ -859,11 +863,13 @@ function applyI18n() {
   $("#cols-dd summary").textContent = t("columns");
   $("#imgsize-label").firstChild.nodeValue = t("photos") + " ";
   $("#perpage-label").firstChild.nodeValue = t("perpage") + " ";
-  // headers de la tabla
+  // headers de la tabla (respeta el icono en .th-label si existe)
   document.querySelectorAll("#tbl thead th").forEach((th) => {
     const key = th.dataset.col || (th.dataset.sort === "pick" ? "pick" : null);
-    if (key === "monto" || key === "valor") th.textContent = t("monto");
-    else if (key) th.textContent = t(key);
+    if (!key) return;
+    const label = (key === "monto" || key === "valor") ? t("monto") : t(key);
+    const span = th.querySelector(".th-label");
+    if (span) span.textContent = label; else th.textContent = label;
   });
   // botón de idioma
   const lt = $("#lang-toggle");
