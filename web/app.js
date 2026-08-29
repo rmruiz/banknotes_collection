@@ -128,6 +128,7 @@ const state = {
   page: 1,
   perPage: 25,
   detailIdx: -1,  // índice del billete mostrado en el modal de detalle
+  mobileDetailIdx: -1,  // índice del billete mostrado en el modal de detalle móvil
   cols: loadCols(),  // columnas visibles
   sort: { key: null, dir: 1 },  // orden activo (dir: 1 asc, -1 desc)
   // filtros cíclicos de columnas booleanas: both -> on -> off
@@ -481,6 +482,13 @@ function render() {
         : ""}</td>
       <td data-label="Numista" data-col="numista" class="ext ${isEditMode ? "editable" : ""}">${r.numista ? `<a href="${esc(r.numista)}" target="_blank" rel="noopener" title="Ver en Numista">✓</a>` : ""}</td>
       ${checkCell(r, "verif", "verificado")}
+      ${!isEditMode ? `
+      <td class="mobile-hero" data-id="${esc(r.id)}">
+        <img src="${esc(r.img_full || r.img_a || r.img_b || "")}"
+             ${r.img_full || r.img_a || r.img_b ? "loading=\"lazy\"" : ""}
+             alt="${esc(r.pick || r.id)}">
+        ${!(r.img_full || r.img_a || r.img_b) ? esc(r.pick || r.id) : ""}
+      </td>` : ""}
     </tr>`).join("");
 
   applyCols();
@@ -639,6 +647,93 @@ function detailStep(delta) {
   if (next < 0 || next >= state.filtered.length) return;
   state.detailIdx = next;
   renderDetail();
+}
+
+/* --- modal de detalle móvil (independiente de #detail, solo modo lectura) --- */
+
+// Todas las columnas de la tabla, en orden de tabla (etiquetas vía t()).
+const MOBILE_DETAIL_FIELDS = [
+  "pick", "id", "pais", "monto", "moneda", "currency_code",
+  "denominacion", "subtipo", "alternativas", "anio", "firmas",
+  "temas", "vigencia", "obs", "serie", "banco", "zona", "serial",
+  "condicion", "grupo", "colnect", "numista",
+  "conmemorativo", "remarcado", "subunidad", "verif",
+];
+
+// Clave de columna -> campo del JSON (igual que en la tabla: monto -> valor, verif -> verificado)
+const MOBILE_DETAIL_SRC = { monto: "valor", verif: "verificado" };
+const mobileDetailRaw = (r, k) => r[MOBILE_DETAIL_SRC[k] || k];
+
+function mobileDetailValue(key, val, r) {
+  if (key === "colnect") {
+    return `<a href="${esc(val)}" target="_blank" rel="noopener">${t("ver_colnect")}</a>`;
+  }
+  if (key === "numista") {
+    return `<a href="${esc(val)}" target="_blank" rel="noopener">Ver en Numista ↗</a>`;
+  }
+  if (key === "monto") return esc(fmtValor(r.valor));
+  if (key === "moneda") return esc(currencyDisplay(r));
+  if (key === "denominacion") return esc(denominationFullDisplay(r));
+  if (key === "pais") {
+    const otro = lang === "en" ? r.pais : r.pais_en;
+    return esc(r.pais_en && r.pais_en !== r.pais
+      ? `${paisDisplay(r)} (${otro})` : paisDisplay(r));
+  }
+  if (typeof val === "boolean") return t("si");
+  return esc(val);
+}
+
+function openMobileDetail(id) {
+  const idx = state.filtered.findIndex((x) => x.id === id);
+  if (idx === -1) return;
+  state.mobileDetailIdx = idx;
+  renderMobileDetail();
+  if (!$("#mobile-detail").open) $("#mobile-detail").showModal();
+}
+
+function renderMobileDetail() {
+  const r = state.filtered[state.mobileDetailIdx];
+  if (!r) return;
+
+  $("#mobile-detail-title").textContent =
+    [r.pick || r.id, paisDisplay(r), denominationFullDisplay(r), r.anio].filter(Boolean).join(" · ");
+
+  const flag = $("#mobile-detail-flag");
+  if (r.flag) {
+    flag.src = r.flag;
+    flag.alt = `Bandera de ${r.pais}`;
+    flag.hidden = false;
+  } else {
+    flag.hidden = true;
+    flag.src = "";
+  }
+
+  $("#mobile-detail-body").innerHTML = MOBILE_DETAIL_FIELDS
+    .filter((k) => {
+      const v = mobileDetailRaw(r, k);
+      if (typeof v === "boolean") return v;           // solo si es true
+      return v !== null && v !== undefined && v !== "";
+    })
+    .map((k) => `<dt>${t(k)}</dt><dd>${mobileDetailValue(k, mobileDetailRaw(r, k), r)}</dd>`)
+    .join("");
+
+  $("#mobile-detail-imgs").innerHTML = [
+    ["img_a", "Front"], ["img_b", "Back"], ["img_full", "Full"],
+  ]
+    .filter(([k]) => r[k])
+    .map(([k, side]) => `<img src="${esc(r[k])}" loading="lazy" alt="${side} ${esc(r.pick)}"
+        data-img="${esc(r[k])}" data-id="${esc(r.id)}" data-side="${side}">`)
+    .join("");
+
+  $("#mobile-detail-prev").disabled = state.mobileDetailIdx <= 0;
+  $("#mobile-detail-next").disabled = state.mobileDetailIdx >= state.filtered.length - 1;
+}
+
+function mobileDetailStep(delta) {
+  const next = state.mobileDetailIdx + delta;
+  if (next < 0 || next >= state.filtered.length) return;
+  state.mobileDetailIdx = next;
+  renderMobileDetail();
 }
 
 /* --- badge de problemas --- */
@@ -1084,6 +1179,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   $("#rows").addEventListener("click", (e) => {
     if (!isEditMode) {
       // En modo lectura, solo permitimos abrir detalle o fotos
+      const hero = e.target.closest("td.mobile-hero");
+      if (hero) { openMobileDetail(hero.dataset.id); return; }
       const pick = e.target.closest("a.pick-link");
       if (pick) {
         e.preventDefault();
@@ -1142,8 +1239,28 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (img) openModal(img.dataset.img, img.dataset.id, img.dataset.side);
   });
   document.addEventListener("keydown", (e) => {
-    if (!detail.open || $("#modal").open) return;
+    if (!detail.open || $("#modal").open || (mobileDetail && mobileDetail.open)) return;
     if (e.key === "ArrowLeft") detailStep(-1);
     if (e.key === "ArrowRight") detailStep(1);
   });
+
+  // Modal de detalle móvil (solo existe en index.html; en index-edit.html no hace nada)
+  const mobileDetail = $("#mobile-detail");
+  if (mobileDetail) {
+    $("#mobile-detail-close").addEventListener("click", () => mobileDetail.close());
+    mobileDetail.addEventListener("click", (e) => {
+      if (e.target === mobileDetail) mobileDetail.close();   // clic fuera del cuadro
+    });
+    $("#mobile-detail-prev").addEventListener("click", () => mobileDetailStep(-1));
+    $("#mobile-detail-next").addEventListener("click", () => mobileDetailStep(1));
+    $("#mobile-detail-imgs").addEventListener("click", (e) => {
+      const img = e.target.closest("img[data-img]");
+      if (img) openModal(img.dataset.img, img.dataset.id, img.dataset.side);
+    });
+    document.addEventListener("keydown", (e) => {
+      if (!mobileDetail.open || detail.open || $("#modal").open) return;
+      if (e.key === "ArrowLeft") mobileDetailStep(-1);
+      if (e.key === "ArrowRight") mobileDetailStep(1);
+    });
+  }
 });

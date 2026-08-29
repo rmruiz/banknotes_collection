@@ -798,6 +798,68 @@ dialog article > header button:hover { color: var(--pico-color); }
   cursor: zoom-in;
 }
 
+/* ---------- Detalle móvil (modo lectura) ----------
+   La celda .mobile-hero solo se renderiza en lectura; por defecto está
+   oculta (escritorio) y el bloque @media 720px la muestra como tarjeta. */
+.mobile-hero { display: none; }
+
+/* En móvil la hoja ocupa toda la pantalla (ver bloque @media 720px); en
+   pantallas anchas cae a un fallback defensivo igual que #detail (el
+   diálogo es inalcanzable ahí porque no se muestra la celda héroe). */
+#mobile-detail article { max-width: min(94vw, 640px); }
+#mobile-detail-flag {
+  height: 28px;
+  width: auto;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 2px;
+}
+#mobile-detail-title { flex: 1; }
+#mobile-detail-body {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: .3rem 1rem;
+  margin: 0 .25rem .5rem;
+}
+#mobile-detail-body dt {
+  color: var(--pico-muted-color);
+  font-size: .85rem;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  align-self: baseline;
+}
+#mobile-detail-body dd { margin: 0; overflow-wrap: anywhere; }
+#mobile-detail-wrap { display: flex; align-items: center; gap: .25rem; }
+#mobile-detail-main { flex: 1; min-width: 0; }
+#mobile-detail .arrow {
+  width: auto;
+  margin: 0;
+  padding: .2rem .55rem;
+  background: transparent;
+  color: inherit;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--radius-md);
+  font-size: 1.4rem;
+  line-height: 1.2;
+  align-self: center;
+  cursor: pointer;
+}
+#mobile-detail .arrow:hover:not([disabled]) { border-color: var(--pico-primary); color: var(--pico-primary); }
+#mobile-detail .arrow[disabled] { opacity: .3; cursor: default; }
+#mobile-detail-imgs {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  align-items: center;
+  margin: .75rem 0 .25rem;
+}
+#mobile-detail-imgs img {
+  max-width: 100%;
+  max-height: 35vh;
+  object-fit: contain;
+  border-radius: 4px;
+  cursor: zoom-in;
+}
+
 #modal article { max-width: min(96vw, 1100px); padding: .75rem; }
 #modal-body { text-align: center; }
 #modal-img { max-width: 100%; max-height: 82vh; object-fit: contain; }
@@ -964,6 +1026,33 @@ details.problema > summary:hover { color: var(--pico-primary); }
 
   /* Un "encabezado" sin datos se omite por completo. */
   body:not(.edit-mode) #tbl td:empty { display: none; }
+
+  /* Modo lectura en móvil: la tarjeta es solo la imagen héroe (casi toda
+     la pantalla). Se oculta todo lo demás (pick, datos, píldoras, casillas
+     y miniaturas); tocar la imagen abre #mobile-detail. */
+  body:not(.edit-mode) #tbl td { display: none; }
+  body:not(.edit-mode) #tbl td.mobile-hero { display: block; width: 100%; margin: 0; padding: 0; }
+  body:not(.edit-mode) #tbl td.mobile-hero img {
+    width: 100%;
+    height: auto;
+    max-height: 85vh;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border-radius: var(--radius-md);
+    background: #fdfdfd;
+    cursor: pointer;
+  }
+  body:not(.edit-mode) #rows tr { padding: .5rem; margin: .5rem; }
+
+  /* #mobile-detail: hoja a pantalla completa en móvil. */
+  #mobile-detail article {
+    width: 100%;
+    max-width: none;
+    max-height: 100vh;
+    margin: 0;
+    border-radius: 0;
+  }
 
   /* Las píldoras (moneda/ISO/enlaces) no deben estirarse a todo el ancho
      de la columna de valor en la vista de tarjetas móvil. */
