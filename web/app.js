@@ -479,9 +479,7 @@ function render() {
       <td data-label="Colnect" data-col="colnect" class="ext ${isEditMode ? "editable" : ""}">${r.colnect
         ? `<a href="${esc(r.colnect)}" target="_blank" rel="noopener" title="${t("ver_colnect")}">↗</a>`
         : ""}</td>
-      <td data-label="Numista" data-col="numista" class="ext ${isEditMode ? "editable" : ""}">
-        ${r.numista ? `<a href="${esc(r.numista)}" target="_blank" rel="noopener" title="Ver en Numista">✓</a>` : ""}
-      </td>
+      <td data-label="Numista" data-col="numista" class="ext ${isEditMode ? "editable" : ""}">${r.numista ? `<a href="${esc(r.numista)}" target="_blank" rel="noopener" title="Ver en Numista">✓</a>` : ""}</td>
       ${checkCell(r, "verif", "verificado")}
     </tr>`).join("");
 

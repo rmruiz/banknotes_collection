@@ -402,6 +402,12 @@ td:last-child { border-right: none; }
 #tbl td.verif { text-align: center; }
 #tbl td.verif input { margin: 0; cursor: pointer; }
 
+/* El atributo `hidden` que usa el selector "Columnas" debe ganar a las
+   reglas de display de #tbl td (un display de autor pisa la regla del UA
+   [hidden]{display:none}). Sin esto, la vista de tarjetas móvil mostraba
+   todas las columnas sin importar la selección. */
+#tbl td[hidden] { display: none !important; }
+
 a.pick-link { text-decoration: none; color: inherit; }
 a.pick-link:hover { text-decoration: underline; color: var(--pico-primary); }
 
@@ -949,6 +955,15 @@ details.problema > summary:hover { color: var(--pico-primary); }
     max-width: none;
     white-space: normal;
   }
+
+  /* Modo lectura (index.html): tarjetas solo con datos, sin etiquetas.
+     El modo edición (index-edit.html, body.edit-mode) las conserva: al
+     editar se toca la celda y la etiqueta indica qué campo es. */
+  body:not(.edit-mode) #tbl td { display: block; }
+  body:not(.edit-mode) #tbl td::before { content: none; }
+
+  /* Un "encabezado" sin datos se omite por completo. */
+  body:not(.edit-mode) #tbl td:empty { display: none; }
 
   /* Las píldoras (moneda/ISO/enlaces) no deben estirarse a todo el ancho
      de la columna de valor en la vista de tarjetas móvil. */
