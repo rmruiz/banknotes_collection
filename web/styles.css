@@ -992,6 +992,11 @@ details.problema > summary:hover { color: var(--pico-primary); }
   }
   .footer-left, .footer-right { justify-content: center; }
 
+  /* En lectura móvil la tabla solo muestra la imagen héroe, así que la
+     visibilidad de columnas no tiene efecto: se oculta el selector.
+     (En escritorio y en el modo edición móvil sigue disponible.) */
+  body:not(.edit-mode) #cols-dd { display: none; }
+
   /* Tabla como tarjetas */
   #tbl { min-width: 0; }
   #tbl thead { display: none; }
