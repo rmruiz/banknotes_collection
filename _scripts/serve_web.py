@@ -559,7 +559,7 @@ class Handler(SimpleHTTPRequestHandler):
             return self._json_error(400,
                                     f"sin bandera para {country_es}")
 
-        pfull = FULL / f"{_id}.jpg"
+        pfull = FULL / f"{_id}.webp"
         try:
             with WRITE_LOCK:
                 with tempfile.TemporaryDirectory() as td:
@@ -568,7 +568,7 @@ class Handler(SimpleHTTPRequestHandler):
         except Exception as e:   # noqa: BLE001 — reportar fallo de magick
             return self._json_error(500, f"error al componer: {e}")
 
-        self._json_ok({"ok": True, "id": _id, "full": f"_FULL/{_id}.jpg"})
+        self._json_ok({"ok": True, "id": _id, "full": f"_FULL/{_id}.webp"})
         self.log_message("generar_full %s", _id)
 
     def _handle_new_note(self, pais, pick):
@@ -637,7 +637,7 @@ class Handler(SimpleHTTPRequestHandler):
 
     def _handle_change_pick(self, _id, pick):
         """Cambia el pick de un billete. El id deriva del pick, así que
-        renombra en cascada: JSON, carpeta de fotos y _FULL/<id>.jpg."""
+        renombra en cascada: JSON, carpeta de fotos y _FULL/<id>.webp."""
         if not isinstance(_id, str) or not ID_RE.match(_id):
             return self._json_error(400, "id inválido")
         if not isinstance(pick, str) or not PICK_RE.match(pick.strip()):
@@ -678,9 +678,9 @@ class Handler(SimpleHTTPRequestHandler):
                             if f and f != target:
                                 f.rename(target)
                     # imagen consolidada
-                    old_full = FULL / f"{_id}.jpg"
+                    old_full = FULL / f"{_id}.webp"
                     if old_full.exists():
-                        old_full.rename(FULL / f"{new_id}.jpg")
+                        old_full.rename(FULL / f"{new_id}.webp")
         except OSError as e:
             return self._json_error(500, f"error al cambiar pick: {e}")
 

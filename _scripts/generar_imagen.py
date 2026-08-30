@@ -15,9 +15,11 @@ Uso:
     python3 _scripts/generar_imagen.py --skip-existing # no pregunta, salta existentes
 
 Reglas:
- - Si el destino (_FULL/<id>.jpg) ya existe: pregunta sobrescribir / todo / saltar / saltar todo.
+ - Si el destino (_FULL/<id>.webp) ya existe: pregunta sobrescribir / todo / saltar / saltar todo.
  - Verifica que existan bandera, front y back; si falta alguno lo informa y salta.
  - NO borra ninguna imagen. Solo (re)escribe en _FULL/ si corresponde.
+ - El destino se escribe como WebP lossy (q80, method=6): nitidez de número de
+   serie garantizada y ~53% menos que el JPG anterior (ver requirement.md).
 """
 import json
 import subprocess
@@ -32,6 +34,10 @@ FLAGS = REPO / "web" / "_flags"
 EMAIL = "banknotes.cl@gmail.com"
 SIZE_PAIS, SIZE_DENOM, SIZE_FIRMAS, SIZE_EMAIL = 120, 80, 60, 30
 FONT = "Verdana"
+# El destino _FULL se escribe en WebP lossy: q80 es la calidad mínima con
+# números de serie nítidos (comparativa q75-q90, ver requirement.md).
+FULL_QUALITY = 80
+FULL_WEBP_METHOD = 6
 
 FILTER = None
 MODE = None  # None | 'overwrite_all' | 'skip_all'
@@ -168,7 +174,10 @@ def compose(d, front, back, flag, dest, tmp):
        "-append", T("join.jpg"))
     mg(T("join.jpg"), T("b.jpg"), "-background", "black", "-gravity", "south",
        "-append", T("out.jpg"))
-    mg(T("out.jpg"), "-resize", "1080x1350", dest)
+    # codificación final en WebP (el formato lo decide la extensión de dest)
+    mg(T("out.jpg"), "-resize", "1080x1350",
+       "-quality", str(FULL_QUALITY),
+       "-define", f"webp:method={FULL_WEBP_METHOD}", dest)
 
 
 def ask(dest_name):
@@ -202,8 +211,8 @@ def main():
         # rutas por convención a partir del id
         pfront = REPO / "web" / "_originals" / _id / f"{_id}_A.jpg"
         pback = REPO / "web" / "_originals" / _id / f"{_id}_B.jpg"
-        pfull = REPO / "web" / "_FULL" / f"{_id}.jpg"
-        full = f"web/_FULL/{_id}.jpg"
+        pfull = REPO / "web" / "_FULL" / f"{_id}.webp"
+        full = f"web/_FULL/{_id}.webp"
         c_code = d.get("country_code", "")
         c_info = get_country_by_code(c_code) if c_code else get_country_by_name((d.get("country") or {}).get("es", ""))
         country_es = c_info["name"]["es"] if c_info else (d.get("country") or {}).get("es", "")

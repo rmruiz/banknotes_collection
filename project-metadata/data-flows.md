@@ -133,7 +133,7 @@ Flujo completo de `web/app.js:startEdit` a `_json/`:
 
 1. `web/problemas.js:generarFull(row, btn)` → `POST /api/generar_full` `{id}`.
 2. `serve_web.py:_handle_generar_full`:
-   - Calcula `dest = _FULL/<id>.jpg`, fotos A/B en `_originals/<id>/`,
+   - Calcula `dest = _FULL/<id>.webp`, fotos A/B en `_originals/<id>/`,
      bandera vía `generar_imagen.flag_for_note(d)`.
    - `generar_imagen.compose(d, front, back, flag, dest, tmp)`
      (`_scripts/generar_imagen.py`; front + info + bandera + back); sin
@@ -149,7 +149,7 @@ Flujo completo de `web/app.js:startEdit` a `_json/`:
      (error si colisiona).
    - Renombra: JSON (`_json/<…>/<id>.json → <new_id>.json`, actualiza
      `d.id`/`d.pick_number`), carpeta de fotos y archivos internos
-     (`<id>_A.jpg → <new_id>_A.jpg`), `_FULL/<id>.jpg → <new_id>.jpg`.
+     (`<id>_A.jpg → <new_id>_A.jpg`), `_FULL/<id>.webp → <new_id>.webp`.
    - Actualiza `IDS` y regenera el registro (id/pick nuevos) en
      `collection.json` in-place.
 3. UI: `rebuild + load`.

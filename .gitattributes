@@ -1,5 +1,7 @@
 web/_FULL/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+web/_FULL/**/*.webp filter=lfs diff=lfs merge=lfs -text
 web/_FULL/*.jpg filter=lfs diff=lfs merge=lfs -text
+web/_FULL/*.webp filter=lfs diff=lfs merge=lfs -text
 web/_flags/*.jpg filter=lfs diff=lfs merge=lfs -text
 web/_originals/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 _jpg_examples/*.jpg filter=lfs diff=lfs merge=lfs -text

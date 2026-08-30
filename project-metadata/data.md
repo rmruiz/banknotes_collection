@@ -12,13 +12,13 @@ Definida UNA sola vez en `_scripts/util.py` (importada por `build_web.py`,
   Ej.: `ar` + `P-367a` → `ar-p367a`. El id ES:
   - el nombre del archivo: `_json/<carpeta>/<id>.json`
   - la carpeta de fotos: `web/_originals/<id>/`
-  - la imagen compuesta: `web/_FULL/<id>.jpg`
+  - la imagen compuesta: `web/_FULL/<id>.webp` (WebP lossy q80)
 - **Rutas de fotos por convención** (no se almacenan en el JSON):
   | Dato | Ruta |
   |---|---|
   | Front | `web/_originals/<id>/<id>_A.jpg` |
   | Back | `web/_originals/<id>/<id>_B.jpg` |
-  | Full (compuesta) | `web/_FULL/<id>.jpg` |
+  | Full (compuesta) | `web/_FULL/<id>.webp` (WebP q80, method=6) |
   | Miniaturas | `web/thumbs/<id>_A.jpg`, `<id>_B.jpg`, `<id>_F.jpg` |
   | Bandera | `web/_flags/FLAG_*.jpg` vía `countries.json[<code>].flag` (alias: `build_web.py:FLAG_ALIASES`, p. ej. `FIYI→FIJI`) |
 - **Validación de id** (API): `ID_RE = ^[a-z0-9][a-z0-9.\-]{0,80}$`
@@ -187,7 +187,7 @@ Cada registro lo produce `_scripts/build_web.py:make_record` y tiene
 | `conmemorativo`, `remarcado`, `verificado` | bool | `d.commemorative` / `d.overprint` / `d.verificado` |
 | `flag` | str | `_flags/<FLAG_X.jpg>?v=<firma>` o `""` (`build_web.py:flag_file_for_note`) |
 | `thumb_a`, `thumb_b`, `thumb_f` | str | `thumbs/<id>_X.jpg?v=<firma>` o `""` si no existe |
-| `img_a`, `img_b`, `img_full` | str | `_originals/…?v=<firma>`, `_FULL/<id>.jpg?v=<firma>` o `""` |
+| `img_a`, `img_b`, `img_full` | str | `_originals/…?v=<firma>`, `_FULL/<id>.webp?v=<firma>` o `""` |
 | `search` | str | `build_web.py:build_search`: id, pick, país (es/en), denominacion, moneda, valor, año, código/nombre/símbolo/estado de moneda, firmas, temas, obs, grupo, subtipo, alternativas, vigencia, serie, banco, zona, serial, condición + las palabras `conmemorativo`/`remarcado` si aplican. Todo unaccent+lower, espacios colapsados. |
 
 **Cacheo**: las URLs de imágenes llevan `?v=<md5[:10] de mtime_ns-size>`

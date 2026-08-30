@@ -7,7 +7,7 @@
   2. Genera miniaturas con magick (incremental, en paralelo):
      _originals/<id>/<id>_A.jpg -> web/thumbs/<id>_A.jpg
      _originals/<id>/<id>_B.jpg -> web/thumbs/<id>_B.jpg
-     _FULL/<id>.jpg             -> web/thumbs/<id>_F.jpg
+     _FULL/<id>.webp            -> web/thumbs/<id>_F.jpg
 
 Uso:
     python3 _scripts/build_web.py            # incremental
@@ -160,7 +160,7 @@ def make_record(d):
     # rutas por convención a partir del id (no se guardan en los JSON)
     img_a, thumb_a = resolve(f"_originals/{_id}/{_id}_A.jpg", "A")
     img_b, thumb_b = resolve(f"_originals/{_id}/{_id}_B.jpg", "B")
-    img_f, thumb_f = resolve(f"_FULL/{_id}.jpg", "F")
+    img_f, thumb_f = resolve(f"_FULL/{_id}.webp", "F")
 
     c_code = d.get("country_code", "")
     c_info = get_country_by_code(c_code) if c_code else get_country_by_name((d.get("country") or {}).get("es", ""))

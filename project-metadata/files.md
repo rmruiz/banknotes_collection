@@ -27,7 +27,7 @@ banknotes_collection/
 │   ├── d3.min.js, topojson-client.min.js  # librerías vendor commiteadas
 │   ├── _flags/             # banderas FLAG_*.jpg (~210, commiteadas)
 │   ├── _originals/         # fotos por billete: <id>/<id>_A.jpg,_B.jpg (commiteadas)
-│   ├── _FULL/              # imagen compuesta <id>.jpg (commiteadas)
+│   ├── _FULL/              # imagen compuesta <id>.webp (commiteadas)
 │   ├── data/               # GENERADO (gitignored) — salida del build
 │   └── thumbs/             # GENERADO (gitignored) — miniaturas
 ├── project-metadata.md     # este metadata (punto de entrada)
@@ -69,7 +69,7 @@ banknotes_collection/
 | `web/_flags/FLAG_*.jpg` | Banderas por país; se resuelven vía `countries.json[<code>].flag` (o alias en `build_web.py:FLAG_ALIASES`) | ✅ commiteado |
 | `web/_originals/<id>/<id>_A.jpg` | Foto del frente (se sirve también vía `/api/upload_photo`) | ✅ commiteado |
 | `web/_originals/<id>/<id>_B.jpg` | Foto del reverso | ✅ commiteado |
-| `web/_FULL/<id>.jpg` | Imagen compuesta front+info+bandera+back (`generar_imagen.py:compose`); commiteada, regenerable | ✅ commiteado |
+| `web/_FULL/<id>.webp` | Imagen compuesta front+info+bandera+back (WebP lossy q80, method=6; `generar_imagen.py:compose`); commiteada, regenerable | ✅ commiteado |
 
 Son ~3500 archivos versionados bajo `web/` (verificado con `git ls-files`).
 

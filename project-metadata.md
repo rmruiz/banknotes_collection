@@ -5,7 +5,7 @@ personal de billetes, en español). Este documento es el punto de entrada; los
 detalles están en los archivos de `project-metadata/`.
 
 > Regla de oro: **`_json/` es la única fuente de verdad**. Todo lo que se
-> genere a partir de ella (`web/data/`, `web/thumbs/`, y los `_FULL/*.jpg`
+> genere a partir de ella (`web/data/`, `web/thumbs/`, y los `_FULL/*.webp`
 > compuestos) puede regenerarse con `_scripts/build_web.py` y nunca debe
 > tratarse como fuente.
 
@@ -46,7 +46,7 @@ Un catálogo de billetes con:
   `etiquetas.pdf`, `web/data.json` (relicto antiguo). Ver
   `project-metadata/files.md`.
 - **Imágenes commiteadas (SÍ fuente)**: `web/_flags/` (banderas),
-  `web/_originals/<id>/` (fotos front/back) y `web/_FULL/<id>.jpg` (imagen
+  `web/_originals/<id>/` (fotos front/back) y `web/_FULL/<id>.webp` (imagen
   compuesta) están versionados en git.
 - **Convención de id**: `<abreviatura-país>-<pick sin separadores, minúsculas>`
   (`util.py:make_note_id`). El id ES el nombre del archivo JSON, de la carpeta
@@ -54,7 +54,7 @@ Un catálogo de billetes con:
   (`serve_web.py:_handle_change_pick`).
 - **Rutas por convención** (no se guardan en el JSON):
   `web/_originals/<id>/<id>_A.jpg` (front), `web/_originals/<id>/<id>_B.jpg`
-  (back), `web/_FULL/<id>.jpg`, `web/_flags/FLAG_*.jpg`,
+  (back), `web/_FULL/<id>.webp`, `web/_flags/FLAG_*.jpg`,
   `web/thumbs/<id>_A.jpg` / `_B.jpg` / `_F.jpg`.
 - **Escrituras atómicas + lock**: todo lo que se modifica en disco usa
   `tmp + os.replace` y `WRITE_LOCK` (un solo escritor a la vez).

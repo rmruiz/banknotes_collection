@@ -102,7 +102,7 @@ Convenios que usan `build_web.py`, `serve_web.py`, `generar_imagen.py` y
 
 | Script | Entrada | Qué hace | Efectos / dependencias |
 |---|---|---|---|
-| `generar_imagen.py` | `python3 _scripts/generar_imagen.py [--filter <s>] [--overwrite-all]` o como módulo (`compose`, `flag_for`, `flag_for_note`) | Compone `web/_FULL/<id>.jpg` = front + banda de info (pick, país, denominación, año, moneda, firma) + bandera + back | Escribe `_FULL/`; usa `magick`; **también lo importa `serve_web.py:_handle_generar_full`** |
+| `generar_imagen.py` | `python3 _scripts/generar_imagen.py [--filter <s>] [--overwrite-all]` o como módulo (`compose`, `flag_for`, `flag_for_note`) | Compone `web/_FULL/<id>.webp` (WebP lossy q80, method=6) = front + banda de info (pick, país, denominación, año, moneda, firma) + bandera + back | Escribe `_FULL/`; usa `magick`; **también lo importa `serve_web.py:_handle_generar_full`** |
 | `generar_etiquetas.py` | `python3 _scripts/generar_etiquetas.py` | Genera `etiquetas.pdf` (ReportLab, carta, 1 etiqueta por billete) | Escribe `etiquetas.pdf` (gitignored) |
 | `validate_currencies.py` | `python3 _scripts/validate_currencies.py` → `validate_banknotes()` | Valida los `_json/*/*.json` contra `currencies.json` (códigos existentes, etc.) | Solo lee; salida por stdout |
 | `fix_currency_errors.py` | `python3 _scripts/fix_currency_errors.py` → `get_currencies_by_country_and_year()` | Corrige `denomination.iso4217` por país+año usando `currencies.json` | Escribe JSONs de `_json/`; revisar cambios antes de commitear |
