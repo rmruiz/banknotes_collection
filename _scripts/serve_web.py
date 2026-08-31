@@ -7,7 +7,7 @@ Uso:
     -> http://localhost:<puerto>/web/
 
 Sirve solo la web y los assets de imágenes (web/, _originals/, _FULL/,
-_flags/) y expone:
+_flags_svg/) y expone:
 
     POST /api/update       body: {"id": "cl-p125", "field": "anio", "value": 1961}
         Campos permitidos: pais, valor, moneda, denominacion, anio, verificado.
@@ -75,7 +75,7 @@ HOST_RE = re.compile(r"^(localhost|127\.0\.0\.1)(:\d+)?$")   # anti DNS-rebindin
 FOLDER_RE = re.compile(r"^[\w][\w .\-]{0,118}[\w\-]$", re.ASCII)
 
 # prefijos que el servidor está dispuesto a servir por GET (todo lo demás -> 404).
-# el frontend vive en /web/ y referencia imágenes en /_originals /_FULL /_flags.
+# el frontend vive en /web/ y referencia imágenes en /_originals /_FULL /_flags_svg.
 ALLOWED_GET_PREFIXES = ("/",)
 
 WRITE_LOCK = threading.Lock()
@@ -317,7 +317,7 @@ def _sanitize_jpeg(data: bytes, work_dir: Path) -> bytes:
 
 
 # prefijos que SÍ pueden cachearse (imágenes pesadas e inmutables)
-CACHEABLE_PREFIXES = ("/thumbs/", "/_originals/", "/_FULL/", "/_flags/")
+CACHEABLE_PREFIXES = ("/thumbs/", "/_originals/", "/_FULL/", "/_flags_svg/")
 
 
 class Handler(SimpleHTTPRequestHandler):

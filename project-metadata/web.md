@@ -165,7 +165,7 @@ state = {
   tooltip `#map-tooltip`. Estado por país: verde = posee billetes de su
   `moneda_vigente`; rojo = posee billetes pero no de la moneda vigente;
   gris = nada. Click → `openCountryModal` (dialog `#country-modal`: bandera
-  `../_flags/<flag>`, lista de mini-cards con foto `img_full || thumb_f ||
+  `../_flags_svg/<flag_svg>`, lista de mini-cards con foto `img_full || thumb_f ||
   thumb_a`).
 - Países faltantes (`renderMissingCountries` + `filterMissingCountries`):
   grid `#missing-countries-grid` (contador `#missing-count-header`) + filtro

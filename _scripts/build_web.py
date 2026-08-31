@@ -24,7 +24,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts (util)
-from util import (unaccent, norm_flag, COUNTRIES, CURRENCIES,
+from util import (unaccent, COUNTRIES, CURRENCIES,
                   get_country_by_code, get_country_by_name,
                   get_currency_by_code, is_true, currency_name)   # noqa: E402
 
@@ -33,7 +33,7 @@ JSON_DIR = REPO / "_json"
 WEB = REPO / "web"
 THUMBS = WEB / "thumbs"
 DATA = WEB / "data"
-FLAGS = WEB / "_flags"
+FLAGS_SVG = WEB / "_flags_svg"
 ORIGINALS = WEB / "_originals"
 
 THUMB_WIDTH = 360   # alcanza para mostrar nítido hasta 3x (132px de alto)
@@ -99,31 +99,19 @@ def file_v(path):
     return hashlib.md5(file_sig(path).encode()).hexdigest()[:10]
 
 
-FLAG_INDEX = {norm_flag(fp.stem.replace("FLAG_", "", 1)): fp.name
-              for fp in FLAGS.glob("FLAG_*.jpg")}
-
-FLAG_ALIASES = {
-    "FIYI": "FIJI",
-    "MOLDAVIA": "MOLDOVIA",
-    "REPCENTROAFRICANA": "REPUBLICACENTROAFRICANA",
-    "REPCHECA": "REPUBLICACHECA",
-    "REPDOMINICANA": "REPUBLICADOMINICANA",
-    "BOSNIAYHERZEGOVINA": "BOZNIAYHERZEGOVINA",  # archivo: FLAG_BOZNIA...
-}
-
-
 def flag_file_for_note(d):
+    """SVG de la bandera del billete, resuelto por la clave `flag_svg` del
+    catálogo de países. Devuelve el nombre del SVG solo si existe en
+    web/_flags_svg/; si no, "" (la UI oculta la bandera ausente)."""
     code = d.get("country_code")
     c_info = get_country_by_code(code) if code else None
     if not c_info:
         country_es = (d.get("country") or {}).get("es", "")
         c_info = get_country_by_name(country_es)
-    if c_info and c_info.get("flag"):
-        return c_info["flag"]
-    country_es = (d.get("country") or {}).get("es", "")
-    key = norm_flag(country_es)
-    key = FLAG_ALIASES.get(key, key)
-    return FLAG_INDEX.get(key, "")
+    svg = (c_info or {}).get("flag_svg")
+    if svg and (FLAGS_SVG / svg).exists():
+        return svg
+    return ""
 
 
 def natural_pick_key(pick):
@@ -209,7 +197,7 @@ def make_record(d):
         "conmemorativo": bool(d.get("commemorative")),
         "remarcado": bool(d.get("overprint")),
         "verificado": bool(d.get("verificado")),
-        "flag": (lambda fn: f"_flags/{fn}?v={file_v(FLAGS / fn)}" if fn else "")(
+        "flag": (lambda fn: f"_flags_svg/{fn}?v={file_v(FLAGS_SVG / fn)}" if fn else "")(
             flag_file_for_note(d)),
         "thumb_a": thumb_a, "thumb_b": thumb_b, "thumb_f": thumb_f,
         "img_a": img_a, "img_b": img_b, "img_full": img_f,

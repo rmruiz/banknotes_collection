@@ -29,7 +29,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
-FLAGS = REPO / "web" / "_flags"
+FLAGS = REPO / "web" / "_flags_svg"
 
 EMAIL = "banknotes.cl@gmail.com"
 SIZE_PAIS, SIZE_DENOM, SIZE_FIRMAS, SIZE_EMAIL = 120, 80, 60, 30
@@ -54,7 +54,7 @@ for i, a in enumerate(sys.argv[1:]):
 # Rep. Dominicana, Fiyi, Moldavia, etc.) y las utilidades compartidas
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_web
-from util import norm_flag, get_country_by_code, get_country_by_name, currency_name
+from util import get_country_by_code, get_country_by_name, currency_name
 
 
 def flag_for(country_es):

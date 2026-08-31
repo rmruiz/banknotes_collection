@@ -8,7 +8,6 @@
       "en": "Kosovo"
     },
     "vigente": "si",
-    "flag": "FLAG_KOSOVO.jpg",
     "flag_svg": "xk.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -22,7 +21,6 @@
       "en": "Cameroon"
     },
     "vigente": "si",
-    "flag": "FLAG_CAMEROON.jpg",
     "flag_svg": "cm.svg",
     "folder": "world",
     "moneda_vigente": "XAF"
@@ -36,7 +34,6 @@
       "en": "Togo"
     },
     "vigente": "si",
-    "flag": "FLAG_TOGO.jpg",
     "flag_svg": "tg.svg",
     "folder": "world",
     "moneda_vigente": "XOF"
@@ -50,7 +47,6 @@
       "en": "Chad"
     },
     "vigente": "si",
-    "flag": "FLAG_CHAD.jpg",
     "flag_svg": "td.svg",
     "folder": "world",
     "moneda_vigente": "XAF"
@@ -64,7 +60,6 @@
       "en": "Congo"
     },
     "vigente": "si",
-    "flag": "FLAG_CONGO.jpg",
     "flag_svg": "cg.svg",
     "folder": "world",
     "moneda_vigente": "XAF"
@@ -78,7 +73,6 @@
       "en": "Benin"
     },
     "vigente": "si",
-    "flag": "FLAG_BENIN.jpg",
     "flag_svg": "bj.svg",
     "folder": "world",
     "moneda_vigente": "XOF"
@@ -92,7 +86,6 @@
       "en": "Equatorial Guinea"
     },
     "vigente": "si",
-    "flag": "FLAG_GUINEAEQUATORIAL.jpg",
     "flag_svg": "gq.svg",
     "folder": "world",
     "moneda_vigente": "XAF"
@@ -106,7 +99,6 @@
       "en": "Falkland Islands"
     },
     "vigente": "si",
-    "flag": "FLAG_FALKLANDISLANDS.jpg",
     "flag_svg": "fk.svg",
     "folder": "world",
     "moneda_vigente": "FKP"
@@ -120,7 +112,6 @@
       "en": "French Southern Territories"
     },
     "vigente": "si",
-    "flag": "FLAG_FRENCHSOUTHERNTERRITORIES.jpg",
     "flag_svg": "tf.svg",
     "folder": "world"
   },
@@ -133,7 +124,6 @@
       "en": "Gabon"
     },
     "vigente": "si",
-    "flag": "FLAG_GABON.jpg",
     "flag_svg": "ga.svg",
     "folder": "world",
     "moneda_vigente": "XAF"
@@ -147,7 +137,6 @@
       "en": "Palestine"
     },
     "vigente": "si",
-    "flag": "FLAG_PALESTINE.jpg",
     "flag_svg": "ps.svg",
     "folder": "world",
     "moneda_vigente": "ILS"
@@ -161,7 +150,6 @@
       "en": "Greenland"
     },
     "vigente": "si",
-    "flag": "FLAG_GREENLAND.jpg",
     "flag_svg": "gl.svg",
     "folder": "world",
     "moneda_vigente": "DKK"
@@ -175,7 +163,6 @@
       "en": "Ireland"
     },
     "vigente": "si",
-    "flag": "FLAG_IRELAND.jpg",
     "flag_svg": "ie.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -189,7 +176,6 @@
       "en": "Côte d'Ivoire"
     },
     "vigente": "si",
-    "flag": "FLAG_COTEDIVOIRE.jpg",
     "flag_svg": "ci.svg",
     "folder": "world",
     "moneda_vigente": "XOF"
@@ -203,7 +189,6 @@
       "en": "Latvia"
     },
     "vigente": "si",
-    "flag": "FLAG_LATVIA.jpg",
     "flag_svg": "lv.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -217,7 +202,6 @@
       "en": "Mali"
     },
     "vigente": "si",
-    "flag": "FLAG_MALI.jpg",
     "flag_svg": "ml.svg",
     "folder": "world",
     "moneda_vigente": "XOF"
@@ -231,7 +215,6 @@
       "en": "Montenegro"
     },
     "vigente": "si",
-    "flag": "FLAG_MONTENEGRO.jpg",
     "flag_svg": "me.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -245,7 +228,6 @@
       "en": "New Caledonia"
     },
     "vigente": "si",
-    "flag": "FLAG_NEWCALEDONIA.jpg",
     "flag_svg": "nc.svg",
     "folder": "world",
     "moneda_vigente": "XPF"
@@ -259,7 +241,6 @@
       "en": "Niger"
     },
     "vigente": "si",
-    "flag": "FLAG_NIGER.jpg",
     "flag_svg": "ne.svg",
     "folder": "world",
     "moneda_vigente": "XOF"
@@ -273,7 +254,6 @@
       "en": "Panama"
     },
     "vigente": "si",
-    "flag": "FLAG_PANAMA.jpg",
     "flag_svg": "pa.svg",
     "folder": "world",
     "moneda_vigente": "USD"
@@ -287,7 +267,6 @@
       "en": "Timor-Leste"
     },
     "vigente": "si",
-    "flag": "FLAG_TIMORLESTE.jpg",
     "flag_svg": "tl.svg",
     "folder": "world",
     "moneda_vigente": "USD"
@@ -301,7 +280,6 @@
       "en": "Senegal"
     },
     "vigente": "si",
-    "flag": "FLAG_SENEGAL.jpg",
     "flag_svg": "sn.svg",
     "folder": "world",
     "moneda_vigente": "XOF"
@@ -315,7 +293,6 @@
       "en": "Slovakia"
     },
     "vigente": "si",
-    "flag": "FLAG_SLOVAKIA.jpg",
     "flag_svg": "sk.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -329,7 +306,6 @@
       "en": "Western Sahara"
     },
     "vigente": "si",
-    "flag": "FLAG_WESTERNSAHARA.jpg",
     "flag_svg": "eh.svg",
     "folder": "world",
     "moneda_vigente": "MAD"
@@ -343,7 +319,6 @@
       "en": "Burkina Faso"
     },
     "vigente": "si",
-    "flag": "FLAG_BURKINAFASO.jpg",
     "flag_svg": "bf.svg",
     "folder": "world",
     "moneda_vigente": "XOF"
@@ -357,7 +332,6 @@
       "en": "Abkhazia"
     },
     "vigente": "si",
-    "flag": "FLAG_ABJASIA.jpg",
     "flag_svg": "ab.svg",
     "folder": "world"
   },
@@ -370,7 +344,6 @@
       "en": "Afghanistan"
     },
     "vigente": "si",
-    "flag": "FLAG_AFGANISTAN.jpg",
     "flag_svg": "af.svg",
     "folder": "world",
     "moneda_vigente": "AFN"
@@ -384,7 +357,6 @@
       "en": "Albania"
     },
     "vigente": "si",
-    "flag": "FLAG_ALBANIA.jpg",
     "flag_svg": "al.svg",
     "folder": "world",
     "moneda_vigente": "ALL"
@@ -398,7 +370,6 @@
       "en": "Germany"
     },
     "vigente": "si",
-    "flag": "FLAG_ALEMANIA.jpg",
     "flag_svg": "de.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -412,7 +383,6 @@
       "en": "Angola"
     },
     "vigente": "si",
-    "flag": "FLAG_ANGOLA.jpg",
     "flag_svg": "ao.svg",
     "folder": "world",
     "moneda_vigente": "AOA"
@@ -426,7 +396,6 @@
       "en": "Saudi Arabia"
     },
     "vigente": "si",
-    "flag": "FLAG_ARABIA.SAUDI.jpg",
     "flag_svg": "sa.svg",
     "folder": "world",
     "moneda_vigente": "SAR"
@@ -440,7 +409,6 @@
       "en": "Algeria"
     },
     "vigente": "si",
-    "flag": "FLAG_ARGELIA.jpg",
     "flag_svg": "dz.svg",
     "folder": "world",
     "moneda_vigente": "DZD"
@@ -454,7 +422,6 @@
       "en": "Argentina"
     },
     "vigente": "si",
-    "flag": "FLAG_ARGENTINA.jpg",
     "flag_svg": "ar.svg",
     "folder": "argentina",
     "moneda_vigente": "ARS"
@@ -468,7 +435,6 @@
       "en": "Armenia"
     },
     "vigente": "si",
-    "flag": "FLAG_ARMENIA.jpg",
     "flag_svg": "am.svg",
     "folder": "world",
     "moneda_vigente": "AMD"
@@ -482,7 +448,6 @@
       "en": "Aruba"
     },
     "vigente": "si",
-    "flag": "FLAG_ARUBA.jpg",
     "flag_svg": "aw.svg",
     "folder": "world",
     "moneda_vigente": "AWG"
@@ -496,7 +461,6 @@
       "en": "Australia"
     },
     "vigente": "si",
-    "flag": "FLAG_AUSTRALIA.jpg",
     "flag_svg": "au.svg",
     "folder": "world",
     "moneda_vigente": "AUD"
@@ -510,7 +474,6 @@
       "en": "Austria"
     },
     "vigente": "si",
-    "flag": "FLAG_AUSTRIA.jpg",
     "flag_svg": "at.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -524,7 +487,6 @@
       "en": "Azerbaijan"
     },
     "vigente": "si",
-    "flag": "FLAG_AZERBAIYAN.jpg",
     "flag_svg": "az.svg",
     "folder": "world",
     "moneda_vigente": "AZN"
@@ -538,7 +500,6 @@
       "en": "Bahamas"
     },
     "vigente": "si",
-    "flag": "FLAG_BAHAMAS.jpg",
     "flag_svg": "bs.svg",
     "folder": "world",
     "moneda_vigente": "BSD"
@@ -552,7 +513,6 @@
       "en": "Bahrain"
     },
     "vigente": "si",
-    "flag": "FLAG_BAREIN.jpg",
     "flag_svg": "bh.svg",
     "folder": "world",
     "moneda_vigente": "BHD"
@@ -566,7 +526,6 @@
       "en": "Bailiwick of Jersey"
     },
     "vigente": "si",
-    "flag": "FLAG_BAILIA.DE.JERSEY.jpg",
     "flag_svg": "je.svg",
     "folder": "world",
     "moneda_vigente": "GBP"
@@ -580,7 +539,6 @@
       "en": "Bangladesh"
     },
     "vigente": "si",
-    "flag": "FLAG_BANGLADESH.jpg",
     "flag_svg": "bd.svg",
     "folder": "world",
     "moneda_vigente": "BDT"
@@ -594,7 +552,6 @@
       "en": "Barbados"
     },
     "vigente": "si",
-    "flag": "FLAG_BARBADOS.jpg",
     "flag_svg": "bb.svg",
     "folder": "world",
     "moneda_vigente": "BBD"
@@ -608,7 +565,6 @@
       "en": "Belgium"
     },
     "vigente": "si",
-    "flag": "FLAG_BELGICA.jpg",
     "flag_svg": "be.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -622,7 +578,6 @@
       "en": "Belize"
     },
     "vigente": "si",
-    "flag": "FLAG_BELICE.jpg",
     "flag_svg": "bz.svg",
     "folder": "world",
     "moneda_vigente": "BZD"
@@ -636,7 +591,6 @@
       "en": "Bermuda"
     },
     "vigente": "si",
-    "flag": "FLAG_BERMUDA.jpg",
     "flag_svg": "bm.svg",
     "folder": "world",
     "moneda_vigente": "BMD"
@@ -650,7 +604,6 @@
       "en": "Biafra"
     },
     "vigente": "no",
-    "flag": "FLAG_BIAFRA.jpg",
     "flag_svg": "bia.svg",
     "folder": "world"
   },
@@ -663,7 +616,6 @@
       "en": "Belarus"
     },
     "vigente": "si",
-    "flag": "FLAG_BIELORRUSIA.jpg",
     "flag_svg": "by.svg",
     "folder": "world",
     "moneda_vigente": "BYN"
@@ -677,7 +629,6 @@
       "en": "Myanmar"
     },
     "vigente": "si",
-    "flag": "FLAG_BIRMANIA.jpg",
     "flag_svg": "mm.svg",
     "folder": "world",
     "moneda_vigente": "MMK"
@@ -691,7 +642,6 @@
       "en": "Bolivia"
     },
     "vigente": "si",
-    "flag": "FLAG_BOLIVIA.jpg",
     "flag_svg": "bo.svg",
     "folder": "world",
     "moneda_vigente": "BOV"
@@ -705,7 +655,6 @@
       "en": "Botswana"
     },
     "vigente": "si",
-    "flag": "FLAG_BOTSWANA.jpg",
     "flag_svg": "bw.svg",
     "folder": "world",
     "moneda_vigente": "BWP"
@@ -719,7 +668,6 @@
       "en": "Bosnia and Herzegovina"
     },
     "vigente": "si",
-    "flag": "FLAG_BOZNIA.Y.HERZEGOVINA.jpg",
     "flag_svg": "ba.svg",
     "folder": "world",
     "moneda_vigente": "BAM"
@@ -733,7 +681,6 @@
       "en": "Brazil"
     },
     "vigente": "si",
-    "flag": "FLAG_BRASIL.jpg",
     "flag_svg": "br.svg",
     "folder": "world",
     "moneda_vigente": "BRL"
@@ -747,7 +694,6 @@
       "en": "Brunei"
     },
     "vigente": "si",
-    "flag": "FLAG_BRUNEI.jpg",
     "flag_svg": "bn.svg",
     "folder": "world",
     "moneda_vigente": "SGD"
@@ -761,7 +707,6 @@
       "en": "Bulgaria"
     },
     "vigente": "si",
-    "flag": "FLAG_BULGARIA.jpg",
     "flag_svg": "bg.svg",
     "folder": "world",
     "moneda_vigente": "BGN"
@@ -775,7 +720,6 @@
       "en": "Burundi"
     },
     "vigente": "si",
-    "flag": "FLAG_BURUNDI.jpg",
     "flag_svg": "bi.svg",
     "folder": "world",
     "moneda_vigente": "BIF"
@@ -789,7 +733,6 @@
       "en": "Bhutan"
     },
     "vigente": "si",
-    "flag": "FLAG_BUTAN.jpg",
     "flag_svg": "bt.svg",
     "folder": "world",
     "moneda_vigente": "INR"
@@ -803,7 +746,6 @@
       "en": "Cape Verde"
     },
     "vigente": "si",
-    "flag": "FLAG_CABO.VERDE.jpg",
     "flag_svg": "cv.svg",
     "folder": "world",
     "moneda_vigente": "CVE"
@@ -817,7 +759,6 @@
       "en": "Cambodia"
     },
     "vigente": "si",
-    "flag": "FLAG_CAMBOYA.jpg",
     "flag_svg": "kh.svg",
     "folder": "world",
     "moneda_vigente": "USD"
@@ -831,7 +772,6 @@
       "en": "Canada"
     },
     "vigente": "si",
-    "flag": "FLAG_CANADA.jpg",
     "flag_svg": "ca.svg",
     "folder": "world",
     "moneda_vigente": "CAD"
@@ -845,7 +785,6 @@
       "en": "Chile"
     },
     "vigente": "si",
-    "flag": "FLAG_CHILE.jpg",
     "flag_svg": "cl.svg",
     "folder": "chile",
     "moneda_vigente": "CLP"
@@ -859,7 +798,6 @@
       "en": "China"
     },
     "vigente": "si",
-    "flag": "FLAG_CHINA.jpg",
     "flag_svg": "cn.svg",
     "folder": "world",
     "moneda_vigente": "CNY"
@@ -873,7 +811,6 @@
       "en": "Cyprus"
     },
     "vigente": "si",
-    "flag": "FLAG_CHIPRE.jpg",
     "flag_svg": "cy.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -887,7 +824,6 @@
       "en": "Colombia"
     },
     "vigente": "si",
-    "flag": "FLAG_COLOMBIA.jpg",
     "flag_svg": "co.svg",
     "folder": "world",
     "moneda_vigente": "COU"
@@ -901,7 +837,6 @@
       "en": "Comoros"
     },
     "vigente": "si",
-    "flag": "FLAG_COMORAS.jpg",
     "flag_svg": "km.svg",
     "folder": "world",
     "moneda_vigente": "KMF"
@@ -915,7 +850,6 @@
       "en": "Korea"
     },
     "vigente": "no",
-    "flag": "FLAG_COREA.jpg",
     "flag_svg": "kor.svg",
     "folder": "world"
   },
@@ -928,7 +862,6 @@
       "en": "North Korea"
     },
     "vigente": "si",
-    "flag": "FLAG_COREA.DEL.NORTE.jpg",
     "flag_svg": "kp.svg",
     "folder": "world",
     "moneda_vigente": "KPW"
@@ -942,7 +875,6 @@
       "en": "South Korea"
     },
     "vigente": "si",
-    "flag": "FLAG_COREA.DEL.SUR.jpg",
     "flag_svg": "kr.svg",
     "folder": "world",
     "moneda_vigente": "KRW"
@@ -956,7 +888,6 @@
       "en": "Costa Rica"
     },
     "vigente": "si",
-    "flag": "FLAG_COSTA.RICA.jpg",
     "flag_svg": "cr.svg",
     "folder": "world",
     "moneda_vigente": "CRC"
@@ -970,7 +901,6 @@
       "en": "Croatia"
     },
     "vigente": "si",
-    "flag": "FLAG_CROACIA.jpg",
     "flag_svg": "hr.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -984,7 +914,6 @@
       "en": "Cuba"
     },
     "vigente": "si",
-    "flag": "FLAG_CUBA.jpg",
     "flag_svg": "cu.svg",
     "folder": "world",
     "moneda_vigente": "CUP"
@@ -998,7 +927,6 @@
       "en": "Curaçao"
     },
     "vigente": "si",
-    "flag": "FLAG_CURAZAO.jpg",
     "flag_svg": "cw.svg",
     "folder": "world",
     "moneda_vigente": "XCG"
@@ -1012,7 +940,6 @@
       "en": "Curaçao and Sint Maarten"
     },
     "vigente": "si",
-    "flag": "FLAG_CURAZAO.Y.SAN.MARTIN.jpg",
     "flag_svg": "cwsx.svg",
     "folder": "world"
   },
@@ -1025,7 +952,6 @@
       "en": "Denmark"
     },
     "vigente": "si",
-    "flag": "FLAG_DINAMARCA.jpg",
     "flag_svg": "dk.svg",
     "folder": "world",
     "moneda_vigente": "DKK"
@@ -1039,7 +965,6 @@
       "en": "Ecuador"
     },
     "vigente": "si",
-    "flag": "FLAG_ECUADOR.jpg",
     "flag_svg": "ec.svg",
     "folder": "world",
     "moneda_vigente": "USD"
@@ -1053,7 +978,6 @@
       "en": "Egypt"
     },
     "vigente": "si",
-    "flag": "FLAG_EGIPTO.jpg",
     "flag_svg": "eg.svg",
     "folder": "world",
     "moneda_vigente": "EGP"
@@ -1067,7 +991,6 @@
       "en": "Democratic Republic of the Congo"
     },
     "vigente": "si",
-    "flag": "FLAG_EL.CONGO.jpg",
     "flag_svg": "cd.svg",
     "folder": "world",
     "moneda_vigente": "CDF"
@@ -1081,7 +1004,6 @@
       "en": "United Arab Emirates"
     },
     "vigente": "si",
-    "flag": "FLAG_EMIRATOS.ARABES.jpg",
     "flag_svg": "ae.svg",
     "folder": "world",
     "moneda_vigente": "AED"
@@ -1095,7 +1017,6 @@
       "en": "Eritrea"
     },
     "vigente": "si",
-    "flag": "FLAG_ERITREA.jpg",
     "flag_svg": "er.svg",
     "folder": "world",
     "moneda_vigente": "ERN"
@@ -1109,7 +1030,6 @@
       "en": "Scotland"
     },
     "vigente": "si",
-    "flag": "FLAG_ESCOCIA.jpg",
     "flag_svg": "gb-sct.svg",
     "folder": "world"
   },
@@ -1122,7 +1042,6 @@
       "en": "Slovenia"
     },
     "vigente": "si",
-    "flag": "FLAG_ESLOVENIA.jpg",
     "flag_svg": "si.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -1136,7 +1055,6 @@
       "en": "Spain"
     },
     "vigente": "si",
-    "flag": "FLAG_ESPAÑA.jpg",
     "flag_svg": "es.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -1150,7 +1068,6 @@
       "en": "United States"
     },
     "vigente": "si",
-    "flag": "FLAG_ESTADOS.UNIDOS.jpg",
     "flag_svg": "us.svg",
     "folder": "usa",
     "moneda_vigente": "USN"
@@ -1164,7 +1081,6 @@
       "en": "Eastern Caribbean States"
     },
     "vigente": "si",
-    "flag": "FLAG_ESTADOS.DEL.CARIBE.ORIENTAL.jpg",
     "flag_svg": "xcd.svg",
     "folder": "world"
   },
@@ -1177,7 +1093,6 @@
       "en": "Estonia"
     },
     "vigente": "si",
-    "flag": "FLAG_ESTONIA.jpg",
     "flag_svg": "ee.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -1191,7 +1106,6 @@
       "en": "Ethiopia"
     },
     "vigente": "si",
-    "flag": "FLAG_ETIOPIA.jpg",
     "flag_svg": "et.svg",
     "folder": "world",
     "moneda_vigente": "ETB"
@@ -1205,7 +1119,6 @@
       "en": "Philippines"
     },
     "vigente": "si",
-    "flag": "FLAG_FILIPINAS.jpg",
     "flag_svg": "ph.svg",
     "folder": "world",
     "moneda_vigente": "PHP"
@@ -1219,7 +1132,6 @@
       "en": "Finland"
     },
     "vigente": "si",
-    "flag": "FLAG_FINLANDIA.jpg",
     "flag_svg": "fi.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -1233,7 +1145,6 @@
       "en": "Fiji"
     },
     "vigente": "si",
-    "flag": "FLAG_FIJI.jpg",
     "flag_svg": "fj.svg",
     "folder": "world",
     "moneda_vigente": "FJD"
@@ -1247,7 +1158,6 @@
       "en": "France"
     },
     "vigente": "si",
-    "flag": "FLAG_FRANCIA.jpg",
     "flag_svg": "fr.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -1261,7 +1171,6 @@
       "en": "Gambia"
     },
     "vigente": "si",
-    "flag": "FLAG_GAMBIA.jpg",
     "flag_svg": "gm.svg",
     "folder": "world",
     "moneda_vigente": "GMD"
@@ -1275,7 +1184,6 @@
       "en": "Georgia"
     },
     "vigente": "si",
-    "flag": "FLAG_GEORGIA.jpg",
     "flag_svg": "ge.svg",
     "folder": "world",
     "moneda_vigente": "GEL"
@@ -1289,7 +1197,6 @@
       "en": "Ghana"
     },
     "vigente": "si",
-    "flag": "FLAG_GHANA.jpg",
     "flag_svg": "gh.svg",
     "folder": "world",
     "moneda_vigente": "GHS"
@@ -1303,7 +1210,6 @@
       "en": "Great Britain"
     },
     "vigente": "si",
-    "flag": "FLAG_GRAN.BRETAÑA.jpg",
     "flag_svg": "gb.svg",
     "folder": "world",
     "moneda_vigente": "GBP"
@@ -1317,7 +1223,6 @@
       "en": "Greece"
     },
     "vigente": "si",
-    "flag": "FLAG_GRECIA.jpg",
     "flag_svg": "gr.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -1331,7 +1236,6 @@
       "en": "Guatemala"
     },
     "vigente": "si",
-    "flag": "FLAG_GUATEMALA.jpg",
     "flag_svg": "gt.svg",
     "folder": "world",
     "moneda_vigente": "GTQ"
@@ -1345,7 +1249,6 @@
       "en": "Guernsey"
     },
     "vigente": "si",
-    "flag": "FLAG_GUERNSEY.jpg",
     "flag_svg": "gg.svg",
     "folder": "world",
     "moneda_vigente": "GBP"
@@ -1359,7 +1262,6 @@
       "en": "Guinea"
     },
     "vigente": "si",
-    "flag": "FLAG_GUINEA.jpg",
     "flag_svg": "gn.svg",
     "folder": "world",
     "moneda_vigente": "GNF"
@@ -1373,7 +1275,6 @@
       "en": "Guinea-Bissau"
     },
     "vigente": "si",
-    "flag": "FLAG_GUINEA.BISAU.jpg",
     "flag_svg": "gw.svg",
     "folder": "world",
     "moneda_vigente": "XOF"
@@ -1387,7 +1288,6 @@
       "en": "Guyana"
     },
     "vigente": "si",
-    "flag": "FLAG_GUYANA.jpg",
     "flag_svg": "gy.svg",
     "folder": "world",
     "moneda_vigente": "GYD"
@@ -1401,7 +1301,6 @@
       "en": "Haiti"
     },
     "vigente": "si",
-    "flag": "FLAG_HAITI.jpg",
     "flag_svg": "ht.svg",
     "folder": "world",
     "moneda_vigente": "HTG"
@@ -1415,7 +1314,6 @@
       "en": "Honduras"
     },
     "vigente": "si",
-    "flag": "FLAG_HONDURAS.jpg",
     "flag_svg": "hn.svg",
     "folder": "world",
     "moneda_vigente": "HNL"
@@ -1429,7 +1327,6 @@
       "en": "Hong Kong"
     },
     "vigente": "si",
-    "flag": "FLAG_HONG.KONG.jpg",
     "flag_svg": "hk.svg",
     "folder": "world",
     "moneda_vigente": "HKD"
@@ -1443,7 +1340,6 @@
       "en": "Hungary"
     },
     "vigente": "si",
-    "flag": "FLAG_HUNGRIA.jpg",
     "flag_svg": "hu.svg",
     "folder": "world",
     "moneda_vigente": "HUF"
@@ -1457,7 +1353,6 @@
       "en": "India"
     },
     "vigente": "si",
-    "flag": "FLAG_INDIA.jpg",
     "flag_svg": "in.svg",
     "folder": "world",
     "moneda_vigente": "INR"
@@ -1471,7 +1366,6 @@
       "en": "Indonesia"
     },
     "vigente": "si",
-    "flag": "FLAG_INDONESIA.jpg",
     "flag_svg": "id.svg",
     "folder": "world",
     "moneda_vigente": "IDR"
@@ -1485,7 +1379,6 @@
       "en": "Iraq"
     },
     "vigente": "si",
-    "flag": "FLAG_IRAK.jpg",
     "flag_svg": "iq.svg",
     "folder": "world",
     "moneda_vigente": "IQD"
@@ -1499,7 +1392,6 @@
       "en": "Iran"
     },
     "vigente": "si",
-    "flag": "FLAG_IRAN.jpg",
     "flag_svg": "ir.svg",
     "folder": "world",
     "moneda_vigente": "IRR"
@@ -1513,7 +1405,6 @@
       "en": "Northern Ireland"
     },
     "vigente": "si",
-    "flag": "FLAG_IRLANDA.DEL.NORTE.jpg",
     "flag_svg": "gb-nir.svg",
     "folder": "world"
   },
@@ -1526,7 +1417,6 @@
       "en": "Iceland"
     },
     "vigente": "si",
-    "flag": "FLAG_ISLANDIA.jpg",
     "flag_svg": "is.svg",
     "folder": "world",
     "moneda_vigente": "ISK"
@@ -1540,7 +1430,6 @@
       "en": "Cayman Islands"
     },
     "vigente": "si",
-    "flag": "FLAG_ISLAS.CAIMAN.jpg",
     "flag_svg": "ky.svg",
     "folder": "world",
     "moneda_vigente": "KYD"
@@ -1554,7 +1443,6 @@
       "en": "Cook Islands"
     },
     "vigente": "si",
-    "flag": "FLAG_ISLAS.COOK.jpg",
     "flag_svg": "ck.svg",
     "folder": "world",
     "moneda_vigente": "NZD"
@@ -1568,7 +1456,6 @@
       "en": "Isle of Man"
     },
     "vigente": "si",
-    "flag": "FLAG_ISLA.DE.MAN.jpg",
     "flag_svg": "im.svg",
     "folder": "world",
     "moneda_vigente": "GBP"
@@ -1582,7 +1469,6 @@
       "en": "Faroe Islands"
     },
     "vigente": "si",
-    "flag": "FLAG_ISLASFEROE.jpg",
     "flag_svg": "fo.svg",
     "folder": "world",
     "moneda_vigente": "DKK"
@@ -1596,7 +1482,6 @@
       "en": "Solomon Islands"
     },
     "vigente": "si",
-    "flag": "FLAG_ISLAS.SALOMON.jpg",
     "flag_svg": "sb.svg",
     "folder": "world",
     "moneda_vigente": "SBD"
@@ -1610,7 +1495,6 @@
       "en": "Israel"
     },
     "vigente": "si",
-    "flag": "FLAG_ISRAEL.jpg",
     "flag_svg": "il.svg",
     "folder": "world",
     "moneda_vigente": "ILS"
@@ -1624,7 +1508,6 @@
       "en": "Italy"
     },
     "vigente": "si",
-    "flag": "FLAG_ITALIA.jpg",
     "flag_svg": "it.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -1638,7 +1521,6 @@
       "en": "Jamaica"
     },
     "vigente": "si",
-    "flag": "FLAG_JAMAICA.jpg",
     "flag_svg": "jm.svg",
     "folder": "world",
     "moneda_vigente": "JMD"
@@ -1652,7 +1534,6 @@
       "en": "Japan"
     },
     "vigente": "si",
-    "flag": "FLAG_JAPON.jpg",
     "flag_svg": "jp.svg",
     "folder": "world",
     "moneda_vigente": "JPY"
@@ -1666,7 +1547,6 @@
       "en": "Jordan"
     },
     "vigente": "si",
-    "flag": "FLAG_JORDANIA.jpg",
     "flag_svg": "jo.svg",
     "folder": "world",
     "moneda_vigente": "JOD"
@@ -1680,7 +1560,6 @@
       "en": "Kazakhstan"
     },
     "vigente": "si",
-    "flag": "FLAG_KAZAJISTAN.jpg",
     "flag_svg": "kz.svg",
     "folder": "world",
     "moneda_vigente": "KZT"
@@ -1694,7 +1573,6 @@
       "en": "Kenya"
     },
     "vigente": "si",
-    "flag": "FLAG_KENIA.jpg",
     "flag_svg": "ke.svg",
     "folder": "world",
     "moneda_vigente": "KES"
@@ -1708,7 +1586,6 @@
       "en": "Kyrgyzstan"
     },
     "vigente": "si",
-    "flag": "FLAG_KIRGUISTAN.jpg",
     "flag_svg": "kg.svg",
     "folder": "world",
     "moneda_vigente": "KGS"
@@ -1722,7 +1599,6 @@
       "en": "Kuwait"
     },
     "vigente": "si",
-    "flag": "FLAG_KUWAIT.jpg",
     "flag_svg": "kw.svg",
     "folder": "world",
     "moneda_vigente": "KWD"
@@ -1736,7 +1612,6 @@
       "en": "Laos"
     },
     "vigente": "si",
-    "flag": "FLAG_LAOS.jpg",
     "flag_svg": "la.svg",
     "folder": "world",
     "moneda_vigente": "LAK"
@@ -1750,7 +1625,6 @@
       "en": "Lesotho"
     },
     "vigente": "si",
-    "flag": "FLAG_LESOTHO.jpg",
     "flag_svg": "ls.svg",
     "folder": "world",
     "moneda_vigente": "ZAR"
@@ -1764,7 +1638,6 @@
       "en": "Lebanon"
     },
     "vigente": "si",
-    "flag": "FLAG_LIBANO.jpg",
     "flag_svg": "lb.svg",
     "folder": "world",
     "moneda_vigente": "LBP"
@@ -1778,7 +1651,6 @@
       "en": "Liberia"
     },
     "vigente": "si",
-    "flag": "FLAG_LIBERIA.jpg",
     "flag_svg": "lr.svg",
     "folder": "world",
     "moneda_vigente": "USD"
@@ -1792,7 +1664,6 @@
       "en": "Libya"
     },
     "vigente": "si",
-    "flag": "FLAG_LIBIA.jpg",
     "flag_svg": "ly.svg",
     "folder": "world",
     "moneda_vigente": "LYD"
@@ -1806,7 +1677,6 @@
       "en": "Lithuania"
     },
     "vigente": "si",
-    "flag": "FLAG_LITUANIA.jpg",
     "flag_svg": "lt.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -1820,7 +1690,6 @@
       "en": "Macau (China)"
     },
     "vigente": "si",
-    "flag": "FLAG_MACAO.jpg",
     "flag_svg": "mo.svg",
     "folder": "world",
     "moneda_vigente": "MOP"
@@ -1834,7 +1703,6 @@
       "en": "North Macedonia"
     },
     "vigente": "si",
-    "flag": "FLAG_MACEDONIA.DEL.NORTE.jpg",
     "flag_svg": "mk.svg",
     "folder": "world",
     "moneda_vigente": "MKD"
@@ -1848,7 +1716,6 @@
       "en": "Madagascar"
     },
     "vigente": "si",
-    "flag": "FLAG_MADAGASCAR.jpg",
     "flag_svg": "mg.svg",
     "folder": "world",
     "moneda_vigente": "MGA"
@@ -1862,7 +1729,6 @@
       "en": "Malaysia"
     },
     "vigente": "si",
-    "flag": "FLAG_MALASIA.jpg",
     "flag_svg": "my.svg",
     "folder": "world",
     "moneda_vigente": "MYR"
@@ -1876,7 +1742,6 @@
       "en": "Malawi"
     },
     "vigente": "si",
-    "flag": "FLAG_MALAUI.jpg",
     "flag_svg": "mw.svg",
     "folder": "world",
     "moneda_vigente": "MWK"
@@ -1890,7 +1755,6 @@
       "en": "Maldives"
     },
     "vigente": "si",
-    "flag": "FLAG_MALDIVAS.jpg",
     "flag_svg": "mv.svg",
     "folder": "world",
     "moneda_vigente": "MVR"
@@ -1904,7 +1768,6 @@
       "en": "Morocco"
     },
     "vigente": "si",
-    "flag": "FLAG_MARRUECOS.jpg",
     "flag_svg": "ma.svg",
     "folder": "world",
     "moneda_vigente": "MAD"
@@ -1918,7 +1781,6 @@
       "en": "Mauritius"
     },
     "vigente": "si",
-    "flag": "FLAG_MAURICIO.jpg",
     "flag_svg": "mu.svg",
     "folder": "world",
     "moneda_vigente": "MUR"
@@ -1932,7 +1794,6 @@
       "en": "Mauritania"
     },
     "vigente": "si",
-    "flag": "FLAG_MAURITANIA.jpg",
     "flag_svg": "mr.svg",
     "folder": "world",
     "moneda_vigente": "MRU"
@@ -1946,7 +1807,6 @@
       "en": "Mexico"
     },
     "vigente": "si",
-    "flag": "FLAG_MEXICO.jpg",
     "flag_svg": "mx.svg",
     "folder": "world",
     "moneda_vigente": "MXN"
@@ -1960,7 +1820,6 @@
       "en": "Moldova"
     },
     "vigente": "si",
-    "flag": "FLAG_MOLDOVIA.jpg",
     "flag_svg": "md.svg",
     "folder": "world",
     "moneda_vigente": "MDL"
@@ -1974,7 +1833,6 @@
       "en": "Mongolia"
     },
     "vigente": "si",
-    "flag": "FLAG_MONGOLIA.jpg",
     "flag_svg": "mn.svg",
     "folder": "world",
     "moneda_vigente": "MNT"
@@ -1988,7 +1846,6 @@
       "en": "Mozambique"
     },
     "vigente": "si",
-    "flag": "FLAG_MOZAMBIQUE.jpg",
     "flag_svg": "mz.svg",
     "folder": "world",
     "moneda_vigente": "MZN"
@@ -2002,7 +1859,6 @@
       "en": "Namibia"
     },
     "vigente": "si",
-    "flag": "FLAG_NAMIBIA.jpg",
     "flag_svg": "na.svg",
     "folder": "world",
     "moneda_vigente": "ZAR"
@@ -2016,7 +1872,6 @@
       "en": "Nepal"
     },
     "vigente": "si",
-    "flag": "FLAG_NEPAL.jpg",
     "flag_svg": "np.svg",
     "folder": "world",
     "moneda_vigente": "NPR"
@@ -2030,7 +1885,6 @@
       "en": "Nicaragua"
     },
     "vigente": "si",
-    "flag": "FLAG_NICARAGUA.jpg",
     "flag_svg": "ni.svg",
     "folder": "world",
     "moneda_vigente": "NIO"
@@ -2044,7 +1898,6 @@
       "en": "Nigeria"
     },
     "vigente": "si",
-    "flag": "FLAG_NIGERIA.jpg",
     "flag_svg": "ng.svg",
     "folder": "world",
     "moneda_vigente": "NGN"
@@ -2058,7 +1911,6 @@
       "en": "Norway"
     },
     "vigente": "si",
-    "flag": "FLAG_NORUEGA.jpg",
     "flag_svg": "no.svg",
     "folder": "world",
     "moneda_vigente": "NOK"
@@ -2072,7 +1924,6 @@
       "en": "New Zealand"
     },
     "vigente": "si",
-    "flag": "FLAG_NUEVA.ZELANDA.jpg",
     "flag_svg": "nz.svg",
     "folder": "world",
     "moneda_vigente": "NZD"
@@ -2086,7 +1937,6 @@
       "en": "Oman"
     },
     "vigente": "si",
-    "flag": "FLAG_OMAN.jpg",
     "flag_svg": "om.svg",
     "folder": "world",
     "moneda_vigente": "OMR"
@@ -2100,7 +1950,6 @@
       "en": "Netherlands"
     },
     "vigente": "si",
-    "flag": "FLAG_PAISES.BAJOS.jpg",
     "flag_svg": "nl.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -2114,7 +1963,6 @@
       "en": "Pakistan"
     },
     "vigente": "si",
-    "flag": "FLAG_PAKISTAN.jpg",
     "flag_svg": "pk.svg",
     "folder": "world",
     "moneda_vigente": "PKR"
@@ -2128,7 +1976,6 @@
       "en": "Papua New Guinea"
     },
     "vigente": "si",
-    "flag": "FLAG_PAPUA.NUEVA.GUINEA.jpg",
     "flag_svg": "pg.svg",
     "folder": "world",
     "moneda_vigente": "PGK"
@@ -2142,7 +1989,6 @@
       "en": "Paraguay"
     },
     "vigente": "si",
-    "flag": "FLAG_PARAGUAY.jpg",
     "flag_svg": "py.svg",
     "folder": "world",
     "moneda_vigente": "PYG"
@@ -2156,7 +2002,6 @@
       "en": "Peru"
     },
     "vigente": "si",
-    "flag": "FLAG_PERU.jpg",
     "flag_svg": "pe.svg",
     "folder": "world",
     "moneda_vigente": "PEN"
@@ -2170,7 +2015,6 @@
       "en": "Poland"
     },
     "vigente": "si",
-    "flag": "FLAG_POLONIA.jpg",
     "flag_svg": "pl.svg",
     "folder": "world",
     "moneda_vigente": "PLN"
@@ -2184,7 +2028,6 @@
       "en": "Portugal"
     },
     "vigente": "si",
-    "flag": "FLAG_PORTUGAL.jpg",
     "flag_svg": "pt.svg",
     "folder": "world",
     "moneda_vigente": "EUR"
@@ -2198,7 +2041,6 @@
       "en": "Qatar"
     },
     "vigente": "si",
-    "flag": "FLAG_QATAR.jpg",
     "flag_svg": "qa.svg",
     "folder": "world",
     "moneda_vigente": "QAR"
@@ -2212,7 +2054,6 @@
       "en": "Central African Republic"
     },
     "vigente": "si",
-    "flag": "FLAG_REPUBLICA.CENTROAFRICANA.jpg",
     "flag_svg": "cf.svg",
     "folder": "world",
     "moneda_vigente": "XAF"
@@ -2226,7 +2067,6 @@
       "en": "Czech Republic"
     },
     "vigente": "si",
-    "flag": "FLAG_REPUBLICA.CHECA.jpg",
     "flag_svg": "cz.svg",
     "folder": "world",
     "moneda_vigente": "CZK"
@@ -2240,7 +2080,6 @@
       "en": "Dominican Republic"
     },
     "vigente": "si",
-    "flag": "FLAG_REPUBLICA.DOMINICANA.jpg",
     "flag_svg": "do.svg",
     "folder": "world",
     "moneda_vigente": "DOP"
@@ -2254,7 +2093,6 @@
       "en": "Rwanda"
     },
     "vigente": "si",
-    "flag": "FLAG_RUANDA.jpg",
     "flag_svg": "rw.svg",
     "folder": "world",
     "moneda_vigente": "RWF"
@@ -2268,7 +2106,6 @@
       "en": "Romania"
     },
     "vigente": "si",
-    "flag": "FLAG_RUMANIA.jpg",
     "flag_svg": "ro.svg",
     "folder": "world",
     "moneda_vigente": "RON"
@@ -2282,7 +2119,6 @@
       "en": "Russia"
     },
     "vigente": "si",
-    "flag": "FLAG_RUSIA.jpg",
     "flag_svg": "ru.svg",
     "folder": "world",
     "moneda_vigente": "RUB"
@@ -2296,7 +2132,6 @@
       "en": "Samoa"
     },
     "vigente": "si",
-    "flag": "FLAG_SAMOA.jpg",
     "flag_svg": "ws.svg",
     "folder": "world",
     "moneda_vigente": "WST"
@@ -2310,7 +2145,6 @@
       "en": "São Tomé and Príncipe"
     },
     "vigente": "si",
-    "flag": "FLAG_SANTO.TOME.Y.PRINCIPE.jpg",
     "flag_svg": "st.svg",
     "folder": "world",
     "moneda_vigente": "STN"
@@ -2324,7 +2158,6 @@
       "en": "Serbia"
     },
     "vigente": "si",
-    "flag": "FLAG_SERBIA.jpg",
     "flag_svg": "rs.svg",
     "folder": "world",
     "moneda_vigente": "RSD"
@@ -2338,7 +2171,6 @@
       "en": "Seychelles"
     },
     "vigente": "si",
-    "flag": "FLAG_SEYCHELLES.jpg",
     "flag_svg": "sc.svg",
     "folder": "world",
     "moneda_vigente": "SCR"
@@ -2352,7 +2184,6 @@
       "en": "Sierra Leone"
     },
     "vigente": "si",
-    "flag": "FLAG_SIERRA.LEONA.jpg",
     "flag_svg": "sl.svg",
     "folder": "world",
     "moneda_vigente": "SLE"
@@ -2366,7 +2197,6 @@
       "en": "Singapore"
     },
     "vigente": "si",
-    "flag": "FLAG_SINGAPUR.jpg",
     "flag_svg": "sg.svg",
     "folder": "world",
     "moneda_vigente": "SGD"
@@ -2380,7 +2210,6 @@
       "en": "Syria"
     },
     "vigente": "si",
-    "flag": "FLAG_SIRIA.jpg",
     "flag_svg": "sy.svg",
     "folder": "world",
     "moneda_vigente": "SYP"
@@ -2394,7 +2223,6 @@
       "en": "Somalia"
     },
     "vigente": "si",
-    "flag": "FLAG_SOMALIA.jpg",
     "flag_svg": "so.svg",
     "folder": "world",
     "moneda_vigente": "SOS"
@@ -2408,7 +2236,6 @@
       "en": "Somaliland"
     },
     "vigente": "si",
-    "flag": "FLAG_SOMALILANDIA.jpg",
     "flag_svg": "sml.svg",
     "folder": "world"
   },
@@ -2421,7 +2248,6 @@
       "en": "Sri Lanka"
     },
     "vigente": "si",
-    "flag": "FLAG_SRI.LANKA.jpg",
     "flag_svg": "lk.svg",
     "folder": "world",
     "moneda_vigente": "LKR"
@@ -2435,7 +2261,6 @@
       "en": "Eswatini"
     },
     "vigente": "si",
-    "flag": "FLAG_SUAZILANDIA.jpg",
     "flag_svg": "sz.svg",
     "folder": "world",
     "moneda_vigente": "ZAR"
@@ -2449,7 +2274,6 @@
       "en": "South Africa"
     },
     "vigente": "si",
-    "flag": "FLAG_SUD.AFRICA.jpg",
     "flag_svg": "za.svg",
     "folder": "world",
     "moneda_vigente": "ZAR"
@@ -2463,7 +2287,6 @@
       "en": "Sudan"
     },
     "vigente": "si",
-    "flag": "FLAG_SUDAN.jpg",
     "flag_svg": "sd.svg",
     "folder": "world",
     "moneda_vigente": "SDG"
@@ -2477,7 +2300,6 @@
       "en": "South Sudan"
     },
     "vigente": "si",
-    "flag": "FLAG_SUDAN.DEL.SUR.jpg",
     "flag_svg": "ss.svg",
     "folder": "world",
     "moneda_vigente": "SSP"
@@ -2491,7 +2313,6 @@
       "en": "Sweden"
     },
     "vigente": "si",
-    "flag": "FLAG_SUECIA.jpg",
     "flag_svg": "se.svg",
     "folder": "world",
     "moneda_vigente": "SEK"
@@ -2505,7 +2326,6 @@
       "en": "Switzerland"
     },
     "vigente": "si",
-    "flag": "FLAG_SUIZA.jpg",
     "flag_svg": "ch.svg",
     "folder": "world",
     "moneda_vigente": "CHW"
@@ -2519,7 +2339,6 @@
       "en": "Suriname"
     },
     "vigente": "si",
-    "flag": "FLAG_SURINAM.jpg",
     "flag_svg": "sr.svg",
     "folder": "world",
     "moneda_vigente": "SRD"
@@ -2533,7 +2352,6 @@
       "en": "Thailand"
     },
     "vigente": "si",
-    "flag": "FLAG_TAILANDIA.jpg",
     "flag_svg": "th.svg",
     "folder": "world",
     "moneda_vigente": "THB"
@@ -2547,7 +2365,6 @@
       "en": "Taiwan"
     },
     "vigente": "si",
-    "flag": "FLAG_TAIWAN.jpg",
     "flag_svg": "tw.svg",
     "folder": "world",
     "moneda_vigente": "TWD"
@@ -2561,7 +2378,6 @@
       "en": "Tanzania"
     },
     "vigente": "si",
-    "flag": "FLAG_TANZANIA.jpg",
     "flag_svg": "tz.svg",
     "folder": "world",
     "moneda_vigente": "TZS"
@@ -2575,7 +2391,6 @@
       "en": "Tajikistan"
     },
     "vigente": "si",
-    "flag": "FLAG_TAYIKISTAN.jpg",
     "flag_svg": "tj.svg",
     "folder": "world",
     "moneda_vigente": "TJS"
@@ -2589,7 +2404,6 @@
       "en": "Tonga"
     },
     "vigente": "si",
-    "flag": "FLAG_TONGA.jpg",
     "flag_svg": "to.svg",
     "folder": "world",
     "moneda_vigente": "TOP"
@@ -2603,7 +2417,6 @@
       "en": "Transnistria"
     },
     "vigente": "si",
-    "flag": "FLAG_TRANSNISTRIA.jpg",
     "flag_svg": "pmr.svg",
     "folder": "world"
   },
@@ -2616,7 +2429,6 @@
       "en": "Trinidad and Tobago"
     },
     "vigente": "si",
-    "flag": "FLAG_TRINIDAD.Y.TOBAGO.jpg",
     "flag_svg": "tt.svg",
     "folder": "world",
     "moneda_vigente": "TTD"
@@ -2630,7 +2442,6 @@
       "en": "Tunisia"
     },
     "vigente": "si",
-    "flag": "FLAG_TUNEZ.jpg",
     "flag_svg": "tn.svg",
     "folder": "world",
     "moneda_vigente": "TND"
@@ -2644,7 +2455,6 @@
       "en": "Turkmenistan"
     },
     "vigente": "si",
-    "flag": "FLAG_TURKMENISTAN.jpg",
     "flag_svg": "tm.svg",
     "folder": "world",
     "moneda_vigente": "TMT"
@@ -2658,7 +2468,6 @@
       "en": "Turkey"
     },
     "vigente": "si",
-    "flag": "FLAG_TURQUIA.jpg",
     "flag_svg": "tr.svg",
     "folder": "world",
     "moneda_vigente": "TRY"
@@ -2672,7 +2481,6 @@
       "en": "Ukraine"
     },
     "vigente": "si",
-    "flag": "FLAG_UCRANIA.jpg",
     "flag_svg": "ua.svg",
     "folder": "world",
     "moneda_vigente": "UAH"
@@ -2686,7 +2494,6 @@
       "en": "Uganda"
     },
     "vigente": "si",
-    "flag": "FLAG_UGANDA.jpg",
     "flag_svg": "ug.svg",
     "folder": "world",
     "moneda_vigente": "UGX"
@@ -2700,7 +2507,6 @@
       "en": "European Union"
     },
     "vigente": "si",
-    "flag": "FLAG_UNION.EUROPEA.jpg",
     "flag_svg": "eu.svg",
     "folder": "world"
   },
@@ -2713,7 +2519,6 @@
       "en": "Uruguay"
     },
     "vigente": "si",
-    "flag": "FLAG_URUGUAY.jpg",
     "flag_svg": "uy.svg",
     "folder": "world",
     "moneda_vigente": "UYW"
@@ -2727,7 +2532,6 @@
       "en": "Uzbekistan"
     },
     "vigente": "si",
-    "flag": "FLAG_UZBEKISTAN.jpg",
     "flag_svg": "uz.svg",
     "folder": "world",
     "moneda_vigente": "UZS"
@@ -2741,7 +2545,6 @@
       "en": "Vanuatu"
     },
     "vigente": "si",
-    "flag": "FLAG_VANUATU.jpg",
     "flag_svg": "vu.svg",
     "folder": "world",
     "moneda_vigente": "VUV"
@@ -2755,7 +2558,6 @@
       "en": "Venezuela"
     },
     "vigente": "si",
-    "flag": "FLAG_VENEZUELA.jpg",
     "flag_svg": "ve.svg",
     "folder": "world",
     "moneda_vigente": "VED"
@@ -2769,7 +2571,6 @@
       "en": "Vietnam"
     },
     "vigente": "si",
-    "flag": "FLAG_VIETNAM.jpg",
     "flag_svg": "vn.svg",
     "folder": "world",
     "moneda_vigente": "VND"
@@ -2783,7 +2584,6 @@
       "en": "South Vietnam"
     },
     "vigente": "no",
-    "flag": "FLAG_VIETNAM.DEL.SUR.jpg",
     "flag_svg": "vns.svg",
     "folder": "world"
   },
@@ -2796,7 +2596,6 @@
       "en": "Yemen"
     },
     "vigente": "si",
-    "flag": "FLAG_YEMEN.jpg",
     "flag_svg": "ye.svg",
     "folder": "world",
     "moneda_vigente": "YER"
@@ -2810,7 +2609,6 @@
       "en": "Djibouti"
     },
     "vigente": "si",
-    "flag": "FLAG_YIBUTI.jpg",
     "flag_svg": "dj.svg",
     "folder": "world",
     "moneda_vigente": "DJF"
@@ -2824,7 +2622,6 @@
       "en": "Yugoslavia"
     },
     "vigente": "no",
-    "flag": "FLAG_YUGOSLAVIA.jpg",
     "flag_svg": "yu.svg",
     "folder": "world"
   },
@@ -2837,7 +2634,6 @@
       "en": "Zaire"
     },
     "vigente": "no",
-    "flag": "FLAG_ZAIRE.jpg",
     "flag_svg": "zr.svg",
     "folder": "world"
   },
@@ -2850,7 +2646,6 @@
       "en": "Zambia"
     },
     "vigente": "si",
-    "flag": "FLAG_ZAMBIA.jpg",
     "flag_svg": "zm.svg",
     "folder": "world",
     "moneda_vigente": "ZMW"
@@ -2864,7 +2659,6 @@
       "en": "Zimbabwe"
     },
     "vigente": "si",
-    "flag": "FLAG_ZIMBABUE.jpg",
     "flag_svg": "zw.svg",
     "folder": "world",
     "moneda_vigente": "ZWG"

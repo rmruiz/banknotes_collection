@@ -263,7 +263,7 @@
                     if (cInfo) {
                         name = cInfo.name.es;
                         count = (notesByCountryCode[cInfo.code.toLowerCase()] || []).length;
-                        flagUrl = `../_flags/${cInfo.flag}`;
+                        flagUrl = `../_flags_svg/${cInfo.flag_svg}`;
                     }
 
                     tooltip.removeAttribute('hidden');
@@ -290,7 +290,7 @@
 
                     tooltip.innerHTML = `
                         <div style="display:flex; align-items:center; gap:6px;">
-                            ${flagUrl ? `<img src="${flagUrl}" style="width:20px; height:14px; object-fit:cover; border-radius:2px;">` : ''}
+                            ${flagUrl ? `<img src="${flagUrl}" style="width:20px; height:14px; object-fit:cover; border-radius:2px;" onerror="this.style.display='none'">` : ''}
                             <strong>${name}</strong> (${displayCode})
                         </div>
                         <div style="margin-top:4px; font-size:0.75rem;">${statusBadge}</div>
@@ -341,7 +341,7 @@
             card.onclick = () => openCountryModal(cInfo);
 
             card.innerHTML = `
-                <img src="../_flags/${cInfo.flag}" class="missing-flag" alt="" onerror="this.style.display='none'">
+                <img src="../_flags_svg/${cInfo.flag_svg}" class="missing-flag" alt="" onerror="this.style.display='none'">
                 <span class="missing-name" title="${cInfo.name.es}">${cInfo.name.es}</span>
                 <span class="missing-code">${cInfo.iso_alpha2 || cInfo.code}</span>
             `;
@@ -486,7 +486,9 @@
         const notesListEl = document.getElementById('country-modal-notes-list');
 
         nameEl.textContent = cInfo.name.es;
-        flagEl.src = `../_flags/${cInfo.flag}`;
+        flagEl.style.display = '';   // re-mostrar si al país anterior le faltaba bandera
+        flagEl.onerror = () => { flagEl.style.display = 'none'; };
+        flagEl.src = `../_flags_svg/${cInfo.flag_svg}`;
 
         const notes = notesByCountryCode[cInfo.code.toLowerCase()] || [];
         if (notes.length > 0) {

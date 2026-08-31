@@ -20,14 +20,14 @@ Definida UNA sola vez en `_scripts/util.py` (importada por `build_web.py`,
   | Back | `web/_originals/<id>/<id>_B.jpg` |
   | Full (compuesta) | `web/_FULL/<id>.webp` (WebP q80, method=6) |
   | Miniaturas | `web/thumbs/<id>_A.jpg`, `<id>_B.jpg`, `<id>_F.jpg` |
-  | Bandera | `web/_flags/FLAG_*.jpg` vía `countries.json[<code>].flag` (alias: `build_web.py:FLAG_ALIASES`, p. ej. `FIYI→FIJI`) |
+  | Bandera | `web/_flags_svg/*.svg` vía `countries.json[<code>].flag_svg` (el archivo debe existir; sin alias) |
 - **Validación de id** (API): `ID_RE = ^[a-z0-9][a-z0-9.\-]{0,80}$`
   (`serve_web.py`); el id además debe existir en el índice `IDS` construido
   con `_json/*/*.json`.
 - **Validación de pick**: `PICK_RE = ^[A-Za-z0-9][A-Za-z0-9 .\-]{0,39}$`.
 - **Textos normalizados**: `_scripts/util.py:unaccent` (NFKD→ASCII) para id y
-  búsqueda; `_scripts/util.py:norm_flag` (mayúsculas alfanuméricas, quita
-  paréntesis) para banderas.
+  búsqueda. (`util.py:norm_flag` queda como residual del esquema legacy de
+  banderas JPG; la resolución SVG ya no lo usa.)
 
 ## 2. JSON de billete — `_json/<carpeta>/<id>.json`
 
@@ -98,7 +98,7 @@ Diccionario `código → info`. Clave: código corto minúsculo propio del catá
   "iso_numeric": "152",
   "name": { "es": "Chile", "en": "Chile" },
   "vigente": "si",
-  "flag": "FLAG_CHILE.jpg",
+  "flag_svg": "cl.svg",
   "folder": "chile",
   "moneda_vigente": "CLP"
 }
@@ -111,7 +111,7 @@ Diccionario `código → info`. Clave: código corto minúsculo propio del catá
 | `iso_numeric` | str \| null | El mapa usa el `id` (ISO numérico, pad 3) del TopoJSON → `numericToCountry`. |
 | `name.es` / `name.en` | str | Nombres canónicos; `name.es` es la clave de `util.py:get_country_by_name`. |
 | `vigente` | str | Marcador textual (ej. `"si"`). |
-| `flag` | str | Nombre de archivo en `web/_flags/`. |
+| `flag_svg` | str | Nombre del archivo SVG en `web/_flags_svg/` (p. ej. `cl.svg`). |
 | `folder` | str | Carpeta bajo `_json/` de los billetes del país (`argentina`, `chile`, `usa`, `world`). |
 | `moneda_vigente` | str | ISO 4217 de la moneda vigente; el mapa de `stats.html` la usa para verde/rojo. |
 
@@ -185,7 +185,7 @@ Cada registro lo produce `_scripts/build_web.py:make_record` y tiene
 | `colnect` | str | `d.colnect.url` |
 | `numista` | str | `d.numista` |
 | `conmemorativo`, `remarcado`, `verificado` | bool | `d.commemorative` / `d.overprint` / `d.verificado` |
-| `flag` | str | `_flags/<FLAG_X.jpg>?v=<firma>` o `""` (`build_web.py:flag_file_for_note`) |
+| `flag` | str | `_flags_svg/<archivo.svg>?v=<firma>` o `""` (`build_web.py:flag_file_for_note`) |
 | `thumb_a`, `thumb_b`, `thumb_f` | str | `thumbs/<id>_X.jpg?v=<firma>` o `""` si no existe |
 | `img_a`, `img_b`, `img_full` | str | `_originals/…?v=<firma>`, `_FULL/<id>.webp?v=<firma>` o `""` |
 | `search` | str | `build_web.py:build_search`: id, pick, país (es/en), denominacion, moneda, valor, año, código/nombre/símbolo/estado de moneda, firmas, temas, obs, grupo, subtipo, alternativas, vigencia, serie, banco, zona, serial, condición + las palabras `conmemorativo`/`remarcado` si aplican. Todo unaccent+lower, espacios colapsados. |

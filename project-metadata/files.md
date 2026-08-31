@@ -25,7 +25,7 @@ banknotes_collection/
 │   ├── stats.html/stats.js/stats.css   # dashboard de estadísticas (D3)
 │   ├── problemas.html/problemas.js     # página de problemas detectados
 │   ├── d3.min.js, topojson-client.min.js  # librerías vendor commiteadas
-│   ├── _flags/             # banderas FLAG_*.jpg (~210, commiteadas)
+│   ├── _flags_svg/         # banderas SVG por país (~210, commiteadas)
 │   ├── _originals/         # fotos por billete: <id>/<id>_A.jpg,_B.jpg (commiteadas)
 │   ├── _FULL/              # imagen compuesta <id>.webp (commiteadas)
 │   ├── data/               # GENERADO (gitignored) — salida del build
@@ -66,12 +66,12 @@ banknotes_collection/
 
 | Ruta | Rol | Git |
 |---|---|---|
-| `web/_flags/FLAG_*.jpg` | Banderas por país; se resuelven vía `countries.json[<code>].flag` (o alias en `build_web.py:FLAG_ALIASES`) | ✅ commiteado |
+| `web/_flags_svg/*.svg` | Banderas por país; se resuelven vía `countries.json[<code>].flag_svg` | ✅ commiteado |
 | `web/_originals/<id>/<id>_A.jpg` | Foto del frente (se sirve también vía `/api/upload_photo`) | ✅ commiteado |
 | `web/_originals/<id>/<id>_B.jpg` | Foto del reverso | ✅ commiteado |
 | `web/_FULL/<id>.webp` | Imagen compuesta front+info+bandera+back (WebP lossy q80, method=6; `generar_imagen.py:compose`); commiteada, regenerable | ✅ commiteado |
 
-Son ~3500 archivos versionados bajo `web/` (verificado con `git ls-files`).
+Son ~3600 archivos versionados bajo `web/` (verificado con `git ls-files`).
 
 ## Frontend (fuente)
 
@@ -121,5 +121,5 @@ template.html
 requirement.md
 ```
 
-Nota: `web/_originals/`, `web/_FULL/` y `web/_flags/` **no** aparecen en el
+Nota: `web/_originals/`, `web/_FULL/` y `web/_flags_svg/` **no** aparecen en el
 gitignore y **sí** están versionados (son parte de la fuente).

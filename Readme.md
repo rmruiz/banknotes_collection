@@ -11,7 +11,7 @@ Este proyecto es un sistema integral basado en **archivos locales** (sin bases d
 ### Arquitectura  
 1. **Capa de Almacenamiento**  
    - JSONs individuales por billete organizados en `_json/<categoría>/<id>.json` (ej. `chile/`, `argentina/`, `usa/`, `world/`).  
-  - `_json/countries.json`: **Fuente única de verdad** para la información de países (código ISO, nombres en ES/EN, bandera asignada en `_flags/` y carpeta correspondiente).
+  - `_json/countries.json`: **Fuente única de verdad** para la información de países (código ISO, nombres en ES/EN, bandera asignada en `web/_flags_svg/` vía `flag_svg` y carpeta correspondiente).
    - `_json/countries.md`: Documentación detallada sobre la estructura del archivo countries.json
    - `_json/currencies.md`: Documentación detallada sobre la estructura del archivo currencies.json
   - `_json/currencies.json`: **Fuente única de verdad** para monedas, códigos ISO 4217, nombres, símbolos y estado histórico.
@@ -107,7 +107,7 @@ Accede a la aplicación en [http://localhost:8000/web/](http://localhost:8000/we
   - `code`: Código interno (ej: `"cl"`, `"ar"`, `"us"`).
   - `iso_alpha2`: Código ISO 3166-1 alpha-2 (ej: `"CL"`, `"AR"`, `"US"`).
   - `name`: Nombre traducido en español (`es`) e inglés (`en`).
-  - `flag`: Nombre del archivo de imagen de la bandera en `_flags/`.
+  - `flag_svg`: Nombre del archivo SVG de la bandera en `web/_flags_svg/`.
   - `folder`: Carpeta en `_json/` donde se almacenan sus billetes (ej: `"chile"`, `"world"`).
 - Las funciones de búsqueda y consulta se cargan directamente a través de [`_scripts/util.py`](file:///Users/rolando/git/banknotes_collection/_scripts/util.py).
 
@@ -173,7 +173,7 @@ banknotes_collection/
 └── web/                      # Aplicación web estática (HTML, JS, CSS).
     ├── _originals/           # Fotografías originales por billete (_originals/<id>/<id>_A.jpg y <id>_B.jpg).
     ├── _FULL/                # Imágenes consolidadas en alta resolución (<id>.jpg).
-    ├── _flags/               # Banderas de países en formato JPG/PNG.
+    ├── _flags_svg/           # Banderas de países en formato SVG.
     ├── index.html            # Página principal del catálogo numismático.
     ├── index-edit.html       # Página de edición.
     ├── problemas.html        # Página de seguimiento de problemas.
@@ -205,7 +205,7 @@ banknotes_collection/
   ```
 
 ### Imágenes no se generan en `_FULL/`  
-- Verifica que las fotos originales estén presentes en `_originals/<id>/` nombradas como `<id>_A.jpg` y `<id>_B.jpg`, y que la bandera correspondiente exista en `_flags/`.  
+- Verifica que las fotos originales estén presentes en `_originals/<id>/` nombradas como `<id>_A.jpg` y `<id>_B.jpg`, y que la bandera correspondiente (SVG) exista en `web/_flags_svg/`.  
 
 ---
 

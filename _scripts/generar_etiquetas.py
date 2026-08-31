@@ -7,7 +7,9 @@ y agiliza considerablemente la generación.
 
 import argparse
 import json
+import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 try:
@@ -23,7 +25,7 @@ except ImportError:
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
-FLAGS = REPO / "web" / "_flags"
+FLAGS = REPO / "web" / "_flags_svg"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from util import get_country_by_code, get_country_by_name, currency_name
 
@@ -143,6 +145,28 @@ def load_records(filter_str=None, solo_verificados=False):
                              build_web.natural_pick_key(r["pick"])))
     return recs
 
+def rasterize_flags(recs, tmpdir):
+    """ReportLab solo lee formatos ráster: convierte cada bandera SVG una
+    sola vez por ejecución en un PNG temporal (>=400 px de ancho para que
+    quede nítida a ~300 dpi en la etiqueta de 2,1 cm). flag_path queda
+    apuntando al PNG (o vacío si la rasterización falla)."""
+    flag_pngs = {}
+    for fp in sorted({r["flag_path"] for r in recs
+                      if r["flag_path"].endswith(".svg")}):
+        png = tmpdir / (Path(fp).stem + ".png")
+        try:
+            subprocess.run(
+                ["magick", fp, "-resize", "400x400",
+                 "-background", "white", "-flatten", str(png)],
+                check=True, capture_output=True)
+            flag_pngs[fp] = str(png)
+        except (subprocess.CalledProcessError, OSError) as e:
+            print(f"Advertencia: no se pudo rasterizar la bandera {fp}: {e}")
+            flag_pngs[fp] = ""
+    for r in recs:
+        if r["flag_path"] in flag_pngs:
+            r["flag_path"] = flag_pngs[r["flag_path"]]
+
 # ---------------------------------------------------------------- helpers de diseño
 def get_style(fld):
     font_name = "Helvetica-Bold" if fld.get("bold") else "Helvetica"
@@ -255,6 +279,11 @@ def main():
         sys.exit("No hay billetes que coincidan con el filtro.")
         
     print(f"Generando {len(recs)} etiquetas en PDF (ReportLab)...")
+
+    # ReportLab no lee SVG: se rasterizan las banderas en un directorio
+    # temporal a lo largo del render (se limpia tras guardar el PDF).
+    flag_tmp = tempfile.TemporaryDirectory()
+    rasterize_flags(recs, Path(flag_tmp.name))
     
     c = canvas.Canvas(args.out, pagesize=letter)
     
@@ -292,6 +321,7 @@ def main():
         render_label(c, rec, x, y, LABEL_W_CM * cm, LABEL_H_CM * cm)
         
     c.save()
+    flag_tmp.cleanup()
     print(f"✓ PDF guardado en: {args.out} (Billetes reales impresos, con espacios vacíos)")
 
 if __name__ == "__main__":

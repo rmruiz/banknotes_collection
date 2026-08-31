@@ -26,9 +26,9 @@ Notación `{archivo}:{función}`; entradas de CLI entre comillas.
   - `denominacion_full` / `fmt_valor` — monto + nombre de moneda
     (singular/plural, subunidad).
   - `file_sig` / `file_v` — firma `mtime_ns-size` y `?v=` de caché.
-  - `flag_file_for_note(d)` + `FLAG_INDEX` + `FLAG_ALIASES` — resolución de
-    bandera (`countries.json[code].flag` → `web/_flags/`, con alias p. ej.
-    `FIYI→FIJI`, `MOLDAVIA→MOLDOVA`).
+  - `flag_file_for_note(d)` — resolución de bandera
+    (`countries.json[code].flag_svg` → `web/_flags_svg/`); devuelve `""` si
+    el archivo no existe (p. ej. `cwsx`).
   - `thumb_jobs(rec, meta, force)` / `make_thumb(job)` — plan y ejecución de
     miniaturas (magick, 360px, q80, `ThreadPoolExecutor(8)`).
   - `build_issues_data(records, meta, force, json_malos)` — las 8 categorías
@@ -88,7 +88,7 @@ Convenios que usan `build_web.py`, `serve_web.py`, `generar_imagen.py` y
 | Función | Rol |
 |---|---|
 | `unaccent(s)` | NFKD→ASCII, sin acentos (ids, lookup de países, búsqueda) |
-| `norm_flag(s)` | normaliza nombres de bandera (mayúsculas alfanuméricas, quita paréntesis) |
+| `norm_flag(s)` | normaliza nombres de bandera (mayúsculas alfanuméricas, quita paréntesis); residual del esquema legacy de banderas JPG, ya no lo usa la resolución SVG |
 | `make_note_id(abbr, pick)` | `<abbr>-<pick>` minúsculo sin `-`/`.`/espacios |
 | `load_countries()` / `COUNTRIES` | cache de `_json/countries.json` |
 | `get_country_by_code(code)` | lookup por `code` |
@@ -106,7 +106,7 @@ Convenios que usan `build_web.py`, `serve_web.py`, `generar_imagen.py` y
 | `generar_etiquetas.py` | `python3 _scripts/generar_etiquetas.py` | Genera `etiquetas.pdf` (ReportLab, carta, 1 etiqueta por billete) | Escribe `etiquetas.pdf` (gitignored) |
 | `validate_currencies.py` | `python3 _scripts/validate_currencies.py` → `validate_banknotes()` | Valida los `_json/*/*.json` contra `currencies.json` (códigos existentes, etc.) | Solo lee; salida por stdout |
 | `fix_currency_errors.py` | `python3 _scripts/fix_currency_errors.py` → `get_currencies_by_country_and_year()` | Corrige `denomination.iso4217` por país+año usando `currencies.json` | Escribe JSONs de `_json/`; revisar cambios antes de commitear |
-| `check_missing_flags.py` | `python3 _scripts/check_missing_flags.py` → `check_flags()` | Compara banderas de `countries.json` con `web/_flags/` y lista faltantes | Solo lee; **tiene rutas absolutas hardcodeadas** |
+| `check_missing_flags.py` | `python3 _scripts/check_missing_flags.py` → `check_flags()` | Compara `flag_svg` de `countries.json` con `web/_flags_svg/` y escribe la categoría `banderas_faltantes` en `web/data/issues.json` | Escribe `web/data/issues.json` (gitignored); rutas relativas al repo vía `Path(__file__)` |
 | `extract_serial.py` | `python3 _scripts/extract_serial.py` → `process_banknote_jsons()` | Para billetes sin `specimens[0].serial_number`, extrae el serial de la foto con un LLM local (Ollama) y lo escribe | Escribe JSONs de `_json/`; requiere `ollama` corriendo |
 | `extract_themes_from_jpgs.py` | `python3 _scripts/extract_themes_from_jpgs.py` | Extrae `themes` (claves permitidas: actividad, arte, construccion, dictador, evento, fauna, flora, lugar, personaje, reina, rey, simbolo, transporte) de las fotos con LLM local + contexto Numista (scraping/requests/bs4, búsqueda DuckDuckGo vía langchain) | Escribe JSONs de `_json/`; requiere `ollama` (modelo `gemma4:31b` por defecto) |
 | `reset_verificados.py` | `python3 _scripts/reset_verificados.py` → `reset_verificado_status()` | Pone `verificado = false` en todos los `_json/*/*.json` | Escribe en masa; usar antes de auditar |
@@ -119,8 +119,8 @@ Convenios que usan `build_web.py`, `serve_web.py`, `generar_imagen.py` y
   + salto de línea final (igual que `_handle_update`).
 - Los que escriben `_json/` deben ser seguidos de un build/`/api/rebuild`
   para que la web refleje los cambios.
-- `check_missing_flags.py` y `update_countries_json.py` asumen rutas
-  absolutas del equipo original; revisarlos antes de ejecutar en otra máquina.
+- `update_countries_json.py` asume rutas absolutas del equipo original;
+  revisarlo antes de ejecutar en otra máquina.
 - `git_clean_json.sh` es la variante "jq" del reset de `verificado`: el
   script solo contiene el filtro `jq`, así que hay que darle los JSONs por
   stdin (p. ej. desde una lista de `git ls-files`).

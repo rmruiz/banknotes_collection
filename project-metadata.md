@@ -45,7 +45,7 @@ Un catálogo de billetes con:
   issues.json, thumbs_meta.json, copias de países/monedas), `web/thumbs/`,
   `etiquetas.pdf`, `web/data.json` (relicto antiguo). Ver
   `project-metadata/files.md`.
-- **Imágenes commiteadas (SÍ fuente)**: `web/_flags/` (banderas),
+- **Imágenes commiteadas (SÍ fuente)**: `web/_flags_svg/` (banderas SVG),
   `web/_originals/<id>/` (fotos front/back) y `web/_FULL/<id>.webp` (imagen
   compuesta) están versionados en git.
 - **Convención de id**: `<abreviatura-país>-<pick sin separadores, minúsculas>`
@@ -54,7 +54,7 @@ Un catálogo de billetes con:
   (`serve_web.py:_handle_change_pick`).
 - **Rutas por convención** (no se guardan en el JSON):
   `web/_originals/<id>/<id>_A.jpg` (front), `web/_originals/<id>/<id>_B.jpg`
-  (back), `web/_FULL/<id>.webp`, `web/_flags/FLAG_*.jpg`,
+  (back), `web/_FULL/<id>.webp`, `web/_flags_svg/*.svg`,
   `web/thumbs/<id>_A.jpg` / `_B.jpg` / `_F.jpg`.
 - **Escrituras atómicas + lock**: todo lo que se modifica en disco usa
   `tmp + os.replace` y `WRITE_LOCK` (un solo escritor a la vez).

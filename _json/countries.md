@@ -22,7 +22,7 @@ Cada registro contiene la identificación de la entidad, sus nombres en español
     },
     "vigente": "si",
     "moneda_propia": "si",
-    "flag": "FLAG_CHILE.jpg",
+    "flag_svg": "cl.svg",
     "folder": "chile"
   }
 }
@@ -150,14 +150,14 @@ mientras que Chile aparece con:
 "moneda_propia": "si"
 ```
 
-### `flag`
+### `flag_svg`
 
 Nombre del archivo de imagen utilizado para representar la bandera de la entidad.
 
 Ejemplo:
 
 ```json
-"flag": "FLAG_CHILE.jpg"
+"flag_svg": "cl.svg"
 ```
 
 El campo contiene el nombre del archivo, no una URL.
@@ -246,7 +246,7 @@ Los valores de `vigente` y `moneda_propia` utilizan actualmente `si` y `no`.
 
 Los nombres se almacenan dentro del objeto `name`, utilizando códigos de idioma de dos letras.
 
-Los nombres de los archivos de bandera contenidos en `flag` deben coincidir exactamente con los archivos existentes en el proyecto.
+Los nombres de los archivos de bandera contenidos en `flag_svg` deben coincidir exactamente con los archivos existentes en el proyecto.
 
 Los valores de `folder` deben corresponder a directorios válidos dentro de la estructura del proyecto.
 
@@ -265,7 +265,7 @@ Los campos ISO pueden ser `null` cuando no exista un código estándar aplicable
   },
   "vigente": "si",
   "moneda_propia": "si",
-  "flag": "FLAG_CHILE.jpg",
+  "flag_svg": "cl.svg",
   "folder": "chile"
 }
 ```
@@ -283,7 +283,7 @@ Los campos ISO pueden ser `null` cuando no exista un código estándar aplicable
   },
   "vigente": "si",
   "moneda_propia": "si",
-  "flag": "FLAG_ESCOCIA.jpg",
+  "flag_svg": "gb-sct.svg",
   "folder": "world"
 }
 ```

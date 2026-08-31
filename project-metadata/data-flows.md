@@ -6,7 +6,7 @@ Notación: `{archivo}:{función}` con nombres reales. Diagrama general:
  _json/*/*.json ──────────────┐  (fuente de verdad)
  _json/countries.json ────────┤
  _json/currencies.json ───────┤
- web/_originals/…  web/_FULL/…┤        web/_flags/…
+ web/_originals/…  web/_FULL/…┤        web/_flags_svg/…
         │                     │                │
         │            _scripts/build_web.py:build
         │                     │

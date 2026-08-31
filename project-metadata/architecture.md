@@ -20,7 +20,7 @@
 │ build_web.py       │   │ _json/*/*.json (billetes)         │
 │ make_record,       │   │ _json/countries.json              │
 │ thumbs, issues     │   │ _json/currencies.json             │
-└────────────────────┘   │ web/_originals/ web/_FULL/ _flags/ │
+└────────────────────┘   │ web/_originals/ _FULL/ _flags_svg/ │
                          └────────────────────────────────────┘
 ```
 
@@ -59,7 +59,7 @@ Toda la confianza del diseño está en `do_POST`:
    (`ALLOWED_GET_PREFIXES`), redirige `/web/` → `/`, 404 a `..`.
    Cache: el override `end_headers` añade `Cache-Control: no-cache` a TODO
    lo que no empieza por `CACHEABLE_PREFIXES` (`/thumbs/`, `/_originals/`,
-   `/_FULL/`, `/_flags/`); esas rutas se sirven sin cabecera extra (caché
+   `/_FULL/`, `/_flags_svg/`); esas rutas se sirven sin cabecera extra (caché
    por defecto del navegador) y además llevan `?v=<firma>` en la URL,
    puesta por el build, lo que invalida el caché al cambiar la foto.
 
