@@ -1,6 +1,5 @@
 import json
 import glob
-import os
 
 def reset_verificado_status():
     # Buscar todos los archivos JSON en la estructura de carpetas

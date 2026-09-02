@@ -53,8 +53,8 @@ for i, a in enumerate(sys.argv[1:]):
 # reusar el índice de banderas de build_web (incluye alias: Rep. Checa,
 # Rep. Dominicana, Fiyi, Moldavia, etc.) y las utilidades compartidas
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import build_web
-from util import get_country_by_code, get_country_by_name, currency_name
+import build_web                    # noqa: E402
+from util import get_country_by_code, get_country_by_name, currency_name  # noqa: E402
 
 
 def flag_for(country_es):
@@ -79,7 +79,9 @@ def identify(path, fmt):
 
 def compose(d, front, back, flag, dest, tmp):
     """Replica el pipeline de _append_text.sh."""
-    T = lambda n: str(tmp / n)
+
+    def T(n):
+        return str(tmp / n)
     dn = d["denomination"]
     # país: resolver por country_code (campo canónico); si no, fallback
     # al legacy `country: {es, en}` por compatibilidad.

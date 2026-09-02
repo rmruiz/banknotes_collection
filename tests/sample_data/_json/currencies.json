@@ -1,0 +1,32 @@
+{
+ "CLP": {
+  "codigo": "CLP",
+  "nombres": {"es": "Peso chileno", "en": "Chilean peso"},
+  "nombre_corto": {"es": "Peso", "es_p": "Pesos", "en": "Peso", "en_p": "Pesos"},
+  "simbolo": "$",
+  "iso_4217": {"numerico": "152", "decimales": 0},
+  "subunidad": null,
+  "tipo": "fiat",
+  "estado": "circulacion"
+ },
+ "USD": {
+  "codigo": "USD",
+  "nombres": {"es": "Dólar estadounidense", "en": "United States dollar"},
+  "nombre_corto": {"es": "Dólar", "es_p": "Dólares", "en": "Dollar", "en_p": "Dollars"},
+  "simbolo": "$",
+  "iso_4217": {"numerico": "840", "decimales": 2},
+  "subunidad": {"codigo": "USC", "nombres": {"es": "centavo", "en": "cent"}, "factor": 100},
+  "tipo": "fiat",
+  "estado": "circulacion"
+ },
+ "CHF": {
+  "codigo": "CHF",
+  "nombres": {"es": "Franco suizo"},
+  "nombre_corto": {"es": "Franco suizo", "es_p": "Francos suizos"},
+  "simbolo": "CHF",
+  "iso_4217": {"numerico": "756", "decimales": 2},
+  "subunidad": {"codigo": null, "nombres": {}, "factor": 100},
+  "tipo": "fiat",
+  "estado": "circulacion"
+ }
+}

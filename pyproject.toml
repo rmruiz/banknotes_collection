@@ -1,0 +1,62 @@
+# =====================================================================
+# banknotes_collection — configuración de toolchain de calidad (T1)
+#
+# Regla del proyecto: Python stdlib + JS vanilla, SIN frameworks ni build
+# (KISS). Piso de compatibilidad fijado en 3.10 (mypy/ruff actuales ya no
+# soportan 3.9 como target): el código no usa sintaxis 3.11+; la CI corre
+# en 3.11 y el entorno local en el intérprete de `.python-version`.
+# =====================================================================
+
+[project]
+name = "banknotes-collection"
+version = "0.1.0"
+description = "Catálogo personal de billetes: Python stdlib + JS vanilla, sin build."
+requires-python = ">=3.10"
+
+# ---------------------------------------------------------------------
+# pytest — los tests viven en _scripts/tests/ (Fase 0, T2-T4, T6)
+# ---------------------------------------------------------------------
+[tool.pytest.ini_options]
+testpaths = ["_scripts/tests"]
+addopts = "-q"
+
+# ---------------------------------------------------------------------
+# ruff — lint. Select EXPLÍCITO y mínimo (el set clásico "defecto" de
+# ruff pre-1.0: pycodestyle E4/E7/E9 + pyflakes F): suficiente para la CI
+# mínima y estable entre versiones de ruff. T17 añadirá C901/PLR0915
+# (hotspots de complejidad).
+# ---------------------------------------------------------------------
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = [
+    "_json",                      # fuente de datos (1 100+ JSON)
+    "web/data",                   # generado por build_web.py
+    "web/thumbs",                 # generado por build_web.py
+    "node_modules",
+    ".agents",                    # código de skills ajenos al proyecto
+    ".aider",
+    ".claude",
+    ".cline",
+]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+# per-file-ignores = DEUDA PREEXISTENTE (hallazgos B5-B10 de la revisión)
+# que se retira tarea por tarea. Los módulos nuevos (tests, fsutil,
+# catalog) deben ser limpios SIN ignores.
+[tool.ruff.lint.per-file-ignores]
+"_scripts/fix_currency_errors.py" = ["E722"]  # T8: `except:` desnudo ×2
+
+# ---------------------------------------------------------------------
+# mypy — `files` crece según los módulos ganan type hints (T18: módulos
+# nuevos en --strict, el resto en modo base). ignore_missing_imports
+# porque reportlab/ollama/bs4/langchain no están instalados en la CI.
+# ---------------------------------------------------------------------
+[tool.mypy]
+python_version = "3.10"
+mypy_path = "."
+namespace_packages = true
+ignore_missing_imports = true
+files = ["_scripts/tests"]

@@ -1,0 +1,26 @@
+{
+ "cl": {
+  "code": "cl",
+  "iso_alpha2": "CL",
+  "name": {"es": "Chile", "en": "Chile"},
+  "flag_svg": "cl.svg",
+  "folder": "chile",
+  "moneda_vigente": "CLP"
+ },
+ "ar": {
+  "code": "ar",
+  "iso_alpha2": "AR",
+  "name": {"es": "Argentina", "en": "Argentina"},
+  "flag_svg": "ar.svg",
+  "folder": "argentina",
+  "moneda_vigente": "ARS"
+ },
+ "xk": {
+  "code": "xk",
+  "iso_alpha2": "XK",
+  "name": {"es": "Kosovo", "en": "Kosovo"},
+  "flag_svg": "xk.svg",
+  "folder": "world",
+  "moneda_vigente": "EUR"
+ }
+}

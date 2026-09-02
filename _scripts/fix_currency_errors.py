@@ -108,7 +108,7 @@ def process_errors():
                     line = f"{line} -> Sugerencia: Falta país/año"
             else:
                 line = f"{line} -> Sugerencia: Billete no encontrado"
-        except Exception as e:
+        except Exception:
             line = f"{line} -> Sugerencia: Error procesando línea"
             
         updated_lines.append(line)

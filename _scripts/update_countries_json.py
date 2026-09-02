@@ -1,5 +1,4 @@
 import json
-import os
 
 def update_countries():
     countries_path = '/Users/rolando/git/banknotes_collection/_json/countries.json'

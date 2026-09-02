@@ -24,7 +24,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts (util)
-from util import (unaccent, COUNTRIES, CURRENCIES,
+from util import (unaccent, CURRENCIES,
                   get_country_by_code, get_country_by_name,
                   get_currency_by_code, is_true, currency_name)   # noqa: E402
 
@@ -130,7 +130,19 @@ def build_search(*parts):
     return re.sub(r"\s+", " ", txt).strip()
 
 
-def make_record(d):
+def record_to_json(d, web=None, flags_svg=None):
+    """Genera el registro de collection.json a partir del JSON del billete (d).
+
+    Extraído de make_record (T3) para poder testearlo contra datos de muestra
+    y rutas inyectadas: web/ (fotos y banderas) y _flags_svg/ son parámetros
+    opcionales que por defecto se resuelven en tiempo de llamada (los globales
+    del módulo), de modo que los tests pueden redirigirlos sin tocar el
+    comportamiento real.
+    """
+    if web is None:
+        web = WEB
+    if flags_svg is None:
+        flags_svg = FLAGS_SVG
     dn = d["denomination"]
     sp = d["specimens"][0]
     notes = d.get("notes", {})
@@ -139,7 +151,7 @@ def make_record(d):
     def resolve(rel, thumb_suffix):
         """ruta original + ruta thumb (con ?v=<firma> para invalidar caché
         del navegador cuando la foto cambia), solo si el archivo existe."""
-        src = WEB / rel
+        src = web / rel
         if not src.exists():
             return "", ""
         v = file_v(src)
@@ -197,7 +209,7 @@ def make_record(d):
         "conmemorativo": bool(d.get("commemorative")),
         "remarcado": bool(d.get("overprint")),
         "verificado": bool(d.get("verificado")),
-        "flag": (lambda fn: f"_flags_svg/{fn}?v={file_v(FLAGS_SVG / fn)}" if fn else "")(
+        "flag": (lambda fn: f"_flags_svg/{fn}?v={file_v(flags_svg / fn)}" if fn else "")(
             flag_file_for_note(d)),
         "thumb_a": thumb_a, "thumb_b": thumb_b, "thumb_f": thumb_f,
         "img_a": img_a, "img_b": img_b, "img_full": img_f,
@@ -216,6 +228,11 @@ def make_record(d):
         "remarcado" if rec["remarcado"] else "",
     )
     return rec
+
+
+def make_record(d):
+    """Entrada histórica (build, serve_web): registro con las rutas reales."""
+    return record_to_json(d)
 
 
 def thumb_jobs(rec, meta, force=False):
@@ -249,6 +266,8 @@ def make_thumb(job):
         return True, (key, sig)
     except subprocess.CalledProcessError as e:
         return False, f"{dest.name}: {e.stderr.decode()[:120]}"
+    except OSError as e:  # p.ej. binario magick ausente: no derrumba el build
+        return False, f"{dest.name}: {e}"
 
 
 def build_issues_data(records, meta, force=False, json_malos=None):

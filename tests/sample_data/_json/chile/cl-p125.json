@@ -1,0 +1,41 @@
+{
+ "id": "cl-p125",
+ "pick_number": "P-125",
+ "denomination": {
+  "value": 1000,
+  "currency": "Peso",
+  "iso4217": "CLP",
+  "subunidad": false,
+  "subtype": "",
+  "alternatives": []
+ },
+ "year": 1961,
+ "signatures": [
+  "R. Tobar"
+ ],
+ "themes": [
+  "personaje:eliseo_vidal"
+ ],
+ "notes": {
+  "obs": "Muestra de test",
+  "vigencia": "",
+  "serie": "",
+  "bank": "",
+  "zone": ""
+ },
+ "colnect": {
+  "url": "https://colnect.com/es/banknotes/banknote/1",
+  "group": "Aniversarios"
+ },
+ "numista": "https://es.numista.com/1",
+ "commemorative": false,
+ "overprint": false,
+ "verificado": true,
+ "specimens": [
+  {
+   "serial_number": "AB123456",
+   "condition": "UNC"
+  }
+ ],
+ "country_code": "cl"
+}

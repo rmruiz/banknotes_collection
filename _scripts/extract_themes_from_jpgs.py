@@ -97,11 +97,11 @@ def process_banknote_themes():
         contexto = ""
         
         if numista_url:
-            print(f"  -> Extrayendo contexto desde Numista...")
+            print("  -> Extrayendo contexto desde Numista...")
             contexto = get_numista_context(numista_url)
             
         if not contexto: # Si no había Numista o el scraping falló
-            print(f"  -> Buscando contexto en la web...")
+            print("  -> Buscando contexto en la web...")
             code = data.get("country_code")
             c_info = get_country_by_code(code) if code else get_country_by_name((data.get("country") or {}).get("es", ""))
             country = c_info["name"]["es"] if c_info else (data.get("country") or {}).get("es", "")
@@ -143,7 +143,7 @@ def process_banknote_themes():
             output = response['message']['content'].strip()
             
             if output.lower() in ["ninguno", "none", "not found", ""]:
-                print(f"  -> Resultado: No se identificaron temas.\n")
+                print("  -> Resultado: No se identificaron temas.\n")
                 continue
             
             extracted_themes = []

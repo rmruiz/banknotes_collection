@@ -1,0 +1,29 @@
+{
+ "id": "cl-p100",
+ "denomination": {
+  "value": null,
+  "currency": "Maravedí",
+  "iso4217": "",
+  "subtype": "",
+  "alternatives": []
+ },
+ "year": null,
+ "signatures": [],
+ "themes": [],
+ "notes": {},
+ "colnect": {
+  "url": "",
+  "group": ""
+ },
+ "numista": "",
+ "commemorative": false,
+ "overprint": false,
+ "verificado": false,
+ "specimens": [
+  {}
+ ],
+ "country": {
+  "es": "Chile",
+  "en": "Chile"
+ }
+}

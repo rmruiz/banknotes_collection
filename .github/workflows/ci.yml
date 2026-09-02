@@ -1,0 +1,56 @@
+# CI mínima (T1): ruff → mypy → pytest + node --test.
+# Sin ImageMagick en el runner: los tests que lo requieran deben
+# `skipif` (T3) y `build()` se prueba contra fixtures en tmp_path.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  python:
+    name: Python (ruff, mypy, pytest)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"   # el código debe seguir siendo 3.9-compatible
+
+      - name: Instalar toolchain
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-dev.txt
+
+      - name: Ruff
+        run: ruff check .
+
+      - name: Mypy
+        run: mypy
+
+      - name: Pytest
+        run: python -m pytest
+
+  js:
+    name: "JS (node --test)"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Runner nativo de Node, cero dependencias (decisión T1: KISS).
+      # T6 crea web/lib/*.test.js; hasta entonces no hay nada que correr.
+      - name: node --test
+        run: |
+          if ls web/lib/*.test.js >/dev/null 2>&1; then
+            node --test web/lib
+          else
+            echo "Sin tests JS todavía (web/lib/*.test.js se crean en T6)"
+          fi

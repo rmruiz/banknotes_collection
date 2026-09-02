@@ -47,9 +47,9 @@ FULL = WEB / "_FULL"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts
 sys.path.insert(0, str(JSON_DIR))                          # _json
-import build_web                    # reusa make_record (search, bandera, thumbs)
-import generar_imagen               # reusa compose() y flag_for()
-from util import (unaccent, make_note_id, COUNTRIES, CURRENCIES,
+import build_web                    # noqa: E402 — reusa make_record (search, bandera, thumbs)
+import generar_imagen               # noqa: E402 — reusa compose() y flag_for()
+from util import (unaccent, make_note_id, COUNTRIES, CURRENCIES,  # noqa: E402
                   get_country_by_name, is_true)  # convenios compartidos
 
 COUNTRY_MAP = {}

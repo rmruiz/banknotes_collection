@@ -27,7 +27,7 @@ REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
 FLAGS = REPO / "web" / "_flags_svg"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from util import get_country_by_code, get_country_by_name, currency_name
+from util import get_country_by_code, get_country_by_name, currency_name  # noqa: E402
 
 try:
     import build_web
@@ -225,9 +225,12 @@ def render_label(c, rec, x, y, w, h):
             el["obj"] = p
             
         if el["h"] > 0:
-            if el["align"] == "top": top_el.append(el)
-            elif el["align"] == "bottom": bottom_el.append(el)
-            else: center_el.append(el)
+            if el["align"] == "top":
+                top_el.append(el)
+            elif el["align"] == "bottom":
+                bottom_el.append(el)
+            else:
+                center_el.append(el)
 
     # 3. Dibujar Bloque Superior (Anclado al norte)
     top_bound = y + h - EDGE_PAD_PT

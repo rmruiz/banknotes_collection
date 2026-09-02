@@ -1,0 +1,31 @@
+{
+ "id": "ar-p5",
+ "pick_number": "P-5",
+ "denomination": {
+  "value": 1,
+  "currency": "Peso",
+  "iso4217": "ARS",
+  "subunidad": false,
+  "subtype": "",
+  "alternatives": []
+ },
+ "year": 1950,
+ "signatures": [],
+ "themes": [],
+ "notes": {},
+ "colnect": {
+  "url": "https://colnect.com/es/banknotes/banknote/2",
+  "group": ""
+ },
+ "numista": "",
+ "commemorative": false,
+ "overprint": false,
+ "verificado": false,
+ "specimens": [
+  {
+   "serial_number": "",
+   "condition": "VF"
+  }
+ ],
+ "country_code": "ar"
+}

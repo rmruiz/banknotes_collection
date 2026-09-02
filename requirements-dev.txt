@@ -1,0 +1,6 @@
+# Toolchain de desarrollo (T1): lint, typecheck y tests.
+# La app misma corre solo con stdlib; los helpers opcionales (reportlab,
+# ollama, ...) están en requirements.txt y NO se instalan en la CI.
+pytest>=8.0
+ruff>=0.5
+mypy>=1.10

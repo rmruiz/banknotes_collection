@@ -1,0 +1,13 @@
+{
+ "id": "cl-xnospec",
+ "pick_number": "P-999",
+ "denomination": {
+  "value": 10,
+  "currency": "Peso",
+  "iso4217": "CLP",
+  "subtype": "",
+  "alternatives": []
+ },
+ "year": 1900,
+ "specimens": []
+}
