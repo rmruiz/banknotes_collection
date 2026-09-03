@@ -52,9 +52,15 @@ for i, a in enumerate(sys.argv[1:]):
 
 # reusar el índice de banderas de build_web (incluye alias: Rep. Checa,
 # Rep. Dominicana, Fiyi, Moldavia, etc.) y las utilidades compartidas
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-import build_web                    # noqa: E402
-from util import get_country_by_code, get_country_by_name, currency_name  # noqa: E402
+if __package__ in (None, ""):
+    # Ejecución directa (`python3 _scripts/generar_imagen.py`).
+    sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts
+    import build_web                          # noqa: E402
+    from util import get_country_by_code, get_country_by_name, currency_name  # noqa: E402
+else:
+    # Importado como _scripts.generar_imagen (serve_web, pytest).
+    from . import build_web
+    from .util import get_country_by_code, get_country_by_name, currency_name
 
 
 def flag_for(country_es):

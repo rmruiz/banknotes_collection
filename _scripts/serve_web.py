@@ -4,6 +4,8 @@
 
 Uso:
     python3 _scripts/serve_web.py [puerto]     # default 8000
+    python3 _scripts/serve_web.py --port 8080  # idem, por flag
+    python3 _scripts/serve_web.py --bind 127.0.0.1
     -> http://localhost:<puerto>/web/
 
 Sirve solo la web y los assets de imágenes (web/, _originals/, _FULL/,
@@ -27,6 +29,7 @@ Medidas de seguridad:
   - Body limitado a 4 KB; fotos re-codificadas con magick al subir.
   - Escrituras atómicas (tmp + os.replace) y con lock (una a la vez).
 """
+import argparse
 import json
 import os
 import re
@@ -45,12 +48,21 @@ COLLECTION = WEB / "data" / "collection.json"
 ORIGINALS = WEB / "_originals"
 FULL = WEB / "_FULL"
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts
-sys.path.insert(0, str(JSON_DIR))                          # _json
-import build_web                    # noqa: E402 — reusa make_record (search, bandera, thumbs)
-import generar_imagen               # noqa: E402 — reusa compose() y flag_for()
-from util import (unaccent, make_note_id, COUNTRIES, CURRENCIES,  # noqa: E402
-                  get_country_by_name, is_true)  # convenios compartidos
+if __package__ in (None, ""):
+    # Ejecución directa (`python3 _scripts/serve_web.py`): hace importables a
+    # los módulos hermanos de _scripts/ (patrón T5, ver
+    # _scripts/tests/conftest.py).
+    sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts
+    sys.path.insert(0, str(JSON_DIR))                          # _json
+    import build_web                      # noqa: E402 — reusa make_record (search, bandera, thumbs)
+    import generar_imagen                 # noqa: E402 — reusa compose() y flag_for()
+    from util import (unaccent, make_note_id, COUNTRIES, CURRENCIES,  # noqa: E402
+                      get_country_by_name, is_true)  # convenios compartidos
+else:
+    # Importado como _scripts.serve_web (pytest desde la raíz del repo).
+    from . import build_web, generar_imagen
+    from .util import (unaccent, make_note_id, COUNTRIES, CURRENCIES,
+                       get_country_by_name, is_true)
 
 COUNTRY_MAP = {}
 COUNTRY_EN = {}
@@ -64,8 +76,7 @@ for code, info in COUNTRIES.items():
         COUNTRY_EN[key_es] = (info.get("name") or {}).get("en", name_es)
         FOLDER_ROUTE[key_es] = info.get("folder", "world")
 
-BIND = "0.0.0.0"
-PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
+BIND = "0.0.0.0"   # interfaz por defecto (la decisión final es T10)
 
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9.\-]{0,80}$")
 ORIGIN_RE = re.compile(r"^https?://(localhost|127\.0\.0\.1)(:\d+)?$")
@@ -80,8 +91,16 @@ ALLOWED_GET_PREFIXES = ("/",)
 
 WRITE_LOCK = threading.Lock()
 
-# índice id -> ruta del JSON (construido al inicio; los ids son estables)
-IDS = {f.stem: f for f in JSON_DIR.glob("*/*.json")}
+# índice id -> ruta del JSON. Lo llena reindex() en el arranque (main); los
+# handlers lo leen como global en cada petición (los ids son estables).
+IDS: dict[str, Path] = {}
+
+
+def reindex() -> dict[str, Path]:
+    """(Re)construye el índice id -> ruta del JSON desde disco."""
+    global IDS
+    IDS = {f.stem: f for f in JSON_DIR.glob("*/*.json")}
+    return IDS
 
 
 # ---- creación de JSON desde una carpeta con nombre viejo ----
@@ -693,8 +712,7 @@ class Handler(SimpleHTTPRequestHandler):
             with WRITE_LOCK:
                 res = build_web.build()
                 # refrescar el índice de ids (por si aparecieron JSON nuevos)
-                IDS.clear()
-                IDS.update({f.stem: f for f in JSON_DIR.glob("*/*.json")})
+                reindex()
         except Exception as e:   # noqa: BLE001 — reportar cualquier fallo al cliente
             return self._json_error(500, f"rebuild falló: {e}")
         res["ok"] = True
@@ -759,13 +777,23 @@ class Handler(SimpleHTTPRequestHandler):
         self.wfile.write(data)
 
 
-def main():
+def main(argv: list[str] | None = None) -> None:
+    p = argparse.ArgumentParser(
+        description="Servidor local de la web + API mínima de edición.")
+    p.add_argument("port", nargs="?", type=int, default=8000,
+                   help="puerto (default: 8000)")
+    p.add_argument("--port", dest="port_opt", type=int, default=None,
+                   help="puerto (tiene preferencia sobre el posicional)")
+    p.add_argument("--bind", default=BIND,
+                   help=f"interfaz a la que escuchar (default: {BIND})")
+    a = p.parse_args(argv)
+    port = a.port_opt if a.port_opt is not None else a.port
+
     print(f"Sirviendo {REPO}", flush=True)
     # rebuild al arrancar: así reiniciar el servidor siempre sirve datos frescos
     print("Reconstruyendo datos (collection/issues/miniaturas)…", flush=True)
     res = build_web.build()
-    IDS.clear()
-    IDS.update({f.stem: f for f in JSON_DIR.glob("*/*.json")})
+    reindex()
     print(f"  {res['registros']} billetes | con fotos: {res['con_front']} "
           f"| thumbs nuevas: {res['thumbs_generadas']} "
           f"| problemas: {res['problemas']}")
@@ -773,8 +801,8 @@ def main():
         print(f"  ⚠ JSON inválidos (omitidos del índice): {res['json_invalidos']}"
               " — ver página Problemas", flush=True)
     print(f"Billetes indexados: {len(IDS)}", flush=True)
-    print(f"-> http://localhost:{PORT}/   (Ctrl-C para salir)", flush=True)
-    ThreadingHTTPServer((BIND, PORT), Handler).serve_forever()
+    print(f"-> http://localhost:{port}/   (Ctrl-C para salir)", flush=True)
+    ThreadingHTTPServer((a.bind, port), Handler).serve_forever()
 
 
 if __name__ == "__main__":

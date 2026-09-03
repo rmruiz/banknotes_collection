@@ -13,6 +13,7 @@ Uso:
     python3 _scripts/build_web.py            # incremental
     python3 _scripts/build_web.py --force    # regenera todas las miniaturas
 """
+import argparse
 import hashlib
 import json
 import os
@@ -23,10 +24,18 @@ import tempfile
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts (util)
-from util import (unaccent, CURRENCIES,
-                  get_country_by_code, get_country_by_name,
-                  get_currency_by_code, is_true, currency_name)   # noqa: E402
+if __package__ in (None, ""):
+    # Ejecución directa (`python3 _scripts/build_web.py`): hace importable
+    # util (patrón T5, ver _scripts/tests/conftest.py).
+    sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts (util)
+    from util import (unaccent, CURRENCIES,                            # noqa: E402
+                      get_country_by_code, get_country_by_name,
+                      get_currency_by_code, is_true, currency_name)
+else:
+    # Importado como _scripts.build_web (pytest desde la raíz del repo).
+    from .util import (unaccent, CURRENCIES,
+                       get_country_by_code, get_country_by_name,
+                       get_currency_by_code, is_true, currency_name)
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
@@ -39,8 +48,6 @@ ORIGINALS = WEB / "_originals"
 THUMB_WIDTH = 360   # alcanza para mostrar nítido hasta 3x (132px de alto)
 THUMB_QUALITY = 80
 WORKERS = 8
-
-FORCE = "--force" in sys.argv
 
 
 def _atomic_write_text(path, text):
@@ -526,8 +533,12 @@ def build(force=False, verbose=False):
     }
 
 
-def main():
-    res = build(force=FORCE, verbose=True)
+def main(argv: list[str] | None = None) -> None:
+    p = argparse.ArgumentParser(description="Construye los artefactos de la web estática.")
+    p.add_argument("--force", action="store_true",
+                   help="regenera todas las miniaturas (default: incremental)")
+    a = p.parse_args(argv)
+    res = build(force=a.force, verbose=True)
     print(f"\ncollection.json: {res['registros']} registros ({res['kb']} KB)")
     print(f"Con front: {res['con_front']} | con back: {res['con_back']} "
           f"| con full: {res['con_full']}")
