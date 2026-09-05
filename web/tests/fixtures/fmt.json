@@ -106,5 +106,199 @@
    "s": "Serbia",
    "out": "Serbia"
   }
+ ],
+ "catalog": {
+  "CLP": {
+   "nombres": {
+    "es": "Peso chileno",
+    "en": "Chilean peso"
+   },
+   "nombre_corto": {
+    "es": "Peso",
+    "es_p": "Pesos",
+    "en": "Peso",
+    "en_p": "Pesos"
+   },
+   "simbolo": "$"
+  },
+  "PEN": {
+   "nombres": {
+    "es": "Sol peruano",
+    "en": "Peruvian sol"
+   },
+   "nombre_corto": {
+    "es": "Sol",
+    "es_p": "Soles",
+    "en": "Sol",
+    "en_p": "Soles"
+   },
+   "simbolo": "S/"
+  },
+  "JPY": {
+   "nombres": {
+    "es": "Yen japonés",
+    "en": "Japanese yen"
+   },
+   "nombre_corto": {
+    "es": "Yen",
+    "es_p": "Yenes",
+    "en": "Yen",
+    "en_p": "Yen"
+   },
+   "simbolo": "¥"
+  }
+ },
+ "denominacion": [
+  {
+   "dn": {
+    "value": 1000,
+    "currency": "Escudos",
+    "iso4217": "CLP",
+    "subunidad": false
+   },
+   "rec": {
+    "valor": 1000,
+    "currency_code": "CLP",
+    "denominacion": ""
+   },
+   "lang": "es",
+   "out": "1.000 Pesos"
+  },
+  {
+   "dn": {
+    "value": 1,
+    "currency": "Escudo",
+    "iso4217": "CLP",
+    "subunidad": false
+   },
+   "rec": {
+    "valor": 1,
+    "currency_code": "CLP",
+    "denominacion": ""
+   },
+   "lang": "es",
+   "out": "1 Peso"
+  },
+  {
+   "dn": {
+    "value": 2.5,
+    "currency": "soles",
+    "iso4217": "PEN",
+    "subunidad": false
+   },
+   "rec": {
+    "valor": 2.5,
+    "currency_code": "PEN",
+    "denominacion": ""
+   },
+   "lang": "es",
+   "out": "2,5 Soles"
+  },
+  {
+   "dn": {
+    "value": 500,
+    "currency": "Escudos",
+    "iso4217": "CLP",
+    "subunidad": false
+   },
+   "rec": {
+    "valor": 500,
+    "currency_code": "CLP",
+    "denominacion": ""
+   },
+   "lang": "en",
+   "out": "500 Pesos"
+  },
+  {
+   "dn": {
+    "value": 500,
+    "currency": "Escudos",
+    "iso4217": null,
+    "subunidad": false
+   },
+   "rec": {
+    "valor": 500,
+    "currency_code": "",
+    "moneda": "Escudos",
+    "denominacion": "500 Escudos"
+   },
+   "lang": "es",
+   "out": "500 Escudos"
+  }
+ ],
+ "currency": [
+  {
+   "code": "CLP",
+   "fallback": "",
+   "lang": "es",
+   "subunit": false,
+   "rec": {
+    "currency_code": "CLP",
+    "moneda": ""
+   },
+   "out": "Peso",
+   "display": "Peso Chileno ($)"
+  },
+  {
+   "code": "CLP",
+   "fallback": "",
+   "lang": "en",
+   "subunit": false,
+   "rec": {
+    "currency_code": "CLP",
+    "moneda": ""
+   },
+   "out": "Peso",
+   "display": "Chilean Peso ($)"
+  },
+  {
+   "code": "PEN",
+   "fallback": "Sol viejo",
+   "lang": "es",
+   "subunit": false,
+   "rec": {
+    "currency_code": "PEN",
+    "moneda": "Sol viejo"
+   },
+   "out": "Sol",
+   "display": "Sol Peruano (S/)"
+  },
+  {
+   "code": "CLP",
+   "fallback": "centavos sueltos",
+   "lang": "es",
+   "subunit": true,
+   "rec": {
+    "currency_code": "CLP",
+    "moneda": "centavos sueltos"
+   },
+   "out": "Centavo",
+   "display": "Peso Chileno ($)"
+  },
+  {
+   "code": "ZZZ",
+   "fallback": "Escudos",
+   "lang": "es",
+   "subunit": false,
+   "rec": {
+    "currency_code": "ZZZ",
+    "moneda": "Escudos"
+   },
+   "out": "Escudos",
+   "display": "Escudos"
+  },
+  {
+   "code": "ZZZ",
+   "fallback": "Escudos",
+   "lang": "en",
+   "subunit": false,
+   "rec": {
+    "currency_code": "ZZZ",
+    "moneda": "Escudos",
+    "currency_name_en": "Escudos"
+   },
+   "out": "Escudos",
+   "display": "Escudos"
+  }
  ]
 }

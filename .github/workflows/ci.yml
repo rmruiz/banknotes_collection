@@ -46,11 +46,7 @@ jobs:
           node-version: 20
 
       # Runner nativo de Node, cero dependencias (decisión T1: KISS).
-      # T6 crea web/lib/*.test.js; hasta entonces no hay nada que correr.
+      # Los tests viven en web/tests/*.test.js (desde T6); el glob evita
+      # dependencias de la versión de Node para descubrir directorios.
       - name: node --test
-        run: |
-          if ls web/lib/*.test.js >/dev/null 2>&1; then
-            node --test web/lib
-          else
-            echo "Sin tests JS todavía (web/lib/*.test.js se crean en T6)"
-          fi
+        run: node --test "web/tests/*.test.js"

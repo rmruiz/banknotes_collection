@@ -107,3 +107,31 @@ test("denominationFullDisplay: fallback al campo precargado", () => {
     "1000 Escudos",
   );
 });
+
+/* --- T14: contrato de display cross-language Python↔JS -------------------
+   El fixture fmt.json (generado por _scripts/generar_fixtures.py con el
+   catálogo real de monedas) define los `out` esperados: el test Python
+   (test_build_web.py) los produce con denominacion_full/currency_name;
+   aquí se comprueba que format.js produce el mismo texto. Nota: el
+   catálogo es la fuente del caso (Title Case curado); toTitleCase
+   normaliza los fallbacks de texto libre. */
+
+test("denominationFullDisplay: fixture cross-language Python↔JS", () => {
+  for (const { rec, lang, out } of FIXTURE.denominacion) {
+    assert.equal(
+      denominationFullDisplay(rec, lang, FIXTURE.catalog),
+      out,
+      `denominationFullDisplay(${JSON.stringify(rec)}, ${lang})`,
+    );
+  }
+});
+
+test("currencyDisplay: fixture cross-language Python↔JS", () => {
+  for (const { rec, lang, display } of FIXTURE.currency) {
+    assert.equal(
+      currencyDisplay(rec, lang, FIXTURE.catalog),
+      display,
+      `currencyDisplay(${JSON.stringify(rec)}, ${lang})`,
+    );
+  }
+});

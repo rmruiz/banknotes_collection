@@ -14,7 +14,7 @@ from pathlib import Path
 
 import pytest
 
-from _scripts import build_web
+from _scripts import build_web, util
 
 SAMPLE = Path(__file__).resolve().parents[2] / "tests" / "sample_data"
 SAMPLE_WEB = SAMPLE / "web"
@@ -70,6 +70,23 @@ def test_denominacion_full_moneda_desconocida_usa_texto_libre():
 def test_denominacion_full_valor_nulo():
     assert build_web.denominacion_full(
         {"value": None, "iso4217": "CLP", "currency": ""}) == "Pesos"
+
+
+def test_denominacion_full_fixture_cross_language():
+    """Lock T14: Python debe seguir produciendo el `out` commiteado en el
+    fixture cross-language; el test JS (format.test.js) comprueba que
+    format.js produce lo mismo. El `display` de currency se valida solo
+    en JS (es la salida de format.js:currencyDisplay)."""
+    fixture = json.loads(
+        (Path(__file__).resolve().parents[2]
+         / "web" / "tests" / "fixtures" / "fmt.json").read_text(encoding="utf-8"))
+    assert len(fixture["denominacion"]) >= 1 and len(fixture["currency"]) >= 1
+    for case in fixture["denominacion"]:
+        assert build_web.denominacion_full(case["dn"]) == case["out"], case
+    for case in fixture["currency"]:
+        got = util.currency_name(case["code"], case["fallback"], case["lang"],
+                                 subunit=case["subunit"])
+        assert got == case["out"], case
 
 
 def test_denominacion_full_subunidad_comportamiento_actual():

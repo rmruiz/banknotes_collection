@@ -197,6 +197,19 @@ cambiar la foto.
 **Formato de montos** (`build_web.py:fmt_valor`, estilo es-CL):
 `1000 → "1.000"`, `0.5 → "0,5"`, `None → ""`.
 
+**Contrato de display cross-language (T14)**: Python es la fuente de
+verdad. `build_web.py:denominacion_full` / `util.py:currency_name` y
+`web/lib/format.js:denominationFullDisplay` / `currencyDisplay` deben
+producir el mismo texto para la misma entrada; el pacto está encerrado
+en `web/tests/fixtures/fmt.json` (secciones `denominacion`, `currency` y
+`catalog`; se regenera con `python3 _scripts/generar_fixtures.py` —
+Python calcula los `out`). Regla de caso: los nombres del catálogo
+(`_json/currencies.json`) son la única fuente y van en Title Case curado;
+el lado JS aplica `toTitleCase` como red de normalización (no-op sobre el
+catálogo, normaliza los fallbacks de texto libre). Un test Python
+(`test_build_web.py:…fixture_cross_language`) y dos tests JS
+(`format.test.js`) corren cada lado contra el `out` commiteado.
+
 ## 6. `web/data/issues.json` (GENERADO)
 
 ```json
