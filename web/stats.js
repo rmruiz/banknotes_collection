@@ -4,6 +4,7 @@
  */
 
 import { esc } from "./lib/format.js";
+import { isLocal, showDataError } from "./lib/dataload.js";
 
 (function () {
     'use strict';
@@ -41,28 +42,33 @@ import { esc } from "./lib/format.js";
         try {
             let notesData, countriesData, currenciesData;
 
-            try {
-                const notesRes = await fetch('data/collection.json');
-                notesData = await notesRes.json();
-            } catch (e) {
-                console.error('Error cargando data/collection.json:', e);
+            const notesRes = await fetch('data/collection.json');
+            if (!notesRes.ok) {
+                // T11: banner bilingüe visible en vez de página rota
+                const lines = [
+                    `⚠️ No se pudo cargar data/collection.json (HTTP ${notesRes.status}).`,
+                    `⚠️ Could not load data/collection.json (HTTP ${notesRes.status}).`
+                ];
+                if (isLocal()) {
+                    lines.push(
+                        'Ejecuta python3 _scripts/build_web.py para generar los datos y recarga.',
+                        'Run python3 _scripts/build_web.py to generate the data, then reload.');
+                }
+                showDataError(document.body, lines);
+                return;
             }
+            notesData = await notesRes.json();
 
             try {
                 const countriesRes = await fetch('data/countries.json');
-                countriesData = await countriesRes.json();
+                countriesData = countriesRes.ok ? await countriesRes.json() : null;
             } catch (e) {
-                try {
-                    const fallbackRes = await fetch('../_json/countries.json');
-                    countriesData = await fallbackRes.json();
-                } catch (err2) {
-                    console.error('Error cargando countries.json:', err2);
-                }
+                console.error('Error cargando countries.json:', e);
             }
 
             try {
                 const currenciesRes = await fetch('data/currencies.json');
-                currenciesData = await currenciesRes.json();
+                currenciesData = currenciesRes.ok ? await currenciesRes.json() : null;
             } catch (e) {
                 console.error('Error cargando data/currencies.json:', e);
             }
@@ -78,8 +84,7 @@ import { esc } from "./lib/format.js";
             renderCharts();
 
             // Ocultar botón de edición en producción (solo lectura)
-            const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-            if (!isLocal) {
+            if (!isLocal()) {
                 document.querySelectorAll('a[href="index-edit.html"]').forEach((el) => el.style.display = "none");
             }
 

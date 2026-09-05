@@ -63,6 +63,10 @@ export const I18N = {
   new_pick: ["Pick number", "Pick number"],
   new_create: ["Crear", "Create"],
   err_create: ["No se pudo crear", "Could not create"],
+  data_err: ["No se pudieron cargar los datos de la colección (web/data/)",
+             "Could not load the collection data (web/data/)"],
+  data_err_build: ["Ejecuta python3 _scripts/build_web.py para generarlos y recarga.",
+                   "Run python3 _scripts/build_web.py to generate them, then reload."],
 };
 
 // `lang`: "es" | "en". Clave desconocida -> se devuelve la clave.

@@ -10,6 +10,7 @@ import {
 } from "./lib/format.js";
 import { translate, paisDisplay as paisDisplayLib } from "./lib/i18n.js";
 import { COL_ALIASES, getCol, getStrVal, parseQuery } from "./lib/query.js";
+import { isLocal, showDataError } from "./lib/dataload.js";
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -792,8 +793,7 @@ function applyI18n() {
   loadIssuesBadge();
 
   // Ocultar botón de edición en producción (solo lectura)
-  const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-  if (!isLocal) {
+  if (!isLocal()) {
     document.querySelectorAll('a[href="index-edit.html"]').forEach((el) => el.style.display = "none");
   }
 }
@@ -845,12 +845,30 @@ async function createNewNote(e) {
 
 /* --- eventos --- */
 
+/* T11: banner visible si web/data/ no se puede cargar (no dejar página rota) */
+function dataLoadError(cause) {
+  const lines = [`${t("data_err")} (${cause}).`];
+  if (isLocal()) lines.push(t("data_err_build"));
+  showDataError(document.body, lines);
+  console.error("Error cargando data/collection.json:", cause);
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
   // no-store: siempre datos frescos aunque se sirva sin serve_web.py
-   const [res, currenciesRes] = await Promise.all([
-     fetch("data/collection.json", { cache: "no-store" }),
-     fetch("data/currencies.json", { cache: "no-store" }).catch(() => null),
-   ]);
+  let res, currenciesRes;
+  try {
+    [res, currenciesRes] = await Promise.all([
+      fetch("data/collection.json", { cache: "no-store" }),
+      fetch("data/currencies.json", { cache: "no-store" }).catch(() => null),
+    ]);
+  } catch (e) {
+    dataLoadError(String(e));
+    return;
+  }
+  if (!res.ok) {
+    dataLoadError(`HTTP ${res.status}`);
+    return;
+  }
    state.all = await res.json();
    state.currencies = currenciesRes ? await currenciesRes.json() : {};
    state.filtered = state.all;

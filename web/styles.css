@@ -1108,3 +1108,16 @@ details.problema > summary:hover { color: var(--pico-primary); }
     padding: 0.2rem 0.4rem;
   }
 }
+
+/* Banner de error de datos (T11): web/data/ ausente o fallo de carga */
+.data-error {
+  margin: 1rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid #c0392b;
+  border-radius: 8px;
+  background: #fdecea;
+  color: #7b241c;
+}
+.data-error p {
+  margin: 0.2rem 0;
+}
