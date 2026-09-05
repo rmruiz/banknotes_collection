@@ -1,8 +1,11 @@
 import json
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
 
 def update_countries():
-    countries_path = '/Users/rolando/git/banknotes_collection/_json/countries.json'
-    currencies_path = '/Users/rolando/git/banknotes_collection/_json/currencies.json'
+    countries_path = REPO / '_json' / 'countries.json'
+    currencies_path = REPO / '_json' / 'currencies.json'
     
     with open(countries_path, 'r', encoding='utf-8') as f:
         countries = json.load(f)

@@ -1,15 +1,18 @@
 import json
 import glob
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
 
 def validate_banknotes():
-    currencies_path = '/Users/rolando/git/banknotes_collection/_json/currencies.json'
+    currencies_path = REPO / '_json' / 'currencies.json'
     with open(currencies_path, 'r', encoding='utf-8') as f:
         currencies = json.load(f)
 
     errors = []
     
     # Path to all banknote JSONs
-    json_pattern = '/Users/rolando/git/banknotes_collection/_json/**/*.json'
+    json_pattern = f"{REPO / '_json'}/**/*.json"
     files = glob.glob(json_pattern, recursive=True)
     
     for file_path in files:
@@ -63,7 +66,7 @@ def validate_banknotes():
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
 
-    with open('/Users/rolando/git/banknotes_collection/error-billetes-monedas.txt', 'w', encoding='utf-8') as f:
+    with open(REPO / 'error-billetes-monedas.txt', 'w', encoding='utf-8') as f:
         if errors:
             f.write('\n'.join(errors))
         else:

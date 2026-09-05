@@ -1,9 +1,12 @@
 import json
 import os
 import glob
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
 
 def get_currencies_by_country_and_year():
-    currencies_path = '/Users/rolando/git/banknotes_collection/_json/currencies.json'
+    currencies_path = REPO / '_json' / 'currencies.json'
     with open(currencies_path, 'r', encoding='utf-8') as f:
         currencies = json.load(f)
     
@@ -43,7 +46,7 @@ def find_correct_currency(country_code, year, country_currency_map):
     return None
 
 def process_errors():
-    error_file = '/Users/rolando/git/banknotes_collection/error-billetes-monedas.txt'
+    error_file = REPO / 'error-billetes-monedas.txt'
     if not os.path.exists(error_file):
         print("Error file not found.")
         return
@@ -56,7 +59,7 @@ def process_errors():
     updated_lines = []
     
     # Pre-load all banknote JSONs for efficiency
-    json_pattern = '/Users/rolando/git/banknotes_collection/_json/**/*.json'
+    json_pattern = f"{REPO / '_json'}/**/*.json"
     all_banknotes = {}
     for path in glob.glob(json_pattern, recursive=True):
         if 'currencies.json' in path or 'countries.json' in path:
