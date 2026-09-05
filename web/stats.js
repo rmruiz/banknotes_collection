@@ -3,6 +3,8 @@
  * Renderiza métricas, mapa mundial interactivo (D3 + TopoJSON) y gráficos.
  */
 
+import { esc } from "./lib/format.js";
+
 (function () {
     'use strict';
 
@@ -31,13 +33,7 @@
         return FUND_CODE_ALIASES[up] || up;
     }
 
-    // Escapa caracteres especiales para insertar texto de forma segura en HTML
-    // (copiado de web/app.js).
-    function esc(s) {
-        return String(s ?? "").replace(/[&<>"']/g, (c) => ({
-            "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
-        }[c]));
-    }
+    // esc: web/lib/format.js (importado arriba).
 
     document.addEventListener('DOMContentLoaded', init);
 

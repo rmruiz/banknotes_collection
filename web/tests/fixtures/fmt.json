@@ -1,0 +1,110 @@
+{
+ "valor": [
+  {
+   "v": 0,
+   "out": "0"
+  },
+  {
+   "v": 1,
+   "out": "1"
+  },
+  {
+   "v": 5,
+   "out": "5"
+  },
+  {
+   "v": 0.5,
+   "out": "0,5"
+  },
+  {
+   "v": 0.25,
+   "out": "0,25"
+  },
+  {
+   "v": 0.05,
+   "out": "0,05"
+  },
+  {
+   "v": 100,
+   "out": "100"
+  },
+  {
+   "v": 999,
+   "out": "999"
+  },
+  {
+   "v": 1000,
+   "out": "1.000"
+  },
+  {
+   "v": 1234,
+   "out": "1.234"
+  },
+  {
+   "v": 12345,
+   "out": "12.345"
+  },
+  {
+   "v": 123456,
+   "out": "123.456"
+  },
+  {
+   "v": 1000000,
+   "out": "1.000.000"
+  },
+  {
+   "v": 1234567.89,
+   "out": "1.234.567,89"
+  }
+ ],
+ "unaccent": [
+  {
+   "s": "Chile",
+   "out": "Chile"
+  },
+  {
+   "s": "Perú",
+   "out": "Peru"
+  },
+  {
+   "s": "Estados Unidos",
+   "out": "Estados Unidos"
+  },
+  {
+   "s": "Isla de Man",
+   "out": "Isla de Man"
+  },
+  {
+   "s": "La Pampa",
+   "out": "La Pampa"
+  },
+  {
+   "s": "Sí",
+   "out": "Si"
+  },
+  {
+   "s": "No",
+   "out": "No"
+  },
+  {
+   "s": "número",
+   "out": "numero"
+  },
+  {
+   "s": "condición",
+   "out": "condicion"
+  },
+  {
+   "s": "África",
+   "out": "Africa"
+  },
+  {
+   "s": "Argentina",
+   "out": "Argentina"
+  },
+  {
+   "s": "Serbia",
+   "out": "Serbia"
+  }
+ ]
+}

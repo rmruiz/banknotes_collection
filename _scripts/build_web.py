@@ -64,12 +64,17 @@ def _atomic_write_text(path, text):
 
 
 def fmt_valor(v):
-    """1000 -> '1.000' | 0.5 -> '0,5' | None -> '' (formato es-CL)."""
+    """1000 -> '1.000' | 0.5 -> '0,5' | None -> '' (formato es-CL).
+
+    Los decimales no enteros también llevan separador de miles en la parte
+    entera (1234567.89 -> '1.234.567,89'): debe coincidir con fmtValor()
+    en web/lib/format.js (fixture: web/tests/fixtures/fmt.json)."""
     if v is None:
         return ""
     if float(v).is_integer():
         return f"{int(v):,}".replace(",", ".")
-    return str(v).replace(".", ",")
+    ip, _, fp = str(v).partition(".")
+    return f"{int(ip):,}".replace(",", ".") + "," + fp
 
 
 def denominacion_full(dn):

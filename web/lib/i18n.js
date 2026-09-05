@@ -1,0 +1,77 @@
+/* Catálogo de textos es/en (T6) — extraído de web/app.js para poder
+   testearlo en Node. `translate` devuelve la clave si no existe. */
+
+// clave: [español, inglés]
+export const I18N = {
+  title: ["💵 Colección de billetes", "💵 Banknote Collection"],
+  search_ph: ["Buscar en todos los campos… (país, pick, moneda, año, firmas…)",
+              "Search all fields… (country, pick, currency, year, signatures…)"],
+  reload: ["🔄 Recargar datos", "🔄 Reload data"],
+  reloading: ["⏳ Reconstruyendo…", "⏳ Rebuilding…"],
+  thumbs_new: ["miniaturas nuevas", "new thumbnails"],
+  columns: ["Columnas", "Columns"],
+  photos: ["Fotos", "Photos"],
+  perpage: ["Por página", "Per page"],
+  billetes: ["billetes", "banknotes"],
+  resultados: ["resultados", "results"],
+  page_go: ["Ir", "Go"],
+  page_label: ["Ir a página", "Go to page"],
+  issues_none: ["Sin problemas detectados", "No issues detected"],
+  issues_some: ["problemas detectados — click para verlos",
+                "issues detected — click to view"],
+  lang_tip: ["Switch to English", "Cambiar a español"],
+  pick: ["Pick", "Pick"],
+  id: ["ID", "ID"],
+  pais: ["País", "Country"],
+  monto: ["Monto", "Amount"],
+  moneda: ["Moneda", "Currency"],
+  currency_code: ["ISO 4217", "ISO 4217"],
+  denominacion: ["Moneda Full", "Denomination"],
+  subtipo: ["Subtipo", "Subtype"],
+  alternativas: ["Otra moneda", "Other currency"],
+  anio: ["Año", "Year"],
+  firmas: ["Firmas", "Signatures"],
+  temas: ["Temas", "Themes"],
+  vigencia: ["Vigencia", "Validity"],
+  obs: ["Observaciones", "Notes"],
+  serie: ["Serie", "Series"],
+  banco: ["Banco", "Bank"],
+  zona: ["Zona", "Zone"],
+  serial: ["N° de serie", "Serial no."],
+  condicion: ["Condición", "Condition"],
+  grupo: ["Grupo Colnect", "Colnect group"],
+  conmemorativo: ["Conmemorativo", "Commemorative"],
+  remarcado: ["Remarcado", "Overprint"],
+  subunidad: ["Subunidad", "Subunit"],
+  front: ["Front", "Front"],
+  back: ["Back", "Back"],
+  full: ["Full", "Full"],
+  colnect: ["Colnect", "Colnect"],
+  numista: ["Numista", "Numista"],
+  verif: ["Verificado", "Verified"],
+  ver_colnect: ["Ver en Colnect ↗", "View on Colnect ↗"],
+  si: ["Sí", "Yes"],
+  vf_both: ["Mostrando todos — click: solo con ✓", "Showing all — click: only ✓"],
+  vf_on: ["Solo con ✓ — click: solo sin ✓", "Only ✓ — click: only without ✓"],
+  vf_off: ["Solo sin ✓ — click: mostrar todos", "Only without ✓ — click: show all"],
+  err_save: ["No se pudo guardar", "Could not save"],
+  err_server: ["¿Está corriendo el servidor de edición? (_scripts/serve_web.py)",
+               "Is the edit server running? (_scripts/serve_web.py)"],
+  err_num: ["Número inválido", "Invalid number"],
+  new_note: ["➕ Nuevo", "➕ New"],
+  new_title: ["Nuevo billete", "New banknote"],
+  new_pick: ["Pick number", "Pick number"],
+  new_create: ["Crear", "Create"],
+  err_create: ["No se pudo crear", "Could not create"],
+};
+
+// `lang`: "es" | "en". Clave desconocida -> se devuelve la clave.
+export function translate(key, lang) {
+  const entry = I18N[key];
+  return entry ? entry[lang === "en" ? 1 : 0] : key;
+}
+
+// País según el idioma activo (pais_en solo si existe).
+export function paisDisplay(rec, lang) {
+  return lang === "en" ? (rec.pais_en || rec.pais) : rec.pais;
+}

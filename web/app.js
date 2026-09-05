@@ -1,6 +1,16 @@
 /* Colección de billetes — tabla, búsqueda, paginación y modal (vanilla JS) */
 "use strict";
 
+import {
+  unaccent, esc, fmtValor, toTitleCase, pickNum, isEmptyVal,
+  currencyInfoFor as currencyInfoForLib,
+  currencyDisplay as currencyDisplayLib,
+  currencyShortName as currencyShortNameLib,
+  denominationFullDisplay as denominationFullDisplayLib,
+} from "./lib/format.js";
+import { translate, paisDisplay as paisDisplayLib } from "./lib/i18n.js";
+import { COL_ALIASES, getCol, getStrVal, parseQuery } from "./lib/query.js";
+
 const $ = (sel) => document.querySelector(sel);
 
 // Detectar si estamos en la página de edición
@@ -10,72 +20,9 @@ const isEditMode = window.location.pathname.includes("index-edit.html");
 
 let lang = localStorage.getItem("banknotes_lang") === "en" ? "en" : "es";
 
-// clave: [español, inglés]
-const L = {
-  title: ["💵 Colección de billetes", "💵 Banknote Collection"],
-  search_ph: ["Buscar en todos los campos… (país, pick, moneda, año, firmas…)",
-              "Search all fields… (country, pick, currency, year, signatures…)"],
-  reload: ["🔄 Recargar datos", "🔄 Reload data"],
-  reloading: ["⏳ Reconstruyendo…", "⏳ Rebuilding…"],
-  thumbs_new: ["miniaturas nuevas", "new thumbnails"],
-  columns: ["Columnas", "Columns"],
-  photos: ["Fotos", "Photos"],
-  perpage: ["Por página", "Per page"],
-  billetes: ["billetes", "banknotes"],
-  resultados: ["resultados", "results"],
-  page_go: ["Ir", "Go"],
-  page_label: ["Ir a página", "Go to page"],
-  issues_none: ["Sin problemas detectados", "No issues detected"],
-  issues_some: ["problemas detectados — click para verlos",
-                "issues detected — click to view"],
-  lang_tip: ["Switch to English", "Cambiar a español"],
-  pick: ["Pick", "Pick"],
-  id: ["ID", "ID"],
-  pais: ["País", "Country"],
-  monto: ["Monto", "Amount"],
-  moneda: ["Moneda", "Currency"],
-  currency_code: ["ISO 4217", "ISO 4217"],
-  denominacion: ["Moneda Full", "Denomination"],
-  subtipo: ["Subtipo", "Subtype"],
-  alternativas: ["Otra moneda", "Other currency"],
-  anio: ["Año", "Year"],
-  firmas: ["Firmas", "Signatures"],
-  temas: ["Temas", "Themes"],
-  vigencia: ["Vigencia", "Validity"],
-  obs: ["Observaciones", "Notes"],
-  serie: ["Serie", "Series"],
-  banco: ["Banco", "Bank"],
-  zona: ["Zona", "Zone"],
-  serial: ["N° de serie", "Serial no."],
-  condicion: ["Condición", "Condition"],
-  grupo: ["Grupo Colnect", "Colnect group"],
-  conmemorativo: ["Conmemorativo", "Commemorative"],
-  remarcado: ["Remarcado", "Overprint"],
-  subunidad: ["Subunidad", "Subunit"],
-  front: ["Front", "Front"],
-  back: ["Back", "Back"],
-  full: ["Full", "Full"],
-  colnect: ["Colnect", "Colnect"],
-  numista: ["Numista", "Numista"],
-  verif: ["Verificado", "Verified"],
-  ver_colnect: ["Ver en Colnect ↗", "View on Colnect ↗"],
-  si: ["Sí", "Yes"],
-  vf_both: ["Mostrando todos — click: solo con ✓", "Showing all — click: only ✓"],
-  vf_on: ["Solo con ✓ — click: solo sin ✓", "Only ✓ — click: only without ✓"],
-  vf_off: ["Solo sin ✓ — click: mostrar todos", "Only without ✓ — click: show all"],
-  err_save: ["No se pudo guardar", "Could not save"],
-  err_server: ["¿Está corriendo el servidor de edición? (_scripts/serve_web.py)",
-               "Is the edit server running? (_scripts/serve_web.py)"],
-  err_num: ["Número inválido", "Invalid number"],
-  new_note: ["➕ Nuevo", "➕ New"],
-  new_title: ["Nuevo billete", "New banknote"],
-  new_pick: ["Pick number", "Pick number"],
-  new_create: ["Crear", "Create"],
-  err_create: ["No se pudo crear", "Could not create"],
-};
-
-const t = (key) => (L[key] ? L[key][lang === "en" ? 1 : 0] : key);
-const paisDisplay = (r) => (lang === "en" ? (r.pais_en || r.pais) : r.pais);
+// Catálogo de textos es/en: web/lib/i18n.js (módulo ES testeable en Node).
+const t = (key) => translate(key, lang);
+const paisDisplay = (r) => paisDisplayLib(r, lang);
 
 // columnas seleccionables (Pick es fija y no aparece aquí)
 // [clave, etiqueta, visible por defecto]
@@ -145,90 +92,21 @@ const BOOL_COLS = {
 
 /* --- utilidades --- */
 
-function unaccent(s) {
-  return s.normalize("NFKD").replace(/[̀-ͯ]/g, "");
-}
-
-function esc(s) {
-  return String(s ?? "").replace(/[&<>"']/g, (c) => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
-  }[c]));
-}
-
-function fmtValor(v) {
-  if (v === null || v === undefined) return "";
-  return v.toLocaleString("es-CL");
-}
-
+// unaccent/esc/fmtValor: web/lib/format.js (importados arriba).
 // --- Helpers de moneda basados en web/data/currencies.json ---
 // La columna "Moneda" usa el nombre completo (nombres.es/en) + símbolo.
 // La columna "Moneda Full" usa el monto (con formato de moneda) + nombre_corto.
 
-function currencyInfoFor(rec) {
-  const code = (rec.currency_code || "").trim().toUpperCase();
-  if (!code) return null;
-  return (state.currencies && state.currencies[code]) || null;
-}
-
-// Capitaliza la primera letra de cada palabra (respeta tildes y paréntesis).
-// Ejemplos:
-//     'marco alemán'             -> 'Marco Alemán'
-//     'yuan chino (renminbi)'    -> 'Yuan Chino (Renminbi)'
-//     'united states dollar'     -> 'United States Dollar'
-function toTitleCase(s) {
-  if (s === null || s === undefined) return "";
-  return String(s).replace(/(\s|\(|\[)\w/g, (m) => m.toUpperCase())
-                    .replace(/^\w/, (m) => m.toUpperCase());
-}
+function currencyInfoFor(rec) { return currencyInfoForLib(rec, state.currencies); }
 
 // Columna "Moneda": nombre completo + símbolo del catálogo.
-function currencyDisplay(rec) {
-  const info = currencyInfoFor(rec);
-  const key = lang === "en" ? "en" : "es";
-  let name = "";
-  if (info) {
-    const full = (info.nombres || {})[key] ||
-                 (info.nombres || {}).es ||
-                 (info.nombres || {}).en ||
-                 "";
-    name = full;
-  }
-  if (!name) {
-    // Fallback a los campos ya pre-generados en build_web.py (nombre corto
-    // o el texto libre original), para que sigamos mostrando algo útil
-    // incluso si el catálogo no tiene el código.
-    name = lang === "en"
-      ? (rec.currency_name_en || rec.moneda || "")
-      : (rec.currency_name_es || rec.moneda || "");
-  }
-  const symbol = info ? (info.simbolo || "") : (rec.currency_symbol || "");
-  const title = toTitleCase(name);
-  return symbol ? `${title} (${symbol})` : title;
-}
+function currencyDisplay(rec) { return currencyDisplayLib(rec, lang, state.currencies); }
 
 // Nombre corto de la moneda (nombre_corto) para "Moneda Full".
-// Se respeta el plural si el monto no es 1 (null -> plural/indeterminado).
-function currencyShortName(rec) {
-  const info = currencyInfoFor(rec);
-  if (!info) return "";
-  const key = lang === "en" ? "en" : "es";
-  const short = info.nombre_corto || {};
-  const valor = rec.valor;
-  const plural = valor !== 1;
-  const pk = plural ? `${key}_p` : key;
-  return short[pk] || short[key] || short.es_p || short.es || short.en_p || short.en ||
-         (info.nombres || {})[key] || (info.nombres || {}).es || "";
-}
+function currencyShortName(rec) { return currencyShortNameLib(rec, lang, state.currencies); }
 
-// "Moneda Full" = monto (con formato) + nombre corto. Se calcula a la fly
-// con el catálogo cargado en `state.currencies`; el valor precargado en
-// `rec.denominacion` (build_web) ya sigue este patrón.
-function denominationFullDisplay(rec) {
-  const short = currencyShortName(rec);
-  if (short) return toTitleCase(`${fmtValor(rec.valor)} ${short}`).trim();
-  // Fallback: usa el campo precargado (ya es "monto moneda").
-  return toTitleCase(rec.denominacion || "");
-}
+// "Moneda Full" = monto (con formato) + nombre corto.
+function denominationFullDisplay(rec) { return denominationFullDisplayLib(rec, lang, state.currencies); }
 
 function debounce(fn, ms) {
   let t;
@@ -239,15 +117,6 @@ function debounce(fn, ms) {
 
 const NUM_KEYS = new Set(["valor", "anio"]);
 const BOOL_KEYS = new Set(["conmemorativo", "remarcado"]);
-
-function pickNum(p) {
-  const m = /\d+/.exec(p || "");
-  return m ? parseInt(m[0], 10) : Infinity;
-}
-
-function isEmptyVal(v) {
-  return v === null || v === undefined || v === "";
-}
 
 function applySort() {
   const { key, dir } = state.sort;
@@ -285,58 +154,6 @@ function updateSortIndicators() {
 }
 
 /* --- búsqueda --- */
-
-// Alias para usar español o inglés indistintamente en la consulta
-const COL_ALIASES = {
-  country: "pais", 
-  year: "anio", 
-  monto: "valor",
-  front: "thumb_a", 
-  back: "thumb_b",  
-  full: "thumb_f"   
-};
-
-function getCol(c) {
-  c = c.toLowerCase();
-  return COL_ALIASES[c] || c;
-}
-
-// Extrae el valor como un string limpio (sin acentos, en minúscula)
-function getStrVal(r, col) {
-  let v = r[col];
-  if (v === null || v === undefined) return "";
-  return unaccent(String(v)).toLowerCase();
-}
-
-function parseQuery(q) {
-  const tests = [];
-  // Regex que soporta guiones bajos en los nombres de columnas ([a-z_]+)
-  const regex = /(-?)(?:([a-z_]+)(>=|<=|>|<)(\d+(?:\.\d+)?)|([a-z_]+):\((.*?)\)|([a-z_]+):"([^"]*)"|"([^"]*)"|([^\s]+))/gi;
-  let m;
-  
-  while ((m = regex.exec(q)) !== null) {
-    const neg = m[1] === '-';
-    
-    if (m[2]) { 
-      tests.push({ type: 'rel', neg, col: getCol(m[2]), op: m[3], val: parseFloat(m[4]) });
-    } else if (m[5]) { 
-      const col = getCol(m[5]);
-      let inner = m[6].trim();
-      if (inner.startsWith('"') && inner.endsWith('"')) {
-        tests.push({ type: 'col_exact', neg, col, val: inner.slice(1, -1) });
-      } else {
-        tests.push({ type: 'col_group', neg, col, vals: inner.split(/\s+/) });
-      }
-    } else if (m[7]) { 
-      tests.push({ type: 'col_exact', neg, col: getCol(m[7]), val: m[8] });
-    } else if (m[9]) { 
-      tests.push({ type: 'global_exact', neg, val: m[9] });
-    } else if (m[10]) { 
-      tests.push({ type: 'global', neg, val: m[10] });
-    }
-  }
-  return tests;
-}
 
 function applyFilter() {
   const q = $("#q").value.trim();

@@ -1,11 +1,7 @@
 /* Página de problemas — renderiza las categorías de data/issues.json */
 "use strict";
 
-function esc(s) {
-  return String(s ?? "").replace(/[&<>"']/g, (c) => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
-  }[c]));
-}
+import { esc } from "./lib/format.js";
 
 /* renderers específicos por categoría; el resto usa la tabla genérica */
 const RENDERERS = {
