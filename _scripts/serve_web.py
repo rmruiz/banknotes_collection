@@ -28,6 +28,10 @@ Medidas de seguridad:
   - Solo campos de la whitelist, con validación de tipo/valor por campo.
   - Body limitado a 4 KB; fotos re-codificadas con magick al subir.
   - Escrituras atómicas (tmp + os.replace) y con lock (una a la vez).
+  - Contrato de error (T7): todo POST responde {ok,...} o {ok:false,error}:
+    body/campo inválido → 400, JSON del billete corrupto → 409,
+    collection.json corrupto → 500 (regenerar con POST /api/rebuild),
+    cualquier otro fallo → 500 con traceback al log.
 """
 import argparse
 import json
@@ -37,6 +41,7 @@ import subprocess
 import sys
 import tempfile
 import threading
+import traceback
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import unquote, urlparse, parse_qs
@@ -339,6 +344,11 @@ def _sanitize_jpeg(data: bytes, work_dir: Path) -> bytes:
 CACHEABLE_PREFIXES = ("/thumbs/", "/_originals/", "/_FULL/", "/_flags_svg/")
 
 
+# collection.json es un artefacto derivado (build_web): si está corrupto,
+# siempre se recupera regenerándolo (contrato de error, T7).
+ERR_COLL_CORRUPTO = "collection.json corrupto — ejecutar POST /api/rebuild"
+
+
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(WEB), **kwargs)
@@ -382,6 +392,22 @@ class Handler(SimpleHTTPRequestHandler):
         if not ORIGIN_RE.match(self.headers.get("Origin") or ""):
             return self._json_error(403, "origen no permitido")
 
+        # Contrato de error (T7): ninguna excepción escapa del handler.
+        # JSONDecodeError/ValueError = culpa del cliente (body o campo malo)
+        # → 400; cualquier otro fallo → 500 con traceback al log.
+        try:
+            self._dispatch_post()
+        except (json.JSONDecodeError, ValueError) as e:
+            self._json_error(400, f"request inválida: {e}")
+        except Exception:   # noqa: BLE001 — red de seguridad final
+            traceback.print_exc()
+            self._json_error(500, "error interno del servidor")
+
+    def _dispatch_post(self):
+        """Rutea un POST (ya validado Host/Origin) a su handler.
+
+        Las fallas previsibles salen como _json_error; do_POST convierte
+        cualquier excepción residual en {ok:false,error} 400/500 (T7)."""
         # subida de foto: body binario, metadatos en la query string
         parsed = urlparse(self.path)
         if parsed.path == "/api/upload_photo":
@@ -403,6 +429,8 @@ class Handler(SimpleHTTPRequestHandler):
             body = json.loads(self.rfile.read(length).decode("utf-8"))
         except (UnicodeDecodeError, json.JSONDecodeError):
             return self._json_error(400, "JSON inválido")
+        if not isinstance(body, dict):
+            return self._json_error(400, "JSON inválido: se esperaba un objeto")
 
         if self.path == "/api/rename_folder":
             return self._handle_rename_folder(body.get("carpeta"), body.get("nuevo"))
@@ -639,7 +667,10 @@ class Handler(SimpleHTTPRequestHandler):
                 # insertar ordenado en collection.json (mismo orden del build)
                 rec_new = build_web.make_record(d)
                 if COLLECTION.exists():
-                    coll = json.loads(COLLECTION.read_text(encoding="utf-8"))
+                    try:
+                        coll = json.loads(COLLECTION.read_text(encoding="utf-8"))
+                    except ValueError:   # T7: artefacto derivado → rebuild
+                        return self._json_error(500, ERR_COLL_CORRUPTO)
                     sk = build_web.sort_key
                     pos = next((i for i, r in enumerate(coll)
                                 if sk(r) > sk(rec_new)), len(coll))
@@ -736,8 +767,16 @@ class Handler(SimpleHTTPRequestHandler):
 
         try:
             with WRITE_LOCK:
-                # 1) JSON del billete (fuente de verdad)
-                d = json.loads(path.read_text(encoding="utf-8"))
+                # 1) JSON del billete (fuente de verdad). Corrupto → 409 (T7):
+                #    es un conflicto con el dato del usuario, no un fallo
+                #    del servidor (JSONDecodeError/UnicodeDecodeError,
+                #    ambos ValueError).
+                try:
+                    d = json.loads(path.read_text(encoding="utf-8"))
+                except ValueError:
+                    return self._json_error(
+                        409, f"JSON del billete corrupto: {_id}.json "
+                             "(reparar el archivo y reintentar)")
                 apply_(d, value)
                 atomic_write(path, json.dumps(d, ensure_ascii=False, indent=2) + "\n")
 
@@ -745,7 +784,10 @@ class Handler(SimpleHTTPRequestHandler):
                 #    (search, bandera y país EN quedan consistentes)
                 rec_new = build_web.make_record(d)
                 if COLLECTION.exists():
-                    coll = json.loads(COLLECTION.read_text(encoding="utf-8"))
+                    try:
+                        coll = json.loads(COLLECTION.read_text(encoding="utf-8"))
+                    except ValueError:   # T7: artefacto derivado → rebuild
+                        return self._json_error(500, ERR_COLL_CORRUPTO)
                     for i, rec in enumerate(coll):
                         if rec.get("id") == _id:
                             coll[i] = rec_new
