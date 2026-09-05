@@ -68,7 +68,11 @@ def process_errors():
                 pick = data.get('pick_number') or data.get('id')
                 if pick:
                     all_banknotes[pick] = data
-        except:
+        except (OSError, ValueError) as e:
+            # T8: sin except desnudo — JSON no legible/corrupto (JSONDecodeError
+            # y UnicodeDecodeError, ambas ValueError) se loguea con el id del
+            # billete y se omite.
+            print(f"⚠ billete omitido ({type(e).__name__}): {os.path.basename(path)}")
             continue
 
     for line in lines:
@@ -102,7 +106,10 @@ def process_errors():
                             line = f"{line} -> Sugerencia: {suggestion}"
                         else:
                             line = f"{line} -> Sugerencia: No encontrada"
-                    except:
+                    except ValueError:
+                        # T8: el riesgo real aquí es int(year) (no hay I/O de
+                        # archivo en este bloque, ver nota en requirement.md).
+                        print(f"⚠ año inválido en el billete {pick_part}: {year!r}")
                         line = f"{line} -> Sugerencia: Error año"
                 else:
                     line = f"{line} -> Sugerencia: Falta país/año"
