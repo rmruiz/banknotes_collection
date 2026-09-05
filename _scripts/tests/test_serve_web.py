@@ -379,7 +379,7 @@ def test_reindex(monkeypatch, tmp_path: Path):
 
 def test_atomic_write_text(tmp_path: Path):
     dest = tmp_path / "x.json"
-    serve_web.atomic_write(dest, "hola\n")
+    serve_web.atomic_write_text(dest, "hola\n")
     assert dest.read_text(encoding="utf-8") == "hola\n"
     assert not list(tmp_path.glob("*.tmp"))
 
@@ -394,7 +394,7 @@ def test_atomic_write_bytes(tmp_path: Path):
 def test_atomic_write_falla_no_deja_tmp(tmp_path: Path):
     dest = tmp_path / "noexiste" / "x.json"
     with pytest.raises(OSError):
-        serve_web.atomic_write(dest, "hola")
+        serve_web.atomic_write_text(dest, "hola")
     assert not list(tmp_path.glob("**/*.tmp"))
 
 

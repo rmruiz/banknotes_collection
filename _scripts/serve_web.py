@@ -27,7 +27,7 @@ Medidas de seguridad:
     (imposible tocar rutas arbitrarias / path traversal).
   - Solo campos de la whitelist, con validación de tipo/valor por campo.
   - Body limitado a 4 KB; fotos re-codificadas con magick al subir.
-  - Escrituras atómicas (tmp + os.replace) y con lock (una a la vez).
+  - Escrituras atómicas (fsutil: tmp + replace) y con lock (una a la vez).
   - Contrato de error (T7): todo POST responde {ok,...} o {ok:false,error}:
     body/campo inválido → 400, JSON del billete corrupto → 409,
     collection.json corrupto → 500 (regenerar con POST /api/rebuild),
@@ -63,11 +63,13 @@ if __package__ in (None, ""):
     import generar_imagen                 # noqa: E402 — reusa compose() y flag_for()
     from util import (unaccent, make_note_id, COUNTRIES, CURRENCIES,  # noqa: E402
                       get_country_by_name, is_true)  # convenios compartidos
+    from fsutil import atomic_write_text, atomic_write_bytes   # noqa: E402 (T12)
 else:
     # Importado como _scripts.serve_web (pytest desde la raíz del repo).
     from . import build_web, generar_imagen
     from .util import (unaccent, make_note_id, COUNTRIES, CURRENCIES,
                        get_country_by_name, is_true)
+    from .fsutil import atomic_write_text, atomic_write_bytes     # T12
 
 COUNTRY_MAP = {}
 COUNTRY_EN = {}
@@ -288,28 +290,6 @@ FIELDS = {
     "subtipo": (_v_str(80), lambda d, v: d["denomination"].update(subtype=v.strip())),
     "alternativas": (_v_str(120), lambda d, v: d["denomination"].update(alternatives=[x.strip() for x in v.replace("·", ",").split(",") if x.strip()])),
 }
-
-
-def atomic_write(path: Path, text: str):
-    fd, tmp = tempfile.mkstemp(dir=str(path.parent), suffix=".tmp")
-    try:
-        with os.fdopen(fd, "w", encoding="utf-8") as fh:
-            fh.write(text)
-        os.replace(tmp, path)
-    except BaseException:
-        os.unlink(tmp)
-        raise
-
-
-def atomic_write_bytes(path: Path, data: bytes):
-    fd, tmp = tempfile.mkstemp(dir=str(path.parent), suffix=".tmp")
-    try:
-        with os.fdopen(fd, "wb") as fh:
-            fh.write(data)
-        os.replace(tmp, path)
-    except BaseException:
-        os.unlink(tmp)
-        raise
 
 
 def _sanitize_jpeg(data: bytes, work_dir: Path) -> bytes:
@@ -536,7 +516,7 @@ class Handler(SimpleHTTPRequestHandler):
         try:
             with WRITE_LOCK:
                 dest_dir.mkdir(parents=True, exist_ok=True)
-                atomic_write(json_path,
+                atomic_write_text(json_path,
                              json.dumps(d, ensure_ascii=False, indent=2) + "\n")
                 IDS[_id] = json_path
                 # renombrar carpeta y fotos al nuevo id
@@ -661,7 +641,7 @@ class Handler(SimpleHTTPRequestHandler):
         try:
             with WRITE_LOCK:
                 dest_dir.mkdir(parents=True, exist_ok=True)
-                atomic_write(json_path,
+                atomic_write_text(json_path,
                              json.dumps(d, ensure_ascii=False, indent=2) + "\n")
                 IDS[_id] = json_path
                 # insertar ordenado en collection.json (mismo orden del build)
@@ -675,7 +655,7 @@ class Handler(SimpleHTTPRequestHandler):
                     pos = next((i for i, r in enumerate(coll)
                                 if sk(r) > sk(rec_new)), len(coll))
                     coll.insert(pos, rec_new)
-                    atomic_write(COLLECTION,
+                    atomic_write_text(COLLECTION,
                                  json.dumps(coll, ensure_ascii=False,
                                             separators=(",", ":")))
         except OSError as e:
@@ -709,7 +689,7 @@ class Handler(SimpleHTTPRequestHandler):
                 d = json.loads(path.read_text(encoding="utf-8"))
                 d["id"] = new_id
                 d["pick_number"] = pick
-                atomic_write(new_path,
+                atomic_write_text(new_path,
                              json.dumps(d, ensure_ascii=False, indent=2) + "\n")
                 if new_path != path:
                     path.unlink()
@@ -778,7 +758,7 @@ class Handler(SimpleHTTPRequestHandler):
                         409, f"JSON del billete corrupto: {_id}.json "
                              "(reparar el archivo y reintentar)")
                 apply_(d, value)
-                atomic_write(path, json.dumps(d, ensure_ascii=False, indent=2) + "\n")
+                atomic_write_text(path, json.dumps(d, ensure_ascii=False, indent=2) + "\n")
 
                 # 2) regenerar el registro completo en collection.json
                 #    (search, bandera y país EN quedan consistentes)
@@ -792,7 +772,7 @@ class Handler(SimpleHTTPRequestHandler):
                         if rec.get("id") == _id:
                             coll[i] = rec_new
                             break
-                    atomic_write(COLLECTION,
+                    atomic_write_text(COLLECTION,
                                  json.dumps(coll, ensure_ascii=False,
                                             separators=(",", ":")))
         except OSError as e:

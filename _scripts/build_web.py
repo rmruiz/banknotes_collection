@@ -16,26 +16,26 @@ Uso:
 import argparse
 import hashlib
 import json
-import os
 import re
 import subprocess
 import sys
-import tempfile
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 if __package__ in (None, ""):
     # Ejecución directa (`python3 _scripts/build_web.py`): hace importable
-    # util (patrón T5, ver _scripts/tests/conftest.py).
+    # util/fsutil (patrón T5, ver _scripts/tests/conftest.py).
     sys.path.insert(0, str(Path(__file__).resolve().parent))   # _scripts (util)
     from util import (unaccent, CURRENCIES,                            # noqa: E402
                       get_country_by_code, get_country_by_name,
                       get_currency_by_code, is_true, currency_name)
+    from fsutil import atomic_write_text            # noqa: E402 (T12)
 else:
     # Importado como _scripts.build_web (pytest desde la raíz del repo).
     from .util import (unaccent, CURRENCIES,
                        get_country_by_code, get_country_by_name,
                        get_currency_by_code, is_true, currency_name)
+    from .fsutil import atomic_write_text
 
 REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
@@ -48,19 +48,6 @@ ORIGINALS = WEB / "_originals"
 THUMB_WIDTH = 360   # alcanza para mostrar nítido hasta 3x (132px de alto)
 THUMB_QUALITY = 80
 WORKERS = 8
-
-
-def _atomic_write_text(path, text):
-    """Escritura atómica (tmp + os.replace): un GET concurrente del navegador
-    nunca lee collection.json / issues.json a medio escribir."""
-    fd, tmp = tempfile.mkstemp(dir=str(path.parent), suffix=".tmp")
-    try:
-        with os.fdopen(fd, "w", encoding="utf-8") as fh:
-            fh.write(text)
-        os.replace(tmp, path)
-    except BaseException:
-        os.unlink(tmp)
-        raise
 
 
 def fmt_valor(v):
@@ -499,27 +486,27 @@ def build(force=False, verbose=False):
                         print(f"  ✗ {info}")
                 if verbose and (ok + fail) % 200 == 0:
                     print(f"  … {ok + fail}/{len(jobs)}")
-    _atomic_write_text(meta_path, json.dumps(meta, separators=(",", ":")))
+    atomic_write_text(meta_path, json.dumps(meta, separators=(",", ":")))
 
     out = DATA / "collection.json"
-    _atomic_write_text(
+    atomic_write_text(
         out, json.dumps(records, ensure_ascii=False, separators=(",", ":")))
 
     # Sincronizar countries.json a web/data/ para acceso directo desde la web
     if (JSON_DIR / "countries.json").exists():
-        _atomic_write_text(
+        atomic_write_text(
             DATA / "countries.json",
             (JSON_DIR / "countries.json").read_text(encoding="utf-8")
         )
 
     # Sincronizar currencies.json a web/data/ para acceso directo desde la web
     if (JSON_DIR / "currencies.json").exists():
-        _atomic_write_text(
+        atomic_write_text(
             DATA / "currencies.json",
             (JSON_DIR / "currencies.json").read_text(encoding="utf-8")
         )
 
-    _atomic_write_text(
+    atomic_write_text(
         DATA / "issues.json",
         json.dumps(issues, ensure_ascii=False, separators=(",", ":")))
     problemas = sum(len(c["items"]) for c in issues["categorias"])
