@@ -7,6 +7,14 @@
   "folder": "chile",
   "moneda_vigente": "CLP"
  },
+ "pe": {
+  "code": "pe",
+  "iso_alpha2": "PE",
+  "name": {"es": "Perú", "en": "Peru"},
+  "flag_svg": "pe.svg",
+  "folder": "world",
+  "moneda_vigente": "PEN"
+ },
  "ar": {
   "code": "ar",
   "iso_alpha2": "AR",

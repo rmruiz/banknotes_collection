@@ -324,6 +324,7 @@ def test_parse_old_folder_completo():
     assert err is None
     assert info["abbr"] == "cl"
     assert info["pais_es"] == "Chile"
+    assert info["pais_en"] == "Chile"
     assert info["value"] == 1
     assert info["currency"] == "Escudos"
     assert info["year"] == 1961
@@ -336,6 +337,7 @@ def test_parse_old_folder_subunidad_y_extras():
     assert err is None
     assert info["abbr"] == "pe"
     assert info["pais_es"] == "Perú"
+    assert info["pais_en"] == "Peru"
     assert info["value"] == 0.5
     assert info["currency"] == "Soles"
     assert info["year"] == 1946

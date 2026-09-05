@@ -144,6 +144,40 @@ def test_get_estatico_del_web_fake(api):
         conn.close()
 
 
+# --- T13: smoke de creación (país es/en resuelto desde util) -----------------
+
+
+def test_new_note_chile_200_y_persiste_en_carpeta_y_collection(api):
+    status, body = _post(api["port"], "/api/new_note",
+                         {"pais": "Chile", "pick": "P-999"})
+    assert status == 200
+    assert body["ok"] is True and body["id"] == "cl-p999"
+    # la ruta del país (folder 'chile') viene de util.country_route
+    jpath = api["json_path"].parent.parent / "chile" / "cl-p999.json"
+    assert jpath.exists()
+    d = json.loads(jpath.read_text(encoding="utf-8"))
+    assert d["country_code"] == "cl"
+    coll = json.loads(api["coll_path"].read_text(encoding="utf-8"))
+    assert any(r.get("id") == "cl-p999" for r in coll)
+
+
+def test_new_note_peru_con_acento_200_y_ruta_world(api):
+    """El país ES llega acentuado desde el form; el id y la ruta salen de
+    country_lookup/country_route (sin acentos, world)."""
+    status, body = _post(api["port"], "/api/new_note",
+                         {"pais": "Perú", "pick": "P-8"})
+    assert status == 200
+    assert body["id"] == "pe-p8"
+    assert (api["json_path"].parent / "pe-p8.json").exists()
+
+
+def test_new_note_pais_desconocido_400(api):
+    status, body = _post(api["port"], "/api/new_note",
+                         {"pais": "Nowheria", "pick": "P-1"})
+    assert status == 400
+    assert body["ok"] is False and "país no reconocido" in body["error"]
+
+
 # --- T7: contrato {ok:false,error} -------------------------------------------
 
 

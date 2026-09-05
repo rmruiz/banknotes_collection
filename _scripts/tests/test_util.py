@@ -46,6 +46,7 @@ def with_fixtures(monkeypatch, currencies, countries):
     monkeypatch.setattr(util, "CURRENCIES", currencies)
     monkeypatch.setattr(util, "COUNTRIES", countries)
     monkeypatch.setattr(util, "COUNTRY_BY_NAME", _country_index(countries))
+    monkeypatch.setattr(util, "_COUNTRY_LOOKUP", None)   # rebuild lazy (T13)
     return True
 
 
@@ -196,3 +197,31 @@ def test_get_country_by_name_desconocido_o_vacio(with_fixtures):
     assert util.get_country_by_name("Nowheria") is None
     assert util.get_country_by_name("") is None
     assert util.get_country_by_name(None) is None
+
+
+# --- country_lookup / country_en / country_route (T13) ------------------------
+
+
+def test_country_lookup_sin_acentos_y_mayusculas(with_fixtures):
+    assert util.country_lookup("peru") == ("Perú", "pe")
+    assert util.country_lookup(" CHILE ") == ("Chile", "cl")
+    assert util.country_lookup("argentina") == ("Argentina", "ar")
+
+
+def test_country_lookup_desconocido_o_vacio(with_fixtures):
+    assert util.country_lookup("nowheria") is None
+    assert util.country_lookup("") is None
+    assert util.country_lookup(None) is None
+
+
+def test_country_en(with_fixtures):
+    assert util.country_en("perú") == "Peru"
+    assert util.country_en("Chile") == "Chile"
+    assert util.country_en("ARGENTINA") == "Argentina"
+    assert util.country_en("nowheria") is None
+
+
+def test_country_route(with_fixtures):
+    assert util.country_route("chile") == "chile"
+    assert util.country_route("perú") == "world"
+    assert util.country_route("nowheria") == "world"

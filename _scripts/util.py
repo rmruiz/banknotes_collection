@@ -69,6 +69,45 @@ def get_country_by_name(name_es):
     return COUNTRY_BY_NAME.get(str(name_es).strip().lower())
 
 
+_COUNTRY_LOOKUP = None
+
+
+def country_lookup(key):
+    """País como aparece en carpetas viejas (sin acentos, cualquier
+    mayúscula) -> (clave acentuada, abbr).
+
+    Índice perezoso sobre COUNTRIES, construido en el primer uso:
+    'peru' -> ('Perú', 'pe'); 'isla de man' -> ('Isla de Man', 'im').
+    País no catalogado -> None."""
+    global _COUNTRY_LOOKUP
+    if _COUNTRY_LOOKUP is None:
+        lookup = {}
+        for code, info in COUNTRIES.items():
+            name_es = (info.get("name") or {}).get("es", "")
+            if name_es:
+                lookup[unaccent(name_es).lower()] = (name_es, code)
+        _COUNTRY_LOOKUP = lookup
+    return _COUNTRY_LOOKUP.get(str(key or "").strip().lower())
+
+
+def country_en(key_es):
+    """Nombre EN del país dado su nombre ES (insensible a mayúsculas y
+    acentos). None si el país no está catalogado (quien llama decide el
+    fallback)."""
+    info = get_country_by_name(key_es)
+    if not info:
+        return None
+    name = info.get("name") or {}
+    return name.get("en") or name.get("es")
+
+
+def country_route(key_es):
+    """Carpeta de rutas bajo _originals del país ('chile' -> 'chile',
+    'perú' -> 'world'); país no catalogado -> 'world'."""
+    info = get_country_by_name(key_es) or {}
+    return info.get("folder") or "world"
+
+
 def load_currencies():
     """Carga _json/currencies.json (fuente única de verdad de monedas)."""
     if not CURRENCIES_FILE.exists():

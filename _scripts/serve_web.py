@@ -61,27 +61,17 @@ if __package__ in (None, ""):
     sys.path.insert(0, str(JSON_DIR))                          # _json
     import build_web                      # noqa: E402 — reusa make_record (search, bandera, thumbs)
     import generar_imagen                 # noqa: E402 — reusa compose() y flag_for()
-    from util import (unaccent, make_note_id, COUNTRIES, CURRENCIES,  # noqa: E402
-                      get_country_by_name, is_true)  # convenios compartidos
+    from util import (unaccent, make_note_id, CURRENCIES,  # noqa: E402
+                      get_country_by_name, is_true,  # convenios compartidos
+                      country_lookup, country_en, country_route)  # T13
     from fsutil import atomic_write_text, atomic_write_bytes   # noqa: E402 (T12)
 else:
     # Importado como _scripts.serve_web (pytest desde la raíz del repo).
     from . import build_web, generar_imagen
-    from .util import (unaccent, make_note_id, COUNTRIES, CURRENCIES,
-                       get_country_by_name, is_true)
+    from .util import (unaccent, make_note_id, CURRENCIES,
+                       get_country_by_name, is_true,
+                       country_lookup, country_en, country_route)     # T13
     from .fsutil import atomic_write_text, atomic_write_bytes     # T12
-
-COUNTRY_MAP = {}
-COUNTRY_EN = {}
-FOLDER_ROUTE = {}
-
-for code, info in COUNTRIES.items():
-    name_es = (info.get("name") or {}).get("es", "")
-    if name_es:
-        key_es = name_es.strip().lower()
-        COUNTRY_MAP[key_es] = code
-        COUNTRY_EN[key_es] = (info.get("name") or {}).get("en", name_es)
-        FOLDER_ROUTE[key_es] = info.get("folder", "world")
 
 BIND = "0.0.0.0"   # interfaz por defecto (la decisión final es T10)
 
@@ -112,9 +102,6 @@ def reindex() -> dict[str, Path]:
 
 # ---- creación de JSON desde una carpeta con nombre viejo ----
 
-# país sin acentos (como viene en carpetas viejas) -> (clave acentuada, abbr)
-COUNTRY_LOOKUP = {unaccent(k).lower(): (k, v) for k, v in COUNTRY_MAP.items()}
-
 _CONNECTORS = {"y", "de", "del", "la", "los", "las"}
 
 
@@ -141,7 +128,7 @@ def parse_old_folder(name):
     """Deriva país/valor/moneda/año/extras desde el nombre viejo de carpeta."""
     parts = name.split("_")
     pais_key = unaccent(parts[0].replace(".", " ")).lower()
-    found = COUNTRY_LOOKUP.get(pais_key)
+    found = country_lookup(pais_key)
     if not found:
         return None, f"país no reconocido en el nombre: {parts[0]!r}"
     key_es, abbr = found
@@ -167,12 +154,12 @@ def parse_old_folder(name):
     return {
         "abbr": abbr,
         "pais_es": _display_name(key_es),
-        "pais_en": COUNTRY_EN.get(key_es, _display_name(key_es)),
+        "pais_en": country_en(key_es) or _display_name(key_es),
         "value": value,
         "currency": currency or "",
         "year": year,
         "obs": " - ".join(extras),
-        "route": FOLDER_ROUTE.get(key_es, "world"),
+        "route": country_route(key_es),
     }, None
 
 
@@ -607,7 +594,7 @@ class Handler(SimpleHTTPRequestHandler):
             return self._json_error(400, "país requerido")
         pick = pick.strip()
 
-        found = COUNTRY_LOOKUP.get(unaccent(pais.strip()).lower())
+        found = country_lookup(unaccent(pais.strip()).lower())
         if not found:
             return self._json_error(400, f"país no reconocido: {pais.strip()!r} "
                                          "(agregarlo a _json/countries.json)")
@@ -636,7 +623,7 @@ class Handler(SimpleHTTPRequestHandler):
             "specimens": [{"serial_number": "", "condition": ""}],
         }
 
-        dest_dir = JSON_DIR / FOLDER_ROUTE.get(key_es, "world")
+        dest_dir = JSON_DIR / country_route(key_es)
         json_path = dest_dir / f"{_id}.json"
         try:
             with WRITE_LOCK:
