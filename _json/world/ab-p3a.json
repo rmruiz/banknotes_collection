@@ -37,5 +37,6 @@
       "condition": "UNC"
     }
   ],
-  "country_code": "ab"
+  "country_code": "ab",
+  "precio": 1000
 }

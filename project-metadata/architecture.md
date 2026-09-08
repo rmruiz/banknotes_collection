@@ -72,8 +72,11 @@ Toda la confianza del diseño está en `do_POST`:
 
 - **URLs versionadas**: `build_web.py:file_sig` = `mtime_ns-size`, `file_v`
   = `md5(firma)[:10]`; `make_record` las añade a todas las imágenes.
-- **Index no-store**: los `fetch` de datos usan `{cache: "no-store"}`, así que
-  el cliente siempre ve la salida más reciente del último build.
+- **Datos no-store**: los `fetch` de datos de `web/app.js` y `web/stats.js`
+  usan `{cache: "no-store"}`, así que el cliente siempre ve la salida más
+  reciente del último build (sin esto el navegador puede servir un
+  `collection.json` en caché: p. ej. el KPI de valor total en stats queda en
+  0 tras editar un precio).
 - **Regla de coherencia**: tras cualquier cambio estructural (crear JSON,
   cambiar pick, subir foto, generar full) el cliente llama `POST /api/rebuild`
   y recarga; el servidor arranca con un build completo, por lo que un

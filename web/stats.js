@@ -42,7 +42,10 @@ import { isLocal, showDataError } from "./lib/dataload.js";
         try {
             let notesData, countriesData, currenciesData;
 
-            const notesRes = await fetch('data/collection.json');
+            // no-store: siempre datos frescos (misma regla que app.js; sin
+            // esto el navegador puede servir un collection.json en caché y
+            // los KPI — p. ej. el valor total — quedan desactualizados).
+            const notesRes = await fetch('data/collection.json', { cache: 'no-store' });
             if (!notesRes.ok) {
                 // T11: banner bilingüe visible en vez de página rota
                 const lines = [
@@ -60,14 +63,14 @@ import { isLocal, showDataError } from "./lib/dataload.js";
             notesData = await notesRes.json();
 
             try {
-                const countriesRes = await fetch('data/countries.json');
+                const countriesRes = await fetch('data/countries.json', { cache: 'no-store' });
                 countriesData = countriesRes.ok ? await countriesRes.json() : null;
             } catch (e) {
                 console.error('Error cargando countries.json:', e);
             }
 
             try {
-                const currenciesRes = await fetch('data/currencies.json');
+                const currenciesRes = await fetch('data/currencies.json', { cache: 'no-store' });
                 currenciesData = currenciesRes.ok ? await currenciesRes.json() : null;
             } catch (e) {
                 console.error('Error cargando data/currencies.json:', e);

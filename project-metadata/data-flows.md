@@ -62,9 +62,9 @@ archivo existe) y el registro `search` pre-normalizado.
 - `web/app.js:loadIssuesBadge`: `fetch("data/issues.json")` → badge con el
   total de problemas en el header.
 - `web/problemas.js:load`: `fetch("data/issues.json", {cache:"no-store"})`.
-- `web/stats.js:init`: `fetch` de `data/collection.json`,
-  `data/countries.json` (fallback `../_json/countries.json`) y
-  `data/currencies.json`.
+- `web/stats.js:init`: `fetch("data/collection.json", {cache:"no-store"})`,
+  `data/countries.json` (sin datos → `{}`) y `data/currencies.json`
+  (ambos también `{cache:"no-store"}`).
 
 ## 3. Edición inline de un campo (modo edición)
 
