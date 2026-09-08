@@ -3,7 +3,7 @@
  * Renderiza métricas, mapa mundial interactivo (D3 + TopoJSON) y gráficos.
  */
 
-import { esc } from "./lib/format.js";
+import { esc, fmtPrecio } from "./lib/format.js";
 import { isLocal, showDataError } from "./lib/dataload.js";
 
 (function () {
@@ -163,14 +163,16 @@ import { isLocal, showDataError } from "./lib/dataload.js";
         const pctOwned = totalCountriesInCatalog ? ((ownedCountriesCount / totalCountriesInCatalog) * 100).toFixed(1) : 0;
 
         const currenciesSet = new Set(allNotes.map(n => n.currency_code || '').filter(Boolean));
-        const specialCount = allNotes.filter(n => n.conmemorativo || n.remarcado).length;
+        // Valor total de la colección: suma de precios de mercado
+        // (null/ausente cuenta 0; solo se suman números finitos).
+        const totalValue = allNotes.reduce((s, n) => (Number.isFinite(n.precio) ? n.precio : 0), 0);
 
         document.getElementById('kpi-total-notes').textContent = totalNotes.toLocaleString('es-ES');
         document.getElementById('kpi-countries-owned').textContent = `${ownedCountriesCount} / ${totalCountriesInCatalog}`;
         document.getElementById('kpi-countries-pct').textContent = `${pctOwned}%`;
         document.getElementById('kpi-countries-missing').textContent = missingCount;
         document.getElementById('kpi-currencies-count').textContent = currenciesSet.size;
-        document.getElementById('kpi-special-count').textContent = specialCount;
+        document.getElementById('kpi-total-value').textContent = fmtPrecio(totalValue);
         document.getElementById('missing-count-header').textContent = missingCount;
     }
 

@@ -133,6 +133,21 @@ def test_update_ok_200_y_persiste_en_fuente_y_collection(api):
     assert "nota de test" in coll[0]["search"]
 
 
+def test_update_precio_200_y_persiste_en_fuente_y_collection(api):
+    status, body = _post(api["port"], "/api/update",
+                         {"id": "zz-p0", "field": "precio", "value": 123.5})
+    assert status == 200
+    assert body["ok"] is True and body["id"] == "zz-p0"
+    assert body["record"]["precio"] == 123.5
+    # 1) fuente de verdad: el JSON en disco se actualiza
+    d = json.loads(api["json_path"].read_text(encoding="utf-8"))
+    assert d["precio"] == 123.5
+    # 2) derivado: el registro de collection.json se actualiza
+    coll = json.loads(api["coll_path"].read_text(encoding="utf-8"))
+    assert coll[0]["precio"] == 123.5
+    assert "123.5" in coll[0]["search"]
+
+
 def test_get_estatico_del_web_fake(api):
     """El directorio de estáticos es el WEB monkeypatcheado (árbol fake)."""
     conn = http.client.HTTPConnection(HOST, api["port"], timeout=10)
@@ -193,6 +208,13 @@ def test_valor_invalido_400(api):
                          {"id": "zz-p0", "field": "anio", "value": 9999})
     assert status == 400
     assert body["ok"] is False and "anio" in body["error"]
+
+
+def test_precio_invalido_400(api):
+    status, body = _post(api["port"], "/api/update",
+                         {"id": "zz-p0", "field": "precio", "value": -1})
+    assert status == 400
+    assert body["ok"] is False and "precio" in body["error"]
 
 
 def test_pais_desconocido_400_via_applier(api):

@@ -49,7 +49,7 @@ Toda la confianza del diseño está en `do_POST`:
 3. **Whitelist de ids**: `ID_RE` + `id in IDS` (índice de `_json/*/*.json`).
    Todo endpoint opera sobre paths construidos desde ese id, con defensa
    anti-traversal (`parent == ORIGINALS`).
-4. **Whitelist de campos**: `FIELDS` (23 campos) cada uno con validador
+4. **Whitelist de campos**: `FIELDS` (24 campos) cada uno con validador
    propio (`_v_str`, `_v_num`, `_v_year`, `_v_url`, `_v_bool`, `_v_temas`,
    `_v_currency_code`). Nada más se puede escribir.
 5. **Escritura serializada**: `WRITE_LOCK` (threading.Lock) + `atomic_write`

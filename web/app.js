@@ -2,14 +2,14 @@
 "use strict";
 
 import {
-  unaccent, esc, fmtValor, toTitleCase, pickNum, isEmptyVal,
+  unaccent, esc, fmtValor, fmtPrecio, toTitleCase, pickNum,
   currencyInfoFor as currencyInfoForLib,
   currencyDisplay as currencyDisplayLib,
   currencyShortName as currencyShortNameLib,
   denominationFullDisplay as denominationFullDisplayLib,
 } from "./lib/format.js";
 import { translate, paisDisplay as paisDisplayLib } from "./lib/i18n.js";
-import { COL_ALIASES, getCol, getStrVal, parseQuery } from "./lib/query.js";
+import { COL_ALIASES, getCol, parseQuery, matches, sortRecords } from "./lib/query.js";
 import { isLocal, showDataError } from "./lib/dataload.js";
 
 const $ = (sel) => document.querySelector(sel);
@@ -31,6 +31,7 @@ const COLUMNS = [
   ["id", "ID", false],
   ["pais", "País", true],
   ["monto", "Monto", false],
+  ["precio", "Precio", true],
   ["moneda", "Moneda", false],
   ["currency_code", "ISO 4217", false],
   ["denominacion", "Moneda Full", true],
@@ -58,12 +59,21 @@ const COLUMNS = [
   ["verif", "Verificado", true],
 ];
 const COLS_KEY = "banknotes_cols";
+// Marca de migración de una sola vez: los usuarios existentes tienen una
+// lista guardada sin "precio"; se les añade (visible por defecto) y, si
+// después la ocultan, no se les vuelve a añadir (flag persistido).
+const COLS_MIGRATED_PRECIO_KEY = "banknotes_cols_migrated_precio";
 
 function loadCols() {
   try {
     const saved = JSON.parse(localStorage.getItem(COLS_KEY));
     if (Array.isArray(saved) && saved.length) {
-      return new Set(saved.filter((k) => COLUMNS.some(([c]) => c === k)));
+      const set = new Set(saved.filter((k) => COLUMNS.some(([c]) => c === k)));
+      if (!localStorage.getItem(COLS_MIGRATED_PRECIO_KEY)) {
+        set.add("precio");
+        localStorage.setItem(COLS_MIGRATED_PRECIO_KEY, "1");
+      }
+      return set;
     }
   } catch { /* localStorage corrupto o bloqueado: usar default */ }
   return new Set(COLUMNS.filter(([, , def]) => def).map(([k]) => k));
@@ -116,32 +126,11 @@ function debounce(fn, ms) {
 
 /* --- orden --- */
 
-const NUM_KEYS = new Set(["valor", "anio"]);
-const BOOL_KEYS = new Set(["conmemorativo", "remarcado"]);
-
+// La lógica de comparación vive en web/lib/query.js (sortRecords, testeable en
+// Node). "pais" se ordena por el nombre mostrado (i18n), no por el valor crudo.
 function applySort() {
-  const { key, dir } = state.sort;
-  if (!key) return;
-  const get = (r) => (key === "pais" ? paisDisplay(r) : r[key]);
-  state.filtered = [...state.filtered].sort((a, b) => {
-    const va = get(a), vb = get(b);
-    // vacíos siempre al final, sin importar la dirección
-    const ea = isEmptyVal(va), eb = isEmptyVal(vb);
-    if (ea && eb) return 0;
-    if (ea) return 1;
-    if (eb) return -1;
-    let c;
-    if (key === "pick") {
-      c = pickNum(va) - pickNum(vb) ||
-          String(va).localeCompare(String(vb), "es", { sensitivity: "base", numeric: true });
-    } else if (NUM_KEYS.has(key)) {
-      c = va - vb;
-    } else if (BOOL_KEYS.has(key)) {
-      c = Number(va) - Number(vb);
-    } else {
-      c = String(va).localeCompare(String(vb), "es", { sensitivity: "base", numeric: true });
-    }
-    return c * dir;
+  state.filtered = sortRecords(state.filtered, state.sort, {
+    getValue: (r) => (state.sort.key === "pais" ? paisDisplay(r) : r[state.sort.key]),
   });
 }
 
@@ -163,51 +152,9 @@ function applyFilter() {
     state.filtered = state.all;
   } else {
     const tests = parseQuery(q);
-    
-    state.filtered = state.all.filter((r) => {
-      for (const t of tests) {
-        let pass = false;
-        
-        if (t.type === 'rel') {
-          const v = r[t.col];
-          if (typeof v === 'number' && !isNaN(v)) {
-            if (t.op === '>') pass = v > t.val;
-            else if (t.op === '<') pass = v < t.val;
-            else if (t.op === '>=') pass = v >= t.val;
-            else if (t.op === '<=') pass = v <= t.val;
-          }
-        } else if (t.type === 'col_exact' || t.type === 'col_group') {
-          const colVal = getStrVal(r, t.col);
-          const isImage = ["thumb_a", "thumb_b", "thumb_f"].includes(t.col);
-          
-          if (isImage) {
-            // Súper lógica para imágenes: entiende front:no, front:si, front:""
-            const queryVals = t.type === 'col_exact' ? [t.val] : t.vals;
-            pass = queryVals.some(val => {
-              val = unaccent(val).toLowerCase();
-              if (val === "" || val === "no" || val === "false") return colVal === "";
-              if (val === "si" || val === "yes" || val === "true") return colVal !== "";
-              // Fallback
-              return t.type === 'col_exact' ? colVal === val : colVal.includes(val);
-            });
-          } else {
-            if (t.type === 'col_exact') {
-              pass = colVal === unaccent(t.val).toLowerCase();
-            } else {
-              pass = t.vals.some(val => colVal.includes(unaccent(val).toLowerCase()));
-            }
-          }
-        } else if (t.type === 'global_exact') {
-          pass = (r.search || "").includes(unaccent(t.val).toLowerCase());
-        } else if (t.type === 'global') {
-          pass = (r.search || "").includes(unaccent(t.val).toLowerCase());
-        }
 
-        if (t.neg) pass = !pass;
-        if (!pass) return false;
-      }
-      return true;
-    });
+    // matches() (web/lib/query.js) aplica los tests a cada registro.
+    state.filtered = state.all.filter((r) => matches(r, tests));
   }
 
   for (const [field, mode] of Object.entries(state.boolFilters)) {
@@ -273,6 +220,7 @@ function render() {
       ${txtCell(r, "id")}
       <td data-label="${t("pais")}" data-col="pais" class="${isEditMode ? "editable" : ""}">${esc(paisDisplay(r))}</td>
       <td data-label="${t("monto")}" data-col="monto" class="num ${isEditMode ? "editable" : ""}">${fmtValor(r.valor)}</td>
+      <td data-label="${t("precio")}" data-col="precio" class="num ${isEditMode ? "editable" : ""}">${fmtPrecio(r.precio)}</td>
       <td data-label="${t("moneda")}" data-col="moneda" class="${isEditMode ? "editable" : ""}" title="${esc(r.moneda)}">${currencyDisplay(r) ? `<span class="moneda-pill">${esc(currencyDisplay(r))}</span>` : ""}</td>
       ${txtCell(r, "currency_code")}
       ${txtCell(r, "denominacion")}
@@ -377,6 +325,7 @@ const DETAIL_FIELDS = [
   ["currency_name_es", "Nombre moneda"],
   ["denominacion", "Moneda Full"],
   ["subtipo", "Subtipo"],
+  ["precio", "Precio"],
   ["alternativas", "Otra moneda"],
   ["anio", "Año"],
   ["firmas", "Firmas"],
@@ -410,6 +359,7 @@ function detailValue(key, val, r) {
   }
   if (key === "currency_name_es") return esc(currencyDisplay(r));
   if (key === "denominacion") return esc(denominationFullDisplay(r));
+  if (key === "precio") return esc(fmtPrecio(val));
   if (typeof val === "boolean") return t("si");
   return esc(val);
 }
@@ -471,7 +421,7 @@ function detailStep(delta) {
 
 // Todas las columnas de la tabla, en orden de tabla (etiquetas vía t()).
 const MOBILE_DETAIL_FIELDS = [
-  "pick", "id", "pais", "monto", "moneda", "currency_code",
+  "pick", "id", "pais", "monto", "precio", "moneda", "currency_code",
   "denominacion", "subtipo", "alternativas", "anio", "firmas",
   "temas", "vigencia", "obs", "serie", "banco", "zona", "serial",
   "condicion", "grupo", "colnect", "numista",
@@ -490,6 +440,7 @@ function mobileDetailValue(key, val, r) {
     return `<a href="${esc(val)}" target="_blank" rel="noopener">Ver en Numista ↗</a>`;
   }
   if (key === "monto") return esc(fmtValor(r.valor));
+  if (key === "precio") return esc(fmtPrecio(r.precio));
   if (key === "moneda") return esc(currencyDisplay(r));
   if (key === "denominacion") return esc(denominationFullDisplay(r));
   if (key === "pais") {
@@ -595,6 +546,7 @@ function applyCols() {
 const EDIT_COLS = {
   pais: ["pais", "text"],
   monto: ["valor", "number"],
+  precio: ["precio", "number"],
   moneda: ["moneda", "text"],
   currency_code: ["currency_code", "currency"],
   subtipo: ["subtipo", "text"],

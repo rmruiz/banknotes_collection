@@ -24,6 +24,7 @@ export const I18N = {
   id: ["ID", "ID"],
   pais: ["País", "Country"],
   monto: ["Monto", "Amount"],
+  precio: ["Precio", "Price"],
   moneda: ["Moneda", "Currency"],
   currency_code: ["ISO 4217", "ISO 4217"],
   denominacion: ["Moneda Full", "Denomination"],

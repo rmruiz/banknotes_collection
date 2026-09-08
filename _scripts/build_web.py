@@ -180,6 +180,7 @@ def record_to_json(d, web=None, flags_svg=None):
         "pais_en": pais_en,
         "valor": dn.get("value"),
         "moneda": dn.get("currency", ""),
+        "precio": d.get("precio"),
         "currency_code": currency_code,
           # Cuando el billete usa la subunidad (ej. 'centavos') se muestra el
           # nombre de subunidad en vez de la unidad principal (ej. 'peso'), y se
@@ -215,7 +216,8 @@ def record_to_json(d, web=None, flags_svg=None):
     }
     rec["search"] = build_search(
         d["id"], rec["pick"], rec["pais"], rec["pais_en"],
-        rec["denominacion"], rec["moneda"], rec["valor"], rec["anio"],
+        rec["denominacion"], rec["moneda"], rec["valor"], rec["precio"],
+        rec["anio"],
         rec["currency_code"], rec["currency_name_es"], rec["currency_name_en"],
         rec["currency_symbol"], rec["currency_status"],
         firmas, rec["temas"], rec["obs"], rec["grupo"], dn.get("subtype", ""),

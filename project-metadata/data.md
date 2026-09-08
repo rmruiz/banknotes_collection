@@ -46,6 +46,7 @@ Fuente de verdad. Esquema (campos de ejemplo real: `cl-p125`):
     "alternatives": ["1/100 Escudo", "1 Condor"]
   },
   "year": 1960,
+  "precio": null,
   "signatures": ["Figueroa", "Mackenna"],
   "themes": ["personaje:manuel_bulnes"],
   "colnect": { "url": "https://colnect.com/...", "group": "1960 ND Provisional Issue" },
@@ -70,6 +71,7 @@ Fuente de verdad. Esquema (campos de ejemplo real: `cl-p125`):
 | `denomination.alternatives` | str[] | Otras monedas/denominaciones. API: texto separado por coma (o `·`). |
 | `denomination.subunidad` | bool (opcional) | Solo está presente cuando el billete usa la subunidad (ej. centavos); al desmarcarse se ELIMINA la clave. |
 | `year` | int \| null | API: 1000–2100. |
+| `precio` | number \| null | Cuánto cuesta el billete (valor de mercado); opcional — los JSONs legacy no lo tienen (se trata como `null`). API: `_v_num` (0 ≤ v < 10¹², `null` borra). |
 | `signatures` | str[] | Firmas. API: texto separado por `" - "`. |
 | `themes` | str[] | Pares `clave:valor` (claves típicas: `personaje`, `fauna`, `flora`, `lugar`…). API: `TEMA_RE = ^[\w\-]+\s*:\s*.+$` por par. |
 | `colnect.url` | str | URL http(s) ≤300 (vacío permitido = borrar). |
@@ -166,6 +168,7 @@ Cada registro lo produce `_scripts/build_web.py:make_record` y tiene
 | `pais_en` | str | `countries.json[code].name.en` (fallback: `d.country.en`) |
 | `valor` | number \| null | `denomination.value` |
 | `moneda` | str | `denomination.currency` (texto original) |
+| `precio` | number \| null | `d.get("precio")` (directo del JSON; legacy → `null`) |
 | `currency_code` | str | `denomination.iso4217` (mayúscula; `""` si falta) |
 | `currency_name_es` | str | `util.py:currency_name(code, fallback, "es", subunit=…)` |
 | `currency_name_en` | str | id. con `"en"` |
@@ -188,7 +191,7 @@ Cada registro lo produce `_scripts/build_web.py:make_record` y tiene
 | `flag` | str | `_flags_svg/<archivo.svg>?v=<firma>` o `""` (`build_web.py:flag_file_for_note`) |
 | `thumb_a`, `thumb_b`, `thumb_f` | str | `thumbs/<id>_X.jpg?v=<firma>` o `""` si no existe |
 | `img_a`, `img_b`, `img_full` | str | `_originals/…?v=<firma>`, `_FULL/<id>.webp?v=<firma>` o `""` |
-| `search` | str | `build_web.py:build_search`: id, pick, país (es/en), denominacion, moneda, valor, año, código/nombre/símbolo/estado de moneda, firmas, temas, obs, grupo, subtipo, alternativas, vigencia, serie, banco, zona, serial, condición + las palabras `conmemorativo`/`remarcado` si aplican. Todo unaccent+lower, espacios colapsados. |
+| `search` | str | `build_web.py:build_search`: id, pick, país (es/en), denominacion, moneda, valor, precio, año, código/nombre/símbolo/estado de moneda, firmas, temas, obs, grupo, subtipo, alternativas, vigencia, serie, banco, zona, serial, condición + las palabras `conmemorativo`/`remarcado` si aplican. Todo unaccent+lower, espacios colapsados. |
 
 **Cacheo**: las URLs de imágenes llevan `?v=<md5[:10] de mtime_ns-size>`
 (`build_web.py:file_v`/`file_sig`) para invalidar el caché del navegador al

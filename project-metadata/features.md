@@ -8,6 +8,7 @@ se toca; "Impl." dónde vive la lógica.
 | Feature | UI | Impl. |
 |---|---|---|
 | Ver todos los billetes con foto, país, denominación, año y badges | `index.html` | `web/app.js:render` + `web/app.js:applyFilter`; datos de `data/collection.json` |
+| Ver/editar precio de mercado del billete (numérico) | columna `precio` (click en celda en modo edición) | `web/app.js:EDIT_COLS`/`startEdit` + `serve_web.py:FIELDS ["precio"]` (`_v_num`) |
 | Búsqueda global sin acentos | input `#q` (debounce 200 ms) | `web/app.js:parseQuery` + `r.search` (producida por `build_web.py:build_search`) |
 | Filtro por campo (`col:valor`, `col:(a b)`, comparaciones numéricas, negación) | input `#q` | `web/app.js:parseQuery` (gramática en `web.md`) |
 | Filtros bool 3 estados (verificado, conmemorativo, remarcado, subunidad) | click en el `<th>` | `web/app.js` → `state.boolFilters` + `web/app.js:updateBoolIndicators` |
@@ -25,7 +26,7 @@ se toca; "Impl." dónde vive la lógica.
 
 | Feature | UI | Impl. |
 |---|---|---|
-| Editar 23 campos inline (texto, número, URL, select condición, datalist ISO) | click en celda → input; Enter confirma, Escape/blur cancelan | `web/app.js:startEdit` → `postUpdate` → `POST /api/update` → `_scripts/serve_web.py:_handle_update` (whitelist `FIELDS` + validadores) |
+| Editar 24 campos inline (texto, **número (monto, precio)**, URL, select condición, datalist ISO) | click en celda → input; Enter confirma, Escape/blur cancelan | `web/app.js:startEdit` → `postUpdate` → `POST /api/update` → `_scripts/serve_web.py:_handle_update` (whitelist `FIELDS` + validadores) |
 | Confirmación tras respuesta del servidor + alert de error | celda + alert | `web/app.js:startEdit` (`Object.assign(rec, out.record)` al éxito; al fallo, `alert` + `render()` restaura) |
 | Checkboxes verificado/conmemorativo/remarcado/subunidad | celdas bool | `web/app.js:toggleBool` → `POST /api/update` |
 | Crear billete nuevo (país + pick) | botón header → `#new-dialog` | `web/app.js:createNewNote` → `POST /api/new_note` → `_scripts/serve_web.py:_handle_new_note` (plantilla + JSON + inserción ordenada en `collection.json`) |
@@ -57,7 +58,7 @@ se toca; "Impl." dónde vive la lógica.
 
 | Feature | Impl. |
 |---|---|
-| KPIs: total, países "X / Y" + %, países faltantes, monedas distintas, especiales | `web/stats.js:renderKPIs` + `web/stats.js:processData` |
+| KPIs: total, países "X / Y" + %, países faltantes, monedas distintas, **valor total de la colección (Σ precio)** | `web/stats.js:renderKPIs` + `web/stats.js:processData` |
 | Mapa mundial coloreado (verde/rojo/gris) con zoom y tooltip | `web/stats.js:renderMap` (d3 + topojson; TopoJSON local opcional, fallback CDN) |
 | Click en país → modal con su bandera y sus billetes | `web/stats.js:openCountryModal` |
 | Lista de países del catálogo sin billetes (filtrable) | `web/stats.js:renderMissingCountries`/`filterMissingCountries` |

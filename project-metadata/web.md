@@ -33,18 +33,24 @@ state = {
 }
 ```
 
-- **`COLUMNS`**: ~28 columnas definidas con `{key, label, render…}`; fijas:
-  pick, imágenes front/back/full, verificado. Visibles por defecto:
-  `pais`, `denominacion`, `anio`, `front`, `back`, `full`, `colnect`,
-  `numista`, `verif`. El resto se muestra u oculta con los checkboxes del
-  toolbar (`renderColsMenu`/`applyCols`) y persiste en `localStorage["banknotes_cols"]`.
+- **`COLUMNS`**: 29 columnas seleccionables más la fija `pick`
+  (`[key, label, visiblePorDefecto]`); fijas además: imágenes front/back/full,
+  verificado. Visibles por defecto: `pais`, `precio`, `denominacion`, `anio`,
+  `front`, `back`, `full`, `colnect`, `numista`, `verif`. El resto se muestra
+  u oculta con los checkboxes del toolbar (`renderColsMenu`/`applyCols`) y
+  persiste en `localStorage["banknotes_cols"]`; `web/app.js:loadCols` filtra
+  la lista guardada contra las claves de `COLUMNS` y aplica migraciones de una
+  sola vez (p. ej. añade `precio` a las listas anteriores al campo, marcando
+  `banknotes_cols_migrated_precio`).
 - **`boolFilters`**: cada key es `"all" | "yes" | "no"`. Se ciclan
   clickando el header (`click` en `<th>`); el ícono de la columna lo refleja
   (`web/app.js:updateBoolIndicators`).
 
 ## `app.js` — lenguaje de query del buscador
 
-`parseQuery(q)` compila la query de `#q` a una función de filtro. Gramática
+`parseQuery(q)` (en `web/lib/query.js`, importado por `app.js`) compila la
+query de `#q` a tests de filtro que aplica `matches(r, tests)`; el orden lo
+hace `sortRecords(records, sort, ctx)`. Gramática
 (como se documenta en el placeholder del input y la ayuda del footer):
 
 | Sintaxis | Significado |
@@ -60,7 +66,8 @@ state = {
 
 - Tokenización: palabras multi-espacio van entre comillas; `:` solo se toma
   como prefijo de campo si el lado izquierdo es un key válido de
-  `web/app.js:getCol` / `COL_ALIASES` (mapa nombre-de-columna→key) o un alias
+  `web/lib/query.js:getCol` / `COL_ALIASES` (mapa nombre-de-columna→key) o un
+  alias
   de imagen; si no, es "texto
   exacto".
 - Todo se normaliza con `unaccent+lower` (misma función que el build usó al
@@ -74,12 +81,15 @@ state = {
 
 ## `app.js` — render, orden, paginación
 
-- `applyFilter()`: recorre `state.all` con la función compilada +
-  `boolFilters` → `state.filtered` → `applySort()` → `render()`.
-- `applySort()`: key numérica (`anio`, `valor`) vs. textual
-  (`localeCompare` es); `dir` asc/desc; los headers clicables
-  (`th[data-sort]`) reciben las clases `sort-asc`/`sort-desc` que pinta el
-  ▲/▼ vía CSS (`web/styles.css`).
+- `applyFilter()`: recorre `state.all` con
+  `web/lib/query.js:matches(r, tests)` (tests de `parseQuery` +
+  `boolFilters`) → `state.filtered` → `applySort()` → `render()`.
+- `applySort()`: delega en `web/lib/query.js:sortRecords` (números:
+  `NUM_SORT_KEYS` = `anio`, `valor`, `precio`; bools: `BOOL_SORT_KEYS`;
+  texto: `localeCompare` es); `dir` asc/desc; `null`/ausentes siempre al
+  final (asc y desc); `ctx.getValue` sobrepasa `pais` para ordenar por el
+  nombre mostrado (i18n). Los headers clicables (`th[data-sort]`) reciben las
+  clases `sort-asc`/`sort-desc` que pinta el ▲/▼ vía CSS (`web/styles.css`).
 - `render()`: pagina `state.filtered` con `state.page` (25/pág), construye
   `<tr>` por registro con las columnas visibles (`COLUMNS` + `state.cols`);
   renderiza badges (verificado, conmemorativo, remarcado, subunidad),
@@ -129,8 +139,8 @@ state = {
   `Object.assign(rec, out.record)` reemplaza el registro local por el del
   servidor (con `denominacion`/`search` recalculados) y `render()`; con error
   `alert(t("err_save") …)` y `render()` restaura la celda. Escape/blur
-  cancelan sin guardar. Números: `,`→`.` y `anio` se trunca; no numérico →
-  `alert`.
+  cancelan sin guardar. Números (`monto`, `precio`): `,`→`.` y `anio` se
+  trunca; no numérico → `alert`.
 - `web/app.js:toggleBool(cb)`: checkboxes verificado/conmemorativo/remarcado/
   subunidad (lee `cb.dataset.id/field/checked`) por el mismo endpoint; si
   falla, revierte el checkbox y muestra alert.
@@ -157,8 +167,8 @@ state = {
   `moneda_propia === 'no'`; ordenados por `name.es`).
 - KPIs (`renderKPIs`): `#kpi-total-notes`, `#kpi-countries-owned` ("X / Y" +
   `#kpi-countries-pct`), `#kpi-countries-missing`, `#kpi-currencies-count`
-  (distinct `currency_code`), `#kpi-special-count`
-  (`conmemorativo || remarcado`).
+  (distinct `currency_code`), `#kpi-total-value` (Σ `precio`, formateado con
+  `web/lib/format.js:fmtPrecio` → "$ 1.234,5"; `null`/ausente cuenta 0).
 - Mapa (`renderMap`): TopoJSON primero desde `data/world-110m.json` (no
   existe hoy) y fallback CDN `world-atlas@2/countries-110m.json`;
   `geoMercator` 960×500, zoom 1–8 (`#zoom-in`, `#zoom-out`, `#zoom-reset`),
@@ -178,7 +188,8 @@ state = {
   - `#currencies-chart-list`: `currency_code:"USD"` etc.
 - El link a `index-edit.html` se oculta si `location.hostname` no es
   `localhost`/`127.0.0.1`.
-- `esc()` está duplicado a propósito (stats.js no importa app.js).
+- `esc()` y `fmtPrecio()` vienen de `web/lib/format.js` (stats.js no importa
+  app.js).
 
 ## `problemas.js`
 

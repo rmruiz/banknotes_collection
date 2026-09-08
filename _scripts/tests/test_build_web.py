@@ -201,6 +201,7 @@ def test_record_to_json_billete_completo():
     assert rec["pais_en"] == "Chile"
     assert rec["valor"] == 1000
     assert rec["moneda"] == "Peso"
+    assert rec["precio"] == 5000.5
     assert rec["currency_code"] == "CLP"
     assert rec["currency_name_es"] == "Peso"
     assert rec["currency_name_en"] == "Peso"
@@ -241,7 +242,8 @@ def test_record_to_json_billete_completo():
 
     # campo search: normalizado, sin acentos, con país y monto
     s = rec["search"]
-    for trozo in ("chile", "1.000 pesos", "p-125", "1000", "1961", "clp"):
+    for trozo in ("chile", "1.000 pesos", "p-125", "1000", "1961", "clp",
+                  "5000.5"):
         assert trozo in s
     for a in "áéíóúñÁÉÍÓÚÑ":
         assert a not in s
@@ -258,6 +260,8 @@ def test_record_to_json_campos_faltantes():
     assert rec["pais_en"] == "Chile"
     assert rec["valor"] is None
     assert rec["anio"] is None
+    # cl-p100.json es legacy (sin la clave): el registro la trae como null
+    assert rec["precio"] is None
     # moneda libre: sin ISO 4217 se conserva el texto original
     assert rec["currency_code"] == ""
     assert rec["currency_name_es"] == "Maravedí"

@@ -18,6 +18,13 @@ export function fmtValor(v) {
   return v.toLocaleString("es-CL");
 }
 
+// Columna "Precio" (valor de mercado, distinto del monto facial):
+// "$ " + fmtValor; null/undefined -> '' (celda vacía).
+export function fmtPrecio(v) {
+  if (v === null || v === undefined) return "";
+  return "$ " + fmtValor(v);
+}
+
 // Capitaliza la primera letra de cada palabra (respeta tildes y paréntesis).
 // Ejemplos:
 //     'marco alemán'             -> 'Marco Alemán'

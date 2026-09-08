@@ -6,7 +6,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import {
-  unaccent, esc, fmtValor, toTitleCase, pickNum, isEmptyVal,
+  unaccent, esc, fmtValor, fmtPrecio, toTitleCase, pickNum, isEmptyVal,
   currencyDisplay, currencyShortName, denominationFullDisplay,
 } from "../lib/format.js";
 
@@ -37,6 +37,17 @@ test("fmtValor: fixture cross-language Python↔JS", () => {
 test("fmtValor: null/undefined -> ''", () => {
   assert.equal(fmtValor(null), "");
   assert.equal(fmtValor(undefined), "");
+});
+
+test("fmtPrecio: null/undefined -> ''", () => {
+  assert.equal(fmtPrecio(null), "");
+  assert.equal(fmtPrecio(undefined), "");
+});
+
+test("fmtPrecio: '$ ' + fmtValor (es-CL)", () => {
+  assert.equal(fmtPrecio(0), "$ 0");
+  assert.equal(fmtPrecio(1234.5), "$ 1.234,5");
+  assert.equal(fmtPrecio(1000000), "$ 1.000.000");
 });
 
 test("toTitleCase: ejemplos documentados", () => {

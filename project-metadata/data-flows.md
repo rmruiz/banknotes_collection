@@ -76,7 +76,7 @@ Flujo completo de `web/app.js:startEdit` a `_json/`:
 2. `web/app.js:postUpdate(id, field, value)` → `POST /api/update` con body
    `{id, field, value}`.
 3. `serve_web.py:do_POST` valida Host/Origin → dispatch `_handle_update`:
-   - `ID_RE` + `id in IDS` + `field in FIELDS` (whitelist de 23 campos, ver
+   - `ID_RE` + `id in IDS` + `field in FIELDS` (whitelist de 24 campos, ver
      `web.md`).
    - Ejecuta el validador del campo (`_v_str`, `_v_num`, `_v_year`, `_v_url`,
      `_v_bool`, `_v_temas`, `_v_currency_code`…).
@@ -192,7 +192,7 @@ Flujo completo de `web/app.js:startEdit` a `_json/`:
   (catálogo sin billetes; `moneda_propia === 'no'` se excluye).
 - `renderKPIs`: `#kpi-total-notes`, `#kpi-countries-owned` (con `#kpi-countries-pct`),
   `#kpi-countries-missing`, `#kpi-currencies-count` (distinct `currency_code`),
-  `#kpi-special-count` (`conmemorativo || remarcado`).
+  `#kpi-total-value` (Σ `precio`, formateado con `fmtPrecio`).
 - `renderMap`: TopoJSON → d3 `geoMercator` (960x500, zoom 1–8, botones
   `#zoom-in/#zoom-out/#zoom-reset`, tooltip `#map-tooltip`); estado por país:
   verde = tiene billetes de su `moneda_vigente`, rojo = tiene billetes pero no

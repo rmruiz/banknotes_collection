@@ -161,7 +161,7 @@ def test_validadores_inline_condicion_y_verificado():
 def test_fields_es_un_par_validador_applier():
     for name, (validate, apply_) in serve_web.FIELDS.items():
         assert callable(validate) and callable(apply_), name
-    for f in ("pais", "valor", "moneda", "anio", "verificado"):
+    for f in ("pais", "valor", "moneda", "anio", "verificado", "precio"):
         assert f in serve_web.FIELDS
 
 
@@ -266,6 +266,22 @@ def test_applier_datos_basicos():
     assert d["verificado"] is True
     assert d["commemorative"] is True
     assert d["overprint"] is True
+
+
+def test_applier_precio():
+    v = serve_web.FIELDS["precio"][0]
+    assert v(None) is True
+    assert v(0) is True
+    assert v(0.5) is True
+    assert v("x") is False
+    assert v(-1) is False
+    assert v(True) is False
+    assert v(10 ** 12) is False
+    d = _note()
+    serve_web.FIELDS["precio"][1](d, 1234.5)
+    assert d["precio"] == 1234.5
+    serve_web.FIELDS["precio"][1](d, None)
+    assert d["precio"] is None
 
 
 def test_applier_notas_de_texto():
@@ -409,6 +425,8 @@ def test_make_record_fixture_completo():
     assert rec["pais"] == "Chile"
     assert rec["denominacion"] == "1.000 Escudos"
     assert rec["anio"] == 1961
+    # _note() no tiene la clave (JSON legacy): el registro la trae como null
+    assert rec["precio"] is None
     assert rec["flag"].startswith("_flags_svg/")
     # este id no tiene fotos en disco: las rutas salen vacías
     assert rec["thumb_a"] == "" and rec["img_a"] == ""
