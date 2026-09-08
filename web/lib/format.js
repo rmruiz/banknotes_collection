@@ -25,6 +25,17 @@ export function fmtPrecio(v) {
   return "$ " + fmtValor(v);
 }
 
+// Σ valor de la colección (KPI de stats): suma de los `precio` finitos;
+// null/undefined/NaN/∞/cadenas cuentan 0. El callback suma SIEMPRE sobre el
+// acumulador s (regresión histórica: devolver n.precio sin sumar a s dejaba
+// el KPI en 0 cuando la última nota no tenía precio).
+export function sumPrecio(notes) {
+  return notes.reduce(
+    (s, n) => s + (Number.isFinite(n.precio) ? n.precio : 0),
+    0
+  );
+}
+
 // Capitaliza la primera letra de cada palabra (respeta tildes y paréntesis).
 // Ejemplos:
 //     'marco alemán'             -> 'Marco Alemán'

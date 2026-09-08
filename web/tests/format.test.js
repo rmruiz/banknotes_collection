@@ -6,7 +6,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import {
-  unaccent, esc, fmtValor, fmtPrecio, toTitleCase, pickNum, isEmptyVal,
+  unaccent, esc, fmtValor, fmtPrecio, sumPrecio, toTitleCase, pickNum, isEmptyVal,
   currencyDisplay, currencyShortName, denominationFullDisplay,
 } from "../lib/format.js";
 
@@ -48,6 +48,20 @@ test("fmtPrecio: '$ ' + fmtValor (es-CL)", () => {
   assert.equal(fmtPrecio(0), "$ 0");
   assert.equal(fmtPrecio(1234.5), "$ 1.234,5");
   assert.equal(fmtPrecio(1000000), "$ 1.000.000");
+});
+
+test("sumPrecio: suma los precios finitos (KPI valor total de stats)", () => {
+  assert.equal(sumPrecio([]), 0);
+  assert.equal(sumPrecio([{}, {}, {}]), 0);
+  // Regresión: precio en el MEDIO y última nota sin precio → debe sumar
+  // (antes el reduce devolvía el precio de la última nota = 0).
+  assert.equal(sumPrecio([{ id: "ab-p3a", precio: 1000 }, { id: "b-p1" }]), 1000);
+  assert.equal(sumPrecio([{ precio: 1000 }, { precio: 500.5 }]), 1500.5);
+  // null / undefined / NaN / ∞ / cadena cuentan 0 (Number.isFinite no hace
+  // coerción: "1000" no entra).
+  assert.equal(sumPrecio([{ precio: null }, { precio: "1000" }, { precio: NaN }, { precio: Infinity }]), 0);
+  // precio 0 es finito pero suma 0 (no debe romper el total).
+  assert.equal(sumPrecio([{ precio: 0 }, { precio: 7 }]), 7);
 });
 
 test("toTitleCase: ejemplos documentados", () => {

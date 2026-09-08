@@ -3,7 +3,7 @@
  * Renderiza métricas, mapa mundial interactivo (D3 + TopoJSON) y gráficos.
  */
 
-import { esc, fmtPrecio } from "./lib/format.js";
+import { esc, fmtPrecio, sumPrecio } from "./lib/format.js";
 import { isLocal, showDataError } from "./lib/dataload.js";
 
 (function () {
@@ -166,9 +166,9 @@ import { isLocal, showDataError } from "./lib/dataload.js";
         const pctOwned = totalCountriesInCatalog ? ((ownedCountriesCount / totalCountriesInCatalog) * 100).toFixed(1) : 0;
 
         const currenciesSet = new Set(allNotes.map(n => n.currency_code || '').filter(Boolean));
-        // Valor total de la colección: suma de precios de mercado
-        // (null/ausente cuenta 0; solo se suman números finitos).
-        const totalValue = allNotes.reduce((s, n) => (Number.isFinite(n.precio) ? n.precio : 0), 0);
+        // Valor total de la colección: Σ de precios finitos; null/ausente
+        // cuenta 0 (sumPrecio en lib/format.js, unit-testeado).
+        const totalValue = sumPrecio(allNotes);
 
         document.getElementById('kpi-total-notes').textContent = totalNotes.toLocaleString('es-ES');
         document.getElementById('kpi-countries-owned').textContent = `${ownedCountriesCount} / ${totalCountriesInCatalog}`;

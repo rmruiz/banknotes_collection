@@ -157,9 +157,9 @@ hace `sortRecords(records, sort, ctx)`. Gramática
 
 ## `stats.js` (IIFE, sin estado global)
 
-- `init()`: fetch de `data/collection.json`, `data/countries.json`
-  (fallback `../_json/countries.json`) y `data/currencies.json`; si el
-  catálogo está vacío no renderiza nada.
+- `init()`: fetch de `data/collection.json`, `data/countries.json` (sin
+  datos → `{}`) y `data/currencies.json` (los tres `{cache:"no-store"}`); si
+  el catálogo está vacío no renderiza nada.
 - `processData()`: índices `notesByCountryCode`, `notesByIsoA2`,
   `numericToCountry` (ISO numérico pad 3), `ownedCurrencies` (con
   `FUND_CODE_ALIASES`, p. ej. `USN→USD` para códigos históricos) y
@@ -167,8 +167,9 @@ hace `sortRecords(records, sort, ctx)`. Gramática
   `moneda_propia === 'no'`; ordenados por `name.es`).
 - KPIs (`renderKPIs`): `#kpi-total-notes`, `#kpi-countries-owned` ("X / Y" +
   `#kpi-countries-pct`), `#kpi-countries-missing`, `#kpi-currencies-count`
-  (distinct `currency_code`), `#kpi-total-value` (Σ `precio`, formateado con
-  `web/lib/format.js:fmtPrecio` → "$ 1.234,5"; `null`/ausente cuenta 0).
+  (distinct `currency_code`), `#kpi-total-value` (Σ `precio` vía
+  `web/lib/format.js:sumPrecio`, unit-testeado; formateado con `fmtPrecio`
+  → "$ 1.234,5"; `null`/ausente/NaN cuenta 0).
 - Mapa (`renderMap`): TopoJSON primero desde `data/world-110m.json` (no
   existe hoy) y fallback CDN `world-atlas@2/countries-110m.json`;
   `geoMercator` 960×500, zoom 1–8 (`#zoom-in`, `#zoom-out`, `#zoom-reset`),
