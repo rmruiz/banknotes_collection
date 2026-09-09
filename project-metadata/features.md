@@ -71,7 +71,7 @@ se toca; "Impl." dónde vive la lógica.
 | Feature | UI | Impl. |
 |---|---|---|
 | Menú colapsable por botón hamburguesa (inicia siempre colapsado, sin overlay, solo se cierra con el botón) | `.menu-toggle` + `.side-menu` (inyectados en `<body>` por JS, no están en el HTML) | `web/lib/menu.js:initSideMenu` + `.menu-toggle`/`.side-menu` en `web/styles.css` |
-| Navegación entre páginas según la página actual (index/index-edit: Idioma, Edición o Lectura, Estadísticas; stats: Catálogo, Edición, Problemas; problemas: Catálogo, Estadísticas) | ítems del panel `.side-menu` | `web/lib/menu.js:menuItems` (lista pura por página; testeado en `web/tests/menu.test.js`) |
+| Navegación entre páginas: SIEMPRE todas las opciones (Idioma, Catálogo, Edición, Estadísticas, Problemas); la página actual se indica con el símbolo «<< » + `aria-current` | ítems del panel `.side-menu` | `web/lib/menu.js:menuItems(currentPage)` (lista pura con `current`; testeado en `web/tests/menu.test.js`) |
 | Toggle de idioma ES/EN (vivió en el header; ahora en el menú) | botón `#lang-toggle` dentro del panel | `web/lib/menu.js:renderMenu` (genera el `id="lang-toggle"`) + listener y `applyI18n()` en `web/app.js` |
 
 ## Preferencias e i18n

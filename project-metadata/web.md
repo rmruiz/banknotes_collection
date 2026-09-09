@@ -21,18 +21,18 @@ botón de nuevo billete, de los inputs editables y del toolbar).
 Compartido por las 4 páginas. Vive en `web/lib/menu.js` (módulo testeable en
 Node) + reglas `.menu-toggle`/`.side-menu` en `web/styles.css`.
 
-- **`menuItems(page)`** (función pura): lista de ítems por página
-  (`{type: "button"|"link", icon, labelKey}` + `id`/`href`); página
-  desconocida → lista vacía.
-  | Página | Ítems (en orden) |
-  |---|---|
-  | `index` | Idioma (`button#lang-toggle`) · Edición · Estadísticas |
-  | `index-edit` | Idioma (`button#lang-toggle`) · Lectura · Estadísticas |
-  | `stats` | Catálogo · Edición · Problemas |
-  | `problemas` | Catálogo · Estadísticas |
+- **`menuItems(currentPage)`** (función pura): devuelve TODAS las opciones
+  del menú en cada página (siempre las mismas 5): Idioma
+  (`button#lang-toggle`), Catálogo, Edición, Estadísticas, Problemas
+  (`{type: "button"|"link", icon, labelKey, href}`); el ítem que
+  corresponde a `currentPage` lleva `current: true`.
+  Página desconocida → mismas opciones, ninguna marcada como actual.
 - **`renderMenu(page, lang)`**: HTML del panel (header "Menú" + ítems con
   icono SVG inline y etiqueta vía `translate(key, lang)`; `lang` se lee de
-  `localStorage["banknotes_lang"]`).
+  `localStorage["banknotes_lang"]`). Todas las etiquetas y el header llevan
+  `data-i18n` (para el refresh in situ). El ítem actual lleva prefijo «<< »
+  en su etiqueta + `aria-current="page"` + clase `.side-menu-item.current`
+  (resaltado en color marca).
 - **`initSideMenu(page)`**: inyecta en `<body>` el botón `.menu-toggle` y el
   panel `<nav class="side-menu">`, cablea el toggle y actualiza
   `aria-expanded`/`aria-hidden`. Se llama al inicio del init de cada entry
@@ -43,17 +43,21 @@ Node) + reglas `.menu-toggle`/`.side-menu` en `web/styles.css`.
   con `body.menu-open`; `@720px`: `min(280px, 82vw)`); solo se cierra con el
   botón hamburguesa (que se morfea a ✕). z-index: botón 120 / panel 110,
   sobre el buscador sticky (100) y `.scroll-mask` (95).
-- **Botón de idioma**: se genera con `id="lang-toggle"`. Su listener de click
-  vive en `app.js` y `applyI18n()` pinta el emoji de bandera (🇬🇧/🇨🇱) dentro
-  del botón (por eso debe existir ANTES de que corra — de ahí `initSideMenu`
-  al inicio del init). La etiqueta del ítem usa `data-i18n="menu_lang"` y se
-  traduce con el resto de la UI.
+- **Botón de idioma** (ahora en las 4 páginas): se genera con
+  `id="lang-toggle"`. Lo cablea `bindLangToggle(onAfter)`: alterna el idioma
+  persistido en `localStorage["banknotes_lang"]`, refresca el panel con
+  `refreshMenuLang()` (in situ, sin reemplazar el botón — si no, perdería su
+  listener) y llama a `onAfter(lang)`: en `app.js` eso actualiza la UI vía
+  `applyI18n()` (la bandera 🇬🇧/🇨🇱 se pinta allí); `stats.js`/`problemas.js`
+  no pasan callback (no tienen i18n propio; el cambio queda persistido y se
+  aplica en las páginas del catálogo).
 - **Producción**: la regla que oculta `a[href="index-edit.html"]` cuando
   `!isLocal()` (en `app.js:applyI18n` y `stats.js:init`) sigue aplicando al
   link del menú: el selector es global, no depende del contenedor viejo.
-- Tests: `web/tests/menu.test.js` (ítems por página, orden, tipos, hrefs,
-  alcance de lang-toggle, página desconocida), `i18n.test.js` (claves
-  `menu_*`) y `module_smoke.test.js` (enlace de `lib/menu.js`).
+- Tests: `web/tests/menu.test.js` (todas las opciones siempre presentes,
+  ítem current, «<< »/aria-current, data-i18n, hrefs, página desconocida,
+  copias seguras), `i18n.test.js` (claves `menu_*`) y
+  `module_smoke.test.js` (enlace de `lib/menu.js`).
 
 ## `app.js` — estado
 

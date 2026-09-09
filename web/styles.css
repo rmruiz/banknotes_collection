@@ -206,6 +206,7 @@ body.menu-open .side-menu { transform: none; }
   cursor: pointer;
 }
 .side-menu-label { flex: 1; }
+.side-menu-item.current { color: var(--brand); font-weight: 600; }
 
 main.container-fluid {
   display: flex;

@@ -23,7 +23,6 @@ export const I18N = {
   menu_title: ["Menú", "Menu"],
   menu_lang: ["Idioma", "Language"],
   menu_edit: ["Edición", "Edit"],
-  menu_reading: ["Lectura", "Reading mode"],
   menu_stats: ["Estadísticas", "Statistics"],
   menu_catalog: ["Catálogo", "Catalog"],
   menu_problems: ["Problemas", "Issues"],

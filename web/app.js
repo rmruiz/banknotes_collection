@@ -11,7 +11,7 @@ import {
 import { translate, paisDisplay as paisDisplayLib } from "./lib/i18n.js";
 import { COL_ALIASES, getCol, parseQuery, matches, sortRecords } from "./lib/query.js";
 import { isLocal, showDataError } from "./lib/dataload.js";
-import { initSideMenu } from "./lib/menu.js";
+import { initSideMenu, bindLangToggle } from "./lib/menu.js";
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -927,9 +927,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
   $("#new-form").addEventListener("submit", createNewNote);
 
-  $("#lang-toggle").addEventListener("click", () => {
-    lang = lang === "en" ? "es" : "en";
-    localStorage.setItem("banknotes_lang", lang);
+  bindLangToggle((l) => {
+    lang = l;
     applySort();   // re-ordenar si el orden activo es País
     applyI18n();
   });

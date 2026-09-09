@@ -3,117 +3,109 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { menuItems, renderMenu } from "../lib/menu.js";
 
-const LANG_BTN = { type: "button", id: "lang-toggle", icon: "lang", labelKey: "menu_lang" };
+const PAGES = ["index", "index-edit", "stats", "problemas"];
+const LABELS = ["menu_lang", "menu_catalog", "menu_edit", "menu_stats", "menu_problems"];
+const HREFS = ["index.html", "index-edit.html", "stats.html", "problemas.html"];
+const CURRENT_BY_PAGE = {
+  index: "index.html",
+  "index-edit": "index-edit.html",
+  stats: "stats.html",
+  problemas: "problemas.html",
+};
 
-test("menuItems: ítems y orden por página", () => {
-  // index: idioma (botón) + edición + estadísticas
-  const idx = menuItems("index");
-  assert.deepEqual(idx.map((i) => [i.type, i.icon, i.labelKey]), [
-    ["button", "lang", "menu_lang"],
-    ["link", "edit", "menu_edit"],
-    ["link", "stats", "menu_stats"],
-  ]);
-  assert.equal(idx[0].id, "lang-toggle");
-  assert.deepEqual(idx.filter((i) => i.type === "link").map((i) => i.href), [
-    "index-edit.html",
-    "stats.html",
-  ]);
-
-  // index-edit: idioma (botón) + lectura + estadísticas
-  const edit = menuItems("index-edit");
-  assert.deepEqual(edit.map((i) => [i.type, i.icon, i.labelKey]), [
-    ["button", "lang", "menu_lang"],
-    ["link", "reading", "menu_reading"],
-    ["link", "stats", "menu_stats"],
-  ]);
-  assert.equal(edit[0].id, "lang-toggle");
-  assert.deepEqual(edit.filter((i) => i.type === "link").map((i) => i.href), [
-    "index.html",
-    "stats.html",
-  ]);
-
-  // stats: catálogo + edición + problemas
-  const stats = menuItems("stats");
-  assert.deepEqual(stats.map((i) => [i.type, i.icon, i.labelKey]), [
-    ["link", "catalog", "menu_catalog"],
-    ["link", "edit", "menu_edit"],
-    ["link", "problems", "menu_problems"],
-  ]);
-  assert.deepEqual(stats.map((i) => i.href), ["index.html", "index-edit.html", "problemas.html"]);
-
-  // problemas: catálogo + estadísticas
-  const prob = menuItems("problemas");
-  assert.deepEqual(prob.map((i) => [i.type, i.icon, i.labelKey]), [
-    ["link", "catalog", "menu_catalog"],
-    ["link", "stats", "menu_stats"],
-  ]);
-  assert.deepEqual(prob.map((i) => i.href), ["index.html", "stats.html"]);
+test("menuItems: SIEMPRE todas las opciones en las 4 páginas", () => {
+  for (const page of PAGES) {
+    const items = menuItems(page);
+    assert.equal(items.length, 5, `${page}: 5 ítems`);
+    assert.deepEqual(items.map((i) => i.labelKey), LABELS, `${page}: orden`);
+    assert.equal(items[0].type, "button", `${page}: primero el botón de idioma`);
+    assert.equal(items[0].id, "lang-toggle", page);
+    for (const it of items.slice(1)) assert.equal(it.type, "link", `${page}: links`);
+    assert.deepEqual(items.slice(1).map((i) => i.href), HREFS, `${page}: hrefs`);
+  }
 });
 
-test("menuItems: página desconocida -> lista vacía", () => {
-  assert.deepEqual(menuItems("no-existe"), []);
-  assert.deepEqual(menuItems(undefined), []);
-  assert.deepEqual(menuItems(""), []);
+test("menuItems: marca current=true solo en la página actual", () => {
+  for (const [page, href] of Object.entries(CURRENT_BY_PAGE)) {
+    const items = menuItems(page);
+    const cur = items.filter((i) => i.current);
+    assert.equal(cur.length, 1, `${page}: un solo actual`);
+    assert.equal(cur[0].href, href, `${page}: el actual es ${href}`);
+    assert.equal(items[0].current, undefined, `${page}: lang nunca es actual`);
+  }
 });
 
-test("menuItems: lang-toggle solo en index e index-edit", () => {
-  for (const page of ["index", "index-edit", "stats", "problemas"]) {
-    const btns = menuItems(page).filter((i) => i.type === "button");
-    if (page === "stats" || page === "problemas") {
-      assert.equal(btns.length, 0, page);
-    } else {
-      assert.deepEqual(btns, [LANG_BTN], page);
+test("menuItems: página desconocida -> todas las opciones, ninguna current", () => {
+  for (const bad of ["no-existe", undefined, ""]) {
+    const items = menuItems(bad);
+    assert.equal(items.length, 5);
+    assert.equal(items[0].type, "button");
+    assert.equal(items[0].id, "lang-toggle");
+    assert.ok(!items.some((i) => i.current));
+  }
+});
+
+test("menuItems: devuelve objetos nuevos (mutar no altera la lista base)", () => {
+  // En "stats" el ítem actual es [3] (stats.html).
+  const a = menuItems("stats");
+  a[0].labelKey = "HACK";
+  a[1].href = "hacked.html";
+  a[3].current = false;
+  const b = menuItems("stats");
+  assert.equal(b[0].labelKey, "menu_lang");
+  assert.equal(b[1].href, "index.html");
+  assert.equal(b[3].current, true);
+});
+
+test("renderMenu: la página actual lleva «<< », aria-current y clase .current", () => {
+  const html = renderMenu("stats", "es");
+  assert.ok(html.includes('class="side-menu-item current"'), "clase current");
+  assert.equal(html.match(/aria-current="page"/g).length, 1, "un solo aria-current");
+  assert.ok(html.includes("<< Estadísticas"), "prefijo << en la etiqueta actual");
+  for (const no of ["<< Catálogo", "<< Edición", "<< Problemas"]) {
+    assert.ok(!html.includes(no), `sin prefijo: ${no}`);
+  }
+});
+
+test("renderMenu: página desconocida -> sin «<<» ni aria-current", () => {
+  const html = renderMenu("no-existe", "es");
+  assert.ok(!html.includes("<<"));
+  assert.ok(!html.includes("aria-current"));
+});
+
+test("renderMenu: todas las etiquetas llevan data-i18n (refresh in situ)", () => {
+  const html = renderMenu("problemas", "es");
+  for (const key of ["menu_title", "menu_lang", "menu_catalog", "menu_edit", "menu_stats", "menu_problems"]) {
+    assert.ok(html.includes(`data-i18n="${key}"`), key);
+  }
+});
+
+test("renderMenu: botón de idioma y los 4 links presentes en las 4 páginas", () => {
+  for (const page of PAGES) {
+    const html = renderMenu(page, "es");
+    assert.match(html, /id="lang-toggle"/, page);
+    for (const href of HREFS) {
+      assert.match(html, new RegExp(`href="${href}"`), `${page}: ${href}`);
     }
   }
 });
 
-test("menuItems: devuelve copias (no expone estado interno)", () => {
-  const a = menuItems("index");
-  a.push({ type: "link", href: "x.html" });
-  a[0].href = "mutado";
-  const b = menuItems("index");
-  assert.equal(b.length, 3);
-  assert.equal(b[0].id, "lang-toggle");
-});
-
-test("renderMenu: botón de idioma solo en index e index-edit", () => {
-  assert.match(renderMenu("index", "es"), /id="lang-toggle"/);
-  assert.match(renderMenu("index-edit", "es"), /id="lang-toggle"/);
-  assert.doesNotMatch(renderMenu("stats", "es"), /id="lang-toggle"/);
-  assert.doesNotMatch(renderMenu("problemas", "es"), /id="lang-toggle"/);
-});
-
-test("renderMenu: hrefs y etiquetas por idioma (index)", () => {
+test("renderMenu: etiquetas traducidas según idioma (index)", () => {
+  // En index, "Catálogo" es la página actual: lleva el prefijo «<< ».
   const es = renderMenu("index", "es");
-  for (const href of ["index-edit.html", "stats.html"]) {
-    assert.match(es, new RegExp(`href="${href}"`));
-  }
-  assert.match(es, />Edición</);
-  assert.match(es, />Estadísticas</);
-  assert.match(es, />Idioma</);
   assert.match(es, />Menú</);
+  assert.ok(es.includes("<< Catálogo"));
+  for (const t of ["Idioma", "Edición", "Estadísticas", "Problemas"]) {
+    assert.match(es, new RegExp(`>${t}</`), t);
+  }
+  for (const no of ["<< Edición", "<< Estadísticas", "<< Problemas"]) {
+    assert.ok(!es.includes(no), `sin prefijo: ${no}`);
+  }
 
   const en = renderMenu("index", "en");
-  assert.match(en, />Edit</);
-  assert.match(en, />Statistics</);
-  assert.match(en, />Language</);
   assert.match(en, />Menu</);
-});
-
-test("renderMenu: stats y problemas enlazan a las páginas correctas", () => {
-  const s = renderMenu("stats", "es");
-  for (const href of ["index.html", "index-edit.html", "problemas.html"]) {
-    assert.match(s, new RegExp(`href="${href}"`));
+  assert.ok(en.includes("<< Catalog"));
+  for (const t of ["Language", "Edit", "Statistics", "Issues"]) {
+    assert.match(en, new RegExp(`>${t}</`), t);
   }
-  assert.match(s, />Problemas</);
-  assert.match(s, />Catálogo</);
-
-  const p = renderMenu("problemas", "es");
-  assert.match(p, /href="index.html"/);
-  assert.match(p, /href="stats.html"/);
-  assert.doesNotMatch(p, /index-edit\.html/);
-});
-
-test("renderMenu: página desconocida -> panel sin ítems", () => {
-  assert.doesNotMatch(renderMenu("no-existe", "es"), /side-menu-item/);
 });

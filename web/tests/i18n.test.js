@@ -22,8 +22,6 @@ test("translate: claves del menú lateral", () => {
   assert.equal(translate("menu_title", "en"), "Menu");
   assert.equal(translate("menu_edit", "es"), "Edición");
   assert.equal(translate("menu_edit", "en"), "Edit");
-  assert.equal(translate("menu_reading", "es"), "Lectura");
-  assert.equal(translate("menu_reading", "en"), "Reading mode");
   assert.equal(translate("menu_stats", "es"), "Estadísticas");
   assert.equal(translate("menu_stats", "en"), "Statistics");
   assert.equal(translate("menu_catalog", "es"), "Catálogo");
