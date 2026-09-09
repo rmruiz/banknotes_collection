@@ -25,6 +25,8 @@ banknotes_collection/
 │   ├── stats.html/stats.js/stats.css   # dashboard de estadísticas (D3)
 │   ├── problemas.html/problemas.js     # página de problemas detectados
 │   ├── d3.min.js, topojson-client.min.js  # librerías vendor commiteadas
+│   ├── lib/              #   módulos ES testeables en Node (i18n, query, format, dataload, menu)
+│   ├── tests/            #   tests unitarios de lib/ (node --test)
 │   ├── _flags_svg/         # banderas SVG por país (~210, commiteadas)
 │   ├── _originals/         # fotos por billete: <id>/<id>_A.jpg,_B.jpg (commiteadas)
 │   ├── _FULL/              # imagen compuesta <id>.webp (commiteadas)
@@ -80,6 +82,8 @@ Son ~3600 archivos versionados bajo `web/` (verificado con `git ls-files`).
 | `web/index.html` | Catálogo modo lectura. Assets: `styles.css`, `app.js`. |
 | `web/index-edit.html` | Catálogo modo edición (mismo `app.js`; el modo se detecta por el path). Contiene el diálogo de billete nuevo (`#new-dialog`). |
 | `web/app.js` | Toda la lógica: estado, filtros, render, edición, guardado, i18n, modales. |
+| `web/lib/menu.js` | Menú lateral: ítems por página (`menuItems`), HTML del panel (`renderMenu`) e inyección en DOM (`initSideMenu`). Testeado en `web/tests/menu.test.js`. |
+| `web/tests/` | Tests unitarios de los módulos de `web/lib/` (se ejecutan con `node --test web/tests/*.test.js`). |
 | `web/styles.css` | Hoja de estilos compartida por las 4 páginas. |
 | `web/stats.html` | Dashboard. Assets: `styles.css`, `stats.css`, `d3.min.js`, `topojson-client.min.js`, `stats.js`. |
 | `web/stats.js` | KPIs, mapa mundial (D3 + TopoJSON), países faltantes, charts. IIFE aislada. |

@@ -16,6 +16,45 @@ frameworks ni build; los assets son servidos tal cual por `serve_web.py`.
 location.pathname.includes("index-edit.html")` (controla visibilidad del
 botón de nuevo billete, de los inputs editables y del toolbar).
 
+## Menú lateral (hamburguesa)
+
+Compartido por las 4 páginas. Vive en `web/lib/menu.js` (módulo testeable en
+Node) + reglas `.menu-toggle`/`.side-menu` en `web/styles.css`.
+
+- **`menuItems(page)`** (función pura): lista de ítems por página
+  (`{type: "button"|"link", icon, labelKey}` + `id`/`href`); página
+  desconocida → lista vacía.
+  | Página | Ítems (en orden) |
+  |---|---|
+  | `index` | Idioma (`button#lang-toggle`) · Edición · Estadísticas |
+  | `index-edit` | Idioma (`button#lang-toggle`) · Lectura · Estadísticas |
+  | `stats` | Catálogo · Edición · Problemas |
+  | `problemas` | Catálogo · Estadísticas |
+- **`renderMenu(page, lang)`**: HTML del panel (header "Menú" + ítems con
+  icono SVG inline y etiqueta vía `translate(key, lang)`; `lang` se lee de
+  `localStorage["banknotes_lang"]`).
+- **`initSideMenu(page)`**: inyecta en `<body>` el botón `.menu-toggle` y el
+  panel `<nav class="side-menu">`, cablea el toggle y actualiza
+  `aria-expanded`/`aria-hidden`. Se llama al inicio del init de cada entry
+  point (`app.js`, `stats.js`, `problemas.js`).
+- **Comportamiento**: siempre inicia colapsado (sin persistencia); se desliza
+  desde la izquierda; SIN overlay — el contenido se desplaza con
+  `padding-left` del `body` (gutter fijo 64px → `var(--side-menu-w)` = 264px
+  con `body.menu-open`; `@720px`: `min(280px, 82vw)`); solo se cierra con el
+  botón hamburguesa (que se morfea a ✕). z-index: botón 120 / panel 110,
+  sobre el buscador sticky (100) y `.scroll-mask` (95).
+- **Botón de idioma**: se genera con `id="lang-toggle"`. Su listener de click
+  vive en `app.js` y `applyI18n()` pinta el emoji de bandera (🇬🇧/🇨🇱) dentro
+  del botón (por eso debe existir ANTES de que corra — de ahí `initSideMenu`
+  al inicio del init). La etiqueta del ítem usa `data-i18n="menu_lang"` y se
+  traduce con el resto de la UI.
+- **Producción**: la regla que oculta `a[href="index-edit.html"]` cuando
+  `!isLocal()` (en `app.js:applyI18n` y `stats.js:init`) sigue aplicando al
+  link del menú: el selector es global, no depende del contenedor viejo.
+- Tests: `web/tests/menu.test.js` (ítems por página, orden, tipos, hrefs,
+  alcance de lang-toggle, página desconocida), `i18n.test.js` (claves
+  `menu_*`) y `module_smoke.test.js` (enlace de `lib/menu.js`).
+
 ## `app.js` — estado
 
 ```js

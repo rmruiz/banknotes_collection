@@ -34,3 +34,11 @@ for (const name of ["app.js", "stats.js", "problemas.js"]) {
     );
   });
 }
+
+test("enlace módulo: lib/menu.js (top-level sin DOM real)", async () => {
+  installDomStubs();
+  await assert.doesNotReject(
+    import(new URL("../lib/menu.js", import.meta.url).href),
+    "lib/menu.js debe importarse sin errores de enlace",
+  );
+});

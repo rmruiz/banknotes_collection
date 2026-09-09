@@ -66,11 +66,19 @@ se toca; "Impl." dónde vive la lógica.
 | Charts: top países, décadas, condiciones, monedas — cada fila filtra el catálogo | `web/stats.js:renderCharts` → links `index.html?q=…` |
 | Moneda "propia" con alias históricos (USN→USD…) | `web/stats.js:processData` (`FUND_CODE_ALIASES`) |
 
+## Menú lateral (navegación entre páginas)
+
+| Feature | UI | Impl. |
+|---|---|---|
+| Menú colapsable por botón hamburguesa (inicia siempre colapsado, sin overlay, solo se cierra con el botón) | `.menu-toggle` + `.side-menu` (inyectados en `<body>` por JS, no están en el HTML) | `web/lib/menu.js:initSideMenu` + `.menu-toggle`/`.side-menu` en `web/styles.css` |
+| Navegación entre páginas según la página actual (index/index-edit: Idioma, Edición o Lectura, Estadísticas; stats: Catálogo, Edición, Problemas; problemas: Catálogo, Estadísticas) | ítems del panel `.side-menu` | `web/lib/menu.js:menuItems` (lista pura por página; testeado en `web/tests/menu.test.js`) |
+| Toggle de idioma ES/EN (vivió en el header; ahora en el menú) | botón `#lang-toggle` dentro del panel | `web/lib/menu.js:renderMenu` (genera el `id="lang-toggle"`) + listener y `applyI18n()` en `web/app.js` |
+
 ## Preferencias e i18n
 
 | Feature | Impl. |
 |---|---|
-| Idioma ES/EN de toda la UI (selector header) | `web/app.js:applyI18n` + diccionario `L` + `localStorage banknotes_lang` |
+| Idioma ES/EN de toda la UI (toggle en el menú lateral) | `web/app.js:applyI18n` + diccionario `L` + `localStorage banknotes_lang` |
 | Recordar columnas visibles | `localStorage banknotes_cols` (`web/app.js:state.cols`) |
 | Recordar acordeones abiertos en problemas | `localStorage problemas_open` (`web/problemas.js`) |
 
@@ -100,5 +108,8 @@ se toca; "Impl." dónde vive la lógica.
 - "La búsqueda no encuentra X" → campo `search`
   (`_scripts/build_web.py:build_search`) + gramática
   (`web/app.js:parseQuery`).
+- "¿Dónde está el botón de idioma / la navegación entre páginas?" → menú
+  lateral (`web/lib/menu.js:initSideMenu`); el toggle de idioma es el
+  `#lang-toggle` que genera `renderMenu` (listener en `web/app.js`).
 - "Un país aparece gris en el mapa" → `moneda_vigente` de
   `_json/countries.json` + `web/stats.js:renderMap`.

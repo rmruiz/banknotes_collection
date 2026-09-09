@@ -11,6 +11,7 @@ import {
 import { translate, paisDisplay as paisDisplayLib } from "./lib/i18n.js";
 import { COL_ALIASES, getCol, parseQuery, matches, sortRecords } from "./lib/query.js";
 import { isLocal, showDataError } from "./lib/dataload.js";
+import { initSideMenu } from "./lib/menu.js";
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -806,6 +807,10 @@ function dataLoadError(cause) {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
+  // Menú lateral: se inyecta el botón/panel ANTES que el resto del init —
+  // el wiring de #lang-toggle y applyI18n() de este archivo dependen de que
+  // ya exista en el DOM (ver web/lib/menu.js).
+  initSideMenu(isEditMode ? "index-edit" : "index");
   // no-store: siempre datos frescos aunque se sirva sin serve_web.py
   let res, currenciesRes;
   try {

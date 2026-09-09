@@ -5,6 +5,7 @@
 
 import { esc, fmtPrecio, sumPrecio } from "./lib/format.js";
 import { isLocal, showDataError } from "./lib/dataload.js";
+import { initSideMenu } from "./lib/menu.js";
 
 (function () {
     'use strict';
@@ -39,6 +40,8 @@ import { isLocal, showDataError } from "./lib/dataload.js";
     document.addEventListener('DOMContentLoaded', init);
 
     async function init() {
+        // Menú lateral (web/lib/menu.js): hamburguesa + panel de navegación.
+        initSideMenu("stats");
         try {
             let notesData, countriesData, currenciesData;
 

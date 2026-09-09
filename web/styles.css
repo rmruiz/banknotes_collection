@@ -23,6 +23,7 @@
   --radius-pill: 999px;
   --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
   --shadow-soft: 0 1px 2px rgba(0, 0, 0, .05);
+  --side-menu-w: 264px;
 }
 
 /* ---------- Reset base (reemplaza lo que daba Pico CSS, ya removido) ---------- */
@@ -39,6 +40,11 @@ html {
 body {
   margin: 0;
   background-color: var(--pico-background-color);
+  /* Gutter fijo para el botón hamburguesa (ver "Menú lateral" más abajo).
+     Sin overlay ni transform en ancestros: el shift por padding no rompe
+     los position: sticky del thead y .table-footer. */
+  padding-left: 64px;
+  transition: padding-left 0.2s ease;
 }
 
 /* Enlaces sin estilo propio más abajo (p.ej. los de Colnect/Numista dentro
@@ -88,6 +94,118 @@ input[type="checkbox"]:disabled {
   z-index: 95;
   pointer-events: none;
 }
+
+/* ---------- Menú lateral colapsable (hamburguesa) ----------
+   Capas fijas por encima de .scroll-mask (z 95) y del buscador sticky
+   (z 100): botón z 120, panel z 110. El panel se desliza desde la
+   izquierda SIN overlay: el contenido se desplaza con padding-left del
+   body (body.menu-open). Siempre inicia colapsado (sin persistencia). */
+
+body.menu-open {
+  padding-left: var(--side-menu-w);
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 120;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  cursor: pointer;
+}
+.menu-toggle:hover {
+  background-color: #f9f9f9;
+  border-color: var(--pico-primary);
+}
+/* 3 barras horizontales; con body.menu-open se morfean a ✕ */
+.menu-bar {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #444;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+body.menu-open .menu-toggle .menu-bar:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+body.menu-open .menu-toggle .menu-bar:nth-child(2) { opacity: 0; }
+body.menu-open .menu-toggle .menu-bar:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 110;
+  width: var(--side-menu-w);
+  background-color: var(--pico-card-background-color);
+  border-right: 1px solid var(--pico-muted-border-color);
+  box-shadow: var(--shadow-card);
+  transform: translateX(-100%);
+  transition: transform 0.2s ease;
+  overflow-y: auto;
+  /* padding-top: el botón hamburguesa (fijo arriba-izquierda, z 120) se
+     superpone a la esquina del panel; el contenido del panel empieza bajo él. */
+  padding: 72px 12px 12px;
+}
+body.menu-open .side-menu { transform: none; }
+
+.side-menu-head {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pico-muted-color);
+  padding: 0 14px 8px;
+}
+.side-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.side-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 14px;
+  border: none;
+  border-radius: var(--radius-md);
+  background-color: transparent;
+  color: var(--pico-color);
+  font: inherit;
+  font-size: 14px;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+.side-menu-item:hover {
+  background-color: #f9f9f9;
+  color: var(--pico-primary);
+}
+.side-menu-ico {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  flex-shrink: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+.side-menu-label { flex: 1; }
 
 main.container-fluid {
   display: flex;
@@ -979,6 +1097,7 @@ details.problema > summary:hover { color: var(--pico-primary); }
 
 /* ---- móvil: tabla como tarjetas ---- */
 @media (max-width: 720px) {
+  :root[data-theme="light"] { --side-menu-w: min(280px, 82vw); }
   main.container-fluid { padding-top: 12px; gap: 12px; }
   .top-bar { padding: 0 16px; }
   .search-container { padding: 0 10px 0 16px; }
