@@ -2,7 +2,7 @@
 "use strict";
 
 import {
-  unaccent, esc, fmtValor, fmtPrecio, toTitleCase, pickNum,
+  unaccent, esc, fmtValor, fmtPrecio, toTitleCase, pickNum, CONDICIONES,
   currencyInfoFor as currencyInfoForLib,
   currencyDisplay as currencyDisplayLib,
   currencyShortName as currencyShortNameLib,
@@ -566,8 +566,8 @@ const EDIT_COLS = {
   numista: ["numista", "url"],
 };
 
-// escala internacional de condición (IBNS)
-const CONDICIONES = ["", "UNC", "AU", "XF", "VF", "F", "VG", "G", "Fair", "Poor"];
+// CONDICIONES (escala IBNS) vive en web/lib/format.js: la API valida contra
+// el mismo conjunto (_scripts/serve_web.py:CONDICIONES).
 
 // pistas de formato por campo (title del input)
 const EDIT_HINTS = {

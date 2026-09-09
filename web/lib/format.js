@@ -25,6 +25,12 @@ export function fmtPrecio(v) {
   return "$ " + fmtValor(v);
 }
 
+// Escala internacional de condición (IBNS), en orden de <select>. "" = sin
+// condición. DEBE coincidir con CONDICIONES en _scripts/serve_web.py (la API
+// valida los valores contra ese conjunto) y usarla app.js (edición inline)
+// y problemas.js (sección "Billetes sin condición establecida").
+export const CONDICIONES = ["", "UNC", "AU", "XF", "VF", "F", "VG", "G", "Fair", "Poor"];
+
 // Σ valor de la colección (KPI de stats): suma de los `precio` finitos;
 // null/undefined/NaN/∞/cadenas cuentan 0. El callback suma SIEMPRE sobre el
 // acumulador s (regresión histórica: devolver n.precio sin sumar a s dejaba

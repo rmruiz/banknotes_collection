@@ -31,7 +31,7 @@ Notación `{archivo}:{función}`; entradas de CLI entre comillas.
     el archivo no existe (p. ej. `cwsx`).
   - `thumb_jobs(rec, meta, force)` / `make_thumb(job)` — plan y ejecución de
     miniaturas (magick, 360px, q80, `ThreadPoolExecutor(8)`).
-  - `build_issues_data(records, meta, force, json_malos)` — las 8 categorías
+  - `build_issues_data(records, meta, force, json_malos)` — las 9 categorías
     de `issues.json` + miniaturas de carpetas huérfanas
     (`thumbs/x_<md512>_X.jpg`).
   - `build_search(d, rec)` — campo `search` normalizado.

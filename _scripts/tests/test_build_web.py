@@ -383,9 +383,12 @@ def test_build_issues_por_categoria(sample_build):
     assert len(cat["picks_sin_formato"]) == 1
     assert len(cat["picks_formato_raro"]) == 0
     assert len(cat["sin_colnect"]) == 1
+    # solo cl-p100: ar-p5 tiene VF y cl-p125 tiene UNC en specimens[0]
+    assert len(cat["sin_condicion"]) == 1
+    assert cat["sin_condicion"][0]["id"] == "cl-p100"
     assert len(cat["sin_fotos"]) == 1
     assert len(cat["sin_full"]) == 1
-    assert res["problemas"] == sum(len(v) for v in cat.values()) == 8
+    assert res["problemas"] == sum(len(v) for v in cat.values()) == 9
 
 
 def test_build_sincroniza_catalogos(sample_build):

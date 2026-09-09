@@ -1,7 +1,7 @@
 /* Página de problemas — renderiza las categorías de data/issues.json */
 "use strict";
 
-import { esc } from "./lib/format.js";
+import { esc, CONDICIONES } from "./lib/format.js";
 
 /* renderers específicos por categoría; el resto usa la tabla genérica */
 const RENDERERS = {
@@ -124,6 +124,37 @@ const RENDERERS = {
       </tr>`).join("");
     return `<div class="table-wrap"><table>
         <thead><tr><th>Pick</th><th>País</th><th>Moneda Full</th><th>Año</th><th>Front</th><th>Back</th><th>Link Colnect</th></tr></thead>
+        <tbody>${filas}</tbody>
+      </table></div>`;
+  },
+
+  sin_condicion(cat) {
+    const imgCell = (thumb, img, alt) => thumb
+      ? `<td class="img"><a href="${esc(img)}" target="_blank" rel="noopener">
+           <img src="${esc(thumb)}" loading="lazy" alt="${esc(alt)}"></a></td>`
+      : `<td class="img"></td>`;
+    // "" (primera opción) = sin condición: la sección solo lista billetes así,
+    // por lo que el select siempre arranca sin nada elegido.
+    const opciones = CONDICIONES.filter(Boolean).map((c) =>
+      `<option value="${esc(c)}">${esc(c)}</option>`).join("");
+    const filas = cat.items.map((it) => `
+      <tr data-id="${esc(it.id)}">
+        <td>${esc(it.pick) || esc(it.id)}</td>
+        <td>${esc(it.pais)}</td>
+        <td>${esc(it.denominacion)}</td>
+        <td>${esc(it.anio)}</td>
+        ${imgCell(it.thumb_a, it.img_a, "Front " + it.id)}
+        ${imgCell(it.thumb_b, it.img_b, "Back " + it.id)}
+        <td class="edit-folder cond-edit">
+          <select class="cond-select">
+            <option value="">— elegir —</option>
+            ${opciones}
+          </select>
+          <button class="save-condicion">Guardar condición</button>
+        </td>
+      </tr>`).join("");
+    return `<div class="table-wrap"><table>
+        <thead><tr><th>Pick</th><th>País</th><th>Moneda Full</th><th>Año</th><th>Front</th><th>Back</th><th>Condición</th></tr></thead>
         <tbody>${filas}</tbody>
       </table></div>`;
   },
@@ -354,6 +385,37 @@ async function saveColnect(row, btn) {
   }
 }
 
+async function saveCondicion(row, btn) {
+  const id = row.dataset.id;
+  const value = row.querySelector("select.cond-select").value;
+  if (!value) {
+    alert("Elige una condición del menú antes de guardar.");
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = "⏳…";
+  try {
+    let res = await fetch("/api/update", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, field: "condicion", value }),
+    });
+    let out = await res.json().catch(() => ({}));
+    if (!res.ok || !out.ok) throw new Error(out.error || `HTTP ${res.status}`);
+
+    res = await fetch("/api/rebuild", { method: "POST" });
+    out = await res.json().catch(() => ({}));
+    if (!res.ok || !out.ok) throw new Error(out.error || `HTTP ${res.status}`);
+
+    await load();
+  } catch (err) {
+    alert(`No se pudo guardar la condición (${err.message}).`);
+    btn.disabled = false;
+    btn.textContent = "Guardar condición";
+  }
+}
+
 async function uploadPhoto(input) {
   const file = input.files[0];
   if (!file) return;
@@ -417,6 +479,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (btnP) { changePick(btnP.closest("tr"), btnP); return; }
     const btnU = e.target.closest("button.save-colnect");
     if (btnU) { saveColnect(btnU.closest("tr"), btnU); return; }
+    const btnK = e.target.closest("button.save-condicion");
+    if (btnK) { saveCondicion(btnK.closest("tr"), btnK); return; }
     const btnG = e.target.closest("button.gen-full");
     if (btnG) generarFull(btnG.closest("tr"), btnG);
   });

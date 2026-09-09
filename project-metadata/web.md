@@ -210,6 +210,7 @@ hace `sortRecords(records, sort, ctx)`. Gramática
   | Crear JSON | `POST /api/create_json` | `carpetas_sin_json` (input pick + botón) |
   | Cambiar pick | `POST /api/change_pick` | `picks_formato_raro` (input + botón) |
   | Guardar Colnect | `POST /api/update` (field `colnect`) | `sin_colnect` (input URL) |
+  | Guardar condición | `POST /api/update` (field `condicion`) | `sin_condicion` (select `CONDICIONES` + botón) |
   | Subir foto A/B | `POST /api/upload_photo?id&side` | `sin_fotos` (file input `image/jpeg`, ≤30 MB) |
   | Generar Full | `POST /api/generar_full` | `sin_full` (botón) |
   | `json_invalidos` | — (solo muestra `archivo` + `error`) | — |

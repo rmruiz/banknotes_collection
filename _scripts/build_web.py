@@ -336,6 +336,10 @@ def build_issues_data(records, meta, force=False, json_malos=None):
     sin_fotos = [_mini(r) for r in records
                  if not r["thumb_a"] or not r["thumb_b"]]
 
+    # billetes sin condición establecida (espécimen 0 con condition vacía o ausente)
+    sin_condicion = [_mini(r) for r in records
+                     if not (r["condicion"] or "").strip()]
+
     # billetes con front y back pero sin imagen Full
     sin_full = [_mini(r) for r in records
                 if r["thumb_a"] and r["thumb_b"] and not r["thumb_f"]]
@@ -413,6 +417,16 @@ def build_issues_data(records, meta, force=False, json_malos=None):
                                 "Busca el billete en colnect.com, pega el link "
                                 "y guarda."),
                 "items": sin_colnect,
+            },
+            {
+                "clave": "sin_condicion",
+                "titulo": "Billetes sin condición establecida",
+                "descripcion": ("Billetes cuyo espécimen no tiene condición "
+                                "(vacía o ausente). Elige la condición en el "
+                                "menú (escala IBNS: UNC, AU, XF, VF, F, VG, "
+                                "G, Fair, Poor) y guarda: se escribe en el "
+                                "JSON y el billete sale de esta lista."),
+                "items": sin_condicion,
             },
             {
                 "clave": "sin_fotos",

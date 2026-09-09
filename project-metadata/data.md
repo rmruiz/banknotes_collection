@@ -233,6 +233,7 @@ exactas, en orden de aparición) y forma de `items`:
 | `picks_sin_formato` | Billetes sin número de pick válido | filas `[id, pais, denominacion, anio]` |
 | `picks_formato_raro` | Picks con formato raro | obj `{id, pick, pais, denominacion, anio, thumb_a/b, img_a/b}` |
 | `sin_colnect` | Billetes sin link de Colnect | obj `{id, pick, pais, denominacion, anio, thumb_a/b, img_a/b}` |
+| `sin_condicion` | Billetes sin condición establecida | obj `{id, pick, pais, denominacion, anio, thumb_a/b, img_a/b}`; `condicion` de `specimens[0]` vacía o ausente |
 | `sin_fotos` | Billetes sin fotos (front o back) | obj `{id, pick, pais, denominacion, anio, thumb_a/b, img_a/b}` |
 | `sin_full` | Billetes sin imagen Full | obj `{id, pick, pais, denominacion, anio, thumb_a/b, img_a/b}` |
 

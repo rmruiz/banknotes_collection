@@ -44,7 +44,7 @@ se toca; "Impl." dónde vive la lógica.
 
 | Feature | Impl. |
 |---|---|
-| Detectar 8 clases de problemas en el build | `_scripts/build_web.py:build_issues_data` → `data/issues.json` |
+| Detectar 9 clases de problemas en el build | `_scripts/build_web.py:build_issues_data` → `data/issues.json` |
 | Ver problemas agrupados en acordeones (estado persistido) | `web/problemas.js:load` + `localStorage problemas_open` |
 | Ver los JSON inválidos con su error | renderer `json_invalidos` (filas `[archivo, error]`) |
 | Subir fotos que faltan (A/B) y ver thumb al instante | `web/problemas.js:uploadPhoto` → `/api/upload_photo` → `/api/rebuild` |
@@ -53,6 +53,7 @@ se toca; "Impl." dónde vive la lógica.
 | Registrar JSON de carpetas sin billete | `web/problemas.js:createJson` → `/api/create_json` → `/api/rebuild` |
 | Renombrar carpetas huérfanas | `web/problemas.js:renameFolder` → `/api/rename_folder` → `/api/rebuild` |
 | Guardar links Colnect que faltan | `web/problemas.js` (renderer `sin_colnect`) → `/api/update` (field `colnect`) |
+| Agregar la condición que falta (dropdown IBNS) | `web/problemas.js` (renderer `sin_condicion`, select + botón) → `/api/update` (field `condicion`) |
 
 ## Estadísticas (`stats.html`)
 
