@@ -20,12 +20,17 @@ banknotes_collection/
 ├── web/                    # Frontend estático + assets de imágenes
 │   ├── index.html          #   catálogo (solo lectura)
 │   ├── index-edit.html     #   catálogo (modo edición)
+│   ├── countries.html      #   países (solo lectura)
+│   ├── countries-edit.html #   países (edición inline)
+│   ├── currencies.html     #   monedas (solo lectura)
+│   ├── currencies-edit.html#   monedas (edición inline)
 │   ├── app.js              #   toda la lógica del catálogo
+│   ├── countries.js/currencies.js  # entry points de las páginas de datasets
 │   ├── styles.css          #   estilos compartidos
 │   ├── stats.html/stats.js/stats.css   # dashboard de estadísticas (D3)
 │   ├── problemas.html/problemas.js     # página de problemas detectados
 │   ├── d3.min.js, topojson-client.min.js  # librerías vendor commiteadas
-│   ├── lib/              #   módulos ES testeables en Node (i18n, query, format, dataload, menu)
+│   ├── lib/              #   módulos ES testeables en Node (i18n, query, format, dataload, menu, lang, datasets)
 │   ├── tests/            #   tests unitarios de lib/ (node --test)
 │   ├── _flags_svg/         # banderas SVG por país (~210, commiteadas)
 │   ├── _originals/         # fotos por billete: <id>/<id>_A.jpg,_B.jpg (commiteadas)
@@ -41,8 +46,8 @@ banknotes_collection/
 | Ruta | Rol | Git |
 |---|---|---|
 | `_json/<carpeta>/<id>.json` | Un JSON por billete. Carpeta = ruta del país (`argentina`, `chile`, `usa`, `world`) según `countries.json[<code>].folder`. El id = nombre del archivo. | ✅ commiteado |
-| `_json/countries.json` | Catálogo de países: clave = código corto (`cl`, `xk`…). Fuente única para nombre, bandera, carpeta y moneda vigente. | ✅ commiteado |
-| `_json/currencies.json` | Catálogo de monedas: clave = código ISO 4217 (`CLP`…). Fuente de nombres, símbolo, subunidad, estado, etc. | ✅ commiteado |
+| `_json/countries.json` | Catálogo de países: clave = código corto (`cl`, `xk`…). Fuente única para nombre, bandera, carpeta y moneda vigente. Editable desde la web (`POST /api/update_dataset`; las páginas `countries.html`/`countries-edit.html`). | ✅ commiteado |
+| `_json/currencies.json` | Catálogo de monedas: clave = código ISO 4217 (`CLP`…). Fuente de nombres, símbolo, subunidad, estado, etc. Editable desde la web (`POST /api/update_dataset`; las páginas `currencies.html`/`currencies-edit.html`). | ✅ commiteado |
 | `_json/countries.md`, `_json/currencies.md` | Documentación humana de los catálogos. | ✅ commiteado |
 
 ## Generado (NO fuente — se regenera con el build)
@@ -52,7 +57,7 @@ banknotes_collection/
 | `web/data/collection.json` | `_scripts/build_web.py:build` (consolida `_json/**/*.json`, ~1102 registros, ordenados) | ❌ gitignored |
 | `web/data/issues.json` | `_scripts/build_web.py:build_issues_data` | ❌ gitignored |
 | `web/data/thumbs_meta.json` | `_scripts/build_web.py:build` (firma de cada thumb: `mtime_ns-size`) | ❌ gitignored |
-| `web/data/countries.json` | copia idéntica de `_json/countries.json` (sincronizada en el build para acceso directo desde la web) | ❌ gitignored |
+| `web/data/countries.json` | copia idéntica de `_json/countries.json` (la sincroniza el build Y el API `POST /api/update_dataset`, que escribe primero la fuente y copia el mismo texto — el build queda idempotente) | ❌ gitignored |
 | `web/data/currencies.json` | copia idéntica de `_json/currencies.json` (id.) | ❌ gitignored |
 | `web/thumbs/<id>_A.jpg`, `<id>_B.jpg`, `<id>_F.jpg` | `_scripts/build_web.py:make_thumb` (magick, 360px, q80) | ❌ gitignored |
 | `web/thumbs/x_<hash12>_A.jpg`, `_B.jpg` | miniaturas de carpetas huérfanas (ver `build_issues_data`) | ❌ gitignored |
@@ -81,10 +86,15 @@ Son ~3600 archivos versionados bajo `web/` (verificado con `git ls-files`).
 |---|---|
 | `web/index.html` | Catálogo modo lectura. Assets: `styles.css`, `app.js`. |
 | `web/index-edit.html` | Catálogo modo edición (mismo `app.js`; el modo se detecta por el path). Contiene el diálogo de billete nuevo (`#new-dialog`). |
-| `web/app.js` | Toda la lógica: estado, filtros, render, edición, guardado, i18n, modales. |
-| `web/lib/menu.js` | Menú lateral: ítems por página (`menuItems`), HTML del panel (`renderMenu`) e inyección en DOM (`initSideMenu`). Testeado en `web/tests/menu.test.js`. |
+| `web/countries.html` / `web/countries-edit.html` | Países: listado (9 columnas) y edición inline. Assets: `styles.css`, `countries.js`. |
+| `web/currencies.html` / `web/currencies-edit.html` | Monedas: listado (21 columnas) y edición inline. Assets: `styles.css`, `currencies.js`. |
+| `web/countries.js` / `web/currencies.js` | Entry points de las páginas de datasets: `initSideMenu` + `bindHeaderLang` + `initDatasetPage(dataset, { edit })` (modo detectado por el path). |
+| `web/app.js` | Toda la lógica del catálogo: estado, filtros, render, edición, guardado, i18n, modales. |
+| `web/lib/datasets.js` | Motor de las 4 páginas de datasets: núcleo puro (rutas punteadas, aplanado, búsqueda, orden, paginación) + config de columnas `DATASETS` + capa DOM `initDatasetPage` (edición inline → `POST /api/update_dataset`). Testeado en `web/tests/datasets.test.js`. |
+| `web/lib/lang.js` | Toggle de idioma de la top bar: `bindHeaderLang(onAfter)` (bandera del idioma destino, persistencia, refresh in situ del menú). |
+| `web/lib/menu.js` | Menú lateral por secciones: `NAV_SECTIONS`, `menuItems(currentPage)`, HTML del panel (`renderMenu`), inyección en DOM (`initSideMenu`), `refreshMenuLang`. Testeado en `web/tests/menu.test.js`. |
 | `web/tests/` | Tests unitarios de los módulos de `web/lib/` (se ejecutan con `node --test web/tests/*.test.js`). |
-| `web/styles.css` | Hoja de estilos compartida por las 4 páginas. |
+| `web/styles.css` | Hoja de estilos compartida por las 8 páginas (incluye `.side-menu-section`, `.top-actions`, celdas de datasets: `.flag-cell`, `.rtl-cell`, `.ds-subcell`, `.ds-dense`). |
 | `web/stats.html` | Dashboard. Assets: `styles.css`, `stats.css`, `d3.min.js`, `topojson-client.min.js`, `stats.js`. |
 | `web/stats.js` | KPIs, mapa mundial (D3 + TopoJSON), países faltantes, charts. IIFE aislada. |
 | `web/stats.css` | Estilos propios del dashboard (KPIs, mapa, charts, modal). |

@@ -207,6 +207,17 @@ body.menu-open .side-menu { transform: none; }
 }
 .side-menu-label { flex: 1; }
 .side-menu-item.current { color: var(--brand); font-weight: 600; }
+/* Encabezado de sección del menú: pequeño, en mayúsculas, separa los
+   grupos de links (Colección / Países / Monedas / Otros) */
+.side-menu-section {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--pico-muted-color);
+  padding: 14px 14px 2px;
+}
+.side-menu-section:first-child { padding-top: 0; }
 
 main.container-fluid {
   display: flex;
@@ -329,6 +340,8 @@ main.container-fluid {
 }
 .icon-btn:hover { background-color: #f9f9f9; color: var(--pico-primary); border-color: var(--pico-primary); }
 #lang-toggle.icon-btn { font-size: 1rem; }
+/* Grupo de íconos de la top bar (idioma + GitHub) */
+.top-actions { display: flex; align-items: center; gap: 8px; }
 
 /* ---------- ZONA 4: tabla ---------- */
 
@@ -998,7 +1011,7 @@ dialog article > header button:hover { color: var(--pico-color); }
 }
 
 #prob-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.75rem; }
-#prob-top #lang-toggle { margin-left: auto; }
+#prob-top .top-actions { margin-left: auto; }
 #prob-top #gen { flex-basis: 100%; }
 #prob-top nav { margin-bottom: .5rem; }
 #prob-top nav a { color: var(--pico-muted-color); text-decoration: none; }
@@ -1276,3 +1289,7 @@ details.problema > summary:hover { color: var(--pico-primary); }
 }
 .ds-status.ok { opacity: 1; color: #1e7e34; }
 .ds-status.err { opacity: 1; color: #c0392b; }
+
+/* Tabla densa (páginas de monedas, 21 columnas): padding y fuente menores */
+body.ds-dense #tbl th { padding: 8px 10px; }
+body.ds-dense #tbl td { padding: 6px 10px; font-size: 13px; }

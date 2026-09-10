@@ -20,10 +20,13 @@ Notación: `{archivo}:{función}` con nombres reales. Diagrama general:
         │                     │
         │  POST /api/*        │  POST /api/*
         ▼                     ▼
- _scripts/serve_web.py:do_POST ──► handlers ──► _json/*/*.json (persistencia)
+_scripts/serve_web.py:do_POST ──► handlers ──► _json/*/*.json (persistencia)
                                      │
-                                     └─► re-escritura de web/data/collection.json
+                                     ├─► re-escritura de web/data/collection.json
                                          (registro regenerado in-place)
+                                     └─► POST /api/update_dataset:
+                                         _json/{countries,currencies}.json
+                                         + copia del MISMO texto a web/data/
 ```
 
 ## 1. Build (regeneración del índice)
@@ -205,8 +208,42 @@ Flujo completo de `web/app.js:startEdit` a `_json/`:
   (`#currencies-chart-list`, `currency_code:"X"`).
   Cada fila genera un link `index.html?q=...` con el query-establecido de
   `web.md` (el catálogo lo entiende sin cambios de frontend).
-- El enlace a `index-edit.html` solo se muestra si `location.hostname` es
-  `localhost`/`127.0.0.1`.
+- Los links de edición se ocultan cuando `!isLocal()` vía
+  `web/lib/dataload.js:hideEditLinks()` (selector `a[href$="-edit.html"]`,
+  llamado por todas las páginas en su init).
+
+## 11. Edición de datasets (países / monedas)
+
+Flujo completo de las páginas `*-edit.html` a `_json/`:
+
+1. UI (`web/lib/datasets.js:startCellEdit`, `countries-edit.html` /
+   `currencies-edit.html`): click en una celda `.editable` → input (text /
+   number / select si-no para `vigente` / texto con comas para `uso.*`);
+   Enter (o `change`/blur) confirma, Escape cancela → `POST
+   /api/update_dataset` con `{dataset, code, field, value}` (`field` es una
+   ruta punteada: `name.es`, `iso_4217.decimales`, `uso.emisor`).
+2. `serve_web.py:do_POST` valida Host/Origin (igual que el resto) →
+   `_handle_update_dataset`:
+   - `dataset ∈ {countries, currencies}` (si no, 400); `code` debe existir
+     en `_json/<dataset>.json` (si no, 404); `field` ∈ whitelist
+     `DS_FIELDS[dataset]` — exactamente las columnas expuestas por
+     `web/lib/datasets.js` (si no, 400).
+   - Tipo por campo: str, int (`decimales`, `factor`), str|null (`notas`,
+     `historia.*`), list[str] (`uso.*`; también acepta texto separado por
+     comas y lo guarda como lista), enum `si`/`no` (`vigente`).
+   - `WRITE_LOCK`: lee `_json/<dataset>.json` (si no parsea → 409), aplica
+     el valor por ruta punteada (creando objetos intermedios),
+     `atomic_write_text` en `_json/` (`ensure_ascii=False, indent=2`,
+     conservando el orden de inserción de claves) y **copia el mismo texto**
+     a `web/data/<dataset>.json` → ambos quedan byte-idénticos; el build
+     posterior (que re-copia la fuente) es idempotente y el cambio
+     sobrevive.
+3. Respuesta `{ok: true, dataset, code, field, record}` → la UI actualiza la
+   celda y pinta `#ds-status` ("Guardado ✓" / error). Errores
+   `{ok: false, error}` con 400/404/409 → estado rojo + mensaje.
+- Tests: `_scripts/tests/test_serve_web_http.py` (bloque T5: happy path con
+  persistencia en ambos archivos, orden/formato conservados, 400 por
+  dataset/campo/valor inválidos, 404 por code, listas `uso.*`).
 
 ## Formatos de respuesta API
 

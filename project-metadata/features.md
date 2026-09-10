@@ -22,7 +22,7 @@ se toca; "Impl." dónde vive la lógica.
 | Enlaces externos Colnect / Numista | celdas del índice | `web/app.js:render` (valores de `colnect`/`numista`) |
 | Detección de modo edición | — | `web/app.js` → `isEditMode` por `location.pathname` |
 
-## Edición y persistencia (solo `index-edit.html`)
+## Edición y persistencia
 
 | Feature | UI | Impl. |
 |---|---|---|
@@ -38,6 +38,7 @@ se toca; "Impl." dónde vive la lógica.
 | Reindexado bajo demanda (tras cambios estructurales) | (automático en la UI) | `POST /api/rebuild` → `_scripts/serve_web.py:_handle_rebuild` → `_scripts/build_web.py:build` + refresco de `IDS` |
 | Build al arrancar / por CLI | terminal | `_scripts/serve_web.py:main` / `_scripts/build_web.py:main` → `build` |
 | Miniaturas incrementales (solo fuentes cambiadas) | — | `_scripts/build_web.py:build` + `thumb_jobs` + `web/data/thumbs_meta.json` (firma `mtime_ns-size`) |
+| Editar campos de países/monedas inline (9/21 columnas, rutas punteadas, listas como texto con comas) | `countries-edit.html` / `currencies-edit.html` (click en celda → input/select) | `web/lib/datasets.js:startCellEdit` → `POST /api/update_dataset` → `_scripts/serve_web.py:_handle_update_dataset` (whitelist `DS_FIELDS` por dataset; escribe `_json/` + copia el mismo texto a `web/data/`) |
 | Invalideado de caché de imágenes | `?v=<hash>` en URLs | `_scripts/build_web.py:file_sig`/`file_v` + `web/serve_web.py` header `max-age` |
 
 ## Página de problemas (`problemas.html`)
@@ -66,19 +67,32 @@ se toca; "Impl." dónde vive la lógica.
 | Charts: top países, décadas, condiciones, monedas — cada fila filtra el catálogo | `web/stats.js:renderCharts` → links `index.html?q=…` |
 | Moneda "propia" con alias históricos (USN→USD…) | `web/stats.js:processData` (`FUND_CODE_ALIASES`) |
 
+## Países y monedas (catálogos maestros)
+
+| Feature | UI | Impl. |
+|---|---|---|
+| Ver países actuales (9 columnas: code, ISO alpha-2/num, bandera (preview SVG), nombre ES/EN, vigente, ISO 4217, carpeta) | `countries.html` | `web/lib/datasets.js:initDatasetPage("countries")` + `data/countries.json` (copia de `_json/countries.json`) |
+| Ver monedas actuales (21 columnas, campos anidados aplanados; nombre AR en RTL; subunidad y banco central como columnas combinadas de sub-celdas) | `currencies.html` | `web/lib/datasets.js:initDatasetPage("currencies")` + `data/currencies.json` |
+| Búsqueda en todos los campos + orden por encabezado + paginación 25/50/100 (misma UX que `index.html`) | `#q` (sticky), `th[data-sort]`, footer `#pager`/`#perpage` | `web/lib/datasets.js:filterRows`/`sortRows`/`paginate` (reutiliza `lib/query.js:parseQuery`/`matches`; numérico para `decimales`/`factor`/`iso_numeric`) |
+| Editar cualquier columna expuesta de países (texto, ISO num, select si/no para `vigente`) | `countries-edit.html`, click en celda; Enter/blur guarda | `web/lib/datasets.js:startCellEdit` → `POST /api/update_dataset` `{dataset, code, field, value}` |
+| Editar cualquier columna expuesta de monedas (número, nullable, listas `uso.*` como texto con comas) | `currencies-edit.html`, ídem | ídem (validadores por tipo en `serve_web.py:DS_FIELDS`) |
+| Persistencia que sobrevive al build | — | `_scripts/serve_web.py:_handle_update_dataset` (escribe `_json/<dataset>.json` y copia el mismo texto a `web/data/<dataset>.json`; el build re-copia y queda idempotente) |
+
+
 ## Menú lateral (navegación entre páginas)
 
 | Feature | UI | Impl. |
 |---|---|---|
 | Menú colapsable por botón hamburguesa (inicia siempre colapsado, sin overlay, solo se cierra con el botón) | `.menu-toggle` + `.side-menu` (inyectados en `<body>` por JS, no están en el HTML) | `web/lib/menu.js:initSideMenu` + `.menu-toggle`/`.side-menu` en `web/styles.css` |
-| Navegación entre páginas: SIEMPRE todas las opciones (Idioma, Catálogo, Edición, Estadísticas, Problemas); la página actual se indica con el símbolo «<< » + `aria-current` | ítems del panel `.side-menu` | `web/lib/menu.js:menuItems(currentPage)` (lista pura con `current`; testeado en `web/tests/menu.test.js`) |
-| Toggle de idioma ES/EN (vivió en el header; ahora en el menú) | botón `#lang-toggle` dentro del panel | `web/lib/menu.js:renderMenu` (genera el `id="lang-toggle"`) + listener y `applyI18n()` en `web/app.js` |
+| Navegación por secciones: 4 secciones fijas (Colección, Países, Monedas, Otros) con 8 links (Lista/Editar por catálogo); SIN botón de idioma; la página actual se indica con «<< » + `aria-current` + `.current` | encabezados `.side-menu-section` + ítems del panel `.side-menu` | `web/lib/menu.js:NAV_SECTIONS` + `menuItems(currentPage)` (pura, testeada en `web/tests/menu.test.js`) + `renderMenu` |
+| Toggle de idioma ES/EN (top bar, no menú): bandera del idioma destino (🇬🇧/🇨🇱) en `button#lang-toggle` dentro de `.top-actions`, junto al ícono de GitHub (presente en las 8 páginas) | top bar de cada página | `web/lib/lang.js:bindHeaderLang(onAfter)` (persiste en `localStorage banknotes_lang`, refresca el menú in situ vía `menu.js:refreshMenuLang` y llama `onAfter`: `applyI18n` en catálogo/países/monedas; sin callback en stats/problemas) |
+| Ocultar links de edición fuera de localhost (menú + links directos) | — | `web/lib/dataload.js:hideEditLinks` (selector `a[href$="-edit.html"]`; lo llama el init de cada página) |
 
 ## Preferencias e i18n
 
 | Feature | Impl. |
 |---|---|
-| Idioma ES/EN de toda la UI (toggle en el menú lateral) | `web/app.js:applyI18n` + diccionario `L` + `localStorage banknotes_lang` |
+| Idioma ES/EN de toda la UI (toggle `#lang-toggle` en la top bar) | `web/lib/lang.js:bindHeaderLang` + `web/app.js:applyI18n` + diccionario `L` + `localStorage banknotes_lang` |
 | Recordar columnas visibles | `localStorage banknotes_cols` (`web/app.js:state.cols`) |
 | Recordar acordeones abiertos en problemas | `localStorage problemas_open` (`web/problemas.js`) |
 
@@ -108,8 +122,12 @@ se toca; "Impl." dónde vive la lógica.
 - "La búsqueda no encuentra X" → campo `search`
   (`_scripts/build_web.py:build_search`) + gramática
   (`web/app.js:parseQuery`).
-- "¿Dónde está el botón de idioma / la navegación entre páginas?" → menú
-  lateral (`web/lib/menu.js:initSideMenu`); el toggle de idioma es el
-  `#lang-toggle` que genera `renderMenu` (listener en `web/app.js`).
+- "¿Dónde está el botón de idioma / la navegación entre páginas?" →
+  navegación: menú lateral por secciones
+  (`web/lib/menu.js:initSideMenu`); idioma: `#lang-toggle` en la top bar
+  (`web/lib/lang.js:bindHeaderLang`).
+- "¿Dónde se editan países/monedas?" → páginas de datasets
+  (`web/lib/datasets.js`) + `serve_web.py:_handle_update_dataset`
+  (whitelist `DS_FIELDS`).
 - "Un país aparece gris en el mapa" → `moneda_vigente` de
   `_json/countries.json` + `web/stats.js:renderMap`.

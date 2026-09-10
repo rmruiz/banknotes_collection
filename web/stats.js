@@ -4,7 +4,7 @@
  */
 
 import { esc, fmtPrecio, sumPrecio } from "./lib/format.js";
-import { isLocal, showDataError } from "./lib/dataload.js";
+import { isLocal, showDataError, hideEditLinks } from "./lib/dataload.js";
 import { initSideMenu } from "./lib/menu.js";
 import { bindHeaderLang } from "./lib/lang.js";
 
@@ -93,10 +93,9 @@ import { bindHeaderLang } from "./lib/lang.js";
             renderMissingCountries();
             renderCharts();
 
-            // Ocultar botón de edición en producción (solo lectura)
-            if (!isLocal()) {
-                document.querySelectorAll('a[href="index-edit.html"]').forEach((el) => el.style.display = "none");
-            }
+            // Regla de producción compartida: fuera de localhost se ocultan
+            // todos los links de edición (menú + links directos).
+            hideEditLinks();
 
             // Buscador de países faltantes
             const searchInput = document.getElementById('search-missing');

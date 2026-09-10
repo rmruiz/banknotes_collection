@@ -10,7 +10,7 @@ import {
 } from "./lib/format.js";
 import { translate, paisDisplay as paisDisplayLib } from "./lib/i18n.js";
 import { COL_ALIASES, getCol, parseQuery, matches, sortRecords } from "./lib/query.js";
-import { isLocal, showDataError } from "./lib/dataload.js";
+import { isLocal, showDataError, hideEditLinks } from "./lib/dataload.js";
 import { initSideMenu } from "./lib/menu.js";
 import { bindHeaderLang } from "./lib/lang.js";
 
@@ -749,10 +749,6 @@ function applyI18n() {
   render();
   loadIssuesBadge();
 
-  // Ocultar botón de edición en producción (solo lectura)
-  if (!isLocal()) {
-    document.querySelectorAll('a[href="index-edit.html"]').forEach((el) => el.style.display = "none");
-  }
 }
 
 /* --- crear billete nuevo --- */
@@ -815,6 +811,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   // el wiring de #lang-toggle (web/lib/lang.js) y applyI18n() de este
   // archivo dependen de que ya exista en el DOM.
   initSideMenu(isEditMode ? "index-edit" : "index");
+  // Regla de producción compartida: fuera de localhost se ocultan todos
+  // los links de edición (menú + links directos).
+  hideEditLinks();
   // no-store: siempre datos frescos aunque se sirva sin serve_web.py
   let res, currenciesRes;
   try {

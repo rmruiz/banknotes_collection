@@ -121,6 +121,12 @@ Diccionario `código → info`. Clave: código corto minúsculo propio del catá
 `moneda_propia === 'no'` (países sin moneda propia), pero **ninguna** entrada
 del archivo actual define ese campo.
 
+**Editable desde la web** (V1: solo campos, sin agregar/eliminar entradas):
+`POST /api/update_dataset` con `dataset: "countries"` y `code` = la clave;
+whitelist `serve_web.py:DS_FIELDS["countries"]` = las 8 columnas expuestas
+(`code` es la identidad y no se edita). Escribe `_json/countries.json` y
+copia el mismo texto a `web/data/countries.json` (ver `data-flows.md` §11).
+
 ## 4. `_json/currencies.json` (215 entradas)
 
 Diccionario `CÓDIGO ISO 4217 → info`.
@@ -151,6 +157,14 @@ Diccionario `CÓDIGO ISO 4217 → info`.
 | `tipo`, `estado` | str | `fiat`, `circulacion`, etc. `estado` se expone como `currency_status` en el registro. |
 | `uso.emisor/curso_legal` | str[] | Códigos de países. |
 | `banco_central`, `historia`, `notas` | str | Texto de referencia. |
+
+**Editable desde la web** (V1: solo campos, sin agregar/eliminar entradas):
+`POST /api/update_dataset` con `dataset: "currencies"` y `code` = la clave;
+whitelist `serve_web.py:DS_FIELDS["currencies"]` = las 21 columnas expuestas
+por `web/lib/datasets.js` (rutas punteadas para campos anidados; `uso.*`
+acepta lista o texto con comas; `decimales`/`factor` son int; `notas`,
+`historia.*` son str|null). Escribe `_json/currencies.json` y copia el mismo
+texto a `web/data/currencies.json` (ver `data-flows.md` §11).
 
 ## 5. Registro de `web/data/collection.json` (GENERADO — no editar)
 
@@ -249,6 +263,10 @@ thumb se regenera. Se reescribe completo en cada build.
 ## 8. Datos de referencia servidos a la web
 
 - `web/data/countries.json` y `web/data/currencies.json`: copias idénticas de
-  `_json/` (las sincroniza el build solo si existen en `_json/`).
+  `_json/`. Dos vías de sincronización: el build (si existen en `_json/`) y
+  el API `POST /api/update_dataset`, que escribe primero `_json/` y copia el
+  **mismo texto** a `web/data/` — por eso ambos archivos quedan siempre
+  byte-idénticos y el build posterior es idempotente (los cambios editados
+  sobreviven al build).
 - `web/data/world-110m.json`: **no existe**; `stats.js` lo intenta y usa
   fallback CDN (ver `files.md`).

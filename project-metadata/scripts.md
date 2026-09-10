@@ -37,7 +37,7 @@ Notación `{archivo}:{función}`; entradas de CLI entre comillas.
   - `build_search(d, rec)` — campo `search` normalizado.
 - **No tiene dependencias de red**; solo stdlib + `magick` + `util.py`.
 
-### `serve_web.py` (~781 líneas) — servidor local + API de edición
+### `serve_web.py` (~975 líneas) — servidor local + API de edición
 
 - **Entrada**: `python3 _scripts/serve_web.py [puerto]` (default 8000).
   `BIND = "0.0.0.0"` (ver nota de `architecture.md`); `Handler` es
@@ -61,6 +61,7 @@ Notación `{archivo}:{función}`; entradas de CLI entre comillas.
   | `POST /api/create_json` | `_handle_create_json` | `{carpeta, pick}` |
   | `POST /api/upload_photo` | `_handle_upload_photo` | query `?id=&side=A|B` + binario JPEG ≤30 MB |
   | `POST /api/rebuild` | `_handle_rebuild` | sin body (se responde antes de parsear) |
+  | `POST /api/update_dataset` | `_handle_update_dataset(dataset, code, field, value)` | `{dataset: "countries"|"currencies", code, field, value}` — whitelist `DS_FIELDS` por dataset (edición inline de los catálogos maestros) |
 - **Whitelist `FIELDS`** (campo UI → donde vive en el JSON):
   `pais`→`country_code`, `colnect`→`colnect.url`, `numista`, `valor`→
   `denomination.value`, `moneda`→`denomination.currency`, `currency_code`→
@@ -77,6 +78,26 @@ Notación `{archivo}:{función}`; entradas de CLI entre comillas.
   normaliza a mayúscula).
 - **Conexión con `generar_imagen.py`**: `_handle_generar_full` importa
   `generar_imagen` y llama a `compose(d, front, back, flag, dest, tmp)`.
+- **`POST /api/update_dataset`** (edición inline de datasets):
+  `DS_FIELDS[dataset]` es la whitelist de campos por dataset — exactamente
+  las columnas que expone `web/lib/datasets.js` (`countries`: `iso_alpha2`,
+  `iso_numeric`, `name.es`, `name.en`, `vigente` (enum si/no),
+  `moneda_vigente`, `folder`, `flag_svg`; `currencies`: `simbolo`,
+  `iso_4217.numerico`, `iso_4217.decimales` (int), `nombres.es/en/ar`,
+  `nombre_corto.es`, `tipo`, `estado`, `subunidad.nombres.es`,
+  `subunidad.factor` (int), `banco_central.nombre/codigo`,
+  `historia.fecha_introduccion/fecha_fin/moneda_anterior/moneda_sucesora`
+  (str|null), `uso.emisor/curso_legal/circulacion/de_facto`
+  (list[str]; también acepta texto separado por comas → lo guarda como
+  lista), `notas` (str|null). `code` es la clave del diccionario
+  (`_json/<dataset>.json`): inexistente → 404; campo fuera de whitelist →
+  400. Bajo `WRITE_LOCK` aplica el valor por ruta punteada (creando
+  objetos intermedios), escribe atómico `_json/<dataset>.json`
+  (`ensure_ascii=False, indent=2`, conservando el orden de inserción de
+  claves) y **copia el mismo texto** a `web/data/<dataset>.json`: ambos
+  quedan siempre idénticos y el build (que re-copia la fuente) es
+  idempotente. Fuente JSON corrupto → 409. Tests:
+  `_scripts/tests/test_serve_web_http.py` (bloque T5).
 
 ## Módulo compartido
 

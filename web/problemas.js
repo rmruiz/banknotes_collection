@@ -2,6 +2,7 @@
 "use strict";
 
 import { esc, CONDICIONES } from "./lib/format.js";
+import { hideEditLinks } from "./lib/dataload.js";
 import { initSideMenu } from "./lib/menu.js";
 import { bindHeaderLang } from "./lib/lang.js";
 
@@ -470,6 +471,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // Botón de idioma de la top bar (web/lib/lang.js): persiste el idioma
   // y refresca el panel del menú (esta página no tiene i18n propio).
   bindHeaderLang();
+  // Regla de producción compartida: fuera de localhost se ocultan todos
+  // los links de edición (menú + links directos).
+  hideEditLinks();
   load();
 
   document.querySelector("#secciones").addEventListener("change", (e) => {

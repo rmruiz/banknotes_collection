@@ -1,6 +1,6 @@
 # Frontend (`web/`)
 
-Comportamiento verificado de las 4 páginas. Todo el JS es vanilla (ES6+), sin
+Comportamiento verificado de las 8 páginas. Todo el JS es vanilla (ES6+), sin
 frameworks ni build; los assets son servidos tal cual por `serve_web.py`.
 
 ## Páginas
@@ -9,6 +9,10 @@ frameworks ni build; los assets son servidos tal cual por `serve_web.py`.
 |---|---|---|---|
 | `web/index.html` | Catálogo | Índice de billetes, modo lectura | `app.js` |
 | `web/index-edit.html` | Catálogo (edición) | Ídem + edición inline + billete nuevo | `app.js` (mismo) |
+| `web/countries.html` | Países | Catálogo de países (9 columnas), modo lectura | `countries.js` + `lib/datasets.js` |
+| `web/countries-edit.html` | Países (edición) | Ídem + edición inline de las 9 columnas | `countries.js` + `lib/datasets.js` (edit) |
+| `web/currencies.html` | Monedas | Catálogo de monedas (21 columnas), modo lectura | `currencies.js` + `lib/datasets.js` |
+| `web/currencies-edit.html` | Monedas (edición) | Ídem + edición inline de las 21 columnas | `currencies.js` + `lib/datasets.js` (edit) |
 | `web/stats.html` | Estadísticas | KPIs, mapa mundial, países faltantes, charts | `stats.js` (IIFE aislada) |
 | `web/problemas.html` | Problemas | Corregir los problemas detectados por el build | `problemas.js` |
 
@@ -18,46 +22,106 @@ botón de nuevo billete, de los inputs editables y del toolbar).
 
 ## Menú lateral (hamburguesa)
 
-Compartido por las 4 páginas. Vive en `web/lib/menu.js` (módulo testeable en
-Node) + reglas `.menu-toggle`/`.side-menu` en `web/styles.css`.
+Compartido por las 8 páginas. Vive en `web/lib/menu.js` (módulo testeable en
+Node) + reglas `.menu-toggle`/`.side-menu`/`.side-menu-section` en
+`web/styles.css`.
 
-- **`menuItems(currentPage)`** (función pura): devuelve TODAS las opciones
-  del menú en cada página (siempre las mismas 5): Idioma
-  (`button#lang-toggle`), Catálogo, Edición, Estadísticas, Problemas
-  (`{type: "button"|"link", icon, labelKey, href}`); el ítem que
-  corresponde a `currentPage` lleva `current: true`.
-  Página desconocida → mismas opciones, ninguna marcada como actual.
-- **`renderMenu(page, lang)`**: HTML del panel (header "Menú" + ítems con
-  icono SVG inline y etiqueta vía `translate(key, lang)`; `lang` se lee de
-  `localStorage["banknotes_lang"]`). Todas las etiquetas y el header llevan
-  `data-i18n` (para el refresh in situ). El ítem actual lleva prefijo «<< »
-  en su etiqueta + `aria-current="page"` + clase `.side-menu-item.current`
+- **`NAV_SECTIONS`**: 4 secciones fijas — Colección (Listado, Editar),
+  Países (Lista, Editar), Monedas (Lista, Editar), Otros (Estadísticas,
+  Problemas) → 8 links en total. SIN botón de idioma (el idioma vive en la
+  top bar, ver abajo).
+- **`menuItems(currentPage)`** (función pura): devuelve SIEMPRE los 8 links
+  (`{type: "link", sectionId, icon, labelKey, href, current}`); el ítem que
+  corresponde a `currentPage` lleva `current: true`. Página desconocida →
+  mismos 8 links, ninguno marcado como actual.
+- **`renderMenu(page, lang)`**: HTML del panel (header "Menú" + por sección
+  un encabezado `.side-menu-section` (en mayúsculas, con `data-i18n`) y sus
+  ítems: icono SVG inline + etiqueta vía `translate(key, lang)`; `lang` se
+  lee de `localStorage["banknotes_lang"]`). Todos los textos llevan
+  `data-i18n` (refresh in situ). El ítem actual lleva prefijo «<< » en su
+  etiqueta + `aria-current="page"` + clase `.side-menu-item.current`
   (resaltado en color marca).
 - **`initSideMenu(page)`**: inyecta en `<body>` el botón `.menu-toggle` y el
   panel `<nav class="side-menu">`, cablea el toggle y actualiza
   `aria-expanded`/`aria-hidden`. Se llama al inicio del init de cada entry
-  point (`app.js`, `stats.js`, `problemas.js`).
+  point (`app.js`, `stats.js`, `problemas.js`, `countries.js`,
+  `currencies.js`).
 - **Comportamiento**: siempre inicia colapsado (sin persistencia); se desliza
   desde la izquierda; SIN overlay — el contenido se desplaza con
   `padding-left` del `body` (gutter fijo 64px → `var(--side-menu-w)` = 264px
   con `body.menu-open`; `@720px`: `min(280px, 82vw)`); solo se cierra con el
   botón hamburguesa (que se morfea a ✕). z-index: botón 120 / panel 110,
   sobre el buscador sticky (100) y `.scroll-mask` (95).
-- **Botón de idioma** (ahora en las 4 páginas): se genera con
-  `id="lang-toggle"`. Lo cablea `bindLangToggle(onAfter)`: alterna el idioma
-  persistido en `localStorage["banknotes_lang"]`, refresca el panel con
-  `refreshMenuLang()` (in situ, sin reemplazar el botón — si no, perdería su
-  listener) y llama a `onAfter(lang)`: en `app.js` eso actualiza la UI vía
-  `applyI18n()` (la bandera 🇬🇧/🇨🇱 se pinta allí); `stats.js`/`problemas.js`
-  no pasan callback (no tienen i18n propio; el cambio queda persistido y se
-  aplica en las páginas del catálogo).
-- **Producción**: la regla que oculta `a[href="index-edit.html"]` cuando
-  `!isLocal()` (en `app.js:applyI18n` y `stats.js:init`) sigue aplicando al
-  link del menú: el selector es global, no depende del contenedor viejo.
-- Tests: `web/tests/menu.test.js` (todas las opciones siempre presentes,
-  ítem current, «<< »/aria-current, data-i18n, hrefs, página desconocida,
-  copias seguras), `i18n.test.js` (claves `menu_*`) y
-  `module_smoke.test.js` (enlace de `lib/menu.js`).
+- **Idioma (top bar, no menú)**: `button#lang-toggle` está en
+  `.top-actions` de la top bar (junto al ícono de GitHub) en las 8 páginas
+  (en `stats.html`/`problemas.html` el ícono de GitHub se añadió junto a él).
+  Lo cablea `web/lib/lang.js:bindHeaderLang(onAfter)`: pinta la bandera del
+  idioma **destino** (🇬🇧 si el actual es es; 🇨🇱 si es en) + `title`/
+  `aria-label` = `lang_tip`; al click alterna el idioma persistido en
+  `localStorage["banknotes_lang"]`, refresca el panel del menú in situ
+  (`menu.js:refreshMenuLang`) y llama a `onAfter(lang)`: `app.js`,
+  `countries.js` y `currencies.js` pasan su `applyI18n`; `stats.js`/
+  `problemas.js` no pasan callback (no tienen i18n propio; el cambio queda
+  persistido y se aplica al entrar en las páginas con i18n).
+- **Producción**: `web/lib/dataload.js:hideEditLinks()` — regla compartida
+  que con `!isLocal()` oculta TODOS los `a[href$="-edit.html"]` (links del
+  menú y links directos); la llama el init de cada página (`app.js`,
+  `stats.js`, `problemas.js` y `datasets.js:initDatasetPage`).
+- Tests: `web/tests/menu.test.js` (4 secciones, 8 links, sin `lang-toggle`
+  en el menú, un solo current por página, encabezados de sección, «<< »/
+  aria-current, data-i18n, página desconocida, copias seguras, y en la top
+  bar: `#lang-toggle` + ícono de GitHub en las 8 páginas),
+  `web/tests/dataload.test.js` (`hideEditLinks`), `i18n.test.js` (claves
+  `menu_*`/secciones) y `module_smoke.test.js` (enlace de `lib/menu.js`).
+
+## Páginas de datasets (países / monedas)
+
+Las 4 páginas comparten un solo motor: `web/lib/datasets.js` (núcleo puro
+testeable en Node + capa DOM) y un entry point fino por dataset
+(`countries.js`/`currencies.js`), que detecta el modo con
+`location.pathname.endsWith("-edit.html")` y llama a
+`initDatasetPage("countries"|"currencies", { edit })`.
+
+- **Columnas** (config declarativa en `datasets.js:DATASETS`):
+  - **countries (9):** `code` (clave, solo lectura), `iso_alpha2`,
+    `iso_numeric`, `flag_svg` (celda de preview `<img src="_flags_svg/…">`),
+    `name.es`, `name.en`, `vigente` (select si/no), `moneda_vigente`,
+    `folder`.
+  - **currencies (21):** `codigo` (clave, solo lectura),
+    `iso_4217.numerico`, `iso_4217.decimales`, `simbolo`, `nombres.es`,
+    `nombres.en`, `nombres.ar` (celda `dir="rtl"`), `nombre_corto.es`,
+    `tipo`, `estado`, **subunidad** (`subunidad.nombres.es` +
+    `subunidad.factor`) y **banco central** (`banco_central.nombre` +
+    `banco_central.codigo`) como columnas combinadas (cada parte es una
+    sub-celda `.ds-subcell` editable independiente),
+    `historia.fecha_introduccion`, `historia.fecha_fin`,
+    `historia.moneda_anterior`, `historia.moneda_sucesora`,
+    `uso.emisor`, `uso.curso_legal`, `uso.circulacion`, `uso.de_facto`
+    (listas; se editan como texto separado por comas), `notas`.
+- **Núcleo puro**: `getByPath`/`setByPath` (rutas punteadas; `setByPath`
+  crea objetos intermedios), `rowFor` (fila aplanada por columna:
+  `null`↔`""`, listas → texto con comas), `filterRows` (reutiliza
+  `query.js:parseQuery`/`matches` sobre los campos aplanados — misma UX de
+  búsqueda que `index.html`, sin acentos), `sortRows` (numérico para
+  `decimales`, `factor` y `iso_numeric`; `null` al final), `paginate`.
+- **Capa DOM** (`initDatasetPage`): fetch de `data/{dataset}.json`, tabla
+  con `th[data-sort]` (click ordena, ▲/▼ como en `index.html`), `#q`
+  sticky, footer con `#count` + `#ds-status` (mensaje "Guardado ✓"/error) +
+  `#pager` + `#perpage` (25/50/100). Modo edición: celdas `.editable`,
+  click → input (text / number / select `vigente` / texto con comas
+  `uso.*`), Enter/blur → `POST /api/update_dataset`
+  `{dataset, code, field, value}` (ruta punteada) → actualiza la celda y el
+  estado. Expone `state.applyI18n` (vía `window.__datasetPage`) para que el
+  toggle de idioma repinte labels sin recargar.
+- **Estilo**: scroll horizontal con el `.table-wrap` existente (21
+  columnas); `body.ds-dense` en monedas (padding menor); `.flag-cell img`,
+  `.rtl-cell` y `.ds-subcell` en `web/styles.css`.
+- **Alcance V1**: sin agregar ni eliminar registros; los sub-campos
+  anidados no expuestos como columna (`subunidad.codigo`,
+  `subunidad.nombres.en`, `nombre_corto.es_p/en/en_p`) ni se muestran ni se
+  editan.
+- Tests: `web/tests/datasets.test.js` (rutas punteadas, aplanado
+  null↔`""`/listas, búsqueda, orden numérico vs alfabético, paginación).
 
 ## `app.js` — estado
 

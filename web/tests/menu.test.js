@@ -140,15 +140,20 @@ test("renderMenu: etiquetas traducidas según idioma (index)", () => {
   }
 });
 
-test("top bar: las 8 páginas HTML tienen button#lang-toggle", () => {
+test("top bar: las 8 páginas HTML tienen button#lang-toggle y el ícono de GitHub", () => {
   // Regresión T6: el botón pasó del panel del menú a la top bar HTML;
   // index/index-edit/stats/problemas lo perdieron y applyI18n() de app.js
-  // tiraba antes de render() → tabla sin billetes.
+  // tiraba antes de render() → tabla sin billetes. El ícono de GitHub se
+  // añadió en stats/problemas, donde no existía (requerimiento T6).
   for (const page of PAGES) {
     const html = readFileSync(new URL(`../${page}.html`, import.meta.url), "utf-8");
     assert.ok(
       html.includes('id="lang-toggle"'),
       `${page}.html: falta button#lang-toggle`
+    );
+    assert.ok(
+      html.includes('https://github.com/rmruiz/banknotes_collection'),
+      `${page}.html: falta el ícono de GitHub`
     );
   }
 });
