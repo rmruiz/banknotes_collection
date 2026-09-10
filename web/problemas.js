@@ -2,7 +2,8 @@
 "use strict";
 
 import { esc, CONDICIONES } from "./lib/format.js";
-import { initSideMenu, bindLangToggle } from "./lib/menu.js";
+import { initSideMenu } from "./lib/menu.js";
+import { bindHeaderLang } from "./lib/lang.js";
 
 /* renderers específicos por categoría; el resto usa la tabla genérica */
 const RENDERERS = {
@@ -466,9 +467,9 @@ async function generarFull(row, btn) {
 document.addEventListener("DOMContentLoaded", () => {
   // Menú lateral (web/lib/menu.js): hamburguesa + panel de navegación.
   initSideMenu("problemas");
-  // Botón de idioma del menú: persiste el idioma y refresca el panel
-  // (esta página no tiene i18n propio).
-  bindLangToggle();
+  // Botón de idioma de la top bar (web/lib/lang.js): persiste el idioma
+  // y refresca el panel del menú (esta página no tiene i18n propio).
+  bindHeaderLang();
   load();
 
   document.querySelector("#secciones").addEventListener("change", (e) => {

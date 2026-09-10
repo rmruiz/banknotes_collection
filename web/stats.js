@@ -5,7 +5,8 @@
 
 import { esc, fmtPrecio, sumPrecio } from "./lib/format.js";
 import { isLocal, showDataError } from "./lib/dataload.js";
-import { initSideMenu, bindLangToggle } from "./lib/menu.js";
+import { initSideMenu } from "./lib/menu.js";
+import { bindHeaderLang } from "./lib/lang.js";
 
 (function () {
     'use strict';
@@ -42,9 +43,9 @@ import { initSideMenu, bindLangToggle } from "./lib/menu.js";
     async function init() {
         // Menú lateral (web/lib/menu.js): hamburguesa + panel de navegación.
         initSideMenu("stats");
-        // Botón de idioma del menú: persiste el idioma y refresca el panel
-        // (esta página no tiene i18n propio).
-        bindLangToggle();
+        // Botón de idioma de la top bar (web/lib/lang.js): persiste el idioma
+        // y refresca el panel del menú (esta página no tiene i18n propio).
+        bindHeaderLang();
         try {
             let notesData, countriesData, currenciesData;
 

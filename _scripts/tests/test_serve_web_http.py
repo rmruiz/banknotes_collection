@@ -56,6 +56,47 @@ def _note_doc(nid: str = "zz-p0") -> dict:
     }
 
 
+def _countries_doc() -> dict:
+    """countries.json de prueba (misma forma que _json/countries.json)."""
+    return {
+        "cl": {
+            "code": "cl", "iso_alpha2": "CL", "iso_numeric": "152",
+            "name": {"es": "Chile", "en": "Chile"},
+            "vigente": "si", "flag_svg": "cl.svg",
+            "folder": "world", "moneda_vigente": "CLP",
+        },
+        "ae": {
+            "code": "ae", "iso_alpha2": "AE", "iso_numeric": "784",
+            "name": {"es": "Emiratos Árabes Unidos",
+                     "en": "United Arab Emirates"},
+            "vigente": "si", "flag_svg": "ae.svg",
+            "folder": "world", "moneda_vigente": None,
+        },
+    }
+
+
+def _currencies_doc() -> dict:
+    """currencies.json de prueba (misma forma que _json/currencies.json)."""
+    return {
+        "EUR": {
+            "codigo": "EUR",
+            "iso_4217": {"numerico": "978", "decimales": 2},
+            "simbolo": "€",
+            "nombres": {"es": "Euro", "en": "Euro", "ar": "يورو"},
+            "nombre_corto": {"es": "Euro", "en": "Euro"},
+            "tipo": "moneda regional", "estado": "vigente",
+            "subunidad": {"nombres": {"es": "céntimo", "en": "cent"},
+                          "factor": 100, "codigo": "02"},
+            "banco_central": {"nombre": "BCE", "codigo": "ECB"},
+            "historia": {"fecha_introduccion": "1999", "fecha_fin": None,
+                         "moneda_anterior": "DEM", "moneda_sucesora": None},
+            "uso": {"emisor": ["DE", "FR"], "curso_legal": ["DE"],
+                    "circulacion": [], "de_facto": []},
+            "notas": "zona única",
+        },
+    }
+
+
 def _post(port: int, path: str, payload: object = None,
           raw: bytes | None = None,
           headers: dict | None = None) -> tuple[int, dict | None]:
@@ -93,6 +134,14 @@ def api(monkeypatch, tmp_path: Path):
     (tmp_path / "_originals").mkdir()
     (tmp_path / "_full").mkdir()
 
+    # datasets de prueba (fuente + copia en web/data, mismo texto)
+    cdoc = json.dumps(_countries_doc(), ensure_ascii=False, indent=2) + "\n"
+    udoc = json.dumps(_currencies_doc(), ensure_ascii=False, indent=2) + "\n"
+    (jdir / "countries.json").write_text(cdoc, encoding="utf-8")
+    (jdir / "currencies.json").write_text(udoc, encoding="utf-8")
+    (web / "data" / "countries.json").write_text(cdoc, encoding="utf-8")
+    (web / "data" / "currencies.json").write_text(udoc, encoding="utf-8")
+
     monkeypatch.setattr(serve_web, "REPO", tmp_path)
     monkeypatch.setattr(serve_web, "JSON_DIR", jdir)
     monkeypatch.setattr(serve_web, "WEB", web)
@@ -109,7 +158,11 @@ def api(monkeypatch, tmp_path: Path):
     try:
         yield {"port": port,
                "json_path": jdir / "world" / "zz-p0.json",
-               "coll_path": coll_path}
+               "coll_path": coll_path,
+               "countries_src": jdir / "countries.json",
+               "countries_dst": web / "data" / "countries.json",
+               "currencies_src": jdir / "currencies.json",
+               "currencies_dst": web / "data" / "currencies.json"}
     finally:
         server.shutdown()
         server.server_close()
@@ -322,3 +375,103 @@ def test_origen_mal_403(api):
                          headers={"Origin": "http://evil.com"})
     assert status == 403
     assert body["ok"] is False and "origen" in body["error"]
+
+
+# --- T5: POST /api/update_dataset (edición inline de datasets) --------------
+
+
+def _ds_post(port, dataset, code, field, value):
+    return _post(port, "/api/update_dataset",
+                 {"dataset": dataset, "code": code, "field": field, "value": value})
+
+
+def test_update_dataset_pais_200_y_persiste_en_fuente_y_copia(api):
+    status, body = _ds_post(api["port"], "countries", "cl", "name.es", "Chile (test)")
+    assert status == 200
+    assert body["ok"] is True
+    assert body["record"]["name"]["es"] == "Chile (test)"
+    # fuente de verdad actualizada
+    d = json.loads(api["countries_src"].read_text(encoding="utf-8"))
+    assert d["cl"]["name"]["es"] == "Chile (test)"
+    # la copia en web/data recibe el MISMO texto (sincronía garantizada)
+    src_txt = api["countries_src"].read_text(encoding="utf-8")
+    dst_txt = api["countries_dst"].read_text(encoding="utf-8")
+    assert src_txt == dst_txt
+    # formato intacto: indent=2, ensure_ascii=False, newline final
+    assert src_txt.endswith("\n") and not src_txt.endswith("\n\n")
+    assert json.dumps(d, ensure_ascii=False, indent=2) + "\n" == src_txt
+    # orden de claves del registro y del diccionario preservado
+    assert list(d.keys()) == ["cl", "ae"]
+    assert list(d["cl"].keys()) == ["code", "iso_alpha2", "iso_numeric",
+                                    "name", "vigente", "flag_svg", "folder",
+                                    "moneda_vigente"]
+
+
+def test_update_dataset_moneda_valor_null_y_campo_anidado(api):
+    # null permitido en str|null
+    status, body = _ds_post(api["port"], "currencies", "EUR", "simbolo", None)
+    assert status == 200 and body["record"]["simbolo"] is None
+    d = json.loads(api["currencies_src"].read_text(encoding="utf-8"))
+    assert d["EUR"]["simbolo"] is None
+    # campo anidado que no existe todavía: se crea el intermedio
+    status, body = _ds_post(api["port"], "currencies", "EUR",
+                            "historia.moneda_sucesora", "XXX")
+    assert status == 200
+    d = json.loads(api["currencies_src"].read_text(encoding="utf-8"))
+    assert d["EUR"]["historia"]["moneda_sucesora"] == "XXX"
+
+
+def test_update_dataset_lista_uso_200(api):
+    status, body = _ds_post(api["port"], "currencies", "EUR", "uso.emisor",
+                            ["DE", "FR", "IT"])
+    assert status == 200
+    assert body["record"]["uso"]["emisor"] == ["DE", "FR", "IT"]
+    assert api["currencies_src"].read_text(encoding="utf-8") == \
+        api["currencies_dst"].read_text(encoding="utf-8")
+
+
+def test_update_dataset_dataset_invalido_400(api):
+    status, body = _ds_post(api["port"], "billetes", "cl", "name.es", "X")
+    assert status == 400 and body["ok"] is False
+    assert "dataset" in body["error"]
+
+
+def test_update_dataset_campo_fuera_whitelist_400(api):
+    # identidad (la clave) y campos no expuestos por la UI: fuera de whitelist
+    for campo in ("code", "codigo", "nombres.fr", "subunidad.codigo"):
+        status, body = _ds_post(api["port"], "currencies", "EUR", campo, "X")
+        assert status == 400, campo
+        assert body["ok"] is False and "campo" in body["error"]
+
+
+def test_update_dataset_valores_invalidos_400(api):
+    # enum vigente solo si/no
+    status, body = _ds_post(api["port"], "countries", "cl", "vigente", "quizas")
+    assert status == 400 and body["ok"] is False
+    # int, no "int como string"
+    status, body = _ds_post(api["port"], "currencies", "EUR",
+                            "iso_4217.decimales", "2")
+    assert status == 400 and body["ok"] is False
+    # lista de strings, no string suelto
+    status, body = _ds_post(api["port"], "currencies", "EUR", "uso.emisor", "DE")
+    assert status == 400 and body["ok"] is False
+    # los archivos no deben haberse tocado
+    assert json.loads(api["countries_src"].read_text(encoding="utf-8"))["cl"]["vigente"] == "si"
+
+
+def test_update_dataset_codigo_desconocido_404(api):
+    status, body = _ds_post(api["port"], "countries", "xx", "name.es", "X")
+    assert status == 404 and body["ok"] is False
+    assert "no existe" in body["error"]
+
+
+def test_update_dataset_codigo_mal_formado_400(api):
+    status, body = _ds_post(api["port"], "countries", "../world", "name.es", "X")
+    assert status == 400 and body["ok"] is False
+
+
+def test_update_dataset_corrupto_409(api):
+    api["countries_src"].write_text("{no json", encoding="utf-8")
+    status, body = _ds_post(api["port"], "countries", "cl", "name.es", "X")
+    assert status == 409 and body["ok"] is False
+    assert "corrupto" in body["error"]

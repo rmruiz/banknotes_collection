@@ -15,6 +15,12 @@ _flags_svg/) y expone:
         Campos permitidos: pais, valor, moneda, denominacion, anio, verificado.
         Actualiza el JSON del billete (fuente de verdad) y regenera su
         registro en web/data/collection.json (incluye search/bandera).
+    POST /api/update_dataset body: {"dataset": "countries", "code": "cl",
+                                    "field": "name.es", "value": "Chile"}
+        Edición inline de datasets (countries/currencies): field es una ruta
+        punteada de la whitelist por dataset (DS_FIELDS). Escribe el JSON de
+        origen (_json/<dataset>.json) y sincroniza el mismo texto en
+        web/data/<dataset>.json (orden de claves y formato intactos).
     POST /api/verificado   (compatibilidad) body: {"id": "...", "verificado": true}
 
 Medidas de seguridad:
@@ -280,6 +286,104 @@ FIELDS = {
 }
 
 
+# --- Datasets (countries/currencies): edición inline de una celda (T5) ----
+# POST /api/update_dataset {dataset, code, field, value}. El JSON de origen
+# (_json/<dataset>.json, diccionario code -> registro) es la fuente de
+# verdad; se escribe también el MISMO texto a web/data/<dataset>.json para
+# que ambos queden siempre sincronizados (mismo formato: indent=2,
+# ensure_ascii=False, newline final — idempotente con la copia de build_web).
+# `code` (la clave) es la identidad del registro: NUNCA es editable; el
+# frontend la marca readOnly y la API ni siquiera la acepta en la whitelist.
+
+DS_CODE_RE = re.compile(r"^[A-Za-z0-9]{1,16}$")
+
+
+def _v_ds_str(maxlen=120):
+    def check(v):
+        return isinstance(v, str) and len(v) <= maxlen
+    return check
+
+
+def _v_ds_str_null(maxlen=120):
+    def check(v):
+        return v is None or (isinstance(v, str) and len(v) <= maxlen)
+    return check
+
+
+def _v_ds_int(maxv=10**9):
+    def check(v):
+        return v is None or (isinstance(v, int) and not isinstance(v, bool)
+                             and 0 <= v <= maxv)
+    return check
+
+
+def _v_ds_list_str(maxlen=64, maxitems=200):
+    def check(v):
+        return (isinstance(v, list) and len(v) <= maxitems
+                and all(isinstance(x, str) and len(x) <= maxlen for x in v))
+    return check
+
+
+def _v_ds_enum(values):
+    def check(v):
+        return v in values
+    return check
+
+
+# campo (ruta punteada) -> validador. Solo los campos que las páginas de la
+# web exponen como columna (web/lib/datasets.js).
+DS_FIELDS = {
+    "countries": {
+        "iso_alpha2":     _v_ds_str(4),
+        "iso_numeric":    _v_ds_str_null(4),
+        "flag_svg":       _v_ds_str(40),
+        "name.es":        _v_ds_str(120),
+        "name.en":        _v_ds_str(120),
+        "vigente":        _v_ds_enum(("si", "no")),
+        "moneda_vigente": _v_ds_str_null(8),
+        "folder":         _v_ds_str(40),
+    },
+    "currencies": {
+        "iso_4217.numerico":         _v_ds_str_null(4),
+        "iso_4217.decimales":        _v_ds_int(4),
+        "simbolo":                   _v_ds_str_null(16),
+        "nombres.es":                _v_ds_str(120),
+        "nombres.en":                _v_ds_str(120),
+        "nombres.ar":                _v_ds_str_null(120),
+        "nombre_corto.es":           _v_ds_str(60),
+        "tipo":                      _v_ds_str(60),
+        "estado":                    _v_ds_str(60),
+        "subunidad.nombres.es":      _v_ds_str_null(120),
+        "subunidad.factor":          _v_ds_int(10**6),
+        "banco_central.nombre":      _v_ds_str_null(120),
+        "banco_central.codigo":      _v_ds_str_null(40),
+        "historia.fecha_introduccion": _v_ds_str_null(16),
+        "historia.fecha_fin":          _v_ds_str_null(16),
+        "historia.moneda_anterior":    _v_ds_str_null(16),
+        "historia.moneda_sucesora":    _v_ds_str_null(16),
+        "uso.emisor":                 _v_ds_list_str(),
+        "uso.curso_legal":            _v_ds_list_str(),
+        "uso.circulacion":            _v_ds_list_str(),
+        "uso.de_facto":               _v_ds_list_str(),
+        "notas":                      _v_ds_str_null(4000),
+    },
+}
+
+
+def _ds_set_by_path(d, path, value):
+    """Escribe `value` (puede ser None) en la ruta punteada `path`,
+    creando los objetos intermedios que falten."""
+    parts = path.split(".")
+    cur = d
+    for p in parts[:-1]:
+        nxt = cur.get(p)
+        if not isinstance(nxt, dict):
+            nxt = {}
+            cur[p] = nxt
+        cur = nxt
+    cur[parts[-1]] = value
+
+
 def _sanitize_jpeg(data: bytes, work_dir: Path) -> bytes:
     """Re-codifica el JPEG con magick: valida que sea una imagen real y
     elimina cualquier payload adosado (defensa anti-polyglot). Devuelve los
@@ -414,6 +518,10 @@ class Handler(SimpleHTTPRequestHandler):
 
         if self.path == "/api/change_pick":
             return self._handle_change_pick(body.get("id"), body.get("pick"))
+
+        if self.path == "/api/update_dataset":
+            return self._handle_update_dataset(body.get("dataset"), body.get("code"),
+                                               body.get("field"), body.get("value"))
 
         if self.path == "/api/update":
             _id, field, value = body.get("id"), body.get("field"), body.get("value")
@@ -770,6 +878,52 @@ class Handler(SimpleHTTPRequestHandler):
 
         self._json_ok({"ok": True, "id": _id, "field": field, "record": rec_new})
         self.log_message("update %s.%s -> %r", _id, field, value)
+
+    def _handle_update_dataset(self, dataset, code, field, value):
+        """Edición inline de una celda de un dataset (T5).
+
+        Valida dataset/código/campo (whitelist)/valor, aplica el cambio en
+        _json/<dataset>.json (fuente de verdad, orden de claves intacto) y
+        escribe el mismo texto en web/data/<dataset>.json. Contrato de
+        error igual que el resto: 400 inválido, 404 código, 409 JSON
+        corrupto, 500 fallo de escritura."""
+        if dataset not in DS_FIELDS:
+            return self._json_error(400, f"dataset inválido: {dataset!r}")
+        if not isinstance(code, str) or not DS_CODE_RE.match(code):
+            return self._json_error(400, f"código inválido: {code!r}")
+        if field not in DS_FIELDS[dataset]:
+            return self._json_error(400, f"campo no editable: {field!r}")
+        if not DS_FIELDS[dataset][field](value):
+            return self._json_error(400, f"valor inválido para {field}")
+
+        src = JSON_DIR / f"{dataset}.json"
+        dst = WEB / "data" / f"{dataset}.json"
+        if not src.exists():
+            return self._json_error(500, f"falta el dataset de origen: {src.name}")
+
+        try:
+            with WRITE_LOCK:
+                try:
+                    data = json.loads(src.read_text(encoding="utf-8"))
+                except ValueError:   # corrupto → conflicto con el dato (T7)
+                    return self._json_error(
+                        409, f"{src.name} corrupto (reparar el archivo y reintentar)")
+                if not isinstance(data, dict) or code not in data:
+                    return self._json_error(404, f"código no existe: {code!r}")
+                record = data[code]
+                if not isinstance(record, dict):
+                    return self._json_error(409, f"registro corrupto: {code!r}")
+
+                _ds_set_by_path(record, field, value)
+                text = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
+                atomic_write_text(src, text)
+                atomic_write_text(dst, text)   # mismo texto: siempre sincronizados
+        except OSError as e:
+            return self._json_error(500, f"error de escritura: {e}")
+
+        self._json_ok({"ok": True, "dataset": dataset, "code": code,
+                       "field": field, "record": data[code]})
+        self.log_message("update_dataset %s.%s.%s -> %r", dataset, code, field, value)
 
     # ---------- helpers ----------
     def _json_ok(self, obj):

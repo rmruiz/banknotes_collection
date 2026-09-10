@@ -11,7 +11,8 @@ import {
 import { translate, paisDisplay as paisDisplayLib } from "./lib/i18n.js";
 import { COL_ALIASES, getCol, parseQuery, matches, sortRecords } from "./lib/query.js";
 import { isLocal, showDataError } from "./lib/dataload.js";
-import { initSideMenu, bindLangToggle } from "./lib/menu.js";
+import { initSideMenu } from "./lib/menu.js";
+import { bindHeaderLang } from "./lib/lang.js";
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -735,10 +736,13 @@ function applyI18n() {
     const span = th.querySelector(".th-label");
     if (span) span.textContent = label; else th.textContent = label;
   });
-  // botón de idioma
+  // botón de idioma (top bar): si no existiera en la página, no debe
+  // tumbar el resto del init (render de la tabla, etc.).
   const lt = $("#lang-toggle");
-  lt.textContent = lang === "en" ? "🇨🇱" : "🇬🇧";
-  lt.title = t("lang_tip");
+  if (lt) {
+    lt.textContent = lang === "en" ? "🇨🇱" : "🇬🇧";
+    lt.title = t("lang_tip");
+  }
   renderColsMenu();
   updateBoolIndicators();
   updateSortIndicators();
@@ -808,8 +812,8 @@ function dataLoadError(cause) {
 
 document.addEventListener("DOMContentLoaded", async () => {
   // Menú lateral: se inyecta el botón/panel ANTES que el resto del init —
-  // el wiring de #lang-toggle y applyI18n() de este archivo dependen de que
-  // ya exista en el DOM (ver web/lib/menu.js).
+  // el wiring de #lang-toggle (web/lib/lang.js) y applyI18n() de este
+  // archivo dependen de que ya exista en el DOM.
   initSideMenu(isEditMode ? "index-edit" : "index");
   // no-store: siempre datos frescos aunque se sirva sin serve_web.py
   let res, currenciesRes;
@@ -927,7 +931,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
   $("#new-form").addEventListener("submit", createNewNote);
 
-  bindLangToggle((l) => {
+  bindHeaderLang((l) => {
     lang = l;
     applySort();   // re-ordenar si el orden activo es País
     applyI18n();

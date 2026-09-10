@@ -997,6 +997,9 @@ dialog article > header button:hover { color: var(--pico-color); }
   padding: 24px;
 }
 
+#prob-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.75rem; }
+#prob-top #lang-toggle { margin-left: auto; }
+#prob-top #gen { flex-basis: 100%; }
 #prob-top nav { margin-bottom: .5rem; }
 #prob-top nav a { color: var(--pico-muted-color); text-decoration: none; }
 #prob-top nav a:hover { color: var(--pico-primary); }
@@ -1241,3 +1244,35 @@ details.problema > summary:hover { color: var(--pico-primary); }
 .data-error p {
   margin: 0.2rem 0;
 }
+
+/* ------------------------------------------------------------------ */
+/* Páginas de datasets (countries/currencies) — T5                     */
+/* ------------------------------------------------------------------ */
+
+/* Columna de bandera: la imagen se ajusta al alto de la fila */
+#tbl td.flag-cell { text-align: center; }
+#tbl td.flag-cell img {
+  height: 18px;
+  width: auto;
+  vertical-align: middle;
+}
+
+/* Columnas combinadas (p. ej. nombre es + nombre en): cada campo es una
+   sub-celda independiente; se separa de la anterior con un hilo fino */
+#tbl td.ds-subcell + td.ds-subcell {
+  border-left: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+/* Celda en dirección RTL (nombre en árabe) */
+#tbl td.rtl-cell { text-align: right; }
+
+/* Estado tras guardar una celda: aparece a la derecha del contador */
+.ds-status {
+  margin-left: 0.75rem;
+  font-size: 0.85rem;
+  opacity: 0;
+  transition: opacity 0.25s;
+  white-space: nowrap;
+}
+.ds-status.ok { opacity: 1; color: #1e7e34; }
+.ds-status.err { opacity: 1; color: #c0392b; }
