@@ -46,12 +46,16 @@ Node) + reglas `.menu-toggle`/`.side-menu`/`.side-menu-section` en
   `aria-expanded`/`aria-hidden`. Se llama al inicio del init de cada entry
   point (`app.js`, `stats.js`, `problemas.js`, `countries.js`,
   `currencies.js`).
-- **Comportamiento**: siempre inicia colapsado (sin persistencia); se desliza
-  desde la izquierda; SIN overlay — el contenido se desplaza con
-  `padding-left` del `body` (gutter fijo 64px → `var(--side-menu-w)` = 264px
-  con `body.menu-open`; `@720px`: `min(280px, 82vw)`); solo se cierra con el
-  botón hamburguesa (que se morfea a ✕). z-index: botón 120 / panel 110,
-  sobre el buscador sticky (100) y `.scroll-mask` (95).
+- **Comportamiento**: siempre inicia colapsado (sin persistencia); se
+  desliza desde la izquierda; SIN overlay — al abrirse, el contenido se
+  desplaza con `padding-left` del `body` (`var(--side-menu-w)` = 264px con
+  `body.menu-open`; `@720px`: `min(280px, 82vw)`). El botón **no reserva
+  espacio** (sin gutter): flota fijo top-left (`z-index: 120`) sobre el
+  contenido, que se centra en el viewport completo y queda justificada a la
+  izquierda si es más ancha que la pantalla (el solape del botón sobre la
+  esquina superior izquierda es aceptado por diseño). El botón z-120 y el
+  panel z-110 quedan sobre el buscador sticky (100) y `.scroll-mask` (95);
+  solo se cierra con el botón hamburguesa (que se morfea a ✕).
 - **Idioma (top bar, no menú)**: `button#lang-toggle` está en
   `.top-actions` de la top bar (junto al ícono de GitHub) en las 8 páginas
   (en `stats.html`/`problemas.html` el ícono de GitHub se añadió junto a él).

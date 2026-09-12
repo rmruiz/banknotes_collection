@@ -40,10 +40,12 @@ html {
 body {
   margin: 0;
   background-color: var(--pico-background-color);
-  /* Gutter fijo para el botón hamburguesa (ver "Menú lateral" más abajo).
-     Sin overlay ni transform en ancestros: el shift por padding no rompe
-     los position: sticky del thead y .table-footer. */
-  padding-left: 64px;
+  /* El botón hamburguesa NO reserva espacio: flota fijo (top-left, z-120)
+     sobre el contenido, que se centra en el viewport completo (o queda
+     justificada a la izquierda si es más ancha que la pantalla; el solape
+     en esa esquina es aceptado por diseño). Sin transform en ancestros:
+     el shift por padding de body.menu-open no rompe los position: sticky
+     del thead y .table-footer. */
   transition: padding-left 0.2s ease;
 }
 
@@ -277,6 +279,28 @@ main.container-fluid {
   max-width: 1200px;
   box-sizing: border-box;
 }
+
+/* El ancho de las tarjetas (buscador + tabla con su footer) debe seguir al
+   ancho real de #tbl, que puede superar la tarjeta cuando entran en juego su
+   min-width (1000px) o las columnas visibles: la tabla se desborda y
+   scrollea la página en horizontal (diseño actual; ver comentario de
+   .table-container sobre overflow/sticky). Con "min-width: min-content" en
+   main (flex columna), su ancho intrínseco mínimo es el mayor de los de sus
+   hijos = el min-content de #tbl, que en caso de desborde ES el ancho que la
+   tabla pinta; las tarjetas pasan a width:100% y todo (buscador, thead,
+   tbody y footer) queda al mismo ancho, sin JS. "margin: 0 auto" es
+   obligatorio: con "width" propio, main dejaría de centrarse en el body.
+   Solo páginas de listado (:has(.table-container)); stats/problemas no se
+   ven afectados (no tienen .table-container). El .top-bar conserva su tope
+   de 1200px y queda centrado. */
+main.container-fluid:has(.table-container) {
+  width: 95%;
+  max-width: 1200px;
+  min-width: min-content;
+  margin: 0 auto;
+}
+main.container-fluid:has(.table-container) .top-bar { width: 100%; }
+main.container-fluid:has(.table-container) .container-base { width: 100%; max-width: none; }
 
 /* ---------- ZONA 2: buscador (sticky) ---------- */
 
