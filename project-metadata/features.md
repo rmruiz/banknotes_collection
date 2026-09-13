@@ -66,7 +66,7 @@ se toca; "Impl." dónde vive la lógica.
 | Mapa mundial coloreado (verde/rojo/gris) con zoom y tooltip | `web/stats.js:renderMap` (d3 + topojson; TopoJSON local opcional, fallback CDN) |
 | Click en país → modal con su bandera y sus billetes | `web/stats.js:openCountryModal` |
 | Lista de países del catálogo sin billetes (filtrable) | `web/stats.js:renderMissingCountries`/`filterMissingCountries` |
-| Charts: top países, décadas, condiciones, monedas — cada fila filtra el catálogo | `web/stats.js:renderCharts` → links `index.html?q=…` |
+| Charts: top países, décadas, rangos de precio, condiciones, monedas — cada fila filtra el catálogo | `web/stats.js:renderCharts` → links `index.html?q=…` |
 | Moneda "propia" con alias históricos (USN→USD…) | `web/stats.js:processData` (`FUND_CODE_ALIASES`) |
 
 ## Países y monedas (catálogos maestros)

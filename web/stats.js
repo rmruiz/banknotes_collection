@@ -409,7 +409,39 @@ import { bindHeaderLang } from "./lib/lang.js";
             return `anio:(${label})`;
         });
 
-        // 3. Estado de Conservación
+        // 3. Rangos de precio: partición completa y sin solapamientos
+        //    (límite inferior incluido, superior excluido); "Sin precio" =
+        //    precio nulo/ausente/no numérico (mismo criterio que sumPrecio).
+        //    Cada rango enlaza al catálogo con su query de precio.
+        const priceRanges = [
+            { label: '<1000', min: -Infinity, max: 1000, query: 'precio<1000' },
+            { label: '>1000 y <2000', min: 1000, max: 2000, query: 'precio>=1000 precio<2000' },
+            { label: '>2000 y <5000', min: 2000, max: 5000, query: 'precio>=2000 precio<5000' },
+            { label: '>5000 y <15000', min: 5000, max: 15000, query: 'precio>=5000 precio<15000' },
+            { label: '>15000 y <50000', min: 15000, max: 50000, query: 'precio>=15000 precio<50000' },
+            { label: '>50000', min: 50000, max: Infinity, query: 'precio>=50000' },
+        ];
+        const priceCounts = priceRanges.map(() => 0);
+        let noPriceCount = 0;
+        allNotes.forEach(n => {
+            const p = n.precio;
+            if (!Number.isFinite(p)) {
+                noPriceCount += 1;
+                return;
+            }
+            for (let i = 0; i < priceRanges.length; i++) {
+                if (p >= priceRanges[i].min && p < priceRanges[i].max) {
+                    priceCounts[i] += 1;
+                    break;
+                }
+            }
+        });
+        const sortedPriceRanges = priceRanges
+            .map((r, i) => [r.label, priceCounts[i], r.query])
+            .concat([['Sin precio', noPriceCount, 'precio:""']]);
+        renderBarList('price-ranges-chart-list', sortedPriceRanges, allNotes.length, (label, item) => item[2]);
+
+        // 4. Estado de Conservación
         const condCounts = {};
         allNotes.forEach(n => {
             const cond = (n.condicion || 'Sin especificar').trim().toUpperCase() || 'Sin especificar';
@@ -422,7 +454,7 @@ import { bindHeaderLang } from "./lib/lang.js";
             return `condicion:"${label}"`;
         });
 
-        // 4. Monedas Más Frecuentes
+        // 5. Monedas Más Frecuentes
         const currCounts = {};
         allNotes.forEach(n => {
             const code = (n.currency_code || '').trim().toUpperCase();

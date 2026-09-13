@@ -13,6 +13,20 @@
         "anio",
         "condicion"
       ]
+    },
+    {
+      "name": "sin_precio",
+      "query": "precio:\"\"",
+      "cols": [
+        "pais",
+        "denominacion",
+        "front",
+        "back",
+        "verif",
+        "anio",
+        "precio",
+        "obs"
+      ]
     }
   ]
 }

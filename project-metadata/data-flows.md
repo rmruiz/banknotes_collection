@@ -203,8 +203,9 @@ Flujo completo de `web/app.js:startEdit` a `_json/`:
   `#country-modal`, fotos `img_full || thumb_f || thumb_a`).
 - `renderMissingCountries` (grid + búsqueda `#search-missing`);
   `renderCharts`: top países (`#top-countries-list`, query `pais:"X"`),
-  décadas (`#decades-chart-list`, `anio>=X anio<Y`), condiciones
-  (`#conditions-chart-list`, `condicion:"X"`), monedas
+  décadas (`#decades-chart-list`, `anio>=X anio<Y`), rangos de precio
+  (`#price-ranges-chart-list`, `precio<1000` … `precio>=50000`, `precio:""`),
+  condiciones (`#conditions-chart-list`, `condicion:"X"`), monedas
   (`#currencies-chart-list`, `currency_code:"X"`).
   Cada fila genera un link `index.html?q=...` con el query-establecido de
   `web.md` (el catálogo lo entiende sin cambios de frontend).

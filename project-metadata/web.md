@@ -329,6 +329,8 @@ hace `sortRecords(records, sort, ctx)`. Gramática
   la gramática de `app.js`:
   - `#top-countries-list`: `pais:"<Nombre>"`
   - `#decades-chart-list`: `anio>=<dec> anio<+10` (y "Sin fecha")
+  - `#price-ranges-chart-list`: rangos de precio fijos (`precio<1000`,
+    `precio>=1000 precio<2000`, …, `precio>=50000`) y "Sin precio" (`precio:""`)
   - `#conditions-chart-list`: `condicion:"UNC"` etc.
   - `#currencies-chart-list`: `currency_code:"USD"` etc.
 - El link a `index-edit.html` se oculta si `location.hostname` no es
