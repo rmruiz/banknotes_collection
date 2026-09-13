@@ -10,6 +10,7 @@ import {
 } from "./lib/format.js";
 import { translate, paisDisplay as paisDisplayLib } from "./lib/i18n.js";
 import { COL_ALIASES, getCol, parseQuery, matches, sortRecords } from "./lib/query.js";
+import { normalizeFilters, filterCols, matchesFilter } from "./lib/filters.js";
 import { isLocal, showDataError, hideEditLinks } from "./lib/dataload.js";
 import { initSideMenu } from "./lib/menu.js";
 import { bindHeaderLang } from "./lib/lang.js";
@@ -93,6 +94,7 @@ const state = {
   sort: { key: null, dir: 1 },  // orden activo (dir: 1 asc, -1 desc)
   // filtros cíclicos de columnas booleanas: both -> on -> off
   boolFilters: { verificado: "both", conmemorativo: "both", remarcado: "both", subunidad: "both" },
+  filters: [],      // vistas guardadas {name, query, cols} (_json/filters.json)
 };
 
 // columna de la tabla -> campo booleano filtrable/editable
@@ -542,6 +544,54 @@ function applyCols() {
   });
 }
 
+/* --- filtros guardados (vistas: columnas + query de la search bar) --- */
+
+function renderFiltersMenu() {
+  const cur = { cols: [...state.cols], query: $("#q").value };
+  $("#filters-menu").innerHTML = state.filters.map((f) => `
+    <li><label>
+      <input type="radio" name="filter" data-filter-name="${esc(f.name)}"
+             ${matchesFilter(cur, f) ? "checked" : ""}>
+      ${esc(f.name)}
+    </label></li>`).join("") + `
+    <li><a href="#" data-filter-new>${t("filter_new")}</a></li>`;
+}
+
+function applySavedFilter(f) {
+  state.cols = new Set(filterCols(f.cols, COLUMNS.map(([k]) => k)));
+  localStorage.setItem(COLS_KEY, JSON.stringify([...state.cols]));
+  renderColsMenu();
+  applyCols();
+  $("#q").value = f.query;
+  applyFilter();
+  renderFiltersMenu();
+}
+
+async function saveFilter(e) {
+  e.preventDefault();
+  const name = $("#filter-name").value.trim();
+  if (!name) return;
+  const btn = $("#filter-save");
+  btn.disabled = true;
+  try {
+    const res = await fetch("/api/save_filter", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, query: $("#q").value, cols: [...state.cols] }),
+    });
+    const out = await res.json().catch(() => ({}));
+    if (!res.ok || !out.ok) throw new Error(out.error || `HTTP ${res.status}`);
+    state.filters = normalizeFilters(out.filters);
+    const saved = state.filters.find((f) => f.name === name);
+    $("#filter-dialog").close();
+    if (saved) applySavedFilter(saved);
+  } catch (err) {
+    alert(`${t("err_save")} (${err.message})\n${t("err_server")}`);
+  } finally {
+    btn.disabled = false;
+  }
+}
+
 /* --- edición --- */
 
 // columna de la tabla -> [campo del API, tipo de input]
@@ -726,6 +776,11 @@ function applyI18n() {
   $("#new-pick-label").firstChild.nodeValue = t("new_pick") + " ";
   $("#new-submit").textContent = t("new_create");
   $("#cols-dd summary").textContent = t("columns");
+  $("#filters-dd summary").textContent = t("filters");
+  $("#filter-title").textContent = t("filter_title");
+  $("#filter-name-label").firstChild.nodeValue = t("filter_name") + " ";
+  $("#filter-save").textContent = t("filter_save");
+  renderFiltersMenu();
   $("#imgsize-label").firstChild.nodeValue = t("photos") + " ";
   $("#perpage-label").firstChild.nodeValue = t("perpage") + " ";
   // headers de la tabla (respeta el icono en .th-label si existe)
@@ -815,11 +870,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   // los links de edición (menú + links directos).
   hideEditLinks();
   // no-store: siempre datos frescos aunque se sirva sin serve_web.py
-  let res, currenciesRes;
+  let res, currenciesRes, filtersRes;
   try {
-    [res, currenciesRes] = await Promise.all([
+    [res, currenciesRes, filtersRes] = await Promise.all([
       fetch("data/collection.json", { cache: "no-store" }),
       fetch("data/currencies.json", { cache: "no-store" }).catch(() => null),
+      fetch("data/filters.json", { cache: "no-store" }).catch(() => null),
     ]);
   } catch (e) {
     dataLoadError(String(e));
@@ -831,6 +887,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
    state.all = await res.json();
    state.currencies = currenciesRes ? await currenciesRes.json() : {};
+   state.filters = filtersRes
+     ? normalizeFilters(await filtersRes.json().catch(() => null))
+     : [];
    state.filtered = state.all;
 
    // Leer parámetro q de la URL y poblar la barra de búsqueda
@@ -845,7 +904,8 @@ document.addEventListener("DOMContentLoaded", async () => {
    // Si hay un valor desde la URL, aplicar el filtro
    if (urlQ) applyFilter();
 
-    $("#q").addEventListener("input", debounce(applyFilter, 200));
+  $("#q").addEventListener("input",
+    debounce(() => { applyFilter(); renderFiltersMenu(); }, 200));
 
   document.querySelector("#tbl thead").addEventListener("click", (e) => {
     const thBool = e.target.closest("th[data-col]");
@@ -906,6 +966,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     else state.cols.delete(cb.dataset.colToggle);
     localStorage.setItem(COLS_KEY, JSON.stringify([...state.cols]));
     applyCols();
+    renderFiltersMenu();   // recalcula el radio activo
   });
 
   $("#perpage").addEventListener("change", (e) => {
@@ -929,6 +990,24 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (e.target === $("#new-dialog")) $("#new-dialog").close();
   });
   $("#new-form").addEventListener("submit", createNewNote);
+  $("#filters-menu").addEventListener("click", (e) => {
+    if (!e.target.closest("a[data-filter-new]")) return;
+    e.preventDefault();
+    $("#filter-form").reset();
+    $("#filter-dialog").showModal();
+    $("#filter-name").focus();
+  });
+  $("#filters-menu").addEventListener("change", (e) => {
+    const r = e.target.closest("input[data-filter-name]");
+    if (!r) return;
+    const f = state.filters.find((x) => x.name === r.dataset.filterName);
+    if (f) applySavedFilter(f);
+  });
+  $("#filter-close").addEventListener("click", () => $("#filter-dialog").close());
+  $("#filter-dialog").addEventListener("click", (e) => {
+    if (e.target === $("#filter-dialog")) $("#filter-dialog").close();
+  });
+  $("#filter-form").addEventListener("submit", saveFilter);
 
   bindHeaderLang((l) => {
     lang = l;

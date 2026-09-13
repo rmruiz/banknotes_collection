@@ -76,7 +76,7 @@ Node) + reglas `.menu-toggle`/`.side-menu`/`.side-menu-section` en
   aria-current, data-i18n, página desconocida, copias seguras, y en la top
   bar: `#lang-toggle` + ícono de GitHub en las 8 páginas),
   `web/tests/dataload.test.js` (`hideEditLinks`), `i18n.test.js` (claves
-  `menu_*`/secciones) y `module_smoke.test.js` (enlace de `lib/menu.js`).
+  `menu_*`/secciones/filtros) y `module_smoke.test.js` (enlace de `lib/menu.js`).
 
 ## Páginas de datasets (países / monedas)
 
@@ -140,7 +140,8 @@ state = {
   mobileDetailIdx: -1, // ídem, modal móvil
   cols: Set(…),       // visibilidad de columnas (localStorage "banknotes_cols")
   sort: {key: null, dir: 1}, // orden activo (1 asc, -1 desc)
-  boolFilters: { verificado, conmemorativo, remarcado, subunidad }
+  boolFilters: { verificado, conmemorativo, remarcado, subunidad },
+  filters: []        // vistas guardadas {name, query, cols} (data/filters.json)
 }
 ```
 
@@ -153,6 +154,24 @@ state = {
   la lista guardada contra las claves de `COLUMNS` y aplica migraciones de una
   sola vez (p. ej. añade `precio` a las listas anteriores al campo, marcando
   `banknotes_cols_migrated_precio`).
+- **`filters` (vistas guardadas)**: en el footer, a la derecha de
+  "Columnas" (`#cols-dd`), el selector `#filters-dd` lista los filtros
+  guardados + "Nuevo…". Se carga en el init de `data/filters.json`
+  (`no-store`, `.catch(() => null)`; inexistente → `[]`) y se normaliza con
+  `web/lib/filters.js:normalizeFilters`. Al seleccionar un nombre
+  (`applySavedFilter`): se reemplazan las columnas visibles por las del
+  filtro (claves desconocidas descartadas vía `filterCols`, misma
+  tolerancia que `loadCols`), se persiste `banknotes_cols`, se repinta con
+  `renderColsMenu()`/`applyCols()`, y su `query` se escribe en `#q` +
+  `applyFilter()` (reutiliza la cadena existente de la search bar; NO hay
+  persistencia extra de la selección activa: ni parámetro de URL ni key de
+  localStorage). "Nuevo…" abre `#filter-dialog` (nombre + Guardar) →
+  `POST /api/save_filter` (upsert por nombre; escribe `_json/filters.json`
+  + copia `web/data/`) → actualiza `state.filters` con la respuesta y
+  aplica el filtro guardado. El radio activo es *derivado*
+  (`matchesFilter` contra `state.cols` + `#q`): se recalcula al togglear
+  columnas o al buscar, de modo que tras un cambio manual ningún filtro
+  queda marcado.
 - **`boolFilters`**: cada key es `"all" | "yes" | "no"`. Se ciclan
   clickando el header (`click` en `<th>`); el ícono de la columna lo refleja
   (`web/app.js:updateBoolIndicators`).
@@ -226,7 +245,15 @@ hace `sortRecords(records, sort, ctx)`. Gramática
 - **Billete nuevo** (solo edición): botón `#new-note` (oculto en modo
   lectura) abre `#new-dialog` (patrón `<dialog>`); campos país (datalist
   `#paises-list` relleno por `fillPaisesDatalist` con los países distintos
-  de `state.all`) + pick. Ver flujo en `data-flows.md` §4.
+  `state.all`) + pick. Ver flujo en `data-flows.md` §4.
+- **Nuevo filtro** (`#filter-dialog`, ambas páginas `index.html`/
+  `index-edit.html`): el ítem "Nuevo…" de `#filters-dd` abre el diálogo
+  (nombre `#filter-name` ≤ 60 + botón Guardar); al enviar,
+  `POST /api/save_filter` con `{name, query: valor de #q, cols:
+  [...state.cols]}`; al éxito aplica el filtro guardado y cierra, al fallo
+  `alert` (`err_save` + `err_server`). Cierre vía `#filter-close`/Esc/clic
+  fuera. Claves i18n: `filters`, `filter_new`, `filter_title`,
+  `filter_name`, `filter_save`.
 
 ## `app.js` — i18n y preferencias
 

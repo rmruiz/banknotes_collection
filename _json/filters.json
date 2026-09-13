@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "filters": [
+    {
+      "name": "missing_condition",
+      "query": "condicion:\"\"",
+      "cols": [
+        "pais",
+        "denominacion",
+        "front",
+        "back",
+        "verif",
+        "anio",
+        "condicion"
+      ]
+    }
+  ]
+}

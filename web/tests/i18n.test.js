@@ -48,6 +48,19 @@ test("translate: claves del menú lateral (secciones + items)", () => {
   assert.equal(translate("menu_close", "en"), "Close menu");
 });
 
+test("translate: filtros guardados (vistas del catálogo)", () => {
+  assert.equal(translate("filters", "es"), "Filtros");
+  assert.equal(translate("filters", "en"), "Filters");
+  assert.equal(translate("filter_new", "es"), "Nuevo…");
+  assert.equal(translate("filter_new", "en"), "New…");
+  assert.equal(translate("filter_title", "es"), "Nuevo filtro");
+  assert.equal(translate("filter_title", "en"), "New filter");
+  assert.equal(translate("filter_name", "es"), "Nombre del filtro");
+  assert.equal(translate("filter_name", "en"), "Filter name");
+  assert.equal(translate("filter_save", "es"), "Guardar");
+  assert.equal(translate("filter_save", "en"), "Save");
+});
+
 test("translate: páginas de países/monedas (títulos, placeholders, estados)", () => {
   assert.equal(translate("countries_title", "es"), "Países actuales");
   assert.equal(translate("countries_title", "en"), "Current countries");

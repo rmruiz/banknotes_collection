@@ -21,6 +21,12 @@ _flags_svg/) y expone:
         punteada de la whitelist por dataset (DS_FIELDS). Escribe el JSON de
         origen (_json/<dataset>.json) y sincroniza el mismo texto en
         web/data/<dataset>.json (orden de claves y formato intactos).
+    POST /api/save_filter  body: {"name": "Chile UNC",
+                                  "query": "pais:Chile condicion:UNC",
+                                  "cols": ["pais", "precio", ...]}
+        Guarda una vista del catálogo (filtro): upsert por name en
+        _json/filters.json (fuente de verdad) y copia el mismo texto en
+        web/data/filters.json. Responde {ok, filters} con la lista actual.
     POST /api/verificado   (compatibilidad) body: {"id": "...", "verificado": true}
 
 Medidas de seguridad:
@@ -523,6 +529,10 @@ class Handler(SimpleHTTPRequestHandler):
             return self._handle_update_dataset(body.get("dataset"), body.get("code"),
                                                body.get("field"), body.get("value"))
 
+        if self.path == "/api/save_filter":
+            return self._handle_save_filter(body.get("name"), body.get("query"),
+                                            body.get("cols"))
+
         if self.path == "/api/update":
             _id, field, value = body.get("id"), body.get("field"), body.get("value")
         elif self.path == "/api/verificado":   # compatibilidad
@@ -924,6 +934,58 @@ class Handler(SimpleHTTPRequestHandler):
         self._json_ok({"ok": True, "dataset": dataset, "code": code,
                        "field": field, "record": data[code]})
         self.log_message("update_dataset %s.%s.%s -> %r", dataset, code, field, value)
+
+    def _handle_save_filter(self, name, query, cols):
+        """Guarda una vista del catálogo (filtro: name + cols + query).
+
+        Upsert por name (exacto, case-sensitive): reemplaza la entrada si
+        ya existe, si no la añade al final. Escribe _json/filters.json
+        (fuente de verdad) y copia el mismo texto en web/data/filters.json.
+        Contrato de error igual que el resto: 400 inválido, 409 JSON
+        corrupto, 500 fallo de escritura."""
+        if not isinstance(name, str) or not name.strip() or len(name.strip()) > 60:
+            return self._json_error(400, "name inválido (str no vacío, ≤ 60 chars)")
+        if not isinstance(query, str) or len(query) > 500:
+            return self._json_error(400, "query inválido (str, ≤ 500 chars)")
+        if (not isinstance(cols, list) or len(cols) > 100
+                or any(not isinstance(c, str) or not c or len(c) > 30 for c in cols)):
+            return self._json_error(400, "cols inválido (lista de str ≤ 30 chars, ≤ 100)")
+
+        name = name.strip()
+        src = JSON_DIR / "filters.json"
+        dst = WEB / "data" / "filters.json"
+
+        try:
+            with WRITE_LOCK:
+                if src.exists():
+                    try:
+                        data = json.loads(src.read_text(encoding="utf-8"))
+                    except ValueError:   # corrupto → conflicto con el dato (T7)
+                        return self._json_error(
+                            409, "filters.json corrupto (reparar el archivo y reintentar)")
+                    if (not isinstance(data, dict)
+                            or not isinstance(data.get("filters"), list)):
+                        return self._json_error(
+                            409, "filters.json con esquema inválido (reparar y reintentar)")
+                else:
+                    data = {"version": 1, "filters": []}
+
+                entry = {"name": name, "query": query, "cols": cols}
+                for i, f in enumerate(data["filters"]):
+                    if isinstance(f, dict) and f.get("name") == name:
+                        data["filters"][i] = entry
+                        break
+                else:
+                    data["filters"].append(entry)
+
+                text = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
+                atomic_write_text(src, text)
+                atomic_write_text(dst, text)   # mismo texto: siempre sincronizados
+        except OSError as e:
+            return self._json_error(500, f"error de escritura: {e}")
+
+        self._json_ok({"ok": True, "filters": data["filters"]})
+        self.log_message("save_filter %r", name)
 
     # ---------- helpers ----------
     def _json_ok(self, obj):

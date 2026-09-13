@@ -162,7 +162,9 @@ def api(monkeypatch, tmp_path: Path):
                "countries_src": jdir / "countries.json",
                "countries_dst": web / "data" / "countries.json",
                "currencies_src": jdir / "currencies.json",
-               "currencies_dst": web / "data" / "currencies.json"}
+               "currencies_dst": web / "data" / "currencies.json",
+               "filters_src": jdir / "filters.json",
+               "filters_dst": web / "data" / "filters.json"}
     finally:
         server.shutdown()
         server.server_close()
@@ -473,5 +475,74 @@ def test_update_dataset_codigo_mal_formado_400(api):
 def test_update_dataset_corrupto_409(api):
     api["countries_src"].write_text("{no json", encoding="utf-8")
     status, body = _ds_post(api["port"], "countries", "cl", "name.es", "X")
+    assert status == 409 and body["ok"] is False
+
+
+# --- POST /api/save_filter (vistas/filtros guardados) ------------------------
+
+
+def _filter_post(port, **kw):
+    payload = {"name": "X", "query": "", "cols": ["pais"]}
+    payload.update(kw)
+    return _post(port, "/api/save_filter", payload)
+
+
+def test_save_filter_creacion_200_y_persiste_en_fuente_y_copia(api):
+    # el fixture NO crea _json/filters.json: el primer guardado lo crea
+    assert not api["filters_src"].exists()
+    status, body = _filter_post(api["port"], name="Chile UNC",
+                                query="pais:Chile condicion:UNC",
+                                cols=["pais", "precio", "anio"])
+    assert status == 200
+    assert body["ok"] is True
+    assert body["filters"] == [{"name": "Chile UNC",
+                                "query": "pais:Chile condicion:UNC",
+                                "cols": ["pais", "precio", "anio"]}]
+    data = json.loads(api["filters_src"].read_text(encoding="utf-8"))
+    assert data["version"] == 1
+    assert data["filters"] == body["filters"]
+    # copia web/data: mismo texto (siempre sincronizadas)
+    assert api["filters_dst"].read_text(encoding="utf-8") == \
+        api["filters_src"].read_text(encoding="utf-8")
+
+
+def test_save_filter_upsert_mismo_nombre(api):
+    _filter_post(api["port"], name="A", query="q1", cols=["pais"])
+    _filter_post(api["port"], name="B", query="", cols=[])
+    status, body = _filter_post(api["port"], name="A", query="q2", cols=["anio"])
+    assert status == 200
+    assert [f["name"] for f in body["filters"]] == ["A", "B"]   # orden intacto
+    assert body["filters"][0] == {"name": "A", "query": "q2", "cols": ["anio"]}
+    data = json.loads(api["filters_src"].read_text(encoding="utf-8"))
+    assert len(data["filters"]) == 2
+    assert data["filters"][0]["query"] == "q2"
+
+
+def test_save_filter_nombre_strip(api):
+    status, body = _filter_post(api["port"], name="  X  ")
+    assert status == 200
+    assert body["filters"][0]["name"] == "X"
+
+
+def test_save_filter_valores_invalidos_400(api):
+    for kw in (
+        {"name": ""},
+        {"name": "   "},
+        {"name": None},
+        {"name": "x" * 61},
+        {"query": "q" * 501},
+        {"query": 5},
+        {"cols": "pais"},
+        {"cols": [1]},
+        {"cols": ["c" * 31]},
+        {"cols": ["a"] * 101},
+    ):
+        status, body = _filter_post(api["port"], **kw)
+        assert status == 400 and body["ok"] is False, (kw, status, body)
+
+
+def test_save_filter_corrupto_409(api):
+    api["filters_src"].write_text("{no json", encoding="utf-8")
+    status, body = _filter_post(api["port"], name="X")
     assert status == 409 and body["ok"] is False
     assert "corrupto" in body["error"]

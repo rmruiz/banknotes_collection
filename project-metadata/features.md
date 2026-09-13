@@ -14,6 +14,7 @@ se toca; "Impl." dónde vive la lógica.
 | Filtros bool 3 estados (verificado, conmemorativo, remarcado, subunidad) | click en el `<th>` | `web/app.js` → `state.boolFilters` + `web/app.js:updateBoolIndicators` |
 | Ordenar por columna | click en el `<th>` | `web/app.js:applySort` |
 | Mostrar/ocultar columnas | checkboxes del toolbar | `web/app.js:renderColsMenu` + `web/app.js:applyCols` + `state.cols` (`localStorage banknotes_cols`) |
+| Guardar vistas (filtros): columnas visibles + query de búsqueda | selector `#filters-dd` + `#filter-dialog` (footer, a la derecha de "Columnas"; ambas páginas index/index-edit) | `web/app.js:renderFiltersMenu`/`applySavedFilter`/`saveFilter` + `web/lib/filters.js` (puro, testeado en `web/tests/filters.test.js`) + `serve_web.py:_handle_save_filter` (upsert por nombre en `_json/filters.json` + copia `web/data/`) |
 | Paginación (25/pág) con pager y salto | footer | `web/app.js:renderPager`, `web/app.js:pageList` |
 | Badge "N problemas" en el header (solo `index-edit.html`) | `#alert-link`/`#alert-count` → `problemas.html` | `web/app.js:loadIssuesBadge` + `data/issues.json` |
 | Lightbox de imagen (front/back/full) | click en imagen | `web/app.js:openModal` (cierre vía `#modal-close`/Esc) |
@@ -39,6 +40,7 @@ se toca; "Impl." dónde vive la lógica.
 | Build al arrancar / por CLI | terminal | `_scripts/serve_web.py:main` / `_scripts/build_web.py:main` → `build` |
 | Miniaturas incrementales (solo fuentes cambiadas) | — | `_scripts/build_web.py:build` + `thumb_jobs` + `web/data/thumbs_meta.json` (firma `mtime_ns-size`) |
 | Editar campos de países/monedas inline (9/21 columnas, rutas punteadas, listas como texto con comas) | `countries-edit.html` / `currencies-edit.html` (click en celda → input/select) | `web/lib/datasets.js:startCellEdit` → `POST /api/update_dataset` → `_scripts/serve_web.py:_handle_update_dataset` (whitelist `DS_FIELDS` por dataset; escribe `_json/` + copia el mismo texto a `web/data/`) |
+| Guardar filtro (vista) desde la UI | `#filter-dialog` (nombre + Guardar) | `web/app.js:saveFilter` → `POST /api/save_filter` → `_scripts/serve_web.py:_handle_save_filter` (valida, upsert por `name`, escribe `_json/filters.json` y copia el mismo texto a `web/data/filters.json`; el build re-copia) |
 | Invalideado de caché de imágenes | `?v=<hash>` en URLs | `_scripts/build_web.py:file_sig`/`file_v` + `web/serve_web.py` header `max-age` |
 
 ## Página de problemas (`problemas.html`)
@@ -95,6 +97,7 @@ se toca; "Impl." dónde vive la lógica.
 | Idioma ES/EN de toda la UI (toggle `#lang-toggle` en la top bar) | `web/lib/lang.js:bindHeaderLang` + `web/app.js:applyI18n` + diccionario `L` + `localStorage banknotes_lang` |
 | Recordar columnas visibles | `localStorage banknotes_cols` (`web/app.js:state.cols`) |
 | Recordar acordeones abiertos en problemas | `localStorage problemas_open` (`web/problemas.js`) |
+| Recordar vistas (filtros) del catálogo | `_json/filters.json` (fuente; copia en `web/data/`) vía `POST /api/save_filter` |
 
 ## Utilidades de datos (scripts, no UI)
 
@@ -129,5 +132,8 @@ se toca; "Impl." dónde vive la lógica.
 - "¿Dónde se editan países/monedas?" → páginas de datasets
   (`web/lib/datasets.js`) + `serve_web.py:_handle_update_dataset`
   (whitelist `DS_FIELDS`).
+- "¿Dónde se guardan las vistas/filtros?" → `_json/filters.json`
+  (esquema en `_json/filters.md`) + selector `#filters-dd`
+  (`web/app.js:renderFiltersMenu`).
 - "Un país aparece gris en el mapa" → `moneda_vigente` de
   `_json/countries.json` + `web/stats.js:renderMap`.

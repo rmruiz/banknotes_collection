@@ -522,6 +522,13 @@ def build(force=False, verbose=False):
             (JSON_DIR / "currencies.json").read_text(encoding="utf-8")
         )
 
+    # Sincronizar filters.json a web/data/ para acceso directo desde la web
+    if (JSON_DIR / "filters.json").exists():
+        atomic_write_text(
+            DATA / "filters.json",
+            (JSON_DIR / "filters.json").read_text(encoding="utf-8")
+        )
+
     atomic_write_text(
         DATA / "issues.json",
         json.dumps(issues, ensure_ascii=False, separators=(",", ":")))

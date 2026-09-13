@@ -166,7 +166,39 @@ acepta lista o texto con comas; `decimales`/`factor` son int; `notas`,
 `historia.*` son str|null). Escribe `_json/currencies.json` y copia el mismo
 texto a `web/data/currencies.json` (ver `data-flows.md` §11).
 
-## 5. Registro de `web/data/collection.json` (GENERADO — no editar)
+## 5. `_json/filters.json` (vistas guardadas)
+
+Vistas del catálogo guardadas desde la UI: cada filtro combina un conjunto
+de columnas visibles con la query de la search bar. Documentación humana:
+`_json/filters.md`.
+
+```json
+{
+  "version": 1,
+  "filters": [
+    {
+      "name": "Chile UNC",
+      "query": "pais:Chile condicion:UNC",
+      "cols": ["pais", "denominacion", "anio", "precio", "front", "back", "full", "colnect", "numista", "verif"]
+    }
+  ]
+}
+```
+
+| Campo | Tipo | Notas / restricciones |
+|---|---|---|
+| `version` | int | Actualmente 1; los lectores lo ignoran (solo leen `filters`). |
+| `filters[].name` | str | Único: clave del upsert (comparación exacta, case-sensitive). API: str no vacío, ≤ 60 chars (strip). |
+| `filters[].query` | str | Query de la search bar (`""` = sin filtro). API: ≤ 500 chars. |
+| `filters[].cols` | str[] | Claves de columnas seleccionables (`COLUMNS` de `web/app.js`). API: ≤ 100 items de ≤ 30 chars; el cliente descarta las desconocidas al aplicar. |
+
+**Editable desde la web**: `POST /api/save_filter` con `{name, query, cols}`;
+`serve_web.py:_handle_save_filter` valida, hace upsert por `name` (no hay
+eliminar/renombrar desde la UI) y escribe `_json/filters.json` + copia el
+mismo texto en `web/data/filters.json` (la copia que lee el navegador; el
+build la re-copia y queda idempotente).
+
+## 6. Registro de `web/data/collection.json` (GENERADO — no editar)
 
 Array de ~1102 registros, ordenado por `_scripts/build_web.py:sort_key`
 (pais sin acentos en minúsculas → pick natural vía `natural_pick_key`).
@@ -227,7 +259,7 @@ catálogo, normaliza los fallbacks de texto libre). Un test Python
 (`test_build_web.py:…fixture_cross_language`) y dos tests JS
 (`format.test.js`) corren cada lado contra el `out` commiteado.
 
-## 6. `web/data/issues.json` (GENERADO)
+## 7. `web/data/issues.json` (GENERADO)
 
 ```json
 {
@@ -254,13 +286,13 @@ exactas, en orden de aparición) y forma de `items`:
 `web/problemas.js` renderiza cada clave con un renderer propio
 (`RENDERERS[clave]`) o `genericTable` (usa `columnas`).
 
-## 7. `web/data/thumbs_meta.json` (GENERADO)
+## 8. `web/data/thumbs_meta.json` (GENERADO)
 
 Mapa `ruta-relativa-de-thumb → firma (mtime_ns-size)` de la última vez que se
 generó. Base del build incremental: si la firma de la fuente no coincide, el
 thumb se regenera. Se reescribe completo en cada build.
 
-## 8. Datos de referencia servidos a la web
+## 9. Datos de referencia servidos a la web
 
 - `web/data/countries.json` y `web/data/currencies.json`: copias idénticas de
   `_json/`. Dos vías de sincronización: el build (si existen en `_json/`) y

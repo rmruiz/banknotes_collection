@@ -13,6 +13,8 @@ banknotes_collection/
 │   ├── currencies.json     #   catálogo de monedas ISO 4217 (215 entradas)
 │   ├── currencies.md       #   documentación del catálogo
 │   ├── argentina/*.json    #   88 billetes
+│   ├── filters.json        #   vistas/filtros guardados (columnas + query)
+│   ├── filters.md          #   documentación de los filtros
 │   ├── chile/*.json        #   123 billetes
 │   ├── usa/*.json          #   79 billetes
 │   └── world/*.json        #   812 billetes (resto del mundo)
@@ -30,7 +32,7 @@ banknotes_collection/
 │   ├── stats.html/stats.js/stats.css   # dashboard de estadísticas (D3)
 │   ├── problemas.html/problemas.js     # página de problemas detectados
 │   ├── d3.min.js, topojson-client.min.js  # librerías vendor commiteadas
-│   ├── lib/              #   módulos ES testeables en Node (i18n, query, format, dataload, menu, lang, datasets)
+│   ├── lib/              #   módulos ES testeables en Node (i18n, query, format, dataload, menu, lang, datasets, filters)
 │   ├── tests/            #   tests unitarios de lib/ (node --test)
 │   ├── _flags_svg/         # banderas SVG por país (~210, commiteadas)
 │   ├── _originals/         # fotos por billete: <id>/<id>_A.jpg,_B.jpg (commiteadas)
@@ -48,7 +50,8 @@ banknotes_collection/
 | `_json/<carpeta>/<id>.json` | Un JSON por billete. Carpeta = ruta del país (`argentina`, `chile`, `usa`, `world`) según `countries.json[<code>].folder`. El id = nombre del archivo. | ✅ commiteado |
 | `_json/countries.json` | Catálogo de países: clave = código corto (`cl`, `xk`…). Fuente única para nombre, bandera, carpeta y moneda vigente. Editable desde la web (`POST /api/update_dataset`; las páginas `countries.html`/`countries-edit.html`). | ✅ commiteado |
 | `_json/currencies.json` | Catálogo de monedas: clave = código ISO 4217 (`CLP`…). Fuente de nombres, símbolo, subunidad, estado, etc. Editable desde la web (`POST /api/update_dataset`; las páginas `currencies.html`/`currencies-edit.html`). | ✅ commiteado |
-| `_json/countries.md`, `_json/currencies.md` | Documentación humana de los catálogos. | ✅ commiteado |
+| `_json/filters.json` | Vistas guardadas del catálogo: cada filtro = `name` + `cols` (claves de columnas visibles) + `query` (search bar). Fuente de la copia `web/data/filters.json`; editable desde la web (`POST /api/save_filter`, upsert por nombre). Documentado en `filters.md`. | ✅ commiteado |
+| `_json/countries.md`, `_json/currencies.md`, `_json/filters.md` | Documentación humana de los catálogos y de los filtros. | ✅ commiteado |
 
 ## Generado (NO fuente — se regenera con el build)
 
@@ -59,6 +62,7 @@ banknotes_collection/
 | `web/data/thumbs_meta.json` | `_scripts/build_web.py:build` (firma de cada thumb: `mtime_ns-size`) | ❌ gitignored |
 | `web/data/countries.json` | copia idéntica de `_json/countries.json` (la sincroniza el build Y el API `POST /api/update_dataset`, que escribe primero la fuente y copia el mismo texto — el build queda idempotente) | ❌ gitignored |
 | `web/data/currencies.json` | copia idéntica de `_json/currencies.json` (id.) | ❌ gitignored |
+| `web/data/filters.json` | copia idéntica de `_json/filters.json` (la sincroniza el build Y el API `POST /api/save_filter`, que escribe primero la fuente y copia el mismo texto — el build queda idempotente) | ❌ gitignored |
 | `web/thumbs/<id>_A.jpg`, `<id>_B.jpg`, `<id>_F.jpg` | `_scripts/build_web.py:make_thumb` (magick, 360px, q80) | ❌ gitignored |
 | `web/thumbs/x_<hash12>_A.jpg`, `_B.jpg` | miniaturas de carpetas huérfanas (ver `build_issues_data`) | ❌ gitignored |
 | `etiquetas.pdf` | `_scripts/generar_etiquetas.py` (ReportLab) | ❌ gitignored |
@@ -91,6 +95,7 @@ Son ~3600 archivos versionados bajo `web/` (verificado con `git ls-files`).
 | `web/countries.js` / `web/currencies.js` | Entry points de las páginas de datasets: `initSideMenu` + `bindHeaderLang` + `initDatasetPage(dataset, { edit })` (modo detectado por el path). |
 | `web/app.js` | Toda la lógica del catálogo: estado, filtros, render, edición, guardado, i18n, modales. |
 | `web/lib/datasets.js` | Motor de las 4 páginas de datasets: núcleo puro (rutas punteadas, aplanado, búsqueda, orden, paginación) + config de columnas `DATASETS` + capa DOM `initDatasetPage` (edición inline → `POST /api/update_dataset`). Testeado en `web/tests/datasets.test.js`. |
+| `web/lib/filters.js` | Módulo puro de las vistas/filtros: `normalizeFilters` (JSON crudo → array canónico, dedupe por name), `filterCols` (limita a claves conocidas), `matchesFilter` (filtro activo derivado del estado). Testeado en `web/tests/filters.test.js`. |
 | `web/lib/lang.js` | Toggle de idioma de la top bar: `bindHeaderLang(onAfter)` (bandera del idioma destino, persistencia, refresh in situ del menú). |
 | `web/lib/menu.js` | Menú lateral por secciones: `NAV_SECTIONS`, `menuItems(currentPage)`, HTML del panel (`renderMenu`), inyección en DOM (`initSideMenu`), `refreshMenuLang`. Testeado en `web/tests/menu.test.js`. |
 | `web/tests/` | Tests unitarios de los módulos de `web/lib/` (se ejecutan con `node --test web/tests/*.test.js`). |

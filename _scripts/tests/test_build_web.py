@@ -400,6 +400,20 @@ def test_build_sincroniza_catalogos(sample_build):
         (SAMPLE / "_json" / "currencies.json").read_text(encoding="utf-8")
 
 
+def test_build_sincroniza_filters(sample_build):
+    src_text = ('{"version": 1, "filters": [{"name": "Test", "query": "", '
+                '"cols": ["pais"]}]}\n')
+    (sample_build / "_json" / "filters.json").write_text(src_text, encoding="utf-8")
+    build_web.build(verbose=False)
+    data = sample_build / "web" / "data"
+    assert (data / "filters.json").read_text(encoding="utf-8") == src_text
+
+
+def test_build_sin_filters_no_copia(sample_build):
+    build_web.build(verbose=False)
+    assert not (sample_build / "web" / "data" / "filters.json").exists()
+
+
 def test_build_incremental_no_repite_thumbs(sample_build):
     build_web.build(verbose=False)
     data = sample_build / "web" / "data"

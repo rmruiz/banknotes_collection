@@ -39,10 +39,12 @@ Un catálogo de billetes con:
 ## Invariantes que hay que respetar
 
 - **Fuente de verdad**: `_json/*/*.json` (billetes) + `_json/countries.json`
-  y `_json/currencies.json` (catálogos). Las copias en `web/data/` son
-  sincronizaciones de solo lectura para el navegador.
+  y `_json/currencies.json` (catálogos) + `_json/filters.json` (vistas/
+  filtros guardados; documentado en `_json/filters.md`). Las copias en
+  `web/data/` son sincronizaciones de solo lectura para el navegador.
 - **Generado / gitignored (NO fuente)**: `web/data/` (collection.json,
-  issues.json, thumbs_meta.json, copias de países/monedas), `web/thumbs/`,
+  issues.json, thumbs_meta.json, copias de países/monedas/filtros),
+  `web/thumbs/`,
   `etiquetas.pdf`, `web/data.json` (relicto antiguo). Ver
   `project-metadata/files.md`.
 - **Imágenes commiteadas (SÍ fuente)**: `web/_flags_svg/` (banderas SVG),
@@ -82,6 +84,10 @@ para miniaturas/composición, y en helpers opcionales: `ollama`, `reportlab`,
 - ¿Cómo se edita desde la UI? → `project-metadata/web.md` (sección Modo edición)
 - ¿Para qué sirve cada script? → `project-metadata/scripts.md`
 - ¿Dónde implementa la web cada feature? → `project-metadata/features.md`
+- ¿Qué es un filtro/vista guardada y dónde vive? →
+  `project-metadata/data.md` (sección `_json/filters.json`) +
+  `_json/filters.md` (documentación del archivo) + `web.md` (selector
+  `#filters-dd`).
 
 Todas las referencias de este metadata usan la notación `{archivo}:{función}`
 con nombres reales y verificados contra el código (p. ej.
