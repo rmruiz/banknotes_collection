@@ -6,7 +6,11 @@
      testeable en Node); el ítem de la página actual lleva current: true
      (renderMenu lo pinta con «<< » en la etiqueta + aria-current).
    - renderMenu(page, lang): HTML del panel (.side-menu): antes de los links
-     de cada sección va su encabezado .side-menu-section (data-i18n).
+     de cada sección va su encabezado .side-menu-section (data-i18n). En las
+     páginas de catálogo (index/index-edit) se añade además, bajo la sección
+     Colección, el selector de vistas/filtros guardados: <details id="filters-dd">
+     con <summary data-i18n="filters"> + <ul id="filters-menu"> — lo rellena y
+     cablea app.js (solo corre en esas dos páginas).
    - initSideMenu(page): inyecta .menu-toggle + .side-menu en <body> y cablea
      el toggle. Siempre inicia colapsado (sin persistencia).
    Look & feel: estilos en web/styles.css (.menu-toggle, .side-menu,
@@ -84,6 +88,11 @@ export const NAV_SECTIONS = [
   },
 ];
 
+// Páginas donde el menú incluye el selector de vistas/filtros guardados
+// (#filters-dd bajo la sección Colección): el catálogo y su modo edición.
+// app.js (solo index/index-edit) lo rellena y cablea por id.
+const CATALOG_PAGES = new Set(["index", "index-edit"]);
+
 export function menuItems(currentPage) {
   const items = [];
   for (const sec of NAV_SECTIONS) {
@@ -120,6 +129,18 @@ export function renderMenu(page, lang) {
         `<span class="side-menu-ico">${icon}</span>` +
         `<span class="side-menu-label" data-i18n="${it.labelKey}">${linkLabel}</span>` +
         "</a>";
+    }
+    // Selector de vistas/filtros guardados: solo en las páginas de catálogo,
+    // bajo la sección Colección. El <ul> lo rellena app.js:renderFiltersMenu
+    // y el <summary> lo traduce app.js:applyI18n (data-i18n para refresh in
+    // situ de refreshMenuLang).
+    if (sec.id === "collection" && CATALOG_PAGES.has(page)) {
+      rows +=
+        `<details class="dropdown" id="filters-dd">` +
+        `<summary data-i18n="filters">` +
+        `${esc(translate("filters", lang))}</summary>` +
+        `<ul id="filters-menu"></ul>` +
+        `</details>`;
     }
   }
   return (

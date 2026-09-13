@@ -40,7 +40,11 @@ Node) + reglas `.menu-toggle`/`.side-menu`/`.side-menu-section` en
   lee de `localStorage["banknotes_lang"]`). Todos los textos llevan
   `data-i18n` (refresh in situ). El ítem actual lleva prefijo «<< » en su
   etiqueta + `aria-current="page"` + clase `.side-menu-item.current`
-  (resaltado en color marca).
+  (resaltado en color marca). En las páginas de catálogo (index/index-edit)
+  se añade además, bajo la sección Colección, el selector de vistas
+  guardadas: `<details id="filters-dd">` con `<summary data-i18n="filters">`
+  + `<ul id="filters-menu">` (ver sección `filters` abajo; `app.js` lo
+  rellena y cablea por id).
 - **`initSideMenu(page)`**: inyecta en `<body>` el botón `.menu-toggle` y el
   panel `<nav class="side-menu">`, cablea el toggle y actualiza
   `aria-expanded`/`aria-hidden`. Se llama al inicio del init de cada entry
@@ -74,7 +78,8 @@ Node) + reglas `.menu-toggle`/`.side-menu`/`.side-menu-section` en
 - Tests: `web/tests/menu.test.js` (4 secciones, 8 links, sin `lang-toggle`
   en el menú, un solo current por página, encabezados de sección, «<< »/
   aria-current, data-i18n, página desconocida, copias seguras, y en la top
-  bar: `#lang-toggle` + ícono de GitHub en las 8 páginas),
+  bar: `#lang-toggle` + ícono de GitHub en las 8 páginas, y `#filters-dd`
+  bajo Colección solo en index/index-edit),
   `web/tests/dataload.test.js` (`hideEditLinks`), `i18n.test.js` (claves
   `menu_*`/secciones/filtros) y `module_smoke.test.js` (enlace de `lib/menu.js`).
 
@@ -154,8 +159,9 @@ state = {
   la lista guardada contra las claves de `COLUMNS` y aplica migraciones de una
   sola vez (p. ej. añade `precio` a las listas anteriores al campo, marcando
   `banknotes_cols_migrated_precio`).
-- **`filters` (vistas guardadas)**: en el footer, a la derecha de
-  "Columnas" (`#cols-dd`), el selector `#filters-dd` lista los filtros
+- **`filters` (vistas guardadas)**: en el menú lateral, bajo la sección
+  Colección (inyectado por `renderMenu` solo en index/index-edit), el
+  selector `#filters-dd` lista los filtros
   guardados + "Nuevo…". Se carga en el init de `data/filters.json`
   (`no-store`, `.catch(() => null)`; inexistente → `[]`) y se normaliza con
   `web/lib/filters.js:normalizeFilters`. Al seleccionar un nombre

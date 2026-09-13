@@ -140,6 +140,40 @@ test("renderMenu: etiquetas traducidas según idioma (index)", () => {
   }
 });
 
+test("renderMenu: #filters-dd bajo Colección solo en index/index-edit", () => {
+  for (const page of PAGES) {
+    const html = renderMenu(page, "es");
+    const isCatalog = page === "index" || page === "index-edit";
+    const hasFilters =
+      html.includes('id="filters-dd"') && html.includes('id="filters-menu"');
+    assert.equal(
+      hasFilters, isCatalog,
+      `${page}: selector de filtros ${isCatalog ? "presente" : "ausente"}`
+    );
+    if (isCatalog) {
+      const secIdx = html.indexOf('data-i18n="menu_section_collection"');
+      const nextIdx = html.indexOf('data-i18n="menu_section_countries"');
+      const fIdx = html.indexOf('id="filters-dd"');
+      assert.ok(secIdx < fIdx && fIdx < nextIdx, "bajo la sección Colección");
+      assert.ok(
+        html.includes('data-i18n="filters"'),
+        "summary con data-i18n (refresh in situ)"
+      );
+    }
+  }
+});
+
+test("renderMenu: etiqueta de #filters-dd traducida (es/en)", () => {
+  assert.ok(
+    renderMenu("index", "es").includes("Filtros</summary>"),
+    "es: Filtros"
+  );
+  assert.ok(
+    renderMenu("index", "en").includes("Filters</summary>"),
+    "en: Filters"
+  );
+});
+
 test("top bar: las 8 páginas HTML tienen button#lang-toggle y el ícono de GitHub", () => {
   // Regresión T6: el botón pasó del panel del menú a la top bar HTML;
   // index/index-edit/stats/problemas lo perdieron y applyI18n() de app.js

@@ -14,7 +14,7 @@ se toca; "Impl." dónde vive la lógica.
 | Filtros bool 3 estados (verificado, conmemorativo, remarcado, subunidad) | click en el `<th>` | `web/app.js` → `state.boolFilters` + `web/app.js:updateBoolIndicators` |
 | Ordenar por columna | click en el `<th>` | `web/app.js:applySort` |
 | Mostrar/ocultar columnas | checkboxes del toolbar | `web/app.js:renderColsMenu` + `web/app.js:applyCols` + `state.cols` (`localStorage banknotes_cols`) |
-| Guardar vistas (filtros): columnas visibles + query de búsqueda | selector `#filters-dd` + `#filter-dialog` (footer, a la derecha de "Columnas"; ambas páginas index/index-edit) | `web/app.js:renderFiltersMenu`/`applySavedFilter`/`saveFilter` + `web/lib/filters.js` (puro, testeado en `web/tests/filters.test.js`) + `serve_web.py:_handle_save_filter` (upsert por nombre en `_json/filters.json` + copia `web/data/`) |
+| Guardar vistas (filtros): columnas visibles + query de búsqueda | selector `#filters-dd` + `#filter-dialog` (menú lateral, bajo la sección Colección; ambas páginas index/index-edit) | `web/app.js:renderFiltersMenu`/`applySavedFilter`/`saveFilter` + `web/lib/filters.js` (puro, testeado en `web/tests/filters.test.js`) + `serve_web.py:_handle_save_filter` (upsert por nombre en `_json/filters.json` + copia `web/data/`) |
 | Paginación (25/pág) con pager y salto | footer | `web/app.js:renderPager`, `web/app.js:pageList` |
 | Badge "N problemas" en el header (solo `index-edit.html`) | `#alert-link`/`#alert-count` → `problemas.html` | `web/app.js:loadIssuesBadge` + `data/issues.json` |
 | Lightbox de imagen (front/back/full) | click en imagen | `web/app.js:openModal` (cierre vía `#modal-close`/Esc) |
@@ -87,6 +87,7 @@ se toca; "Impl." dónde vive la lógica.
 |---|---|---|
 | Menú colapsable por botón hamburguesa (inicia siempre colapsado, sin overlay, solo se cierra con el botón) | `.menu-toggle` + `.side-menu` (inyectados en `<body>` por JS, no están en el HTML) | `web/lib/menu.js:initSideMenu` + `.menu-toggle`/`.side-menu` en `web/styles.css` |
 | Navegación por secciones: 4 secciones fijas (Colección, Países, Monedas, Otros) con 8 links (Lista/Editar por catálogo); SIN botón de idioma; la página actual se indica con «<< » + `aria-current` + `.current` | encabezados `.side-menu-section` + ítems del panel `.side-menu` | `web/lib/menu.js:NAV_SECTIONS` + `menuItems(currentPage)` (pura, testeada en `web/tests/menu.test.js`) + `renderMenu` |
+| Selector de vistas guardadas (solo index/index-edit): píldora `#filters-dd` + lista de radios bajo la sección Colección (la rellena `app.js`) | `.side-menu-list > details#filters-dd` (inyectado por `renderMenu`) | `web/lib/menu.js:renderMenu` (bloque bajo Colección) + `web/app.js:renderFiltersMenu` (rellena `#filters-menu`) |
 | Toggle de idioma ES/EN (top bar, no menú): bandera del idioma destino (🇬🇧/🇨🇱) en `button#lang-toggle` dentro de `.top-actions`, junto al ícono de GitHub (presente en las 8 páginas) | top bar de cada página | `web/lib/lang.js:bindHeaderLang(onAfter)` (persiste en `localStorage banknotes_lang`, refresca el menú in situ vía `menu.js:refreshMenuLang` y llama `onAfter`: `applyI18n` en catálogo/países/monedas; sin callback en stats/problemas) |
 | Ocultar links de edición fuera de localhost (menú + links directos) | — | `web/lib/dataload.js:hideEditLinks` (selector `a[href$="-edit.html"]`; lo llama el init de cada página) |
 
@@ -133,7 +134,8 @@ se toca; "Impl." dónde vive la lógica.
   (`web/lib/datasets.js`) + `serve_web.py:_handle_update_dataset`
   (whitelist `DS_FIELDS`).
 - "¿Dónde se guardan las vistas/filtros?" → `_json/filters.json`
-  (esquema en `_json/filters.md`) + selector `#filters-dd`
-  (`web/app.js:renderFiltersMenu`).
+  (esquema en `_json/filters.md`) + selector `#filters-dd` en el menú
+  lateral (`web/lib/menu.js:renderMenu` bajo Colección; lo rellena
+  `web/app.js:renderFiltersMenu`).
 - "Un país aparece gris en el mapa" → `moneda_vigente` de
   `_json/countries.json` + `web/stats.js:renderMap`.
