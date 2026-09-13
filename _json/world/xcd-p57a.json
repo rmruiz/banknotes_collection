@@ -28,7 +28,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:15-03-2024"
   },
   "specimens": [
     {
@@ -37,5 +37,6 @@
     }
   ],
   "numista": "https://en.numista.com/215596",
-  "country_code": "xcd"
+  "country_code": "xcd",
+  "precio": 13000
 }

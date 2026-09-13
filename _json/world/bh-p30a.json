@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:15-03-2024"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/404564",
-  "country_code": "bh"
+  "country_code": "bh",
+  "precio": 5800
 }

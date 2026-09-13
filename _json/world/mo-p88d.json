@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": "Año del Cerdo"
+    "obs": "Año del Cerdo; FC:07-05-2023"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/210022",
-  "country_code": "mo"
+  "country_code": "mo",
+  "precio": 5800
 }

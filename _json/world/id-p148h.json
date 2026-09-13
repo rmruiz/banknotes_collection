@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:17-05-2026 ebay"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/202129",
-  "country_code": "id"
+  "country_code": "id",
+  "precio": 1062
 }

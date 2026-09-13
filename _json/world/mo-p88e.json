@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": "Año de la Rata"
+    "obs": "Año de la Rata; FC:07-05-2023"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/303181",
-  "country_code": "mo"
+  "country_code": "mo",
+  "precio": 5800
 }

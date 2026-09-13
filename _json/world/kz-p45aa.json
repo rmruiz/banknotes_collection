@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:24-05-2024"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/202013",
-  "country_code": "kz"
+  "country_code": "kz",
+  "precio": 6000
 }

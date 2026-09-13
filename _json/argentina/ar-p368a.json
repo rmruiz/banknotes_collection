@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:08-06-2022 ebay"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/366923",
-  "country_code": "ar"
+  "country_code": "ar",
+  "precio": 14400
 }

@@ -26,7 +26,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:19-09-2022 Bulk35"
   },
   "specimens": [
     {
@@ -35,5 +35,6 @@
     }
   ],
   "numista": "https://en.numista.com/206625",
-  "country_code": "id"
+  "country_code": "id",
+  "precio": 828
 }

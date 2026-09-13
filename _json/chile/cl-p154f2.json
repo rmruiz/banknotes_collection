@@ -29,7 +29,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "1975 - 2009",
-    "obs": ""
+    "obs": "FC:26-05-2023 ebay"
   },
   "specimens": [
     {
@@ -38,5 +38,6 @@
     }
   ],
   "numista": "https://en.numista.com/203431",
-  "country_code": "cl"
+  "country_code": "cl",
+  "precio": 8388
 }

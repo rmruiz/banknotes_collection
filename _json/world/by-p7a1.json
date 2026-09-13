@@ -25,7 +25,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:09-08-2021 ebay"
   },
   "specimens": [
     {
@@ -34,5 +34,6 @@
     }
   ],
   "numista": "https://en.numista.com/204427",
-  "country_code": "by"
+  "country_code": "by",
+  "precio": 560
 }

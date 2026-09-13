@@ -28,7 +28,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:19-09-2022 Bulk25"
   },
   "specimens": [
     {
@@ -37,5 +37,6 @@
     }
   ],
   "numista": "https://en.numista.com/267407",
-  "country_code": "om"
+  "country_code": "om",
+  "precio": 959
 }

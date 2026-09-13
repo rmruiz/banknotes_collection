@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:15-03-2024"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://es.numista.com/202805",
-  "country_code": "al"
+  "country_code": "al",
+  "precio": 6500
 }

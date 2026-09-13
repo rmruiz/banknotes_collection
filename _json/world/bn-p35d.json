@@ -28,7 +28,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:24-05-2024"
   },
   "specimens": [
     {
@@ -37,5 +37,6 @@
     }
   ],
   "numista": "https://en.numista.com/267582",
-  "country_code": "bn"
+  "country_code": "bn",
+  "precio": 4000
 }

@@ -28,7 +28,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:09-08-2021 ebay"
   },
   "specimens": [
     {
@@ -37,5 +37,6 @@
     }
   ],
   "numista": "https://en.numista.com/204643",
-  "country_code": "ni"
+  "country_code": "ni",
+  "precio": 1620
 }

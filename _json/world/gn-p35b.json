@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:19-09-2022 Bulk25"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/203047",
-  "country_code": "gn"
+  "country_code": "gn",
+  "precio": 959
 }

@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:19-09-2022 Bulk26"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/215563",
-  "country_code": "sy"
+  "country_code": "sy",
+  "precio": 961
 }

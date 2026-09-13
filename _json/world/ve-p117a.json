@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:26-05-2023 ebay"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/325231",
-  "country_code": "ve"
+  "country_code": "ve",
+  "precio": 3990
 }

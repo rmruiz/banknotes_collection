@@ -25,7 +25,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:18-12-2023"
   },
   "specimens": [
     {
@@ -34,5 +34,6 @@
     }
   ],
   "numista": "https://en.numista.com/205587",
-  "country_code": "sg"
+  "country_code": "sg",
+  "precio": 4500
 }

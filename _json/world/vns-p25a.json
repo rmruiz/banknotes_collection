@@ -25,7 +25,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:25-06-2026"
   },
   "specimens": [
     {
@@ -34,5 +34,6 @@
     }
   ],
   "numista": "https://en.numista.com/208323",
-  "country_code": "vns"
+  "country_code": "vns",
+  "precio": 3500
 }

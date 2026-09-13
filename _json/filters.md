@@ -9,8 +9,8 @@ filtro (o vista) combina dos cosas:
 2. Una **query de la barra de búsqueda** (`query`) que se aplica al catálogo
    mediante la search bar.
 
-Se crea desde la UI (selector "Filtros" del toolbar del catálogo, opción
-"Nuevo…") y se aplica con un click al seleccionar su nombre en el mismo
+Se crea desde la UI (selector "Filtros" del menú lateral, bajo la sección
+Colección, opción "Nuevo…") y se aplica con un click al seleccionar su nombre en el mismo
 selector. El archivo es la fuente de verdad; `web/data/filters.json` es una
 copia de solo lectura para el navegador (ver "Cómo lo consume la web").
 

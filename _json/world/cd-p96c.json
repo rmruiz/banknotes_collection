@@ -30,7 +30,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:17-05-2026 ebay"
   },
   "specimens": [
     {
@@ -39,5 +39,6 @@
     }
   ],
   "numista": "https://en.numista.com/212968",
-  "country_code": "cd"
+  "country_code": "cd",
+  "precio": 1359
 }

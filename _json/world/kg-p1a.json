@@ -28,7 +28,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:26-05-2023 ebay"
   },
   "specimens": [
     {
@@ -37,5 +37,6 @@
     }
   ],
   "numista": "https://en.numista.com/201684",
-  "country_code": "kg"
+  "country_code": "kg",
+  "precio": 918
 }

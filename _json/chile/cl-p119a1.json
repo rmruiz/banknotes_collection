@@ -30,7 +30,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "1948 - 1958",
-    "obs": "otro:firma-sobre-agua"
+    "obs": "otro:firma-sobre-agua; FC:09-08-2021 ebay"
   },
   "specimens": [
     {
@@ -39,5 +39,6 @@
     }
   ],
   "numista": "https://en.numista.com/394381",
-  "country_code": "cl"
+  "country_code": "cl",
+  "precio": 5256
 }

@@ -28,7 +28,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": "Año del Caballo"
+    "obs": "Año del Caballo; FC:26-05-2023 ebay"
   },
   "specimens": [
     {
@@ -37,5 +37,6 @@
     }
   ],
   "numista": "https://en.numista.com/210000",
-  "country_code": "mo"
+  "country_code": "mo",
+  "precio": 7650
 }

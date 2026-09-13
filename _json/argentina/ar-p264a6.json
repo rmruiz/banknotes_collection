@@ -25,7 +25,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:07-05-2023"
   },
   "specimens": [
     {
@@ -34,5 +34,6 @@
     }
   ],
   "numista": "https://es.numista.com/212841",
-  "country_code": "ar"
+  "country_code": "ar",
+  "precio": 5500
 }

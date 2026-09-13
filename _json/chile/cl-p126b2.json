@@ -31,7 +31,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "1960 - 1961",
-    "obs": ""
+    "obs": "FC:26-05-2023 ebay"
   },
   "specimens": [
     {
@@ -40,5 +40,6 @@
     }
   ],
   "numista": "https://en.numista.com/205210",
-  "country_code": "cl"
+  "country_code": "cl",
+  "precio": 4950
 }

@@ -31,7 +31,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:17-03-2023"
   },
   "specimens": [
     {
@@ -40,5 +40,6 @@
     }
   ],
   "numista": "https://en.numista.com/228840",
-  "country_code": "bz"
+  "country_code": "bz",
+  "precio": 7500
 }

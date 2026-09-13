@@ -26,7 +26,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:19-09-2022 Bulk34"
   },
   "specimens": [
     {
@@ -35,5 +35,6 @@
     }
   ],
   "numista": "https://en.numista.com/202676",
-  "country_code": "ua"
+  "country_code": "ua",
+  "precio": 1074
 }

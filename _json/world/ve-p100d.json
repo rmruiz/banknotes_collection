@@ -2,7 +2,7 @@
   "id": "ve-p100d",
   "pick_number": "P-100d",
   "denomination": {
-    "value": 100,
+    "value": 100000,
     "currency": "Bolívares",
     "iso4217": "VEF",
     "subtype": "",
@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:19-09-2022 Bulk31"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/208841",
-  "country_code": "ve"
+  "country_code": "ve",
+  "precio": 774
 }

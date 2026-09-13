@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:25-07-2026"
   },
   "specimens": [
     {
@@ -35,5 +35,6 @@
       "condition": ""
     }
   ],
-  "country_code": "by"
+  "country_code": "by",
+  "precio": 2200
 }

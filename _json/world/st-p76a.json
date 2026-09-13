@@ -26,7 +26,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:18-12-2023"
   },
   "specimens": [
     {
@@ -35,5 +35,6 @@
     }
   ],
   "numista": "https://en.numista.com/304715",
-  "country_code": "st"
+  "country_code": "st",
+  "precio": 4500
 }

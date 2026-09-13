@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": "Año del Buey"
+    "obs": "Año del Buey; FC:10-02-2023"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/303129",
-  "country_code": "mo"
+  "country_code": "mo",
+  "precio": 5800
 }

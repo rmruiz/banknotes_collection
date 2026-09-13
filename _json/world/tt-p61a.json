@@ -30,7 +30,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:17-05-2026 ebay"
   },
   "specimens": [
     {
@@ -38,5 +38,6 @@
       "condition": "UNC"
     }
   ],
-  "country_code": "tt"
+  "country_code": "tt",
+  "precio": 2979
 }

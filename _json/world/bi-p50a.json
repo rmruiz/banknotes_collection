@@ -29,7 +29,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:10-02-2023"
   },
   "specimens": [
     {
@@ -38,5 +38,6 @@
     }
   ],
   "numista": "https://en.numista.com/205672",
-  "country_code": "bi"
+  "country_code": "bi",
+  "precio": 2375
 }

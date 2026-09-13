@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": "Juan Pablo II"
+    "obs": "FC:18-12-2023"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/202649",
-  "country_code": "pl"
+  "country_code": "pl",
+  "precio": 65000
 }

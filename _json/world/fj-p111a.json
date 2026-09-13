@@ -32,7 +32,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:25-07-2026"
   },
   "specimens": [
     {
@@ -40,5 +40,6 @@
       "condition": ""
     }
   ],
-  "country_code": "fj"
+  "country_code": "fj",
+  "precio": 17880
 }

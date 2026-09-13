@@ -30,7 +30,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "1948 - 1958",
-    "obs": "texto:10-III-1937"
+    "obs": "texto:10-III-1937; FC:10-02-2023"
   },
   "specimens": [
     {
@@ -39,5 +39,6 @@
     }
   ],
   "numista": "https://en.numista.com/213481",
-  "country_code": "cl"
+  "country_code": "cl",
+  "precio": 11600
 }

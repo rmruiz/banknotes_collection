@@ -29,7 +29,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:17-05-2026 ebay"
   },
   "specimens": [
     {
@@ -38,5 +38,6 @@
     }
   ],
   "numista": "https://en.numista.com/266870",
-  "country_code": "tt"
+  "country_code": "tt",
+  "precio": 5956
 }

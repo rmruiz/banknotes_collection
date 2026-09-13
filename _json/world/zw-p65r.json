@@ -27,7 +27,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": "Reemplazo"
+    "obs": "Reemplazo; FC:09-08-2021 ebay"
   },
   "specimens": [
     {
@@ -36,5 +36,6 @@
     }
   ],
   "numista": "https://en.numista.com/201927",
-  "country_code": "zw"
+  "country_code": "zw",
+  "precio": 6291
 }

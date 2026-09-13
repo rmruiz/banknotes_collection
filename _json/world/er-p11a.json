@@ -31,7 +31,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:25-07-2026"
   },
   "specimens": [
     {
@@ -39,5 +39,6 @@
       "condition": ""
     }
   ],
-  "country_code": "er"
+  "country_code": "er",
+  "precio": 4700
 }

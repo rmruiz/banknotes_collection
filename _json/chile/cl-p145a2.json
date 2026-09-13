@@ -30,7 +30,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "1967 - 1975",
-    "obs": "otro:nacionalización-del-cobre"
+    "obs": "FC:07-05-2023"
   },
   "specimens": [
     {
@@ -39,5 +39,6 @@
     }
   ],
   "numista": "https://en.numista.com/224942",
-  "country_code": "cl"
+  "country_code": "cl",
+  "precio": 9000
 }

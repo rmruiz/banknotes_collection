@@ -26,7 +26,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:18-12-2023"
   },
   "specimens": [
     {
@@ -35,5 +35,6 @@
     }
   ],
   "numista": "https://en.numista.com/205828",
-  "country_code": "is"
+  "country_code": "is",
+  "precio": 5400
 }

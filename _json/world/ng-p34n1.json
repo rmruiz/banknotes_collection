@@ -31,7 +31,7 @@
     "bank": "",
     "zone": "",
     "vigencia": "",
-    "obs": ""
+    "obs": "FC:17-05-2026 ebay"
   },
   "specimens": [
     {
@@ -40,5 +40,6 @@
     }
   ],
   "numista": "https://en.numista.com/203164",
-  "country_code": "ng"
+  "country_code": "ng",
+  "precio": 418
 }
