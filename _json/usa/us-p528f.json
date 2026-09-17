@@ -35,5 +35,6 @@
     }
   ],
   "numista": "https://en.numista.com/202467",
-  "country_code": "us"
+  "country_code": "us",
+  "precio": 100000
 }

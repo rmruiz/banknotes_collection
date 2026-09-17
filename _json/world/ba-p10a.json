@@ -34,5 +34,6 @@
       "condition": "UNC"
     }
   ],
-  "country_code": "ba"
+  "country_code": "ba",
+  "precio": 3500
 }

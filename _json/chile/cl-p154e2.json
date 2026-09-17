@@ -40,5 +40,6 @@
       "condition": "F"
     }
   ],
-  "country_code": "cl"
+  "country_code": "cl",
+  "precio": 3000
 }

@@ -37,5 +37,6 @@
       "condition": "UNC"
     }
   ],
-  "country_code": "ar"
+  "country_code": "ar",
+  "precio": 9900
 }

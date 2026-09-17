@@ -35,5 +35,6 @@
     }
   ],
   "numista": "https://en.numista.com/202012",
-  "country_code": "vn"
+  "country_code": "vn",
+  "precio": 3600
 }

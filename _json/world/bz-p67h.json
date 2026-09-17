@@ -45,5 +45,6 @@
       "condition": "UNC"
     }
   ],
-  "country_code": "bz"
+  "country_code": "bz",
+  "precio": 15100
 }

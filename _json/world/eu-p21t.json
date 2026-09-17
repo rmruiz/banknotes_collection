@@ -38,5 +38,6 @@
       "condition": "F"
     }
   ],
-  "country_code": "eu"
+  "country_code": "eu",
+  "precio": 10000
 }

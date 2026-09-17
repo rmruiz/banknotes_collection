@@ -37,5 +37,6 @@
     }
   ],
   "numista": "https://en.numista.com/240602",
-  "country_code": "nir"
+  "country_code": "nir",
+  "precio": 42000
 }

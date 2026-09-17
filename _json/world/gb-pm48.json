@@ -35,5 +35,6 @@
     }
   ],
   "numista": "https://en.numista.com/201610",
-  "country_code": "gb"
+  "country_code": "gb",
+  "precio": 1200
 }

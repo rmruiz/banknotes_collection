@@ -35,5 +35,6 @@
     }
   ],
   "numista": "https://en.numista.com/201817",
-  "country_code": "us"
+  "country_code": "us",
+  "precio": 12000
 }
