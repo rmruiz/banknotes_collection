@@ -27,6 +27,23 @@
         "precio",
         "obs"
       ]
+    },
+    {
+      "name": "new_banknotes",
+      "query": "",
+      "cols": [
+        "pais",
+        "verif",
+        "anio",
+        "condicion",
+        "colnect",
+        "numista",
+        "currency_code",
+        "monto",
+        "precio",
+        "serial",
+        "obs"
+      ]
     }
   ]
 }

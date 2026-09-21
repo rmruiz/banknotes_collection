@@ -1,0 +1,37 @@
+{
+  "id": "ve-p121a",
+  "pick_number": "P-121a",
+  "country_code": "ve",
+  "denomination": {
+    "value": 500,
+    "currency": "",
+    "iso4217": "VES",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2023,
+  "precio": 14985,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/159636-500_Bol%C3%ADvares-2021-2025_Bol%C3%ADvar_Digital_Issue-Venezuela",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "FC:19-09-2026 ebay"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

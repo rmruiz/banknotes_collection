@@ -1,0 +1,37 @@
+{
+  "id": "cl-p102a3",
+  "pick_number": "P-102a.3",
+  "country_code": "cl",
+  "denomination": {
+    "value": 5,
+    "currency": "",
+    "iso4217": "CLP",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1947,
+  "precio": 22050,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/67542-5_Pesos-1940-1948_Issue-Chile",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "FC:19-09-2026 ebay"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "VF"
+    }
+  ]
+}

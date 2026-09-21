@@ -1,0 +1,37 @@
+{
+  "id": "pk-p55a",
+  "pick_number": "P-55a",
+  "country_code": "pk",
+  "denomination": {
+    "value": 20,
+    "currency": "",
+    "iso4217": "PKR",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 2007,
+  "precio": 1629,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15637-20_Rupees-2007-2026_Issue-Pakistán",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "FC:19-09-2026 ebay"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

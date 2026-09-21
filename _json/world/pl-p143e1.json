@@ -1,0 +1,37 @@
+{
+  "id": "pl-p143e1",
+  "pick_number": "P-143e.1",
+  "country_code": "pl",
+  "denomination": {
+    "value": 100,
+    "currency": "",
+    "iso4217": "PLN",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1986,
+  "precio": 959,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/3604-100_Złotych-1974-1993_Great_Poles_Issue-Polonia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "FC:19-09-2026 ebay"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

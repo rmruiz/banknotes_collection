@@ -1,0 +1,38 @@
+{
+  "id": "id-p92a",
+  "pick_number": "P-92a",
+  "country_code": "id",
+  "denomination": {
+    "value": 10,
+    "currency": "",
+    "iso4217": "IDR",
+    "subtype": "",
+    "alternatives": [],
+    "subunidad": true
+  },
+  "year": 1964,
+  "precio": 1188,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16389-10_Sen-1964_Issue-Indonesia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "FC:19-09-2026 ebay"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

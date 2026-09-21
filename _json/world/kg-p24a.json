@@ -1,0 +1,38 @@
+{
+  "id": "kg-p24a",
+  "pick_number": "P-24a",
+  "country_code": "kg",
+  "denomination": {
+    "value": 20,
+    "currency": "",
+    "iso4217": "KGS",
+    "subtype": "",
+    "alternatives": [],
+    "subunidad": true
+  },
+  "year": 2009,
+  "precio": null,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/17569-20_Som-2009-2016_Issue-Kirguistán",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "FC:19-09-2026 ebay"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

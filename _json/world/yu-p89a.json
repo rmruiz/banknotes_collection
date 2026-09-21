@@ -1,0 +1,37 @@
+{
+  "id": "yu-p89a",
+  "pick_number": "P-89a",
+  "country_code": "yu",
+  "denomination": {
+    "value": 50,
+    "currency": "",
+    "iso4217": "YUD",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1978,
+  "precio": 949,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/15914-50_Dinara-Edicion_1978-Yugoslavia",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "FC:19-09-2026 ebay"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

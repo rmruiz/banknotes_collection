@@ -1,0 +1,37 @@
+{
+  "id": "sr-p137a",
+  "pick_number": "P-137a",
+  "country_code": "sr",
+  "denomination": {
+    "value": 10,
+    "currency": "",
+    "iso4217": "SRG",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1991,
+  "precio": null,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/11736-10_Gulden-1991-1999_Issue-Surinam",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "FC:19-09-2026 ebay"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

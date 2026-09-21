@@ -1,0 +1,37 @@
+{
+  "id": "pk-p37a3",
+  "pick_number": "P-37a.3",
+  "country_code": "pk",
+  "denomination": {
+    "value": 2,
+    "currency": "",
+    "iso4217": "PKR",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1986,
+  "precio": 949,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/43389-2_Rupees-1983-2006_ND_Issue-Pakist%C3%A1n",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "FC:19-09-2026 ebay"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "tr-p185a",
+  "pick_number": "P-185a",
+  "country_code": "tr",
+  "denomination": {
+    "value": 5,
+    "currency": "",
+    "iso4217": "TRY",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1976,
+  "precio": 949,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/16334-5_Turkish_Lira-1968-6Emisyon_Türk_Lirası-Türkiye_Turquía",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "FC:19-09-2026 ebay"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "UNC"
+    }
+  ]
+}

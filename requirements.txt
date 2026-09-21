@@ -3,4 +3,5 @@ requests
 beautifulsoup4
 langchain
 reportlab
+langchain_community
 

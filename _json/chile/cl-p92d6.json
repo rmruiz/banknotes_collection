@@ -1,0 +1,37 @@
+{
+  "id": "cl-p92d6",
+  "pick_number": "P-92d.6",
+  "country_code": "cl",
+  "denomination": {
+    "value": 10,
+    "currency": "",
+    "iso4217": "CLP",
+    "subtype": "",
+    "alternatives": []
+  },
+  "year": 1940,
+  "precio": 15750,
+  "numista": "",
+  "signatures": [],
+  "themes": [],
+  "colnect": {
+    "url": "https://colnect.com/es/banknotes/banknote/20234-10_Pesos-1931-1947_Issues-Chile",
+    "group": ""
+  },
+  "commemorative": false,
+  "overprint": false,
+  "verificado": true,
+  "notes": {
+    "serie": "",
+    "bank": "",
+    "zone": "",
+    "vigencia": "",
+    "obs": "FC:19-09-2026 ebay"
+  },
+  "specimens": [
+    {
+      "serial_number": "",
+      "condition": "F"
+    }
+  ]
+}
