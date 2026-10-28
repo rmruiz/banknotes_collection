@@ -15,9 +15,9 @@ jobs:
     name: Python (ruff, mypy, pytest)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"   # el código debe seguir siendo 3.9-compatible
 
@@ -39,20 +39,18 @@ jobs:
     name: "JS (node --test)"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 24
 
       # Runner nativo de Node, cero dependencias (decisión T1: KISS).
-      # Los tests viven en web/tests/*.test.js (desde T6).
-      # Forma del comando, válida en Node >=20 (lo que instala setup-node):
-      #  - argumento DIRECTORIO (no glob): el soporte de globs en --test es
-      #    de Node 21+; en 20 el patrón entre comillas se toma como ruta
-      #    literal inexistente (causa de 10 runs fallados).
-      #  - --experimental-detect-module: los .js con sintaxis ESM son CJS
-      #    por defecto en Node 20 (package.json está gitignoreado, no hay
-      #    "type":"module" en el runner); default recién en Node 22.
+      # Los tests viven en web/tests/*.test.js (desde T6). Se pasa el
+      # DIRECTORIO (no un glob entre comillas): descubrimiento nativo de
+      # --test desde Node 18, sin depender de la expansión del shell.
+      # Node >= 22.7 detecta sintaxis ESM en .js por defecto (package.json
+      # está gitignoreado, no hay "type":"module" en el runner).
+
       - name: node --test
-        run: node --experimental-detect-module --test web/tests
+        run: node --test web/tests
