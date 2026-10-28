@@ -431,6 +431,8 @@ def test_build_issues_por_categoria(sample_build):
     assert len(cat["sin_condicion"]) == 1
     assert cat["sin_condicion"][0]["id"] == "cl-p100"
     assert len(cat["sin_fotos"]) == 1
+    sf = cat["sin_fotos"][0]
+    assert sf["mid_a"] == "" and "mid_b" in sf   # claves media p/ el zoom remoto
     assert len(cat["sin_full"]) == 1
     assert res["problemas"] == sum(len(v) for v in cat.values()) == 9
 

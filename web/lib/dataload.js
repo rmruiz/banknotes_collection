@@ -23,6 +23,25 @@ export function hideEditLinks() {
 }
 
 /**
+ * Regla de producción compartida: fuera de localhost, los zooms y fallbacks
+ * que apuntan a `_originals/` (≈2 MB/cara) o `_FULL/` (≈300 KB) se remapean
+ * a la capa media `_MID/` (≤800 px), que es la única resolución de imágenes
+ * que Firebase sirve — los originales no se despliegan. Mutua `records` in
+ * place; registra sin media conserva su ruta original (muestra el 404 que
+ * ya mostraría hoy). Auto-protegido: en localhost (modo admin) no hace nada.
+ * @param {object[]} records registros de collection.json (o items de issues.json)
+ */
+export function useMidImages(records) {
+  if (isLocal()) return records;
+  for (const r of records) {
+    if (r.mid_a) r.img_a = r.mid_a;
+    if (r.mid_b) r.img_b = r.mid_b;
+    if (r.mid_full) r.img_full = r.mid_full;
+  }
+  return records;
+}
+
+/**
  * Inserta un banner de error de datos al inicio de `root`.
  * Usa textContent (nunca innerHTML) — las líneas no se parsean como HTML.
  * @param {Element} root contenedor (document.body o el main de la página)

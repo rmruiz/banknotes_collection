@@ -352,6 +352,7 @@ def build_issues_data(records, meta, force=False, json_malos=None):
         return {"id": r["id"], "pick": r["pick"], "pais": r["pais"],
                 "denominacion": r["denominacion"], "anio": r["anio"] or "",
                 "thumb_a": r["thumb_a"], "img_a": r["img_a"],
+                "mid_a": r["mid_a"], "mid_b": r["mid_b"],
                 "thumb_b": r["thumb_b"], "img_b": r["img_b"]}
 
     # billetes a los que falta alguna foto (front o back)

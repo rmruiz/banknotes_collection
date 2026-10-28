@@ -75,6 +75,9 @@ firebase deploy --only hosting
 ```
 
 > Nota: El directorio público para Firebase es `web/` según la configuración en `firebase.json`.
+> Los directorios `web/_originals/` y `web/_FULL/` están en `ignore`: no se despliegan (5 GB).
+> Fuera de localhost el navegador usa solo `thumbs/` y `_MID/` (los zoomes se remapean a la capa media);
+> las fotos completas quedan disponibles únicamente en el servidor local de administración.
 ```
 
 ### Paso 4: Ejecutar el Servidor Web  

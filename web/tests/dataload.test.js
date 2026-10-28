@@ -72,3 +72,34 @@ test("hideEditLinks: fuera de localhost oculta todos los links -edit.html; en lo
   hideEditLinks();
   assert.equal(els[0].style.display, "");
 });
+
+test("useMidImages: producción remapea img_* a _MID; local conserva originales", async () => {
+  const { useMidImages } = await import("../lib/dataload.js");
+  const rec = {
+    img_a: "_originals/ab-p3a/ab-p3a_A.jpg?v=1", mid_a: "_MID/ab-p3a_A.webp?v=1",
+    img_b: "_originals/ab-p3a/ab-p3a_B.jpg?v=2", mid_b: "_MID/ab-p3a_B.webp?v=2",
+    img_full: "_FULL/ab-p3a.webp?v=3", mid_full: "_MID/ab-p3a_F.webp?v=3",
+  };
+  // local (modo admin): intacto — el zoom carga el original
+  makeDom("localhost");
+  useMidImages([rec]);
+  assert.ok(rec.img_a.startsWith("_originals/"));
+  assert.ok(rec.img_full.startsWith("_FULL/"));
+  // producción: cada img_* con media disponible pasa a _MID
+  makeDom("banknotes.web.app");
+  useMidImages([rec]);
+  assert.equal(rec.img_a, "_MID/ab-p3a_A.webp?v=1");
+  assert.equal(rec.img_b, "_MID/ab-p3a_B.webp?v=2");
+  assert.equal(rec.img_full, "_MID/ab-p3a_F.webp?v=3");
+});
+
+test("useMidImages: sin media o sin claves se conserva la ruta original", async () => {
+  makeDom("banknotes.web.app");
+  const { useMidImages } = await import("../lib/dataload.js");
+  const sinMedia = { img_a: "_originals/x/x_A.jpg?v=9", mid_a: "" };
+  const items = [sinMedia, ["archivo.json", "error"], { id: "huérfana", img_a: "_originals/o/A.jpg" }];
+  useMidImages(items);
+  assert.equal(sinMedia.img_a, "_originals/x/x_A.jpg?v=9");
+  assert.deepEqual(items[1], ["archivo.json", "error"]);
+  assert.equal(items[2].img_a, "_originals/o/A.jpg");
+});

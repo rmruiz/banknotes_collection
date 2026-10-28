@@ -2,7 +2,7 @@
 "use strict";
 
 import { esc, CONDICIONES } from "./lib/format.js";
-import { hideEditLinks } from "./lib/dataload.js";
+import { hideEditLinks, useMidImages } from "./lib/dataload.js";
 import { initSideMenu } from "./lib/menu.js";
 import { bindHeaderLang } from "./lib/lang.js";
 
@@ -231,6 +231,8 @@ async function load() {
   try {
     const res = await fetch("data/issues.json", { cache: "no-store" });
     data = await res.json();
+  // producción: los zoomes de las tablas sirven _MID (originales no desplegados)
+  data.categorias.forEach((c) => useMidImages(c.items));
   } catch {
     document.querySelector("#secciones").innerHTML =
       "<p>No se pudo cargar data/issues.json — corre el build o presiona " +

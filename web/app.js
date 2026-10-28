@@ -11,7 +11,7 @@ import {
 import { translate, paisDisplay as paisDisplayLib } from "./lib/i18n.js";
 import { COL_ALIASES, getCol, parseQuery, matches, sortRecords } from "./lib/query.js";
 import { normalizeFilters, filterCols, matchesFilter } from "./lib/filters.js";
-import { isLocal, showDataError, hideEditLinks } from "./lib/dataload.js";
+import { isLocal, showDataError, hideEditLinks, useMidImages } from "./lib/dataload.js";
 import { initSideMenu } from "./lib/menu.js";
 import { bindHeaderLang } from "./lib/lang.js";
 
@@ -887,6 +887,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     return;
   }
    state.all = await res.json();
+  // producción: los zooms sirven _MID (los originales no se despliegan)
+  useMidImages(state.all);
    state.currencies = currenciesRes ? await currenciesRes.json() : {};
    state.filters = filtersRes
      ? normalizeFilters(await filtersRes.json().catch(() => null))
