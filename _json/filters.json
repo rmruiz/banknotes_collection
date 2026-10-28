@@ -44,6 +44,22 @@
         "serial",
         "obs"
       ]
+    },
+    {
+      "name": "vista_default",
+      "query": "",
+      "cols": [
+        "pais",
+        "verif",
+        "anio",
+        "condicion",
+        "colnect",
+        "numista",
+        "obs",
+        "denominacion",
+        "front",
+        "back"
+      ]
     }
   ]
 }

@@ -4,6 +4,7 @@ _folders.originals/
 __pycache__/
 .claude/
 web/thumbs/
+web/_MID/
 web/data/
 scratchpad
 etiquetas.pdf

@@ -541,7 +541,7 @@ import { bindHeaderLang } from "./lib/lang.js";
             notes.forEach(n => {
                 const card = document.createElement('div');
                 card.className = 'note-mini-card';
-                const imgSrc = n.img_full || n.thumb_f || n.thumb_a || "";
+                const imgSrc = n.thumb_f || n.thumb_a || n.mid_full || n.mid_a || "";
                 card.innerHTML = `
                     ${imgSrc ? `<img class="note-mini-img" src="${esc(imgSrc)}" alt="${esc(n.pick || n.id)}" loading="lazy" onerror="this.style.display='none'">` : ""}
                     <div class="note-mini-meta">

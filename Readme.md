@@ -90,7 +90,7 @@ Accede a la aplicación en [http://localhost:8000/web/](http://localhost:8000/we
 | Script | Propósito | Formas de Uso |  
 |--------|-----------|---------------|  
 | `_scripts/serve_web.py` | Servidor web local y API REST para visualización y administración (crear billetes, editar JSONs, verificar billetes y solicitar generación de imágenes `_FULL/`). | `python3 _scripts/serve_web.py 8000` |  
-| `_scripts/build_web.py` | Genera el índice unificado `web/data/collection.json`, publica `web/data/currencies.json` y genera las miniaturas en `web/thumbs/`. | `python3 _scripts/build_web.py --force` |
+| `_scripts/build_web.py` | Genera el índice unificado `web/data/collection.json`, publica `web/data/currencies.json`, genera las miniaturas en `web/thumbs/` y la capa media `_MID/` (webp ≤800 px para hero móvil y modales). | `python3 _scripts/build_web.py --force` |
 | `_scripts/generar_imagen.py` | Genera la imagen consolidada `_FULL/<id>.jpg` (frente + info + bandera + reverso). Funciona en CLI y como servicio API del servidor web (`POST /api/generar_full`). | `python3 _scripts/generar_imagen.py` <br> `python3 _scripts/generar_imagen.py --filter chile` |  
 | `_scripts/generar_etiquetas.py` | Genera un archivo PDF (`etiquetas.pdf`) imprimible en formato Carta con etiquetas físicas estructuradas para cada billete usando ReportLab. | `python3 _scripts/generar_etiquetas.py` <br> `python3 _scripts/generar_etiquetas.py --filter chile` |  
 | `_scripts/extract_serial.py` | Extrae números de serie leyendo las imágenes de los billetes mediante IA local (Ollama). | `python3 _scripts/extract_serial.py` |  
@@ -172,7 +172,8 @@ banknotes_collection/
 │   └── git_clean_json.sh     # Limpiador/formateador de archivos JSON.
 └── web/                      # Aplicación web estática (HTML, JS, CSS).
     ├── _originals/           # Fotografías originales por billete (_originals/<id>/<id>_A.jpg y <id>_B.jpg).
-    ├── _FULL/                # Imágenes consolidadas en alta resolución (<id>.jpg).
+    ├── _FULL/                # Imágenes consolidadas en alta resolución (<id>.webp).
+    ├── _MID/                 # Capa media webp (<id>_A/_B/_F.webp, ≤800 px) servida al navegador.
     ├── _flags_svg/           # Banderas de países en formato SVG.
     ├── index.html            # Página principal del catálogo numismático.
     ├── index-edit.html       # Página de edición.

@@ -254,8 +254,8 @@ function render() {
       ${checkCell(r, "verif", "verificado")}
       ${!isEditMode ? `
       <td class="mobile-hero" data-id="${esc(r.id)}">
-        <img src="${esc(r.img_full || r.img_a || r.img_b || "")}"
-             ${r.img_full || r.img_a || r.img_b ? "loading=\"lazy\"" : ""}
+        <img src="${esc(r.mid_full || r.mid_a || r.mid_b || r.img_full || r.img_a || r.img_b || "")}"
+             ${r.mid_full || r.mid_a || r.mid_b || r.img_full || r.img_a || r.img_b ? "loading=\"lazy\"" : ""}
              alt="${esc(r.pick || r.id)}">
         ${!(r.img_full || r.img_a || r.img_b) ? esc(r.pick || r.id) : ""}
       </td>` : ""}
@@ -403,10 +403,10 @@ function renderDetail() {
     .join("");
 
   $("#detail-imgs").innerHTML = [
-    ["img_a", "Front"], ["img_b", "Back"],
+    ["img_a", "mid_a", "Front"], ["img_b", "mid_b", "Back"],
   ]
     .filter(([k]) => r[k])
-    .map(([k, side]) => `<img src="${esc(r[k])}" loading="lazy" alt="${side} ${esc(r.pick)}"
+    .map(([k, midKey, side]) => `<img src="${esc(r[midKey] || r[k])}" loading="lazy" alt="${side} ${esc(r.pick)}"
         data-img="${esc(r[k])}" data-id="${esc(r.id)}" data-side="${side}">`)
     .join("");
 
@@ -491,10 +491,11 @@ function renderMobileDetail() {
     .join("");
 
   $("#mobile-detail-imgs").innerHTML = [
-    ["img_a", "Front"], ["img_b", "Back"], ["img_full", "Full"],
+    ["img_a", "mid_a", "Front"], ["img_b", "mid_b", "Back"],
+    ["img_full", "mid_full", "Full"],
   ]
     .filter(([k]) => r[k])
-    .map(([k, side]) => `<img src="${esc(r[k])}" loading="lazy" alt="${side} ${esc(r.pick)}"
+    .map(([k, midKey, side]) => `<img src="${esc(r[midKey] || r[k])}" loading="lazy" alt="${side} ${esc(r.pick)}"
         data-img="${esc(r[k])}" data-id="${esc(r.id)}" data-side="${side}">`)
     .join("");
 

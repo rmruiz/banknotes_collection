@@ -836,8 +836,10 @@ class Handler(SimpleHTTPRequestHandler):
             return self._json_error(500, f"rebuild falló: {e}")
         res["ok"] = True
         self._json_ok(res)
-        self.log_message("rebuild: %s registros, %s thumbs nuevas, %s json inválidos",
+        self.log_message("rebuild: %s registros, %s thumbs nuevas, "
+                         "%s medias nuevas, %s json inválidos",
                          res["registros"], res["thumbs_generadas"],
+                         res.get("mid_generadas", 0),
                          res.get("json_invalidos", 0))
 
     def _handle_update(self, _id, field, value):
@@ -1019,11 +1021,12 @@ def main(argv: list[str] | None = None) -> None:
 
     print(f"Sirviendo {REPO}", flush=True)
     # rebuild al arrancar: así reiniciar el servidor siempre sirve datos frescos
-    print("Reconstruyendo datos (collection/issues/miniaturas)…", flush=True)
+    print("Reconstruyendo datos (collection/issues/miniaturas/medias)…", flush=True)
     res = build_web.build()
     reindex()
     print(f"  {res['registros']} billetes | con fotos: {res['con_front']} "
           f"| thumbs nuevas: {res['thumbs_generadas']} "
+          f"| medias nuevas: {res.get('mid_generadas', 0)} "
           f"| problemas: {res['problemas']}")
     if res.get("json_invalidos"):
         print(f"  ⚠ JSON inválidos (omitidos del índice): {res['json_invalidos']}"

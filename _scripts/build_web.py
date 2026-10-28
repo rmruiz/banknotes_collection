@@ -41,12 +41,15 @@ REPO = Path(__file__).resolve().parent.parent
 JSON_DIR = REPO / "_json"
 WEB = REPO / "web"
 THUMBS = WEB / "thumbs"
+MID = WEB / "_MID"      # capa media webp (hero móvil + modal detalle)
 DATA = WEB / "data"
 FLAGS_SVG = WEB / "_flags_svg"
 ORIGINALS = WEB / "_originals"
 
 THUMB_WIDTH = 360   # alcanza para mostrar nítido hasta 3x (132px de alto)
 THUMB_QUALITY = 80
+MID_LONG_EDGE = 800      # cubre el hero móvil a retina 2x (390 px) y el modal (≤30vh)
+MID_QUALITY = 70
 WORKERS = 8
 
 
@@ -147,19 +150,24 @@ def record_to_json(d, web=None, flags_svg=None):
     notes = d.get("notes", {})
     _id = d["id"]
 
-    def resolve(rel, thumb_suffix):
-        """ruta original + ruta thumb (con ?v=<firma> para invalidar caché
-        del navegador cuando la foto cambia), solo si el archivo existe."""
+    def resolve(rel, suffix, mid_fmt):
+        """ruta original + thumb + media (con ?v=<firma> para invalidar caché
+        del navegador cuando la foto cambia), solo si el archivo existe.
+
+        La media (`_MID/`) se deriva de la misma fuente que el registro
+        apunta (original o Full); build() la genera de forma incremental."""
         src = web / rel
         if not src.exists():
-            return "", ""
+            return "", "", ""
         v = file_v(src)
-        return f"{rel}?v={v}", f"thumbs/{_id}_{thumb_suffix}.jpg?v={v}"
+        return (f"{rel}?v={v}",
+                f"thumbs/{_id}_{suffix}.jpg?v={v}",
+                f"_MID/{_id}_{suffix}.{mid_fmt}?v={v}")
 
     # rutas por convención a partir del id (no se guardan en los JSON)
-    img_a, thumb_a = resolve(f"_originals/{_id}/{_id}_A.jpg", "A")
-    img_b, thumb_b = resolve(f"_originals/{_id}/{_id}_B.jpg", "B")
-    img_f, thumb_f = resolve(f"_FULL/{_id}.webp", "F")
+    img_a, thumb_a, mid_a = resolve(f"_originals/{_id}/{_id}_A.jpg", "A", "webp")
+    img_b, thumb_b, mid_b = resolve(f"_originals/{_id}/{_id}_B.jpg", "B", "webp")
+    img_f, thumb_f, mid_f = resolve(f"_FULL/{_id}.webp", "F", "webp")
 
     c_code = d.get("country_code", "")
     c_info = get_country_by_code(c_code) if c_code else get_country_by_name((d.get("country") or {}).get("es", ""))
@@ -212,6 +220,7 @@ def record_to_json(d, web=None, flags_svg=None):
         "flag": (lambda fn: f"_flags_svg/{fn}?v={file_v(flags_svg / fn)}" if fn else "")(
             flag_file_for_note(d)),
         "thumb_a": thumb_a, "thumb_b": thumb_b, "thumb_f": thumb_f,
+        "mid_a": mid_a, "mid_b": mid_b, "mid_full": mid_f,
         "img_a": img_a, "img_b": img_b, "img_full": img_f,
     }
     rec["search"] = build_search(
@@ -237,32 +246,44 @@ def make_record(d):
 
 
 def thumb_jobs(rec, meta, force=False):
-    """(src, dest, clave, firma) pendientes para este registro.
+    """(src, dest, clave, firma, ancho, calidad, formato) pendientes.
 
-    Un thumb está al día si la firma (mtime_ns + tamaño) de su fuente
+    Cubre miniaturas jpg (`thumbs/`) y capa media webp (`_MID/`). Un
+    derivado está al día si la firma (mtime_ns + tamaño) de su fuente
     coincide con la registrada en thumbs_meta.json — cubre reemplazos,
     renombres e intercambios de archivos aunque conserven su fecha.
+    Las carpetas sin JSON (página Problemas) solo llevan miniatura.
     """
     jobs = []
-    for img_key, thumb_key in (("img_a", "thumb_a"), ("img_b", "thumb_b"),
-                               ("img_full", "thumb_f")):
-        rel, th = rec[img_key].split("?", 1)[0], rec[thumb_key].split("?", 1)[0]
-        if not rel or not th:
+    for img_key, thumb_key, mid_key in (
+            ("img_a", "thumb_a", "mid_a"),
+            ("img_b", "thumb_b", "mid_b"),
+            ("img_full", "thumb_f", "mid_full")):
+        rel = rec.get(img_key, "").split("?", 1)[0]
+        if not rel:
             continue
         src = (WEB / rel).resolve()          # '../_originals/...' relativo a web/
-        dest = WEB / th
         sig = file_sig(src)
-        if force or not dest.exists() or meta.get(th) != sig:
-            jobs.append((src, dest, th, sig))
+        for dest_key, width, quality, fmt in (
+                (rec.get(thumb_key, ""), THUMB_WIDTH, THUMB_QUALITY, "jpg"),
+                (rec.get(mid_key, ""), MID_LONG_EDGE, MID_QUALITY, "webp")):
+            dest_rel = dest_key.split("?", 1)[0]
+            if not dest_rel:
+                continue
+            dest = WEB / dest_rel
+            if force or not dest.exists() or meta.get(dest_rel) != sig:
+                jobs.append((src, dest, dest_rel, sig, width, quality, fmt))
     return jobs
 
 
 def make_thumb(job):
-    src, dest, key, sig = job
+    src, dest, key, sig, width, quality, fmt = job
+    scale = (("-thumbnail", f"{width}x") if fmt == "jpg"
+             else ("-resize", f"{width}x{width}>"))   # media: solo encoge
     try:
         subprocess.run(
-            ["magick", str(src), "-auto-orient", "-thumbnail", f"{THUMB_WIDTH}x",
-             "-quality", str(THUMB_QUALITY), str(dest)],
+            ["magick", str(src), "-auto-orient", *scale,
+             "-quality", str(quality), str(dest)],
             check=True, capture_output=True)
         return True, (key, sig)
     except subprocess.CalledProcessError as e:
@@ -299,7 +320,8 @@ def build_issues_data(records, meta, force=False, json_malos=None):
             item[key_i] = f"_originals/{sub.name}/{src.name}?v={v}"
             sig = file_sig(src)
             if force or not (WEB / th).exists() or meta.get(th) != sig:
-                jobs.append((src, WEB / th, th, sig))
+                jobs.append((src, WEB / th, th, sig,
+                             THUMB_WIDTH, THUMB_QUALITY, "jpg"))
         items.append(item)
 
     # billetes sin número de pick (el id quedó como abreviatura-moneda-año)
@@ -450,8 +472,9 @@ def build_issues_data(records, meta, force=False, json_malos=None):
 
 
 def build(force=False, verbose=False):
-    """Reconstruye collection.json y las miniaturas. Retorna un resumen."""
+    """Reconstruye collection.json, miniaturas y capa media. Resumen."""
     THUMBS.mkdir(parents=True, exist_ok=True)
+    MID.mkdir(parents=True, exist_ok=True)
     DATA.mkdir(parents=True, exist_ok=True)
 
     records = []
@@ -484,24 +507,31 @@ def build(force=False, verbose=False):
                                            json_malos=json_malos)
     jobs += issue_jobs
     if verbose:
-        print(f"Registros: {len(records)} | miniaturas a generar: {len(jobs)}")
+        print(f"Registros: {len(records)} | derivados a generar: {len(jobs)}")
 
-    ok = fail = 0
+    ok = fail = mid_ok = mid_fail = 0
     errores = []
     if jobs:
         with ThreadPoolExecutor(max_workers=WORKERS) as ex:
-            for success, info in ex.map(make_thumb, jobs):
+            for job, (success, info) in zip(jobs, ex.map(make_thumb, jobs)):
+                is_mid = job[6] == "webp"
                 if success:
-                    ok += 1
                     key, sig = info
                     meta[key] = sig
+                    if is_mid:
+                        mid_ok += 1
+                    else:
+                        ok += 1
                 else:
-                    fail += 1
+                    if is_mid:
+                        mid_fail += 1
+                    else:
+                        fail += 1
                     errores.append(str(info))
                     if verbose:
                         print(f"  ✗ {info}")
-                if verbose and (ok + fail) % 200 == 0:
-                    print(f"  … {ok + fail}/{len(jobs)}")
+                if verbose and (ok + fail + mid_ok + mid_fail) % 200 == 0:
+                    print(f"  … {ok + fail + mid_ok + mid_fail}/{len(jobs)}")
     atomic_write_text(meta_path, json.dumps(meta, separators=(",", ":")))
 
     out = DATA / "collection.json"
@@ -543,6 +573,8 @@ def build(force=False, verbose=False):
         "con_full": sum(1 for r in records if r["thumb_f"]),
         "thumbs_generadas": ok,
         "thumbs_errores": fail,
+        "mid_generadas": mid_ok,
+        "mid_errores": mid_fail,
         "errores": errores[:10],
         "kb": out.stat().st_size // 1024,
     }
@@ -551,7 +583,7 @@ def build(force=False, verbose=False):
 def main(argv: list[str] | None = None) -> None:
     p = argparse.ArgumentParser(description="Construye los artefactos de la web estática.")
     p.add_argument("--force", action="store_true",
-                   help="regenera todas las miniaturas (default: incremental)")
+                   help="regenera todas las miniaturas y medias (default: incremental)")
     a = p.parse_args(argv)
     res = build(force=a.force, verbose=True)
     print(f"\ncollection.json: {res['registros']} registros ({res['kb']} KB)")
@@ -559,6 +591,8 @@ def main(argv: list[str] | None = None) -> None:
           f"| con full: {res['con_full']}")
     print(f"Miniaturas: generadas={res['thumbs_generadas']} "
           f"errores={res['thumbs_errores']}")
+    print(f"Medias (_MID): generadas={res['mid_generadas']} "
+          f"errores={res['mid_errores']}")
     if res["json_invalidos"]:
         print(f"⚠ JSON inválidos (omitidos del índice): {res['json_invalidos']}"
               " — detalle en la página Problemas")

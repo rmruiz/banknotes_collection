@@ -11,6 +11,7 @@ import json
 import re
 import shutil
 from pathlib import Path
+import subprocess
 
 import pytest
 
@@ -165,26 +166,42 @@ def test_thumb_jobs_detecta_pendientes_y_al_dia(tmp_path, monkeypatch):
     src.write_bytes(b"fotos")
     rec = {
         "img_a": "src.jpg?v=1", "thumb_a": "thumbs/t_A.jpg?v=1",
-        "img_b": "", "thumb_b": "",
-        "img_full": "", "thumb_f": "",
+        "mid_a": "_MID/t_A.webp?v=1",
+        "img_b": "", "thumb_b": "", "mid_b": "",
+        "img_full": "", "thumb_f": "", "mid_full": "",
     }
-    # sin meta: está pendiente
+    # sin meta: thumb y media pendientes, en ese orden
     jobs = build_web.thumb_jobs(rec, {})
-    assert len(jobs) == 1
+    assert [j[2] for j in jobs] == ["thumbs/t_A.jpg", "_MID/t_A.webp"]
     assert jobs[0][0] == src.resolve()
-    assert jobs[0][2] == "thumbs/t_A.jpg"
-    # al día solo si el thumb existe Y la firma del origen coincide con la meta
-    dest = tmp_path / "thumbs" / "t_A.jpg"
-    dest.parent.mkdir(parents=True)
-    dest.write_bytes(b"thumb")
-    meta = {"thumbs/t_A.jpg": build_web.file_sig(src)}
+    # (ancho, calidad, formato) por tipo de derivado
+    assert jobs[0][4:] == (build_web.THUMB_WIDTH, build_web.THUMB_QUALITY, "jpg")
+    assert jobs[1][4:] == (build_web.MID_LONG_EDGE, build_web.MID_QUALITY, "webp")
+    # al día solo si cada derivado existe Y la firma del origen coincide
+    for rel in ("thumbs/t_A.jpg", "_MID/t_A.webp"):
+        dest = tmp_path / rel
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_bytes(b"derivado")
+    meta = {"thumbs/t_A.jpg": build_web.file_sig(src),
+            "_MID/t_A.webp": build_web.file_sig(src)}
     assert build_web.thumb_jobs(rec, meta) == []
-    # si el thumb falta, se regenera aunque la firma de la meta cuadre
-    dest.unlink()
-    assert len(build_web.thumb_jobs(rec, meta)) == 1
-    # force: siempre se regenera
-    dest.write_bytes(b"thumb")
-    assert len(build_web.thumb_jobs(rec, meta, force=True)) == 1
+    # si falta solo la media, se regenera esa y el thumb queda tranquilo
+    (tmp_path / "_MID" / "t_A.webp").unlink()
+    assert [j[2] for j in build_web.thumb_jobs(rec, meta)] == ["_MID/t_A.webp"]
+    # force: siempre se regeneran ambos
+    (tmp_path / "_MID" / "t_A.webp").write_bytes(b"derivado")
+    assert len(build_web.thumb_jobs(rec, meta, force=True)) == 2
+
+
+def test_thumb_jobs_sin_media_para_billete_viejo(tmp_path, monkeypatch):
+    """Registros sin claves mid (collection.json previo a la capa media)
+    solo generan miniaturas, sin KeyError."""
+    monkeypatch.setattr(build_web, "WEB", tmp_path)
+    src = tmp_path / "src.jpg"
+    src.write_bytes(b"fotos")
+    rec = {"img_a": "src.jpg?v=1", "thumb_a": "thumbs/t_A.jpg?v=1"}
+    jobs = build_web.thumb_jobs(rec, {})
+    assert [j[2] for j in jobs] == ["thumbs/t_A.jpg"]
 
 
 # --- record_to_json ------------------------------------------------------------
@@ -239,6 +256,11 @@ def test_record_to_json_billete_completo():
     assert rec["img_b"] and rec["thumb_b"]
     assert re.fullmatch(rf"_FULL/cl-p125\.webp\?v={V_TOKEN}", rec["img_full"])
     assert re.fullmatch(rf"thumbs/cl-p125_F\.jpg\?v={V_TOKEN}", rec["thumb_f"])
+    # capa media: webp en _MID/, versión idéntica a la de su fuente
+    assert re.fullmatch(rf"_MID/cl-p125_A\.webp\?v={V_TOKEN}", rec["mid_a"])
+    assert rec["img_a"].rsplit("=", 1)[1] == rec["mid_a"].rsplit("=", 1)[1]
+    assert rec["mid_b"] and rec["mid_full"]
+    assert rec["img_full"].rsplit("=", 1)[1] == rec["mid_full"].rsplit("=", 1)[1]
 
     # campo search: normalizado, sin acentos, con país y monto
     s = rec["search"]
@@ -273,8 +295,9 @@ def test_record_to_json_campos_faltantes():
     assert rec["serial"] == ""
     assert rec["colnect"] == ""
     assert rec["verificado"] is False
-    # sin fotos: los seis campos de ruta quedan vacíos
-    for key in ("img_a", "img_b", "img_full", "thumb_a", "thumb_b", "thumb_f"):
+    # sin fotos: los nueve campos de ruta quedan vacíos
+    for key in ("img_a", "img_b", "img_full", "thumb_a", "thumb_b", "thumb_f",
+                "mid_a", "mid_b", "mid_full"):
         assert rec[key] == ""
     # la bandera sí se resuelve por el nombre del país
     assert re.fullmatch(rf"_flags_svg/cl\.svg\?v={V_TOKEN}", rec["flag"])
@@ -305,10 +328,28 @@ def test_make_record_es_alias_de_record_to_json():
 
 
 def test_make_thumb_falla_sin_derrumbar(tmp_path):
-    job = (tmp_path / "no_existe.jpg", tmp_path / "out.jpg", "k", "sig")
+    job = (tmp_path / "no_existe.jpg", tmp_path / "out.jpg", "k", "sig",
+           build_web.THUMB_WIDTH, build_web.THUMB_QUALITY, "jpg")
     ok, info = build_web.make_thumb(job)
     assert ok is False
     assert info.startswith("out.jpg")
+
+
+def test_make_thumb_media_produce_webp(tmp_path):
+    """Job de capa media: destino webp válido y sin agrandar la fuente."""
+    src = tmp_path / "src.jpg"
+    shutil.copyfile(SAMPLE_WEB / "_originals/cl-p125/cl-p125_A.jpg", src)
+    dest = tmp_path / "out.webp"
+    job = (src, dest, "_MID/t_A.webp", "sig",
+           build_web.MID_LONG_EDGE, build_web.MID_QUALITY, "webp")
+    ok, (key, sig) = build_web.make_thumb(job)
+    assert ok is True and key == "_MID/t_A.webp" and sig == "sig"
+    assert dest.read_bytes()[:4] == b"RIFF" and dest.read_bytes()[8:12] == b"WEBP"
+    w, h = (int(x) for x in subprocess.run(
+        ["magick", "identify", "-format", "%w %h", str(dest)],
+        check=True, capture_output=True, text=True).stdout.split())
+    # fuente 400x200: -resize 1000x1000> solo encoge, nunca agranda
+    assert (w, h) == (400, 200)
 
 
 # --- build() de integración (tests/sample_data) --------------------------------
@@ -324,6 +365,7 @@ def sample_build(tmp_path, monkeypatch):
     monkeypatch.setattr(build_web, "JSON_DIR", root / "_json")
     monkeypatch.setattr(build_web, "WEB", root / "web")
     monkeypatch.setattr(build_web, "THUMBS", root / "web" / "thumbs")
+    monkeypatch.setattr(build_web, "MID", root / "web" / "_MID")
     monkeypatch.setattr(build_web, "DATA", root / "web" / "data")
     monkeypatch.setattr(build_web, "FLAGS_SVG", root / "web" / "_flags_svg")
     monkeypatch.setattr(build_web, "ORIGINALS", root / "web" / "_originals")
@@ -355,6 +397,7 @@ def test_build_registra_billetes_validos(sample_build):
     assert r125["verificado"] is True
     assert r125["flag"].startswith("_flags_svg/cl.svg?v=")
     assert r125["thumb_a"] and r125["img_a"] and r125["img_full"]
+    assert r125["mid_a"] and r125["mid_b"] and r125["mid_full"]
     assert "chile" in r125["search"] and "1.000 pesos" in r125["search"]
 
     # valor 1 -> singular
@@ -365,6 +408,7 @@ def test_build_registra_billetes_validos(sample_build):
     assert r100["pick"] == ""
     assert r100["pais"] == "Chile"
     assert r100["denominacion"] == "Maravedí"
+    assert r100["mid_a"] == "" and r100["mid_full"] == ""
 
 
 def test_build_issues_por_categoria(sample_build):
@@ -415,7 +459,7 @@ def test_build_sin_filters_no_copia(sample_build):
 
 
 def test_build_incremental_no_repite_thumbs(sample_build):
-    build_web.build(verbose=False)
+    res1 = build_web.build(verbose=False)
     data = sample_build / "web" / "data"
     col1 = (data / "collection.json").read_bytes()
     res2 = build_web.build(verbose=False)
@@ -423,13 +467,20 @@ def test_build_incremental_no_repite_thumbs(sample_build):
     # doble build byte-estable: determinismo del orden y de los campos
     # (issues.json NO es byte-estable: lleva timestamp "generado")
     assert hashlib.sha256(col1).digest() == hashlib.sha256(col2).digest()
-    # segunda pasada: nada pendiente -> no se regenera ningún thumb
+    # segunda pasada: nada pendiente -> no se regenera ningún derivado
     assert res2["thumbs_generadas"] == 0
+    assert res2["mid_generadas"] == 0
+    # primera pasada generó la capa media de las 5 fotos catalogadas
+    assert res1["mid_generadas"] == 5
+    assert (sample_build / "web" / "_MID" / "cl-p125_A.webp").exists()
+    assert (sample_build / "web" / "_MID" / "cl-p125_F.webp").exists()
+    assert not (sample_build / "web" / "_MID" / "x_a.webp").exists()
     # la meta de miniaturas se persiste en web/data/thumbs_meta.json
     meta = json.loads((data / "thumbs_meta.json").read_text(encoding="utf-8"))
     assert isinstance(meta, dict)
     for clave, sig in meta.items():
         assert re.fullmatch(r"\d+-\d+", sig)
+    assert any(k.startswith("_MID/") for k in meta)
 
 
 def test_build_force_reintenta_todas_las_miniaturas(sample_build):
@@ -437,4 +488,6 @@ def test_build_force_reintenta_todas_las_miniaturas(sample_build):
     # 5 fotos de billetes + 1 de la carpeta huérfana = 6 trabajos, haga
     # magick lo que haga (generados o con error, pero nunca omitidos)
     assert res["thumbs_generadas"] + res["thumbs_errores"] == 6
+    # las medias cubren solo las 5 fotos de billetes con JSON
+    assert res["mid_generadas"] + res["mid_errores"] == 5
 
