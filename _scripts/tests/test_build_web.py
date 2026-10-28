@@ -17,6 +17,8 @@ import pytest
 
 from _scripts import build_web, util
 
+MAGICK = shutil.which("magick")   # el runner de CI no tiene ImageMagick
+
 SAMPLE = Path(__file__).resolve().parents[2] / "tests" / "sample_data"
 SAMPLE_WEB = SAMPLE / "web"
 SAMPLE_FLAGS = SAMPLE_WEB / "_flags_svg"
@@ -335,6 +337,7 @@ def test_make_thumb_falla_sin_derrumbar(tmp_path):
     assert info.startswith("out.jpg")
 
 
+@pytest.mark.skipif(not MAGICK, reason="ImageMagick no disponible")
 def test_make_thumb_media_produce_webp(tmp_path):
     """Job de capa media: destino webp válido y sin agrandar la fuente."""
     src = tmp_path / "src.jpg"
@@ -472,17 +475,22 @@ def test_build_incremental_no_repite_thumbs(sample_build):
     # segunda pasada: nada pendiente -> no se regenera ningún derivado
     assert res2["thumbs_generadas"] == 0
     assert res2["mid_generadas"] == 0
-    # primera pasada generó la capa media de las 5 fotos catalogadas
-    assert res1["mid_generadas"] == 5
-    assert (sample_build / "web" / "_MID" / "cl-p125_A.webp").exists()
-    assert (sample_build / "web" / "_MID" / "cl-p125_F.webp").exists()
+    if MAGICK:
+        # primera pasada generó la capa media de las 5 fotos catalogadas
+        assert res1["mid_generadas"] == 5
+        assert (sample_build / "web" / "_MID" / "cl-p125_A.webp").exists()
+        assert (sample_build / "web" / "_MID" / "cl-p125_F.webp").exists()
+    else:
+        # sin magick: los jobs corren y fallan, nunca se omiten
+        assert res1["mid_errores"] == 5
     assert not (sample_build / "web" / "_MID" / "x_a.webp").exists()
     # la meta de miniaturas se persiste en web/data/thumbs_meta.json
     meta = json.loads((data / "thumbs_meta.json").read_text(encoding="utf-8"))
     assert isinstance(meta, dict)
     for clave, sig in meta.items():
         assert re.fullmatch(r"\d+-\d+", sig)
-    assert any(k.startswith("_MID/") for k in meta)
+    if MAGICK:
+        assert any(k.startswith("_MID/") for k in meta)
 
 
 def test_build_force_reintenta_todas_las_miniaturas(sample_build):
