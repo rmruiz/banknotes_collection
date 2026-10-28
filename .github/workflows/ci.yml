@@ -46,11 +46,13 @@ jobs:
           node-version: 20
 
       # Runner nativo de Node, cero dependencias (decisión T1: KISS).
-      # Los tests viven en web/tests/*.test.js (desde T6); el glob evita
-      # dependencias de la versión de Node para descubrir directorios.
-      # --experimental-detect-module: los .js con sintaxis ESM son CJS por
-      # defecto en Node 20 (package.json está gitignoreado, no hay
-      # "type":"module" en el runner); default recién en Node 22. Sin el
-      # flag, TODA la suite revienta con SyntaxError (10 runs fallados).
+      # Los tests viven en web/tests/*.test.js (desde T6).
+      # Forma del comando, válida en Node >=20 (lo que instala setup-node):
+      #  - argumento DIRECTORIO (no glob): el soporte de globs en --test es
+      #    de Node 21+; en 20 el patrón entre comillas se toma como ruta
+      #    literal inexistente (causa de 10 runs fallados).
+      #  - --experimental-detect-module: los .js con sintaxis ESM son CJS
+      #    por defecto en Node 20 (package.json está gitignoreado, no hay
+      #    "type":"module" en el runner); default recién en Node 22.
       - name: node --test
-        run: node --experimental-detect-module --test "web/tests/*.test.js"
+        run: node --experimental-detect-module --test web/tests
